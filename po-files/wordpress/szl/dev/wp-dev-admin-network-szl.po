@@ -1,0 +1,1369 @@
+# Translation of WordPress - 4.9.x - Development - Administration - Network Admin in Silesian
+# This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-09 07:28:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && n%100==20 ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: szl_PL\n"
+"Project-Id-Version: WordPress - 4.9.x - Development - Administration - Network Admin\n"
+
+#. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
+#: wp-admin/includes/network.php:107
+msgid "The constant %s cannot be defined when creating a network."
+msgstr ""
+
+#: wp-admin/network/sites.php:173
+msgid "You are about to delete the following sites:"
+msgstr ""
+
+#: wp-admin/network/site-users.php:237
+msgid "User could not be added to this site."
+msgstr ""
+
+#: wp-admin/network/site-new.php:252
+msgid "The username and a link to set the password will be mailed to this email address."
+msgstr ""
+
+#. translators: %s: new network admin email
+#: wp-admin/network/settings.php:145
+msgid "There is a pending change of the network admin email to %s."
+msgstr ""
+
+#: wp-admin/includes/network.php:294
+msgid "Sub-domain Installation"
+msgstr ""
+
+#: wp-admin/includes/network.php:269 wp-admin/includes/network.php:284
+msgid "Sub-directory Installation"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:636
+msgid "Active Child Theme"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:631
+msgid "Active Theme"
+msgstr ""
+
+#: wp-admin/network/site-info.php:180
+msgid "Attributes"
+msgstr ""
+
+#. translators: %s: File size in kilobytes
+#: wp-admin/network/settings.php:350
+msgid "%s KB"
+msgstr ""
+
+#. translators: %s: Default network name
+#: wp-admin/includes/network.php:160
+msgid "%s Sites"
+msgstr ""
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:454
+msgctxt "theme"
+msgid "Delete %s"
+msgstr "Wychrōń %s"
+
+#: wp-admin/network/themes.php:90
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "Niy mŏsz prziwolyniŏ na kasowanie tymatōw z tego placu."
+
+#: wp-admin/network/themes.php:14
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "Niy mŏsz przizwolyniŏ na reskyrowanie tymatami ôd necu."
+
+#: wp-admin/network/sites.php:288
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "Niy mŏsz przizwolyniŏ na wychrōniynie tego placu."
+
+#: wp-admin/network/site-themes.php:14
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "Niy mŏsz przizwolyniŏ na reskyrowanie tymatami w tym placu."
+
+#: wp-admin/network/site-new.php:17
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "Niy mŏsz prziwolyniŏ na przidŏwanie placōw do necu."
+
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "Niy mŏsz przizwolyniŏ na edycyjõ tego placu."
+
+#: wp-admin/network/settings.php:308
+msgid "The email address of the first comment author on a new site."
+msgstr "Adresa email autōra ôd piyrszygo kōmyntŏrza na nowym placu."
+
+#: wp-admin/network/settings.php:304
+msgid "First Comment Email"
+msgstr "Adresa email ôd piyrszygo kōmyntŏrza"
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:436
+msgid "That&#8217;s all, stop editing! Happy blogging."
+msgstr "To wszyjsko, niy edytuj dalij! Szczyńśliwygo blogowaniŏ."
+
+#. translators: 1: wp-config.php 2: location of wp-config file, 3: translated
+#. version of "That's all, stop editing! Happy blogging."
+#: wp-admin/includes/network.php:428
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "Przidej to do zbioru %1$s we %2$s <strong>nad</strong> wiyrszym %3$s:"
+
+#. translators: 1: theme name, 2: theme author
+#: wp-admin/network/themes.php:138
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%1$s ôd %2$s"
+
+#. translators: %s: edit page url
+#: wp-admin/network/user-new.php:80
+msgid "User added. <a href=\"%s\">Edit user</a>"
+msgstr "Używŏcz bōł przidany <a href=\"%s\">Edytuj używŏcza</a>"
+
+#: wp-admin/network/site-new.php:208
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "Przizwolōne sōm małe litery (a-z) [bez ślōnskich cechōw diakrytycznych], numery i myślnik."
+
+#: wp-admin/network/site-new.php:158
+msgctxt "email \"From\" field"
+msgid "Site Admin"
+msgstr "Admin placu"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:479
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "Tych niyôbyczajnych kluczy lygalizacyje tyż niy ma we twojim zbiorze %s."
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:473
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "Tego niyôbyczajnygo klucza lygalizacyje tyż niy ma we twojim zbiorze %s."
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:417
+msgid "We recommend you back up your existing %s file."
+msgstr "Skwŏlōmy wytworzynie kopije ibrycznyj zbioru %s."
+
+#. translators: 1: wp-config.php 2: .htaccess
+#. translators: 1: wp-config.php 2: web.config
+#: wp-admin/includes/network.php:401 wp-admin/includes/network.php:409
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "Doradōmy zrychtowanie kopiji ibrycznych zbiorōw: %1$s i %2$s."
+
+#. translators: 1: localhost 2: localhost.localdomain
+#: wp-admin/includes/network.php:273
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "Pōniywŏż używŏsz %1$s, place w twojim necu placōw WordPressa muszōm używać podfolderōw. Rozwŏż używanie %2$s, jeźli chcesz używać poddōmyn."
+
+#. translators: %s: host name
+#: wp-admin/includes/network.php:257 wp-admin/includes/network.php:306
+msgid "The internet address of your network will be %s."
+msgstr "Internetowōm adresōm ôd twojigo necu placōw bydzie %s."
+
+#. translators: 1: site url 2: host name 3. www
+#: wp-admin/includes/network.php:246
+msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "Doradzōmy pōmiyniynie adresy placu na %1$s przed zapuszczyniym fōngowaniŏ necu placōw. Durch możebne bydzie nawiydzynie twojigo placu bez prefiks %3$s w skuplowaniu z adresōm, jak %2$s, ale jake ino ôdkŏzy niy bydōm miały prefiksu %3$s."
+
+#: wp-admin/includes/network.php:212
+msgid "You cannot change this later."
+msgstr "Tego sztelōnku niy idzie niyskorzij pōmiynić."
+
+#: wp-admin/includes/network.php:211
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "Ôbier, eli place w necu placōw WordPressa winny używać podōmyn abo podkatalogōw."
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite
+#: wp-admin/includes/network.php:200
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "Jeźli %1$s je zastawiōny, napytej administratōra, coby go zapuściōł, abo tyż ôbznajōm sie z  <a href=\"%2$s\">dokumyntacyjōm Apache'a</a> lebo <a href=\"%3$s\">inkszymi źrōdłami</a>, coby przedziã pōmiynić tyn sztelōnek."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:191
+msgid "It looks like the Apache %s module is not installed."
+msgstr "Wyglōndŏ na to, co moduł %s Apache'a niyma zainstalowany."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:184
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "Wejzdrzij, jeźli moduł %s Apache'a je zainstalowany, pōniywŏż bydzie ôn używany na kōńcu procesu instalacyje."
+
+#. translators: %s: port number
+#: wp-admin/includes/network.php:134
+msgid "You cannot use port numbers such as %s."
+msgstr "Niy idzie używać portōw takich jak %s."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:171
+msgctxt "user"
+msgid "Registered"
+msgstr "Datōm rejestracyje"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:141
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "Superadministratōr <span class=\"count\">(%s)</span>"
+msgstr[1] "Superadministratōry <span class=\"count\">(%s)</span>"
+msgstr[2] "Superadministratōry <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:114
+msgctxt "user"
+msgid "Not Spam"
+msgstr "To niyma spam"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:113
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr "Nacechuj za spam"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:550
+msgid "Visit Theme Site"
+msgstr "Nawiydź plac ôd tymatu"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:545
+msgid "Visit %s homepage"
+msgstr "Nawiydź bazowõ zajtã %s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:518
+msgid "Broken Theme:"
+msgstr "Popszniōny tymat:"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:434
+msgid "Network Disable %s"
+msgstr "Zastŏw %s w necu placōw"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:431
+msgid "Disable %s"
+msgstr "Zastŏw %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:412
+msgid "Network Enable %s"
+msgstr "Zapuść %s w necu placōw"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:409
+msgid "Enable %s"
+msgstr "Zapuść %s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:332
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:440
+msgid "Network Disable"
+msgstr "Zastŏw w necu placōw"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:332
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:440
+msgid "Disable"
+msgstr "Wyłōncz"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:330
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:418
+msgid "Enable"
+msgstr "Włōncz"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:299
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "Popszniōne <span class=\"count\">(%s)</span>"
+msgstr[1] "Popszniōne <span class=\"count\">(%s)</span>"
+msgstr[2] "Popszniōne <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:293
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Zastawiōne <span class=\"count\">(%s)</span>"
+msgstr[1] "Zastawiōne <span class=\"count\">(%s)</span>"
+msgstr[2] "Zastawiōne <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:290
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Zapuszczōne <span class=\"count\">(%s)</span>"
+msgstr[1] "Zapuszczōne <span class=\"count\">(%s)</span>"
+msgstr[2] "Zapuszczōne <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:287
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Wszyjske <span class=\"count\">(%s)</span>"
+msgstr[1] "Wszyjske <span class=\"count\">(%s)</span>"
+msgstr[2] "Wszyjske <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:245
+msgid "Theme"
+msgstr "Tymat"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:234
+msgid "You do not appear to have any themes available at this time."
+msgstr "Wyglōndŏ na to, co terŏz niy ma żŏdnych zainstalowanych tymatōw."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:232
+msgid "No themes found."
+msgstr "Żŏdyn tymat niy bōł znodniynty."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:525
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "Zarchiwizuj"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:523
+msgid "Unarchive"
+msgstr "Prziwrōć z archiwōm"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:358
+msgid "Never"
+msgstr "Nikej"
+
+#. translators: 1: site name, 2: site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:331
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:228
+#: wp-admin/network/site-info.php:163
+msgctxt "site"
+msgid "Registered"
+msgstr "Datōm rejestracyje"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:227
+#: wp-admin/network/site-info.php:167
+msgid "Last Updated"
+msgstr "Ôstatnio ôdnŏwiane"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:201
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:529
+msgctxt "site"
+msgid "Not Spam"
+msgstr "To niyma spam"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:200
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "Nacechuj za spam"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:189
+msgid "No sites found."
+msgstr "Żŏdyn plac niy bōł znodniynty."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/network/site-info.php:177
+msgid "Mature"
+msgstr "Dlŏ majoryntnych"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:175
+msgid "Deleted"
+msgstr "Wyciepniynte"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:40
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:531
+#: wp-admin/network/site-info.php:174
+msgctxt "site"
+msgid "Spam"
+msgstr "Spam"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:39
+#: wp-admin/network/site-info.php:173
+msgid "Archived"
+msgstr "Zarchiwizowanŏ"
+
+#: wp-admin/network/site-users.php:346 wp-admin/network/user-new.php:117
+msgid "A password reset link will be sent to the user via email."
+msgstr "Ôdkŏz, co resetuje hasło bydzie posłany do używŏcza emailym."
+
+#. translators: 1: NOBLOGREDIRECT 2: wp-config.php
+#: wp-admin/network/settings.php:178
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Jeźli rejestracyjŏ je zastawiōnŏ, nasztaluj %1$s we zbiorze %2$s na adresã URL, do keryj majōm być kludzyni nawiydzajōncy, kej nawiydzōm plac, kerego niy ma."
+
+#. translators: 1: WP_ALLOW_MULTISITE 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "Musisz sdefiniować ôbstōnõ %1$s jako true we swojim zbiorze %2$s, coby przizwolić na zrychtowane necu placōw."
+
+#: wp-admin/network/themes.php:235
+msgid "Themes list navigation"
+msgstr "Nawigacyjŏ wykŏzu tymatōw"
+
+#: wp-admin/network/sites.php:48
+msgid "Sites list"
+msgstr "Wykŏz placōw"
+
+#: wp-admin/network/sites.php:47
+msgid "Sites list navigation"
+msgstr "Nawigacyjŏ wykŏzu placōw"
+
+#: wp-admin/network/site-users.php:25
+msgid "Site users list"
+msgstr "Wykŏz używŏczōw placu"
+
+#: wp-admin/network/site-users.php:24
+msgid "Site users list navigation"
+msgstr "Nawigacyjŏ wykŏzu używŏczōw placu"
+
+#: wp-admin/network/site-users.php:23
+msgid "Filter site users list"
+msgstr "Filtrowanie wykŏzy tymatōw placu"
+
+#: wp-admin/network/site-themes.php:22
+msgid "Site themes list"
+msgstr "Wykŏz motywōw placu"
+
+#: wp-admin/network/site-themes.php:21
+msgid "Site themes list navigation"
+msgstr "Nawigacyjŏ wykŏzu motywōw placu"
+
+#: wp-admin/network/site-themes.php:20
+msgid "Filter site themes list"
+msgstr "Filtrowanie wykŏzy tymatōw placu"
+
+#: wp-admin/network/site-new.php:113
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "Wkludzōnŏ cesta lebo dōmyna koliduje z aktualnym mianym ôd używŏcza."
+
+#: wp-admin/network/sites.php:75
+msgid "The requested action is not valid."
+msgstr "Fołdrowane fōngowanie je niynŏleżne."
+
+#: wp-admin/network/sites.php:67
+msgid "You are about to mark the site %s as not mature."
+msgstr "Zarŏz cofniesz ôznŏczynie placu %s jako placu dlŏ majoryntnych."
+
+#: wp-admin/network/sites.php:66
+msgid "You are about to mark the site %s as mature."
+msgstr "Zarŏz ôznŏczysz plac %s jako plac dlŏ majoryntnych."
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to delete the site %s."
+msgstr "Zarŏz wychrōnisz plac %s."
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to mark the site %s as spam."
+msgstr "Zarŏz nacechujesz plac %s jako spam."
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to unspam the site %s."
+msgstr "Zarŏz cofniesz ôznŏczynie placu %s jako spam."
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to archive the site %s."
+msgstr "Zarŏz zarchiwizujesz plac %s."
+
+#: wp-admin/network/sites.php:61
+msgid "You are about to unarchive the site %s."
+msgstr "Zarŏz prziwrōcisz plac %s z archiwōm."
+
+#: wp-admin/network/sites.php:60
+msgid "You are about to deactivate the site %s."
+msgstr "Zarŏz zdezaktywujesz plac %s."
+
+#: wp-admin/network/sites.php:59
+msgid "You are about to activate the site %s."
+msgstr "Zarŏz zapuścisz plac %s."
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:49 wp-admin/network/site-users.php:42
+msgid "The requested site does not exist."
+msgstr "Takigo placu niy ma."
+
+#: wp-admin/network/upgrade.php:29
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\">Documentation on Upgrade Network</a>"
+msgstr ""
+
+#: wp-admin/network/user-new.php:26 wp-admin/network/users.php:179
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
+msgstr ""
+
+#: wp-admin/network.php:67 wp-admin/network.php:78
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\">Documentation on the Network Screen</a>"
+msgstr ""
+
+#: wp-admin/network/index.php:50
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\">Documentation on the Network Admin</a>"
+msgstr ""
+
+#: wp-admin/network.php:66 wp-admin/network.php:77
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\">Documentation on Creating a Network</a>"
+msgstr ""
+
+#: wp-admin/network/themes.php:229
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
+msgstr ""
+
+#: wp-admin/network/settings.php:60
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Documentation on Network Settings</a>"
+msgstr ""
+
+#. translators: 1: site url, 2: server error message
+#: wp-admin/network/upgrade.php:88
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "Pozōr! Trefiyła sie niyprzileżytość z aktualizacyjōm %1$s. Twōj serwer snŏdź niy może skuplować sie ze placym cweku. Feler: %2$s"
+
+#: wp-admin/network/themes.php:131
+msgid "You are about to remove the following themes:"
+msgstr "Zarŏz wychrōnisz te tymaty:"
+
+#: wp-admin/network/themes.php:130
+msgid "These themes may be active on other sites in the network."
+msgstr "Te tymaty mogōm być używane w inkszych placach necu placōw."
+
+#: wp-admin/network/themes.php:146
+msgid "Are you sure you wish to delete this theme?"
+msgstr "Na isto chcesz wychrōnić tyn tymat?"
+
+#: wp-admin/network/site-themes.php:183 wp-admin/network/themes.php:279
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s tymat bōł zastawiōny."
+msgstr[1] "%s tymaty były zastawiōne."
+msgstr[2] "%s tymatōw było zastawiōnych."
+
+#: wp-admin/network/site-themes.php:175 wp-admin/network/themes.php:271
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s tymat bōł zapuszczōny."
+msgstr[1] "%s tymaty były zapuszczōne."
+msgstr[2] "%s tymatōw było zapuszczōnych."
+
+#: wp-admin/network/themes.php:287
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s tymat bōł wychrōniōny."
+msgstr[1] "%s tymaty były wychrōniōne."
+msgstr[2] "%s tymatōw było wychrōniōnych."
+
+#: wp-admin/network/themes.php:163
+msgid "Yes, delete these themes"
+msgstr "Ja, wychrōń te tymaty"
+
+#: wp-admin/network/themes.php:129
+msgid "Delete Themes"
+msgstr "Wychrōnianie motywōw"
+
+#: wp-admin/network/settings.php:170
+msgid "New registrations settings"
+msgstr "Sztelōnki nowyj rejestracyje"
+
+#: wp-admin/network/settings.php:355
+msgid "Size in kilobytes"
+msgstr "Srogość w kilobajtach"
+
+#: wp-admin/network/settings.php:339
+msgid "Allowed file types. Separate types by spaces."
+msgstr "Przizwolōne zorty zbiorōw. Ôddziel zorty spacyjōm."
+
+#: wp-admin/network/site-info.php:183
+msgid "Set site attributes"
+msgstr "Nasztaluj atrybuty zerwisu"
+
+#: wp-admin/network/settings.php:420
+msgid "Enable menus"
+msgstr "Aktywuj myni"
+
+#. translators: 1: a filename like .htaccess. 2: a file path.
+#: wp-admin/includes/network.php:548 wp-admin/includes/network.php:588
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Przidej to do zbioru %1$s we %2$s, <strong>podmiyń</strong> inksze prawidła WordPressa:"
+
+#: wp-admin/network/sites.php:100 wp-admin/network/sites.php:168
+msgid "Confirm your action"
+msgstr "Przituplikuj swoje zastrojynie"
+
+#: wp-admin/network/users.php:170
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Zastŏw kursōr nad wiyrszym z mianym dowolnego używŏcza, coby pokŏzać ôdkŏzy, co kludzōm do ekranōw edycyje. Ôdkŏz „Edytuj” pokŏzowany z lewyj strōny przeniysie Cie do ekranu edycyje profilu danygo używŏcza, a ôdkŏz „Edytuj” z prawyj strōny, przi mianie placu, przeniysie Cie do ekranu edycyje danygo placu."
+
+#: wp-admin/network/index.php:40
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Coby poszukać placu, <strong>wkludź cestã do nij lebo ôd nij dōmynã</strong>."
+
+#: wp-admin/network/index.php:39
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Coby poszukać używŏcza, <strong>wkludź adresã email lebo miano ôd tego używŏcza</strong>. Możesz użyć jokera, coby zeszukać używŏczōw ô mianach, co zawiyrajōm jakiś fragmynt, bp. kowals&#42;."
+
+#: wp-admin/network/index.php:37
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Coby przidać nowy plac, <strong>kliknij &bdquo;Przidej nowy plac&rdquo;</strong>."
+
+#: wp-admin/network/index.php:36
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Coby przidać nowygo używŏcza, <strong>kliknij &bdquo;Przidej nowygo używŏcza&rdquo;</strong>."
+
+#: wp-admin/network/index.php:44
+msgid "Quick Tasks"
+msgstr "Gibke auftragi"
+
+#: wp-admin/network/index.php:38
+msgid "To search for a user or site, use the search boxes."
+msgstr "Użyj polŏ zeszukowaniŏ ku cylu znodniyńciŏ używŏcza lebo placu."
+
+#: wp-admin/network/index.php:35
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Widżet &#8222;Gibki dostymp&#8221; wyświytlŏ informacyje ô wielości kōnt używŏczōw i placōw w tym necu."
+
+#: wp-admin/network/index.php:27
+msgid "Modify global network settings"
+msgstr "Pōmiyń globalne sztelōnki necu placōw"
+
+#: wp-admin/network/index.php:26
+msgid "Update your network"
+msgstr "Aktualizuj nec placōw"
+
+#: wp-admin/network/index.php:25
+msgid "Install and activate themes or plugins"
+msgstr "Insztaluj i zapuszczej motywy i przidŏwki"
+
+#: wp-admin/network/index.php:24
+msgid "Add and manage sites or users"
+msgstr "Przidej i reskyruj placami aji używŏczami"
+
+#: wp-admin/network/index.php:23
+msgid "From here you can:"
+msgstr "Stōnd możesz:"
+
+#: wp-admin/network/index.php:22
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Witej we Administracyji Necym Placōw. Je żeś w placu z kerygo możesz reskyrować cołkim swojim necym placōw."
+
+#: wp-admin/network/upgrade.php:127
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress bōł zaktualizowany! Zaczym jednakōż skōńczysz, trza zaktualizować place w necu."
+
+#: wp-admin/network/upgrade.php:22
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Ino używej tyj fōnkcyje po aktualizacyji do nowyj wersyje WordPressa bez Aktualizacyje/Dostympne Aktualizacyje (we myni nawigacyje Administracyjõ Necym Placōw abo we Lajście nŏczyń). Klikniyńcie \"Aktualizuj Nec Placōw\" strartnie przestōmpianie po placach - piyńć na rŏz - i wejzdrzi, jeźli jakeś aktualizacyje dazy datōw były wkludzōne."
+
+#: wp-admin/network/menu.php:34 wp-admin/network/upgrade.php:15
+#: wp-admin/network/upgrade.php:40 wp-admin/network/upgrade.php:131
+msgid "Upgrade Network"
+msgstr "Aktualizuj Nec Placōw"
+
+#. translators: 1: user login, 2: site url, 3: site name/title
+#: wp-admin/network/site-new.php:148
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"Nowy plac zrychtowany bez: %1$s\n"
+"\n"
+"Adresa: %2$s\n"
+"Miano: %3$s"
+
+#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:554
+#: wp-admin/includes/network.php:594
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Nece placōw oparte ô podkatalogi mogōm niy być blank kōmpatybilne z włŏsnymi katalogami wp-content."
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Przidej te wiyrsze do zbioru wp-config.php (zarŏz przed <code>/*...stop editing...*/</code>) i do zbioru <code>.htaccess</code> (pōmiyń tym wczaśniyjsze prawidła WordPressa)."
+
+#: wp-admin/network/settings.php:55
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Superadministratōry niy mogōm już być przidŏwane na tym ekranie &mdash; terŏz, coby to zrobić, trza przejść do wykŏzu aktualnych kōnt (Administracyjŏ necym &rarr; Używŏcze) i kliknōńć miano ôd używŏcza lebo ôdkŏz &#8222;Edytuj&#8221; pod nim. Sprŏwi to przechōd na ekran edycyje kōnta, na kerym możebne je nadanie tych przizwŏlyń."
+
+#: wp-admin/network/menu.php:29
+msgid "Updates"
+msgstr "Aktualizacyje"
+
+#: wp-admin/network/site-new.php:24
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "Tyn ekran je do przidŏwaniŏ nowych placōw do necu bez superadministratōrōw. Niy majōm na niygo wpływu sztelōnki możebności rejestracyje."
+
+#: wp-admin/network/sites.php:31
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Ôdkŏz &#8222;Edytuj&#8221;, co przenosi na ôsobny ekran edycyje placu."
+
+#: wp-admin/network/themes.php:224
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Tymaty mogōm tyż być udostympniane jyny ôbranym placōm. Dokōnuje sie tego na szkarcie &#8222;Tymaty&#8221; ekranu edycyje placu, kery dostympny je bez ôdkŏz &#8222;Edytuj&#8221; na ekranie reskyrowaniŏ placym (co mŏ szkartã Tymaty). Ino administratōry necu mogōm insztalować i edytować motywy."
+
+#: wp-admin/network/sites.php:34
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Ôdkŏz &#8222;Wychrōń&#8221;, co wychrōniŏ plac doimyntnie po przituplikowaniu chyńci sprŏwiyniŏ tyj ôperacyje."
+
+#: wp-admin/network/sites.php:37
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "Klikniyńcie nŏgōwka kolōny sprŏwi posortowanie tabule."
+
+#: wp-admin/network/menu.php:53 wp-admin/network/themes.php:253
+msgctxt "theme"
+msgid "Add New"
+msgstr "Przidej nowe"
+
+#: wp-admin/network/sites.php:28
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Klikniyńcie knefla &#8222;Przidej nowõ&#8221; przeniysie Cie do ekranu przidŏwaniŏ nowygo placu. Możesz zeszukować plac podle miana, idyntyfikatōra lebo adresy IP. Szkarta &#8222;Ôpcyje ekranu&#8221; zwŏlŏ na ôbiōr wielości placōw pokŏzowanych na jednyj zajcie."
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:175
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Plac była zrychtowany. <a href=\"%1$s\">Nawiydź ôd niygo blot</a> lebo <a href=\"%2$s\">edytuj ôd niygo sztelōnki</a>"
+
+#: wp-admin/network/menu.php:40
+msgid "All Sites"
+msgstr "Wszyjske place"
+
+#: wp-admin/network/menu.php:48
+msgid "Themes %s"
+msgstr "Tymaty %s"
+
+#: wp-admin/network/menu.php:52
+msgid "Installed Themes"
+msgstr "Zainstalowane tymaty"
+
+#: wp-admin/network/site-settings.php:66
+msgid "Site options updated."
+msgstr "Sztelōnki placu były zaktualizowane."
+
+#: wp-admin/network/settings.php:366
+msgid "Language Settings"
+msgstr "Sztelōnki gŏdki"
+
+#: wp-admin/network/settings.php:202
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
+msgstr ""
+
+#: wp-admin/network/sites.php:32
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Ôdkŏz &#8222;Blot&#8221;, co przenosi do blotu ôbranygo placu."
+
+#: wp-admin/network/themes.php:171
+msgid "No, return me to the theme list"
+msgstr "Niy, wrōć do wykŏzu tymtōw"
+
+#. translators: %s: site name
+#: wp-admin/network/site-info.php:117 wp-admin/network/site-settings.php:70
+#: wp-admin/network/site-themes.php:153 wp-admin/network/site-users.php:196
+msgid "Edit Site: %s"
+msgstr "Edytuj plac &#8222;%s&#8221;"
+
+#: wp-admin/network/site-themes.php:187 wp-admin/network/themes.php:291
+msgid "No theme selected."
+msgstr "Żŏdyn tymat niy bōł ôbrany."
+
+#: wp-admin/network/site-themes.php:173 wp-admin/network/themes.php:269
+msgid "Theme enabled."
+msgstr "Tymat bōł zapuszczōny."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:22
+#: wp-admin/network/site-themes.php:43 wp-admin/network/site-users.php:38
+msgid "Invalid site ID."
+msgstr "Niynŏleżny idyntyfikatōr placu."
+
+#: wp-admin/network/site-themes.php:181 wp-admin/network/themes.php:277
+msgid "Theme disabled."
+msgstr "Tymat bōł zastawiōny."
+
+#: wp-admin/network/user-new.php:20
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Użycie fōnkcyje &#8222;Przidej używŏcza&#8221; sprŏwi zrychtowanie nowygo kōnta w necu placōw i posłanie na podanõ adresaã email wiadōmości z mianym używŏcza i hasłym."
+
+#: wp-admin/network/site-themes.php:190
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Motywy dostympne do użyciŏ w cołkim necu placōw niy sōm pokŏzowane na tym ekranie."
+
+#: wp-admin/network/menu.php:67 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "Sztelōnki necu"
+
+#: wp-admin/network/themes.php:125
+msgid "Delete Theme"
+msgstr "Wychrōń tymat"
+
+#: wp-admin/network/themes.php:126
+msgid "This theme may be active on other sites in the network."
+msgstr "Tyn tymat może być używany na inkszych placach necu."
+
+#: wp-admin/network/themes.php:127
+msgid "You are about to remove the following theme:"
+msgstr "Zarŏz wychrōnisz tyn tymat:"
+
+#: wp-admin/network/themes.php:161
+msgid "Yes, delete this theme"
+msgstr "Ja, wychrōń tyn tymat"
+
+#: wp-admin/network/themes.php:148
+msgid "Are you sure you wish to delete these themes?"
+msgstr "Na isto chcesz wychrōnić te tymaty?"
+
+#: wp-admin/network/site-new.php:181 wp-admin/network/site-new.php:191
+msgid "Add New Site"
+msgstr "Przidej nowy plac"
+
+#: wp-admin/network/themes.php:293
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Niy idzie wychrōnić tymatu, kery je używany na bazowym placu."
+
+#: wp-admin/network/site-users.php:240
+msgid "Enter the username of an existing user."
+msgstr "Wkludź miano ôd zaregistrowanygo używŏcza."
+
+#: wp-admin/network/site-info.php:112
+msgid "Site info updated."
+msgstr "Informacyje ô placu były zaktualizowane."
+
+#: wp-admin/network/site-users.php:234
+msgid "User is already a member of this site."
+msgstr "Tyn używŏcz bōł już przidany do tego placu."
+
+#: wp-admin/network/sites.php:149
+msgid "Sorry, you are not allowed to delete the site %s."
+msgstr ""
+
+#: wp-admin/network/user-new.php:49
+msgid "Cannot add user."
+msgstr "Niy idzie przidać używŏcza."
+
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:129
+msgid "Add User"
+msgstr "Przidej używŏcza"
+
+#: wp-admin/network/site-users.php:255
+msgid "User created."
+msgstr "Kōnto było zrychtowane."
+
+#: wp-admin/network/site-users.php:252
+msgid "Select a user to remove."
+msgstr "Ôbier używŏcza, ôd kerego kōnto chcesz wychrōnić."
+
+#: wp-admin/network/site-users.php:246
+msgid "Select a user to change role."
+msgstr "Ôbier używŏcza, ôd kerego rolã chcesz pōmiynić."
+
+#: wp-admin/network/site-users.php:258
+msgid "Enter the username and email."
+msgstr "Wkludź miano ôd używŏcza aji adresa email."
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Fōnkcyjŏ necu placōw winna być zapuszczōnŏ po przidaniu tego kodu do zbioru i ôdświyżyniu tyj zajty. Tyn ekran, ôd terŏz widzialny jako elymynt podmyni pozycyje „Administracyjŏ necym placōw”, bydzie pochrōnioł przidany kod. Możesz szaltrować sie miyndzy administracyjōm necym a placym bez elymynt „Administracyjŏ necym placōw” lebo miana danygo placu dostympnygo w myni „Moje place” lajsty nŏczyń."
+
+#: wp-admin/includes/network.php:149
+msgid "ERROR: The network could not be created."
+msgstr "FELER: Nec placōw niy mōg być zrychtowany"
+
+#: wp-admin/includes/network.php:225
+msgid "Sub-directories"
+msgstr "Podkatalogi"
+
+#: wp-admin/network.php:71
+msgid "Network"
+msgstr "Nec"
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:220
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "bp. <code>plac1.%1$s</code> i <code>plac2.%1$s</code>"
+
+#: wp-admin/includes/network.php:210
+msgid "Addresses of Sites in your Network"
+msgstr "Adresy ôd placōw w twojim necu"
+
+#: wp-admin/includes/network.php:117 wp-admin/includes/network.php:189
+#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:279
+#: wp-admin/includes/network.php:289 wp-admin/includes/network.php:382
+#: wp-admin/includes/network.php:554 wp-admin/includes/network.php:594
+msgid "Warning:"
+msgstr "Pozōr:"
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Ekran tworzyniŏ necu placōw niyma przeznŏczōny dlŏ necōw podpartych na WordPressie MU."
+
+#: wp-admin/includes/network.php:137
+msgid "Return to Dashboard"
+msgstr "Wrōć do Blotu"
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "Zrychtuj nec placōw podparty na WordPressie"
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Tyn ekran zwŏlŏ na sztelōnek necu placōw za taki, co używŏ poddōmyn (<code>site1.example.com</code>) abo podkatalogōw (<code>example.com/site1</code>). Użycie poddōmynowyj kōnfiguracyje fołdruje zapuszczyniŏ bedynōngu poddōmyn z jokrym we kōnfiguracyji Apache i DNS (jeźli Twōj hosting na to przizwŏlŏ)."
+
+#. translators: %s: Plugins screen URL
+#: wp-admin/includes/network.php:119
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "Zastŏw <a href=\"%s\">przidŏwki</a> przed zapuszczyniym tyj fōnkcyje necu placōw."
+
+#: wp-admin/includes/network.php:122
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Kej nec placōw bydzie zrychtowany, możebne bydzie zapuszczynie przidŏwkōw nazŏd."
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "Ôbiōr kōnfiguracyje, co używŏ podkatalogōw je ôbszperowany, jeźli ta instalacyjŏ WordPressa je starszŏ aniżeli miesiōnc, skiż niyprzileżytości z bezpostrzedniymi ôdkŏzami do elymyntōw bazowygo placu, w kerychje tekst „/blog/”. Niyprzileżytość ta bydzie sprŏwiōnŏ w jednyj z prziszłych wersyji WordPressa."
+
+#: wp-admin/includes/network.php:169
+msgid "Welcome to the Network installation process!"
+msgstr "Witōmy we instalatōrze necu placōw!"
+
+#: wp-admin/includes/network.php:265
+msgid "Network Details"
+msgstr "Ôsobliwości necu placōw"
+
+#: wp-admin/includes/network.php:603
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Po sprŏwiyniu tyj czynności nec placōw bydzie zapuszczōny i skōnfigurowany. Zdatne bydzie wlogowanie sie zaś."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "Na dalszym ekranie sztartowaniŏ necu placōw pokŏzane bydōm indywidualnie wygynerowane dlŏ Twojij instalacyje wiyrsze kodu, kere przinŏleży wrazić do zbiorōw wp-config.php aji .htaccess. Wejzdrzij, jeźli w sztelōnkach Twojigo klijynta FTP zapuszczōne je wyświytlanie zbiorōw ô mianach, napoczynajōm sie ôd kropki, coby możebne było ôdnŏdniyńcie zbioru .htaccess. Zdatne może być zrychtowanie tego zbioru, jeźli jeszcze go niy ma. Przed wkludzyniym jakich ino pōmian, zrychtuj kopije ibryczne ôbōch spōmnianych zbiorōw."
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your installation. Fill out the network details, and click Install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr ""
+
+#: wp-admin/includes/network.php:484
+msgid "To make your installation more secure, you should also add:"
+msgstr "Coby lepij bezpieczyć instalacyjõ, przidej tyż:"
+
+#: wp-admin/includes/network.php:217
+msgid "Sub-domains"
+msgstr "Poddōmyny"
+
+#: wp-admin/includes/network.php:213
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "Jeźli chcesz używać Fōnkcyje serwera wirtualnygo (poddōmyn), zdatne bydzie posiadanie uniwerzalnygo rekordu wildcard DNS."
+
+#: wp-admin/includes/network.php:131
+msgid "You cannot install a network of sites with your server address."
+msgstr "Niy idzie zainstalować necu placōw z twojōm adresōm serwera."
+
+#: wp-admin/includes/network.php:170
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Nafoluj pole niżyj, coby mōc napoczōńć rychtowanie necu placōw WordPressa. W dalszym kroku zrychtujymy zbiory konfiguracyjne."
+
+#: wp-admin/includes/network.php:395
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Przejdź bez te kroki, coby zapuścić fōnkcyje do rychtowaniŏ necu placōw."
+
+#: wp-admin/includes/network.php:394
+msgid "Enabling the Network"
+msgstr "Zapuszczanie necu placōw"
+
+#: wp-admin/includes/network.php:383
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Przejdź bez kroki kōnfiguracyje. Coby zrychtować nowy nec placōw, przidajne bydzie ôpucowanie abo wychrōniynie tabulōw bazy datōw ôd necu placōw."
+
+#: wp-admin/includes/network.php:382
+msgid "An existing WordPress network was detected."
+msgstr "Wczaśniyjszy nec placōw bōł wykryty."
+
+#: wp-admin/includes/network.php:377
+msgid "The original configuration steps are shown here for reference."
+msgstr "Ôryginalne kroki konfiguracyjne pokŏzane sōm w tym placu dlŏ możebności przirōwnaniŏ."
+
+#: wp-admin/includes/network.php:326
+msgid "Your email address."
+msgstr "Twoja adresa email."
+
+#: wp-admin/includes/network.php:317
+msgid "What would you like to call your network?"
+msgstr "Jak chcesz zamianować swōj nec placōw?"
+
+#: wp-admin/includes/network.php:313 wp-admin/network/settings.php:125
+msgid "Network Title"
+msgstr "Miano ôd necu placōw"
+
+#: wp-admin/includes/network.php:295
+msgid "Because your installation is not new, the sites in your WordPress network must use sub-domains."
+msgstr ""
+
+#: wp-admin/includes/network.php:286
+msgid "Because your installation is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr ""
+
+#: wp-admin/includes/network.php:279 wp-admin/includes/network.php:289
+#: wp-admin/includes/network.php:296
+msgid "The main site in a sub-directory installation will need to use a modified permalink structure, potentially breaking existing links."
+msgstr ""
+
+#: wp-admin/includes/network.php:243 wp-admin/includes/network.php:253
+#: wp-admin/includes/network.php:302
+msgid "Server Address"
+msgstr "Adresa ôd serwera"
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:228
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "bp. <code>%1$s/plac1</code> i <code>%1$s/plac2</code>"
+
+#: wp-admin/network/users.php:70
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Pozōr! Używŏcz niy mōg być wychrōniōny. Używŏcz %s je administratōrym necu placōw."
+
+#: wp-admin/network/sites.php:30
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Zastawiynie kursōra nad leda jakim wiyrszym wykŏzu sprŏwi pokŏzanie siedmiu ôpcyji (trzech jeźli to je bazowy plac):"
+
+#: wp-admin/network/sites.php:36
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Idyntyfikatōr placu je używany do cwekōw administracyjnych i niyma pokŏzowany używŏczōm ani nawiydzajōncym."
+
+#: wp-admin/network/sites.php:33
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "ôdkŏzōw &#8222;Zastŏw&#8221;, &#8222;Zarchiwizuj&#8221; aji &#8222;Nacechuj jako spam&#8221;, kere kludzōm do ekranōw przituplowaniŏ danyj ôperacyje. Te fōngowania mogōm być cofniynte niyskorzij,"
+
+#: wp-admin/network/site-new.php:25
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Jeźli podanŏ adresa email niyma jeszcze we bazie, zrychtowane bydzie tyż nowe kōnto używŏcza."
+
+#: wp-admin/network/settings.php:49
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Sekcyjŏ &#8222;Sztelōnki ôperacyjne&#8221; zwŏlŏ na pōmiyniynie miana necu placōw i adresy email jigo administratōra."
+
+#: wp-admin/network/settings.php:52
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "Sztelōnki posyłaniŏ na serwer uzdŏwajōm maksymalnõ miarã zbiorōw posyłanych na serwer i przestrzyństwo dyskowe dlŏ kożdygo placu. Możesz pōmiynić przipasowane danym placōm przestrzyństwo na ekranie edycyje placōw. Pokŏzowane na tym ekranie sōm tyż przizwolōne zorty zbiorōw (dzielōne jyny spacyjōm)."
+
+#: wp-admin/network/users.php:173
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "Fōnkcyjŏ masowŏ doimyntnie wychrōni ôbranych używŏczōw abo ôznŏczy ôbranych za spamerōw. Posty ôd spamerōw bydōm wychrōniōne i niy bydōm mogli zaś sie zaregistrować ze tymi samymi adresami email."
+
+#: wp-admin/network/users.php:171
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "Możesz tyż przejść na zajtã profilu kożdygo używŏcza bez klikniyńcie jigo miana."
+
+#: wp-admin/network/sites.php:35
+msgid "Visit to go to the front-end site live."
+msgstr "Kliknij, coby przestōmpić do przodnij zajty na żywo."
+
+#: wp-admin/network/users.php:174
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Możesz nasztalować używŏcza superadministratōrym bez przechōd do ekranu edycyje profilu ôbranygo używŏcza i ôznŏczynie polŏ, co nadŏwŏ prziwilej."
+
+#: wp-admin/network/users.php:169
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Ta tabula pokŏzuje wszyjskich używŏczōw necu i placu, do kerych sōm ôni przifelezowani."
+
+#: wp-admin/network/upgrade.php:23
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Jeźli WordPress niy bōł zaktualizowany, klikniyńcie tego knefla niy sprŏwi niczego."
+
+#: wp-admin/network/upgrade.php:24
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Jeźli skuli czegoś tyn proces niy skōńczy sie sprŏwnie, używŏcze, co sie logujōm do swojich placōw sztartnōm tyn sōm proces aktualizacyje."
+
+#: wp-admin/network/users.php:172
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr "Możesz posortować tabulã bez klikniyńcie w leda jaki z jij porubiōnych nŏgōwkōw i szaltrować miyndzy trybym wykŏzu, a trybym wypisu przi użyciu ikōn, co sōm nad wykŏzym używŏczōw ze prawyj."
+
+#: wp-admin/network/user-new.php:21
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "Używŏcze, kerzi zaregistrujōm sie na tyj zajcie bez tworzynie placu, bydōm przidani jako abōnynty do bazowygo placu i dostanōm zajty profilowe, dziyńki kerym bydōm mogli reskyrować swojimi kōntami. Do czasu przifelezowaniŏ takim używŏczōm placu, w panelu administracyjnym bydōm ôni widzieli jyno ôdkŏzy do ekranōw &#8222;Blot&#8221; i &#8222;Moje place&#8221;"
+
+#: wp-admin/network/sites.php:29
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "Niżyj je bazowy wykŏz wszyjskich placōw tego necu. Szaltrowanie sie miyndzy widzikym wykŏzu i widzikym stympōw możebne je przi pōmocy ikōn, co sōm nad wykŏzym po prawyj."
+
+#: wp-admin/network/settings.php:54
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "Sztelōnek myni zapuszczŏ/zastawiŏ pokŏzowanie myni przidŏwkōw używŏczōm, kerzi niy sōm superadministratōrami &mdash; tak, coby ino ôni mieli do nich dostymp."
+
+#: wp-admin/network/settings.php:50
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "Sztelōnki rejestracyje zwŏlajōm na zastawiynie/zapuszczynie możebności rejestracyje. Jeźli zwŏlŏsz inkszym na rejestracyjõ nowygo placu w Twojim necu placōw, zainstaluj przidŏwki, co szperujōm spam. Spacyje, niy kōmy, winny dzielić miana, kerych rejestracyjŏ w tym necu je zabrōniōnŏ."
+
+#: wp-admin/network/settings.php:48
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "Tyn ekran zwŏlŏ na sztelōnek i pōmianã ôpcyji cołkigo necu. Bazowy plac je placym, kery je wyświytlany po wkludzyniu adresy ôd necu, a ôpcyje dlŏ necu sōm sebierane ze sztelōnkōw tego placu."
+
+#: wp-admin/network/themes.php:223
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "Jeźli administratōr necu placōw zastawi tymat, kery je bez kogoś używany, durch bydzie ôn zapuszczōny na danym placu. Jeźli dany plac używŏ inkszygo tymtatu, zastawiōny tymat niy bydzie pokŏzowany na ekranie Widzik &rarr; Tymaty tego placu."
+
+#: wp-admin/network/themes.php:222
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "Na tym ekranie możebne je zapuszczynie lebo zastawiynie możebności ôbioru motywu bez myni &#8222;Widzik&#8221; na wszyjskich placach necu. Niy sprŏwiŏ tyj pōmiany motywu na żŏdnym z placōw."
+
+#: wp-admin/network/settings.php:51
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "Sztelōnki dlŏ nowych placōw sōm wychodnymi sztelōnkami, nadŏwanymi nowym placōm necu. Skłŏdajōm sie na nie: prziwitalny email posyłany przi rejestracyji nowygo placu lebo nowygo kōnta i treść piyrszygo wpisu, piyrszyj zajty, piyrszygo kōmyntŏrza, miano ôd nich autōra i adresa placu ôd nich autōra."
+
+#. translators: %s: reserved names list
+#: wp-admin/network/site-new.php:52
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "Te słowa sōm ôbsztalowane do użytku bez fōnkcyje ôd WordPressa i niy mogōm być użyte jako miana ôd blogōw: %s"
+
+#: wp-admin/network/upgrade.php:112
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Jeźli Twoja przeziyrŏczka niy napocznie autōmatycznygo wgrowaniŏ dŏlszyj zajty, kliknij tyn ôdkŏz:"
+
+#: wp-admin/network/site-new.php:38
+msgid "Can&#8217;t create an empty site."
+msgstr "Niy idzie zrychtować prōżnyj zajty."
+
+#: wp-admin/network/settings.php:235
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Jeźli chcesz zabrōnić rejestracyje ôkryślōnych dōmyn na placu. Jedna dōmyna na wiyrsz."
+
+#: wp-admin/network/settings.php:224
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Jeźli chcesz, coby szło zaregistrować ino uzdane dōmyny na placu. Jedna dōmyna na wiyrsz."
+
+#: wp-admin/network/sites.php:303
+msgid "Site removed from spam."
+msgstr "Plac wychrōniōny ze folderu spam."
+
+#: wp-admin/network/users.php:203
+msgid "Users removed from spam."
+msgstr "Używŏcze wychrōniōne ze folderu spam."
+
+#: wp-admin/network/sites.php:276
+msgid "Sites removed from spam."
+msgstr "Place wychrōniōne ze folderu spam."
+
+#: wp-admin/network/sites.php:279
+msgid "Sites marked as spam."
+msgstr "Place były nacechowane jako spam."
+
+#: wp-admin/network/sites.php:306
+msgid "Site marked as spam."
+msgstr "Plac bōł nacechowany jako spam."
+
+#: wp-admin/network/sites.php:291
+msgid "Site archived."
+msgstr "Plac bōł zarchiwizowany."
+
+#: wp-admin/network/users.php:206
+msgid "Users deleted."
+msgstr "Kōnta używŏczōw były wychrōniōne."
+
+#: wp-admin/network/sites.php:294
+msgid "Site unarchived."
+msgstr "Plac bōł wrōcōny z archiwōm."
+
+#: wp-admin/network/sites.php:297
+msgid "Site activated."
+msgstr "Plac bōł aktywowany."
+
+#: wp-admin/network/sites.php:300
+msgid "Site deactivated."
+msgstr "Plac bōł zdezaktywowany."
+
+#: wp-admin/network/users.php:200
+msgid "Users marked as spam."
+msgstr "Używŏcze nacechowani jako spamery."
+
+#: wp-admin/network/sites.php:285
+msgid "Site deleted."
+msgstr "Plac bōł wychrōniōny."
+
+#: wp-admin/network/sites.php:282
+msgid "Sites deleted."
+msgstr "Place były wychrōniōne."
+
+#: wp-admin/network/sites.php:91 wp-admin/network/sites.php:200
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "Niy mŏsz przizwolyniŏ na wkludzanie pōmian w tym placu."
+
+#: wp-admin/network/site-new.php:118
+msgid "There was an error creating the user."
+msgstr "Trefiōł sie feler przi tworzyniu kōnta ôd używŏcza."
+
+#: wp-admin/network/settings.php:335
+msgid "Upload file types"
+msgstr "Przizwolōne zorty zbiorōw"
+
+#: wp-admin/network/settings.php:327
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Ôgranicz imyntnŏ miara zbiorōw posyłanych na serwer do %s MB"
+
+#: wp-admin/network/settings.php:317
+msgid "The URL for the first comment on a new site."
+msgstr "Adresa URL ôd autōra piyrszygo kōmyntŏrza na nowym placu."
+
+#: wp-admin/network/settings.php:290
+msgid "The first comment on a new site."
+msgstr "Treść piyrszygo kōmyntŏrza na nowym placu."
+
+#: wp-admin/network/settings.php:280
+msgid "The first page on a new site."
+msgstr "Treść piyrszyj zajty na nowym placu."
+
+#: wp-admin/network/settings.php:270
+msgid "The first post on a new site."
+msgstr "Treść piyrszygo posta na nowym placu."
+
+#: wp-admin/network/settings.php:299
+msgid "The author of the first comment on a new site."
+msgstr "Autōr piyrszygo kōmyntŏrza na nowym placu."
+
+#: wp-admin/network/upgrade.php:68
+msgid "All done!"
+msgstr "Fertich!"
+
+#: wp-admin/network/settings.php:171
+msgid "Registration is disabled"
+msgstr ""
+
+#: wp-admin/network/settings.php:172
+msgid "User accounts may be registered"
+msgstr ""
+
+#: wp-admin/network/settings.php:174
+msgid "Both sites and user accounts can be registered"
+msgstr ""
+
+#: wp-admin/network/settings.php:173
+msgid "Logged in users may register new sites"
+msgstr ""
+
+#: wp-admin/network/settings.php:159
+msgid "Registration Settings"
+msgstr "Sztelōnki rejestracyje"
+
+#: wp-admin/network/settings.php:241
+msgid "New Site Settings"
+msgstr "Sztelōnki nowygo placu"
+
+#: wp-admin/network/settings.php:322
+msgid "Upload Settings"
+msgstr "Sztelōnki posyłaniŏ na serwer"
+
+#: wp-admin/network/settings.php:122
+msgid "Operational Settings"
+msgstr "Sztelōnki ôperacyjne"
+
+#: wp-admin/network/settings.php:398
+msgid "Enable administration menus"
+msgstr "Zapuść administracyjne myni"
+
+#: wp-admin/network/site-new.php:83
+msgid "Missing email address."
+msgstr "Adresa email niy była podanŏ."
+
+#: wp-admin/network/site-new.php:80
+msgid "Missing or invalid site address."
+msgstr "Niy ma abo niynŏleżnŏ adresa placu."
+
+#: wp-admin/network/upgrade.php:112
+msgid "Next Sites"
+msgstr "Dalsze place"
+
+#: wp-admin/network/settings.php:211
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Używŏcze niy mogōm registrować placōw ô takich mianach. Ôddziel miana spacyjami."
+
+#: wp-admin/network/settings.php:195
+msgid "Send the network admin an email notification every time someone registers a site or user account"
+msgstr ""
+
+#: wp-admin/network/settings.php:325
+msgid "Site upload space"
+msgstr "Dostympny plac na dysku"
+
+#: wp-admin/network/settings.php:250
+msgid "The welcome email sent to new site owners."
+msgstr "Email powitaniŏ posyłany do nowych posiedzicielōw placōw."
+
+#. translators: %s: network name
+#: wp-admin/network/site-new.php:143
+msgid "[%s] New Site Created"
+msgstr "[%s] Zrychtowany bōł nowy plac"
+
+#: wp-admin/includes/network.php:322 wp-admin/network/settings.php:132
+msgid "Network Admin Email"
+msgstr "Adresa email ôd administratōra necu placōw"
+
+#: wp-admin/network/site-new.php:252
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Jeźli wkludzōnŏ adresa email niyma jeszcze w bazie datōw, bydzie zrychtowane nowe kōnto."
+
+#: wp-admin/network/site-new.php:248
+msgid "Admin Email"
+msgstr "Email ôd administratōra"
+
+#: wp-admin/network/site-new.php:264
+msgid "Add Site"
+msgstr "Przidej plac"
+
+#: wp-admin/network/settings.php:369
+msgid "Default Language"
+msgstr "Wychodnŏ gŏdka"
+
+#: wp-admin/network/settings.php:345
+msgid "Max upload file size"
+msgstr "Maksymalnŏ przizwolōnŏ miara zbioru"
+
+#: wp-admin/network/settings.php:313
+msgid "First Comment URL"
+msgstr "URL ôd autora piyrszygo kōmyntŏrza"
+
+#: wp-admin/network/settings.php:295
+msgid "First Comment Author"
+msgstr "Autōr piyrszygo kōmyntŏrza"
+
+#: wp-admin/network/settings.php:285
+msgid "First Comment"
+msgstr "Piyrszy kōmyntŏrz"
+
+#: wp-admin/network/settings.php:275
+msgid "First Page"
+msgstr "Piyrszŏ zajta"
+
+#: wp-admin/network/settings.php:260
+msgid "The welcome email sent to new users."
+msgstr "Email powitaniŏ posyłany do nowych używŏczōw."
+
+#: wp-admin/network/settings.php:255
+msgid "Welcome User Email"
+msgstr "Email powitaniŏ używŏcza"
+
+#: wp-admin/network/settings.php:245
+msgid "Welcome Email"
+msgstr "Email powitaniŏ"
+
+#: wp-admin/network/settings.php:230
+msgid "Banned Email Domains"
+msgstr "Zabrōniōne dōmyny adresōw email"
+
+#: wp-admin/network/settings.php:217
+msgid "Limited Email Registrations"
+msgstr "Ôgraniczōne registracyje bez email"
+
+#: wp-admin/network/settings.php:207
+msgid "Banned Names"
+msgstr "Zabrōniōne miana"
+
+#: wp-admin/network/settings.php:200
+msgid "Add New Users"
+msgstr "Przidŏwanie nowych używŏczōw"
+
+#: wp-admin/network/settings.php:189
+msgid "Registration notification"
+msgstr "Uwiadōmiynie ô rejestracyji"
+
+#: wp-admin/network/settings.php:162
+msgid "Allow new registrations"
+msgstr "Możebność rejestracyje"
+
+#: wp-admin/network/site-users.php:261
+msgid "Duplicated username or email address."
+msgstr "Miano ôd używŏcza lebo adresa email sōm już używane."
+
+#: wp-admin/network/user-new.php:37
+msgid "Cannot create an empty user."
+msgstr "Niy idzie zrychtować kōnta dlŏ używŏcza bez miana."
+
+#: wp-admin/network/sites.php:107 wp-admin/network/sites.php:185
+msgid "Confirm"
+msgstr "Przituplikuj"

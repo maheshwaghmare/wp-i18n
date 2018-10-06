@@ -1,0 +1,1389 @@
+# Translation of WordPress - 4.7.x - Administration - Network Admin in Sinhala
+# This file is distributed under the same license as the WordPress - 4.7.x - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-06 05:58:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: si_LK\n"
+"Project-Id-Version: WordPress - 4.7.x - Administration - Network Admin\n"
+
+#: wp-admin/network.php:71
+msgid "Network"
+msgstr "ජාලය"
+
+#: wp-admin/network.php:67 wp-admin/network.php:78
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\">Documentation on the Network Screen</a>"
+msgstr ""
+
+#: wp-admin/network.php:66 wp-admin/network.php:77
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\">Documentation on Creating a Network</a>"
+msgstr ""
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr ""
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr ""
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "අදාළ කේතනයන් wp-config.phpහි  (<code>/*...stop editing...*/</code> ට ඉහළින්) සහ <code>.htaccess</code>හි (පවතින WordPress නීති ප්‍රතිස්ථාපනය කරමින්) ඇතුලත්කරන්න."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "ජාල ස්ථාපනයේ මීළඟ තිරයේදී ඔබේ wp-config.php සහ .htaccess ගොනුවලට ඇතුලත් කිරීමට වෙනමම නිර්මාණය වූ කේතන කොටස් ඔබට ලැබෙනු ඇත. ඔබේ FTP සහයකය තිතකින් නම ඇරඹෙන ගොනු පෙන්වන බවට සනාථ කරගන්න, මන්ද නැතහොත් .htaccess ගොනුව නොපෙනීයනු ඇත. එය එතැන නොමැතිනම් ඔබට මෙම ගොනුව සෑදීමට සිදුවනු ඇත. මෙම ගොනු දෙකේ පිටපත් දෙකක් සුරක්‍ෂිතව තබාගන්න."
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr ""
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr ""
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "WordPress අඩවි ජාලයක් සාදන්න"
+
+#. translators: 1: WP_ALLOW_MULTISITE 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr ""
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "ජාල නිර්මාණ පැනලය WordPress MU සඳහා නොවේ."
+
+#: wp-admin/network/users.php:206
+msgid "Users deleted."
+msgstr "පරිශීලකයන් ඉවත්කළා."
+
+#: wp-admin/network/users.php:203
+msgid "Users removed from spam."
+msgstr "පරිශීලකයන් කරදර වලින් ඉවත් කළා."
+
+#: wp-admin/network/users.php:200
+msgid "Users marked as spam."
+msgstr "පරිශීලකයන් කරදර ලෙස සටහන් කළා."
+
+#: wp-admin/network/users.php:174
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr ""
+
+#: wp-admin/network/users.php:173
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr ""
+
+#: wp-admin/network/users.php:172
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr ""
+
+#: wp-admin/network/users.php:171
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr ""
+
+#: wp-admin/network/users.php:170
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "සංස්කරණ සබැඳි ලබාගැනීමට ලැයිස්තුවේ ඇති ඕනෑම පරිශීලකයෙකු මතින් මූසිකය ගෙනයන්න. වම්පස සංස්කරණ සබැඳිය ඔබව ඔවුන්ගේ පරිශීලක පැතිකඩ සංස්කරණ පිටුවට ගෙනයයි; දකුණුපස ඇති ඕනෑම අඩවි නාමයකින් යුත් සබැඳියක් එම අඩවියේ අඩවි සංස්කරණ තිරයකට ඔබව ගෙනයයි."
+
+#: wp-admin/network/users.php:169
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "මෙම වගුවෙන් පෙන්වන්නේ ජාලය පුරා සිටින පරිශීලකයින් සහ ඔවුන් හට ආදේශ වී ඇති අඩවි වේ."
+
+#: wp-admin/network/users.php:70
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "අවවාදයයි! පරිශීලකයා වෙනස් කළ නොහැක. %s යනු ජාල පරිපාලකයෙකි."
+
+#. translators: %s: edit page url
+#: wp-admin/network/user-new.php:80
+msgid "User added. <a href=\"%s\">Edit user</a>"
+msgstr ""
+
+#: wp-admin/network/user-new.php:49
+msgid "Cannot add user."
+msgstr "පරිශීලකයා එක්කළ නොහැක."
+
+#: wp-admin/network/user-new.php:37
+msgid "Cannot create an empty user."
+msgstr "හිස් පරිශීලකයෙක් සෑදිය නොහැක."
+
+#: wp-admin/network/user-new.php:26 wp-admin/network/users.php:179
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
+msgstr ""
+
+#: wp-admin/network/user-new.php:21
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr ""
+
+#: wp-admin/network/user-new.php:20
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "පරිශීලකයෙක් එක්කරන්න මඟින් නව පරිශීලක ගිණුමක් ජාලයේ සෑදෙන අතර එම පුද්ගලයාට තම පරිශීලක නාමය සහ මුරපදය සහිත වි-ලිපියක් යැවෙයි."
+
+#: wp-admin/network/upgrade.php:126
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress යාවත්කාලීන වී ඇත! ඔබට මග පෙන්වීමට පෙරාතුව, අපට ඔබේ ජාලයේ ඇති අඩවි වෙන වෙනම උත්ශ්‍රේණි කිරීමට අවශ්‍යයි."
+
+#: wp-admin/network/upgrade.php:111
+msgid "Next Sites"
+msgstr "ඊළඟ අඩවි"
+
+#: wp-admin/network/upgrade.php:111
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "ඔබේ බ්‍රවුසරය ඊළඟ පිටුව ස්වයංක්‍රීයවම ලබා නොදේනම්, මෙතැනින් ගන්න:"
+
+#. translators: 1: site url, 2: server error message
+#: wp-admin/network/upgrade.php:87
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "අවවාදයයි! %1$s යාවත්කාලීන කිරීමේ ගැටලුවක්. ඔබගේ සර්වරයට එය මත ධාවනය වන අඩවි සමඟ සම්බන්ධ වීමට නොහැකිවී ඇතුවා විය හැක. දෝෂ පණිවිඩය: %2$s"
+
+#: wp-admin/network/upgrade.php:67
+msgid "All done!"
+msgstr "සියල්ල සිදුකළා!"
+
+#: wp-admin/network/upgrade.php:29
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\">Documentation on Upgrade Network</a>"
+msgstr ""
+
+#: wp-admin/network/upgrade.php:24
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr ""
+
+#: wp-admin/network/upgrade.php:23
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "මධ්‍ය හරය යාවත්කාලීන කිරීමක් සිදුවී නැත්නම්, මෙම බොත්තම එබීමෙන් කිසිවකට බලපෑමක් නොවේ."
+
+#: wp-admin/network/upgrade.php:22
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "යාවත්කාලීනවීම්/ලබාගත හැකි යාවත්කාලීනවීම් හරහා (ජාල පරිපාලක යාත්‍රණ මෙනුව හෝ මෙවලම්දාරය මඟින්) නව WordPress අනුවාදයකට ඔබ උත්ශ්‍රේණිගත වූයේ නම් පමණක් මෙම තිරය භාවිතා කරන්න. ජාලය උත්ශ්‍රේණි කරන්න ක්ලික් කළපසු, වරකට පහ බැගින්, ජාලයේ සියලුම අඩවි පිරික්සා, දත්තගබඩා යාවත්කාලීන වීම් සිදුවී ඇත්දැයි පරීක්ෂා කරයි."
+
+#: wp-admin/network/themes.php:286
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "ප්‍රධාන අඩවියේ යම් තේමාවක් සක්‍රියව ඇති විට ඔබට එය මකා දැමිය නොහැක."
+
+#: wp-admin/network/themes.php:280
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s තේමාව මැකුවා."
+msgstr[1] "%s තේමා මැකුවා."
+
+#: wp-admin/network/themes.php:235
+msgid "Themes list navigation"
+msgstr ""
+
+#: wp-admin/network/themes.php:229
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
+msgstr ""
+
+#: wp-admin/network/themes.php:224
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr ""
+
+#: wp-admin/network/themes.php:223
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "ජාල පරිපාලකවරයා දැනට භාවිතයේ ඇති තේමාවක් අක්‍රිය කළහොත්, එම තේමාව තවදුරටත් අදාළ අඩවියේ දර්ශනය විය හැක. වෙනත් තේමාවක් තෝරාගතහොත්, අක්‍රිය කළ තේමාව අඩවියේ පෙනුම > තේමා තිරයේ නොපෙන්වනු ඇත."
+
+#: wp-admin/network/themes.php:222
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr ""
+
+#: wp-admin/network/themes.php:171
+msgid "No, return me to the theme list"
+msgstr "නැහැ, මාව තේමා ලැයිස්තුවට ගෙනයන්න"
+
+#: wp-admin/network/themes.php:163
+msgid "Yes, delete these themes"
+msgstr "ඔව්, මෙම තේමා මකන්න"
+
+#: wp-admin/network/themes.php:161
+msgid "Yes, delete this theme"
+msgstr "ඔව්, මෙම තේමාව මකන්න"
+
+#: wp-admin/network/themes.php:148
+msgid "Are you sure you wish to delete these themes?"
+msgstr "මෙම තේමා ඉවත් කළයුතු බවට ඔබට විශ්වාසද?"
+
+#: wp-admin/network/themes.php:146
+msgid "Are you sure you wish to delete this theme?"
+msgstr "මෙම තේමාව මැකිය යුතු බවට ඔබට විශ්වාස ද?"
+
+#. translators: 1: theme name, 2: theme author
+#: wp-admin/network/themes.php:138
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr ""
+
+#: wp-admin/network/themes.php:131
+msgid "You are about to remove the following themes:"
+msgstr "ඔබ සූදානම් වන්නේ මෙම තේමා මැකීමටයි:"
+
+#: wp-admin/network/themes.php:130
+msgid "These themes may be active on other sites in the network."
+msgstr "මෙම තේමා ජාලයේ ඇති අනෙකුත් අඩවි තුල සක්‍රිය වී තිබිය හැක."
+
+#: wp-admin/network/themes.php:129
+msgid "Delete Themes"
+msgstr "තේමා මකන්න"
+
+#: wp-admin/network/themes.php:127
+msgid "You are about to remove the following theme:"
+msgstr "ඔබ සුදානම් වන්නේ මෙම තේමාව ඉවත් කිරීමටයි:"
+
+#: wp-admin/network/themes.php:126
+msgid "This theme may be active on other sites in the network."
+msgstr "මෙම තේමාව ඇතැම් විට ජාලයේ අනෙකුත් අඩවි වල සක්‍රියව තිබිය හැකියි."
+
+#: wp-admin/network/themes.php:125
+msgid "Delete Theme"
+msgstr "තේමාව මකන්න"
+
+#: wp-admin/network/themes.php:90
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "සමාවන්න, ඔබට මෙම වෙබ් අඩවිය සඳහා තේමාවන් මැකීමට අවසර නැත."
+
+#: wp-admin/network/themes.php:14
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "සමාවන්න, ඔබට මෙම ජාල තේමාවන් පාලනය කිරීමට අවසර නැත."
+
+#: wp-admin/network/sites.php:263
+msgid "Site marked as spam."
+msgstr "අඩවිය කරදර ලෙස සටහන් කළා."
+
+#: wp-admin/network/sites.php:260
+msgid "Site removed from spam."
+msgstr "අඩවිය කරදර වලින් ඉවත් කළා."
+
+#: wp-admin/network/sites.php:257
+msgid "Site deactivated."
+msgstr "අඩවිය අක්‍රිය කළා."
+
+#: wp-admin/network/sites.php:254
+msgid "Site activated."
+msgstr "අඩවිය සක්‍රිය කළා."
+
+#: wp-admin/network/sites.php:251
+msgid "Site unarchived."
+msgstr "අඩවිය විලේඛනගත කළා."
+
+#: wp-admin/network/sites.php:248
+msgid "Site archived."
+msgstr "අඩවිය ලේඛනගත කළා."
+
+#: wp-admin/network/sites.php:245
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "සමාවන්න, ඔබට එම වෙබ් අඩවිය මැකීමට අවසර නැත."
+
+#: wp-admin/network/sites.php:242
+msgid "Site deleted."
+msgstr "අඩවිය ඉවත් කළා."
+
+#: wp-admin/network/sites.php:239
+msgid "Sites deleted."
+msgstr "අඩවි ඉවත් කළා."
+
+#: wp-admin/network/sites.php:236
+msgid "Sites marked as spam."
+msgstr "අඩවි කරදර ලෙස සටහන් කළා."
+
+#: wp-admin/network/sites.php:233
+msgid "Sites removed from spam."
+msgstr "අඩවි කරදර වලින් ඉවත් කළා."
+
+#: wp-admin/network/sites.php:144
+msgid "Sorry, you are not allowed to delete the site."
+msgstr ""
+
+#: wp-admin/network/sites.php:107
+msgid "Confirm"
+msgstr "සනාථ කරන්න"
+
+#: wp-admin/network/sites.php:100
+msgid "Confirm your action"
+msgstr "ඔබේ ක්‍රියාව සනාථ කරන්න"
+
+#: wp-admin/network/sites.php:91 wp-admin/network/sites.php:157
+msgid "Sorry, you are not allowed to change the current site."
+msgstr ""
+
+#: wp-admin/network/sites.php:75
+msgid "The requested action is not valid."
+msgstr "ඉල්ලුම් කළ ක්‍රියාව වලංගු නොවේ."
+
+#: wp-admin/network/sites.php:67
+msgid "You are about to mark the site %s as not mature."
+msgstr "ඔබ සූදානම් වන්නේ %s අඩවිය වැඩිහිටි නොවන ලෙස සලකුණු කිරීමටයි."
+
+#: wp-admin/network/sites.php:66
+msgid "You are about to mark the site %s as mature."
+msgstr "ඔබ සූදානම් වන්නේ %s අඩවිය වැඩිහිටි ලෙස සලකුණු කිරීමටයි."
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to delete the site %s."
+msgstr "ඔබ සූදානම් වන්නේ %s අඩවිය මැකීමටයි."
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to mark the site %s as spam."
+msgstr "ඔබ සූදානම් වන්නේ %s අඩවිය ස්පෑම් ලෙස සලකුණු කිරීමටයි."
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to unspam the site %s."
+msgstr "ඔබ සූදානම් වන්නේ %s අඩවිය ස්පෑම් බවින් ඉවත් කිරීමටයි."
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to archive the site %s."
+msgstr "ඔබ සූදානම් වන්නේ %s අඩවිය ලේඛනගත කිරීමටයි."
+
+#: wp-admin/network/sites.php:61
+msgid "You are about to unarchive the site %s."
+msgstr "ඔබ සූදානම් වන්නේ %s අඩවිය ලේඛනාගාරයෙන් ඉවතට ගැනීමටයි."
+
+#: wp-admin/network/sites.php:60
+msgid "You are about to deactivate the site %s."
+msgstr "ඔබේ සූදානම %s අඩවිය අක්‍රීය කිරීමටයි."
+
+#: wp-admin/network/sites.php:59
+msgid "You are about to activate the site %s."
+msgstr "ඔබේ සූදානම %s අඩවිය සක්‍රීය කිරීමටයි."
+
+#: wp-admin/network/sites.php:48
+msgid "Sites list"
+msgstr ""
+
+#: wp-admin/network/sites.php:47
+msgid "Sites list navigation"
+msgstr ""
+
+#: wp-admin/network/sites.php:37
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "තද මාතෘකා මත ක්ලික් කිරීමෙන් මෙම වගුව යලි තේරීමක් කල හැක."
+
+#: wp-admin/network/sites.php:36
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "අඩවි අනන්‍යතාව අභ්‍යන්තරිකව භාවිත වන අතර, පරිශීලකයින්ට/නරඹන්නන්ට හෝ අඩවි මුහුණතේ දර්ශනය නොවනු ඇත."
+
+#: wp-admin/network/sites.php:35
+msgid "Visit to go to the front-end site live."
+msgstr "අඩවියේ සජීවී ඉදිරිපස මුහුණත දැකගැනීමට පිවිසෙන්න."
+
+#: wp-admin/network/sites.php:34
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "මකාදැමීම යනු, ස්ථිර කිරීමේ තිර වලින් පසුව, වෙනස්කළ නොහැකි ක්‍රියාවකි."
+
+#: wp-admin/network/sites.php:33
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "අක්‍රිය කිරීම, ලිපිගොනුගත කිරීම, සහ කුණුකූඩයට දැමීම ස්ථිර කිරීමේ තිර වලට ගෙනයයි. මෙම ක්‍රියා පසුව ආපසු හැරවිය හැක."
+
+#: wp-admin/network/sites.php:32
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "'පාලක පුවරුව' ගෙනයන්නේ එම අඩවියේ පාලක පුවරුව වෙතටයි."
+
+#: wp-admin/network/sites.php:31
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "වෙනම අඩවි සංස්කරණ තිරයකට සංස්කරණ සබැඳියක්"
+
+#: wp-admin/network/sites.php:30
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "එක් එක් අඩවිය ඉහලින් මූසිකය ගෙනයද්දී විකල්ප හතක් මතුවේ (ප්‍රාථමික අඩවියට තුනකි):"
+
+#: wp-admin/network/sites.php:29
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr ""
+
+#: wp-admin/network/sites.php:28
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "'අලුතින් එක්කරන්න' ඔබව නව අඩවි එක්කිරීමේ තිරයට ගෙනයාවි. ඔබට යම් අඩවියක් එහි නමින්, හැඳුනුම් අංකයෙන්, හෝ IP ලිපිනයෙන් සෙවිය හැක. එක් පිටුවක පෙන්විය යුතු අඩවි ගණන තීරණය කිරීමට තිර විකල්ප ඔබට ඉඩදේවි."
+
+#: wp-admin/network/site-users.php:332 wp-admin/network/user-new.php:117
+msgid "A password reset link will be sent to the user via email."
+msgstr "මුරපද ප්‍රති-සකස්කිරීමේ සබැඳියක් පරිශීලකයාට වි-තැපෑල හරහා ලැබේවි."
+
+#: wp-admin/network/site-users.php:300 wp-admin/network/user-new.php:129
+msgid "Add User"
+msgstr "පරිශීලකයා එක්කරන්න"
+
+#: wp-admin/network/site-users.php:255
+msgid "Duplicated username or email address."
+msgstr "පරිශීලක නාම හෝ වි-තැපැල් ලිපින පුනරුක්තියක්."
+
+#: wp-admin/network/site-users.php:252
+msgid "Enter the username and email."
+msgstr "පරිශීලක නාමය සහ වි-තැපෑල එක්කරන්න."
+
+#: wp-admin/network/site-users.php:249
+msgid "User created."
+msgstr "පරිශීලකයා සෑදුණි."
+
+#: wp-admin/network/site-users.php:246
+msgid "Select a user to remove."
+msgstr "ඉවත්කිරීම සඳහා පරිශීලකයෙක් තෝරන්න."
+
+#: wp-admin/network/site-users.php:240
+msgid "Select a user to change role."
+msgstr "භූමිකාව වෙනස්කිරීම සඳහා පරිශීලකයෙක් තෝරන්න."
+
+#: wp-admin/network/site-users.php:234
+msgid "Enter the username of an existing user."
+msgstr "පවතින පරිශීලකයෙකුගේ පරිශීලක නාමයක් ඇතුල්කරන්න."
+
+#: wp-admin/network/site-users.php:231
+msgid "User is already a member of this site."
+msgstr "පරිශීලකයා දැනටමත් මෙම අඩවියේ සාමාජිකයෙකි."
+
+#: wp-admin/network/site-users.php:39
+msgid "Site users list"
+msgstr ""
+
+#: wp-admin/network/site-users.php:38
+msgid "Site users list navigation"
+msgstr ""
+
+#: wp-admin/network/site-users.php:37
+msgid "Filter site users list"
+msgstr ""
+
+#: wp-admin/network/site-themes.php:200
+msgid "Network enabled themes are not shown on this screen."
+msgstr "ජාල සක්‍රිය තේමා මෙම තිරයේ අඩංගු නොවේ."
+
+#: wp-admin/network/site-themes.php:197 wp-admin/network/themes.php:284
+msgid "No theme selected."
+msgstr "තේමාවක් තෝරා නැත."
+
+#: wp-admin/network/site-themes.php:193 wp-admin/network/themes.php:272
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s තේමාව අක්‍රිය කළා."
+msgstr[1] "%s තේමා අක්‍රිය කළා."
+
+#: wp-admin/network/site-themes.php:191 wp-admin/network/themes.php:270
+msgid "Theme disabled."
+msgstr "තේමාව අක්‍රියයි."
+
+#: wp-admin/network/site-themes.php:185 wp-admin/network/themes.php:264
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s තේමාව සක්‍රිය කළා."
+msgstr[1] "%s තේමා සක්‍රිය කළා."
+
+#: wp-admin/network/site-themes.php:183 wp-admin/network/themes.php:262
+msgid "Theme enabled."
+msgstr "තේමාව සක්‍රියයි."
+
+#: wp-admin/network/site-themes.php:36
+msgid "Site themes list"
+msgstr ""
+
+#: wp-admin/network/site-themes.php:35
+msgid "Site themes list navigation"
+msgstr ""
+
+#: wp-admin/network/site-themes.php:34
+msgid "Filter site themes list"
+msgstr ""
+
+#: wp-admin/network/site-themes.php:14
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "සමාවන්න, ඔබට මෙම වෙබ් අඩවිය සඳහා තේමාවන් කළමනාකරණය කිරීමට අවසර නැත."
+
+#: wp-admin/network/site-settings.php:80
+msgid "Site options updated."
+msgstr "අඩවි විකල්ප යාවත්කාලීන විය."
+
+#: wp-admin/network/site-new.php:259
+msgid "Add Site"
+msgstr "අඩවිය එක්කරන්න"
+
+#: wp-admin/network/site-new.php:247
+msgid "The username and password will be mailed to this email address."
+msgstr "පරිශීලක නාමය සහ මුරපදය මෙම වි-තැපැල් ලිපිනයට ලැබේවි."
+
+#: wp-admin/network/site-new.php:247
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "ඉහත වි-තැපැල් ලිපිනය දත්ත ගබඩාවේ නොමැතිනම් නව පරිශීලකයෙක් සෑදේවි."
+
+#: wp-admin/network/site-new.php:243
+msgid "Admin Email"
+msgstr "පරිපාලක වි-තැපෑල"
+
+#: wp-admin/network/site-new.php:205
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr ""
+
+#: wp-admin/network/site-new.php:178 wp-admin/network/site-new.php:188
+msgid "Add New Site"
+msgstr "නව අඩවිය එක්කරන්න"
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:172
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "අඩවිය එක්කළා. <a href=\"%1$s\">පාලක පුවරුවට පිවිසෙන්න</a> නැතහොත් <a href=\"%2$s\">අඩවිය සංස්කරණය කරන්න</a>"
+
+#: wp-admin/network/site-new.php:155
+msgctxt "email \"From\" field"
+msgid "Site Admin"
+msgstr ""
+
+#. translators: 1: user login, 2: site url, 3: site name/title
+#: wp-admin/network/site-new.php:145
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"නව අඩවිය සාදන ලද්දේ %1$s\n"
+"\n"
+"ලිපිනය:%2$s\n"
+"නම:%3$s"
+
+#. translators: %s: network name
+#: wp-admin/network/site-new.php:140
+msgid "[%s] New Site Created"
+msgstr "[%s] නව අඩවිය සෑදුවා"
+
+#: wp-admin/network/site-new.php:115
+msgid "There was an error creating the user."
+msgstr "පරිශීලකයා සෑදීමේදී දෝෂයක් මතුවිය."
+
+#: wp-admin/network/site-new.php:110
+msgid "The domain or path entered conflicts with an existing username."
+msgstr ""
+
+#: wp-admin/network/site-new.php:80
+msgid "Missing email address."
+msgstr "වි-තැපැල් ලිපිනය නොමැත."
+
+#: wp-admin/network/site-new.php:77
+msgid "Missing or invalid site address."
+msgstr "හිස් හෝ අවලංගු අඩවි ලිපිනයක්."
+
+#. translators: %s: reserved names list
+#: wp-admin/network/site-new.php:51
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "පහත වචන WordPress මඟින් භාවිත කිරීමට වෙන්කර ඇති නිසා බ්ලොග් නාම ලෙස යොදාගත නොහැක: %s"
+
+#: wp-admin/network/site-new.php:37
+msgid "Can&#8217;t create an empty site."
+msgstr "හිස් අඩවියක් සෑදිය නොහැක."
+
+#: wp-admin/network/site-new.php:24
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr ""
+
+#: wp-admin/network/site-new.php:23
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr ""
+
+#: wp-admin/network/site-new.php:17
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "සමාවන්න, ඔබට මෙම ජාලයට වෙබ් අඩවිය ඇතුලත් කිරීමට අවසර නැත."
+
+#: wp-admin/network/site-info.php:197
+msgid "Set site attributes"
+msgstr "අඩවි විශේෂක ලබාදෙන්න"
+
+#: wp-admin/network/site-info.php:194
+msgid "Attributes"
+msgstr ""
+
+#. translators: %s: site name
+#: wp-admin/network/site-info.php:131 wp-admin/network/site-settings.php:84
+#: wp-admin/network/site-themes.php:163 wp-admin/network/site-users.php:193
+msgid "Edit Site: %s"
+msgstr "අඩවි සංස්කරණය: %s"
+
+#: wp-admin/network/site-info.php:126
+msgid "Site info updated."
+msgstr "අඩවි තොරතුරු යාවත්කාලීන විය."
+
+#: wp-admin/network/site-info.php:42 wp-admin/network/site-settings.php:40
+#: wp-admin/network/site-themes.php:63 wp-admin/network/site-users.php:56
+msgid "The requested site does not exist."
+msgstr "ඉල්ලුම් කළ අඩවිය නොපවතී."
+
+#: wp-admin/network/site-info.php:37 wp-admin/network/site-settings.php:36
+#: wp-admin/network/site-themes.php:57 wp-admin/network/site-users.php:52
+msgid "Invalid site ID."
+msgstr "අවලංගු අඩවි හැඳුනුමක්."
+
+#: wp-admin/network/site-info.php:30 wp-admin/network/site-new.php:29
+#: wp-admin/network/site-settings.php:29 wp-admin/network/site-themes.php:29
+#: wp-admin/network/site-users.php:32 wp-admin/network/sites.php:42
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\">Documentation on Site Management</a>"
+msgstr ""
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Settings</strong> &mdash; This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>සැකසුම්</strong> &mdash; මෙම පිටුවෙන් පෙන්වන්නේ මෙම අඩවිය හා බැඳී ඇති සැකසුම් ලැයිස්තුවකි. සමහරක් WordPress විසින් ලබාදී ඇති අතර අනෙක්වා ඔබ සක්‍රිය කළ ප්ලගින විසින් ලබාදී ඇත. ඇතැම් ක්ෂේත්‍ර අළු පැහැ ගන්වා ඇති අතර, කොටස් කළ දත්ත ලෙස නම්කර ඇත. දත්තපාදිකයේ සැකසුම සුරැකී ඇති ආකාරය හේතුවෙන් ඔබට මෙම අගයන් වෙනස්කළ නොහැක."
+
+#: wp-admin/network/site-info.php:24 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "<strong>Themes</strong> &mdash; This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>තේමා</strong> - මෙම ප්‍රදේශයෙන් ජාලය තුල දැනටමත් සක්‍රිය වී නැති තේමා පෙන්වයි. මෙම මෙනුවේදී තේමාවක් සක්‍රීය කිරීමෙන් එයට මෙම අඩවිය තුළ ක්‍රියාත්මක වීමට ඉඩ ලැබේ. එය තේමාව සක්‍රිය නොකරයි, නමුත් එයට අඩවියේ පෙනුම මෙනුවේ පෙන්වීමට ඉඩදෙයි. මුළු ජාලයටම තේමාව සක්‍රිය කිරීමට, <a href=\"%s\">ජාල තේමා</a> තිරය බලන්න."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:22
+#: wp-admin/network/site-themes.php:22 wp-admin/network/site-users.php:25
+msgid "<strong>Users</strong> &mdash; This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>පරිශීලකයින්</strong> &mdash; මෙමඟින් මෙම අඩවිය හා බැඳුනු පරිශීලකයින් පෙන්වයි. ඔබට ඔවුන්ගේ භූමිකාව වෙනස්කිරීමට, මුරපදය ප්‍රතිසැකසීමට, හෝ ඔවුන්ව අඩවියෙන් ඉවත්කිරීමට හැකියාව ඇත. පරිශීලකයාව අඩවියෙන් ඉවත්කිරීමෙන් ඔහුව ජාලයෙන් ඉවත් නොවෙයි."
+
+#: wp-admin/network/site-info.php:22 wp-admin/network/site-settings.php:21
+#: wp-admin/network/site-themes.php:21 wp-admin/network/site-users.php:24
+msgid "<strong>Info</strong> &mdash; The site URL is rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>තොරතුරු</strong> &mdash; අඩවි යොමුව සහ මාර්ගය සංස්කරණය කිරීම අතිශය දුර්ලභ වන අතර මෙය අඩවියේ ක්‍රියාකාරීත්වයට බාධාවක් විය හැක. ලියාපදිංචි දිනය සහ අවසන් යාවත්කාලීන දිනය මෙහි දක්වා ඇත. යම් අඩවියක් පොදු ලැයිස්තුගතකිරීම් වලින් ඉවත්කිරීමට හෝ අක්‍රිය කිරීමට, එය ගොනුගත, කුණු, ඉවත්කළ සහ පරිණත ලෙස සලකුණු කිරීමට ජාල පරිපාලකයින්ට හැකිය."
+
+#: wp-admin/network/site-info.php:21 wp-admin/network/site-settings.php:20
+#: wp-admin/network/site-themes.php:20 wp-admin/network/site-users.php:23
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "මෙනුව ඇත්තේ එක් එක් අඩවි සඳහා විශේෂ වූ තොරතුරු සංස්කරණයටයි, විශේෂයෙන්ම අඩවියක පරිපාලක ප්‍රදේශය නොමැති විට."
+
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "සමාවන්න, ඔබට මෙම වෙබ් අඩවිය සංස්කරණය කිරීමට අවසර නැත."
+
+#: wp-admin/network/settings.php:380
+msgid "Enable menus"
+msgstr "මෙනු සක්‍රිය කරන්න"
+
+#: wp-admin/network/settings.php:358
+msgid "Enable administration menus"
+msgstr "පරිපාලක මෙනු සක්‍රිය කරන්න"
+
+#: wp-admin/network/settings.php:331
+msgid "Default Language"
+msgstr "සාමාන්‍ය භාෂාව"
+
+#: wp-admin/network/settings.php:328
+msgid "Language Settings"
+msgstr "භාෂා සැකසුම්"
+
+#: wp-admin/network/settings.php:317
+msgid "Size in kilobytes"
+msgstr "ප්‍රමාණය කිලෝබයිට් වලින්"
+
+#. translators: %s: File size in kilobytes
+#: wp-admin/network/settings.php:312
+msgid "%s KB"
+msgstr ""
+
+#: wp-admin/network/settings.php:307
+msgid "Max upload file size"
+msgstr "උඩුගත ගොනුවේ උපරිම ප්‍රමාණය"
+
+#: wp-admin/network/settings.php:301
+msgid "Allowed file types. Separate types by spaces."
+msgstr "ඉඩ ලබාදෙන ගොනු වර්ග. වර්ග හිස්තැන් මඟින් වෙන්කරන්න."
+
+#: wp-admin/network/settings.php:297
+msgid "Upload file types"
+msgstr "උඩුගත කළහැකි ගොනු වර්ග"
+
+#: wp-admin/network/settings.php:289
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "උඩුගතකළ ගොනු වල සම්පූර්ණ ප්‍රමාණය මෙගාබයිට් %s ට සීමා කරන්න."
+
+#: wp-admin/network/settings.php:287
+msgid "Site upload space"
+msgstr "අඩවි උඩුගත ඉඩකඩ"
+
+#: wp-admin/network/settings.php:284
+msgid "Upload Settings"
+msgstr "උපාංග උඩුගත කරන්න"
+
+#: wp-admin/network/settings.php:279
+msgid "The URL for the first comment on a new site."
+msgstr "නව අඩවියක පළමු ප්‍රතිචාරය සඳහා යොමුව."
+
+#: wp-admin/network/settings.php:275
+msgid "First Comment URL"
+msgstr "පළමු ප්‍රතිචාර යොමුව"
+
+#: wp-admin/network/settings.php:270
+msgid "The email address of the first comment author on a new site."
+msgstr ""
+
+#: wp-admin/network/settings.php:266
+msgid "First Comment Email"
+msgstr ""
+
+#: wp-admin/network/settings.php:261
+msgid "The author of the first comment on a new site."
+msgstr "නව අඩවියක පළමු ප්‍රතිචාරයේ කර්තෘ."
+
+#: wp-admin/network/settings.php:257
+msgid "First Comment Author"
+msgstr "පළමු ප්‍රතිචාර කර්තෘ"
+
+#: wp-admin/network/settings.php:252
+msgid "The first comment on a new site."
+msgstr "නව අඩවියක පළමු ප්‍රතිචාරය."
+
+#: wp-admin/network/settings.php:247
+msgid "First Comment"
+msgstr "පළමු ප්‍රතිචාරය"
+
+#: wp-admin/network/settings.php:242
+msgid "The first page on a new site."
+msgstr "නව අඩවියක පළමු පිටුව."
+
+#: wp-admin/network/settings.php:237
+msgid "First Page"
+msgstr "පළමු පිටුව"
+
+#: wp-admin/network/settings.php:232
+msgid "The first post on a new site."
+msgstr "නව අඩවියක පළමු ලිපිය."
+
+#: wp-admin/network/settings.php:222
+msgid "The welcome email sent to new users."
+msgstr "නව පරිශීලකයින්ට පිළිගැනීමේ විද්‍යුත් ලිපි යවන ලදී."
+
+#: wp-admin/network/settings.php:217
+msgid "Welcome User Email"
+msgstr "පරිශීලක පිළිගැනීමේ වි-තැපෑල"
+
+#: wp-admin/network/settings.php:212
+msgid "The welcome email sent to new site owners."
+msgstr "නව අඩවි හිමිකරුවන් වෙත පිළිගැනීමේ විද්‍යුත් ලිපිය යැවුවා."
+
+#: wp-admin/network/settings.php:207
+msgid "Welcome Email"
+msgstr "පිළිගැනීමේ වි-තැපෑල"
+
+#: wp-admin/network/settings.php:203
+msgid "New Site Settings"
+msgstr "නව අඩවි උපාංග"
+
+#: wp-admin/network/settings.php:197
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "ඔබට යම් යම් වසම් වලින් අඩවි ලියාපදිංචිවීම් ඉවත් කිරීමට අවශ්‍ය නම්. පේලියකට එක් වසම බැගින්."
+
+#: wp-admin/network/settings.php:192
+msgid "Banned Email Domains"
+msgstr "ප්‍රතික්ෂේපිත වි-තැපැල් වසම්"
+
+#: wp-admin/network/settings.php:186
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "ඔබට යම් යම් වසම් වල සිදුවන අඩවි ලියාපදිංචිවීම් ප්‍රමාණය සීමා කිරීමට අවශ්‍ය නම්. පේලියකට එක් වසම බැගින්."
+
+#: wp-admin/network/settings.php:179
+msgid "Limited Email Registrations"
+msgstr "සීමිත වි-තැපැල් ලියාපදිංචිවීම්"
+
+#: wp-admin/network/settings.php:173
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "පරිශීලකයන් හට මෙම අඩවි ලියාපදිංචියට අවසර නොමැත. හිස්තැන් යොදා නම් වෙන්කරන්න."
+
+#: wp-admin/network/settings.php:169
+msgid "Banned Names"
+msgstr "ප්‍රතික්ෂේපිත නම්"
+
+#: wp-admin/network/settings.php:164
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "අඩවි පරිපාලකයින් හට \"පරිශීලකයින්&rarr; අලුතින් එක්කරන්න\" හරහා ඔවුන්ගේ අඩවියට නව පරිශීලකයන් එක්කරන්න ඉඩදෙන්න."
+
+#: wp-admin/network/settings.php:162
+msgid "Add New Users"
+msgstr "නව පරිශීලකයන් එක්කරන්න"
+
+#: wp-admin/network/settings.php:157
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "යම් කෙනෙක් අඩවියක් හෝ පරිශීලක ගිණුමක් ලියාපදිංචි කළ සැණින් ජාල පරිපාලක වෙත විද්‍යුත් ලිපියක් යවන්න."
+
+#: wp-admin/network/settings.php:151
+msgid "Registration notification"
+msgstr "ලියාපදිංචිවීම් දැනුම්දීම"
+
+#. translators: 1: NOBLOGREDIRECT 2: wp-config.php
+#: wp-admin/network/settings.php:140
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr ""
+
+#: wp-admin/network/settings.php:136
+msgid "Both sites and user accounts can be registered."
+msgstr "අඩවි සහ පරිශීලක ගිණුම් යන දෙකොටසම ලියාපදිංචි කළ හැක."
+
+#: wp-admin/network/settings.php:135
+msgid "Logged in users may register new sites."
+msgstr "ඇතුල්වූ සාමාජිකයන්ට නව අඩවි ලියාපදිංචි කළ හැක."
+
+#: wp-admin/network/settings.php:134
+msgid "User accounts may be registered."
+msgstr "පරිශීලක ගිණුම් ලියාපදිංචි කළ හැක."
+
+#: wp-admin/network/settings.php:133
+msgid "Registration is disabled."
+msgstr "ලියාපදිංචිය අක්‍රිය කර ඇත."
+
+#: wp-admin/network/settings.php:132
+msgid "New registrations settings"
+msgstr "නව ලියාපදිංචි සැකසුම්"
+
+#: wp-admin/network/settings.php:124
+msgid "Allow new registrations"
+msgstr "නව ලියාපදිංචිවීම් වලට ඉඩ දෙන්න"
+
+#: wp-admin/network/settings.php:121
+msgid "Registration Settings"
+msgstr "ලියාපදිංචිවීම් මෙහෙයුම්"
+
+#: wp-admin/network/settings.php:116
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "මෙම වි-තැපැල් ලිපිනය වෙත දැනුම්දීම් ලැබේවි. ලියාපදිංචිවීම් සහ උපකාරක වි-ලිපි ද මෙම ලිපිනයෙන්ම පැමිණේවි."
+
+#: wp-admin/network/settings.php:102
+msgid "Operational Settings"
+msgstr "මෙහෙයුම් උපාංග"
+
+#: wp-admin/network/settings.php:40
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Documentation on Network Settings</a>"
+msgstr ""
+
+#: wp-admin/network/settings.php:35
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr ""
+
+#: wp-admin/network/settings.php:34
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr ""
+
+#: wp-admin/network/settings.php:32
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr ""
+
+#: wp-admin/network/settings.php:31
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr ""
+
+#: wp-admin/network/settings.php:30
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr ""
+
+#: wp-admin/network/settings.php:29
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr ""
+
+#: wp-admin/network/settings.php:28
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr ""
+
+#: wp-admin/network/menu.php:55 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "ජාල සැකසුම්"
+
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:250
+msgctxt "theme"
+msgid "Add New"
+msgstr "අලුතින් එක්කරන්න"
+
+#: wp-admin/network/menu.php:40
+msgid "Installed Themes"
+msgstr "ස්ථාපිත තේමා"
+
+#: wp-admin/network/menu.php:36
+msgid "Themes %s"
+msgstr "තේමා %s"
+
+#: wp-admin/network/menu.php:28
+msgid "All Sites"
+msgstr "සියලු අඩවි"
+
+#: wp-admin/network/menu.php:22 wp-admin/network/upgrade.php:15
+#: wp-admin/network/upgrade.php:39 wp-admin/network/upgrade.php:130
+msgid "Upgrade Network"
+msgstr "ජාලය උත්ශ්‍රේණි කරන්න"
+
+#: wp-admin/network/menu.php:19
+msgid "Updates"
+msgstr "යාවත්කාලීන වීම්"
+
+#: wp-admin/network/index.php:51 wp-admin/network/site-info.php:31
+#: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:30
+#: wp-admin/network/site-themes.php:30 wp-admin/network/site-users.php:33
+#: wp-admin/network/sites.php:43 wp-admin/network/user-new.php:27
+#: wp-admin/network/users.php:180
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\">Support Forums</a>"
+msgstr ""
+
+#: wp-admin/network/index.php:50
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\">Documentation on the Network Admin</a>"
+msgstr ""
+
+#: wp-admin/network/index.php:44
+msgid "Quick Tasks"
+msgstr "ක්ෂණික කටයුතු"
+
+#: wp-admin/network/index.php:40
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "අඩවියක් සෙවීමට, <strong>මාර්ගය හෝ වසම ඇතුල්කරන්න</strong>."
+
+#: wp-admin/network/index.php:39
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "පරිශීලකයෙක් සෙවීමට, <strong>වි-තැපැල් ලිපිනය හෝ පරිශීලක නාම ඇතුල් කරන්න</strong>. ආංශික පරිශීලක නාමයක් සෙවීමට, පරිශීලකයා&#42; වැනි වයිල්ඩ්කාඩ් එකක් භාවිත කරන්න."
+
+#: wp-admin/network/index.php:38
+msgid "To search for a user or site, use the search boxes."
+msgstr "අඩවියක් හෝ පරිශීලකයෙක් සෙවීමට, සෙවුම් කොටු භාවිත කරන්න."
+
+#: wp-admin/network/index.php:37
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "නව අඩවියක් එක්කිරීමට, <strong>නව අඩවියක් සාදන්න ක්ලික් කරන්න</strong>."
+
+#: wp-admin/network/index.php:36
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "නව පරිශීලකයෙක් එක්කිරීමට, <strong>නව පරිශීලකයෙක් සාදන්න ක්ලික් කරන්න</strong>."
+
+#: wp-admin/network/index.php:35
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "මෙම තිරයේ ඇති 'මේ දැන්' විජට්ටුව, ඔබේ ජාලයේ ඇති වත්මන් පරිශීලකයන් ගණන සහ අඩවි ගණන ලබාදෙයි."
+
+#: wp-admin/network/index.php:27
+msgid "Modify global network settings"
+msgstr "විශ්වීය ජාල සැකසුම් අලුත් කරන්න"
+
+#: wp-admin/network/index.php:26
+msgid "Update your network"
+msgstr "ඔබේ ජාලය යාවත්කාලීන කරන්න"
+
+#: wp-admin/network/index.php:25
+msgid "Install and activate themes or plugins"
+msgstr "තේමා හෝ ප්ලගින ස්ථාපනය කර සක්‍රිය කරන්න"
+
+#: wp-admin/network/index.php:24
+msgid "Add and manage sites or users"
+msgstr "අඩවි හෝ පරිශීලකයන් එක්කිරීම සහ කළමනාකරණය"
+
+#: wp-admin/network/index.php:23
+msgid "From here you can:"
+msgstr "මෙහිදී ඔබට පුළුවන්:"
+
+#: wp-admin/network/index.php:22
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "ඔබේ ජාල පරිපාලකය වෙත සාදරයෙන් පිළිගනිමු. මෙම පරිපාලන තිරය භාවිතා වන්නේ ඔබේ බහුඅඩවි ජාලයේ සියලු අංශ කළමනාකරණය සඳහා ය."
+
+#: wp-admin/includes/network.php:594
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "ඔබ මෙම පියවර කිහිපය සම්පූර්ණ කළ පසු, ඔබේ ජාලය සක්‍රිය වී සහ පිළියෙල වී ඇත. ඔබට නැවත ඇතුල්වීමට සිදුවේවි."
+
+#. translators: 1: a filename like .htaccess. 2: a file path.
+#: wp-admin/includes/network.php:539 wp-admin/includes/network.php:579
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "පහත ඒවා %2$sහි ඇති ඔබේ %1$s ගොනුවට ඇතුලත් කරන්න, අනෙකුත් WordPress නීති <strong>ප්‍රතිස්ථාපනය</strong> කරමින්:"
+
+#: wp-admin/includes/network.php:475
+msgid "To make your installation more secure, you should also add:"
+msgstr "ඔබේ ස්ථාපනය වඩා සුරක්ෂිත කරගැනීමට, මේවා ද එක්කරගන්න:"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:470
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr ""
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:464
+msgid "This unique authentication key is also missing from your %s file."
+msgstr ""
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:427
+msgid "That&#8217;s all, stop editing! Happy blogging."
+msgstr ""
+
+#. translators: 1: wp-config.php 2: location of wp-config file, 3: translated
+#. version of "That's all, stop editing! Happy blogging."
+#: wp-admin/includes/network.php:419
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr ""
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:408
+msgid "We recommend you back up your existing %s file."
+msgstr ""
+
+#. translators: 1: wp-config.php 2: .htaccess
+#. translators: 1: wp-config.php 2: web.config
+#: wp-admin/includes/network.php:392 wp-admin/includes/network.php:400
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr ""
+
+#: wp-admin/includes/network.php:386
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "අඩවි ජාලයක් සැදීමේ පහසුකම් සක්‍රිය කරගැනීමට පහත පියවරවල් සම්පූර්ණ කරන්න. "
+
+#: wp-admin/includes/network.php:385
+msgid "Enabling the Network"
+msgstr "ජාලය සක්‍රිය කරමින්"
+
+#: wp-admin/includes/network.php:374
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "කරුණාකර පිළියෙලකිරීමේ පියවර සම්පූර්ණ කරන්න. නව ජාලයක් සෑදීමට, ඔබට දත්තගබඩා වගු හිස් කිරීමට හෝ ඉවත්කිරීමට සිදුවේවි."
+
+#: wp-admin/includes/network.php:373
+msgid "An existing WordPress network was detected."
+msgstr "පවතින WordPress ජාලයක් හඳුනා ගන්නා ලදී."
+
+#: wp-admin/includes/network.php:368
+msgid "The original configuration steps are shown here for reference."
+msgstr "සැකසුම් පියවරවල මුල් පිටපත්, අධ්‍යනය සඳහා මෙහි දක්වා ඇත."
+
+#: wp-admin/includes/network.php:317
+msgid "Your email address."
+msgstr "ඔබේ වි-තැපැල් ලිපිනය."
+
+#: wp-admin/includes/network.php:313 wp-admin/network/settings.php:112
+msgid "Network Admin Email"
+msgstr "ජාල පරිපාලක වි-තැපෑල"
+
+#: wp-admin/includes/network.php:308
+msgid "What would you like to call your network?"
+msgstr "ඔබ ඔබේ ජාලය හැඳින්වීමට කැමති නම කුමක්ද?"
+
+#: wp-admin/includes/network.php:304 wp-admin/network/settings.php:105
+msgid "Network Title"
+msgstr "ජාල මාතෘකාව"
+
+#: wp-admin/includes/network.php:286
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "ඔබේ ස්ථාපනය අලුත් නොවන බැවින්, ඔබේ WordPress ජාලයේ ඇති අඩවි සහවසම් භාවිතා කළ යුතුමය."
+
+#: wp-admin/includes/network.php:285
+msgid "Sub-domain Install"
+msgstr "සහවසම ස්ථාපනය"
+
+#: wp-admin/includes/network.php:277
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "ඔබේ ස්ථාපනය නාමාවලියක පවතින නිසා, ඔබේ WordPress ජාලයේ ඇති අඩවි භාවිත කළයුත්තේ උපනාමාවලීන් ය."
+
+#: wp-admin/includes/network.php:270 wp-admin/includes/network.php:280
+#: wp-admin/includes/network.php:287
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "උපනාමාවලි ස්ථාපනයක ඇති ප්‍රධාන අඩවියට, පවතින සබැඳි බලෙන්ම බිඳ දමමින්, වෙනස් කරන ලද තිරසබැඳි ආකෘතියක් භාවිතා කිරීමට සිදුවේවි."
+
+#. translators: 1: localhost 2: localhost.localdomain
+#: wp-admin/includes/network.php:264
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr ""
+
+#: wp-admin/includes/network.php:260 wp-admin/includes/network.php:275
+msgid "Sub-directory Install"
+msgstr "උපනාමාවලි ස්ථාපනය"
+
+#: wp-admin/includes/network.php:256
+msgid "Network Details"
+msgstr "ජාල තොරතුරු"
+
+#. translators: %s: host name
+#: wp-admin/includes/network.php:248 wp-admin/includes/network.php:297
+msgid "The internet address of your network will be %s."
+msgstr ""
+
+#. translators: 1: site url 2: host name 3. www
+#: wp-admin/includes/network.php:237
+msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr ""
+
+#: wp-admin/includes/network.php:234 wp-admin/includes/network.php:244
+#: wp-admin/includes/network.php:293
+msgid "Server Address"
+msgstr "සර්වර ලිපිනය"
+
+#: wp-admin/includes/network.php:229 wp-admin/includes/network.php:545
+#: wp-admin/includes/network.php:585
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "උපනාමාවලි ජාල ඇතැම්විට ස්වකීය wp-content නාමාවලි සමඟ පූර්ණ ලෙස අනුකූල නොවිය හැක."
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:219
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "<code>%1$s/site1</code> සහ <code>%1$s/site2</code>ට කැමති වන්න"
+
+#: wp-admin/includes/network.php:216
+msgid "Sub-directories"
+msgstr "උප නාමාවලි"
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:211
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "<code>site1.%1$s</code> සහ <code>site2.%1$s</code> වැනි"
+
+#: wp-admin/includes/network.php:208
+msgid "Sub-domains"
+msgstr "සහවසම්"
+
+#: wp-admin/includes/network.php:204
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr ""
+
+#: wp-admin/includes/network.php:203
+msgid "You cannot change this later."
+msgstr "ඔබට මෙය පසුව වෙනස් කළ නොහැක."
+
+#: wp-admin/includes/network.php:202
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr ""
+
+#: wp-admin/includes/network.php:201
+msgid "Addresses of Sites in your Network"
+msgstr "ඔබේ ජාලයේ ඇති අඩවි වල ලිපින"
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite
+#: wp-admin/includes/network.php:191
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr ""
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:182
+msgid "It looks like the Apache %s module is not installed."
+msgstr ""
+
+#: wp-admin/includes/network.php:180 wp-admin/includes/network.php:229
+#: wp-admin/includes/network.php:270 wp-admin/includes/network.php:280
+msgid "Warning!"
+msgstr "අවවාදයයි!"
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:175
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr ""
+
+#: wp-admin/includes/network.php:161
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr ""
+
+#: wp-admin/includes/network.php:160
+msgid "Welcome to the Network installation process!"
+msgstr "ජාල ස්ථාපන ක්‍රියාවලිය වෙත සාදරයෙන් පිළිගනිමු!"
+
+#. translators: %s: Default network name
+#: wp-admin/includes/network.php:151
+msgid "%s Sites"
+msgstr ""
+
+#: wp-admin/includes/network.php:140
+msgid "ERROR: The network could not be created."
+msgstr "දෝෂයක්: ජාලය සාදාගත නොහැකි විය."
+
+#: wp-admin/includes/network.php:128
+msgid "Return to Dashboard"
+msgstr "ආපසු පාලක පුවරුව වෙත"
+
+#. translators: %s: port number
+#: wp-admin/includes/network.php:125
+msgid "You cannot use port numbers such as %s."
+msgstr ""
+
+#: wp-admin/includes/network.php:122
+msgid "You cannot install a network of sites with your server address."
+msgstr "ඔබට ඔබේ සර්වර ලිපිනය මඟින් අඩවි ජාලයක් ස්ථාපනය කළ නොහැක."
+
+#: wp-admin/includes/network.php:113
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "ජාලය සෑදු පසු, ඔබේ ප්ලගින යලි සක්‍රිය කරන්න."
+
+#: wp-admin/includes/network.php:113
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "ජාල පහසුකම සක්‍රිය කිරීමට ප්‍රථමයෙන් කරුණාකර <a href=\"%s\">ඔබේ ප්ලගින අක්‍රිය කරන්න</a>."
+
+#: wp-admin/includes/network.php:113 wp-admin/includes/network.php:373
+#: wp-admin/includes/network.php:545 wp-admin/includes/network.php:585
+msgid "Warning:"
+msgstr "අවවාදයයි:"
+
+#: wp-admin/includes/network.php:105
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "ජාලයක් සැදීමේදී DO_NOT_UPGRADE_GLOBAL_TABLES නියතය අර්ථ දැක්විය නොහැක."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:171
+msgctxt "user"
+msgid "Registered"
+msgstr "ලියාපදිංචි වුණු"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:142
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "සුපිරි පරිපාලක <span class=\"count\">(%s)</span>"
+msgstr[1] "සුපිරි පරිපාලකවරු <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:114
+msgctxt "user"
+msgid "Not Spam"
+msgstr "කරදර නොවේ"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:113
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:573
+msgid "Visit Theme Site"
+msgstr "තේමා අඩවියට පිවිසෙන්න"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:568
+msgid "Visit %s homepage"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:541
+msgid "Broken Theme:"
+msgstr "බිඳුනු තේමාව:"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:476
+msgctxt "theme"
+msgid "Delete %s"
+msgstr "මැකීම %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:457
+msgid "Open %s in the Theme Editor"
+msgstr ""
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:441
+msgid "Network Disable %s"
+msgstr ""
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:438
+msgid "Disable %s"
+msgstr ""
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:419
+msgid "Network Enable %s"
+msgstr ""
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:416
+msgid "Enable %s"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:335
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:447
+msgid "Network Disable"
+msgstr "ජාල අක්‍රිය කිරීම"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:335
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:447
+msgid "Disable"
+msgstr "අක්‍රිය කරන්න"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:333
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:425
+msgid "Enable"
+msgstr "සක්‍රිය කරන්න"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:302
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:296
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> අක්‍රීය කළා"
+msgstr[1] "<span class=\"count\">(%s)</span> අක්‍රීය කළා"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:293
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "සක්‍රියයි <span class=\"count\">(%s)</span>"
+msgstr[1] "සක්‍රියයි <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:290
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:247
+msgid "Theme"
+msgstr "තේමාව"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:236
+msgid "You do not appear to have any themes available at this time."
+msgstr "දැනට නම් ඔබ සතුව කිසිදු තේමාවක් ඇති බවක් නොපෙනේ."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:234
+msgid "No themes found."
+msgstr "කිසිදු තේමාවක් හමුනොවුණි."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:531
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "ගොනුගත කරන්න"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:529
+msgid "Unarchive"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:360
+msgid "Never"
+msgstr "කිසිදාක එපා"
+
+#. translators: 1: site name, 2: site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:334
+msgid "%1$s &#8211; %2$s"
+msgstr ""
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:231
+#: wp-admin/network/site-info.php:177
+msgctxt "site"
+msgid "Registered"
+msgstr "ලියාපදිංචි වුණු"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:230
+#: wp-admin/network/site-info.php:181
+msgid "Last Updated"
+msgstr "අවසන් යාවත්කාලීනවීම"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:204
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:535
+msgctxt "site"
+msgid "Not Spam"
+msgstr "ස්පෑම් නොවේ"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:203
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "කරදර ලෙස සටහන් කරන්න"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:192
+msgid "No sites found."
+msgstr "අඩවි හමු නොවුණි."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:44
+#: wp-admin/network/site-info.php:191
+msgid "Mature"
+msgstr "පරිණත"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:43
+#: wp-admin/network/site-info.php:189
+msgid "Deleted"
+msgstr "ඉවත් කළ"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:537
+#: wp-admin/network/site-info.php:188
+msgctxt "site"
+msgid "Spam"
+msgstr "ස්පෑම්"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:187
+msgid "Archived"
+msgstr "ලේඛනගත කළ"

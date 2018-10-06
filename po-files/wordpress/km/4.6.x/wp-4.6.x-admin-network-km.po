@@ -1,0 +1,1380 @@
+# Translation of WordPress - 4.6.x - Administration - Network Admin in Khmer
+# This file is distributed under the same license as the WordPress - 4.6.x - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-11 13:44:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: km_KH\n"
+"Project-Id-Version: WordPress - 4.6.x - Administration - Network Admin\n"
+
+#: wp-admin/network.php:71
+msgid "Network"
+msgstr "បណ្ដាញ"
+
+#: wp-admin/network.php:67 wp-admin/network.php:78
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">កម្រង​អត្ថបទ​ស្ដី​អំពី ទំព័រ​បណ្ដាញ</a>"
+
+#: wp-admin/network.php:66 wp-admin/network.php:77
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">កម្រង​អត្ថបទ​ស្ដី​អំពី​ការ​បង្កើត​បណ្ដាញ</a>"
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr ""
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr ""
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr ""
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr ""
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr ""
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr ""
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "បង្កើតបណ្ដាញ នៃវេបសាយ WordPress"
+
+#. translators: 1: WP_ALLOW_MULTISITE 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "អ្នកត្រូវតែកំណត់ %1$s មិនប្រែប្រួលជាការពិតនៅក្នុងឯកសារ %2$s របស់អ្នក ដើម្បីអនុញ្ញាតឱ្យបង្កើតបណ្តាញមួយ។"
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "បន្ទះបណ្ដាញ គឺមិនមានសម្រាប់បណ្ដាញWordPress MUទេ។"
+
+#: wp-admin/network/users.php:198
+msgid "Users deleted."
+msgstr "បាន​លុប​អ្នក​ប្រើ។"
+
+#: wp-admin/network/users.php:195
+msgid "Users removed from spam."
+msgstr "បានដក​អ្នក​ប្រើ​ចេញ​ពី​ស្ប៉ាម។"
+
+#: wp-admin/network/users.php:192
+msgid "Users marked as spam."
+msgstr "អ្នកប្រើបានសម្គាល់ជាសារឥតបាន។"
+
+#: wp-admin/network/users.php:166
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "អ្នក​អាច​ផ្ដល់​សិទ្ធិ​គ្រប់គ្រង​កំពូល​ដល់​អ្នក​ប្រើ​ណា​ម្នាក់ ដោយ​ចូល​ទៅ​កាន់​ទំព័រ \"កែប្រែ​អ្នកប្រើ\" ហើយ​ធីក​ក្នុង​ប្រអប់ ដើម្បី​ផ្ដល់​សិទ្ធិ​នោះ។"
+
+#: wp-admin/network/users.php:165
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr ""
+
+#: wp-admin/network/users.php:164
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr "អ្នកអាចតម្រៀបតារាង ដោយការចុចលើមួយណានៃក្បាលតារាង​ និងប្ដូររវាងបញ្ជីនឹង មើលសេចក្ដីដកស្រង់ ដោយការប្រើអាយខនខាងលើក្នុងបញ្ជីរបស់អ្នកប្រើ។"
+
+#: wp-admin/network/users.php:163
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "អ្នកអាចចូលទៅកាន់ ទំព័រទម្រង់ពត៌មានរបស់អ្នកប្រើ ដោយចុចលើឈ្មោះបុគ្គលអ្នកប្រើនោះ។"
+
+#: wp-admin/network/users.php:162
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "ដាក់​ចង្អុល​លើ​អ្នក​ប្រើ​ណា​ម្នាក់​ក្នុង​បញ្ជី ដើម្បី​ឲ្យ​តំណ​កែប្រែ​បង្ហាញ​ឡើយ។ តំណ​កែប្រែ​ដែល​ស្ថិត​នៅ​ខាង​ឆ្វេង​នឹង​នាំ​អ្នក​ទៅ​ទំព័រ​កែប្រែ​ព័ត៌មាន​របស់​អ្នក​ប្រើប្រាស់។ ចំណែក​តំណ​ដែល​ស្ថិត​នៅ​ខាង​ស្ដាំ​ឈ្មោះ​វេបសាយ នឹង​នាំ​ទៅ​ទំព័រ​កែប្រែ​ព័ត៌មាន​សម្រាប់​វេបសាយ​នោះ។"
+
+#: wp-admin/network/users.php:161
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "តារាងនេះបង្ហាញគ្រប់អ្នកប្រើទាំងអស់នៅទូទាំងបណ្តាញ នឹងវេបសាយដែលពួកគេបានកំណត់។"
+
+#: wp-admin/network/users.php:73
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "ការ​ព្រមាន! មិន​អាច​កែប្រែ​អ្នកប្រើ​នេះ​ទេ។ អ្នក​ប្រើ %s គឺ​ជា​អ្នក​គ្រប់គ្រង​បណ្ដាញ។"
+
+#. translators: %s: edit page url
+#: wp-admin/network/user-new.php:83
+msgid "User added. <a href=\"%s\">Edit user</a>"
+msgstr "បន្ថែមអ្នកប្រើ។ <a href=\"%s\">កែអ្នកប្រើ</a>"
+
+#: wp-admin/network/user-new.php:52
+msgid "Cannot add user."
+msgstr "មិន​អាច​បន្ថែម​អ្នក​ប្រើ។"
+
+#: wp-admin/network/user-new.php:40
+msgid "Cannot create an empty user."
+msgstr "មិន​អាច​បង្កើត​អ្នក​ប្រើ​ទទេឡើយ។"
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:171
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">ឯកសារស្តីពីអ្នកប្រើបណ្តាញនេះ</a>"
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr ""
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "\"បន្ថែម​អ្នក​ប្រើ\" នឹង​​រៀបចំ​គណនី​អ្នក​ប្រើ​ថ្មី​លើ​បណ្ដាញ ហើយ​ផ្ញើ​ពាក្យ​សម្ងាត់​និង​ឈ្មោះ​អ្នក​ប្រើ​ឲ្យ​អ្នក​ប្រើ​ម្នាក់​នោះ។"
+
+#: wp-admin/network/upgrade.php:119
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress ត្រូវ​បាន​ធ្វើ​បច្ចុប្បន្នភាព! មុន​ពេល​យើង​ផ្ញើ​ឲ្យ​អ្នក​, យើង​ត្រូវ​ធ្វើ​បច្ចុប្បន្នភាពវេបសាយក្នុង​បណ្ដាញ​របស់​អ្នក។"
+
+#: wp-admin/network/upgrade.php:104
+msgid "Next Sites"
+msgstr "វេបសាយ​បន្ទាប់"
+
+#: wp-admin/network/upgrade.php:104
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "ប្រសិន​បើ​កម្មវិធី​បើក​អ៊ីនធឺណិត​របស់​អ្នក​មិន​ចាប់​ផ្ដើម​ផ្ទុក​ទំព័រ​បន្ទាប់​ដោយ​ស្វ័យ​ប្រវត្តិ​ទេ​នោះ អ្នក​អាច​ចុច​តំណ​នេះ៖"
+
+#. translators: 1: site url, 2: server error message
+#: wp-admin/network/upgrade.php:80
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "បម្រាប់ ! ការធ្វើបច្ចុប្បន្នភាព %1$s មានបញ្ហា។ ម៉ាស៊ីនបម្រើរបស់អ្នក មិនត្រូវបានភ្ជាប់ទៅកាន់វេបសាយដែលកំពុងដំនើរការលើវាទេ។ សារកំហុស៖ %2$s"
+
+#: wp-admin/network/upgrade.php:60
+msgid "All done!"
+msgstr "រួចរាល់​ហើយ!"
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">កម្រង​អត្ថបទ​ស្ដី​អំពី​ការ​ធ្វើ​បណ្ដាញ​ឲ្យ​ប្រសើរ​ឡើង</a>"
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "ប្រសិនបើដំណើរការនេះបានបរាជ័យសម្រាប់ហេតុផលណាមួយ, អ្នកប្រើឡុកចូលទៅក្នុងវេបសាយរបស់ខ្លួននឹងមានសិទ្ធិ ធ្វើបច្ចុប្បន្នភាពមួយចំនួន។"
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "ប្រសិនបើការធ្វើបច្ចុប្បន្នភាពជំនាន់ ដើម្បីស្នូលមិនបានកើតឡើង ចុចប៊ូតុងនេះ និងមិនប៉ះពាល់ដល់អ្វីគ្រប់យ៉ាង។"
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr ""
+
+#: wp-admin/network/themes.php:275
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "មិន​អាច​លុប​រូបរាង ខណៈ​ពេល​វា​សកម្ម​នៅ​លើ​តំបន់​បណ្ដាញ​ចម្បង។"
+
+#: wp-admin/network/themes.php:269
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "រូបរាង %s ត្រូវបានលុប។"
+
+#: wp-admin/network/themes.php:224
+msgid "Themes list navigation"
+msgstr "រុករកបញ្ជី​ រូបរាង"
+
+#: wp-admin/network/themes.php:218
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">កម្រង​អត្ថបទ​ស្ដី​អំពី រូបរាង​បណ្ដាញ</a>"
+
+#: wp-admin/network/themes.php:213
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr ""
+
+#: wp-admin/network/themes.php:212
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr ""
+
+#: wp-admin/network/themes.php:211
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "អេក្រង់នេះ បើកនិងបិទ ត្រូវបានដាក់បញ្ជូលរូបរាងដែលអាចប្រើបាន ដើម្បីជ្រើសរើសក្នុងបញ្ជីទិដ្ឋភាពសម្រាប់វេបសាយនេះ។ វាមិនត្រូវបានសកម្ម ឬអសកម្មនៅពេលមួយដែលរូបរាងវេបសាយបានប្រើប្រាស់ពេលបច្ចុប្បន្ន។"
+
+#: wp-admin/network/themes.php:174
+msgid "No, return me to the theme list"
+msgstr "ទេ, ប្រគល់មកខ្ញុំវិញនូវបញ្ជី រូបរាង"
+
+#: wp-admin/network/themes.php:166
+msgid "Yes, delete these themes"
+msgstr "បាទ, លុបវេបសាយនេះ"
+
+#: wp-admin/network/themes.php:164
+msgid "Yes, delete this theme"
+msgstr "បាទ, លុប​រូបរាង​​នេះ"
+
+#: wp-admin/network/themes.php:151
+msgid "Are you sure you wish to delete these themes?"
+msgstr "តើ​អ្នក​ពិត​ជា​ចង់​លុប​រូបរាង​ទាំង​នេះ​ឬ?"
+
+#: wp-admin/network/themes.php:149
+msgid "Are you sure you wish to delete this theme?"
+msgstr "តើអ្នកពិតជា ចង់លុបរូបរាងនេះឬ?"
+
+#. translators: 1: theme name, 2: theme author
+#: wp-admin/network/themes.php:141
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%1$s ដោយ%2$s"
+
+#: wp-admin/network/themes.php:134
+msgid "You are about to remove the following themes:"
+msgstr "អ្នកប្រហែលជាត្រូវយករូបរាងចេញតាមលំនាំខាងក្រាម៖ "
+
+#: wp-admin/network/themes.php:133
+msgid "These themes may be active on other sites in the network."
+msgstr "រូបរាងទាំងនេះ អាចនឹងត្រូវបានសកម្មនៅលើ វេបសាយផ្សេងទៀតក្នុង បណ្តាញ។"
+
+#: wp-admin/network/themes.php:132
+msgid "Delete Themes"
+msgstr "លុបរូបរាង"
+
+#: wp-admin/network/themes.php:130
+msgid "You are about to remove the following theme:"
+msgstr "អ្នក​កំពុង​តែ​រៀបចំ​លុប​រូបរាង​ទាំង​នេះ៖"
+
+#: wp-admin/network/themes.php:129
+msgid "This theme may be active on other sites in the network."
+msgstr "រូបរាង​ទាំង​នេះ​អាច​មាន​ដំណើរការ​នៅ​លើ​វេបសាយ​ខ្លះ​នៅ​ក្នុង​បណ្ដាញ។"
+
+#: wp-admin/network/themes.php:128
+msgid "Delete Theme"
+msgstr "លុប​រូបរាង"
+
+#: wp-admin/network/themes.php:93
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "សុំទោស, អ្នកមិនត្រូវបានអនុញ្ញាតឲ្យលុបរូបរាង សម្រាប់វរបសាយនេះទេ។"
+
+#: wp-admin/network/themes.php:17
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "សុំទោស, អ្នកមិនត្រូវបានអនុញ្ញាតឲ្យគ្រប់គ្រងបណ្ដាញរូបរាងនេះទេ។"
+
+#: wp-admin/network/sites.php:258
+msgid "Site marked as spam."
+msgstr "បាន​ចំណាំ​វេបសាយ​ថា​ជា​ស្ប៉ាម។"
+
+#: wp-admin/network/sites.php:255
+msgid "Site removed from spam."
+msgstr "បាន​ដក​វេបសាយ​ចេញ​ពី​ស្ប៉ាម។"
+
+#: wp-admin/network/sites.php:252
+msgid "Site deactivated."
+msgstr "បាន​បិទ​ដំណើរការ​វេបសាយ។"
+
+#: wp-admin/network/sites.php:249
+msgid "Site activated."
+msgstr "បាន​ធ្វើ​ឲ្យ​វេបសាយ​សកម្ម។"
+
+#: wp-admin/network/sites.php:246
+msgid "Site unarchived."
+msgstr "វេបសាយ​មិនមែនបណ្ណាសារ។"
+
+#: wp-admin/network/sites.php:243
+msgid "Site archived."
+msgstr "វេបសាយ បណ្ណាសារ"
+
+#: wp-admin/network/sites.php:240
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "សុំទោស, អ្នកមិនត្រូវបានអនុញ្ញាតឲ្យលុប វេបសាយនេះទេ។"
+
+#: wp-admin/network/sites.php:237
+msgid "Site deleted."
+msgstr "បាន​លុប​វេបសាយ។"
+
+#: wp-admin/network/sites.php:234
+msgid "Sites deleted."
+msgstr "វេបសាយ បានលុប។"
+
+#: wp-admin/network/sites.php:231
+msgid "Sites marked as spam."
+msgstr "បាន​ចំណាំ​វេបសាយ​ថា​ជា​ស្ប៉ាម។"
+
+#: wp-admin/network/sites.php:228
+msgid "Sites removed from spam."
+msgstr "បាន​ដក​វេបសាយ​ចេញ​ពី​ស្ប៉ាម។"
+
+#: wp-admin/network/sites.php:147
+msgid "Sorry, you are not allowed to delete the site."
+msgstr "សុំទោស, អ្នក​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​លុប ​វេបសាយ​ឡើយ។"
+
+#: wp-admin/network/sites.php:110
+msgid "Confirm"
+msgstr "បញ្ជាក់"
+
+#: wp-admin/network/sites.php:103
+msgid "Confirm your action"
+msgstr "បញ្ជាក់​សកម្មភាព​របស់​អ្នក"
+
+#: wp-admin/network/sites.php:94 wp-admin/network/sites.php:160
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "សុំទោស, អ្នក​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​ផ្លាស់ប្ដូរ​វេបសាយបច្ចុប្បន្ន​ទេ។"
+
+#: wp-admin/network/sites.php:78
+msgid "The requested action is not valid."
+msgstr "សកម្មភាពដែលបានស្នើ មិនត្រឹមត្រូវ។"
+
+#: wp-admin/network/sites.php:70
+msgid "You are about to mark the site %s as not mature."
+msgstr "អ្នក រៀបនឹងសម្គាល់វេបសាយ %s ថាមិនទាន់ចាស់ទុំ។"
+
+#: wp-admin/network/sites.php:69
+msgid "You are about to mark the site %s as mature."
+msgstr "អ្នក រៀបនឹងសម្គាល់វេបសាយ %s ថាជាចាស់ទុំ។"
+
+#: wp-admin/network/sites.php:68
+msgid "You are about to delete the site %s."
+msgstr "អ្នក​រៀបនឹង​លុប​វេបសាយ %s ។"
+
+#: wp-admin/network/sites.php:67
+msgid "You are about to mark the site %s as spam."
+msgstr "អ្នក​រៀបនឹង​សម្គាល់​វេបសាយ %s ថា​ជា​ស្ប៉ាម។"
+
+#: wp-admin/network/sites.php:66
+msgid "You are about to unspam the site %s."
+msgstr "អ្នក​រៀបនឹង​ដក​វេបសាយ %s ចេញ​ពី​ស្ប៉ាម។"
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to archive the site %s."
+msgstr "អ្នក​រៀបនឹង​ដាក់​វេបសាយ %s ជា​បណ្ណសារ។"
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to unarchive the site %s."
+msgstr "អ្នក​រៀបនឹង​ដក​វេបសាយ %s ចេញ​ពី​បណ្ណសារ។"
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to deactivate the site %s."
+msgstr "អ្នក​រៀបនឹង​ ធ្វើឲ្យវេបសាយ %s អសកម្ម។"
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to activate the site %s."
+msgstr "អ្នក​រៀបនឹង ​ធ្វើឲ្យ​វេបសាយ %s សកម្ម។"
+
+#: wp-admin/network/sites.php:51
+msgid "Sites list"
+msgstr "បញ្ជី វេបសាយ"
+
+#: wp-admin/network/sites.php:50
+msgid "Sites list navigation"
+msgstr ""
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "ចុចលើក្បាលដិតអាច តម្រៀបតារាងនេះឡើងវិញ។"
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "លេខសំគាល់វេបសាយ គឺត្រូវប្រើនៅខាងក្នុង នឹងមិនអាចបង្ហាញ លើផ្នែកខាងមុខ ចុងបញ្ចប់នៃវេបសាយ ឬ​​ទៅអ្នកប្រើ/ អ្នកមើល។"
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the front-end site live."
+msgstr "សូមចូលទៅមើលវេបសាយខាងមុខចុងបំផុត​ ដោយផ្ទាល់។"
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "លុបអ្វីដែលជាសកម្មភាពអចិន្រ្តៃយ៍ ក្រោយពីអេក្រង់បញ្ជាក់។"
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr ""
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "ផ្ទាំងគ្រប់គ្រង ដឹកនាំទៅ ផ្ទាំងគ្រប់គ្រងសម្រាប់វេបសាយ។ "
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "កែតំណភ្ជាប់ ទៅដោយឡែកពីអេក្រង់កែវេបសាយ។"
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr ""
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr ""
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr ""
+
+#: wp-admin/network/site-users.php:321 wp-admin/network/user-new.php:120
+msgid "A password reset link will be sent to the user via email."
+msgstr "តំណស្ដារពាក្យសម្ងាត់ឡើងវិញ នឹងត្រូវបានផ្ញើទៅ អ្នកប្រើតាមរយៈ អ៊ីម៉ែល។"
+
+#: wp-admin/network/site-users.php:289 wp-admin/network/user-new.php:132
+msgid "Add User"
+msgstr "បន្ថែម​អ្នក​ប្រើ"
+
+#: wp-admin/network/site-users.php:244
+msgid "Duplicated username or email address."
+msgstr "ឈ្មោះ​អ្នក​ប្រើ​ឬ​ក៏​អាសយដ្ឋាន​អ៊ីមែល​ស្ទួន​គ្នា។"
+
+#: wp-admin/network/site-users.php:241
+msgid "Enter the username and email."
+msgstr "បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ និង​អាសយដ្ឋាន។"
+
+#: wp-admin/network/site-users.php:238
+msgid "User created."
+msgstr "បាន​បង្កើត​អ្នកប្រើ។"
+
+#: wp-admin/network/site-users.php:235
+msgid "Select a user to remove."
+msgstr "ជ្រើស​អ្នកប្រើ ដើម្បី​លុប។"
+
+#: wp-admin/network/site-users.php:229
+msgid "Select a user to change role."
+msgstr "ជ្រើស​អ្នក​ប្រើ​ម្នាក់ ដើម្បី​ផ្លាស់ប្ដូរ​តួនាទី។"
+
+#: wp-admin/network/site-users.php:223
+msgid "Enter the username of an existing user."
+msgstr "បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ​សម្រាប់​ឈ្មោះ​អ្នក​ប្រើ​ដែល​មាន​ស្រាប់។"
+
+#: wp-admin/network/site-users.php:220
+msgid "User is already a member of this site."
+msgstr "អ្នក​ប្រើ​នេះ​គឺជា​សមាជិក​នៃ​វេបសាប​នេះ​រួច​ហើយ។"
+
+#: wp-admin/network/site-users.php:42
+msgid "Site users list"
+msgstr "បញ្ជីអ្នកប្រើ វេបសាយ"
+
+#: wp-admin/network/site-users.php:41
+msgid "Site users list navigation"
+msgstr ""
+
+#: wp-admin/network/site-users.php:40
+msgid "Filter site users list"
+msgstr "ច្រោះ បញ្ជីអ្នកប្រើវេបសាយ"
+
+#: wp-admin/network/site-themes.php:179
+msgid "Network enabled themes are not shown on this screen."
+msgstr "បណ្ដាញបាន​បើក​រូបរាង​​ ហើយមិន​ត្រូវ​បាន​បង្ហាញ​នៅ​លើ​អេក្រង់​នេះ​ឡើយ។"
+
+#: wp-admin/network/site-themes.php:176 wp-admin/network/themes.php:273
+msgid "No theme selected."
+msgstr "មិន​បាន​ជ្រើស​រូបរាង។"
+
+#: wp-admin/network/site-themes.php:172 wp-admin/network/themes.php:261
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "រូបរាង %s បានបិទដំនើរការ។"
+
+#: wp-admin/network/site-themes.php:170 wp-admin/network/themes.php:259
+msgid "Theme disabled."
+msgstr "បាន​បិទ​រូបរាង %s ។"
+
+#: wp-admin/network/site-themes.php:164 wp-admin/network/themes.php:253
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "រូបរាង %s បានបើកដំនើរការ។"
+
+#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:251
+msgid "Theme enabled."
+msgstr "បាន​បើក​ដំណើរការ​រូបរាង %s ។"
+
+#: wp-admin/network/site-themes.php:39
+msgid "Site themes list"
+msgstr "បញ្ជីរូបរាង វេបសាយ"
+
+#: wp-admin/network/site-themes.php:38
+msgid "Site themes list navigation"
+msgstr ""
+
+#: wp-admin/network/site-themes.php:37
+msgid "Filter site themes list"
+msgstr ""
+
+#: wp-admin/network/site-themes.php:17
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "សុំទោស, អ្នកមិនត្រូវបានអនុញ្ញាតឲ្យគ្រប់គ្រងរូបរាង សម្រាប់វេបសាយនេះទេ។"
+
+#: wp-admin/network/site-settings.php:83
+msgid "Site options updated."
+msgstr "ជម្រើស បច្ចុប្បន្នភាពវេបសាយ។"
+
+#: wp-admin/network/site-new.php:258
+msgid "Add Site"
+msgstr "បន្ថែម​វេបសាយ"
+
+#: wp-admin/network/site-new.php:246
+msgid "The username and password will be mailed to this email address."
+msgstr "ឈ្មោះ​អ្នក​ប្រើ​និង​ពាក្យ​សម្ងាត់​នឹង​ត្រូវ​បាន​ផ្ញើ​ទៅ​កាន់​អាសយដ្ឋាន​អ៊ីមែល​នេះ។"
+
+#: wp-admin/network/site-new.php:246
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "អ្នក​ប្រើថ្មី​ម្នាក់​នឹង​ត្រូវ​បាន​បង្កើត ប្រសិន​បើ​អាសយដ្ឋាន​អ៊ីមែល​ខាង​លើ​មិន​មាន​នៅ​ក្នុង​មូលដ្ឋាន​ទិន្នន័យ​ទេ។"
+
+#: wp-admin/network/site-new.php:242
+msgid "Admin Email"
+msgstr "អ៊ីមែល​អ្នក​គ្រប់គ្រង"
+
+#: wp-admin/network/site-new.php:204
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "សម្រាប់តែអក្សរដែលតូច(a-z) លេខ នឹងសញ្ញា ប៉ុណ្ណោះដែលអនុញ្ញាត។"
+
+#: wp-admin/network/site-new.php:177 wp-admin/network/site-new.php:187
+msgid "Add New Site"
+msgstr "បន្ថែម​វេបសាយ​ថ្មី"
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:171
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "បាន​បន្ថែមវេបសាយ។ <a href=\"%1$s\">មើល​ទំព័រ​ព័ត៌មាន</a> ឬ <a href=\"%2$s\">កែប្រែ​វេបសាយ</a>"
+
+#: wp-admin/network/site-new.php:154
+msgctxt "email \"From\" field"
+msgid "Site Admin"
+msgstr "អភិបាល​ វេបសាយ"
+
+#. translators: 1: user login, 2: site url, 3: site name/title
+#: wp-admin/network/site-new.php:144
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"វេបសាយ​ថ្មី​ត្រូវ​បាន​បង្កើត​ដោយ %1$s\n"
+"\n"
+"អាសយដ្ឋាន៖ %2$s\n"
+"ឈ្មោះ៖ %3$s"
+
+#. translators: %s: network name
+#: wp-admin/network/site-new.php:139
+msgid "[%s] New Site Created"
+msgstr "[%s] បាន​បង្កើត​វេបសាយ​ថ្មី"
+
+#: wp-admin/network/site-new.php:114
+msgid "There was an error creating the user."
+msgstr "កំហុសក្នុងការបង្កើតអ្នកប្រើ។"
+
+#: wp-admin/network/site-new.php:109
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "ដូមេន​ ឬផ្នែកដែលបានបញ្ចូលប្រឆាំងជាមួយ ឈ្មោះអ្នកប្រើដែលមានស្រាប់។"
+
+#: wp-admin/network/site-new.php:84
+msgid "Invalid email address."
+msgstr "ខុស​អាសយដ្ឋាន​អ៊ីមែល។"
+
+#: wp-admin/network/site-new.php:79
+msgid "Missing email address."
+msgstr "បានបាត់អាស្រ័យដ្ឋានអ៊ីមែល។"
+
+#: wp-admin/network/site-new.php:76
+msgid "Missing or invalid site address."
+msgstr "អាសយដ្ឋាន​វេបសាយ​ខ្វះ ឬ​ក៏​ខុស។"
+
+#. translators: %s: reserved names list
+#: wp-admin/network/site-new.php:54
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "តាមរយះពាក្យ \"បម្រុងទុក\"ខាងក្រោម ប្រើដោយមុខងារWordPress និងមិនអាចប្រើជាឈ្មោះប្លុក៖ %s"
+
+#: wp-admin/network/site-new.php:40
+msgid "Can&#8217;t create an empty site."
+msgstr "មិនអាចបង្កើតវេបសាយដែលទទេរ។"
+
+#: wp-admin/network/site-new.php:27
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "ប្រសិន​បើ​អ៊ីមែល​អ្នក​គ្រប់គ្រង​សម្រាប់​វេបសាយ​ថ្មី​នេះ​មិន​មាន​ក្នុង​មូលដ្ឋាន​ទិន្នន័យ​ទេ​នោះ អ្នក​ប្រើ​ថ្មី​ម្នាក់​នឹង​ត្រូវ​បាន​បង្កើត​ឡើង។"
+
+#: wp-admin/network/site-new.php:26
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr ""
+
+#: wp-admin/network/site-new.php:20
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "សុំទោស, អ្នកមិនត្រូវបានអនុញ្ញាតឲ្យបន្ថែម វេបសាយទៅបណ្ដាញនេះទេ។"
+
+#: wp-admin/network/site-info.php:200
+msgid "Set site attributes"
+msgstr "កំណត់ការទាមទារ វេបសាយ"
+
+#: wp-admin/network/site-info.php:134 wp-admin/network/site-settings.php:86
+#: wp-admin/network/site-themes.php:142 wp-admin/network/site-users.php:182
+msgid "Edit Site: %s"
+msgstr "កែប្រែ​វេបសាយ៖ %s"
+
+#: wp-admin/network/site-info.php:130
+msgid "Site info updated."
+msgstr "បាន​ធ្វើ​បច្ចុប្បន្នភាព​ព័ត៌មាន​វេបសាយ។"
+
+#: wp-admin/network/site-info.php:46 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:66 wp-admin/network/site-users.php:59
+msgid "The requested site does not exist."
+msgstr "វេបសាយដែលបានស្នើ មិនមានទេ។"
+
+#: wp-admin/network/site-info.php:41 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:55
+msgid "Invalid site ID."
+msgstr "លេខ​សម្គាល់​តំបន់​បណ្ដាញ​មិន​ត្រឹមត្រូវ។"
+
+#: wp-admin/network/site-info.php:34 wp-admin/network/site-new.php:32
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">កម្រង​អត្ថបទ​ស្ដី​អំពី​ការគ្រប់គ្រង​វេបសាយ</a>"
+
+#: wp-admin/network/site-info.php:29 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> &mdash; This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr ""
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> &mdash; This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr ""
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> &mdash; This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr ""
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> &mdash; The site URL is rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr ""
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr ""
+
+#: wp-admin/network/site-info.php:18 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "សុំទោស, អ្នកមិនត្រូវបានអនុញ្ញាតឲ្យ កែសំរួលវេបសាយនេះទេ។"
+
+#: wp-admin/network/settings.php:377
+msgid "Enable menus"
+msgstr "ដំនើរការ ម៉ឺនុយ"
+
+#: wp-admin/network/settings.php:355
+msgid "Enable administration menus"
+msgstr "បើក​ម៉ឺនុយ​គ្រប់គ្រង"
+
+#: wp-admin/network/settings.php:328
+msgid "Default Language"
+msgstr "ភាសា​លំនាំ​ដើម"
+
+#: wp-admin/network/settings.php:325
+msgid "Language Settings"
+msgstr "កំនត់ភាសា"
+
+#: wp-admin/network/settings.php:314
+msgid "Size in kilobytes"
+msgstr "ទំហំក្នុង គីឡូបៃ"
+
+#: wp-admin/network/settings.php:312
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s KB"
+
+#: wp-admin/network/settings.php:310
+msgid "Max upload file size"
+msgstr "ទំហំឯកសារអតិបរមា ដែលផ្ទុកឡើង"
+
+#: wp-admin/network/settings.php:304
+msgid "Allowed file types. Separate types by spaces."
+msgstr "ប្រភេទឯកសារដែលអនុញ្ញាត។ ចែកប្រភេទពីគ្នា ដោយចន្លោះ។ "
+
+#: wp-admin/network/settings.php:300
+msgid "Upload file types"
+msgstr "ប្រភេទ​ឯកសារ​ផ្ទុកឡើង"
+
+#: wp-admin/network/settings.php:292
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "ទំហំសរុបដែលបានកំនត់សម្រាប់ ផ្ទុកឯកសារឡើងទៅ %s MB"
+
+#: wp-admin/network/settings.php:290
+msgid "Site upload space"
+msgstr "វេបសាយផ្ទុកចន្លោះឡើង"
+
+#: wp-admin/network/settings.php:287
+msgid "Upload Settings"
+msgstr "កំណត់​ការ​ផ្ទុក​ឡើង"
+
+#: wp-admin/network/settings.php:282
+msgid "The URL for the first comment on a new site."
+msgstr "អាស័យដ្ឋានសម្រាប់មតិដំបូងគេ លើវេបសាយថ្មី។"
+
+#: wp-admin/network/settings.php:278
+msgid "First Comment URL"
+msgstr "URL នៃ​មតិ​ដំបូង"
+
+#: wp-admin/network/settings.php:273
+msgid "The email address of the first comment author on a new site."
+msgstr "អាស័យដ្ឋានអីុមែល នៃមតិដំបូងរបស់អ្នកនិពន្ធ លើវេបសាយថ្មី។"
+
+#: wp-admin/network/settings.php:269
+msgid "First Comment Email"
+msgstr "អ៊ីម៉ែល ដែលមានមតិដំបូង"
+
+#: wp-admin/network/settings.php:264
+msgid "The author of the first comment on a new site."
+msgstr "អ្នកនិពន្ធ​ បានមានមតិ​ដំបូងលើវេបសាយថ្មី។"
+
+#: wp-admin/network/settings.php:260
+msgid "First Comment Author"
+msgstr "មតិអ្នកនិពន្ធដំបូងគេ"
+
+#: wp-admin/network/settings.php:255
+msgid "The first comment on a new site."
+msgstr "មតិដំបូងគេ លើវេបសាយថ្មី។"
+
+#: wp-admin/network/settings.php:250
+msgid "First Comment"
+msgstr "មតិដំបូងគេ"
+
+#: wp-admin/network/settings.php:245
+msgid "The first page on a new site."
+msgstr "ទំព័រដំបូងគេ លើវេបសាយថ្មី។"
+
+#: wp-admin/network/settings.php:240
+msgid "First Page"
+msgstr "ទំព័រ​ដំបូង"
+
+#: wp-admin/network/settings.php:235
+msgid "The first post on a new site."
+msgstr "ប្រកាដ​ដំបូង​នៅ​លើ​វេបសាយ​ថ្មី។"
+
+#: wp-admin/network/settings.php:225
+msgid "The welcome email sent to new users."
+msgstr "បាន​ផ្ញើ​អ៊ីមែល​ស្វាគមន៍​ទៅ​កាន់​អ្នក​ប្រើ​ថ្មី។"
+
+#: wp-admin/network/settings.php:220
+msgid "Welcome User Email"
+msgstr "អ៊ីមែល​ស្វាគមន៍​អ្នកប្រើ"
+
+#: wp-admin/network/settings.php:215
+msgid "The welcome email sent to new site owners."
+msgstr "បាន​ផ្ញើ​អ៊ីមែល​ស្វាគមន៍​ទៅ​ម្ចាស់​វេបសាយ​ថ្មី។"
+
+#: wp-admin/network/settings.php:210
+msgid "Welcome Email"
+msgstr "អ៊ីមែល​ស្វាគមន៍"
+
+#: wp-admin/network/settings.php:206
+msgid "New Site Settings"
+msgstr "ការ​កំណត់វេបសាយ​ថ្មី"
+
+#: wp-admin/network/settings.php:200
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "ប្រសិនអ្នកចង់បិទ ដូមេនពីអ្នកចុះបញ្ជីវេបសាយ។ មួយដូមេន ក្នុងមួយបន្ទាត់។"
+
+#: wp-admin/network/settings.php:195
+msgid "Banned Email Domains"
+msgstr "ឈ្មោះ​ដែន​អ៊ីមែល​ដែល​បាន​ទប់ស្កាត់"
+
+#: wp-admin/network/settings.php:189
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "ប្រសិនជាអ្នកចង់កំរិតការចុះបញ្ជីវេបសាយ ទៅដូមេនជាក់លាក់។ មួយដូមេន ក្នុងមួយបន្ទាត់។"
+
+#: wp-admin/network/settings.php:182
+msgid "Limited Email Registrations"
+msgstr "អ៊ីមែលដែលចុះបញ្ញីឈ្មោះ ត្រូវបានកំរិត។"
+
+#: wp-admin/network/settings.php:176
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "អ្នកប្រើមិនត្រូវបានអនុញ្ញាឲ្យចុះបញ្ញីវេបសាយពួកគេ។ ឈ្មោះដាច់ដោយឡែកពីគ្នាដោយការដកឃ្លា។"
+
+#: wp-admin/network/settings.php:172
+msgid "Banned Names"
+msgstr "ឈ្មោះ​ដែល​បាន​ហាម​ឃាត់"
+
+#: wp-admin/network/settings.php:167
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "អនុញ្ញាតឲ្យអ្នកគ្រប់គ្រងប្រព័ន្ធវេបសាយ ទៅបន្ថែមអ្នកប្រើទៅកាន់វេេបសាយពួកគេ តាមរយះទំព័រ \"អ្នកប្រើ → បន្ថែមវេបសាយ\"  ។"
+
+#: wp-admin/network/settings.php:165
+msgid "Add New Users"
+msgstr "បន្ថែម​អ្នក​ប្រើ​ថ្មី"
+
+#: wp-admin/network/settings.php:160
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "បញ្ជូនបណ្ដាញគ្រប់គ្រងណែតវើក ដោយការជូនដំណឹងអ៊ីម៉ែលរៀងរាល់ពេលដែលមាននរណាម្នាក់ចុះឈ្មោះវេបសាយ ឬគណនីអ្នកប្រើ។"
+
+#: wp-admin/network/settings.php:154
+msgid "Registration notification"
+msgstr "ការ​ជូន​ដំណឹង​អំពី​ការ​ចុះ​ឈ្មោះ"
+
+#. translators: 1: NOBLOGREDIRECT 2: wp-config.php
+#: wp-admin/network/settings.php:143
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "ប្រសិនជា ការចុះបញ្ជីត្រូវបានបិទ, សូមកំណត់ %1$s នៅក្នុង %2$s ទៅ URL មួយណាដែលអ្នកនឹងប្តូរទិសអ្នកទស្សនាទៅ ប្រសិនបើពួកគេមកទស្សនាវេបសាយ ដែលមិនមាន។"
+
+#: wp-admin/network/settings.php:139
+msgid "Both sites and user accounts can be registered."
+msgstr "វេបសាយ នឹងគណនីអ្នកប្រើទាំងពីរ អាចចុះឈ្មោះបាន។"
+
+#: wp-admin/network/settings.php:138
+msgid "Logged in users may register new sites."
+msgstr "អ្នកប្រើដែលបានចូល គួរតែចុះបញ្ជីវេបសាយថ្មី។"
+
+#: wp-admin/network/settings.php:137
+msgid "User accounts may be registered."
+msgstr "គណនីអ្នកប្រើ គួរតែអាចចុះឈ្មោះបាន។"
+
+#: wp-admin/network/settings.php:136
+msgid "Registration is disabled."
+msgstr "បាន​បិទ​ការ​ចុះ​ឈ្មោះ។"
+
+#: wp-admin/network/settings.php:135
+msgid "New registrations settings"
+msgstr "ការកំណត់ការចុះឈ្មោះថ្មី"
+
+#: wp-admin/network/settings.php:127
+msgid "Allow new registrations"
+msgstr "អនុញ្ញាត​ការ​ចុះ​ឈ្មោះ​ថ្មី"
+
+#: wp-admin/network/settings.php:124
+msgid "Registration Settings"
+msgstr "កំណត់​ការ​ចុះ​ឈ្មោះ"
+
+#: wp-admin/network/settings.php:119
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "អាសយដ្ឋាន​អ៊ីមែល​នេះ​នឹង​ទទួល​បាន​ការ​ជូនដំណឹង។ អ៊ីមែល​សម្រាប់​ការ​គាំទ្រ និង​ការ​ចុះ​ឈ្មោះ​នឹង​ផ្ញើ​មក​ពី​អាសយដ្ឋាន​នេះ។"
+
+#: wp-admin/network/settings.php:105
+msgid "Operational Settings"
+msgstr "ការកំណត់ប្រតិបត្តិការ"
+
+#: wp-admin/network/settings.php:43
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">ឯកសារ លើ ការកំនត់បណ្ដាញ</a>"
+
+#: wp-admin/network/settings.php:38
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr ""
+
+#: wp-admin/network/settings.php:37
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr ""
+
+#: wp-admin/network/settings.php:35
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr ""
+
+#: wp-admin/network/settings.php:34
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "ការកំណត់វេសាយថ្មីជាលំនាំដើមនឹងត្រូវអនុវត្ត នៅពេលដែលវេបសាយថ្មី ត្រូវបានបង្កើតក្នុងបណ្ដេញ។ រួមទាំងអ៊ីម៉ែលស្វាគមន៍ សម្រាប់ពេលដែលវេបសាយថ្មី ឬគណនីអ្នកប្រើថ្មី ត្រូវបានបង្កើតនិងអ្វីជាច្រើនដាក់ក្នុងប្រកាសដំបូង, ទំព័រ, មតិ, យោបល់អ្នកនិពន្ធ,នឹងអាស័យដ្ឋានមតិ។"
+
+#: wp-admin/network/settings.php:33
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr ""
+
+#: wp-admin/network/settings.php:32
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "ការកំណត់ប្រតិបត្តិការ ត្រូវបរាជ័យសម្រាប់ឈ្មោះបណ្ដាញនឹង អ្នកគ្រប់គ្រងអ៊ីមែល។"
+
+#: wp-admin/network/settings.php:31
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "ទំព័រ​នេះ​អាច​កំណត់​ឬ​ផ្លាស់​ប្ដូរ​ជម្រើស​នានា​សម្រាប់​បណ្ដាញ​ទាំងមូល។ វេបសាយ​ដំបូង​គឺ​ជា​វេបសាយ​ចម្បង​នៅ​ក្នុង​បណ្ដាញ ហើយ​ជម្រើស​បណ្ដាញ​ត្រូវ​បាន​ទាញ​យក​មក​ពី​ជម្រើស​នៃ​វេបសាយ​ដើម។"
+
+#: wp-admin/network/menu.php:55 wp-admin/network/settings.php:22
+msgid "Network Settings"
+msgstr "ការ​កំណត់​បណ្ដាញ"
+
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:239
+msgctxt "theme"
+msgid "Add New"
+msgstr "បន្ថែម​ថ្មី"
+
+#: wp-admin/network/menu.php:40
+msgid "Installed Themes"
+msgstr "រូបរាង​ដែល​បាន​ដំឡើង"
+
+#: wp-admin/network/menu.php:36
+msgid "Themes %s"
+msgstr "រូបរាង %s"
+
+#: wp-admin/network/menu.php:28
+msgid "All Sites"
+msgstr "វេបសាយ​ទាំងអស់"
+
+#: wp-admin/network/menu.php:22 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:123
+msgid "Upgrade Network"
+msgstr "ធ្វើ​វិសិដ្ឋកម្ម​បណ្ដាញ"
+
+#: wp-admin/network/menu.php:19
+msgid "Updates"
+msgstr "បច្ចុប្បន្នភាព"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:35
+#: wp-admin/network/site-new.php:33 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:172
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">វេទិកា​គាំទ្រ</a>"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">កម្រង​អត្ថបទ​ស្ដី​អំពី ផ្នែក​គ្រប់គ្រង​បណ្ដាញ</a>"
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "ភារកិច្ច​រហ័ស"
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "<strong>បញ្ចូល​ដូមេន​ឬ​ទីតាំង</strong> ដើម្បី​ស្វែងរក​វេបសាយ​ណាមួយ។"
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "<strong>បញ្ចូល​អាសយដ្ឋាន​អ៊ីមែល​ឬ​ឈ្មោះ​អ្នក​ប្រើ</strong> ដើម្បី​ស្វែងរក​អ្នកប្រើ​ណា​ម្នាក់។ អ្នក​ក៏​អាច​ប្រើ​តួ​អក្សរ wildcard ដើម្បី​ស្វែងរក​បំណែក​ឈ្មោះ ដូច​ជា user&#42; ជាដើម។"
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "ប្រើ​ប្រអប់​ស្វែងរក ដើម្បី​ស្វែងរក​អ្នក​ប្រើ ឬ​តំបន់​បណ្ដាញ។"
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "<strong>ចុច បង្កើត​វេបសាយ​ថ្មី</strong> ដើម្បី​បន្ថែម​វេបសាយ​ថ្មី​មួយ។"
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "<strong>ចុច បង្កើត​អ្នក​ប្រើ​ថ្មី</strong> ដើម្បី​បន្ថែម​អ្នក​ប្រើ​ថ្មី​ម្នាក់។"
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "ឥឡូវនេះ វិដជិតនៅលើអេក្រង់នេះ ដែលផ្ដល់ដោយអ្នកប្រើបច្ចុប្បន្ន នឹងរាប់វេបសាយ លើបណ្ដាញរបស់អ្នក។"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "កែប្រែ​ការ​កំណត់​សាកល​នៃ​បណ្ដាញ"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "ធ្វើ​បច្ចុប្បន្នភាព​បណ្ដាញ​របស់​អ្នក"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "ដំឡើងង និង​បើក​ដំណើរការ​រូបរាង ឬ​កម្មវិធី​បន្ថែម"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "បន្ថែម និង​គ្រប់គ្រង​តំបន់​បណ្ដាញ ឬ​អ្នក​ប្រើ"
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "នៅ​ទីនេះ អ្នក​អាច៖"
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "ស្វាគមន៍​មក​កាន់​ផ្នែក​គ្រប់គ្រង​បណ្ដាញ។ ទី​នេះ​គឺ​ជា​ផ្នែក​គ្រប់គ្រង​ដែល​ត្រូវ​បាន​ប្រើ​សម្រាប់​គ្រប់គ្រង​គ្រប់​ចំណុច​ទាំង​អស់​នៃ​បណ្ដាញ​ពហុ​វេបសាយ (Multisite Network) របស់​អ្នក។"
+
+#: wp-admin/includes/network.php:584
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "ពេលដែលអ្នកសម្រេចជំហានទាំងនេះ បណ្ដាញរបស់អ្នក គឺបានបើក នឹងកំនត់រចនាសម្ព័ន្ធ។ អ្នកនឹងអាចទៅ ឡុកចូលម្តងទៀត។"
+
+#. translators: 1: a filename like .htaccess. 2: a file path.
+#: wp-admin/includes/network.php:529 wp-admin/includes/network.php:569
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "បន្ថែម​របស់​ទាំង​នេះ​ទៅ​ក្នុង​ឯកសារ %1$s នៅ​ក្នុង %2$s, <strong>ដោយ​ជំនួស​លើ</strong>​ច្បាប់​ដទៃ​នៃ WordPress៖"
+
+#: wp-admin/includes/network.php:465
+msgid "To make your installation more secure, you should also add:"
+msgstr "ដើម្បីបង្កើតនូវការដំឡើងរបស់អ្នកឲ្យមានសុវត្ថិភាពបន្ថែម, អ្នកគួរតែបន្ថែម៖"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:460
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr ""
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:454
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "កូនសោផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវតែមួយគត់នេះត្រូវបានបាត់ពីឯកសារ %s របស់អ្នក។"
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:417
+msgid "That&#8217;s all, stop editing! Happy blogging."
+msgstr ""
+
+#. translators: 1: wp-config.php 2: location of wp-config file, 3: translated
+#. version of "That's all, stop editing! Happy blogging."
+#: wp-admin/includes/network.php:409
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "បន្ថែមដូចខាងក្រោមទៅឯកសារ %1$s របស់អ្នកនៅក្នុង %2$s <strong>នៅខាងលើ</strong>បន្ទាត់អាន %3$s ៖"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:398
+msgid "We recommend you back up your existing %s file."
+msgstr "ពួកយើងផ្ដល់អនុសាសន៍ឲ្យអ្នក ធ្វើការរក្សាទុកនូវ %s ឯកសារដែលមានរួចហើយ។"
+
+#. translators: 1: wp-config.php 2: .htaccess
+#. translators: 1: wp-config.php 2: web.config
+#: wp-admin/includes/network.php:382 wp-admin/includes/network.php:390
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "ពួកយើងផ្ដល់អនុសាសន៍ឲ្យអ្នក ធ្វើការរក្សាទុកនូវឯកសារដែលមានរួចហើយរបស់ %1$s នឹង %2$s។"
+
+#: wp-admin/includes/network.php:376
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "បញ្ចប់​ជំហាន​ទាំង​នេះ ដើម្បី​បើក​មុខងារ​នានា​សម្រាប់​ការ​បង្កើត​បណ្ដាញ​វេបសាយ។"
+
+#: wp-admin/includes/network.php:375
+msgid "Enabling the Network"
+msgstr "ការ​បើក​ដំណើរការ​បណ្ដាញ"
+
+#: wp-admin/includes/network.php:364
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "សូមសម្រេចជំហានកំណត់រចនាសម្ព័ន្ធ។ ដើម្បីបង្កើតបណ្ដាញថ្មី, អ្នកចាំបាច់ត្រូវតែគ្មាន ឬ​យកចេញនូវតារាងមូលដ្ឋានទិន្នន័យបណ្ដាញណែតវើក។"
+
+#: wp-admin/includes/network.php:363
+msgid "An existing WordPress network was detected."
+msgstr "បាន​រកឃើញ​ថា​មាន​បណ្ដាញ WordPress មួយ​រួច​ហើយ។"
+
+#: wp-admin/includes/network.php:358
+msgid "The original configuration steps are shown here for reference."
+msgstr "ជំហានកំណត់រចនាសម្ព័ន្ធលំនាំដើម និងត្រូវបង្ហាញនៅទីនេះ ជាសំអាង។"
+
+#: wp-admin/includes/network.php:307
+msgid "Your email address."
+msgstr "អាសយដ្ឋាន​អ៊ីមែល​របស់​អ្នក។"
+
+#: wp-admin/includes/network.php:303 wp-admin/network/settings.php:115
+msgid "Network Admin Email"
+msgstr "អ៊ីមែល​ផ្នែក​គ្រប់គ្រង​បណ្ដាញ"
+
+#: wp-admin/includes/network.php:298
+msgid "What would you like to call your network?"
+msgstr "តើ​អ្នក​ចង់​ហៅ​បណ្ដាញ​របស់​អ្នក​ថា​យ៉ាង​ម៉េច?"
+
+#: wp-admin/includes/network.php:294 wp-admin/network/settings.php:108
+msgid "Network Title"
+msgstr "ឈ្មោះ​បណ្ដាញ"
+
+#: wp-admin/includes/network.php:276
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "ព្រោះតែអ្នកតំឡើងមិនមែនវេបសាយថ្មី ក្នុងបណ្ដាញ WordPressរបស់អ្នក ត្រូវតែប្រើដូមេនរង។"
+
+#: wp-admin/includes/network.php:275
+msgid "Sub-domain Install"
+msgstr "អនុ-ដូមេន បានដំឡើង"
+
+#: wp-admin/includes/network.php:267
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr ""
+
+#: wp-admin/includes/network.php:260 wp-admin/includes/network.php:270
+#: wp-admin/includes/network.php:277
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr ""
+
+#. translators: 1: localhost 2: localhost.localdomain
+#: wp-admin/includes/network.php:254
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "ពីព្រោះតែអ្នកបានប្រើ %1$s វេបសាយក្នុងបណ្ដាញ WordPress របស់អ្នក គួរតែប្រើថតរង។ សូមពិនិត្យ ក្នុងការប្រើ %2$s ប្រសិនជាអ្នកមានបំណងទៅប្រើអនុ-ដូមេន។"
+
+#: wp-admin/includes/network.php:250 wp-admin/includes/network.php:265
+msgid "Sub-directory Install"
+msgstr "ដំឡើង​ទីតាំងថតរង"
+
+#: wp-admin/includes/network.php:246
+msgid "Network Details"
+msgstr "លម្អិត​អំពី​បណ្ដាញ"
+
+#. translators: %s: host name
+#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:287
+msgid "The internet address of your network will be %s."
+msgstr "អាស័យដ្ឋានអីុនធើណេត នៃបណ្ដាញរបស់អ្នកនឹងអាច %s។"
+
+#. translators: 1: site url 2: host name 3. www
+#: wp-admin/includes/network.php:227
+msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "ពួកយើងផ្ដល់អនុសាសន៍ ឲ្យអ្នកប្ដូរអាស័យដ្ឋានវេបសាយអ្នកទៅ %1$s មុននឹងបើកនូវលក្ខណះរបស់បណ្ដាញ។ វានឹងនៅតែអាចធ្វើអោយអ្នកទស្សនាចូលវេបសាយអ្នកដោយប្រើបុព្វបទ %3$s ជាមួយអាស័យដ្ឋានដូច %2$s ប៉ុន្តែគ្រប់តំណភ្ជាប់នឹងមិនមានបុព្វបទ %3$s។"
+
+#: wp-admin/includes/network.php:224 wp-admin/includes/network.php:234
+#: wp-admin/includes/network.php:283
+msgid "Server Address"
+msgstr "អាសយដ្ឋាន​ម៉ាស៊ីន​បម្រើ"
+
+#: wp-admin/includes/network.php:219 wp-admin/includes/network.php:535
+#: wp-admin/includes/network.php:575
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr ""
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:209
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "ដូចជា <code>%1$s/វេបសាយ 1</code> and <code>%1$s/វេបសាយ 2</code>"
+
+#: wp-admin/includes/network.php:206
+msgid "Sub-directories"
+msgstr "ទីតាំងថតរង"
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:201
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "ដូច <code>វេបសាយ1.%1$s</code> នឹង <code>វេបសាយ2.%1$s</code>"
+
+#: wp-admin/includes/network.php:198
+msgid "Sub-domains"
+msgstr "អនុ-ដូមេន"
+
+#: wp-admin/includes/network.php:194
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "អ្នកនឹង ត្រូវការ​ជំនួសការចុះបញ្ជី DNS ប្រសិនបើអ្នក ចង់ទៅប្រើមុខងារបង្ហោះជាក់ស្ដែង(អនុ-ដូមេន)។"
+
+#: wp-admin/includes/network.php:193
+msgid "You cannot change this later."
+msgstr "អ្នកមិនអាចប្ដូរ នៅពេលក្រាយបានទេ។"
+
+#: wp-admin/includes/network.php:192
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "សូមជ្រើសរើស ថាតើអ្នកចូលចិត្តវេបសាយក្នុងបណ្ដាញ WordPress របស់អ្នកទៅប្រើ អនុ-ដូមេន ឬ ទីតាំងនៃថតរង។"
+
+#: wp-admin/includes/network.php:191
+msgid "Addresses of Sites in your Network"
+msgstr "អាសយដ្ឋាន​នៃ​វេបសាយ​នានា​នៅ​ក្នុង​បណ្ដាញ​របស់​អ្នក"
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite
+#: wp-admin/includes/network.php:181
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "ប្រសិនជា %1$s គឺអសកម្ម   អ្នកអាចសួរ អ្នកគ្រប់គ្រងជាន់ខ្ពស់ ដើម្បីឲ្យម៉ូឌុលសកម្ម ឬ ក៏ចូលមើលណៅឯ <a href=\"%2$s\">ឯកសារ ដែលខូច</a> ឬ <a href=\"%3$s\">កន្លែងដទៃៗ </a> សម្រាប់ជួយកំនត់ឲ្យវាឡើង។"
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:172
+msgid "It looks like the Apache %s module is not installed."
+msgstr "វាមើលទៅដូចជា ម៉ូឌុល%s នៃកម្មវិធី Apache មិនត្រូវបានដំឡើង។"
+
+#: wp-admin/includes/network.php:170 wp-admin/includes/network.php:219
+#: wp-admin/includes/network.php:260 wp-admin/includes/network.php:270
+msgid "Warning!"
+msgstr "ការ​ព្រមាន!"
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:165
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "សូមប្រាកដថាម៉ូឌុល%s នៃកម្មវិធី Apache ត្រូវបានដំឡើងដូចដែលវានឹងត្រូវប្រើ នៅចុងបញ្ចប់នៃការដំឡើងនេះ។"
+
+#: wp-admin/includes/network.php:151
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr ""
+
+#: wp-admin/includes/network.php:150
+msgid "Welcome to the Network installation process!"
+msgstr "សូម​ស្វាគមន៍​មក​កាន់​ដំណើរ​ការ​ដំឡើង​បណ្ដាញ!"
+
+#: wp-admin/includes/network.php:147
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s វេបសាយ"
+
+#: wp-admin/includes/network.php:140
+msgid "ERROR: The network could not be created."
+msgstr "កំហុស៖ បណ្ដាញណែតវើក មិនត្រូវបានបង្កើត។"
+
+#: wp-admin/includes/network.php:128
+msgid "Return to Dashboard"
+msgstr "ត្រឡប់​ទៅ​ទំព័រ​ព័ត៌មាន"
+
+#. translators: %s: port number
+#: wp-admin/includes/network.php:125
+msgid "You cannot use port numbers such as %s."
+msgstr "អ្នក មិនអាចប្រើ លេខច្រកដូចជា %s។"
+
+#: wp-admin/includes/network.php:122
+msgid "You cannot install a network of sites with your server address."
+msgstr "អ្នក​មិន​អាច​ដំឡើង​បណ្ដាញ​វេបសាយ​ជាមួយ​អាសយដ្ឋាន​ម៉ាស៊ីន​បម្រើ​របស់​អ្នក​បាន​ទេ។"
+
+#: wp-admin/includes/network.php:113
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "នៅ​ពេល​បង្កើត​បណ្ដាញ​រួច​ហើយ អ្នក​អាច​បើក​ដំណើរការ​កម្មវិធី​បន្ថែម​របស់​អ្នក​ឡើង​វិញ​បាន។"
+
+#: wp-admin/includes/network.php:113
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "សូម​<a href=\"%s\">បិទ​ដំណើរការ​កម្មវិធី​បន្ថែម​របស់​អ្នក</a> មុន​ពេល​បើក​ដំណើរការ​មុខងារ \"បណ្ដាញ\"។"
+
+#: wp-admin/includes/network.php:113 wp-admin/includes/network.php:363
+#: wp-admin/includes/network.php:535 wp-admin/includes/network.php:575
+msgid "Warning:"
+msgstr "បម្រាម៖"
+
+#: wp-admin/includes/network.php:105
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "មិន​អាច​កំណត់​តម្លៃ​ថេរ DO_NOT_UPGRADE_GLOBAL_TABLES បាន​នៅ​ពេល​បង្កើត​បណ្ដាញ​មួយ។"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:171
+msgctxt "user"
+msgid "Registered"
+msgstr "បាន​ចុះឈ្មោះ"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:142
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "អភិបាល​កំពូល <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:114
+msgctxt "user"
+msgid "Not Spam"
+msgstr "មិនមែន​ស្ប៉ាម"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:113
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr "សម្គាល់​ថា​ជា​ស្ប៉ាម"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:572
+msgid "Visit Theme Site"
+msgstr "មើល​វេបសាយ​គេហទំព័រ"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:567
+msgid "Visit %s homepage"
+msgstr "ចូលមើល​ %s ទំព័រដើម"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:540
+msgid "Broken Theme:"
+msgstr "រូបរាងខូច៖"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:475
+msgctxt "theme"
+msgid "Delete %s"
+msgstr "លុប %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:456
+msgid "Open %s in the Theme Editor"
+msgstr "បើក %s ក្នុងកម្មវិធីនិពន្ធរូបរាង"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:440
+msgid "Network Disable %s"
+msgstr "បណ្តាញ មិនអនុញ្ញាត %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:437
+msgid "Disable %s"
+msgstr "មិនអនុញ្ញាត %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:418
+msgid "Network Enable %s"
+msgstr "បណ្តាញ បានអនុញ្ញាត %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:415
+msgid "Enable %s"
+msgstr "អនុញ្ញាតឲ្យ %s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:334
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:446
+msgid "Network Disable"
+msgstr "ការមិនអនុញ្ញាត​បណ្ដាញ"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:334
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:446
+msgid "Disable"
+msgstr "មិន​អនុញ្ញាត"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:332
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:424
+msgid "Enable"
+msgstr "បើក"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:301
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "ខូច <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:295
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "បាន​បិទ <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:292
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "បាន​បើក <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:289
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span>ទាំងអស់ "
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:246
+msgid "Theme"
+msgstr "រូបរាង"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:235
+msgid "You do not appear to have any themes available at this time."
+msgstr "អ្នក ទំនងជាមិនមានរូបរាងណាមួយ ដែលអាចរកបាននៅ ពេលនេះទេ។"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:233
+msgid "No themes found."
+msgstr "រក​មិនឃើញ​ស្បែក។"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:531
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "បណ្ណសារ"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:529
+msgid "Unarchive"
+msgstr "មិន​ដាក់​ជា​បណ្ណសារ"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:360
+msgid "Never"
+msgstr "មិនដែល"
+
+#. translators: 1: site name, 2: site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:334
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s – %2$s"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:231
+#: wp-admin/network/site-info.php:180
+msgctxt "site"
+msgid "Registered"
+msgstr "បាន​ចុះបញ្ជី"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:230
+#: wp-admin/network/site-info.php:184
+msgid "Last Updated"
+msgstr "បាន​ធ្វើ​បច្ចុប្បន្នភាព​ចុង​ក្រោយ"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:204
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:535
+msgctxt "site"
+msgid "Not Spam"
+msgstr "មិន​មែន​ស្ប៉ាម"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:203
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "សម្គាល់​ថា​ជា​ស្ប៉ាម"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:192
+msgid "No sites found."
+msgstr "រក​មិន​ឃើញ​វេបសាយ។"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:44
+#: wp-admin/network/site-info.php:194
+msgid "Mature"
+msgstr "ពេញវ័យ"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:43
+#: wp-admin/network/site-info.php:192
+msgid "Deleted"
+msgstr "បានលុប"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:537
+#: wp-admin/network/site-info.php:191
+msgctxt "site"
+msgid "Spam"
+msgstr "ស្ប៉ាម"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:190
+msgid "Archived"
+msgstr "ប័ណ្ណសារ"

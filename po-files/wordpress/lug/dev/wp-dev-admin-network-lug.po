@@ -1,0 +1,1361 @@
+# Translation of WordPress - 4.9.x - Development - Administration - Network Admin in Luganda
+# This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-01 19:17:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: lg_UG\n"
+"Project-Id-Version: WordPress - 4.9.x - Development - Administration - Network Admin\n"
+
+#. translators: %s: DO_NOT_UPGRADE_GLOBAL_TABLES
+#: wp-admin/includes/network.php:107
+msgid "The constant %s cannot be defined when creating a network."
+msgstr "Akatakyuka %s tekategereka nga tukola omukutu guno."
+
+#: wp-admin/network/sites.php:173
+msgid "You are about to delete the following sites:"
+msgstr "Olikumpi to gyamu sayiiti zino wamaanga:"
+
+#: wp-admin/network/site-users.php:237
+msgid "User could not be added to this site."
+msgstr "Omukozi tasobolwa kwongerrebwa ku sayiiti eno."
+
+#: wp-admin/network/site-new.php:252
+msgid "The username and a link to set the password will be mailed to this email address."
+msgstr "Erinya ne linki ebi kuyamba okutekamu password biri kusindikibwa ku emeyiro yo."
+
+#. translators: %s: new network admin email
+#: wp-admin/network/settings.php:145
+msgid "There is a pending change of the network admin email to %s."
+msgstr "Okyakyussa emeyiro yo mukutu guno ebere %s kubulamu."
+
+#: wp-admin/includes/network.php:294
+msgid "Sub-domain Installation"
+msgstr "Domeini edirwako erikutongozebwa"
+
+#: wp-admin/includes/network.php:269 wp-admin/includes/network.php:284
+msgid "Sub-directory Installation"
+msgstr "Eterekerro eridirwakko lirikutongozebwa"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:636
+msgid "Active Child Theme"
+msgstr "Enfanana edirwakko eri kumwanjo"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:631
+msgid "Active Theme"
+msgstr "Enfanana eri kumwanjo"
+
+#: wp-admin/network/site-info.php:180
+msgid "Attributes"
+msgstr "Abubonero"
+
+#. translators: %s: File size in kilobytes
+#: wp-admin/network/settings.php:350
+msgid "%s KB"
+msgstr "%s KB"
+
+#. translators: %s: Default network name
+#: wp-admin/includes/network.php:160
+msgid "%s Sites"
+msgstr "%s Sayiiti"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:454
+msgctxt "theme"
+msgid "Delete %s"
+msgstr "Gyamu %s"
+
+#: wp-admin/network/themes.php:90
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "Bambi, tokilizibwa ku gyamu enfanana zino mu sayiiti eno."
+
+#: wp-admin/network/themes.php:14
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "Bambi, tokilizibwa ku labirila mukutu guno."
+
+#: wp-admin/network/sites.php:288
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "Bambi, tokilizibwa ku gyamu sayiiti eno."
+
+#: wp-admin/network/site-themes.php:14
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "Bambi, tokilizibwa kukyusa enfanana ya sayiiti eno."
+
+#: wp-admin/network/site-new.php:17
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "Bambi, tokilizibwa kwongera sayiiti ku mukutu guno."
+
+#: wp-admin/network/site-info.php:14 wp-admin/network/site-settings.php:14
+#: wp-admin/network/site-users.php:14
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "Bambi, tokilizibwa ku terezza sayiiti eno."
+
+#: wp-admin/network/settings.php:308
+msgid "The email address of the first comment author on a new site."
+msgstr "Emeyiro yo muteesa asooka ku sayiiti empya."
+
+#: wp-admin/network/settings.php:304
+msgid "First Comment Email"
+msgstr "Emeyiro ye kitesso ekisooka"
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:436
+msgid "That&#8217;s all, stop editing! Happy blogging."
+msgstr "Keykyo, lekera okukyusa ebiriwo! Okuwandika Okulungi."
+
+#. translators: 1: wp-config.php 2: location of wp-config file, 3: translated
+#. version of "That's all, stop editing! Happy blogging."
+#: wp-admin/includes/network.php:428
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "Gatta bino mu fayiro %1$s mu %2$s <strong>waggulu</strong> wa layini eyokusoma %3$s:"
+
+#. translators: 1: theme name, 2: theme author
+#: wp-admin/network/themes.php:138
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%1$s kulwa %2$s"
+
+#. translators: %s: edit page url
+#: wp-admin/network/user-new.php:80
+msgid "User added. <a href=\"%s\">Edit user</a>"
+msgstr "Omukozi agatiddwako. <a href=\"%s\">Terezza ebikwwata ku mukozi</a>"
+
+#: wp-admin/network/site-new.php:208
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "Obunyukutta obutono obwa (a-z), ennamba, ne hyphen byebikiribizibwa byokka."
+
+#: wp-admin/network/site-new.php:158
+msgctxt "email \"From\" field"
+msgid "Site Admin"
+msgstr "Omukulu wa sayiiti"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:479
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "Ebisumuluzo bino ebyenjawulo bibulamu mu %s failo yo."
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:473
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "Ekisumuluzo kino ekyenjawulo kibulamu mu %s failo yo."
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:417
+msgid "We recommend you back up your existing %s file."
+msgstr "Tukusaba oyokesemu koppi ya failo eno %s."
+
+#. translators: 1: wp-config.php 2: .htaccess
+#. translators: 1: wp-config.php 2: web.config
+#: wp-admin/includes/network.php:401 wp-admin/includes/network.php:409
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "Tukusaba oyokesemu koppi ya failo zo %1$s ne %2$s"
+
+#. translators: 1: localhost 2: localhost.localdomain
+#: wp-admin/includes/network.php:273
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "Kubanga okozessa %1$s, sayiiti zino mu mukutu gwo ogwa WordPress gwetagga okozessa failo ezidiriganwa. Kilowozekko okozessa %2$s bwobwa oyagala kozessa domeyini eziddirwako."
+
+#. translators: %s: host name
+#: wp-admin/includes/network.php:257 wp-admin/includes/network.php:306
+msgid "The internet address of your network will be %s."
+msgstr "Akasanduku k'omukutu gwo ku yintaneti kajjakubeera %s."
+
+#. translators: 1: site url 2: host name 3. www
+#: wp-admin/includes/network.php:246
+msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "Tukusaba okyusse erinya lya sayiiti ebeere %1$s nga tonaba ku tesako ebikola byomukutu. Okirizibwa okulaba sayiiti yo nga okozessa akasokerwako %3$s n'akasanduku nga %2$s naye ebikusonga tebigya ku beera n'obusekelwako %3$s."
+
+#: wp-admin/includes/network.php:212
+msgid "You cannot change this later."
+msgstr "Tosobola kukyusa bino eda."
+
+#: wp-admin/includes/network.php:211
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "Salawo oba omukutu gwo ogwa WordPress gukozesse domeyini oba failo ezidirikwo."
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite
+#: wp-admin/includes/network.php:200
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "Singa %1$s terikko, saba omukulu wo mukutu aterrezze module eno oba wetegerezze <a href=\"%2$s\">Ebiwandikko bya Apache</a> or <a href=\"%3$s\">ewalara</a> okuterezza ebisokerwa ko."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:191
+msgid "It looks like the Apache %s module is not installed."
+msgstr "Kirabika module ya Apache %s terimu mu nkola."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:184
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "Kebera oba module ya Apache %s mweri munkola kubanga yetagisibwa oluvannyuma lwo kutongoza kuno."
+
+#. translators: %s: port number
+#: wp-admin/includes/network.php:134
+msgid "You cannot use port numbers such as %s."
+msgstr "Tosoboola ku kozessa amakubo oba pooti zino nga %s."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:171
+msgctxt "user"
+msgid "Registered"
+msgstr "Awandisizibwa"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:141
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "Omulabirizi Omukulu <span class=\"count\">(%s)</span>"
+msgstr[1] "Abalabirizi abakulu <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:114
+msgctxt "user"
+msgid "Not Spam"
+msgstr "Si byakwekengera"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:113
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr "Byekengere"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:550
+msgid "Visit Theme Site"
+msgstr "Genda ku mutimbagano gw'endabiika"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:545
+msgid "Visit %s homepage"
+msgstr "Genda %s awasokerakwo"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:518
+msgid "Broken Theme:"
+msgstr "Endabiika nfu"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:434
+msgid "Network Disable %s"
+msgstr "Omukutu gutayiize %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:431
+msgid "Disable %s"
+msgstr "Tayiiza %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:412
+msgid "Network Enable %s"
+msgstr "Omukutu gusumulule %s"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:409
+msgid "Enable %s"
+msgstr "Sumulula %s"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:332
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:440
+msgid "Network Disable"
+msgstr "Omukutu gutayiize"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:332
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:440
+msgid "Disable"
+msgstr "Tayiiza"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:330
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:418
+msgid "Enable"
+msgstr "Sumulula"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:299
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "Tekikwatagana <span class=\"count\">(%s)</span>"
+msgstr[1] "Tebikwatagana <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:293
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Kitayiize <span class=\"count\">(%s)</span>"
+msgstr[1] "Bitayiize <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:290
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Eteketekeddwa<span class=\"count\">(%s)</span>"
+msgstr[1] "Ziteketekeddwa <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:287
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Yonna <span class=\"count\">(%s)</span>"
+msgstr[1] "Zonna <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:245
+msgid "Theme"
+msgstr "Enfanana"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:234
+msgid "You do not appear to have any themes available at this time."
+msgstr "Kilabika tolina ndabiika mubudde buno."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:232
+msgid "No themes found."
+msgstr "Tewali ndabiika ensagiddwa."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:525
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "Eteerekero"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:523
+msgid "Unarchive"
+msgstr "Jja mu teerekero"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:358
+msgid "Never"
+msgstr "Tekiriba"
+
+#. translators: 1: site name, 2: site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:331
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:228
+#: wp-admin/network/site-info.php:163
+msgctxt "site"
+msgid "Registered"
+msgstr "Mpandiisize"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:227
+#: wp-admin/network/site-info.php:167
+msgid "Last Updated"
+msgstr "Yasemba ku terezzebwa"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:201
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:529
+msgctxt "site"
+msgid "Not Spam"
+msgstr "Si byakwekengera"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:200
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "Byakwekengera"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:189
+msgid "No sites found."
+msgstr "Teri sayiiti zisangiddwa."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/network/site-info.php:177
+msgid "Mature"
+msgstr "Bikuliridde"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:175
+msgid "Deleted"
+msgstr "Bigiddwamu"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:40
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:531
+#: wp-admin/network/site-info.php:174
+msgctxt "site"
+msgid "Spam"
+msgstr "Yakwekengera"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:39
+#: wp-admin/network/site-info.php:173
+msgid "Archived"
+msgstr "Bitekeddwa mu terekkero"
+
+#: wp-admin/network/site-users.php:346 wp-admin/network/user-new.php:117
+msgid "A password reset link will be sent to the user via email."
+msgstr "Endagiriro ye kigambo kye kyama ejja kusindikibwa eri akozesa sayiiti ngayita mu yimeiro"
+
+#. translators: 1: NOBLOGREDIRECT 2: wp-config.php
+#: wp-admin/network/settings.php:178
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Okwewandiisa wekuba nga kugaddwa wo, set %1$s mu %2$s ku ndagiriro enetambuza abasomi wewaba nga omutimbagano teguriko."
+
+#. translators: 1: WP_ALLOW_MULTISITE 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "Olina okwawula %1$s ebitakyuka nga bituffu mu %2$s fayiro yo okukiriza okutongoza omukutu."
+
+#: wp-admin/network/themes.php:235
+msgid "Themes list navigation"
+msgstr "Okutabala olukalala lw'endabiika"
+
+#: wp-admin/network/sites.php:48
+msgid "Sites list"
+msgstr "Olukala lw'omutimbagano"
+
+#: wp-admin/network/sites.php:47
+msgid "Sites list navigation"
+msgstr "Olukala lwe ndagiriro lw'omutimbagano"
+
+#: wp-admin/network/site-users.php:25
+msgid "Site users list"
+msgstr "Olukalala lwa bakozesa omutimbagano"
+
+#: wp-admin/network/site-users.php:24
+msgid "Site users list navigation"
+msgstr "Olukalala lwe ndagiriro ya bakozesa omutimbagano"
+
+#: wp-admin/network/site-users.php:23
+msgid "Filter site users list"
+msgstr "Sunsula mu lukalala lwa bakozesa omutimbagano"
+
+#: wp-admin/network/site-themes.php:22
+msgid "Site themes list"
+msgstr "Olukalala lw'enfanana y'omutimbagano"
+
+#: wp-admin/network/site-themes.php:21
+msgid "Site themes list navigation"
+msgstr "Okutabala olukalala lw'endabiika lw'omutimbagano"
+
+#: wp-admin/network/site-themes.php:20
+msgid "Filter site themes list"
+msgstr "Sunsula olukalala lw'endabiika"
+
+#: wp-admin/network/site-new.php:113
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "Erinnya ly'omutimbagano or endagirira bi kontana ne linnya erili munkola."
+
+#: wp-admin/network/sites.php:75
+msgid "The requested action is not valid."
+msgstr "Kyosabye okola tekikirizibwa."
+
+#: wp-admin/network/sites.php:67
+msgid "You are about to mark the site %s as not mature."
+msgstr "Olikumpi kwawulamu omutimbagano %s nti gu kyabulamu."
+
+#: wp-admin/network/sites.php:66
+msgid "You are about to mark the site %s as mature."
+msgstr "Olikumpi kwawulamu omutimbagano %s nti guwedde okolebwa."
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to delete the site %s."
+msgstr "Olikumpi ku saza omutimbagano %s."
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to mark the site %s as spam."
+msgstr "Olikumpi ku kwawulamu omutimbagano %s nga ekyokwekengera."
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to unspam the site %s."
+msgstr "Olikumpi ku kwawulamu omutimbagano nga ekigasa %s."
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to archive the site %s."
+msgstr "Olikumpi kutekka omutimbagano %s mu terekero."
+
+#: wp-admin/network/sites.php:61
+msgid "You are about to unarchive the site %s."
+msgstr "Olikumpi kujja omutimbagano %s mu terekero."
+
+#: wp-admin/network/sites.php:60
+msgid "You are about to deactivate the site %s."
+msgstr "Olikumpi kusirisa omutimbagano %s."
+
+#: wp-admin/network/sites.php:59
+msgid "You are about to activate the site %s."
+msgstr "Olikumpi kwasa omutimbagano %s."
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:49 wp-admin/network/site-users.php:42
+msgid "The requested site does not exist."
+msgstr "Omutimbagano gwosabye teguliyo."
+
+#: wp-admin/network/upgrade.php:29
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\">Ebiwandikko ku kutumbula omukuttu</a>"
+
+#: wp-admin/network/user-new.php:26 wp-admin/network/users.php:179
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Ebiwandikko ku ba kozessa omukuttu</a>"
+
+#: wp-admin/network.php:67 wp-admin/network.php:78
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\">Ebiwandiiko ku lutimbe lw'omukutu</a>"
+
+#: wp-admin/network/index.php:50
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\">Ebiwandiiko ku mukulu womukutu</a>"
+
+#: wp-admin/network.php:66 wp-admin/network.php:77
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\">Ebiwandiiko ku kukola omukutu omupya</a>"
+
+#: wp-admin/network/themes.php:229
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Ebiwandiiko ku byassa byo omukutu</a>"
+
+#: wp-admin/network/settings.php:60
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Ebiwandiiko ku bipanga omukutu</a>"
+
+#. translators: 1: site url, 2: server error message
+#: wp-admin/network/upgrade.php:88
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "Kulabula! Waliwo ensobi mukutumbula %1$s. Savva yo eyinza okuba to kwatagana n'emitingano egiriko. Ensonga: %2$s "
+
+#: wp-admin/network/themes.php:131
+msgid "You are about to remove the following themes:"
+msgstr "Olikumpi kugyamu ebyassa bino wamanga:"
+
+#: wp-admin/network/themes.php:130
+msgid "These themes may be active on other sites in the network."
+msgstr "Endabiika zino ziyinza okuba nga zikola ku mitimbagano egiri ku mukutu."
+
+#: wp-admin/network/themes.php:146
+msgid "Are you sure you wish to delete this theme?"
+msgstr "Okakasa nti oyagal kujja mu endabiika eno?"
+
+#: wp-admin/network/site-themes.php:183 wp-admin/network/themes.php:279
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s endabiika eno esanyalaziddwa."
+msgstr[1] "%s endabiika zino zisanyalaziddwa."
+
+#: wp-admin/network/site-themes.php:175 wp-admin/network/themes.php:271
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s endabiika eno ekola."
+msgstr[1] "%s endabiika zino zikola."
+
+#: wp-admin/network/themes.php:287
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s endabiika eno egiddwamu."
+msgstr[1] "%s endabiika zino zizigiddwamu."
+
+#: wp-admin/network/themes.php:163
+msgid "Yes, delete these themes"
+msgstr "Ye, gyamu endabiika zino"
+
+#: wp-admin/network/themes.php:129
+msgid "Delete Themes"
+msgstr "Gyamu endabiika zino"
+
+#: wp-admin/network/settings.php:170
+msgid "New registrations settings"
+msgstr "Emitendera gy'okwewandiisa emipya"
+
+#: wp-admin/network/settings.php:355
+msgid "Size in kilobytes"
+msgstr "Ekipimo mu kilobaiti."
+
+#: wp-admin/network/settings.php:339
+msgid "Allowed file types. Separate types by spaces."
+msgstr "Ebika bya fayilo ebikirizibwa. Yawula ebika na mabaanga."
+
+#: wp-admin/network/site-info.php:183
+msgid "Set site attributes"
+msgstr "Tekamu ebyawula omutimbagano"
+
+#: wp-admin/network/settings.php:420
+msgid "Enable menus"
+msgstr "Tongonza enkalala"
+
+#. translators: 1: a filename like .htaccess. 2: a file path.
+#: wp-admin/includes/network.php:548 wp-admin/includes/network.php:588
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Gatta bino %1$s mu fayiro mu %2$s, <strong>okukyusa</strong> amateeka ga WordPress:"
+
+#: wp-admin/network/sites.php:100 wp-admin/network/sites.php:168
+msgid "Confirm your action"
+msgstr "Kakasa kyokoze"
+
+#: wp-admin/network/users.php:170
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Yisako ku linnya lyonna ku lukalala okuletta endagriiro yo kukyusa. Engagiriro yo kukyusa ku konno ejjakutusa ku lupapula olwebikwata ku mukozi oyo, endagiriro yoku ddyo mu linnya lyerimu ekutusa ku lupapula olukyusakyusa  omutimbagano oggwo."
+
+#: wp-admin/network/index.php:40
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Okunonya omutimbagano, <strong>tekamu endagiriro</strong>."
+
+#: wp-admin/network/index.php:39
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Okunonya omukozessa, <strong>tekamu yimeiro ye oba erinnya lyakozessa</strong>. Kozessa omukisa okunonyerezza erinnya eryekitundu, nga omukozi."
+
+#: wp-admin/network/index.php:37
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Okwongera ko omutimbagano omupya, <strong>nyigga kola omutimbagano omupya</strong>"
+
+#: wp-admin/network/index.php:36
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "Wandissa omukozesa omupya, <strong>nyigga wandiisa omukozesa omupya</strong>"
+
+#: wp-admin/network/index.php:44
+msgid "Quick Tasks"
+msgstr "Ebyokola ebyamangu"
+
+#: wp-admin/network/index.php:38
+msgid "To search for a user or site, use the search boxes."
+msgstr "Okunonya omukozessa oba omutimbagano, kozessa obubokisi obwokunonyerezza."
+
+#: wp-admin/network/index.php:35
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "Wigyeti ya Right Now ku lutimbe luno ekulaga omukozi oliko nemiwendo gyemitimbagano kumukutu gwo."
+
+#: wp-admin/network/index.php:27
+msgid "Modify global network settings"
+msgstr "Kyussa mu bikwata ku mukutu gwona"
+
+#: wp-admin/network/index.php:26
+msgid "Update your network"
+msgstr "Tumbula omukutu gwo"
+
+#: wp-admin/network/index.php:25
+msgid "Install and activate themes or plugins"
+msgstr "Tekamu oba tongozza endabiika or pulagini"
+
+#: wp-admin/network/index.php:24
+msgid "Add and manage sites or users"
+msgstr "Wandissa oba labirira emitimbagano oba abakozi"
+
+#: wp-admin/network/index.php:23
+msgid "From here you can:"
+msgstr "Okuva wano osobola:"
+
+#: wp-admin/network/index.php:22
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "Tukwanirizza ku buabirizzi bw'omukutu. Ekiffo kino ekyabalabirizzi kikozesebbwa oku labirira ebikwata ku mukutu."
+
+#: wp-admin/network/upgrade.php:127
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "WordPress erinnye omutindo! Nga tetunakusibula, tukusaba otumbule buli mutimbagano ku mukutu gwo."
+
+#: wp-admin/network/upgrade.php:22
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Kozessa olutimbe luno nga omariliza okutumbula WordPress nga oyita mu mitenera egiriwo. Okunyiga epesa lyo kutumbula omukutu, kijja kuyisa mu buli mutimbagano ku mukutu, emitimbagano etano buli murundi, kakasa nti buli terekero litumbuddwa."
+
+#: wp-admin/network/menu.php:34 wp-admin/network/upgrade.php:15
+#: wp-admin/network/upgrade.php:40 wp-admin/network/upgrade.php:131
+msgid "Upgrade Network"
+msgstr "Kulakulanya omukutu"
+
+#. translators: 1: user login, 2: site url, 3: site name/title
+#: wp-admin/network/site-new.php:148
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"Omutimbagano omupya guguddwawo %1$s\n"
+"\n"
+"Ekubbo: %2$s\n"
+"Erinnya: %3$s"
+
+#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:554
+#: wp-admin/includes/network.php:594
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "Omukutu egya fayiro ezidirilwakko giyinza obutakwatagana ne fayiro ezikoleddwa oluvannyuma mukifo kya wp-content."
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Gatta enyiriri eza kodi ezitekeddwa mu wp-config.php (ngatonabba kutuka ku <code>/*...lekera awo okuwandika...*/</code>) ne <code>.htaccess</code> (okyusse amateka ga WordPress)."
+
+#: wp-admin/network/settings.php:55
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "Ababakozi aba obuyinza obusinga tebakyasobolebwa ku gattwa ko ku lutimbe lwe mikisa. Olina genda mu nkalala gyabakozi abaliwo nga oyita mu mukulu wo mukutu > Abakozi olyokke onyigge ku linnya oba ekubo lyo okuterezza wansi werinnya lye. Kino kigenda ku lutembe lwokuterezza ebikwata ku mukozessa wosobola okunyigga akabokisi okumuwa obyinza obusinga yo."
+
+#: wp-admin/network/menu.php:29
+msgid "Updates"
+msgstr "Ebitumbula"
+
+#: wp-admin/network/site-new.php:24
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "Olutimbe luno lwa babakozi aba obuyinza obusinga okubasobozessa okugata abakozi abapya ku mutuku. Kino tekikontana kulwe mitenderra gy'okuwandiisa."
+
+#: wp-admin/network/sites.php:31
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "Ekubo lyo kuterezza ly'olutimbe olwawuffu oluterezza ekiwandiko."
+
+#: wp-admin/network/themes.php:224
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "Endabika zisobola okutongozebbwa omulabirizziw'omukutu mutimbagano ku mutimbagano ku lutimbe lw'okuterezza (lurina ekitore ky'endabiika); tukayo nga oyitta mu ndagiririro y'okuterezza ku lutimbe lw'emitimbagano. Alabirizzi be mikutu bokka bebasobola okutekamu oba okutongozza endabiika."
+
+#: wp-admin/network/sites.php:34
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "Simula, nkola etakuyusibwa nga entimbe zo kukiriziganya lagiddwa."
+
+#: wp-admin/network/sites.php:37
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "Wonyigga ku bipande kisobozessa ekiwandikko kino okweterezza mu nyiriri."
+
+#: wp-admin/network/menu.php:53 wp-admin/network/themes.php:253
+msgctxt "theme"
+msgid "Add New"
+msgstr "Gatakko empya"
+
+#: wp-admin/network/sites.php:28
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr ""
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:175
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "Omutimbagano gwongeddwakko. <a href=\"%1$s\">Genda awasokelwakko</a> oba <a href=\"%2$s\">Terezza Omutimbagano</a>"
+
+#: wp-admin/network/menu.php:40
+msgid "All Sites"
+msgstr "Emitimbagano gyona"
+
+#: wp-admin/network/menu.php:48
+msgid "Themes %s"
+msgstr "Enfanana %s"
+
+#: wp-admin/network/menu.php:52
+msgid "Installed Themes"
+msgstr "Enfanana ekiziddwa"
+
+#: wp-admin/network/site-settings.php:66
+msgid "Site options updated."
+msgstr "Ebitambuza omutimbagano bikyusiddwa bulungi."
+
+#: wp-admin/network/settings.php:366
+msgid "Language Settings"
+msgstr "Ebitambuza enimi"
+
+#: wp-admin/network/settings.php:202
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
+msgstr "Kiriza abakulira emitimbagano okuwandiisa abakozesa abapya ku mutimbagano gwabwe ngoyita mu kiwandiko kya \"Bakozessa &rarr; Wandisa omupya\" "
+
+#: wp-admin/network/sites.php:32
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "Awasokerwa kikutusa ku wasokerwa ku mutimbagano ogwo."
+
+#: wp-admin/network/themes.php:171
+msgid "No, return me to the theme list"
+msgstr "Nedda, nzizayo ku lukalala lwe nfanana."
+
+#. translators: %s: site name
+#: wp-admin/network/site-info.php:117 wp-admin/network/site-settings.php:70
+#: wp-admin/network/site-themes.php:153 wp-admin/network/site-users.php:196
+msgid "Edit Site: %s"
+msgstr "Terezza omutimbagano: %s"
+
+#: wp-admin/network/site-themes.php:187 wp-admin/network/themes.php:291
+msgid "No theme selected."
+msgstr "Teri nfanana yalondeddwa."
+
+#: wp-admin/network/site-themes.php:173 wp-admin/network/themes.php:269
+msgid "Theme enabled."
+msgstr "Enfanana ekiriziddwa."
+
+#: wp-admin/network/site-info.php:23 wp-admin/network/site-settings.php:22
+#: wp-admin/network/site-themes.php:43 wp-admin/network/site-users.php:38
+msgid "Invalid site ID."
+msgstr "Ekyanukula omutimbagano tekirizibwa."
+
+#: wp-admin/network/site-themes.php:181 wp-admin/network/themes.php:277
+msgid "Theme disabled."
+msgstr "Enfanana esirisiddwa."
+
+#: wp-admin/network/user-new.php:20
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "Gatako Omukozi enjakutekako omukozi omupya ku mukutu era ensidikire omuntu oyo yimeyiro nge erina erinnya lye ne kigambo kye kyama."
+
+#: wp-admin/network/site-themes.php:190
+msgid "Network enabled themes are not shown on this screen."
+msgstr "Endabika ezitongozeddwa ku mukutu teziragiddwa kulutimbe luno."
+
+#: wp-admin/network/menu.php:67 wp-admin/network/settings.php:19
+msgid "Network Settings"
+msgstr "Nobbu z'omukutu"
+
+#: wp-admin/network/themes.php:125
+msgid "Delete Theme"
+msgstr "Gyamu endabiika"
+
+#: wp-admin/network/themes.php:126
+msgid "This theme may be active on other sites in the network."
+msgstr "Endabika eno eyinza okubba yatongozebbwa ku mitimbagano emirala ku mukutu gunno."
+
+#: wp-admin/network/themes.php:127
+msgid "You are about to remove the following theme:"
+msgstr "Olikumpi kujjamu endabika eno:"
+
+#: wp-admin/network/themes.php:161
+msgid "Yes, delete this theme"
+msgstr "Nzikiriza, gyamu endabika eno"
+
+#: wp-admin/network/themes.php:148
+msgid "Are you sure you wish to delete these themes?"
+msgstr "Okakasa nti oyagal kujjamu endabika zino?"
+
+#: wp-admin/network/site-new.php:181 wp-admin/network/site-new.php:191
+msgid "Add New Site"
+msgstr "Wandissa omutimbagano omupya"
+
+#: wp-admin/network/themes.php:293
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "Tosobola ku sanyawo kifananyi nga kikya kozessebwa ku mutimbagano omukulu."
+
+#: wp-admin/network/site-users.php:240
+msgid "Enter the username of an existing user."
+msgstr "Tekamu erinnya lyomukozessa ali mu lukalala"
+
+#: wp-admin/network/site-info.php:112
+msgid "Site info updated."
+msgstr "Ebikwata ku mutimbagano biterezzeddwa."
+
+#: wp-admin/network/site-users.php:234
+msgid "User is already a member of this site."
+msgstr "Omukozessa ono y'ewandissa dda ku mukutu."
+
+#: wp-admin/network/sites.php:149
+msgid "Sorry, you are not allowed to delete the site %s."
+msgstr "Bambi, tokirizibwa ku sanyawo mutimbagano guno %s."
+
+#: wp-admin/network/user-new.php:49
+msgid "Cannot add user."
+msgstr "Omukozi tasobola kwongerebwa ko."
+
+#: wp-admin/network/site-users.php:310 wp-admin/network/user-new.php:129
+msgid "Add User"
+msgstr "Gatta ko omukozi"
+
+#: wp-admin/network/site-users.php:255
+msgid "User created."
+msgstr "Omukozesa akoleddwa."
+
+#: wp-admin/network/site-users.php:252
+msgid "Select a user to remove."
+msgstr "Londa ko omukozzi wo kugya mulukalala."
+
+#: wp-admin/network/site-users.php:246
+msgid "Select a user to change role."
+msgstr "Londa omukozessa okukyusa emirimu gye."
+
+#: wp-admin/network/site-users.php:258
+msgid "Enter the username and email."
+msgstr "Tekamu erinnya ly'okozessa ne yimeyiro."
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "Kasita omaliriza okujjamu kodi ono n'ozzabutto ekiwandiko kino, omukuttu gu gya kutongozzebwa. Ekiwandiko kino kati ekiri mu terekerro ly'omukulu w'omukutu kijja kukuma kodi ono. Osobola okyussa wakati w'omukulu w'omukutu no w'omutimbagano nga onyigga ku mukulu w'omukutu oba erinnya ly'omutimbagano mulukalala lwe mitimbagano wagulu."
+
+#: wp-admin/includes/network.php:149
+msgid "ERROR: The network could not be created."
+msgstr "NSOBI: Omukutu gulemeddwa okukolebwa."
+
+#: wp-admin/includes/network.php:225
+msgid "Sub-directories"
+msgstr "Amaterekero agidirira"
+
+#: wp-admin/network.php:71
+msgid "Network"
+msgstr "Omukutu"
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:220
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "nga <code>omutimbagano1.%1$s</code> ne <code>omutimbagano2.%1$s</code>"
+
+#: wp-admin/includes/network.php:210
+msgid "Addresses of Sites in your Network"
+msgstr "Amanya g'emitimbagano mu mukutu gwo"
+
+#: wp-admin/includes/network.php:117 wp-admin/includes/network.php:189
+#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:279
+#: wp-admin/includes/network.php:289 wp-admin/includes/network.php:382
+#: wp-admin/includes/network.php:554 wp-admin/includes/network.php:594
+msgid "Warning:"
+msgstr "Okulabula:"
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "Ekitundu awakolerwa emikutu siwa mukutu gya WordPress."
+
+#: wp-admin/includes/network.php:137
+msgid "Return to Dashboard"
+msgstr "Ddayo awasokkerwa"
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "Tongozza omukutu gwemitimbagano gya WordPress"
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr ""
+
+#. translators: %s: Plugins screen URL
+#: wp-admin/includes/network.php:119
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "Osabibwa <a href=\"%s\">okusirisa pulagini zo</a> nga tonaba ku tongonza mukutu."
+
+#: wp-admin/includes/network.php:122
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Omukutu kasita gubeera nga gukoleddwa, oyinza okukiriza pulagini zo okukola."
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr ""
+
+#: wp-admin/includes/network.php:169
+msgid "Welcome to the Network installation process!"
+msgstr "Tukwaniriziddwa ku mitendera gyo kutandikka wo omukutu!"
+
+#: wp-admin/includes/network.php:265
+msgid "Network Details"
+msgstr "Ebikwata ku mukutu"
+
+#: wp-admin/includes/network.php:603
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Bwomalizza ebidirira wano, omukutu gwo guba butongozeddwa bulungi. Olina okutekka mu erinnya lyo n'ekigambo kyekyama okuyingira omukutu buto."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr ""
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your installation. Fill out the network details, and click Install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr ""
+
+#: wp-admin/includes/network.php:484
+msgid "To make your installation more secure, you should also add:"
+msgstr "Okuffula omusingi gwo gubeere munwevu mubyokwerinda, gattako bino:"
+
+#: wp-admin/includes/network.php:217
+msgid "Sub-domains"
+msgstr "Amanya g'omutimbagano agaddirira"
+
+#: wp-admin/includes/network.php:213
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr ""
+
+#: wp-admin/includes/network.php:131
+msgid "You cannot install a network of sites with your server address."
+msgstr "Tosobola kutongoza mukutu gwa mitimbagano nerinnya lya savva eryo."
+
+#: wp-admin/includes/network.php:170
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "Jjuzza mu ebyetagizibwa wamanga awo otandike olugendo lwo kukola omukutu gwe mitimbagano gwa WordPress. Tujja kukola fayiro zebyetagissa ku mutendera ogudako."
+
+#: wp-admin/includes/network.php:395
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Maliriza emitendera egiddako okutongoza omukutu gwe mitimbagano."
+
+#: wp-admin/includes/network.php:394
+msgid "Enabling the Network"
+msgstr "Tutongozza omukutu"
+
+#: wp-admin/includes/network.php:383
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "Maliriza emitendera egiddako. Okutongoza omukutu omupya, ojja kwetagga okujjamu emiko gya databesi yo mukutu."
+
+#: wp-admin/includes/network.php:382
+msgid "An existing WordPress network was detected."
+msgstr "Omukutu gwa WordPress oguliwo gu zuliddwa."
+
+#: wp-admin/includes/network.php:377
+msgid "The original configuration steps are shown here for reference."
+msgstr "Emitendera egyasokka gigino okulabira ko."
+
+#: wp-admin/includes/network.php:326
+msgid "Your email address."
+msgstr "Yimeyiro yo."
+
+#: wp-admin/includes/network.php:317
+msgid "What would you like to call your network?"
+msgstr "Omukutu oyagala guyita ki?"
+
+#: wp-admin/includes/network.php:313 wp-admin/network/settings.php:125
+msgid "Network Title"
+msgstr "Omutwe gw'omukutu"
+
+#: wp-admin/includes/network.php:295
+msgid "Because your installation is not new, the sites in your WordPress network must use sub-domains."
+msgstr "Kubanga omukutu gwo si mupya tuku, emitimbagano gyo mu mukutu gwa WordPress tegusobola kukozessa amanya go mutimbagano agaddirwakko."
+
+#: wp-admin/includes/network.php:286
+msgid "Because your installation is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr ""
+
+#: wp-admin/includes/network.php:279 wp-admin/includes/network.php:289
+#: wp-admin/includes/network.php:296
+msgid "The main site in a sub-directory installation will need to use a modified permalink structure, potentially breaking existing links."
+msgstr ""
+
+#: wp-admin/includes/network.php:243 wp-admin/includes/network.php:253
+#: wp-admin/includes/network.php:302
+msgid "Server Address"
+msgstr "Ekubo lya Savva"
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:228
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "nga <code>%1$s/omutimbagano1</code> ne <code>%1$s/omutimbagano2</code>"
+
+#: wp-admin/network/users.php:70
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "Kulabula! Omukozessa tasobola ku kyusibwa. Omukozessa %s mukulu wa mukutu guno."
+
+#: wp-admin/network/sites.php:30
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Okweyisa ku buli mutimbagano kimulisa ebyokulonda ko musanvu (bisatu bya mutimbagano omukulu)"
+
+#: wp-admin/network/sites.php:36
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "Ekitambulisso ky'omukutu kikozesebwa munda, era tekilabisibwa ku maaso g'omutimbagano oba eri abagenyi baggwo."
+
+#: wp-admin/network/sites.php:33
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr ""
+
+#: wp-admin/network/site-new.php:25
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Yimeyiro y'omukulu w'omutimbagano omupya weba terimu muterekero, omukozi omupya ajja kugatibbwako."
+
+#: wp-admin/network/settings.php:49
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr ""
+
+#: wp-admin/network/settings.php:52
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr ""
+
+#: wp-admin/network/users.php:173
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr ""
+
+#: wp-admin/network/users.php:171
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr ""
+
+#: wp-admin/network/sites.php:35
+msgid "Visit to go to the front-end site live."
+msgstr "Genda ku kiwandiiko ekisoka ku mutimbagano ogwokumwanjjo."
+
+#: wp-admin/network/users.php:174
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "Osobola okuwaniika omukozessa w'omutimbagano ku ddala ly'obukulu obusingayo nga ogenda ku kiwandiko kyo kuterrezza ebikwata ku mukozessa nosazza akabokisi okumuwa obuyinza."
+
+#: wp-admin/network/users.php:169
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "Olukalala lulaga abakozessa omukutu bonna ne mitimbagano ki gyebalikko."
+
+#: wp-admin/network/upgrade.php:23
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "Singa okulinyisa omutindo gwa sofutiweya wo mukutu tegukoleddwa, okunyigga lino epessa tekigya kukyussa kintu kyona."
+
+#: wp-admin/network/upgrade.php:24
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "Singa omukolo guno gulemererwa ku nsonga yonna, Abakozessa bonna aba betabye mu mutimbagano gyabwe bajja kuwalirizibwa okutumbula sofutiweya yomu."
+
+#: wp-admin/network/users.php:172
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr ""
+
+#: wp-admin/network/user-new.php:21
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr ""
+
+#: wp-admin/network/sites.php:29
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr ""
+
+#: wp-admin/network/settings.php:54
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr ""
+
+#: wp-admin/network/settings.php:50
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr ""
+
+#: wp-admin/network/settings.php:48
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr ""
+
+#: wp-admin/network/themes.php:223
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr ""
+
+#: wp-admin/network/themes.php:222
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr ""
+
+#: wp-admin/network/settings.php:51
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr ""
+
+#. translators: %s: reserved names list
+#: wp-admin/network/site-new.php:52
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "Ebigambo bino bikumibwa kozessebwa bya WordPress era tebisobozessebwa kozessa nga manya ga mitimbagano: %s"
+
+#: wp-admin/network/upgrade.php:112
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Olutambi lwo welutatandikira wo ku lagga ekiwandiko ky'omutimbagano ekidako, nyigga endagiriro eno:"
+
+#: wp-admin/network/site-new.php:38
+msgid "Can&#8217;t create an empty site."
+msgstr "Tosobola kutandika mutimbagano mukalu."
+
+#: wp-admin/network/settings.php:235
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Woba oyagala ku sirisa amanya mukwewandisa munkala gy'emikuttu. Buli rinnya liteke ku muuko ggumu."
+
+#: wp-admin/network/settings.php:224
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Woba oyagala ku tekawo amanya agokozesa mukwewandisa munkala gy'emikuttu. Buli rinnya ku muuko ggumu."
+
+#: wp-admin/network/sites.php:303
+msgid "Site removed from spam."
+msgstr "Omutimbagano gugiddwa mu bitagassa."
+
+#: wp-admin/network/users.php:203
+msgid "Users removed from spam."
+msgstr "Abakozesa omutimbagano baggiddwa mu bitagassa."
+
+#: wp-admin/network/sites.php:276
+msgid "Sites removed from spam."
+msgstr "Emitimbagano giggiddwa mu bitagassa."
+
+#: wp-admin/network/sites.php:279
+msgid "Sites marked as spam."
+msgstr "Emitimbagano gitekeddwa mu bitagassa."
+
+#: wp-admin/network/sites.php:306
+msgid "Site marked as spam."
+msgstr "Omutimbagano gutekeddwa mu bitagassa."
+
+#: wp-admin/network/sites.php:291
+msgid "Site archived."
+msgstr "Omutimbagano guterekeddwa."
+
+#: wp-admin/network/users.php:206
+msgid "Users deleted."
+msgstr "Abakozesa omutimbagano baggiddwawo."
+
+#: wp-admin/network/sites.php:294
+msgid "Site unarchived."
+msgstr "Emitimbagano ggigiddwa mu terekkero."
+
+#: wp-admin/network/sites.php:297
+msgid "Site activated."
+msgstr "Omutimbagano gutongozeddwa."
+
+#: wp-admin/network/sites.php:300
+msgid "Site deactivated."
+msgstr "Omutimbagano gusirisiddwa."
+
+#: wp-admin/network/users.php:200
+msgid "Users marked as spam."
+msgstr "Abakozesa omutimbagano batekeddwa mu bitagassa."
+
+#: wp-admin/network/sites.php:285
+msgid "Site deleted."
+msgstr "Omutimbagano gugaddwawo."
+
+#: wp-admin/network/sites.php:282
+msgid "Sites deleted."
+msgstr "Emitimbagano gigaddwawo."
+
+#: wp-admin/network/sites.php:91 wp-admin/network/sites.php:200
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "Bambi, tokirizibwa kukyusa mutimbagano guno."
+
+#: wp-admin/network/site-new.php:118
+msgid "There was an error creating the user."
+msgstr "Wabadde wo ensobi mukutekawo omukozi."
+
+#: wp-admin/network/settings.php:335
+msgid "Upload file types"
+msgstr "Yimusa ebika bya fairo"
+
+#: wp-admin/network/settings.php:327
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Kendezza omuwendo gwa fayiro zo kuyimusa mpaka %s MB"
+
+#: wp-admin/network/settings.php:317
+msgid "The URL for the first comment on a new site."
+msgstr "Endagiriro y'ekiteso ekisokka ku mutimbagano omugya."
+
+#: wp-admin/network/settings.php:290
+msgid "The first comment on a new site."
+msgstr "Ekiteso ekisokka ku mutimbagano omugya."
+
+#: wp-admin/network/settings.php:280
+msgid "The first page on a new site."
+msgstr "Ekiwandiiko ekisokka ku mutimbagano omugya."
+
+#: wp-admin/network/settings.php:270
+msgid "The first post on a new site."
+msgstr "Olugero ekisokka ku mutimbagano omugya."
+
+#: wp-admin/network/settings.php:299
+msgid "The author of the first comment on a new site."
+msgstr "Omuteesa eyasosse ku sayiiti empya."
+
+#: wp-admin/network/upgrade.php:68
+msgid "All done!"
+msgstr "Byona biwedde!"
+
+#: wp-admin/network/settings.php:171
+msgid "Registration is disabled"
+msgstr "Okwewandissa kugaddwa wo"
+
+#: wp-admin/network/settings.php:172
+msgid "User accounts may be registered"
+msgstr "Akawunta za bakozi ziyinza okubba zawandisizibwa"
+
+#: wp-admin/network/settings.php:174
+msgid "Both sites and user accounts can be registered"
+msgstr "Sayiiti ne akawunta za bakozi zisoboolwa okuwandisizibwa"
+
+#: wp-admin/network/settings.php:173
+msgid "Logged in users may register new sites"
+msgstr "Abakozi abalina ebisanyizzo bayinza okuwandisa sayiiti empya"
+
+#: wp-admin/network/settings.php:159
+msgid "Registration Settings"
+msgstr "Emitendera gy'okwewandissa"
+
+#: wp-admin/network/settings.php:241
+msgid "New Site Settings"
+msgstr "Emitendera gya sayiiti empya"
+
+#: wp-admin/network/settings.php:322
+msgid "Upload Settings"
+msgstr "Emitendera gy'okuwaniika"
+
+#: wp-admin/network/settings.php:122
+msgid "Operational Settings"
+msgstr "Emitendera gy'enkola yabulijjo"
+
+#: wp-admin/network/settings.php:398
+msgid "Enable administration menus"
+msgstr "Kiriza menu za abatesiteesi"
+
+#: wp-admin/network/site-new.php:83
+msgid "Missing email address."
+msgstr "Yimeyiro ezibulakko"
+
+#: wp-admin/network/site-new.php:80
+msgid "Missing or invalid site address."
+msgstr "Amanya ga sayiiti agabulakko oba agatakiribwa."
+
+#: wp-admin/network/upgrade.php:112
+msgid "Next Sites"
+msgstr "Sayiiti eziddako"
+
+#: wp-admin/network/settings.php:211
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Abakozi tebakiribwa ku wandissa amanya ga sayiiti zino. Yawula amanya n'akabanga."
+
+#: wp-admin/network/settings.php:195
+msgid "Send the network admin an email notification every time someone registers a site or user account"
+msgstr "Sindikira omukulu w'omukutu yimeyiro buli mulindu omuntu wawandisisa sayiit oba akawunta yo omukozi empya"
+
+#: wp-admin/network/settings.php:325
+msgid "Site upload space"
+msgstr "Ekifo kyo ku kutekako sayiiti empya"
+
+#: wp-admin/network/settings.php:250
+msgid "The welcome email sent to new site owners."
+msgstr "Yimeiro e'yanirizza esindikirwa eri bananyini sayiiti empya."
+
+#. translators: %s: network name
+#: wp-admin/network/site-new.php:143
+msgid "[%s] New Site Created"
+msgstr "[%s] Sayiiti empya egguddwawo"
+
+#: wp-admin/includes/network.php:322 wp-admin/network/settings.php:132
+msgid "Network Admin Email"
+msgstr "Yimeyiro yo mukulu wo'mukutu"
+
+#: wp-admin/network/site-new.php:252
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Omukozi omulala ajjakworebwa ko singa yimeyiro waggulu terimu database."
+
+#: wp-admin/network/site-new.php:248
+msgid "Admin Email"
+msgstr "Yimeyiro yo mukulu"
+
+#: wp-admin/network/site-new.php:264
+msgid "Add Site"
+msgstr "Yongera ko sayiiti endara"
+
+#: wp-admin/network/settings.php:369
+msgid "Default Language"
+msgstr "Olurimi olusokerwako"
+
+#: wp-admin/network/settings.php:345
+msgid "Max upload file size"
+msgstr "Sayizi ya fayiro esinga okurizibwa"
+
+#: wp-admin/network/settings.php:313
+msgid "First Comment URL"
+msgstr "Endagiriro y'okutessa okusokka"
+
+#: wp-admin/network/settings.php:295
+msgid "First Comment Author"
+msgstr "Omuteesa asokka"
+
+#: wp-admin/network/settings.php:285
+msgid "First Comment"
+msgstr "Okutessa okusokka"
+
+#: wp-admin/network/settings.php:275
+msgid "First Page"
+msgstr "Pegi esokka"
+
+#: wp-admin/network/settings.php:260
+msgid "The welcome email sent to new users."
+msgstr "Yimeiro yo kwanirizza esindikiddwa abakozi abapya."
+
+#: wp-admin/network/settings.php:255
+msgid "Welcome User Email"
+msgstr "Yimeiro yo kwanirizza"
+
+#: wp-admin/network/settings.php:245
+msgid "Welcome Email"
+msgstr "Yimeiro e'kwanirizza"
+
+#: wp-admin/network/settings.php:230
+msgid "Banned Email Domains"
+msgstr "Domeyini za yimeiro ezitakirizibwa"
+
+#: wp-admin/network/settings.php:217
+msgid "Limited Email Registrations"
+msgstr "Okwewandissa kwa yimeiro okusengejjamu"
+
+#: wp-admin/network/settings.php:207
+msgid "Banned Names"
+msgstr "Amanya agatakirizibwa"
+
+#: wp-admin/network/settings.php:200
+msgid "Add New Users"
+msgstr "Wandissa abakozi abapya"
+
+#: wp-admin/network/settings.php:189
+msgid "Registration notification"
+msgstr "Ebikwata ku kwewandissa"
+
+#: wp-admin/network/settings.php:162
+msgid "Allow new registrations"
+msgstr "Kiriza okwewandisa okupya"
+
+#: wp-admin/network/site-users.php:261
+msgid "Duplicated username or email address."
+msgstr "Waliwo erinnya oba yimeiro efanana eno"
+
+#: wp-admin/network/user-new.php:37
+msgid "Cannot create an empty user."
+msgstr "Tosobola mu kola linnya lya mukozi eryelere."
+
+#: wp-admin/network/sites.php:107 wp-admin/network/sites.php:185
+msgid "Confirm"
+msgstr "Okakasa"

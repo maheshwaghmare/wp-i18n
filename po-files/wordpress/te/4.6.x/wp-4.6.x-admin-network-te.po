@@ -1,0 +1,1388 @@
+# Translation of WordPress - 4.6.x - Administration - Network Admin in Telugu
+# This file is distributed under the same license as the WordPress - 4.6.x - Administration - Network Admin package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-14 06:20:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: te\n"
+"Project-Id-Version: WordPress - 4.6.x - Administration - Network Admin\n"
+
+#: wp-admin/network.php:71
+msgid "Network"
+msgstr "నెట్‌వర్కు"
+
+#: wp-admin/network.php:67 wp-admin/network.php:78
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">నెట్వర్క్ తెరపై డాక్యుమెంటేషన్</a>"
+
+#: wp-admin/network.php:66 wp-admin/network.php:77
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\" target=\"_blank\">నెట్‌వర్కు సృష్టించుటపై డాక్యుమెంటేషన్</a>"
+
+#: wp-admin/network.php:64
+msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
+msgstr "ఈ అమరిక నెలకంటే పాతదైతే, ప్రధాన సైటు నుండి &#8220;/blog/&#8221;తో వచ్చే స్థిరలంకెల సమస్యల వల్ల, ఉపసంచయ ఎంపిక అచేతనం చెయ్యబడింది. ఇది భవిష్యత్తు విడుదలలో పరిష్కరించబడుతుంది."
+
+#: wp-admin/network.php:63
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "మీ కోడు చేర్చి, మీ విహారిణిని రీఫ్రెష్ చేసిన తర్వా, మల్టిసైటు చేతనమవుతుంది. ఈ తెర, ఇప్పుడు నెట్‌వర్క్ నిర్వహణ మెనూలో ఉంది, మీరు చేర్చిన కోడు ఆర్కైవును ఉంచుతుంది. మీరు నెట్‌వర్క్ నిర్వహణ మరియు సైటు నిర్వహణల మధ్య మారడానికి నెట్‌వర్క్ నిర్వహణ లేదా పనిముట్ల పట్టీ నుండి నా సైట్లు డ్రాప్‌డౌనుులోని ఒక విడి సైటు పేరు మీద నొక్కవచ్చు."
+
+#: wp-admin/network.php:62
+msgid "Add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "నిర్ణీత లైన్ల కోడుని wp-config.php ఫైలులో (just before <code>/*...stop editing...*/</code>) కి పైన మరియు <code>.htaccess</code> ఫైలులో (ఉన్న వర్డ్‌ప్రెస్ నియమాల స్థానంలో) చేర్చండి."
+
+#: wp-admin/network.php:61
+msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
+msgstr "నెట్‌వర్కు అమర్పు లోని తర్వాతి తెర మీకు wp-config.php మరియు .htaccess ఫైళ్ళలో చేర్చాల్సిన కోడును విడివిడిగా ఇస్తుంది. .htaccess ఫైలును చూడడానికి, మీ FTP క్లైంటు అమరికలలో డాట్‌తో మొదలయ్యే ఫైళ్ళు కనబడేలా ఉంచుకోండి; ఆ ఫైలు లేకపోతే మీరు దాన్ని సృష్టించాల్సిరావచ్చు. ఆ రెండు ఫైళ్ళకీ బ్యాకప్ కాపీలను ఉంచుకోండి."
+
+#: wp-admin/network.php:60
+msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
+msgstr "ఉపడొమైనులో ఉపసంచయాలో ఎంచుకోండి; మీ స్థాపనను పునస్వరూపించుకోవడం ద్వారా మాత్రమే దీన్ని తర్వాత మార్చుకోగలరు. నెట్‌వర్కు వివరాలను పూరించి స్థాపించు నొక్కండి. ఇది పనిచేయకపోతే, మీరు వైల్డ్‌కార్డ్ DNS రికార్డు (ఉపడొమైన్లకు) చేర్చాల్సిరావచ్చు లేదా (ఉపసంచయాలకు) స్థిర లంకెలలో మరో అమరికకు మారాల్సిరావచ్చు."
+
+#: wp-admin/network.php:59
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "ఈ తెరలో నెట్‌వర్కుని ఉపడొమైన్లు (<code>site1.example.com</code>) ఉండేలా లేదా ఉప సంచయాలు (<code>example.com/site1</code>) ఉండేలా స్వరూపించుకోవచ్చు. ఉపడొమైన్లకు అపాచీ లోనూ DNS రికార్డుల లోనూ (మీ హోస్టు అనుమతిస్తే) వైల్డ్‌కార్డు ఉపడొమైన్లు చేతనమై ఉండాలి."
+
+#: wp-admin/network.php:55
+msgid "Create a Network of WordPress Sites"
+msgstr "వర్డ్‌ప్రెస్ సైట్ల నెట్‌వర్కును సృష్టించండి"
+
+#. translators: 1: WP_ALLOW_MULTISITE 2: wp-config.php
+#: wp-admin/network.php:44
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "నెట్వర్క్ సృష్టికై మీ %2$s ఫైలులో %1$s స్థిరాంకాన్ని తప్పక ట్రూ గా నిర్వచించాలి."
+
+#: wp-admin/network.php:29
+msgid "The Network creation panel is not for WordPress MU networks."
+msgstr "నెట్‌వర్క్ సృష్టింపు ప్యానెల్ వర్డ్‌ప్రెస్ MU నెట్‌వర్కుల కోసం కాదు."
+
+#: wp-admin/network/users.php:198
+msgid "Users deleted."
+msgstr "వాడుకరులు తొలగించబడ్డారు."
+
+#: wp-admin/network/users.php:195
+msgid "Users removed from spam."
+msgstr "వాడుకరులు స్పాము నుండి తొలగించబడ్డారు."
+
+#: wp-admin/network/users.php:192
+msgid "Users marked as spam."
+msgstr "వాడుకరులు స్పాముగా గుర్తించబడ్డారు."
+
+#: wp-admin/network/users.php:166
+msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
+msgstr "వాడుకరి ప్రొఫైలు పేజీలో తగిన మార్పు ద్వారా మీరు మరో వాడుకరిని అదనపు మహా నిర్వాహకులుగా చేయవచ్చు"
+
+#: wp-admin/network/users.php:165
+msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
+msgstr "టోకు చర్య ఎంచుకున్న వాడుకరులను శాశ్వతంగా తొలగిస్తుంది, లేదా స్పాముగానో కానట్టుగానో గుర్తిస్తుంది. స్పాము వాడుకరుల టపాలు తొలగించడబతాయి, మరియు వారు మళ్ళీ అదే ఈమెయిలు చిరునామాతో నమోదు కాలేరు."
+
+#: wp-admin/network/users.php:164
+msgid "You can sort the table by clicking on any of the table headings and switch between list and excerpt views by using the icons above the users list."
+msgstr "ఈ పట్టిక లోని హెడ్డింగులను నొక్కడం ద్వారా పట్టకి క్రమాన్ని మార్చవచ్చు. వాడుకరుల జాబితా పైన ఉన్న ప్రతీకాలను వాడి జాబితా లేదా సంగ్రహ వీక్షణల మధ్య మారవచ్చు."
+
+#: wp-admin/network/users.php:163
+msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
+msgstr "వాడుకరి పేరు మీద నొక్కడం ద్వారా కూడా మీరు వాడుకరి ప్రొఫైలు పేజీకి వెళ్ళవచ్చు."
+
+#: wp-admin/network/users.php:162
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "జాబితా లోని ఏ వాడుకరి మీదైనా మౌసు ఉంచిదే సవరణ లంకెలు కనిపిస్తాయి. ఎడమ వైపున ఉన్న మార్చు లంకె మిమ్మల్ని వాడుకరి ప్రొఫైలు పేజీకి తీసుకెళ్తుంది; సైటు పేరుకి కుడివైపున ఉన్న మార్చు లంకె ఆ సైటు సవరణ తెరకు తీసుకెళ్తుంది."
+
+#: wp-admin/network/users.php:161
+msgid "This table shows all users across the network and the sites to which they are assigned."
+msgstr "నెట్‌వర్కులోని వాడుకరులందరినీ వారు ఏయే సైట్లుకు సంబంధించినవారో ఈ పట్టిక చూపిస్తుంది."
+
+#: wp-admin/network/users.php:73
+msgid "Warning! User cannot be modified. The user %s is a network administrator."
+msgstr "హెచ్చరిక! వాడుకరిని మార్చలేరు. వాడుకరి %s నెట్‌వర్క్ నిర్వాహకులు."
+
+#. translators: %s: edit page url
+#: wp-admin/network/user-new.php:83
+msgid "User added. <a href=\"%s\">Edit user</a>"
+msgstr "వాడుకరి చేర్చబడ్డారు. <a href=\"%s\">వాడుకరిని సరిదిద్దండి</a>"
+
+#: wp-admin/network/user-new.php:52
+msgid "Cannot add user."
+msgstr "వాడుకరిని చేర్చలేరు."
+
+#: wp-admin/network/user-new.php:40
+msgid "Cannot create an empty user."
+msgstr "ఖాళీ వాడుకరిని సృష్టించలేరు."
+
+#: wp-admin/network/user-new.php:29 wp-admin/network/users.php:171
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">నెట్వర్క్ వాడుకరులపై డాక్యుమెంటేషన్</a>"
+
+#: wp-admin/network/user-new.php:24
+msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
+msgstr "ఏ సైట్లూ లేని నెట్‌వర్కులో వాడుకరులు నమోదైతే, వారు  ప్రధాన సైటుకి చందాదారులుగా చేర్చబడతారు, అందువల్ల వారి ఖాతాలు నిర్వహించుకోడానికి ప్రొఫైలు పేజీ ఉంటుంది. ఒక సైటు సృష్టించబడే వరకూ ఈ వాడుకరులకు సైటులో డాష్‌బోర్డు మరియు నా సైట్లు అన్నవి మాత్రమే కనిపిస్తాయి."
+
+#: wp-admin/network/user-new.php:23
+msgid "Add User will set up a new user account on the network and send that person an email with username and password."
+msgstr "వాడుకరిని చేర్చండి అనేది నెట్‌వర్కులో కొత్త వాడుకరి ఖాతాను సృష్టించి ఆ వ్యక్తికి వాడురుకరి పేరునీ సంకేతపదాన్నీ ఈమెయిలులో పంపిస్తుంది."
+
+#: wp-admin/network/upgrade.php:119
+msgid "WordPress has been updated! Before we send you on your way, we need to individually upgrade the sites in your network."
+msgstr "వర్డ్‌ప్రెస్ తాజాకరించబడింది! మిమ్మల్ని వదిలే ముందు, మేం మీ నెట్‌వర్కు లోని సైట్లను విడిగా నవీకరించాలి."
+
+#: wp-admin/network/upgrade.php:104
+msgid "Next Sites"
+msgstr "తరువాతి సైట్లు"
+
+#: wp-admin/network/upgrade.php:104
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "మీ విహారిణి ఆటోమెటిగ్గా తర్వాతి పేజీకి వెళ్ళకపోతే, ఈ లంకెను నొక్కండి:"
+
+#. translators: 1: site url, 2: server error message
+#: wp-admin/network/upgrade.php:80
+msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: %2$s"
+msgstr "హెచ్చరిక! %1$s తాజాకరించడంలో సమస్య. మీ సర్వరు దానిలో నడుస్తున్న సైట్లకు అనుసంధానమవలేక పోవచ్చు. తప్పిద సందేశం: %2$s"
+
+#: wp-admin/network/upgrade.php:60
+msgid "All done!"
+msgstr "అంతా పూర్తయ్యింది!"
+
+#: wp-admin/network/upgrade.php:32
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\" target=\"_blank\">నెట్వర్క్ తాజాకరణపై డాక్యుమెంటేషన్</a>"
+
+#: wp-admin/network/upgrade.php:27
+msgid "If this process fails for any reason, users logging in to their sites will force the same update."
+msgstr "ఏదైనా కారణం వల్ల ఈ ప్రక్రియ విఫలమైతే, వివిధ సైట్లలోనికి ప్రవేశించే వాడుకరులు అదే తాజాకరణను చెయ్యాల్సివుంటుంది."
+
+#: wp-admin/network/upgrade.php:26
+msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
+msgstr "కోర్ వెర్షను గనుక తాజాకరించబడకపోతే, ఈ బొత్తం దేన్నీ ప్రభావితం చెయ్యదు."
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "ఈ తెరను మీరు వర్డ్‌ప్రెస్ సరికొత్త వెర్షనుకి తాజాకరించుకున్న (నెట్‌వర్క్ నిర్వహణ మెనూ లేదా పనిముట్ల పట్టీ లోని తాజాకరణలు/అందుబాటులో ఉన్న తాజాకరణనలు ద్వారా) తర్వాత మాత్రమే వాడండి. నెట్‌వర్కుని నవీకరించు బొత్తం నెట్‌వర్కు లోని అన్ని సైట్లనూ, ఒక్కోసారి ఐదేసి, వాటికి ఏమైనా డేటాబేసు తాజాకరణలు ఉంటే అవి ఆపాదించబడ్డాయని చూస్తుంది."
+
+#: wp-admin/network/themes.php:275
+msgid "You cannot delete a theme while it is active on the main site."
+msgstr "ప్రధాన సైటులో చేతనంగా ఉన్న అలంకారాన్ని మీరు తొలగించలేరు."
+
+#: wp-admin/network/themes.php:269
+msgid "%s theme deleted."
+msgid_plural "%s themes deleted."
+msgstr[0] "%s అలంకారం తొలగించబడింది."
+msgstr[1] "%s అలంకారాలు తొలగించబడ్డాయి."
+
+#: wp-admin/network/themes.php:224
+msgid "Themes list navigation"
+msgstr "అలంకారాల జాబితా నావిగేషన్"
+
+#: wp-admin/network/themes.php:218
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">నెట్వర్క్ అలంకారాలపై డాక్యుమెంటేషన్</a>"
+
+#: wp-admin/network/themes.php:213
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
+msgstr "నెట్‌వర్క్ నిర్వాహకులు ప్రతీ సైటుకి విడిగా (సైటును మార్చే తెరలో ఉన్న అలంకారాల ట్యాబులో) అలంకారాలను చేతనం చేయవచ్చు; అక్కడికి వెళ్ళడానికి అన్ని సైట్ల తెరలో మార్చు లంకెను వాడవచ్చు. కేవలం నెట్‌వర్క్ నిర్వాహకులు మాత్రమే అలంకారాలను స్థాపించగలరు లేదా మార్చగలరు."
+
+#: wp-admin/network/themes.php:212
+msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
+msgstr "నెట్‌వర్క్ నిర్వాహకులు వాడుకలో ఉన్న అలంకారాన్ని అచేతనం చేస్తే, అది ఆయా సైట్లలో ఎంచుకోబడే ఉంటుంది. మరో ఆలంకారం ఎంచుకుంటే, ఇక ఆ అచేతన అలంకాలం ఆ సైటు రూపురేఖలు > అలంకాలాల తెరలో కనబడదు."
+
+#: wp-admin/network/themes.php:211
+msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
+msgstr "ప్రతీ సైటు రూపురేఖల మెనూలో అందుబాటులో ఉండేందుకు అలంకారాలను చేతనం/అచేతనం చేయనిస్తుంది. ఇది ఆయా సైట్లు ప్రస్తుతం వాడుతున్న అలంకారాన్ని నిష్క్రియం చెయ్యదు."
+
+#: wp-admin/network/themes.php:174
+msgid "No, return me to the theme list"
+msgstr "వద్దు, తిరిగి అలంకారాల జాబితాకి వెళ్ళు"
+
+#: wp-admin/network/themes.php:166
+msgid "Yes, delete these themes"
+msgstr "అవును, ఈ అలంకారాలను తొలగించు"
+
+#: wp-admin/network/themes.php:164
+msgid "Yes, delete this theme"
+msgstr "అవును, ఈ అలంకారాన్ని తొలగించు"
+
+#: wp-admin/network/themes.php:151
+msgid "Are you sure you wish to delete these themes?"
+msgstr "మీరు నిజంగానే ఈ అలంకారాలను తొలగించాలనుకుంటున్నారా?"
+
+#: wp-admin/network/themes.php:149
+msgid "Are you sure you wish to delete this theme?"
+msgstr "ఈ అలంకారాన్ని తొలగించాలని అనుకుంటున్నారా?"
+
+#. translators: 1: theme name, 2: theme author
+#: wp-admin/network/themes.php:141
+msgctxt "theme"
+msgid "%1$s by %2$s"
+msgstr "%2$s రూపొందించిన %1$s"
+
+#: wp-admin/network/themes.php:134
+msgid "You are about to remove the following themes:"
+msgstr "ఈ క్రింది అలంకారాలను తొలగించబోతున్నారు:"
+
+#: wp-admin/network/themes.php:133
+msgid "These themes may be active on other sites in the network."
+msgstr "ఈ అలంకారాలు నెట్‌వర్కు లోని ఇతర సైట్లలో చేతనంగా ఉండివుండొచ్చు."
+
+#: wp-admin/network/themes.php:132
+msgid "Delete Themes"
+msgstr "అలంకారాల తొలగింపు"
+
+#: wp-admin/network/themes.php:130
+msgid "You are about to remove the following theme:"
+msgstr "ఈ క్రింది అలంకారాన్ని తొలగించబోతున్నారు:"
+
+#: wp-admin/network/themes.php:129
+msgid "This theme may be active on other sites in the network."
+msgstr "ఈ అలంకారం నెట్‌వర్కు లోని ఇతర సైట్లలో చేతనంగా ఉండివుండొచ్చు."
+
+#: wp-admin/network/themes.php:128
+msgid "Delete Theme"
+msgstr "అలంకారాన్ని తొలగించు"
+
+#: wp-admin/network/themes.php:93
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "క్షమించండి, ఈ సైటు అలంకారాలను మీరు తొలగించలేరు.."
+
+#: wp-admin/network/themes.php:17
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "క్షమించండి, మీరు నెట్‌వర్క్ అలంకారాలను నిర్వహించలేరు."
+
+#: wp-admin/network/sites.php:258
+msgid "Site marked as spam."
+msgstr "సైటు స్పాముగా గుర్తించబడింది."
+
+#: wp-admin/network/sites.php:255
+msgid "Site removed from spam."
+msgstr "సైటు స్పాము నుండి తొలగించబడింది."
+
+#: wp-admin/network/sites.php:252
+msgid "Site deactivated."
+msgstr "సైటు అచేతనమయ్యింది."
+
+#: wp-admin/network/sites.php:249
+msgid "Site activated."
+msgstr "సైటు చేతనమయ్యింది."
+
+#: wp-admin/network/sites.php:246
+msgid "Site unarchived."
+msgstr "సైటు అనార్కైవు అయ్యింది."
+
+#: wp-admin/network/sites.php:243
+msgid "Site archived."
+msgstr "సైటు ఆర్కైవు అయ్యింది."
+
+#: wp-admin/network/sites.php:240
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "క్షమించండి, ఆ సైటుని మీరు తొలగించలేరు. "
+
+#: wp-admin/network/sites.php:237
+msgid "Site deleted."
+msgstr "సైటు తొలగించబడింది."
+
+#: wp-admin/network/sites.php:234
+msgid "Sites deleted."
+msgstr "సైట్లు తొలగించబడ్డాయి."
+
+#: wp-admin/network/sites.php:231
+msgid "Sites marked as spam."
+msgstr "సైట్లు స్పాముగా గుర్తించబడ్డాయి."
+
+#: wp-admin/network/sites.php:228
+msgid "Sites removed from spam."
+msgstr "సైట్లు స్పాము నుండి తొలగించబడ్డాయి."
+
+#: wp-admin/network/sites.php:147
+msgid "Sorry, you are not allowed to delete the site."
+msgstr "క్షమించండి, సైటుని తొలగించే అనుమతి మీకు లేదు."
+
+#: wp-admin/network/sites.php:110
+msgid "Confirm"
+msgstr "నిర్థారించండి"
+
+#: wp-admin/network/sites.php:103
+msgid "Confirm your action"
+msgstr "మీ పనిని నిర్ధారించండి"
+
+#: wp-admin/network/sites.php:94 wp-admin/network/sites.php:160
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "క్షమించండి, ప్రస్తుత సైటుని మార్చే అనుమతి మీకు లేదు."
+
+#: wp-admin/network/sites.php:78
+msgid "The requested action is not valid."
+msgstr "అభ్యర్థించిన చర్య చెల్లదు."
+
+#: wp-admin/network/sites.php:70
+msgid "You are about to mark the site %s as not mature."
+msgstr "మీరు %s సైటును పెద్దలకు మాత్రమే కానిదిగా గుర్తించబోతున్నారు."
+
+#: wp-admin/network/sites.php:69
+msgid "You are about to mark the site %s as mature."
+msgstr "మీరు %s సైటుని పెద్దలకు మాత్రమే అని గుర్తించబోతున్నారు."
+
+#: wp-admin/network/sites.php:68
+msgid "You are about to delete the site %s."
+msgstr "మీరు %s సైటుని తొలగించబోతున్నారు."
+
+#: wp-admin/network/sites.php:67
+msgid "You are about to mark the site %s as spam."
+msgstr "మీరు %s సైటుని స్పాముగా గుర్తించబోతున్నారు."
+
+#: wp-admin/network/sites.php:66
+msgid "You are about to unspam the site %s."
+msgstr "మీరు %s సైటును స్పామ్ కాదని గుర్తించబోతున్నారు."
+
+#: wp-admin/network/sites.php:65
+msgid "You are about to archive the site %s."
+msgstr "మీరు %s సైటుని ఆర్కైవు చేయబోతున్నారు."
+
+#: wp-admin/network/sites.php:64
+msgid "You are about to unarchive the site %s."
+msgstr "మీరు %s సైటుని అనార్కైవు చేయబోతున్నారు."
+
+#: wp-admin/network/sites.php:63
+msgid "You are about to deactivate the site %s."
+msgstr "మీరు %s సైటుని అచేతనం చెయ్యబోతున్నారు."
+
+#: wp-admin/network/sites.php:62
+msgid "You are about to activate the site %s."
+msgstr "%s సైటుని మీరు చేతనం చేయబోతున్నారు."
+
+#: wp-admin/network/sites.php:51
+msgid "Sites list"
+msgstr "సైట్ల జాబితా"
+
+#: wp-admin/network/sites.php:50
+msgid "Sites list navigation"
+msgstr "సైట్ల జాబితా నావిగేషన్"
+
+#: wp-admin/network/sites.php:40
+msgid "Clicking on bold headings can re-sort this table."
+msgstr "బొద్దు శీర్షికల మీద నొక్కి ఈ పట్టిక క్రమాన్ని మార్చవచ్చు."
+
+#: wp-admin/network/sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
+msgstr "సైటు ఐడీ అంతర్గతంగా వాడబడుతుంది, ఇది సైటులో చూపించబడదు. వాడుకరులకూ, సందర్శకులకూ కనబడదు."
+
+#: wp-admin/network/sites.php:38
+msgid "Visit to go to the front-end site live."
+msgstr "తాజా ముందు సైటుని చూడడానికి వెళ్ళండి."
+
+#: wp-admin/network/sites.php:37
+msgid "Delete which is a permanent action after the confirmation screens."
+msgstr "తొలగించు అనేది నిర్ధారణ తెరల తర్వాత శాశ్వత చర్య, ."
+
+#: wp-admin/network/sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "అచేతనంచేయి, ఆర్కైవు చేయి, మరియు స్పాముగా గుర్తించు అన్నవి నిర్ధారణ తెరలకు తీసుకెళ్తాయి. ఈ చర్యలను తర్వాత తిరగ్గొట్టవచ్చు."
+
+#: wp-admin/network/sites.php:35
+msgid "Dashboard leads to the Dashboard for that site."
+msgstr "డాష్‌బోర్డు ఆ సైటు యెక్క డాష్‌బోర్డుకి తీసుకెళ్తుంది."
+
+#: wp-admin/network/sites.php:34
+msgid "An Edit link to a separate Edit Site screen."
+msgstr "ప్రత్యేక సైటును మార్చే తెరకు ఒక మార్చు లంకె."
+
+#: wp-admin/network/sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "ప్రతీ సైటు మీద మౌసు ఉంచితే, ఏడు ఎంపికలు కనిపిస్తాయి (మూడు ప్రధాన సైటువి):"
+
+#: wp-admin/network/sites.php:32
+msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
+msgstr "ఈ నెట్‌వర్కు లోని అన్ని సైట్ల ప్రధాన పట్టిక ఇది. జాబితా వీక్షణం, సంగ్రహ వీక్షణాల మధ్య మారడానికి కుడివైపు ఉన్న ప్రతీకాలను వాడండి."
+
+#: wp-admin/network/sites.php:31
+msgid "Add New takes you to the Add New Site screen. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "కొత్తది చేర్చు మిమ్మల్ని కొత్త సైటు చేర్చే తెరకు తీసుకెళ్తుంది. మీకు సైటోలను వాటి పేరుతోనూ, ఐడీ సంఖ్య తోనూ, లేదా ఐపీ చిరునామా తోనూ వెతకవచ్చు. ఒక పేజీలో ఎన్ని సైట్లు చూపించాలో తెర ఎంపికలలో ఎంచుకోవచ్చు."
+
+#: wp-admin/network/site-users.php:321 wp-admin/network/user-new.php:120
+msgid "A password reset link will be sent to the user via email."
+msgstr "సంకేతపదం తిరిగి అమర్చుకునే లంకె వాడుకరికి ఈమెయిలు ద్వారా వెళ్తుంది."
+
+#: wp-admin/network/site-users.php:289 wp-admin/network/user-new.php:132
+msgid "Add User"
+msgstr "వాడుకరిని చేర్చు"
+
+#: wp-admin/network/site-users.php:244
+msgid "Duplicated username or email address."
+msgstr "నకలు వాడుకరి పేరు లేదా ఇమెయిల్ చిరునామా."
+
+#: wp-admin/network/site-users.php:241
+msgid "Enter the username and email."
+msgstr "వాడుకరి పేరునీ ఈమెయిలునీ ఇవ్వండి."
+
+#: wp-admin/network/site-users.php:238
+msgid "User created."
+msgstr "వాడుకరిని సృష్టించారు."
+
+#: wp-admin/network/site-users.php:235
+msgid "Select a user to remove."
+msgstr "తొలగించాల్సిన వాడుకరిని ఎంచుకోండి."
+
+#: wp-admin/network/site-users.php:229
+msgid "Select a user to change role."
+msgstr "పాత్ర మార్చాల్సిన వాడుకరిని ఎంచుకోండి."
+
+#: wp-admin/network/site-users.php:223
+msgid "Enter the username of an existing user."
+msgstr "ప్రస్తుత వాడుకరి యొక్క వాడుకరి పేరుని ఇవ్వండి."
+
+#: wp-admin/network/site-users.php:220
+msgid "User is already a member of this site."
+msgstr "వాడుకరి ఈ సైటులో ఇప్పటికే సభ్యులు."
+
+#: wp-admin/network/site-users.php:42
+msgid "Site users list"
+msgstr "సైటు వాడుకరుల జాబితా"
+
+#: wp-admin/network/site-users.php:41
+msgid "Site users list navigation"
+msgstr "సైటు వాడుకరుల జాబితా నావిగేషన్"
+
+#: wp-admin/network/site-users.php:40
+msgid "Filter site users list"
+msgstr "సైటు వాడుకరుల జాబితాను వడపోయండి"
+
+#: wp-admin/network/site-themes.php:179
+msgid "Network enabled themes are not shown on this screen."
+msgstr "నెట్‌వర్కులో చేతనమైన అలంకారాలు ఈ తెరలో చూపబడలేదు."
+
+#: wp-admin/network/site-themes.php:176 wp-admin/network/themes.php:273
+msgid "No theme selected."
+msgstr "ఏ అలంకారాన్నీ ఎంచుకోలేదు."
+
+#: wp-admin/network/site-themes.php:172 wp-admin/network/themes.php:261
+msgid "%s theme disabled."
+msgid_plural "%s themes disabled."
+msgstr[0] "%s అలంకారం అచేతనమయ్యింది."
+msgstr[1] "%s అలంకారాలు అచేతనమయ్యాయి."
+
+#: wp-admin/network/site-themes.php:170 wp-admin/network/themes.php:259
+msgid "Theme disabled."
+msgstr "అలంకారం అచేతనమయ్యింది."
+
+#: wp-admin/network/site-themes.php:164 wp-admin/network/themes.php:253
+msgid "%s theme enabled."
+msgid_plural "%s themes enabled."
+msgstr[0] "%s అలంకారం చేతనమయ్యింది."
+msgstr[1] "%s అలంకారాలు చేతనమయ్యాయి."
+
+#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:251
+msgid "Theme enabled."
+msgstr "అలంకారం చేతనమయ్యింది."
+
+#: wp-admin/network/site-themes.php:39
+msgid "Site themes list"
+msgstr "సైటు అలంకారాల జాబితా"
+
+#: wp-admin/network/site-themes.php:38
+msgid "Site themes list navigation"
+msgstr "సైటు అలంకారాల జాబితా నావిగేషన్"
+
+#: wp-admin/network/site-themes.php:37
+msgid "Filter site themes list"
+msgstr "సైటు అలంకారాల జాబితాను వడపోయండి"
+
+#: wp-admin/network/site-themes.php:17
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "క్షమించండి, మీరు ఈ సైటుకి అలంకారాలను నిర్వహించలేరు."
+
+#: wp-admin/network/site-settings.php:83
+msgid "Site options updated."
+msgstr "సైటు ఎంపికలు తాజాకరించబడ్డాయి."
+
+#: wp-admin/network/site-new.php:258
+msgid "Add Site"
+msgstr "సైటుని చేర్చు"
+
+#: wp-admin/network/site-new.php:246
+msgid "The username and password will be mailed to this email address."
+msgstr "వాడుకరి పేరునీ సంకేతపదాన్నీ ఈ ఈమెయిలు చిరునామాకి పంపిస్తాం."
+
+#: wp-admin/network/site-new.php:246
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "పై ఈమెయిలు చిరునామా డేటాబేసులో లేకపోతే కొత్త వాడుకరిని సృష్టిస్తాము."
+
+#: wp-admin/network/site-new.php:242
+msgid "Admin Email"
+msgstr "అడ్మిన్ ఈమెయిలు"
+
+#: wp-admin/network/site-new.php:204
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "కేవలం చిన్నబడి ఆంగ్ల అక్షరాలు (a-z), అంకెలు, హైఫెన్లు మాత్రమే అనుమతించబడతాయి."
+
+#: wp-admin/network/site-new.php:177 wp-admin/network/site-new.php:187
+msgid "Add New Site"
+msgstr "కొత్త సైటు చేర్పు"
+
+#. translators: 1: dashboard url, 2: network admin edit url
+#: wp-admin/network/site-new.php:171
+msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
+msgstr "సైటు చేర్చబడింది. <a href=\"%1$s\">డాష్‌బోర్డును చూడండి</a> లేదా <a href=\"%2$s\">సైటును మార్చండి</a>"
+
+#: wp-admin/network/site-new.php:154
+msgctxt "email \"From\" field"
+msgid "Site Admin"
+msgstr "సైటు అధికారి"
+
+#. translators: 1: user login, 2: site url, 3: site name/title
+#: wp-admin/network/site-new.php:144
+msgid ""
+"New site created by %1$s\n"
+"\n"
+"Address: %2$s\n"
+"Name: %3$s"
+msgstr ""
+"కొత్త సైటును సృష్టించినది %1$s\n"
+"\n"
+"చిరునామా: %2$s\n"
+"పేరు: %3$s"
+
+#. translators: %s: network name
+#: wp-admin/network/site-new.php:139
+msgid "[%s] New Site Created"
+msgstr "[%s] కొత్త సైటు సృష్టించబడింది"
+
+#: wp-admin/network/site-new.php:114
+msgid "There was an error creating the user."
+msgstr "వాడుకరిని సృష్టించడంలో పొరపాటు జరిగింది."
+
+#: wp-admin/network/site-new.php:109
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "ఇచ్చిన డొమైను లేదా పాథ్ ఇప్పటికే ఉన్న వాడుకరి పేరుతో సంఘర్షిస్తూంది."
+
+#: wp-admin/network/site-new.php:84
+msgid "Invalid email address."
+msgstr "చెల్లని ఈమెయిలు చిరునామా."
+
+#: wp-admin/network/site-new.php:79
+msgid "Missing email address."
+msgstr "ఈమెయిలు చిరునామా లేదు."
+
+#: wp-admin/network/site-new.php:76
+msgid "Missing or invalid site address."
+msgstr "సైటు చిరునామా లేదు లేక చెల్లనిది."
+
+#. translators: %s: reserved names list
+#: wp-admin/network/site-new.php:54
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "ఈ క్రింది పదాలు వర్డ్‌ప్రెస్ పంక్షన్ల వాడుక కోసం కేటాయించబడ్డాయి, వాటిని బ్లాగు పేర్లుగా వాడుకోలేరు: %s"
+
+#: wp-admin/network/site-new.php:40
+msgid "Can&#8217;t create an empty site."
+msgstr "ఖాళి సైటును సృష్టించలేం."
+
+#: wp-admin/network/site-new.php:27
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "కొత్త సైటుకి నిర్వాహకుల ఈమెయిలు డేటాబేసులో లేకపోతే, కొత్త వాడకరి కూడా సృష్టించబడతారు."
+
+#: wp-admin/network/site-new.php:26
+msgid "This screen is for Super Admins to add new sites to the network. This is not affected by the registration settings."
+msgstr "మహా నిర్వాహకులు నెట్‌వర్కులో కొత్త సైట్లు చేర్చడం కోసం ఈ తెర. ఇది నమోదు అమరికల చేత ప్రభావితం కాదు."
+
+#: wp-admin/network/site-new.php:20
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "క్షమించండి, మీరు ఈ నెట్‌వర్కుకి సైట్లను చేర్చలేరు."
+
+#: wp-admin/network/site-info.php:200
+msgid "Set site attributes"
+msgstr "సైటు లక్షణాలను అమర్చు"
+
+#: wp-admin/network/site-info.php:134 wp-admin/network/site-settings.php:86
+#: wp-admin/network/site-themes.php:142 wp-admin/network/site-users.php:182
+msgid "Edit Site: %s"
+msgstr "సైటు మార్పు: %s"
+
+#: wp-admin/network/site-info.php:130
+msgid "Site info updated."
+msgstr "సైటు సమాచారం తాజాకరించబడింది."
+
+#: wp-admin/network/site-info.php:46 wp-admin/network/site-settings.php:43
+#: wp-admin/network/site-themes.php:66 wp-admin/network/site-users.php:59
+msgid "The requested site does not exist."
+msgstr "అభ్యర్థించిన సైటు ఉనికిలో లేదు."
+
+#: wp-admin/network/site-info.php:41 wp-admin/network/site-settings.php:39
+#: wp-admin/network/site-themes.php:60 wp-admin/network/site-users.php:55
+msgid "Invalid site ID."
+msgstr "చెల్లని సైటు ఐడీ."
+
+#: wp-admin/network/site-info.php:34 wp-admin/network/site-new.php:32
+#: wp-admin/network/site-settings.php:32 wp-admin/network/site-themes.php:32
+#: wp-admin/network/site-users.php:35 wp-admin/network/sites.php:45
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">Documentation on Site Management</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Sites_Screen\" target=\"_blank\">సైటు నిర్వహణపై డాక్యుమెంటేషన్</a>"
+
+#: wp-admin/network/site-info.php:29 wp-admin/network/site-settings.php:27
+#: wp-admin/network/site-themes.php:27 wp-admin/network/site-users.php:30
+msgid "<strong>Settings</strong> &mdash; This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
+msgstr "<strong>అమరికలు</strong> &mdash; ఈ సైటుకి సంబంధించిన అమరికలన్నింటినీ ఈ పేజీ చూపిస్తుంది. వీటిలో కొన్ని వర్డ్‌ప్రెస్ సృష్టంచినవి, మరికొన్ని మీరు చేతనంచేసిన ప్లగిన్లవి. కొన్ని బూడిద రంగులో ఉండి సీరియలైజ్డ్ డేటా అని ఉన్నాయి కదా, గమనించండి. వాటిని డేటాబేసులో భద్రపరచబడే తీరు వల్ల వాటి విలువలను మీరు మార్చలేరు."
+
+#: wp-admin/network/site-info.php:28 wp-admin/network/site-settings.php:26
+#: wp-admin/network/site-themes.php:26 wp-admin/network/site-users.php:29
+msgid "<strong>Themes</strong> &mdash; This area shows themes that are not already enabled across the network. Enabling a theme in this menu makes it accessible to this site. It does not activate the theme, but allows it to show in the site&#8217;s Appearance menu. To enable a theme for the entire network, see the <a href=\"%s\">Network Themes</a> screen."
+msgstr "<strong>అలంకారాలు</strong> &mdash; నెట్‌వర్క్ అంతా చేతనం చేయని అలంకారాలు ఇక్కడ కనిపిస్తాయి. ఈ మెనూలో అలంకారాన్ని చేతనం చేస్తే అది ఈ సైటుకి అందుబాటులోకి వస్తుంది. ఇది అలంకారాన్ని వర్తింపజేయదు కానీ సైటు రూపురేఖల మెనూలో కనబడేలా చేస్తుంది. అలంకారాలను నెట్‌వర్క్ అంతటా చేతనం చేయడానికి, <a href=\"%s\">నెట్‌వర్క్ అలంకారాలు</a> తెరను చూడండి."
+
+#: wp-admin/network/site-info.php:27 wp-admin/network/site-settings.php:25
+#: wp-admin/network/site-themes.php:25 wp-admin/network/site-users.php:28
+msgid "<strong>Users</strong> &mdash; This displays the users associated with this site. You can also change their role, reset their password, or remove them from the site. Removing the user from the site does not remove the user from the network."
+msgstr "<strong>వాడుకరులు</strong> &mdash; ఈ సైటుకి సంబంధిత వాడుకరులను ఇది చూపిస్తుంది. మీరు వారి పాత్రను మార్చవచ్చు, వారి సంకేతపదాన్ని రీసెట్ చెయ్యవచ్చు, లేదా వారిని సైటు నుండి తొలగించవచ్చు. సైటు నుండి వాడుకరిని తొలగించినంత మాత్రాన అది వాడుకరిని నెట్‌వర్కు నుండి తీసెయ్యదు."
+
+#: wp-admin/network/site-info.php:26 wp-admin/network/site-settings.php:24
+#: wp-admin/network/site-themes.php:24 wp-admin/network/site-users.php:27
+msgid "<strong>Info</strong> &mdash; The site URL is rarely edited as this can cause the site to not work properly. The Registered date and Last Updated date are displayed. Network admins can mark a site as archived, spam, deleted and mature, to remove from public listings or disable."
+msgstr "<strong>సమాచారం</strong> &mdash; సైటు URL చాలా అరుదుగా మారుస్తారు ఎందుకంటే అందువల్ల సైటు సరిగా పనిచేయకపోవచ్చు. నమోదు చేసుకున్న తేదీ మరియు చివరిసారి తాజాకరించిన తేదీ చూపించడబతాయి. నెట్‌వర్క్ నిర్వాహకులు సైట్లను ప్రజలకు కనబడకుండా చేయడానికి వాటిని ఆర్కైవ్ చెయ్యవచ్చు, స్పాముగానూ లేదా పెద్దలకు మాత్రమే గానూ గుర్తించవచ్చు లేదా అచేతనం చేయవచ్చు."
+
+#: wp-admin/network/site-info.php:25 wp-admin/network/site-settings.php:23
+#: wp-admin/network/site-themes.php:23 wp-admin/network/site-users.php:26
+msgid "The menu is for editing information specific to individual sites, particularly if the admin area of a site is unavailable."
+msgstr "ఈ మెనూ విడి సైట్లకు సంబంధించిన సమాచారాన్ని మార్చేందుకు; ప్రత్యేకించి ఈ సైటు యొక్క నిర్వహణ ప్రదేశం అందుబాటులో లేనప్పుడు."
+
+#: wp-admin/network/site-info.php:18 wp-admin/network/site-settings.php:17
+#: wp-admin/network/site-users.php:17
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "క్షమించండి, మీరు ఈ సైటుని సరిదిద్దలేరు."
+
+#: wp-admin/network/settings.php:377
+msgid "Enable menus"
+msgstr "మెనూలను చేతనించండి"
+
+#: wp-admin/network/settings.php:355
+msgid "Enable administration menus"
+msgstr "నిర్వహణ మెనూలను చేతనించు"
+
+#: wp-admin/network/settings.php:328
+msgid "Default Language"
+msgstr "అప్రమేయ భాష"
+
+#: wp-admin/network/settings.php:325
+msgid "Language Settings"
+msgstr "భాషా అమరికలు"
+
+#: wp-admin/network/settings.php:314
+msgid "Size in kilobytes"
+msgstr "పరిమాణం, కిలోబైట్లలో"
+
+#: wp-admin/network/settings.php:312
+msgctxt "File size in kilobytes"
+msgid "%s KB"
+msgstr "%s కిబై"
+
+#: wp-admin/network/settings.php:310
+msgid "Max upload file size"
+msgstr "ఎక్కించే ఫైలు గరిష్ఠ పరిమాణం"
+
+#: wp-admin/network/settings.php:304
+msgid "Allowed file types. Separate types by spaces."
+msgstr "అనుమతించే దస్త్ర రకాలు. ఖాళీలతో వేరు పరచండి."
+
+#: wp-admin/network/settings.php:300
+msgid "Upload file types"
+msgstr "ఎక్కించగలిగే దస్త్రాల రకాలు"
+
+#: wp-admin/network/settings.php:292
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "ఎక్కించే దస్త్రాల పరిమాణాన్ని %s మెబైకి పరిమితి చేయి"
+
+#: wp-admin/network/settings.php:290
+msgid "Site upload space"
+msgstr "సైటు ఎక్కింపు జాగా"
+
+#: wp-admin/network/settings.php:287
+msgid "Upload Settings"
+msgstr "ఎక్కింపు అమరికలు"
+
+#: wp-admin/network/settings.php:282
+msgid "The URL for the first comment on a new site."
+msgstr "కొత్త సైటులో మొదటి వ్యాఖ్య URL."
+
+#: wp-admin/network/settings.php:278
+msgid "First Comment URL"
+msgstr "మొదటి వ్యాఖ్య చిరునామా"
+
+#: wp-admin/network/settings.php:273
+msgid "The email address of the first comment author on a new site."
+msgstr "కొత్త సైటులో మొదటి వ్యాఖ్య వ్రాసినవారి ఈమెయిలు చిరునామా."
+
+#: wp-admin/network/settings.php:269
+msgid "First Comment Email"
+msgstr "తొలి వ్యాఖ్య ఈమెయిలు"
+
+#: wp-admin/network/settings.php:264
+msgid "The author of the first comment on a new site."
+msgstr "కొత్త సైటులో మొదటి వ్యాఖ్య రచయిత."
+
+#: wp-admin/network/settings.php:260
+msgid "First Comment Author"
+msgstr "మొదటి వ్యాఖ్య రచయిత"
+
+#: wp-admin/network/settings.php:255
+msgid "The first comment on a new site."
+msgstr "కొత్త సైటులో మొదటి వ్యాఖ్య."
+
+#: wp-admin/network/settings.php:250
+msgid "First Comment"
+msgstr "మొదటి వ్యాఖ్య"
+
+#: wp-admin/network/settings.php:245
+msgid "The first page on a new site."
+msgstr "కొత్త సైటులో మొదటి పేజీ."
+
+#: wp-admin/network/settings.php:240
+msgid "First Page"
+msgstr "మొదటి పేజీ"
+
+#: wp-admin/network/settings.php:235
+msgid "The first post on a new site."
+msgstr "కొత్త సైటులో మొదటి టపా."
+
+#: wp-admin/network/settings.php:225
+msgid "The welcome email sent to new users."
+msgstr "కొత్త వాడుకరులకు పంపించే స్వాగతం ఈమెయిలు."
+
+#: wp-admin/network/settings.php:220
+msgid "Welcome User Email"
+msgstr "వాడుకరి స్వాగతపు ఈమెయిలు"
+
+#: wp-admin/network/settings.php:215
+msgid "The welcome email sent to new site owners."
+msgstr "స్వాగతపు ఈమెయిలు కొత్త సైటు యజమానులకు పంపాము."
+
+#: wp-admin/network/settings.php:210
+msgid "Welcome Email"
+msgstr "స్వాగతపు ఈమెయిలు"
+
+#: wp-admin/network/settings.php:206
+msgid "New Site Settings"
+msgstr "కొత్త సైటు అమరికలు"
+
+#: wp-admin/network/settings.php:200
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "సైటు నమోదుల నుండి డొమైన్లను నిషేధించాలనుకుంటే. లైనుకి ఒక డొమైను."
+
+#: wp-admin/network/settings.php:195
+msgid "Banned Email Domains"
+msgstr "నిషేధించిన ఈమెయిలు డొమైన్లు"
+
+#: wp-admin/network/settings.php:189
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "నైటు నమోదులను కొన్ని డౌమైన్లకే పరిమితం చేయాలనుకుంటే. లైనుకి ఒక డొమైను."
+
+#: wp-admin/network/settings.php:182
+msgid "Limited Email Registrations"
+msgstr "పరిమిత ఈమెయిలు నమోదులు"
+
+#: wp-admin/network/settings.php:176
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "ఈ సైట్లను వాడుకరులు నమోదు చేసుకోలేరు. పేర్ల మధ్యలో ఖాళీలు వదలండి."
+
+#: wp-admin/network/settings.php:172
+msgid "Banned Names"
+msgstr "నిషేధించిన పేర్లు"
+
+#: wp-admin/network/settings.php:167
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "\"వాడుకరులు &rarr; కొత్త వారిని చేర్చండి\" పేజీ ద్వారా కొత్త వాడుకరులను సైట్లకు చేర్చుకోడానికి సైటు నిర్వాహకులను అనుమతించు.."
+
+#: wp-admin/network/settings.php:165
+msgid "Add New Users"
+msgstr "కొత్త వాడుకరులను చేర్చు"
+
+#: wp-admin/network/settings.php:160
+msgid "Send the network admin an email notification every time someone registers a site or user account."
+msgstr "ఎవరైనా ఒక సైటుని గానీ లేదా వాడుకరి ఖాతాను గానీ నమోదు చేసుకున్నప్పుడు నెట్‌వర్క్ నిర్వాహకులకు ఈమెయిలు ద్వారా తెలియజేయి."
+
+#: wp-admin/network/settings.php:154
+msgid "Registration notification"
+msgstr "నమోదు గమనింపు"
+
+#. translators: 1: NOBLOGREDIRECT 2: wp-config.php
+#: wp-admin/network/settings.php:143
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "సైట్ల నమోదు అచేతనమై ఉంటే, సందర్శకులు లేని-సైటుకి వస్తే దారిమళ్ళించాల్సిన URLని %2$sలో %1$s వద్ద ఇవ్వండి."
+
+#: wp-admin/network/settings.php:139
+msgid "Both sites and user accounts can be registered."
+msgstr "సైట్లనూ వాడుకరి ఖాతాలనూ నమోదుచేసుకోవచ్చు."
+
+#: wp-admin/network/settings.php:138
+msgid "Logged in users may register new sites."
+msgstr "ప్రవేశించిన వాడుకరులు కొత్త సైట్లను నమోదుచేసుకోగలరు."
+
+#: wp-admin/network/settings.php:137
+msgid "User accounts may be registered."
+msgstr "వాడుకరుల ఖాతాలు నమోదు కావచ్చు."
+
+#: wp-admin/network/settings.php:136
+msgid "Registration is disabled."
+msgstr "నమోదు అచేతనం చేసారు."
+
+#: wp-admin/network/settings.php:135
+msgid "New registrations settings"
+msgstr "కొత్త నమోదుల అమరికలు"
+
+#: wp-admin/network/settings.php:127
+msgid "Allow new registrations"
+msgstr "కొత్త నమోదులను అనుమతించు"
+
+#: wp-admin/network/settings.php:124
+msgid "Registration Settings"
+msgstr "నమోదు అమరికలు"
+
+#: wp-admin/network/settings.php:119
+msgid "This email address will receive notifications. Registration and support emails will also come from this address."
+msgstr "గమనింపులను ఈ ఈమెయిలు చిరునామా అందుకుంటుంది. నమోదు మరియు తోడ్పాటు ఈమెయిళ్ళు ఈ చిరునామా నుండే వెళ్తాయి."
+
+#: wp-admin/network/settings.php:105
+msgid "Operational Settings"
+msgstr "కార్యాచరణ అమరికలు"
+
+#: wp-admin/network/settings.php:43
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\" target=\"_blank\">నెట్వర్క్ అమరికలపై డాక్యుమెంటేషన్</a>"
+
+#: wp-admin/network/settings.php:38
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgstr "ఇకపై ఎంపికల తెరలో మహా నిర్వాహకులను చేర్చలేరు. ఇప్పుడు మీరు నెట్వర్క్ నిర్వహణ > వాడుకరులు లో ఇప్పటికే ఉన్న వాడుకరులు జాబితాకి వెళ్లి వాడుకరిపేరు లేదా ఆ పేరు కింద ఉన్న మార్పు లంకె చర్యపై నొక్కండి. ఇది వాడుకరి మార్పు పేజీకి వెళ్తుంది అక్కడ మీరు పెట్టెను గుర్తు పెట్టి మహా నిర్వాహకుల అధికారాలను మంజూరు చేయొచ్చు."
+
+#: wp-admin/network/settings.php:37
+msgid "Menu setting enables/disables the plugin menus from appearing for non super admins, so that only super admins, not site admins, have access to activate plugins."
+msgstr "మెనూ అమరిక ప్లగిన్ మెనూలను మహా నిర్వాహకులు కాని వారికి కనపడకుండా చేయనిస్తుంది, అందువల్ల కేవలం మహా నిర్వాహకుల మాత్రమే, సైటు నిర్వాహకులు కాదు, ప్లగిన్లను చేతనం చెయ్యగలుగుతారు."
+
+#: wp-admin/network/settings.php:35
+msgid "Upload settings control the size of the uploaded files and the amount of available upload space for each site. You can change the default value for specific sites when you edit a particular site. Allowed file types are also listed (space separated only)."
+msgstr "సైట్లలో ఎక్కించే ఫైళ్ళ పరిమాణం మరియు అందుబాటులో ఉండే ఎక్కింపు జాగాలను ఎక్కింపులు అమరికలు నియంత్రిస్తాయి. ఆయా సైట్లను మార్చినప్పుడు, మీరు విడి సైట్లకు అప్రమేయ విలువలను మార్చవచ్చు. అనుమతించే ఫైలు రకాలు (ఖాళీతో వేరుపరచి) కూడా చూపించబడతాయి."
+
+#: wp-admin/network/settings.php:34
+msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
+msgstr "కొత్త సైటు అమరికలు అనేవి ఏదైనా కొత్త సైటు సృష్టించినప్పుడు అప్రమేయంగా వర్తించబడతాయి. వీటిలో కొత్త వాడుకరి లేదా సైటు నమోదైనప్పుడు పంపించే స్వాగతం ఈమెయిలు, మొదటి టపా/పేజీ/వ్యాఖ్యలో ఏమి ఉండాలి, వ్యాఖ్య రచయిత మరియు వ్యాఖ్య URL అనేవి ఉంటాయి."
+
+#: wp-admin/network/settings.php:33
+msgid "Registration settings can disable/enable public signups. If you let others sign up for a site, install spam plugins. Spaces, not commas, should separate names banned as sites for this network."
+msgstr "నమోదు అమరికలు బహిరంగ నమోదులను చేతనం/అచేతనం చేయనిస్తాయి. మీరు ఇతరులను సైటులో నమోదు కానిస్తే, స్పామ్ ప్లగిన్లను స్థాపించుకోండి. ఈ నెట్‌వర్కులో సైట్లుగా నమోదు చేయకూడని పేర్లను ఖాళీలతో వేరుచేసి, కామాలతో కాదు, ఇవ్వండి."
+
+#: wp-admin/network/settings.php:32
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "కార్యాచరణ అమరికలలో నెట్‌వర్క్ పేరు, నిర్వాహకుల ఈమెయిలు వంటి ఫీల్డులు ఉంటాయి."
+
+#: wp-admin/network/settings.php:31
+msgid "This screen sets and changes options for the network as a whole. The first site is the main site in the network and network options are pulled from that original site&#8217;s options."
+msgstr "ఈ తెరలో నెట్‌వర్క్ మొత్తానికి ఎంపికలను మార్చుకోవచ్చు. నెట్‌వర్కులో మొదటి సైటు ప్రధాన సైటు. నెట్‌వర్కు ఎంపికలు ఆ అసలు సైటు ఎంపికల నుండి వస్తాయి."
+
+#: wp-admin/network/menu.php:55 wp-admin/network/settings.php:22
+msgid "Network Settings"
+msgstr "నెట్‌వర్క్ అమరికలు"
+
+#: wp-admin/network/menu.php:41 wp-admin/network/themes.php:239
+msgctxt "theme"
+msgid "Add New"
+msgstr "కొత్తది చేర్చండి"
+
+#: wp-admin/network/menu.php:40
+msgid "Installed Themes"
+msgstr "స్థాపించివున్న అలంకారాలు"
+
+#: wp-admin/network/menu.php:36
+msgid "Themes %s"
+msgstr "అలంకారాలు %s"
+
+#: wp-admin/network/menu.php:28
+msgid "All Sites"
+msgstr "అన్ని సైట్లు"
+
+#: wp-admin/network/menu.php:22 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:42 wp-admin/network/upgrade.php:123
+msgid "Upgrade Network"
+msgstr "నెట్వర్క్ తాజాకరణ"
+
+#: wp-admin/network/menu.php:19
+msgid "Updates"
+msgstr "తాజాకరణలు"
+
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:35
+#: wp-admin/network/site-new.php:33 wp-admin/network/site-settings.php:33
+#: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
+#: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
+#: wp-admin/network/users.php:172
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\" target=\"_blank\">తోడ్పాటు వేదికలు</a>"
+
+#: wp-admin/network/index.php:53
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\" target=\"_blank\">నెట్‌వర్కు నిర్వహణపై డాక్యుమెంటేషన్</a>"
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "త్వరిత పనులు"
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "సైటును వెతుకుటకు, <strong>పాతును లేదా డొమైన్ ను ఇవ్వండి</strong>."
+
+#: wp-admin/network/index.php:42
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "వాడుకరులను వెతకడానికి, <strong>ఈమెయిలు చిరునామా లేదా వాడుకరి పేర్లను ఇవ్వండి</strong>. వాడుకరి పేరు లోని ఒక భాగంతో వెతకడానికి, వైల్డ్‌కార్డుని, ఇలా user&#42;, వాడండి."
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "వాడుకరి లేదా సైట్ల కోసం వెదకడానికి, వెతుకుడు పెట్టెలను వాడండి."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "కొత్త సైటుని చేర్చుటకు, <strong>కొత్త సైటు సృష్టి ని నొక్కండి</strong>. "
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr "కొత్త వాడుకరిని చేర్చుటకు, <strong>కొత్త వాడుకరి సృష్టి ని నొక్కండి</strong>."
+
+#: wp-admin/network/index.php:38
+msgid "The Right Now widget on this screen provides current user and site counts on your network."
+msgstr "ఈ తెర లోని ఇప్పుడే విడ్జెట్టు ప్రస్తుత వాడుకరి, మీ నెట్‌వర్క్ లోని సైట్ల లెక్కను చూపిస్తుంది."
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "సార్వత్రిక నెట్‌వర్క్ అమరికలను మార్చుకోవచ్చు"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "మీ నెట్‌వర్కుని తాజాకరించుకోవచ్చు"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "అలంకారాలనూ ప్లగిన్లనూ స్థాపించుకోవచ్చూ చేతనం చేసుకోవచ్చు"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "సైట్లనూ వాడుకరులనూ చేర్చవచ్చు మరియు సంభాళించవచ్చు"
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "ఇక్కడ నుండి మీరు:"
+
+#: wp-admin/network/index.php:25
+msgid "Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network."
+msgstr "నెట్‌వర్క్ నిర్వహణకు స్వాగతం. ఈ నిర్వహణ తెరలు మీ బహుళసైటు నెట్‌వర్కు యొక్క అన్ని అంశాలనూ నిర్వహించడానికి ఉపయోగపడతాయి."
+
+#: wp-admin/includes/network.php:584
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "ఈ అంచెలనుస పూర్తిచేసిన తర్వాత, మీ నెట్‌వర్కు చేతనమవుతుంది. ఆ తర్వాత మీరు మళ్ళీ ప్రవేశించాలి."
+
+#. translators: 1: a filename like .htaccess. 2: a file path.
+#: wp-admin/includes/network.php:529 wp-admin/includes/network.php:569
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "ఈ క్రింద వాటిని %2$s లోని %1$s దస్త్రానికి, ఇతర వర్డ్‌ప్రెస్ నియమాల <strong>స్థానంలో</strong>, చేర్చండి:"
+
+#: wp-admin/includes/network.php:465
+msgid "To make your installation more secure, you should also add:"
+msgstr "మీ స్థాపనను మరింత కట్టుదిట్టం చేయడానికి, మీరు ఇవి కూడా చేయాలి:"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:460
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "ఈ విశిష్ట ఆథెంటికేషన్ కీలు కూడా మీ %s దస్త్రంలో లేవు."
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:454
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "ఈ విశిష్ట ఆథెంటికేషన్ కీ కూడా మీ %s దస్త్రంలో లేదు."
+
+#. translators: This string should only be translated if wp-config-sample.php
+#. is localized. You can check the localized release package or
+#. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
+#. version>/dist/wp-config-sample.php
+#: wp-admin/includes/network.php:417
+msgid "That&#8217;s all, stop editing! Happy blogging."
+msgstr "That&#8217;s all, stop editing! Happy blogging."
+
+#. translators: 1: wp-config.php 2: location of wp-config file, 3: translated
+#. version of "That's all, stop editing! Happy blogging."
+#: wp-admin/includes/network.php:409
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "%2$s లోని %1$s దస్త్రంలో %3$s అని ఉన్న లైనుకి <strong>పైన</strong> ఈ క్రింది పాఠ్యాన్ని చేర్చండి:"
+
+#. translators: 1: wp-config.php
+#: wp-admin/includes/network.php:398
+msgid "We recommend you back up your existing %s file."
+msgstr "మీ ప్రస్తుత %s దస్త్రాన్ని బ్యాకప్ తీసుకోమని మీకు సిఫారసు చేస్తున్నాం."
+
+#. translators: 1: wp-config.php 2: .htaccess
+#. translators: 1: wp-config.php 2: web.config
+#: wp-admin/includes/network.php:382 wp-admin/includes/network.php:390
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "%1$s మరియు %2$s దస్త్రాలను బ్యాకప్ తీసుకోమని మీకు సిఫారసు చేస్తున్నాం."
+
+#: wp-admin/includes/network.php:376
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "సైట్ల యొక్క నెట్‌వర్కుని సృష్టించుకోడానికి కావల్సిన సౌలభ్యాలను చేతనించేందుకు ఈ క్రింది అంచెలను పూర్తిచేయండి."
+
+#: wp-admin/includes/network.php:375
+msgid "Enabling the Network"
+msgstr "నెట్‌వర్కును చేతనిస్తున్నాం"
+
+#: wp-admin/includes/network.php:364
+msgid "Please complete the configuration steps. To create a new network, you will need to empty or remove the network database tables."
+msgstr "దయచేసి స్వరూపణం యొక్క అంచెలు పూర్తిచేయండి. కొత్త నెట్వర్క్ సృష్టించడానికి, మీరు నెట్వర్క్ డేటాబేసు టేబుళ్లను ఖాళీ లేదా తొలగించవలిసి ఉంటుంది."
+
+#: wp-admin/includes/network.php:363
+msgid "An existing WordPress network was detected."
+msgstr "ఇప్పటికే ఉన్న వర్డ్‌ప్రెస్ నెట్‌వర్కు గుర్తించబడింది."
+
+#: wp-admin/includes/network.php:358
+msgid "The original configuration steps are shown here for reference."
+msgstr "మీ కోసం అసలు స్వరూపణం యొక్క అంచెలు ఇక్కడ చూపించబడ్డాయి."
+
+#: wp-admin/includes/network.php:307
+msgid "Your email address."
+msgstr "మీ ఈమెయిలు చిరునామా."
+
+#: wp-admin/includes/network.php:303 wp-admin/network/settings.php:115
+msgid "Network Admin Email"
+msgstr "నెట్‌వర్కు నిర్వాహక ఈమెయిలు"
+
+#: wp-admin/includes/network.php:298
+msgid "What would you like to call your network?"
+msgstr "మీ నెట్‌వర్కును మీరు ఏమని పిలవాలనుకుంటున్నారు?"
+
+#: wp-admin/includes/network.php:294 wp-admin/network/settings.php:108
+msgid "Network Title"
+msgstr "నెట్‌వర్కు శీర్షిక"
+
+#: wp-admin/includes/network.php:276
+msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
+msgstr "మీ స్థాపన కొత్తది కానందున, మీ వర్డ్‌ప్రెస్ నెట్‌వర్కు లోని సైట్లు తప్పనిసరిగా ఉప-డౌమైన్లనే వాడాలి."
+
+#: wp-admin/includes/network.php:275
+msgid "Sub-domain Install"
+msgstr "ఉప-డొమైన్ స్థాపన"
+
+#: wp-admin/includes/network.php:267
+msgid "Because your install is in a directory, the sites in your WordPress network must use sub-directories."
+msgstr "మీ స్థాపన ఒక సంచయంలో ఉన్నందున, మీ వర్డ్‌ప్రెస్ నెట్‌వర్కు లోని సైట్లు తప్పనిసరిగా ఉప-సంచయాలనే వాడాలి."
+
+#: wp-admin/includes/network.php:260 wp-admin/includes/network.php:270
+#: wp-admin/includes/network.php:277
+msgid "The main site in a sub-directory install will need to use a modified permalink structure, potentially breaking existing links."
+msgstr "ఉపసంచయంలోని ప్రధాన సైటు స్థాపన ఇప్పటికే ఉన్న లంకెలను బ్రేక్ చేస్తూ, సవరించిన స్థిరలింకు నిర్మాణాకృతిని ఉపయోగించవలసి ఉంటుంది."
+
+#. translators: 1: localhost 2: localhost.localdomain
+#: wp-admin/includes/network.php:254
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "మీరు %1$s వాడుతున్నందున, మీ నెట్‌వర్కు లోని సైట్లు తప్పనిసరిగా ఉప-సంచయాలనే వాడాలి. మీరు ఉప-డొమైనులు కావాలనుకుంటే %2$s అని వాడండి."
+
+#: wp-admin/includes/network.php:250 wp-admin/includes/network.php:265
+msgid "Sub-directory Install"
+msgstr "ఉప-సంచయ స్థాపన"
+
+#: wp-admin/includes/network.php:246
+msgid "Network Details"
+msgstr "నెట్‌వర్క్ వివరాలు"
+
+#. translators: %s: host name
+#: wp-admin/includes/network.php:238 wp-admin/includes/network.php:287
+msgid "The internet address of your network will be %s."
+msgstr "మీ నెట్‌వర్కు యెక్క జాల చిరునామా %s."
+
+#. translators: 1: site url 2: host name 3. www
+#: wp-admin/includes/network.php:227
+msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "నెట్‌వర్క్ సౌలభ్యాన్ని చేతనం చేసే ముందు మీరు మీ siteurlను %1$s గా మార్చమని సిఫారసు చేస్తున్నాం. %3$s అనే మునుజేర్పుతో %2$s వంటి చిరునామాలతో మీ సైటుని చూడడం కుదురుతుంది కానీ లంకెలలో %3$s అనే మునుజేర్పు ఉండదు."
+
+#: wp-admin/includes/network.php:224 wp-admin/includes/network.php:234
+#: wp-admin/includes/network.php:283
+msgid "Server Address"
+msgstr "సర్వరు చిరునామా"
+
+#: wp-admin/includes/network.php:219 wp-admin/includes/network.php:535
+#: wp-admin/includes/network.php:575
+msgid "Subdirectory networks may not be fully compatible with custom wp-content directories."
+msgstr "ఉపసంచయాల నెట్‌వర్కులు అభిమత wp-content సంచయాలతో పూర్తిగా అనుగుణ్యం కాకపోవచ్చు."
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:209
+msgctxt "subdirectory examples"
+msgid "like <code>%1$s/site1</code> and <code>%1$s/site2</code>"
+msgstr "<code>%1$s/site1</code> మరియు <code>%1$s/site2</code> వంటివి"
+
+#: wp-admin/includes/network.php:206
+msgid "Sub-directories"
+msgstr "ఉప-సంచయాలు"
+
+#. translators: 1: hostname
+#: wp-admin/includes/network.php:201
+msgctxt "subdomain examples"
+msgid "like <code>site1.%1$s</code> and <code>site2.%1$s</code>"
+msgstr "<code>site1.%1$s</code> మరియు <code>site2.%1$s</code> వంటివి"
+
+#: wp-admin/includes/network.php:198
+msgid "Sub-domains"
+msgstr "ఉప-డొమైన్లు"
+
+#: wp-admin/includes/network.php:194
+msgid "You will need a wildcard DNS record if you are going to use the virtual host (sub-domain) functionality."
+msgstr "మీరు వర్చువల్ హోస్టు (ఉప-డొమైను) సౌలభ్యాన్ని వాడుకోవాలంటే, మీకు వైల్డ్‌కార్డ్ DNS రికార్డు కావాలి."
+
+#: wp-admin/includes/network.php:193
+msgid "You cannot change this later."
+msgstr "దీన్ని తర్వాత మార్చుకోలేరు."
+
+#: wp-admin/includes/network.php:192
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "మీ వర్డ్‌ప్రెస్ నెట్‌వర్కు లోని సైట్లు ఉప-డొమైన్లు వాడాలో లేదా ఉప-సంచయాలు వాడాలో దయచేసి ఎంచుకోండి."
+
+#: wp-admin/includes/network.php:191
+msgid "Addresses of Sites in your Network"
+msgstr "మీ నెట్‌వర్కు లోని సైట్ల చిరునామాలు"
+
+#. translators: 1: mod_rewrite, 2: mod_rewrite documentation URL, 3: Google
+#. search for mod_rewrite
+#: wp-admin/includes/network.php:181
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "%1$s అచేతమనై ఉంటే, ఆ మాడ్యూలును చేతనం చెయ్యమని మీ నిర్వాహకులను అడగండి, లేదా దాన్ని అమర్చుకోవడం సహాయం కోసం <a href=\"%2$s\">అపాచీ డాక్యుమెంటేషన్</a> లేదా <a href=\"%3$s\">మరెక్కడైనా</a> చూడండి."
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:172
+msgid "It looks like the Apache %s module is not installed."
+msgstr "అపాచీ %s మాడ్యూలు స్థాపించివున్నట్టు లేదు.."
+
+#: wp-admin/includes/network.php:170 wp-admin/includes/network.php:219
+#: wp-admin/includes/network.php:260 wp-admin/includes/network.php:270
+msgid "Warning!"
+msgstr "హెచ్చరిక!"
+
+#. translators: %s: mod_rewrite
+#: wp-admin/includes/network.php:165
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "ఈ స్థాపన చివరలో అపాచీ %s మాడ్యూలు వాడబడుతుంది కనుక దయచేసి అది స్థాపితమైవుందని నిర్థారించుకోండి."
+
+#: wp-admin/includes/network.php:151
+msgid "Fill in the information below and you&#8217;ll be on your way to creating a network of WordPress sites. We will create configuration files in the next step."
+msgstr "క్రింది సమాచారాన్ని పూరించండి, ఇక మీరు వర్డ్‌ప్రెస్ సైట్ల నెట్‌వర్కుని తయారుచేసే మార్గంలో ఉంటారు. తర్వాతి అంచెలో స్వరూపమ ఫైళ్ళను తయారుచేస్తాం."
+
+#: wp-admin/includes/network.php:150
+msgid "Welcome to the Network installation process!"
+msgstr "నెట్‌వర్క్ స్థాపన ప్రక్రియకు స్వాగతం!"
+
+#: wp-admin/includes/network.php:147
+msgctxt "Default network name"
+msgid "%s Sites"
+msgstr "%s సైట్లు"
+
+#: wp-admin/includes/network.php:140
+msgid "ERROR: The network could not be created."
+msgstr "పొరపాటు: నెట్‌వర్కును సృష్టించలేకపోయాం."
+
+#: wp-admin/includes/network.php:128
+msgid "Return to Dashboard"
+msgstr "తిరిగి డాష్‌బోర్డుకు"
+
+#. translators: %s: port number
+#: wp-admin/includes/network.php:125
+msgid "You cannot use port numbers such as %s."
+msgstr "మీరు %s వంటి పోర్టు సంఖ్యలను వాడలేరు."
+
+#: wp-admin/includes/network.php:122
+msgid "You cannot install a network of sites with your server address."
+msgstr "మీ సర్వరు చిరునామాతో మీరు సైట్ల నెట్‌వర్కుని స్థాపించలేరు."
+
+#: wp-admin/includes/network.php:113
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "నెట్‌వర్క్ సృష్టించబడిన తర్వాత మీరు ప్లగిన్లను తిరిగి చేతనించుకోవచ్చు."
+
+#: wp-admin/includes/network.php:113
+msgid "Please <a href=\"%s\">deactivate your plugins</a> before enabling the Network feature."
+msgstr "నెట్‌వర్క్ సౌలభ్యాన్ని చేతనించే ముందు దయచేసి <a href=\"%s\">మీ ప్లగిన్లను అచేతనించండి</a>."
+
+#: wp-admin/includes/network.php:113 wp-admin/includes/network.php:363
+#: wp-admin/includes/network.php:535 wp-admin/includes/network.php:575
+msgid "Warning:"
+msgstr "హెచ్చరిక:"
+
+#: wp-admin/includes/network.php:105
+msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
+msgstr "నెట్‌వర్క్‌ను సృష్టించేటప్పుడు DO_NOT_UPGRADE_GLOBAL_TABLES స్థిరాంకాన్ని నిర్వచించలేరు."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:171
+msgctxt "user"
+msgid "Registered"
+msgstr "నమోదయ్యింది"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:142
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "మహా నిర్వాహకులు <span class=\"count\">(%s)</span>"
+msgstr[1] "మహా నిర్వాహకులు <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:114
+msgctxt "user"
+msgid "Not Spam"
+msgstr "స్పాము కాదు"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:113
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr "స్పాముగా గుర్తించు"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:572
+msgid "Visit Theme Site"
+msgstr "అలంకారపు సైటుని చూడండి"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:567
+msgid "Visit %s homepage"
+msgstr "%s ముంగిలిని చూడండి"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:540
+msgid "Broken Theme:"
+msgstr "పనిచేయని అలంకారం:"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:475
+msgctxt "theme"
+msgid "Delete %s"
+msgstr "%sను తొలగించు"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:456
+msgid "Open %s in the Theme Editor"
+msgstr "%sను అలంకార ఎడిటరులో తెరువు"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:440
+msgid "Network Disable %s"
+msgstr "%sను నెట్‌వర్కులో అచేతనించు"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:437
+msgid "Disable %s"
+msgstr "%sను అచేతనించు"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:418
+msgid "Network Enable %s"
+msgstr "%sను నెట్‌వర్కులో చేతనించు"
+
+#. translators: %s: theme name
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:415
+msgid "Enable %s"
+msgstr "%s‌ను చేతనించు"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:334
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:446
+msgid "Network Disable"
+msgstr "నెట్‌వర్కులో అచేతనించు"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:334
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:446
+msgid "Disable"
+msgstr "అచేతనించు"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:332
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:424
+msgid "Enable"
+msgstr "చేతనించు"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:301
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgid_plural "Broken <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> పాడైంది"
+msgstr[1] "<span class=\"count\">(%s)</span> పాడైనవి"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:295
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "అచేతనం <span class=\"count\">(%s)</span>"
+msgstr[1] "అచేతనం <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:292
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "చేతనం <span class=\"count\">(%s)</span>"
+msgstr[1] "చేతనం <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:289
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "అన్నీ <span class=\"count\">(%s)</span>"
+msgstr[1] "అన్నీ <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:246
+msgid "Theme"
+msgstr "రూపం"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:235
+msgid "You do not appear to have any themes available at this time."
+msgstr "ఇప్పుడు మీకు అలంకారాలేమీ అందుబాటులో ఉన్నట్టు లేవు."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:233
+msgid "No themes found."
+msgstr "అలంకారాలు ఏమీ లేవు."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:531
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "ఆర్కైవు చెయ్య"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:529
+msgid "Unarchive"
+msgstr "అనార్కైవు"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:360
+msgid "Never"
+msgstr "ఎప్పుడూకాదు"
+
+#. translators: 1: site name, 2: site tagline.
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:334
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:231
+#: wp-admin/network/site-info.php:180
+msgctxt "site"
+msgid "Registered"
+msgstr "నమోదయ్యింది"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:230
+#: wp-admin/network/site-info.php:184
+msgid "Last Updated"
+msgstr "చివరసారిగా మార్చబడినది  "
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:204
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:535
+msgctxt "site"
+msgid "Not Spam"
+msgstr "స్పాము కాదు"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:203
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "స్పాముగా గుర్తించు"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:192
+msgid "No sites found."
+msgstr "సైట్లేమీ కనబడలేదు."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:44
+#: wp-admin/network/site-info.php:194
+msgid "Mature"
+msgstr "పెద్దలకు మాత్రమే"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:43
+#: wp-admin/network/site-info.php:192
+msgid "Deleted"
+msgstr "తొలగించబడింది"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:42
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:537
+#: wp-admin/network/site-info.php:191
+msgctxt "site"
+msgid "Spam"
+msgstr "స్పాము"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:41
+#: wp-admin/network/site-info.php:190
+msgid "Archived"
+msgstr "ఆర్కైవు అయ్యింది"
