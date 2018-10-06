@@ -9,11 +9,58 @@ add_action( 'add_meta_boxes', function() {
 	add_meta_box( 'translated_strings_list', 'Translated Strings',  'translated_strings_meta_box_callback', 'wpi18n', 'normal', 'high' );
 } );
 
-function translated_strings_meta_box_callback() {
-	global $post;
+function get_repeat_string_mapping( $post_ID ) {
 
 	$excluded = array( '_edit_lock', 'original' );
-	$all_meta = get_post_meta( $post->ID );
+	$all_meta = get_post_meta( $post_ID );
+	$new_languages = array();
+	foreach ($all_meta as $meta_key => $meta_value) {
+		if ( strpos($meta_key, 'project_') === false && ! in_array($meta_key, $excluded)) {
+			$lang = str_replace('language_', '', $meta_key);
+        	foreach ($all_meta as $other_projects_meta_key => $other_projects_meta_value) {
+
+        		$tempcount = 1;
+				if ( strpos($other_projects_meta_key, 'language_'.$lang) !== false && strpos($other_projects_meta_key, 'project_') !== false ) {
+					$meta_key_label = end(explode('project_wordpress-', $other_projects_meta_key));
+					$meta_key_val   = $other_projects_meta_value[0];
+					if( $meta_key_val ) {
+
+						// Set all repeat strings from all available projects.
+						$new_languages[$lang ]['all'][ $meta_key_label ] = $meta_key_val;
+
+						// Set repeat strings with count.
+						if( isset( $new_languages[$lang ]['repeat'][ $meta_key_val ] ) ) {
+							$new_languages[$lang ]['repeat'][ $meta_key_val ] = $new_languages[$lang ]['repeat'][ $meta_key_val ] + $tempcount;
+						} else {
+							$new_languages[$lang ]['repeat'][ $meta_key_val ] = $tempcount;
+						}
+					}
+				}
+			}
+
+			// Set top most repeat from all available strings.
+			if( isset( $new_languages[$lang ]['repeat'] ) ) {
+				$c   = 0;
+				$top = '';
+				$repeats = $new_languages[$lang ]['repeat'];
+				foreach ($repeats as $j => $repeat) {
+					if( $c < $repeat ) {
+						$top = $j;
+						$c = $repeat;
+					}
+				}
+				$new_languages[$lang ]['top'] = $top;
+			}
+		}
+	}
+	return $new_languages;
+	// echo '<pre>';
+	// print_r( $new_languages );
+	// echo '</pre>';
+}
+
+function translated_strings_meta_box_callback() {
+	global $post;
 
 	?>
 	<h4>Original String</h4>
@@ -23,38 +70,42 @@ function translated_strings_meta_box_callback() {
         </tr>
     </table>
 
-    <h4>Translation Strings</h4>
+	<?php
+	$languages = get_repeat_string_mapping( $post->ID );
+	?>
+	<h4>Translation Strings</h4>
 	<table class="widefat striped">
         <tr>
             <th><b>Language</b></th>
             <th><b>String</b></th>
         </tr>
-	<?php
-	foreach ($all_meta as $meta_key => $meta_value) {
-		if ( strpos($meta_key, 'project_') === false && ! in_array($meta_key, $excluded)) {
-			?>
+        <?php
+        // echo "<pre>";
+        // print_r( $languages );
+        foreach ($languages as $language_id => $language_data) { ?>
 	        <tr>
-	            <td><?php echo str_replace('language_', '', $meta_key); ?></td>
-	            <td>
-	            	<p><?php echo get_post_meta( $post->ID, $meta_key, true ); ?></p>
-	            	<?php 
-	    //         	foreach ($all_meta as $other_projects_meta_key => $other_projects_meta_value) {
-					// 	if ( strpos($other_projects_meta_key, 'project_') !== false ) {
-					// 		$meta_key_label = end(explode('project_wordpress-', $other_projects_meta_key));
-					// 		$meta_key_val   = get_post_meta( $post->ID, $other_projects_meta_key, true );
-					// 		if( $meta_key_val ) {
-					// 			$meta_key_val   = substr($meta_key_val, 0, 80);
-					// 			echo $meta_key_val . ' ('.$meta_key_label.')<br/>';
-					// 		}
-					// 	}
-					// }
-	            	 ?>
-	            </td>
+	            <th><?php echo $language_id; ?></th>
+	            <th>
+	            	<p><b><?php echo $language_data['top']; ?></b></p>
+	            	<?php
+	            	$repeat = isset( $language_data['repeat'] ) ? $language_data['repeat'] : array();
+	            	foreach ($repeat as $repeat_string => $repeat_string_count) {
+	            		echo '('.$repeat_string_count.' times) ' . $repeat_string . '<br/>';
+	            	} ?>
+	            	<div>
+	            		<span style="text-decoration: underline;" onClick="jQuery(this).siblings().slideToggle();">check all</span>
+		            	<div style="display: none;">
+		            	<?php
+		            	$all = isset( $language_data['all'] ) ? $language_data['all'] : array();
+		            	foreach ($all as $project => $string) {
+		            		echo $string . ' ('.$project.')<br/>';
+		            	}
+						?>
+		            	</div>
+	            	</div>
+	            </th>
 	        </tr>
-			<?php
-		}
-	}
-	?>
+	    <?php } ?>
 	</table>
 	<?php
 }
@@ -627,7 +678,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 						if( $post_id ) {
 							// Exist.
-							WP_CLI::line( $language . ' | ' . $line . ' | EXIST | ' . $post_id . ' | ' . $small_post_title );
+							WP_CLI::line( $language . ' | ' . $line . ' | EXIST | ' . $post_id . ' | ' . $small_post_title . ' | UPDATED WITH ' . $translation_string );
 
 							// Original String.
 							update_post_meta( $post_id, 'original', $post_title );
@@ -659,7 +710,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 								update_post_meta( $post_id, $translation_key, $translation_string );
 
 								// Created.
-								WP_CLI::line( $language . ' | ' . $line . ' | CREATED | ' . $post_id . ' | ' . $small_post_title );
+								WP_CLI::line( $language . ' | ' . $line . ' | CREATED | ' . $post_id . ' | ' . $small_post_title . ' | UPDATED WITH ' . $translation_string );
 							} else {
 								WP_CLI::line( $language . ' | ' . $line . ' | ERROR | ' . $post_id->get_wp_error() );
 								WP_CLI::line( ' | ' . $post_id . ' | ' . $small_post_title );
@@ -693,9 +744,89 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				// //and to a .mo file
 				// $translations->toMoFile('Locale/gl/LC_MESSAGES/messages.mo');
 			}
+		}
+
+		function translate() {
+			include_once "lib/Gettext/src/autoloader.php";
+			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
 
 
+			$translations = Translations::fromPoFile( dirname(__FILE__) . '\wp-themes-astra-mr.po' );
 
+			// WP_CLI::error(print_r( $translations ) );
+
+			foreach ($translations as $key => $translation) {
+				// echo 'getOriginal : ---- ' . $translation->getOriginal() . '<br/>';
+				// echo 'getTranslation : ---- ' . $translation->getTranslation() . '<br/>';
+
+				$post_title         = $translation->getOriginal();
+				$small_post_title   = substr($post_title, 0, 80) . '..';
+				$translation_string = $translation->getTranslation();
+
+				if( ! empty( $post_title ) ) {
+					$post_id = post_exists( $post_title );
+					if( $post_id ) {
+						$stored_string = get_post_meta( $post_id, 'language_mr', true );
+						WP_CLI::line( $post_id . " " . get_post_meta( $post_id, 'language_mr', true ) );
+						
+						//edit some translations:
+						$translation = $translations->find(null, $post_title);
+
+						if ($translation) {
+							$translation->setTranslation( $stored_string );
+						}
+					}
+				}
+
+			}
+
+			//Now save a po file with the result
+			$translations->toPoFile('locale.po');
+
+			// //export to a php array:
+			// $translations->toPhpArrayFile('locales/gl.php');
+
+			// //and to a .mo file
+			// $translations->toMoFile('Locale/gl/LC_MESSAGES/messages.mo');
+
+		}
+
+		function test() {
+
+			include_once "lib/Gettext/src/autoloader.php";
+			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
+
+			$translations = Translations::fromPoFile( dirname(__FILE__) . '\wp-themes-astra-mr.po' );
+
+			foreach ($translations as $key => $translation) {
+
+				$post_title         = $translation->getOriginal();
+				$translation_string = $translation->getTranslation();
+
+				if( ! empty( $post_title ) ) {
+					$post_id = post_exists( $post_title );
+					if( $post_id ) {
+						$stored_string = get_post_meta( $post_id, 'language_mr', true );
+						WP_CLI::line( $post_id . " " . $stored_string );
+
+						$excluded = array( '_edit_lock', 'original' );
+						$all_meta = get_post_meta( $post_id );
+						foreach ($all_meta as $other_projects_meta_key => $other_projects_meta_value) {
+							if ( strpos($other_projects_meta_key, 'project_') !== false ) {
+								WP_CLI::line( $other_projects_meta_value[0] );
+								
+								// $meta_key_label = end(explode('project_wordpress-', $other_projects_meta_key));
+								// $meta_key_val   = get_post_meta( $post_id, $other_projects_meta_key, true );
+								// if( $meta_key_val ) {
+								// 	$meta_key_val   = substr($meta_key_val, 0, 80);
+								// 	echo $meta_key_val . ' ('.$meta_key_label.')<br/>';
+								// }
+							}
+						}
+					}
+				}
+
+			}
 		}
 
 	}
