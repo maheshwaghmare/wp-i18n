@@ -1,0 +1,1383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themes - Catch Fullscreen\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-07T18:27:08+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Catch Fullscreen is a one page WordPress theme that comes with incredible features and captivating design. The theme is extremely easy to customize and you will not have to deal with the most troublesome coding task. The well-designed one page WordPress theme, Catch Fullscreen provides you with crucial features such as header media, featured content, featured slider, hero content, layout options, portfolio, testimonials, and more – which are extremely crucial to create a strong online niche. The theme is completely responsive and your website will look perfect on all devices. Its attractive full screen design and vertical scroll navigation makes your website stand out among others in the web world. Catch Fullscreen helps you build a single scrolling page with great attention to typography and is eye-appealing. Try out the Catch Fullscreen theme and start your journey in WordPress today! For more information, check out Theme Instructions at https://catchthemes.com/themes/catch-fullscreen/, support at https://catchthemes.com/support/ and Demo at https://catchthemes.com/demo/catch-fullscreen/"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Catch Fullscreen"
+msgstr ""
+
+#: template-parts/navigation/navigation-primary.php:40
+msgid "Social Links on Primary Menu"
+msgstr ""
+
+#: template-parts/navigation/navigation-primary.php:14
+msgid "Menu"
+msgstr "मेनू"
+
+#: template-parts/navigation/navigation-primary.php:14
+msgid "Secondary "
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/hero-content/content-hero.php:75
+msgid "Edit %s"
+msgstr "संपादित करा %s"
+
+#: template-parts/footer/site-info.php:17
+msgid "by"
+msgstr ""
+
+#: template-parts/footer/site-info.php:13
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s"
+msgstr ""
+
+#: template-parts/featured-content/display-featured.php:23
+msgid "Contents"
+msgstr ""
+
+#: template-parts/content/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content/content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: template-parts/content/content-home.php:56
+#: template-parts/content/content.php:41
+msgid "Continue Reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content/content-home.php:41
+#: template-parts/content/content.php:21
+msgid "Featured"
+msgstr "वैशिष्ट्यपूर्ण"
+
+#: template-parts/biography.php:31
+msgid "View all posts by %s"
+msgstr ""
+
+#: template-parts/biography.php:26
+msgid "Author:"
+msgstr "लेखक"
+
+#: single.php:32
+msgid "Next Post"
+msgstr "पुढील पोस्ट"
+
+#: single.php:31
+msgid "Previous Post"
+msgstr "मागील पोस्ट"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/widgets/social-icons.php:121
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; निवडा &mdash;"
+
+#: inc/widgets/social-icons.php:119
+msgid "Select Menu:"
+msgstr "मेनू निवडा:"
+
+#: inc/widgets/social-icons.php:115
+msgid "Title"
+msgstr "शीर्षक"
+
+#: inc/widgets/social-icons.php:110
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr "अद्याप कोणताही मेनू तयार केलेला आहे. <a href=\"%s\">एक तयार करा </a>."
+
+#: inc/widgets/social-icons.php:41
+msgid "CT: Social Icons"
+msgstr ""
+
+#: inc/widgets/social-icons.php:32
+msgid "Use this widget to add short information and Social Menu"
+msgstr ""
+
+#: inc/template-tags.php:540
+msgid "Your comment is awaiting moderation."
+msgstr "आपली टिप्पणी मंजुरीची प्रतीक्षा करत आहे."
+
+#: inc/template-tags.php:536
+msgid "%s ago"
+msgstr "%s पूर्वी"
+
+#: inc/template-tags.php:531
+msgid "%s <span class=\"says screen-reader-text\">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:517
+#: inc/template-tags.php:537
+msgid "Edit"
+msgstr "संपादन"
+
+#: inc/template-tags.php:517
+msgid "Pingback:"
+msgstr "पिंगबॅक"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:410
+#: inc/template-tags.php:435
+msgid "Continue Reading &gt;"
+msgstr ""
+
+#: inc/template-tags.php:257
+msgid "Tags"
+msgstr "टॅगस्"
+
+#. translators: %s: post author
+#: inc/template-tags.php:199
+msgid "<span class=\"author-label screen-reader-text\">By </span>%s"
+msgstr ""
+
+#: inc/template-tags.php:124
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:116
+#: inc/template-tags.php:147
+#: inc/template-tags.php:155
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:113
+#: inc/template-tags.php:121
+#: inc/template-tags.php:143
+#: inc/template-tags.php:152
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:97
+#: inc/template-tags.php:174
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:68
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#: inc/template-tags.php:36
+msgid "By line"
+msgstr ""
+
+#: inc/template-tags.php:34
+msgid "Posted-on"
+msgstr ""
+
+#: inc/metabox/metabox.php:183
+msgid "Catch Fullscreen Options"
+msgstr ""
+
+#: inc/metabox/metabox.php:94
+msgid "Header Featured Image Options"
+msgstr ""
+
+#: inc/metabox/metabox.php:78
+#: inc/metabox/metabox.php:83
+msgid "Disable"
+msgstr "अक्षम"
+
+#: inc/metabox/metabox.php:77
+#: inc/metabox/metabox.php:84
+msgid "Enable"
+msgstr "सक्षम"
+
+#: inc/metabox/metabox.php:76
+#: inc/metabox/metabox.php:82
+msgid "Default"
+msgstr "मुलभूत"
+
+#: inc/jetpack.php:106
+#: template-parts/portfolio/display-portfolio.php:17
+msgid "Projects"
+msgstr ""
+
+#: inc/icon-functions.php:42
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/icon-functions.php:37
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/featured-slider.php:35
+#: template-parts/testimonial/display-testimonial.php:94
+msgid "Next Slide"
+msgstr ""
+
+#: inc/featured-slider.php:34
+#: template-parts/testimonial/display-testimonial.php:87
+msgid "Previous Slide"
+msgstr ""
+
+#: inc/extras.php:339
+msgid "Social Links Menu"
+msgstr ""
+
+#: inc/extras.php:237
+msgid "Next page"
+msgstr "पुढील"
+
+#: inc/extras.php:236
+msgid "Previous page"
+msgstr "मागील"
+
+#: inc/extras.php:205
+msgid "Scroll Up"
+msgstr ""
+
+#: inc/customizer/upgrade-button/class-customize.php:75
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/customizer/upgrade-button/class-customize.php:74
+msgid "Catch Fullscreen Pro"
+msgstr ""
+
+#: inc/customizer/theme-options.php:285
+msgid "Disable Scroll Up"
+msgstr ""
+
+#: inc/customizer/theme-options.php:279
+msgid "Scrollup Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:270
+msgid "Pagination type"
+msgstr ""
+
+#: inc/customizer/theme-options.php:262
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:246
+msgid "For infinite scrolling, use %1$sCatch Infinite Scroll Plugin%2$s with Infinite Scroll module Enabled."
+msgstr ""
+
+#: inc/customizer/theme-options.php:216
+msgid "Disable blog post content"
+msgstr ""
+
+#: inc/customizer/theme-options.php:205
+#: inc/template-tags.php:253
+msgid "Categories"
+msgstr "कॅटेगरी"
+
+#: inc/customizer/theme-options.php:198
+msgid "Homepage / Frontpage Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:196
+msgid "Only posts that belong to the categories selected here will be displayed on the front page"
+msgstr ""
+
+#: inc/customizer/theme-options.php:188
+msgid "Search Text"
+msgstr ""
+
+#: inc/customizer/theme-options.php:186
+#: searchform.php:9
+#: template-parts/navigation/navigation-primary.php:58
+msgid "Search"
+msgstr "शोधा"
+
+#: inc/customizer/theme-options.php:181
+msgid "Search Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:172
+msgid "Continue Reading Text"
+msgstr ""
+
+#: inc/customizer/theme-options.php:170
+#: inc/template-tags.php:386
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/customizer/theme-options.php:162
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: inc/customizer/theme-options.php:155
+msgid "Excerpt length. Default is 20 words"
+msgstr ""
+
+#: inc/customizer/theme-options.php:148
+msgid "Excerpt Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:140
+msgid "Post Thumbnail"
+msgstr "पोस्ट थम्बनेल"
+
+#: inc/customizer/theme-options.php:135
+msgid "Single Page/Post Image Layout"
+msgstr ""
+
+#: inc/customizer/theme-options.php:125
+msgid "Show Full Content ( No Featured Image )"
+msgstr ""
+
+#: inc/customizer/theme-options.php:124
+msgid "Show Excerpt( Image Top )"
+msgstr ""
+
+#: inc/customizer/theme-options.php:120
+msgid "Archive Content Layout"
+msgstr ""
+
+#: inc/customizer/theme-options.php:119
+msgid "Only for blog/archive pages"
+msgstr ""
+
+#: inc/customizer/theme-options.php:109
+msgid "Enabled"
+msgstr ""
+
+#: inc/customizer/theme-options.php:104
+msgid "Homepage Posts Content Background"
+msgstr ""
+
+#: inc/customizer/theme-options.php:94
+msgid "Content Center"
+msgstr ""
+
+#: inc/customizer/theme-options.php:93
+msgid "Content Right"
+msgstr ""
+
+#: inc/customizer/theme-options.php:89
+msgid "Homepage Posts Content Alignment"
+msgstr ""
+
+#: inc/customizer/theme-options.php:74
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer/theme-options.php:72
+msgid "Not for Homepage"
+msgstr ""
+
+#. #-#-#-#-#  catch-fullscreen.pot (Catch Fullscreen 1.0.3)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer/theme-options.php:63
+#: inc/customizer/theme-options.php:79
+msgid "No Sidebar"
+msgstr ""
+
+#. #-#-#-#-#  catch-fullscreen.pot (Catch Fullscreen 1.0.3)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: inc/customizer/theme-options.php:62
+#: inc/customizer/theme-options.php:78
+msgid "Right Sidebar ( Content, Primary Sidebar )"
+msgstr ""
+
+#: inc/customizer/theme-options.php:58
+msgid "Default Layout"
+msgstr ""
+
+#: inc/customizer/theme-options.php:56
+msgid "Only for Single Pages including Static Front Page"
+msgstr ""
+
+#: inc/customizer/theme-options.php:47
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:39
+msgid "Check to enable Breadcrumb on Homepage"
+msgstr ""
+
+#: inc/customizer/theme-options.php:30
+msgid "Check to enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer/theme-options.php:23
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/theme-options.php:21
+msgid "Breadcrumbs are a great way of letting your visitors find out where they are on your site with just a glance."
+msgstr ""
+
+#: inc/customizer/theme-options.php:15
+msgid "Theme Options"
+msgstr "थीम पर्याय"
+
+#: inc/customizer/testimonial.php:142
+msgid "Testimoial"
+msgstr ""
+
+#: inc/customizer/testimonial.php:124
+msgid "Number of items"
+msgstr ""
+
+#: inc/customizer/testimonial.php:54
+msgid "For Testimonial, install %1$sEssential Content Types%2$s Plugin with Testimonial Content Type Enabled"
+msgstr ""
+
+#: inc/customizer/testimonial.php:31
+#: template-parts/testimonial/display-testimonial.php:19
+#: template-parts/testimonial/display-testimonial.php:25
+msgid "Testimonials"
+msgstr ""
+
+#: inc/customizer/testimonial.php:19
+msgid "For Testimonial Options, go %1$shere%2$s"
+msgstr ""
+
+#: inc/customizer/service.php:144
+msgid "Service "
+msgstr ""
+
+#: inc/customizer/service.php:129
+msgid "No of Service"
+msgstr ""
+
+#: inc/customizer/service.php:124
+msgid "Save and refresh the page if No. of Service is changed"
+msgstr ""
+
+#: inc/customizer/service.php:113
+msgid "Service Archive Content"
+msgstr ""
+
+#: inc/customizer/service.php:103
+msgid "Service Archive Title"
+msgstr ""
+
+#: inc/customizer/service.php:100
+#: inc/service.php:25
+msgid "Services"
+msgstr ""
+
+#: inc/customizer/service.php:49
+msgid "For Services, install %1$sEssential Content Types%2$s Plugin with Services Content Type Enabled"
+msgstr ""
+
+#: inc/customizer/service.php:26
+msgid "Service"
+msgstr ""
+
+#: inc/customizer/service.php:14
+msgid "For Service Options, go %1$shere%2$s"
+msgstr ""
+
+#: inc/customizer/portfolio.php:124
+msgid "Number of items to show"
+msgstr ""
+
+#: inc/customizer/portfolio.php:54
+msgid "For Portfolio, install %1$sEssential Content Types%2$s Plugin with Portfolio Content Type Enabled"
+msgstr ""
+
+#: inc/customizer/portfolio.php:45
+#: inc/customizer/portfolio.php:142
+msgid "Portfolio"
+msgstr "पोर्टफोलिओ"
+
+#: inc/customizer/portfolio.php:33
+msgid "For Portfolio Options for this theme, go %1$shere%2$s"
+msgstr ""
+
+#: inc/customizer/hero-content.php:15
+msgid "Hero Content"
+msgstr ""
+
+#. translators: 1: post id.
+#: inc/customizer/helpers.php:171
+msgid "#%d (no title)"
+msgstr "#%d (शीर्षक नाही)"
+
+#: inc/customizer/helpers.php:167
+msgid "-- Select --"
+msgstr ""
+
+#: inc/customizer/helpers.php:145
+msgid "Numeric"
+msgstr "अंकीय"
+
+#: inc/customizer/helpers.php:144
+msgid "Default(Older Posts/Newer Posts)"
+msgstr ""
+
+#: inc/customizer/helpers.php:131
+msgid "Image"
+msgstr "इमेज"
+
+#: inc/customizer/helpers.php:130
+msgid "Category"
+msgstr "कॅटेगरी"
+
+#: inc/customizer/helpers.php:128
+msgid "Post"
+msgstr "लेख"
+
+#: inc/customizer/helpers.php:115
+msgid "4 columns"
+msgstr ""
+
+#: inc/customizer/helpers.php:114
+msgid "3 columns"
+msgstr ""
+
+#: inc/customizer/helpers.php:113
+msgid "2 columns"
+msgstr ""
+
+#: inc/customizer/helpers.php:112
+msgid "1 column"
+msgstr ""
+
+#: inc/customizer/header-media.php:99
+msgid "Check to Open Link in New Window/Tab"
+msgstr ""
+
+#: inc/customizer/header-media.php:91
+msgid "Header Media Url Text"
+msgstr ""
+
+#: inc/customizer/header-media.php:83
+msgid "Header Media Url"
+msgstr ""
+
+#: inc/customizer/header-media.php:74
+msgid "Header Media Text"
+msgstr ""
+
+#: inc/customizer/header-media.php:65
+msgid "Header Media Title"
+msgstr ""
+
+#: inc/customizer/header-media.php:40
+msgid "Content Alignment"
+msgstr ""
+
+#: inc/customizer/header-media.php:38
+msgid "Left"
+msgstr "डावं"
+
+#: inc/customizer/header-media.php:37
+msgid "Right"
+msgstr "उजवा"
+
+#: inc/customizer/header-media.php:36
+msgid "Center"
+msgstr "सेंटर"
+
+#: inc/customizer/header-media.php:22
+#: inc/customizer/helpers.php:99
+#: inc/customizer/theme-options.php:108
+#: inc/customizer/theme-options.php:139
+msgid "Disabled"
+msgstr ""
+
+#: inc/customizer/header-media.php:21
+msgid "Pages and Posts"
+msgstr ""
+
+#: inc/customizer/header-media.php:20
+msgid "Entire Site, Page/Post Featured Image"
+msgstr ""
+
+#: inc/customizer/header-media.php:19
+#: inc/customizer/helpers.php:98
+msgid "Entire Site"
+msgstr ""
+
+#: inc/customizer/header-media.php:18
+msgid "Excluding Homepage, Page/Post Featured Image"
+msgstr ""
+
+#: inc/customizer/header-media.php:17
+msgid "Excluding Homepage"
+msgstr ""
+
+#: inc/customizer/header-media.php:16
+#: inc/customizer/helpers.php:97
+msgid "Homepage / Frontpage"
+msgstr ""
+
+#: inc/customizer/header-media.php:9
+msgid "If you add video, it will only show up on Homepage/FrontPage. Other Pages will use Header/Post/Page Image depending on your selection of option. Header Image will be used as a fallback while the video loads "
+msgstr ""
+
+#: inc/customizer/featured-slider.php:44
+msgid "No of Slides"
+msgstr ""
+
+#: inc/customizer/featured-slider.php:37
+msgid "Save and refresh the page if No. of Slides is changed (Max no of slides is 20)"
+msgstr ""
+
+#: inc/customizer/featured-slider.php:16
+msgid "Featured Slider"
+msgstr ""
+
+#: inc/customizer/featured-content.php:132
+msgid "No of Featured Content"
+msgstr ""
+
+#: inc/customizer/featured-content.php:127
+msgid "Save and refresh the page if No. of Featured Content is changed (Max no of Featured Content is 20)"
+msgstr ""
+
+#. translators: 1: <a>/link tag start, 2: </a>/link tag close.
+#: inc/customizer/featured-content.php:113
+#: inc/customizer/portfolio.php:110
+#: inc/customizer/testimonial.php:110
+msgid "For CPT heading and sub-heading, go %1$shere%2$s"
+msgstr ""
+
+#: inc/customizer/featured-content.php:96
+#: inc/customizer/header-media.php:50
+#: inc/customizer/hero-content.php:47
+#: inc/customizer/portfolio.php:93
+#: inc/customizer/service.php:87
+#: inc/customizer/testimonial.php:93
+msgid "Background Image Overlay"
+msgstr ""
+
+#: inc/customizer/featured-content.php:85
+#: inc/customizer/hero-content.php:36
+#: inc/customizer/portfolio.php:82
+#: inc/customizer/service.php:76
+#: inc/customizer/testimonial.php:82
+msgid "Section Background Image"
+msgstr ""
+
+#: inc/customizer/featured-content.php:74
+#: inc/customizer/featured-slider.php:25
+#: inc/customizer/header-media.php:24
+#: inc/customizer/hero-content.php:25
+#: inc/customizer/portfolio.php:70
+#: inc/customizer/service.php:65
+#: inc/customizer/testimonial.php:70
+msgid "Enable on"
+msgstr ""
+
+#: inc/customizer/featured-content.php:62
+#: inc/customizer/featured-content.php:146
+msgid "Featured Content"
+msgstr ""
+
+#. translators: 1: <a>/link tag start, 2: </a>/link tag close.
+#: inc/customizer/featured-content.php:50
+msgid "For Featured Content, install %1$sEssential Content Types%2$s Plugin with Featured Content Type Enabled"
+msgstr ""
+
+#: inc/customizer/featured-content.php:19
+msgid "For Featured Content Options for this theme, go %1$shere%2$s"
+msgstr ""
+
+#: inc/customizer/customizer.php:61
+#: inc/customizer/customizer.php:69
+msgid "Important Links"
+msgstr ""
+
+#: inc/customizer/customizer.php:50
+msgid "Check to reset all settings to default"
+msgstr ""
+
+#: inc/customizer/customizer.php:43
+msgid "Reset all settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:42
+msgid "Caution: Reset all settings to default. Refresh the page after save to view full effects."
+msgstr ""
+
+#: inc/customizer/customizer.php:21
+msgid "Check to center header"
+msgstr ""
+
+#: inc/customizer/custom-controls.php:76
+msgid "Hold down the Ctrl (windows) / Command (Mac) button to select multiple options."
+msgstr ""
+
+#: inc/customizer/custom-controls.php:69
+msgid "All Categories"
+msgstr "समग्र विभाग"
+
+#: inc/customizer/custom-controls.php:47
+msgid "Pinterest"
+msgstr "पिन्टरेस्ट"
+
+#: inc/customizer/custom-controls.php:43
+msgid "Google+"
+msgstr ""
+
+#: inc/customizer/custom-controls.php:39
+msgid "Twitter"
+msgstr "ट्विटर"
+
+#: inc/customizer/custom-controls.php:35
+msgid "Facebook"
+msgstr "फेसबुक"
+
+#: inc/customizer/custom-controls.php:31
+msgid "Changelog"
+msgstr "चेंजलॉग"
+
+#: inc/customizer/custom-controls.php:27
+msgid "Support"
+msgstr ""
+
+#: inc/customizer/custom-controls.php:23
+msgid "Theme Instructions"
+msgstr ""
+
+#: inc/custom-header.php:427
+msgid "Oops! That page can&rsquo;t be found"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/custom-header.php:404
+#: search.php:20
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/custom-header.php:401
+#: template-parts/content/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/custom-header.php:336
+#: inc/custom-header.php:364
+#: inc/custom-header.php:387
+#: inc/customizer/header-media.php:64
+#: inc/extras.php:65
+msgid "Dancing Under The Sky"
+msgstr ""
+
+#: inc/custom-header.php:95
+msgid "Default Header Image"
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "तपशील लपवा"
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "तपशील दाखवा"
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लगइन अपडेट करीत आहे"
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "सक्रिय करा"
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "अपडेट"
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "स्थापित करा"
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "स्थिती"
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "टाईप"
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "स्रोत"
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "प्लगईन"
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "अपडेट उपलब्ध <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: install status, 2: update status
+#: inc/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "सक्रिय"
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "शिफारस केलेले"
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+#: inc/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#. translators: %s: title.
+#: comments.php:34
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:50
+#: comments.php:71
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:52
+#: comments.php:73
+msgid "Older Comments"
+msgstr "जुन्या प्रतिक्रिया"
+
+#: comments.php:53
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "नव्या प्रतिक्रिया"
+
+#: comments.php:85
+msgid "Comments are closed."
+msgstr "टिप्पण्या बंद आहेत."
+
+#: functions.php:107
+#: template-parts/navigation/navigation-primary.php:20
+#: template-parts/navigation/navigation-primary.php:28
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:108
+msgid "Social on Primary Menu"
+msgstr ""
+
+#: functions.php:179
+msgid "Sidebar"
+msgstr "साईडबार"
+
+#: functions.php:181
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:189
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:191
+#: functions.php:201
+#: functions.php:211
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:199
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:209
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:221
+msgid "Instagram"
+msgstr "इन्स्टाग्राम"
+
+#: functions.php:223
+msgid "Appears above footer. This sidebar is only for Widget from plugin Catch Instagram Feed Gallery Widget and Catch Instagram Feed Gallery Widget Pro"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:295
+msgctxt "Poppins: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:366
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:367
+msgid "collapse child menu"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:22
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:23
+msgid "Next Image"
+msgstr ""
+
+#: image.php:54
+#: template-parts/content/content-home.php:61
+#: template-parts/content/content-page.php:32
+#: template-parts/content/content-single.php:38
+#: template-parts/content/content.php:46
+#: template-parts/hero-content/content-hero.php:58
+msgid "Pages:"
+msgstr "पृष्ठे:"
+
+#: image.php:58
+#: inc/customizer/featured-slider.php:58
+#: inc/customizer/helpers.php:129
+#: inc/customizer/hero-content.php:63
+#: inc/extras.php:238
+#: template-parts/content/content-home.php:65
+#: template-parts/content/content-page.php:36
+#: template-parts/content/content-single.php:42
+#: template-parts/content/content.php:50
+#: template-parts/hero-content/content-hero.php:62
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: image.php:71
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: image.php:82
+#: inc/template-tags.php:288
+#: template-parts/content/content-page.php:46
+#: template-parts/content/content-search.php:31
+#: template-parts/content/content-search.php:46
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: image.php:98
+#: single.php:26
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr ""
+
+#. translators: %s: current WordPress version.
+#: inc/back-compat.php:40
+#: inc/back-compat.php:53
+#: inc/back-compat.php:71
+msgid "Catch Full requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/breadcrumb.php:13
+msgid "Home"
+msgstr "घर"
+
+#. translators: 1: before text/html, 2: after text/html.
+#: inc/breadcrumb.php:15
+msgid "%1$s Archive for %2$s"
+msgstr ""
+
+#. translators: 1: before text/html, 2: after text/html.
+#: inc/breadcrumb.php:17
+msgid "%1$sSearch results for: %2$s"
+msgstr ""
+
+#. translators: 1: before text/html, 2: after text/html.
+#: inc/breadcrumb.php:19
+msgid "%1$sPosts tagged %2$s"
+msgstr ""
+
+#. translators: 1: before text/html, 2: after text/html.
+#: inc/breadcrumb.php:21
+msgid "%1$sView all posts by %2$s"
+msgstr ""
+
+#: inc/breadcrumb.php:22
+msgid "Error 404"
+msgstr ""
+
+#: inc/breadcrumb.php:72
+#: inc/breadcrumb.php:75
+#: inc/breadcrumb.php:80
+#: inc/breadcrumb.php:86
+#: template-parts/footer/site-info.php:14
+msgid "Y"
+msgstr "वाय"
+
+#: inc/breadcrumb.php:75
+msgid "n"
+msgstr ""
+
+#: inc/breadcrumb.php:75
+#: inc/breadcrumb.php:82
+msgid "F"
+msgstr "शु "
+
+#: inc/breadcrumb.php:77
+msgid "d"
+msgstr ""
+
+#. translators: %s: current page number.
+#: inc/breadcrumb.php:168
+msgid "Page %s"
+msgstr "पृष्ठ %s"
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "प्लगइन स्थापित करत आहेत: %s"
+
+#. translators: %s: plugin name.
+#: inc/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "प्लगइन अपडेट करीत आहे: %s"
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://catchthemes.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Catch Themes"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://catchthemes.com/themes/catch-fullscreen/"
+msgstr ""

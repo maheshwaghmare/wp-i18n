@@ -1,0 +1,722 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themes - Photograph\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-07T18:36:08+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Photograph is a WordPress theme exclusively built for photographer, blogger, portfolio, photography agency or photo studio websites. It is clean, super flexible, fully responsive designs, amazing new features, complete 1-click website demos and lifetime free updates. Photograph design can be used for any type of website. This Photograph theme with awesome video tells story about how photograph has positive impact in many person's life. It consists Contact Us Template, Gallery Template Photograph Template, widgets and Sidebar. Get free support at https://tickets.themefreesia.com/ and View free demo sites at https://demo.themefreesia.com/photograph"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:268
+msgid "Disable Fancy Box"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:256
+msgid "Disable Volumen Button"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Photograph Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Gallery Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "About Us Template"
+msgstr ""
+
+#: single.php:107
+msgid "Previous post:"
+msgstr ""
+
+#: single.php:106
+msgid "Previous"
+msgstr "मागील"
+
+#: single.php:104
+msgid "Next post:"
+msgstr ""
+
+#: single.php:103
+msgid "Next"
+msgstr "पुढे"
+
+#: single.php:99
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#: pagination.php:17
+msgid "Page"
+msgstr "पृष्ठ"
+
+#: pagination.php:16
+msgid "Next page"
+msgstr "पुढील"
+
+#: pagination.php:15
+msgid "Previous page"
+msgstr "मागील"
+
+#: inc/widgets/widgets-functions/register-widgets.php:60
+msgid "Add WooCommerce Widgets Only"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:58
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:51
+msgid "Add Iframe Code using text widgets"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:49
+msgid "Iframe Code For Google Maps"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:42
+msgid "Shows widgets on Contact Page Template."
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:40
+msgid "Contact Page Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:33
+msgid "Use any Slider Plugins and drag that slider widgets to this Slider Section but you must select Display Category Slider from Customize > Slider/ Video Options > Choose Video/ Category Slider"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:31
+msgid "Slider Section"
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:24
+msgid "Shows widgets on all page."
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:15
+msgid "Shows widgets at Main Sidebar."
+msgstr ""
+
+#: inc/widgets/widgets-functions/register-widgets.php:13
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/widgets/widgets-functions/popular-posts.php:39
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: inc/widgets/widgets-functions/popular-posts.php:34
+msgid "Number of popular posts:"
+msgstr ""
+
+#: inc/widgets/widgets-functions/popular-posts.php:20
+msgid "TF: Popular Posts"
+msgstr ""
+
+#: inc/widgets/widgets-functions/popular-posts.php:18
+msgid "Displays popular posts"
+msgstr ""
+
+#: inc/upgrade-plus/class-customize.php:64
+msgid "Upgrade To Plus"
+msgstr ""
+
+#. #-#-#-#-#  photograph.pot (Photograph 1.1.5)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/upgrade-plus/class-customize.php:63
+msgid "Photograph"
+msgstr ""
+
+#: inc/settings/photograph-functions.php:563
+#: inc/settings/photograph-functions.php:575
+msgid "--Select--"
+msgstr ""
+
+#: inc/settings/photograph-common-functions.php:20
+msgid "Newer Comments"
+msgstr "नव्या प्रतिक्रिया"
+
+#: inc/settings/photograph-common-functions.php:17
+msgid "Older Comments"
+msgstr "जुन्या प्रतिक्रिया"
+
+#: inc/settings/photograph-common-functions.php:14
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/customizer/photograph-default-values.php:66
+msgid "All"
+msgstr "सर्व"
+
+#: inc/customizer/photograph-default-values.php:22
+msgid "Search &hellip;"
+msgstr "शोधा &hellip;"
+
+#: inc/customizer/photograph-default-values.php:16
+msgid "View More"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:295
+msgid "Image will be displayed on footer"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:281
+msgid "Reset all default settings. (Refresh it to view the effect)"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:244
+msgid "Disable Instagram"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:232
+msgid "Disable Main Menu"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:220
+msgid "Disable Page/Single Featured Image"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:208
+msgid "Disable Bottom Social Icons"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:196
+msgid "Disable Side Menu Social Icons"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:184
+msgid "Disable Header Social Icons"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:172
+msgid "Disable Goto Top"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:160
+msgid "Disable Stick Menu"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:148
+msgid "Disable Side Menu"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:136
+msgid "Disable Search Form"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:124
+msgid "Disable Wow Animation Options"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:113
+msgid "Top/center logo & site title"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:112
+msgid "Default"
+msgstr "मुलभूत"
+
+#: inc/customizer/functions/theme-options.php:107
+msgid "Header Design Layout"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:95
+msgid "Center Logo for high resolution screen(Use 2X size image)"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:84
+msgid "Disable Both"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:83
+msgid "Show Both"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:82
+msgid "Display Site Logo Only"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:81
+msgid "Display Site Title Only"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:75
+msgid "Site Logo/ Text Options"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:61
+#: inc/customizer/functions/theme-options.php:294
+msgid "Footer Background Image"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:55
+msgid "Excert Text/ Excerpt Length"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:49
+msgid "Search Text"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:43
+msgid "Options"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:37
+msgid "Site Title & Logo Options"
+msgstr ""
+
+#: inc/customizer/functions/theme-options.php:32
+msgid "Static Front Page"
+msgstr "स्थिर मुखपृष्ठ"
+
+#: inc/customizer/functions/theme-options.php:27
+msgid "Navigation"
+msgstr "नॅविगेशन"
+
+#: inc/customizer/functions/theme-options.php:22
+msgid "Background Image"
+msgstr "पार्श्वभूमीची इमेज"
+
+#: inc/customizer/functions/theme-options.php:17
+msgid "Colors"
+msgstr "रंग"
+
+#: inc/customizer/functions/theme-options.php:12
+msgid "Header Media"
+msgstr "शीर्षलेख मीडिया"
+
+#: inc/customizer/functions/register-panel.php:56
+msgid "Colors Section"
+msgstr ""
+
+#: inc/customizer/functions/register-panel.php:46
+msgid "Frontpage"
+msgstr ""
+
+#: inc/customizer/functions/register-panel.php:36
+msgid "Slider/ Video Options"
+msgstr ""
+
+#: inc/customizer/functions/register-panel.php:26
+msgid "Theme Options"
+msgstr "थीम पर्याय"
+
+#: inc/customizer/functions/register-panel.php:16
+msgid "WordPress Settings"
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:114
+msgid "Select Tab Tags # "
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:95
+msgid "Selected category will only be displayed. Below selected Tags will be displayed which fall under this selected category only. If no category is selected then latest post will be displayed"
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:94
+msgid "Select Category"
+msgstr "कॅटेगरी निवडा"
+
+#: inc/customizer/functions/frontpage-features.php:79
+msgid "Title"
+msgstr "शीर्षक"
+
+#: inc/customizer/functions/frontpage-features.php:66
+msgid "Show Title in Hover  (Default)"
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:65
+msgid "Hide Gallery Title"
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:64
+msgid "Show Gallery Title"
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:59
+msgid " This feature will work only with Featured Image "
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:58
+msgid " Gallery Title "
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:44
+msgid "No of Featured Post "
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:30
+msgid "Disable Feature Tab Section"
+msgstr ""
+
+#: inc/customizer/functions/frontpage-features.php:16
+msgid "Featured Gallery"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:203
+msgid "Select Category to display title and content in video. If no video is added then featured image of selected post will be displayed."
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:202
+msgid "Display text and content in Video"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:187
+msgid "Or, enter a YouTube URL:"
+msgstr "किंवा, वैध युट्यूब यूआरल प्रविष्ट करा:"
+
+#: inc/customizer/functions/featured-content-customizer.php:173
+msgid "Upload Video"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:157
+msgid "By default no slider is displayed"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:139
+msgid "Hide Background Color"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:138
+msgid "Show Background Color"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:133
+msgid "Slider Content With background color"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:113
+msgid "Hide Slider/Video/Image Content"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:101
+msgid "This feature will not work on Animation Effect set to fade"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:100
+msgid " Set the speed of animations"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:88
+msgid "Set the speed of the slideshow cycling"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:77
+msgid "Fade"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:76
+msgid "Slide"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:71
+msgid "Animation Effect"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:60
+msgid "Disable Slider/ Video"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:59
+msgid "Entire Site"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:58
+msgid "Front Page"
+msgstr "पहिले पान"
+
+#: inc/customizer/functions/featured-content-customizer.php:53
+msgid "Enable Slider/ Video Section"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:42
+msgid "Display Category Slider"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:41
+msgid "Default/ Video / Single Featured Image"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:36
+msgid "Choose Video/ Category Slider"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:25
+msgid "Select Video"
+msgstr "व्हिडीओ निवडा"
+
+#: inc/customizer/functions/featured-content-customizer.php:20
+#: inc/customizer/functions/featured-content-customizer.php:156
+msgid "Select Category Slider"
+msgstr ""
+
+#: inc/customizer/functions/featured-content-customizer.php:14
+msgid "Slider/ Video Settings"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:164
+msgid "Show title on Hover "
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:163
+msgid "Show all Content"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:158
+msgid "Display Content Type in Blog"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:146
+msgid "Small Boxed Layout"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:145
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:144
+msgid "Full Width Layout"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:139
+msgid "Design Layout"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:128
+msgid " Excerpt  Display"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:127
+msgid "Blog Full Content Display"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:122
+msgid "Blog Content Display"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:109
+msgid "Disable Comments"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:97
+msgid "Disable Date"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:85
+msgid "Disable Author"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:73
+msgid "Disable Category"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:62
+msgid "Hide Entry Meta"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:61
+msgid "Display Entry Meta"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:57
+msgid "Disable Entry Meta from Blog"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:46
+msgid "Hide Entry Format"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:45
+msgid "Display Entry Format"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:41
+msgid "Disable Entry Meta from Single Page"
+msgstr ""
+
+#: inc/customizer/functions/design-options.php:30
+#: inc/customizer/functions/featured-content-customizer.php:119
+msgid "OFF"
+msgstr "बंद "
+
+#: inc/customizer/functions/design-options.php:29
+#: inc/customizer/functions/featured-content-customizer.php:118
+msgid "ON "
+msgstr "on"
+
+#: inc/customizer/functions/design-options.php:24
+msgid "Responsive Layout"
+msgstr "रिस्पोन्सिव आराखडा"
+
+#: inc/customizer/functions/design-options.php:12
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/functions/color-options.php:28
+msgid "Theme Color Styles"
+msgstr ""
+
+#: inc/customizer/functions/color-options.php:17
+msgid "Background Color Options"
+msgstr ""
+
+#: inc/customizer/functions/color-options.php:11
+msgid "Color Options"
+msgstr ""
+
+#: header.php:76
+msgid "Menu Button"
+msgstr ""
+
+#: functions.php:149
+msgid "Important Links"
+msgstr ""
+
+#: functions.php:143
+msgid "Forum"
+msgstr ""
+
+#: functions.php:142
+msgid "Support Tickets"
+msgstr ""
+
+#: functions.php:139
+#: functions.php:140
+msgid "Theme Instructions"
+msgstr ""
+
+#: functions.php:136
+#: functions.php:137
+msgid "Review Us"
+msgstr ""
+
+#: functions.php:47
+msgid "Add Social Icons Only"
+msgstr ""
+
+#: functions.php:46
+#: inc/widgets/widgets-functions/register-widgets.php:22
+msgid "Side Menu"
+msgstr ""
+
+#: functions.php:45
+msgid "Main Menu"
+msgstr "मुख्य मेनू"
+
+#: footer.php:76
+msgid "Copyright All right reserved "
+msgstr ""
+
+#: footer.php:76
+msgid "WordPress"
+msgstr "वर्डप्रेस"
+
+#: footer.php:76
+msgid "Y"
+msgstr "वाय"
+
+#. #-#-#-#-#  photograph.pot (Photograph 1.1.5)  #-#-#-#-#
+#. Author of the plugin/theme
+#: footer.php:75
+msgid "Theme Freesia"
+msgstr ""
+
+#: footer.php:75
+msgid "Designed by:"
+msgstr ""
+
+#: content.php:107
+#: page-templates/gallery-template.php:28
+#: page.php:43
+#: single.php:84
+msgid "Pages:"
+msgstr "पृष्ठे:"
+
+#: content.php:66
+#: inc/widgets/widgets-functions/popular-posts.php:107
+#: single.php:40
+msgid "Comments Off"
+msgstr ""
+
+#: content.php:66
+#: inc/widgets/widgets-functions/popular-posts.php:107
+#: single.php:40
+msgid "<i class=\"fa fa-comment-o\"></i> % Comments"
+msgstr ""
+
+#: content.php:66
+#: inc/widgets/widgets-functions/popular-posts.php:107
+#: single.php:40
+msgid "<i class=\"fa fa-comment-o\"></i> 1 Comment"
+msgstr ""
+
+#: content.php:66
+#: inc/widgets/widgets-functions/popular-posts.php:107
+#: single.php:40
+msgid "<i class=\"fa fa-comment-o\"></i> No Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "टिप्पण्या बंद आहेत."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:25
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: post title
+#: comments.php:21
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: archive.php:62
+#: index.php:60
+#: page-templates/aboutus-template.php:33
+#: page-templates/contact-template.php:41
+#: page-templates/gallery-template.php:41
+#: page.php:54
+#: search.php:26
+msgid "No Posts Found."
+msgstr "कोणतीही पोस्ट सापडली नाहीत."
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themefreesia.com"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themefreesia.com/themes/Photograph"
+msgstr ""

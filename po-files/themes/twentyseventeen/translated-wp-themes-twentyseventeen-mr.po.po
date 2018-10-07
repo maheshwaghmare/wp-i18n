@@ -1,0 +1,357 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themes - Twenty Seventeen\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-07T18:37:44+00:00\n"
+"PO-Revision-Date: 2017-07-23 15:20:12+0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device."
+msgstr "ट्वेंटी सेव्हन्टीन आपल्या साईटला अनेक हेडरमधील व्हिडिओ आणि वैशिष्टयपूर्ण प्रतिमांसह (फिचर्ड इमेजेससह) प्रत्यक्षात आणते. प्रामुख्याने बिजनेस वेबसाईट वर केंद्रित असून, मुखपृष्ठाचे तसेच, विजेटस, नॅविगेशन आणि सोशल मेनू , लोगो यांचे आणि अजून बऱ्याच गोष्टींचे वैशिष्ट्यपूर्ण विभाग पुरवते. आपल्या आवडी प्रमाणे आपण ग्रीड मधून हवी ती रंग-संगती निवडु शकता व आपले मल्टिमीडिया कन्टेन्ट विविध पोस्ट फॉरमॅटच्या साहाय्याने प्रभावीपणे प्रदर्शित करू शकता. आमची २०१७ हि मूलभूत थीम अनेक क्षमतांनी परिपूर्ण असून अनेक भाषांसोबत व कोणत्याही उपकरणावर उत्तमरित्या काम करते."
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Seventeen"
+msgstr "ट्वेंटी सेव्हन्टीन"
+
+#: template-parts/footer/footer-widgets.php:18
+msgid "Footer"
+msgstr "फुटर"
+
+#: functions.php:326
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr "ब्लॉग पोस्ट व संग्रह पृष्टावरचा साईडबार वर विडजेट दिसण्या करता येथे विडजेट जोडा"
+
+#: functions.php:324
+#: sidebar.php:18
+msgid "Blog Sidebar"
+msgstr "ब्लॉग साईडबार"
+
+#: template-parts/header/site-branding.php:34
+#: template-parts/navigation/navigation-top.php:31
+msgid "Scroll down to content"
+msgstr "सामग्रीपर्यंत स्क्रोल करा"
+
+#: functions.php:167
+msgctxt "Theme starter content"
+msgid "Coffee"
+msgstr "कॉफी"
+
+#: functions.php:163
+msgctxt "Theme starter content"
+msgid "Sandwich"
+msgstr "सँडविच"
+
+#: functions.php:159
+msgctxt "Theme starter content"
+msgid "Espresso"
+msgstr "एस्प्रेसो"
+
+#: inc/custom-header.php:126
+msgid "Pause background video"
+msgstr "मागील व्हिडिओ थोडा वेळ थांबवा"
+
+#: inc/custom-header.php:125
+msgid "Play background video"
+msgstr "मागे व्हिडिओ प्ले करा"
+
+#: inc/template-tags.php:151
+msgid "Front Page Section %1$s Placeholder"
+msgstr "मुखपृष्ठ सेक्शन %1$s नियोजित जागा"
+
+#: inc/customizer.php:99
+msgid "When the two-column layout is assigned, the page title is in one column and content is in the other."
+msgstr "जेव्हा दोन कॉलम लेआऊट नियुक्त केल असेल तेव्हा एका कॉलम मध्ये पृष्ठ शीर्षक व दुसऱ्या कॉलम मध्ये  कन्टेन्ट असते."
+
+#: single.php:34
+msgid "Next Post"
+msgstr "पुढील पोस्ट"
+
+#: index.php:27
+msgid "Posts"
+msgstr "पोस्ट"
+
+#: inc/template-tags.php:89
+msgid "Tags"
+msgstr "टॅग्स"
+
+#: inc/template-tags.php:85
+msgid "Categories"
+msgstr "कॅटेगरीज"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:66
+msgid ", "
+msgstr ","
+
+#. translators: %s: post date
+#: inc/template-tags.php:52
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr "<span class=\"screen-reader-text\">या दिवशी पोस्ट झाले</span> %s"
+
+#. translators: %s: post author
+#: inc/template-tags.php:21
+msgid "by %s"
+msgstr "%s द्वारा"
+
+#: inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr "कृपया  ऐस व्ही जी आयकॉन फाईल नेम येथे नमूद करा "
+
+#: inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr "कृपया मूलभूत घटक ऍरे स्वरूपात परिभाषित करा"
+
+#: inc/customizer.php:131
+msgid "Select pages to feature in each area from the dropdowns. Add an image to a section by setting a featured image in the page editor. Empty sections will not be displayed."
+msgstr "ड्रॉप डाउन मधून प्रत्येक भागाकरिता विशेष पाने निवडा. पेज एडिटर मध्ये फिचर्ड इमेज सेट करून सेक्शन करिता इमेज सेट करू शकतात. रिक्त सेक्शन दाखविले जाणार नाही."
+
+#. translators: %d is the front page section number
+#: inc/customizer.php:130
+msgid "Front Page Section %d Content"
+msgstr "फ्रंट पेज सेकशन %d सामग्री    "
+
+#: inc/customizer.php:102
+#: inc/customizer.php:158
+msgid "Two Column"
+msgstr "दोन कॉलम"
+
+#: inc/customizer.php:101
+#: inc/customizer.php:157
+msgid "One Column"
+msgstr "एक कॉलम"
+
+#: inc/customizer.php:96
+msgid "Page Layout"
+msgstr "पेजची मांडणी"
+
+#: inc/customizer.php:81
+msgid "Theme Options"
+msgstr "थीम पर्याय"
+
+#: inc/customizer.php:59
+msgid "Custom"
+msgstr "स्व:अनुकूल"
+
+#: inc/customizer.php:57
+msgid "Light"
+msgstr "हलके"
+
+#: inc/customizer.php:55
+msgid "Color Scheme"
+msgstr "रंग-संगती "
+
+#: inc/custom-header.php:54
+msgid "Default Header Image"
+msgstr "मुलभूत शीर्षलेख प्रतिमा"
+
+#: functions.php:348
+msgid "Footer 2"
+msgstr "फुटर २"
+
+#: functions.php:338
+#: functions.php:350
+msgid "Add widgets here to appear in your footer."
+msgstr "फुटर मध्ये प्रदर्शित करण्याकरिता विजेट्स इथे टाका "
+
+#: functions.php:336
+msgid "Footer 1"
+msgstr "फूटर १ "
+
+#. Translators: If there are characters in your language that are not supported
+#. by Libre Franklin, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:277
+msgctxt "Libre Franklin font: on or off"
+msgid "on"
+msgstr "चालू"
+
+#: functions.php:64
+#: functions.php:191
+#: template-parts/navigation/navigation-top.php:12
+msgid "Top Menu"
+msgstr "वरचा मेनू"
+
+#: comments.php:62
+msgid "Reply"
+msgstr "उत्तर"
+
+#: template-parts/post/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "असे दिसते, तूम्ही पाहत असलेली गोष्ट साध्या आम्ही शोधू शकत नाही. कदाचित सर्चिंग मदत करू शकते"
+
+#: search.php:54
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "क्षमस्व, पण आपल्या शोध शब्दांशी काहीही जुळलेले नाही. काही वेगळ्या शब्दांबरोबर पुन्हा प्रयत्न करा"
+
+#: template-parts/post/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "तुमची पहिली पोस्ट प्रकाशित करण्यासाठी तयार आहात? <a href=\"%1$s\">येथे सुरुवात करा</a>."
+
+#: search.php:21
+#: template-parts/post/content-none.php:17
+msgid "Nothing Found"
+msgstr "काहीही सापडले नाही"
+
+#: single.php:33
+msgid "Previous Post"
+msgstr "मागील पोस्ट"
+
+#: comments.php:71
+#: single.php:33
+msgid "Previous"
+msgstr "मागील"
+
+#: comments.php:72
+#: single.php:34
+msgid "Next"
+msgstr "पुढील"
+
+#: searchform.php:20
+msgctxt "submit button"
+msgid "Search"
+msgstr "शोधा"
+
+#: searchform.php:19
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "शोधा &hellip;"
+
+#: searchform.php:17
+msgctxt "label"
+msgid "Search for:"
+msgstr "__साठी शोधा"
+
+#: search.php:19
+msgid "Search Results for: %s"
+msgstr "%s च्या शोधाचे निकाल"
+
+#. translators: %s: Name of current post
+#: functions.php:378
+#: template-parts/page/content-front-page-panels.php:45
+#: template-parts/page/content-front-page.php:42
+#: template-parts/post/content-audio.php:84
+#: template-parts/post/content-gallery.php:71
+#: template-parts/post/content-image.php:61
+#: template-parts/post/content-video.php:83
+#: template-parts/post/content.php:57
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "वाचन सुरू ठेवा<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/customizer.php:58
+msgid "Dark"
+msgstr "अंधार"
+
+#: inc/back-compat.php:39
+#: inc/back-compat.php:52
+#: inc/back-compat.php:68
+msgid "Twenty Seventeen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "वीस सतरा थिमसाठी किमान वर्डप्रेस आवृत्ती 4.7 आवश्यक आहे. आपण आवृत्ती %s चालवत आहेत. श्रेणीसुधारित करा आणि पुन्हा प्रयत्न करा."
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:117
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "संपादित करा <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/page/content-page.php:26
+#: template-parts/post/content-audio.php:91
+#: template-parts/post/content-gallery.php:78
+#: template-parts/post/content-image.php:68
+#: template-parts/post/content-video.php:90
+#: template-parts/post/content.php:64
+msgid "Pages:"
+msgstr "पृष्ठे"
+
+#: template-parts/navigation/navigation-top.php:17
+msgid "Menu"
+msgstr "मेनू"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "सामग्री वगळा"
+
+#: functions.php:467
+msgid "Collapse child menu"
+msgstr "चाईल्ड मेनू संकुचित करा"
+
+#: functions.php:466
+msgid "Expand child menu"
+msgstr "चाईल्ड मेनू विस्तृत करा "
+
+#: functions.php:65
+#: functions.php:202
+msgid "Social Links Menu"
+msgstr "सोशल लिंक्स मेनू"
+
+#: template-parts/footer/site-info.php:19
+msgid "Proudly powered by %s"
+msgstr "%s द्वारा अभिमानाने समर्थित "
+
+#. #-#-#-#-#  twentyseventeen.pot (Twenty Seventeen 1.7)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: template-parts/footer/site-info.php:18
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:26
+msgid "Footer Social Links Menu"
+msgstr "फुटर सोशल लिंक्स मेनू "
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr "टिप्पण्या बंद आहेत."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s उत्तर द्या &ldquo;%2$s&rdquo"
+msgstr[1] "%1$s उत्तरे द्या &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; साठी एक प्रतिउत्तर"
+
+#: archive.php:50
+#: index.php:54
+#: search.php:47
+msgid "Page"
+msgstr "पान"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "अरेरे! पान सापडले नाही."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "या ठिकाणी काहीही सापडले नाही आहे. शोध वापरून पाहायचे का?"
+
+#: archive.php:48
+#: index.php:52
+#: search.php:45
+msgid "Previous page"
+msgstr "मागील पान"
+
+#: archive.php:49
+#: index.php:53
+#: search.php:46
+msgid "Next page"
+msgstr "पुढील पान"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "वर्डप्रेस टीम"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyseventeen/"
+msgstr "https://wordpress.org/themes/twentyseventeen/"

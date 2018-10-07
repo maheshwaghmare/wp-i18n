@@ -1,0 +1,796 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themes - Reblog\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-07T18:36:24+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Reblog is a clean, minimalistic and responsive masonry blog WordPress theme. Reblog simply gives your grid boxes layout and does not require any complicated setup. It is perfectly suited for a simple magazine, blog or portfolio website."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Reblog"
+msgstr ""
+
+#: template-parts/content-page.php:29
+#: template-parts/content-single.php:29
+msgid "Pages:"
+msgstr "पृष्ठे:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:18
+#: template-parts/content-single.php:18
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: searchform.php:21
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Search ..."
+msgstr ""
+
+#: searchform.php:14
+#: searchform.php:18
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/welcome.php:94
+msgid "Install One Click Demo Import"
+msgstr ""
+
+#: inc/welcome.php:88
+msgid "Support Forum"
+msgstr ""
+
+#: inc/welcome.php:84
+msgid "Need any help regarding the theme? Got stuck somewhere? Reblog theme support is just a click away. Search our incredible and 24/7 support forum. Query your questions and your solution will be resolved by our strong and dedicated support teams."
+msgstr ""
+
+#: inc/welcome.php:83
+msgid "Support"
+msgstr ""
+
+#: inc/welcome.php:80
+msgid "View Documentation"
+msgstr ""
+
+#: inc/welcome.php:76
+msgid "Still getting confused after import? Or wanna start without the demo content. Do not worry!!! Reblog Themes provide a detailed documentation about the theme, its setup and other extra tips and tricks."
+msgstr ""
+
+#: inc/welcome.php:75
+msgid "Documentation"
+msgstr "डोक्युमेंटशन"
+
+#: inc/welcome.php:72
+msgid "Import Demo Content"
+msgstr ""
+
+#: inc/welcome.php:68
+msgid "Liked the demo and want to setup just like the demo? Just import the content and start editing  the content right away. One Click Demo Importer should be installed before the importer works. You are just a click away."
+msgstr ""
+
+#: inc/welcome.php:60
+msgid "Woohoo!!! Reblog has been installed. Now want to have a peek at how Reblog theme would look as set up by the author. Mind that the setup is one of the many usage of the theme, you can create a different setup of the same theme. Just click the button below."
+msgstr ""
+
+#: inc/welcome.php:59
+#: inc/welcome.php:64
+msgid "View Demo"
+msgstr ""
+
+#: inc/welcome.php:51
+msgid "-"
+msgstr ""
+
+#: inc/welcome.php:44
+msgid "You do not have sufficient permissions to access this page."
+msgstr "या पृष्ठावर प्रवेश करण्यासाठी आपल्याकडे पुरेश्या परवानग्या नाहीत."
+
+#: inc/welcome.php:13
+msgid "About Reblog"
+msgstr ""
+
+#: inc/welcome.php:13
+msgid "Reblog Options"
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3509
+#: inc/tgmpa/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "तपशील लपवा"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3509
+#: inc/tgmpa/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "तपशील दाखवा"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लगइन अपडेट करीत आहे"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "सक्रिय करा"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "अपडेट"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "स्थापित करा"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "स्थिती"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "टाईप"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "स्रोत"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "प्लगईन"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "अपडेट उपलब्ध <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: install status, 2: update status
+#: inc/tgmpa/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "सक्रिय"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "शिफारस केलेले"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/tgmpa/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1121
+#: inc/tgmpa/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:934
+#: inc/tgmpa/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/tgmpa/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+#: inc/tgmpa/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:387
+#: inc/tgmpa/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:386
+#: inc/tgmpa/class-tgm-plugin-activation.php:827
+#: inc/tgmpa/class-tgm-plugin-activation.php:2533
+#: inc/tgmpa/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "प्लगइन अपडेट करीत आहे: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "प्लगइन स्थापित करत आहेत: %s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgmpa/call.php:70
+msgid "JetPack"
+msgstr ""
+
+#: inc/tgmpa/call.php:64
+#: inc/welcome.php:67
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/template-tags.php:155
+msgid "By : "
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:131
+msgid " Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:113
+msgid " Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:88
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:75
+msgid " Tags: %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:72
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#: inc/template-functions.php:160
+msgid "Newer"
+msgstr "नवीन"
+
+#: inc/template-functions.php:159
+msgid "Older"
+msgstr "जुन्या"
+
+#: inc/template-functions.php:155
+msgid "Next"
+msgstr "पुढे"
+
+#: inc/template-functions.php:154
+msgid "Previous"
+msgstr "मागील"
+
+#: inc/ocdi.php:19
+msgid "You can import data manually too from the link above. You can find the demo files at:"
+msgstr ""
+
+#: inc/ocdi.php:15
+msgid "Import all contents."
+msgstr ""
+
+#: inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/customizer.php:473
+msgid "Enable social menu."
+msgstr ""
+
+#: inc/customizer.php:454
+msgid "Footer"
+msgstr "फुटर"
+
+#: inc/customizer.php:438
+msgid "Reset all settings to default."
+msgstr ""
+
+#: inc/customizer.php:437
+msgid "Reset all"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Settings for all single pages."
+msgstr ""
+
+#: inc/customizer.php:388
+msgid "Single Pages"
+msgstr ""
+
+#: inc/customizer.php:376
+#: inc/customizer.php:425
+msgid "Enable pagination."
+msgstr ""
+
+#: inc/customizer.php:358
+#: inc/customizer.php:407
+msgid "Enable featured image."
+msgstr ""
+
+#: inc/customizer.php:340
+msgid "Settings for all single posts."
+msgstr ""
+
+#: inc/customizer.php:339
+msgid "Single Posts"
+msgstr ""
+
+#: inc/customizer.php:324
+msgid "Pagination type:"
+msgstr ""
+
+#: inc/customizer.php:318
+msgid "Older / Newer"
+msgstr ""
+
+#: inc/customizer.php:317
+msgid "Numeric"
+msgstr "अंकीय"
+
+#: inc/customizer.php:316
+msgid "--Disable--"
+msgstr ""
+
+#: inc/customizer.php:299
+msgid "Excerpt more length:"
+msgstr ""
+
+#: inc/customizer.php:281
+msgid "Settings for archive pages including blog page too."
+msgstr ""
+
+#: inc/customizer.php:280
+msgid "Archive/Blog"
+msgstr ""
+
+#: inc/customizer.php:264
+msgid "This option works only on single posts. This setting can be overridden for single post from the metabox too."
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Global post sidebar"
+msgstr ""
+
+#: inc/customizer.php:245
+#: inc/customizer.php:268
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:244
+#: inc/customizer.php:267
+msgid "Right"
+msgstr "उजवा"
+
+#: inc/customizer.php:241
+msgid "This option works only on single pages including \"Posts page\". This setting can be overridden for single page from the metabox too."
+msgstr ""
+
+#: inc/customizer.php:240
+msgid "Global page sidebar"
+msgstr ""
+
+#: inc/customizer.php:221
+msgid "Global Layout"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Enable Scroll up."
+msgstr ""
+
+#: inc/customizer.php:191
+msgid "General"
+msgstr "सामान्य"
+
+#: inc/customizer.php:175
+msgid "Site tagline Color:"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Site title Color:"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/customizer.php:117
+msgid "Show search."
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Display Site Title and Tagline"
+msgstr "साइट शीर्षक आणि टॅगलाइन प्रदर्शित करा "
+
+#: inc/customizer.php:69
+#: inc/customizer.php:99
+msgid "Header"
+msgstr "हेडर"
+
+#: inc/customizer.php:15
+msgid "Latest Blog"
+msgstr ""
+
+#: inc/customizer.php:14
+msgid "Stay Updated. Happening Now."
+msgstr ""
+
+#: header.php:120
+#: header.php:155
+msgid "search"
+msgstr "शोधा"
+
+#: header.php:93
+msgid "Add a menu"
+msgstr "एक मेन्यू जोडा"
+
+#: header.php:32
+msgid "Menu"
+msgstr "मेनू"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:155
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. by Raleway, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:149
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:124
+msgid "Footer Widget Area "
+msgstr ""
+
+#: functions.php:115
+#: functions.php:126
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:113
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:50
+msgid "Social"
+msgstr "सोशल "
+
+#: functions.php:49
+msgid "Primary"
+msgstr ""
+
+#: footer.php:56
+msgid "Theme: %1$s by %2$s. "
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "टिप्पण्या बंद आहेत."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: post title
+#: comments.php:33
+msgid "1 Comment"
+msgstr "१ प्रतिक्रिया"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:15
+msgid "404"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.moralthemes.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Moral Themes"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themepalace.com/downloads/reblog/"
+msgstr ""

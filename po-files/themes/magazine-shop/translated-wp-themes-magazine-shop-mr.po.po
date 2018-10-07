@@ -1,0 +1,1356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Themes - Magazine Shop\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-07T18:33:21+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the plugin/theme
+msgid "Magazine Shop is a feature-rich WordPress theme, suitable for personal, blog and magazine website about fashion, travel journey, tour, lifestyle, food blogs and others. Magazine Shop is responsiveness and compatible with all major browsers. Build with Customizer API it's design will show you uniqueness and delivers you stylish design."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Magazine Shop"
+msgstr ""
+
+#: inc/common-functions-hooks.php:193
+msgid "Social Share With Floating Bar"
+msgstr ""
+
+#: functions.php:68
+msgid "Top Menu"
+msgstr ""
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:229
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce.php:225
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/widgets/widgets.php:311
+msgid "EM: Double Category Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:305
+msgid "View Detail Text:"
+msgstr ""
+
+#: inc/widgets/widgets.php:283
+msgid "Select Category 2:"
+msgstr ""
+
+#: inc/widgets/widgets.php:277
+msgid "Title 2"
+msgstr ""
+
+#: inc/widgets/widgets.php:276
+msgid "Title For Category 2:"
+msgstr ""
+
+#: inc/widgets/widgets.php:271
+msgid "Select Category 1:"
+msgstr ""
+
+#: inc/widgets/widgets.php:266
+msgid "Title 1"
+msgstr ""
+
+#: inc/widgets/widgets.php:265
+msgid "Title For Category 1:"
+msgstr ""
+
+#: inc/widgets/widgets.php:260
+msgid "Displays post form selected category on List Format."
+msgstr ""
+
+#: inc/widgets/widgets.php:215
+msgid "EM: Product Showcase Widget"
+msgstr ""
+
+#: inc/customizer/option-panel.php:56
+msgid "URL Link"
+msgstr ""
+
+#: inc/customizer/option-panel.php:40
+msgid "Recommended Size %1$s px X %2$s px"
+msgstr ""
+
+#: inc/customizer/option-panel.php:39
+msgid "Top Section Advertisement"
+msgstr ""
+
+#: inc/customizer/option-panel.php:23
+msgid "Banner Advertisement Section"
+msgstr ""
+
+#: inc/customizer/ecommerce-cat.php:50
+msgid "Select category to be shown on eCommerce section "
+msgstr ""
+
+#: inc/customizer/ecommerce-cat.php:49
+msgid "Category for eCommerce"
+msgstr ""
+
+#: inc/customizer/ecommerce-cat.php:32
+msgid "Enable eCommerce Category Section"
+msgstr ""
+
+#: inc/customizer/ecommerce-cat.php:15
+msgid "eCommerce Category Section"
+msgstr ""
+
+#: inc/common-functions-hooks.php:188
+msgid "WooCommerce"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:54
+msgid "%s <i class=\"ion-ios-arrow-right read-more-right\"></i>"
+msgstr ""
+
+#: template-parts/content-page.php:39
+#: template-parts/content-single.php:38
+#: template-parts/content.php:58
+#: template-parts/content.php:100
+msgid "Pages:"
+msgstr "पृष्ठे:"
+
+#: template-parts/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/widgets/widgets.php:1066
+msgid "EM: Author Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:1060
+msgid "Instagram URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1055
+msgid "Googleplus URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1050
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1045
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1041
+msgid "Author Image:"
+msgstr ""
+
+#: inc/widgets/widgets.php:1031
+msgid "Name:"
+msgstr "नाव:"
+
+#: inc/widgets/widgets.php:1021
+msgid "Displays authors details in post."
+msgstr ""
+
+#: inc/widgets/widgets.php:934
+msgid "EM: Slider Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:916
+msgid "Displays posts from selected category in slider"
+msgstr ""
+
+#: inc/widgets/widgets.php:892
+msgid "Social menu is not set. You need to create menu and assign it to Social Menu on Menu Settings."
+msgstr ""
+
+#: inc/widgets/widgets.php:855
+msgid "EM: Social Menu Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:850
+#: inc/widgets/widgets.php:1036
+msgid "Description:"
+msgstr ""
+
+#: inc/widgets/widgets.php:845
+msgid "Note: Displays social menu if you have set it(social menu)"
+msgstr ""
+
+#: inc/widgets/widgets.php:839
+msgid "Displays social menu if you have set it(social menu)"
+msgstr ""
+
+#: inc/widgets/widgets.php:811
+msgctxt "Tabbed Widget"
+msgid "on"
+msgstr ""
+
+#: inc/widgets/widgets.php:634
+msgid "EM: Tab Widgets"
+msgstr ""
+
+#: inc/widgets/widgets.php:626
+msgid "No. of Comments:"
+msgstr ""
+
+#: inc/widgets/widgets.php:622
+#: inc/widgets/widgets.php:669
+#: inc/widgets/widgets.php:671
+msgid "Comments"
+msgstr "टिप्पण्या"
+
+#: inc/widgets/widgets.php:610
+#: inc/widgets/widgets.php:662
+#: inc/widgets/widgets.php:664
+msgid "Recent"
+msgstr ""
+
+#: inc/widgets/widgets.php:589
+#: inc/widgets/widgets.php:614
+msgid "No. of Posts:"
+msgstr ""
+
+#: inc/widgets/widgets.php:585
+#: inc/widgets/widgets.php:655
+#: inc/widgets/widgets.php:657
+msgid "Popular"
+msgstr "लोकप्रिय"
+
+#: inc/widgets/widgets.php:581
+msgid "Tabbed widget."
+msgstr ""
+
+#: inc/widgets/widgets.php:87
+msgid "EM: Recent Post Widget"
+msgstr ""
+
+#: inc/widgets/widgets.php:79
+#: inc/widgets/widgets.php:288
+#: inc/widgets/widgets.php:926
+msgid "Number of Posts:"
+msgstr ""
+
+#: inc/widgets/widgets.php:72
+#: inc/widgets/widgets.php:297
+#: inc/widgets/widgets.php:603
+msgid "Number of words"
+msgstr ""
+
+#: inc/widgets/widgets.php:71
+#: inc/widgets/widgets.php:296
+#: inc/widgets/widgets.php:602
+msgid "Excerpt Length:"
+msgstr ""
+
+#: inc/widgets/widgets.php:66
+#: inc/widgets/widgets.php:597
+msgid "Enable Description:"
+msgstr ""
+
+#: inc/widgets/widgets.php:63
+#: inc/widgets/widgets.php:211
+#: inc/widgets/widgets.php:273
+#: inc/widgets/widgets.php:285
+#: inc/widgets/widgets.php:923
+msgid "All Categories"
+msgstr "समग्र विभाग"
+
+#: inc/widgets/widgets.php:61
+#: inc/widgets/widgets.php:208
+#: inc/widgets/widgets.php:921
+msgid "Select Category:"
+msgstr ""
+
+#: inc/widgets/widgets.php:56
+#: inc/widgets/widgets.php:203
+#: inc/widgets/widgets.php:844
+#: inc/widgets/widgets.php:1026
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: inc/widgets/widgets.php:51
+#: inc/widgets/widgets.php:198
+msgid "Displays post form selected category specific for popular post in sidebars."
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:289
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Choose Image"
+msgstr "प्रतिमा निवडा"
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Select Image"
+msgstr "प्रतिमा निवडा "
+
+#: inc/widgets/widget-base-class.php:278
+msgid "Upload"
+msgstr "अपलोड"
+
+#: inc/widget-init.php:64
+msgid "Footer Column Three"
+msgstr ""
+
+#: inc/widget-init.php:53
+msgid "Footer Column Two"
+msgstr ""
+
+#: inc/widget-init.php:45
+#: inc/widget-init.php:55
+#: inc/widget-init.php:66
+msgid "Displays items on footer section."
+msgstr ""
+
+#: inc/widget-init.php:43
+msgid "Footer Column One"
+msgstr ""
+
+#: inc/widget-init.php:31
+msgid "Home Page Sidebar Two"
+msgstr ""
+
+#: inc/widget-init.php:21
+msgid "Home Page Sidebar One"
+msgstr ""
+
+#: inc/widget-init.php:13
+#: inc/widget-init.php:23
+#: inc/widget-init.php:33
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widget-init.php:11
+msgid "Main Sidebar"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:90
+msgid "Category: %1$s"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:69
+msgid "Edit %s"
+msgstr "संपादित करा %s"
+
+#: inc/template-tags.php:62
+msgid "% Comments"
+msgstr "% प्रतिक्रिया"
+
+#: inc/template-tags.php:62
+msgid "1 Comment"
+msgstr "१ प्रतिक्रिया"
+
+#: inc/template-tags.php:62
+msgid "Leave a comment"
+msgstr "टिपणी करा"
+
+#: inc/template-tags.php:56
+msgid "Tagged : %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:54
+msgid ","
+msgstr ", "
+
+#: inc/template-tags.php:50
+msgid "Posted in: %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:48
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:32
+msgid "Published By : %s"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Posted On : %s"
+msgstr ""
+
+#: inc/hooks/slider.php:65
+#: inc/widgets/widgets.php:148
+#: inc/widgets/widgets.php:383
+#: inc/widgets/widgets.php:420
+#: inc/widgets/widgets.php:488
+#: inc/widgets/widgets.php:525
+#: inc/widgets/widgets.php:755
+#: inc/widgets/widgets.php:986
+msgid "Posted On: "
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:90
+msgid "No Image"
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:77
+msgid "Single Page/Post Image Layout"
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:59
+msgid "Single Page/Post Layout"
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:54
+msgid "Layout Settings"
+msgstr ""
+
+#: inc/hooks/layout-meta/layout-meta.php:22
+msgid "Single Page/Post Settings"
+msgstr ""
+
+#: inc/hooks/header-inner-page.php:53
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/hooks/header-inner-page.php:48
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/customizer/theme-option.php:329
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/customizer/theme-option.php:312
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:303
+msgid "Advanced"
+msgstr "प्रगत"
+
+#: inc/customizer/theme-option.php:302
+msgid "Simple"
+msgstr ""
+
+#: inc/customizer/theme-option.php:301
+msgid "Disabled"
+msgstr ""
+
+#: inc/customizer/theme-option.php:297
+msgid "Advanced: Requires %1$sBreadcrumb NavXT%2$s plugin"
+msgstr ""
+
+#: inc/customizer/theme-option.php:296
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: inc/customizer/theme-option.php:279
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:269
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/theme-option.php:254
+msgid "3"
+msgstr ""
+
+#: inc/customizer/theme-option.php:253
+msgid "2"
+msgstr ""
+
+#: inc/customizer/theme-option.php:252
+msgid "1"
+msgstr "१"
+
+#: inc/customizer/theme-option.php:251
+msgid "Disable footer sidebar area"
+msgstr ""
+
+#: inc/customizer/theme-option.php:246
+msgid "Number Of Footer Widget"
+msgstr ""
+
+#: inc/customizer/theme-option.php:228
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:217
+msgid "Numeric"
+msgstr "अंकीय"
+
+#: inc/customizer/theme-option.php:216
+msgid "Default (Older / Newer Post)"
+msgstr ""
+
+#: inc/customizer/theme-option.php:212
+msgid "Pagination Type"
+msgstr ""
+
+#: inc/customizer/theme-option.php:195
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:178
+msgid "Single Post/Page Image Alocation"
+msgstr ""
+
+#: inc/customizer/theme-option.php:161
+#: inc/customizer/theme-option.php:184
+msgid "No image"
+msgstr ""
+
+#: inc/customizer/theme-option.php:160
+#: inc/customizer/theme-option.php:183
+#: inc/hooks/layout-meta/layout-meta.php:84
+msgid "Left"
+msgstr "डावं"
+
+#: inc/customizer/theme-option.php:159
+#: inc/customizer/theme-option.php:182
+#: inc/hooks/layout-meta/layout-meta.php:87
+msgid "Right"
+msgstr "उजवा"
+
+#: inc/customizer/theme-option.php:158
+#: inc/customizer/theme-option.php:181
+#: inc/hooks/layout-meta/layout-meta.php:81
+msgid "Full"
+msgstr ""
+
+#: inc/customizer/theme-option.php:155
+msgid "Archive Image Alocation"
+msgstr ""
+
+#: inc/customizer/theme-option.php:138
+msgid "Full Post"
+msgstr ""
+
+#: inc/customizer/theme-option.php:137
+msgid "Excerpt Only"
+msgstr ""
+
+#: inc/customizer/theme-option.php:134
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer/theme-option.php:118
+msgid "Read More Button Text"
+msgstr ""
+
+#: inc/customizer/theme-option.php:99
+msgid "Set Global Archive Length"
+msgstr ""
+
+#: inc/customizer/theme-option.php:81
+#: inc/hooks/layout-meta/layout-meta.php:69
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-option.php:80
+#: inc/hooks/layout-meta/layout-meta.php:63
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: inc/customizer/theme-option.php:79
+#: inc/hooks/layout-meta/layout-meta.php:66
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-option.php:76
+msgid "Global Layout"
+msgstr ""
+
+#: inc/customizer/theme-option.php:58
+msgid "Enable Banner Overlay"
+msgstr ""
+
+#: inc/customizer/theme-option.php:40
+msgid "Enable Static Page Content"
+msgstr ""
+
+#: inc/customizer/theme-option.php:23
+msgid "Layout Management"
+msgstr ""
+
+#: inc/customizer/slider.php:68
+msgid "Category for slider"
+msgstr ""
+
+#: inc/customizer/slider.php:51
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer/slider.php:50
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer/slider.php:47
+msgid "Slider Layout"
+msgstr ""
+
+#: inc/customizer/slider.php:31
+msgid "Enable Slider"
+msgstr ""
+
+#: inc/customizer/slider.php:13
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer/option-panel.php:14
+msgid "Home/Front Page Settings"
+msgstr ""
+
+#: inc/customizer/featured-post.php:68
+#: inc/customizer/slider.php:69
+msgid "Select category to be shown on tab "
+msgstr ""
+
+#: inc/customizer/featured-post.php:67
+msgid "Category for Featured News"
+msgstr ""
+
+#: inc/customizer/featured-post.php:49
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/featured-post.php:31
+msgid "Enable Featured News"
+msgstr ""
+
+#: inc/customizer/featured-post.php:13
+msgid "Featured News Section"
+msgstr ""
+
+#: inc/customizer/customizer.php:47
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:46
+msgid "Magazine Shop Pro"
+msgstr ""
+
+#: inc/customizer/core/default.php:41
+msgid "Copyright All right reserved"
+msgstr ""
+
+#: inc/customizer/core/default.php:39
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/customizer/core/default.php:29
+msgid "Featured Now"
+msgstr ""
+
+#: inc/about/class.about.php:341
+#: inc/about/class.about.php:382
+msgid "Manage Plugins"
+msgstr ""
+
+#: inc/about/class.about.php:232
+msgid "%s() method does not exist."
+msgstr ""
+
+#: inc/about/class.about.php:126
+msgid "Get started with %1$s"
+msgstr ""
+
+#: inc/about/class.about.php:126
+msgid "Welcome! Thank you for choosing %1$s. To fully take advantage of the best our theme can offer please make sure you visit theme info page."
+msgstr ""
+
+#: inc/about/class.about.php:121
+#: inc/about/class.about.php:122
+msgid "About %s"
+msgstr ""
+
+#: inc/about/about.php:145
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/about/about.php:144
+msgid "You can upgrade to pro version of the theme for more exciting features."
+msgstr ""
+
+#: inc/about/about.php:139
+msgid "To import demo content for this theme, %1$s plugin is needed. Please make sure plugin is installed and activated. After plugin is activated, you will see Import Demo Data menu under Appearance."
+msgstr ""
+
+#: inc/about/about.php:134
+msgid "Theme supports some helpful WordPress plugins to enhance your site. But, please enable only those plugins which you need in your site. For example, enable WooCommerce only if you are using e-commerce."
+msgstr ""
+
+#: inc/about/about.php:125
+msgid "Learn More"
+msgstr ""
+
+#: inc/about/about.php:124
+msgid "For advanced theme customization, it is recommended to use child theme rather than modifying the theme file itself."
+msgstr ""
+
+#: inc/about/about.php:122
+msgid "Child Theme"
+msgstr ""
+
+#: inc/about/about.php:106
+msgid "Got theme support question or found bug or got some feedbacks? Best place to ask your query is the dedicated Support forum for the theme."
+msgstr ""
+
+#: inc/about/about.php:104
+#: inc/about/about.php:107
+msgid "Contact Support"
+msgstr ""
+
+#: inc/about/about.php:93
+msgid "You can check out the theme demos for reference to find out what you can achieve using the theme and how it can be customized."
+msgstr ""
+
+#: inc/about/about.php:91
+msgid "Theme Preview"
+msgstr ""
+
+#: inc/about/about.php:85
+#: inc/about/about.php:139
+#: inc/common-functions-hooks.php:183
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/about/about.php:85
+msgid "%1$s plugin should be installed and activated. After plugin is activated, visit Import Demo Data menu under Appearance."
+msgstr ""
+
+#: inc/about/about.php:78
+msgid "View Widgets"
+msgstr ""
+
+#: inc/about/about.php:77
+msgid "Magazine Shop is widget based Theme. Magazine Shop has 7 predesigned custome additional layout."
+msgstr ""
+
+#: inc/about/about.php:75
+msgid "Widget Ready"
+msgstr ""
+
+#: inc/about/about.php:70
+msgid "Customize"
+msgstr "सानुकूल करा"
+
+#: inc/about/about.php:69
+msgid "Theme uses Customizer API for theme options. Using the Customizer you can easily customize different aspects of the theme."
+msgstr ""
+
+#: inc/about/about.php:67
+#: inc/customizer/theme-option.php:14
+msgid "Theme Options"
+msgstr "थीम पर्याय"
+
+#: inc/about/about.php:61
+msgid "To achieve custom home page other than blog listing, you need to create and set static front page."
+msgstr ""
+
+#: inc/about/about.php:59
+#: inc/about/about.php:62
+msgid "Static Front Page"
+msgstr "स्थिर मुखपृष्ठ"
+
+#: inc/about/about.php:52
+#: inc/about/about.php:115
+msgid "Please check our full documentation for detailed information on how to setup and customize the theme."
+msgstr ""
+
+#: inc/about/about.php:50
+#: inc/about/about.php:113
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/about/about.php:41
+#: inc/about/about.php:53
+#: inc/about/about.php:116
+msgid "View Documentation"
+msgstr ""
+
+#: inc/about/about.php:37
+#: inc/about/about.php:94
+msgid "View Demo"
+msgstr ""
+
+#: inc/about/about.php:33
+msgid "Theme Details"
+msgstr "थीम तपशील"
+
+#: inc/about/about.php:27
+#: inc/about/about.php:83
+#: inc/about/about.php:86
+msgid "Demo Content"
+msgstr ""
+
+#: inc/about/about.php:26
+msgid "Useful Plugins"
+msgstr ""
+
+#: inc/about/about.php:25
+msgid "Support"
+msgstr ""
+
+#: inc/about/about.php:24
+msgid "Getting Started"
+msgstr ""
+
+#: inc/about/about.php:20
+msgid " First off, We’d like to extend a warm welcome and thank you for choosing %1$s. %1$s is now installed and ready to use. We want to make sure you have the best experience using the theme and that is why we gathered here all the necessary information for you. Again, Thanks for using our theme!"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Open Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:158
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Playfair Display, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:154
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:111
+msgid "Theme Demo Content"
+msgstr ""
+
+#: functions.php:70
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:69
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:67
+#: header.php:128
+msgid "Primary Menu"
+msgstr ""
+
+#: footer.php:116
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: comments.php:85
+msgid "Comments are closed."
+msgstr "टिप्पण्या बंद आहेत."
+
+#: comments.php:51
+#: comments.php:72
+msgid "Newer Comments"
+msgstr "नव्या प्रतिक्रिया"
+
+#: comments.php:50
+#: comments.php:71
+msgid "Older Comments"
+msgstr "जुन्या प्रतिक्रिया"
+
+#: comments.php:47
+#: comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:760
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1190
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:759
+#: assets/libraries/breadcrumbs/breadcrumbs.php:815
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:758
+#: assets/libraries/breadcrumbs/breadcrumbs.php:787
+#: assets/libraries/breadcrumbs/breadcrumbs.php:814
+#: assets/libraries/breadcrumbs/breadcrumbs.php:841
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1182
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:256
+msgid "Week %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:254
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:252
+msgid "Page %s"
+msgstr "पृष्ठ %s"
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:250
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221; च्या शोधाचे निकाल"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:248
+msgid "Archives"
+msgstr "संग्रहण"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:246
+msgid "Home"
+msgstr "घर"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:244
+msgid "Browse:"
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3512
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3510
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3507
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3504
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3502
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3501
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3509
+msgid "Hide Details"
+msgstr "तपशील लपवा"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3501
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3509
+msgid "Show Details"
+msgstr "तपशील दाखवा"
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3501
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3499
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3495
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3493
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3490
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लगइन अपडेट करीत आहे"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3150
+msgid "Plugin activation failed."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2927
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2901
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2795
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2793
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2752
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2750
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2719
+msgid "Activate"
+msgstr "सक्रिय करा"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2716
+msgid "Update"
+msgstr "अपडेट"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2710
+msgid "Install"
+msgstr "स्थापित करा"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2677
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2607
+msgid "Activate %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2601
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2596
+msgid "Install %2$s"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2547
+msgid "Status"
+msgstr "स्थिती"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2546
+msgid "Version"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2542
+msgid "Type"
+msgstr "टाईप"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2541
+msgid "Source"
+msgstr "स्रोत"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2540
+msgid "Plugin"
+msgstr "प्लगईन"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2526
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2502
+msgid "Available version:"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2490
+msgid "Minimum required version:"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2482
+msgid "Installed version:"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2474
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2392
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2388
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "अपडेट उपलब्ध <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2384
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2380
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: install status, 2: update status
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2334
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2325
+msgid "Update recommended"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2322
+msgid "Requires Update"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2319
+msgid "Required Update not Available"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2313
+msgid "Active"
+msgstr "सक्रिय"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2311
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2307
+msgid "Not Installed"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2290
+msgid "Pre-Packaged"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2287
+msgid "External Source"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2284
+msgid "WordPress Repository"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2268
+msgid "Recommended"
+msgstr "शिफारस केलेले"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2265
+msgid "Required"
+msgstr ""
+
+#. translators: %s: version number
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:1974
+msgid "TGMPA v%s"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:1113
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2941
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:929
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:926
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:929
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:926
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:515
+msgid "Update Required"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:514
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:394
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:393
+#: inc/about/class.about.php:126
+msgid "Dismiss this notice"
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:392
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:390
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:388
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:386
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2945
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:385
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3151
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:384
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:819
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2526
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3572
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:383
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:378
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:373
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:368
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:331
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:330
+msgid "Updating Plugin: %s"
+msgstr "प्लगइन अपडेट करीत आहे: %s"
+
+#. translators: %s: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:328
+msgid "Installing Plugin: %s"
+msgstr "प्लगइन स्थापित करत आहेत: %s"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr ""
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.themeinwp.com/theme/magazine-shop/"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.themeinwp.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeInWP"
+msgstr ""
