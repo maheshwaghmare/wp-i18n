@@ -794,7 +794,8 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			$files = $this->getDirContents( $dir );
 			// WP_CLI::line( print_r( $files ));
 
-			$files_count = count( $files );
+			$all_translations_count = 0;
+			$files_count            = count( $files );
 			foreach ($files as $key => $file) {
 
 				$file_name    = basename($file);
@@ -827,8 +828,10 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 								if ($translation) {
 									$translation->setTranslation( $stored_string );
-									WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $stored_string );
+									WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $post_title . ' | WITH ' . $stored_string );
 									$newly_translated++;
+									$data = file_get_contents( $dir . '/log.txt' );
+									file_put_contents( $dir . '/log.txt', $data . "\n" . $theme_slug . ' | ' . $post_title . ' | ' . $stored_string );
 								}
 							} else {
 								WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' EMPTY.' );
@@ -844,16 +847,21 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				WP_CLI::line( $files_count . ' | ' . 'COMPLETE - TRANSLATED ' . $newly_translated . ' STRINGS!' );
 
 				//Now save a po file with the result
-				$translations->toPoFile( $dir . $theme_slug . '/translated-'.$file_name.'.po');
+				// $translations->toPoFile( $dir . $theme_slug . '/translated-'.$file_name.'.po');
 				WP_CLI::line( $files_count . ' | ' . $dir . $theme_slug . '/translated-'.$file_name.'.po' );
 
 				$log = 'COMPLETE - TRANSLATED ' . $newly_translated . ' STRINGS!';
-				file_put_contents( $dir . $theme_slug . '/log.txt', $log );
+				// file_put_contents( $dir . $theme_slug . '/log.txt', $log );
+
+				// Add current translations count to total translations count.
+				// $all_translations_count = $all_translations_count + $newly_translated;
 
 				$files_count--;
 				// WP_CLI::error( $log );
 
 			}
+
+			WP_CLI::line( 'TOTAL TRANSLATED ' . $all_translations_count );
 		}
 
 
@@ -1191,9 +1199,10 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 				$count = count( $query->posts );
 
-				// $fp = fopen('results.txt', 'w');
+				$fp = fopen('mr-repeat-strings.txt', 'w');
 
 				foreach ($query->posts as $key => $post_id) {
+					$post_title = get_the_title( $post_id );
 					$languages = get_repeat_string_mapping( $post_id );
 					// WP_CLI::error( print_r( $languages) );
 
@@ -1207,24 +1216,37 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 					$stored = get_post_meta( $post_id, 'language_mr', $top );
 					if( ! empty( $stored ) && ! empty( $top ) ) {
 						if( $stored !== $top ) {
-							WP_CLI::error( $count . ' | MISMATCH ' . $post_id . ' with ' . $top );
+							// WP_CLI::error( $count . ' | MISMATCH ' . $post_id . ' with ' . $top );
 						}
 					}
 					// update_post_meta( $post_id, 'language_mr', $top );
-					WP_CLI::line( $count . ' | NOT MISMATCH ' . $post_id . ' with ' . $top );
+					// WP_CLI::line( $count . ' | NOT MISMATCH ' . $post_id . ' with ' . $top );
 						
-					// if( isset( $languages['mr']['repeat'] ) && ! empty( $languages['mr']['repeat'] ) ) {
-					// 	fprintf($fp, " \n\n -----------------------------------	\n\n"	 );
-					// 	fprintf($fp, $count.' | '.$post_id." | \t".$top. "	\n"	 );
-					// 	foreach ($languages['mr']['repeat'] as $project_string => $times) {
-					// 		fprintf($fp, "\t\t\t\t" .$project_string." | " .$times."	\n"	 );
-					// 	}
-					// }
+					if( isset( $languages['mr']['repeat'] ) && ! empty( $languages['mr']['repeat'] ) ) {
+						// fprintf($fp, " \n\n -----------------------------------	\n\n"	 );
+						// fprintf($fp, $count . ' | ' . $post_title.' | '.$top. "\n"	 );
+						if( isset( $languages['mr']['repeat'] ) && ! empty( $languages['mr']['repeat'] ) ) {
+
+							$tmpcount = count( $languages['mr']['repeat'] );
+							if( $tmpcount > 1 ) {
+								WP_CLI::line( $count . ' | FOUND ' . $tmpcount );
+								fprintf($fp, $post_id . ' | ' . $tmpcount. ' | ' . $post_title . "\n" );
+							}
+							foreach ($languages['mr']['repeat'] as $project_string => $times) {
+								// fprintf($fp, ' | '.$project_string. ' | ' . $times. "\n" );
+							}
+						}
+						if( isset( $languages['mr']['all'] ) && ! empty( $languages['mr']['all'] ) ) {
+							foreach ($languages['mr']['all'] as $project_string => $times) {
+								// fprintf($fp, ' | '.$times. ' | ' . $project_string. "\n" );
+							}
+						}
+					}
 
 
 					$count--;
 				}
-				// fclose($fp);
+				fclose($fp);
 				// $fp = fopen($filename, 'w+');
 				// foreach ($results as $fields) {
 				// 	// $fields = array_map("utf8_encode", $fields); //added
