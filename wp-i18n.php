@@ -153,6 +153,8 @@ function prefix_register_name() {
 		'query_var'           => true,
 		'can_export'          => true,
 		'rewrite'             => true,
+		'show_in_rest'          => true,
+		'rest_controller_class' => 'WP_REST_Terms_Controller',
 		'capability_type'     => 'post',
 		'supports'            => array( 'title', 'author', 'custom-fields' )
 	);
