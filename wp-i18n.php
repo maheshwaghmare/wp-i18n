@@ -639,13 +639,19 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		    return $results;
 		}
 
+		/**
+		 * wp wpi18n import
+		 * @return [type] [description]
+		 */
 		public function import() {
 
 			include_once "lib/Gettext/src/autoloader.php";
 			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
 
+			// it_IT = Italiano
+			$files = $this->getDirContents('po-files/wordpress/it');
+			$files_count = count( $files );
 
-			$files = $this->getDirContents('po-files/wordpress/');
 			// WP_CLI::line( print_r( $files ));
 			// // WP_CLI::error(dirname(__FILE__) . '\wp-dev-ru.po');
 			// WP_CLI::error('ok');
@@ -656,6 +662,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				//import from a .po file:
 				$translations = Translations::fromPoFile( $file );
 				// $translations = Translations::fromPoFile( dirname(__FILE__) . '\wp-dev-ru.po' );
+				$translations_count = count( $translations );
 
 				// $file_name  = 'bbpress-2.4.x-ru.po';
 				$file_name  = basename($file);
@@ -680,7 +687,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 						if( $post_id ) {
 							// Exist.
-							WP_CLI::line( $language . ' | ' . $line . ' | EXIST | ' . $post_id . ' | ' . $small_post_title . ' | UPDATED WITH ' . $translation_string );
+							// WP_CLI::line( $language . ' | ' . $line . ' | EXIST | ' . $post_id . ' | ' . $small_post_title . ' | UPDATED WITH ' . $translation_string );
 
 							// Original String.
 							update_post_meta( $post_id, 'original', $post_title );
@@ -712,19 +719,23 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 								update_post_meta( $post_id, $translation_key, $translation_string );
 
 								// Created.
-								WP_CLI::line( $language . ' | ' . $line . ' | CREATED | ' . $post_id . ' | ' . $small_post_title . ' | UPDATED WITH ' . $translation_string );
+								// WP_CLI::line( $language . ' | ' . $line . ' | CREATED | ' . $post_id . ' | ' . $small_post_title . ' | UPDATED WITH ' . $translation_string );
 							} else {
-								WP_CLI::line( $language . ' | ' . $line . ' | ERROR | ' . $post_id->get_wp_error() );
-								WP_CLI::line( ' | ' . $post_id . ' | ' . $small_post_title );
+								// WP_CLI::line( $language . ' | ' . $line . ' | ERROR | ' . $post_id->get_wp_error() );
+								// WP_CLI::line( ' | ' . $post_id . ' | ' . $small_post_title );
 							}
 						}
 					} else {
-						WP_CLI::line( $post_title );
+						// WP_CLI::line( $post_title );
 					}
 
-					$line++;
+					WP_CLI::line( $language.' | '.$files_count.' | '.$translations_count.' | '.$file_name );
 
+					$line++;
+					$translations_count--;
 				}
+
+				$files_count--;
 
 				WP_CLI::line( '-------------------');
 				WP_CLI::line( 'Strings ' . count( $translations ) );
