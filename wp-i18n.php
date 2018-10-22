@@ -247,9 +247,9 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 *
 		 * # Download PO files for Plugins:
 		 *
-		 * Syntax Command:  wp wpi18n download_plugin {pluginslug} --lang={language}
+		 * Syntax Command:  wp wpi18n download_plugin {plugin-slug} --lang={language}
 		 *
-		 * Example Command: wp wpi18n download contact-form-7
+		 * Example Command: wp wpi18n download_plugin contact-form-7
 		 * 
 		 * This command create directory in `po-files\plugins\contact-form-7\` and download the files of that plugin.
 		 * 
@@ -260,16 +260,6 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 * 	https://translate.wordpress.org/projects/wp-plugins/contact-form-7/stable/mr/default/export-translations
 		 * 	https://translate.wordpress.org/projects/wp-plugins/contact-form-7/stable-readme/mr/default/export-translations
 		 *
-		 * Downloaded files like:
-		 *
-		 * ---
-		 *
-		 * - Update all the strings in database form the specific language.
-		 * 	 E.g. Use command `wp wpi18n import` 
-		 *
-		 * - Update all the strings in database form the specific language.
-		 * 	 E.g. Use command `wp wpi18n import` 
-		 * 
 		 * ## EXAMPLES
 		 *
 		 * wp wpi18n download_plugin {slug} --lang={mr}
@@ -316,6 +306,95 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				'wp-plugins-'.$plugin_slug.'-dev-readme-'.$lang    => 'https://translate.wordpress.org/projects/wp-plugins/'.$plugin_slug.'/dev-readme/'.$lang.'/default/export-translations',
 				'wp-plugins-'.$plugin_slug.'-stable-'.$lang        => 'https://translate.wordpress.org/projects/wp-plugins/'.$plugin_slug.'/stable/'.$lang.'/default/export-translations',
 				'wp-plugins-'.$plugin_slug.'-stable-readme-'.$lang => 'https://translate.wordpress.org/projects/wp-plugins/'.$plugin_slug.'/stable-readme/'.$lang.'/default/export-translations',
+			);
+
+			foreach ($releases as $file_name => $remote_file_url) {
+
+				$local_file = $plugin_lang_dir . '/' . $file_name . '.po';
+
+				if( ! file_exists( $local_file ) ) {
+					$request = wp_remote_get( $remote_file_url, array( 'sslverify' => false, 'timeout' => 30000 ) );
+
+					// Is WP Error?
+					if ( is_wp_error( $request ) ) {
+						WP_CLI::line( $request->get_error_message() );
+					}
+
+					// Invalid response code.
+					if ( wp_remote_retrieve_response_code( $request ) != 200 ) {
+						WP_CLI::line( 'ERROR URL: ' . $remote_file_url );
+						WP_CLI::line( print_r( $request['response'] ) );
+					}
+
+					if( ! is_wp_error( $request ) && wp_remote_retrieve_response_code( $request ) == 200 ) {
+						// Get body data.
+						$body = wp_remote_retrieve_body( $request );
+						WP_CLI::line( 'CREATED - ' . $local_file . ' | ' . $remote_file_url );
+
+						file_put_contents( $local_file, $body);
+					}
+				} else {
+					WP_CLI::line( 'File exist! ' . $local_file );
+				}
+			}
+		}
+
+		/**
+		 *
+		 * # Download PO files for Theme:
+		 *
+		 * Syntax Command:  wp wpi18n download_theme {theme-slug} --lang={language}
+		 *
+		 * Example Command: wp wpi18n download_theme bhari
+		 * 
+		 * This command create directory in `po-files\themes\bhari\` and download the files of that plugin.
+		 * 
+		 * E.g.
+		 * 
+		 * 	- https://translate.wordpress.org/projects/wp-themes/{theme-slug}/{lang}/default/export-translations
+		 *
+		 * Downloaded files like:
+		 * 
+		 * ## EXAMPLES
+		 *
+		 * wp wpi18n download_theme {slug} --lang={mr}
+		 */
+		function download_theme( $args, $assoc_args ) {
+			$plugin_slug = isset( $args[0] ) ? $args[0] : '';
+			$lang        = isset( $assoc_args ) && array_key_exists( 'lang', $assoc_args )      ? $assoc_args['lang']      : '';
+
+			if( empty( $plugin_slug ) ) {
+				WP_CLI::error( "Empty Theme Slug!" );
+			}
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
+
+			$plugins_dir = 'po-files/themes';
+			if( ! file_exists( $plugins_dir ) ) {
+				mkdir( $plugins_dir );
+			}
+
+			$plugin_dir = $plugins_dir . '/' . $plugin_slug;
+			if( ! file_exists( $plugin_dir ) ) {
+				mkdir( $plugin_dir );
+			}
+
+			$plugin_lang_dir = $plugin_dir . '/'.$lang;
+			if( ! file_exists( $plugin_lang_dir ) ) {
+				mkdir( $plugin_lang_dir );
+			}
+
+
+			// 'https://translate.wordpress.org/projects/wp-themes/'.$plugin_slug.'/'.$lang.'/default/export-translations'
+			// 
+			// WP create exported .po file name like accordingly:
+			// 
+			// wp-plugins-bhari-mr.po
+			// 
+			$releases = array(
+				'wp-plugins-'.$plugin_slug.'-'.$lang           => 'https://translate.wordpress.org/projects/wp-themes/'.$plugin_slug.'/'.$lang.'/default/export-translations',
 			);
 
 			foreach ($releases as $file_name => $remote_file_url) {
