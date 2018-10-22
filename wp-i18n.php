@@ -246,28 +246,30 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		/**
 		 *
 		 * # Download PO files for Plugins:
-
-			Syntax Command:  wp wpi18n download_plugin {pluginslug} --lang={language}
-
-			Example Command: wp wpi18n download contact-form-7
-			This command create directory in `po-files\plugins\contact-form-7\` and download the files of that plugin.
-			E.g.
-
-			- https://translate.wordpress.org/projects/wp-plugins/contact-form-7/dev/mr/default/export-translations
-			- https://translate.wordpress.org/projects/wp-plugins/contact-form-7/dev-readme/mr/default/export-translations
-			- https://translate.wordpress.org/projects/wp-plugins/contact-form-7/stable/mr/default/export-translations
-			- https://translate.wordpress.org/projects/wp-plugins/contact-form-7/stable-readme/mr/default/export-translations
-
-			Downloaded files like:
-
-
-			---
-
-			- Update all the strings in database form the specific language.
-				E.g. Use command `wp wpi18n import` 
-
-			- Update all the strings in database form the specific language.
-				E.g. Use command `wp wpi18n import` 
+		 *
+		 * Syntax Command:  wp wpi18n download_plugin {pluginslug} --lang={language}
+		 *
+		 * Example Command: wp wpi18n download contact-form-7
+		 * 
+		 * This command create directory in `po-files\plugins\contact-form-7\` and download the files of that plugin.
+		 * 
+		 * E.g.
+		 * 
+		 * 	https://translate.wordpress.org/projects/wp-plugins/contact-form-7/dev/mr/default/export-translations
+		 * 	https://translate.wordpress.org/projects/wp-plugins/contact-form-7/dev-readme/mr/default/export-translations
+		 * 	https://translate.wordpress.org/projects/wp-plugins/contact-form-7/stable/mr/default/export-translations
+		 * 	https://translate.wordpress.org/projects/wp-plugins/contact-form-7/stable-readme/mr/default/export-translations
+		 *
+		 * Downloaded files like:
+		 *
+		 * ---
+		 *
+		 * - Update all the strings in database form the specific language.
+		 * 	 E.g. Use command `wp wpi18n import` 
+		 *
+		 * - Update all the strings in database form the specific language.
+		 * 	 E.g. Use command `wp wpi18n import` 
+		 * 
 		 * ## EXAMPLES
 		 *
 		 * wp wpi18n download_plugin {slug} --lang={mr}

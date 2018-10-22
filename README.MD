@@ -6,6 +6,12 @@ Translate the WordPress by by re-using existing translated strings with the help
 
 ## WP CLI Commands
 
+### 1. wp wpi18n download_plugin {slug} --lang={mr}
+
+Download individual plugin .po files depends on the plugin slug.
+
+--
+
 ### 1. wp wpi18n download_all_core_files
 
 Download all the files from WordPress project versions ['dev', '4.8.x', '4.7.x', '4.6.x', '4.5.x', '4.4.x', '4.3.x', '4.2.x', '4.1.x'].
