@@ -348,6 +348,108 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		}
 
 		/**
+		 * @param  [type] $args       [description]
+		 * @param  [type] $assoc_args [description]
+		 * @return [type]             [description]
+		 *
+		 * wp wpi18n translate_all_plugin_files --lang={mr}
+		 */
+		function translate_all_plugin_files( $args, $assoc_args ) {
+
+			$lang = isset( $assoc_args ) && array_key_exists( 'lang', $assoc_args )      ? $assoc_args['lang']      : '';
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
+
+			include_once "lib/Gettext/src/autoloader.php";
+			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
+
+			$dir = 'po-files/plugins/';
+
+			$files = $this->getDirContents( $dir );
+			// WP_CLI::line( print_r( $files ));
+
+			$all_translations_count = 0;
+			$files_count            = count( $files );
+			foreach ($files as $key => $file) {
+
+				$file_name    = basename($file);
+				$plugin_slug   = str_replace('wp-plugins-', '', $file_name);
+				$plugin_slug   = str_replace('-dev-'.$lang.'.po', '', $plugin_slug);
+				$plugin_slug   = str_replace('-stable-'.$lang.'.po', '', $plugin_slug);
+				$plugin_slug   = str_replace('-dev-readme-'.$lang.'.po', '', $plugin_slug);
+				$plugin_slug   = str_replace('-stable-readme-'.$lang.'.po', '', $plugin_slug);
+
+				// WP_CLI::error( $file );
+				$translations = Translations::fromPoFile( $file );
+
+				$count = count( $translations );
+				$newly_translated = 0;
+
+				foreach ($translations as $key => $translation) {
+
+					$post_title         = $translation->getOriginal();
+					$translation_string = $translation->getTranslation();
+
+					// Empty the translation text.
+					// And the post exist.
+					if( empty( $translation_string ) && ! empty( $post_title ) ) {
+						$post_id = post_exists( $post_title );
+						if( $post_id ) {
+							$stored_string = get_post_meta( $post_id, 'language_' . $lang, true );
+							
+							if( ! empty( $stored_string ) ) {
+								//edit some translations:
+								$translation = $translations->find(null, $post_title);
+
+								if ($translation) {
+									$translation->setTranslation( $stored_string );
+									WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $post_title . ' | WITH ' . $stored_string );
+									$newly_translated++;
+									$data = file_get_contents( $dir . '/log.txt' );
+									file_put_contents( $dir . '/log.txt', $data . "\n" . $plugin_slug . ' | ' . $post_title . ' | ' . $stored_string );
+
+
+									
+									$new_strings = $dir . $plugin_slug . '/' . $lang . '/new-translated-strings-'.$file_name.'.txt';
+									$data = file_get_contents( $new_strings );
+									file_put_contents( $new_strings, $data . "\n" . $plugin_slug . ' | ' . $post_title . ' | ' . $stored_string );
+								}
+							} else {
+								WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' EMPTY.' );
+							}
+						} else {
+							WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' NOT EXIST ' . $post_title );
+						}
+					}
+					$count--;
+				}
+
+
+				WP_CLI::line( $files_count . ' | ' . 'COMPLETE - TRANSLATED ' . $newly_translated . ' STRINGS!' );
+
+				//Now save a po file with the result
+				// WP_CLI::error( $dir . $plugin_slug . '/' . $lang . '/translated-'.$file_name );
+				$translations->toPoFile( $dir . $plugin_slug . '/' . $lang . '/translated-'.$file_name );
+				WP_CLI::line( $files_count . ' | ' . $dir . $plugin_slug . '/translated-'.$file_name.'.po' );
+
+				$log = 'COMPLETE - TRANSLATED ' . $newly_translated . ' STRINGS!';
+				// file_put_contents( $dir . $plugin_slug . '/log.txt', $log );
+
+				// Add current translations count to total translations count.
+				// $all_translations_count = $all_translations_count + $newly_translated;
+
+				$files_count--;
+				// WP_CLI::error( $log );
+
+			}
+
+			WP_CLI::line( 'TOTAL TRANSLATED ' . $all_translations_count );
+		}
+
+
+		/**
 		 * Info
 		 *
 		 * @since 1.0.0
@@ -1009,7 +1111,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 			$wpi18n_imported_files = get_option( 'wpi18n-imported-files', array() );
 
-			$files = $this->getDirContents('po-files/wordpress/fur/');
+			$files = $this->getDirContents('po-files/wordpress/oci/');
 			// WP_CLI::line( print_r( $files ));
 			// // WP_CLI::error(dirname(__FILE__) . '\wp-dev-ru.po');
 			// WP_CLI::error('ok');

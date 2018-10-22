@@ -1,0 +1,3380 @@
+# Translation of Plugins - All in One SEO Pack - Development (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - All in One SEO Pack - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-24 12:54:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - All in One SEO Pack - Development (trunk)\n"
+
+#: inc/aioseop_functions.php:443
+msgid "Please provide absolute URLs (including http or https)."
+msgstr ""
+
+#: modules/aioseop_robots.php:482
+msgid "Wild-card path cannot be overridden: %s"
+msgstr ""
+
+#: modules/aioseop_robots.php:460
+msgid "Path cannot be overridden: %s"
+msgstr ""
+
+#: modules/aioseop_robots.php:453
+msgid "Rule cannot be overridden: %s"
+msgstr ""
+
+#: modules/aioseop_robots.php:439
+msgid "Identical rule exists: %s"
+msgstr ""
+
+#: modules/aioseop_robots.php:420
+msgid "Directory Path cannot be empty"
+msgstr "निर्देशिका पथ रिक्त असू शकत नाही"
+
+#: modules/aioseop_robots.php:417
+msgid "User Agent cannot be empty"
+msgstr "वापरकर्ता एजंट रिक्त असू शकत नाही"
+
+#: modules/aioseop_robots.php:177
+msgid "Unable to delete file"
+msgstr ""
+
+#: modules/aioseop_robots.php:172
+msgid "Unable to read file"
+msgstr ""
+
+#: modules/aioseop_robots.php:119
+msgid "A physical file exists. This feature cannot be used."
+msgstr ""
+
+#: modules/aioseop_robots.php:117
+msgid "A physical file exists. Do you want to %simport and delete%s it, %sdelete%s it or continue using it?"
+msgstr "एक भौतिक फाइल अस्तित्वात आहे. तुम्हाला %simport करायचे आहे आणि %s हटवायचे, %s ने%s डिलीट केले किंवा त्याचा वापर सुरू ठेवायचे?"
+
+#: modules/aioseop_robots.php:69
+msgid "Configured Rules"
+msgstr ""
+
+#: modules/aioseop_robots.php:49
+msgid "Block"
+msgstr ""
+
+#: modules/aioseop_robots.php:49
+msgid "Allow"
+msgstr "परवानगी द्या"
+
+#: modules/aioseop_robots.php:47
+msgid "Rule"
+msgstr ""
+
+#: modules/aioseop_robots.php:34
+msgid "Use the rule builder below to add/delete rules."
+msgstr ""
+
+#: modules/aioseop_feature_manager.php:51
+msgid "Edit your .htaccess file to fine-tune your site."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:993
+msgid "Renamed %1$s to %2$s."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:68
+msgid "URL to the page. This field accepts relative URLs or absolute URLs with the protocol specified."
+msgstr ""
+
+#: admin/aioseop_module_class.php:1275
+msgid "File %s already exists!\n"
+msgstr ""
+"फाइल %s आधीच अस्तित्वात आहे!\n"
+"\n"
+
+#: admin/aioseop_module_class.php:1267
+msgid "Failed to rename file %s!\n"
+msgstr "फाइल %s चे नाम बदलण्यात अयशस्वी!\n"
+
+#: admin/aioseop_module_class.php:1245 admin/aioseop_module_class.php:1273
+msgid "File %s doesn't exist!\n"
+msgstr "फाइल %s अस्तित्वात नाही!\n"
+
+#: admin/aioseop_module_class.php:1240
+msgid "Failed to delete file %s!\n"
+msgstr "\n"
+
+#: admin/aioseop_module_class.php:1210
+msgid "File %s isn't writable!\n"
+msgstr "फाइल %s लिहिण्यायोग्य नाही!\n"
+
+#: admin/aioseop_module_class.php:1209
+msgid "Failed to write file %s!\n"
+msgstr "\n"
+
+#: admin/aioseop_module_class.php:52
+msgid "Method %s doesn't exist"
+msgstr ""
+
+#: inc/aioseop_functions.php:485
+msgid "All values are mandatory."
+msgstr "सर्व मूल्ये अनिवार्य आहेत."
+
+#: modules/aioseop_sitemap.php:127
+msgid "Exclude Images"
+msgstr "प्रतिमा वगळा"
+
+#: modules/aioseop_sitemap.php:64
+msgid "Exclude Images in your sitemap."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:370
+msgid "%1$s Click here%2$s to make these recommended changes."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:369
+msgid "Notice: To avoid problems with your XML Sitemap, we strongly recommend you enable Sitemap Indexes and set the Maximum Posts per Sitemap Page to 1000."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:718
+msgid " Your sitemap has been created with content and images."
+msgstr ""
+
+#: inc/commonstrings.php:79
+msgid "Check this if you want to track interactions with the official Facebook and Twitter widgets with Google Analytics."
+msgstr ""
+
+#: inc/commonstrings.php:78
+msgid "Check this if you want to track how far down a user scrolls a page with Google Analytics."
+msgstr ""
+
+#: inc/commonstrings.php:77
+msgid "Check this if you want to ensure consistency in URL paths reported to Google Analytics."
+msgstr ""
+
+#. Translators: The term 'viewport' refers to the area of the page that is
+#. visible to the user, see https://www.w3schools.com/css/css_rwd_viewport.asp.
+#: inc/commonstrings.php:76
+msgid "Check this if you want to track when elements are visible within the viewport with Google Analytics."
+msgstr ""
+
+#. Translators: 'This option allows users to track media queries, allowing them
+#. to find out if users are viewing a responsive layout or not and which layout
+#. changes 		have been applied if the browser window has been resized by the
+#. user, see
+#. https://github.com/googleanalytics/autotrack/blob/master/docs/plugins/media-query-tracker.md.
+#: inc/commonstrings.php:71
+msgid "Check this if you want to track media query matching and queries with Google Analytics."
+msgstr ""
+
+#: inc/commonstrings.php:65
+msgid "Check this if you want to track how long pages are in visible state with Google Analytics."
+msgstr ""
+
+#: inc/commonstrings.php:64
+msgid "Check this if you want to track URL changes for single pages with Google Analytics."
+msgstr ""
+
+#: inc/commonstrings.php:63
+msgid "Check this if you want to track events with Google Analytics."
+msgstr ""
+
+#: inc/commonstrings.php:62
+msgid "Check this if you want to track outbound forms with Google Analytics."
+msgstr ""
+
+#: inc/commonstrings.php:61
+msgid "Ensure URL Consistency:"
+msgstr "यूआरएल सुसंगतता खात्री करा:"
+
+#: inc/commonstrings.php:60
+msgid "Track Facebook and Twitter:"
+msgstr ""
+
+#: inc/commonstrings.php:59
+msgid "Track Page Scrolling:"
+msgstr ""
+
+#: inc/commonstrings.php:58
+msgid "Track Elements Visibility:"
+msgstr ""
+
+#: inc/commonstrings.php:57
+msgid "Track Media Query:"
+msgstr ""
+
+#: inc/commonstrings.php:56
+msgid "Track Page Visibility:"
+msgstr ""
+
+#: inc/commonstrings.php:55
+msgid "Track URL Changes:"
+msgstr ""
+
+#: inc/commonstrings.php:54
+msgid "Track Events:"
+msgstr ""
+
+#: inc/commonstrings.php:53
+msgid "Track Outbound Forms:"
+msgstr ""
+
+#: modules/aioseop_opengraph.php:110
+msgid "Select the Twitter Card type to use for this Page or Post, overriding the default setting."
+msgstr ""
+
+#. translators: Social Meta refers to Open Graph (OG:) meta tags, which can be
+#. used to control the appearance 					of a site's posts/pages when shared on
+#. social media networks like Facebook and Twitter.
+#: modules/aioseop_feature_manager.php:41
+msgid "Add Social Meta data to your site to deliver closer integration between your website/blog and social media."
+msgstr ""
+
+#: aioseop_class.php:989
+msgid "NOFOLLOW this page/post"
+msgstr ""
+
+#: aioseop_class.php:985
+msgid "NOINDEX this page/post"
+msgstr ""
+
+#: inc/commonstrings.php:52
+msgid "Your license has expired. Please %1$s click here %2$s to purchase a new one."
+msgstr ""
+
+#: aioseop_class.php:179
+msgid "%post_month% - The month the page/post was published (localized)"
+msgstr ""
+
+#: aioseop_class.php:178
+msgid "%post_year% - The year the page/post was published (localized)"
+msgstr ""
+
+#: aioseop_class.php:177
+msgid "%post_date% - The date the page/post was published (localized)"
+msgstr ""
+
+#: aioseop_class.php:135 aioseop_class.php:3210
+msgid "%post_month% - The month the post was published (localized)"
+msgstr ""
+
+#: aioseop_class.php:134 aioseop_class.php:3209
+msgid "%post_year% - The year the post was published (localized)"
+msgstr ""
+
+#: aioseop_class.php:133 aioseop_class.php:3208
+msgid "%post_date% - The date the post was published (localized)"
+msgstr ""
+
+#: aioseop_class.php:120
+msgid "%post_month% - The month the page was published (localized)"
+msgstr ""
+
+#: aioseop_class.php:119
+msgid "%post_year% - The year the page was published (localized)"
+msgstr ""
+
+#: aioseop_class.php:118
+msgid "%post_date% - The date the page was published (localized)"
+msgstr ""
+
+#: admin/aioseop_module_class.php:2280
+msgid "Upload Image"
+msgstr ""
+
+#: all_in_one_seo_pack.php:299
+msgid "Feature Request/Bug Report"
+msgstr ""
+
+#: modules/aioseop_opengraph.php:424
+msgid "Enable Facebook Meta for Post Types"
+msgstr ""
+
+#: modules/aioseop_performance.php:267
+msgid "Permalink Setting"
+msgstr ""
+
+#: modules/aioseop_performance.php:266
+msgid "Search Engine Visibility"
+msgstr ""
+
+#: modules/aioseop_performance.php:265
+msgid "Front Page Displays"
+msgstr ""
+
+#: modules/aioseop_performance.php:264
+msgid "Site Language"
+msgstr ""
+
+#: modules/aioseop_performance.php:263
+msgid "Site Title"
+msgstr ""
+
+#: aioseop_class.php:231
+msgid "Check this and your Meta Descriptions for any Post Type will be auto-generated using the Post Excerpt, or the first 160 characters of the post content if there is no Post Excerpt. You can overwrite any auto-generated Meta Description by editing the post or page."
+msgstr ""
+
+#: aioseop_class.php:173
+msgid "%description% - This outputs the description you write for each page/post or the autogenerated description, if you have that option enabled. Auto-generated descriptions are generated from the Post Excerpt, or the first 160 characters of the post content if there is no Post Excerpt."
+msgstr ""
+
+#. #-#-#-#-#  all-in-one-seo-pack-code.pot (All In One SEO Pack 2.8)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  all-in-one-seo-pack-code.pot (All In One SEO Pack 2.8)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://semperplugins.com/all-in-one-seo-pack-pro-version/"
+msgstr ""
+
+#: modules/aioseop_importer_exporter.php:47
+msgid "Post Data"
+msgstr ""
+
+#: aioseop_class.php:504
+msgid "Nothing found for %request_words%"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:182
+msgid "Access to Knowledge Center"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:181
+msgid "Access to Premium Support Forums"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:180
+msgid "Access to Video Screencasts"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:179
+msgid "SEO for Categories, Tags and Custom Taxonomies"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:178
+msgid "Video SEO Module"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:175
+msgid "Advanced support for e-commerce"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:173
+msgid "Advanced support for WooCommerce"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:123
+msgid "Subscribe"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:122
+msgid "Email Address"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:46
+msgid " to upgrade to Pro Version and get:"
+msgstr ""
+
+#: modules/aioseop_opengraph.php:272
+msgid "Use Content For Autogenerated OG Descriptions"
+msgstr ""
+
+#: modules/aioseop_opengraph.php:95
+msgid "This option will auto generate your Open Graph descriptions from your post content instead of your post excerpt. WooCommerce users should read the documentation regarding this setting."
+msgstr ""
+
+#: modules/aioseop_opengraph.php:87
+msgid "Enter your Facebook Admin ID here. You can enter multiple IDs separated by a comma. You can look up your Facebook ID using this tool http://findmyfbid.com/"
+msgstr ""
+
+#: aioseop_class.php:829
+msgid "Use Content For Autogenerated Descriptions:"
+msgstr ""
+
+#: aioseop_class.php:230
+msgid "This option will auto generate your meta descriptions from your post content instead of your post excerpt. This is useful if you want to use your content for your autogenerated meta descriptions instead of the excerpt. WooCommerce users should read the documentation regarding this setting."
+msgstr ""
+
+#: admin/display/welcome-content.php:66
+msgid "Access to video tutorials about SEO with the Pro version"
+msgstr ""
+
+#: admin/aioseop_module_class.php:2664
+msgid "Reset %s Settings to Defaults"
+msgstr ""
+
+#: aioseop_class.php:3075
+msgid "Welcome to version %s. Thank you for running the latest and greatest All in One SEO Pack Pro ever! Please review your settings, as we're always adding new features for you!"
+msgstr ""
+
+#: aioseop_class.php:107 aioseop_class.php:117 aioseop_class.php:132
+#: aioseop_class.php:176 aioseop_class.php:3207
+msgid "%current_date% - The current date (localized)"
+msgstr ""
+
+#: aioseop_class.php:84
+msgid "This option will automatically generate Canonical URLs for your entire WordPress installation.  This will help to prevent duplicate content penalties by Google"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:45
+msgid "CLICK HERE"
+msgstr ""
+
+#: modules/aioseop_sitemap.php:1092
+msgid "Removed empty file %s."
+msgstr ""
+
+#: inc/commonstrings.php:46
+msgid "This displays an SEO News widget on the dashboard."
+msgstr ""
+
+#: inc/commonstrings.php:43
+msgid "Show SEO News"
+msgstr ""
+
+#: modules/aioseop_sitemap.php:720
+msgid "Changes are automatically submitted to search engines."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:717
+msgid "Click here to %s."
+msgstr ""
+
+#: admin/display/dashboard_widget.php:26
+msgid "SEO News"
+msgstr ""
+
+#: admin/display/welcome-content.php:77
+msgid "Continue to the General Settings"
+msgstr ""
+
+#: admin/display/welcome.php:127
+msgid "Credits"
+msgstr ""
+
+#: admin/display/welcome.php:123
+msgid "What&#8217;s New"
+msgstr ""
+
+#: admin/display/welcome.php:118
+msgid "All in One SEO Pack %s contains new features, bug fixes, increased security, and tons of under the hood performance improvements."
+msgstr ""
+
+#: admin/display/welcome.php:116
+msgid "Welcome to All in One SEO Pack %s"
+msgstr ""
+
+#: admin/display/welcome.php:55 admin/display/welcome.php:56
+msgid "Welcome to All in One SEO Pack"
+msgstr ""
+
+#: admin/display/welcome-content.php:70
+msgid "Control SEO on categories, tags and custom taxonomies with the Pro version"
+msgstr ""
+
+#: admin/display/welcome-content.php:61
+msgid "We have complete documentation on every setting and feature"
+msgstr ""
+
+#: admin/display/welcome-content.php:57
+msgid "Did You Know?"
+msgstr ""
+
+#: admin/display/welcome-content.php:51
+msgid "Set up Google Analytics"
+msgstr ""
+
+#: admin/display/welcome-content.php:47
+msgid "Submit an XML Sitemap to Google"
+msgstr ""
+
+#: admin/display/welcome-content.php:43
+msgid "Quality guidelines for SEO titles and descriptions"
+msgstr ""
+
+#: admin/display/welcome-content.php:38
+msgid "Tips for good on-page SEO"
+msgstr ""
+
+#: admin/display/welcome-content.php:34
+msgid "Beginners Guide for Social Meta module"
+msgstr ""
+
+#: admin/display/welcome-content.php:30
+msgid "Beginners Guide for XML Sitemap module"
+msgstr ""
+
+#: admin/display/welcome-content.php:25
+msgid "Beginners Guide for All in One SEO Pack"
+msgstr ""
+
+#: admin/display/welcome-content.php:21
+msgid "Get Started"
+msgstr ""
+
+#: admin/display/welcome-content.php:17
+msgid "Translate"
+msgstr ""
+
+#: admin/display/welcome-content.php:13
+msgid "Help translate All in One SEO Pack into your language."
+msgstr ""
+
+#: admin/display/welcome-content.php:11
+msgid "Upgrade"
+msgstr ""
+
+#: admin/display/welcome-content.php:7
+msgid "Upgrade to All in One SEO Pack Pro to access priority support and premium features."
+msgstr ""
+
+#: admin/display/welcome-content.php:6
+msgid "There are many ways you can help support All in One SEO Pack."
+msgstr ""
+
+#: admin/display/welcome-content.php:5
+msgid "Support All in One SEO Pack"
+msgstr ""
+
+#: admin/display/credits-content.php:99
+msgid "Translation contributors and translation editors"
+msgstr ""
+
+#. translators: '%1$s' and '%2$s' are used as placeholders and turn the text in
+#. between into a clickable link
+#: admin/display/credits-content.php:44
+msgid "Want to see your name and picture here as a community developer? %1$sClick here%2$s to open an issue on GitHub to report a bug, request a feature or find an issue and submit code!"
+msgstr ""
+
+#: admin/display/credits-content.php:38
+msgid "Recent Rockstar Contributors"
+msgstr ""
+
+#: admin/display/credits-content.php:24 admin/display/credits-content.php:29
+#: admin/display/credits-content.php:34
+msgid "Development Team"
+msgstr ""
+
+#: admin/display/credits-content.php:19
+msgid "Core Team"
+msgstr ""
+
+#: admin/display/credits-content.php:15
+msgid "Project Manager"
+msgstr ""
+
+#: admin/display/credits-content.php:10
+msgid "Project Lead"
+msgstr ""
+
+#: admin/display/credits-content.php:5
+msgid "Project Leaders"
+msgstr ""
+
+#: admin/display/credits-content.php:3
+msgid "All in One SEO Pack is created by a worldwide network of friendly folks like these."
+msgstr ""
+
+#: modules/aioseop_opengraph.php:402
+msgid "Custom Twitter Image"
+msgstr ""
+
+#: modules/aioseop_opengraph.php:114
+msgid "This option lets you upload an image to use as the Twitter image for this Page or Post."
+msgstr ""
+
+#: aioseop_class.php:855
+msgid "Redirect Attachments to Post Parent:"
+msgstr ""
+
+#: aioseop_class.php:237
+msgid "Redirect attachment pages to post parent."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:67
+msgid "Dynamically creates the XML sitemap instead of using a static file."
+msgstr ""
+
+#: modules/aioseop_importer_exporter.php:559
+msgid "<b>Security warning:</b> Your file looks compromised. Please check the file for any script-injection."
+msgstr ""
+
+#. translators: %1$s expands to the number of languages All in One SEO Pack has
+#. been translated into. $2%s to the percentage translated of the current
+#. language, $3%s to the language name, %4$s and %5$s to anchor tags with link
+#. to translation page at translate.wordpress.org
+#: admin/display/general-metaboxes.php:93
+msgid "All in One SEO Pack has been translated into %1$s languages, but currently the %3$s translation is only %2$s percent complete. %4$s Click here %5$s to help get it to 100 percent."
+msgstr ""
+
+#: admin/meta_import.php:82 admin/meta_import.php:88
+msgid "Sorry, you can't do that. Please choose a platform and then click Analyze or Convert."
+msgstr ""
+
+#: aioseop_class.php:3092
+msgid "New in 2.4: Improved support for taxonomies, Woocommerce and massive performance improvements under the hood! Please review your settings on each options page!"
+msgstr ""
+
+#: admin/meta_import.php:196
+msgid "Convert"
+msgstr ""
+
+#: admin/meta_import.php:195
+msgid "Analyze"
+msgstr ""
+
+#: admin/meta_import.php:184
+msgid "Themes"
+msgstr "थीम्स"
+
+#: admin/meta_import.php:176
+msgid "Plugins"
+msgstr ""
+
+#: admin/meta_import.php:174
+msgid "Choose platform:"
+msgstr ""
+
+#: admin/meta_import.php:172
+msgid "Import SEO data from:"
+msgstr ""
+
+#: admin/meta_import.php:162
+msgid "Before performing an import, we strongly recommend that you make a backup of your site. We use and recommend %1$s BackupBuddy %2$s for backups."
+msgstr ""
+
+#: admin/meta_import.php:158
+msgid "Click \"Convert\" to perform the import. After the import has completed, you will be alerted to how many records were imported, and how many records had to be ignored, based on the criteria above."
+msgstr ""
+
+#: admin/meta_import.php:154
+msgid "Some plugins and themes do not share similar data, or they store data in a non-standard way. If we cannot import this data, it will remain unchanged in your database. Any compatible SEO data will be displayed for you to review. If a post or page already has SEO data in All in One SEO Pack, we will not import data from another plugin/theme."
+msgstr ""
+
+#: admin/meta_import.php:154
+msgid "Please Note: "
+msgstr ""
+
+#: admin/meta_import.php:150
+msgid "Click \"Analyze\" for a list of SEO data that can be imported into All in One SEO Pack, along with the number of records that will be imported."
+msgstr ""
+
+#: admin/meta_import.php:146
+msgid "Use the drop down below to choose which plugin or theme you wish to import SEO data from."
+msgstr ""
+
+#: admin/meta_import.php:143
+msgid "Import SEO Settings"
+msgstr ""
+
+#: admin/meta_import.php:119
+msgid "Conversion Results"
+msgstr ""
+
+#: admin/meta_import.php:109
+msgid "Compatible data:"
+msgstr ""
+
+#: admin/meta_import.php:106
+msgid "<p>Analyzing records in a %1$s to %2$s conversion&hellip;"
+msgstr ""
+
+#: admin/meta_import.php:101 admin/meta_import.php:123
+msgid "Sorry, something went wrong. Please try again"
+msgstr ""
+
+#: admin/meta_import.php:97
+msgid "Analysis Results"
+msgstr ""
+
+#: admin/meta_import.php:64
+msgid "SEO Data Import"
+msgstr ""
+
+#: admin/meta_import.php:64
+msgid "Import SEO Data"
+msgstr ""
+
+#: admin/meta_import.php:37
+msgid "All in One SEO has been deactivated"
+msgstr ""
+
+#: admin/meta_import.php:32
+msgid "The plugin All-In-One-SEO has been detected. Do you want to %1$simport its settings%2$s?"
+msgstr ""
+
+#: admin/meta_import.php:28
+msgid "The plugin Yoast SEO has been detected. Do you want to %1$simport its settings%2$s into All in One SEO Pack?"
+msgstr ""
+
+#. translators: this refers to a module that is exclusively available in All in
+#. One SEO Pack Pro.
+#: modules/aioseop_feature_manager.php:95
+msgid "Pro Version Only"
+msgstr ""
+
+#: aioseop_class.php:3749
+msgid "%1$s Upgrade%2$s to All in One SEO Pack Pro for increased SEO compatibility for your products."
+msgstr ""
+
+#: aioseop_class.php:3748
+msgid "We've detected you're running WooCommerce."
+msgstr ""
+
+#: inc/commonstrings.php:32
+msgid "Finished scanning posts"
+msgstr ""
+
+#: inc/commonstrings.php:29
+msgid "Scan"
+msgstr ""
+
+#: inc/commonstrings.php:28
+msgid "You do not have access to this page; try logging in as an administrator."
+msgstr ""
+
+#: inc/commonstrings.php:27
+msgid "Enable this option to only allow access to your sitemap by site administrators and major search engines."
+msgstr ""
+
+#: inc/commonstrings.php:26
+msgid "If checked, only posts that have videos in them will be displayed on the sitemap."
+msgstr ""
+
+#: inc/commonstrings.php:25
+msgid "Press the Scan button to scan your posts for videos! Do this if video content from a post or posts is not showing up in your sitemap."
+msgstr ""
+
+#: inc/commonstrings.php:24
+msgid "Restrict Access to Video Sitemap"
+msgstr ""
+
+#: inc/commonstrings.php:23
+msgid "Scan Posts For Videos"
+msgstr ""
+
+#: inc/commonstrings.php:22
+msgid "Show Only Posts With Videos"
+msgstr ""
+
+#: modules/aioseop_bad_robots.php:36
+msgid "Use Custom Blocklists"
+msgstr ""
+
+#: modules/aioseop_bad_robots.php:34
+msgid "Block Referral Spam using HTTP"
+msgstr ""
+
+#: modules/aioseop_bad_robots.php:33
+msgid "Block Bad Bots using HTTP"
+msgstr ""
+
+#: modules/aioseop_bad_robots.php:24
+msgid "Block Referral Spam using HTTP."
+msgstr ""
+
+#: aioseop_class.php:4888 aioseop_class.php:4895
+msgid "About"
+msgstr ""
+
+#: aioseop_class.php:3870
+msgid "Debug String"
+msgstr ""
+
+#: aioseop_class.php:3084
+msgid "Thank you for running the latest and greatest All in One SEO Pack Pro ever! Please review your settings, as we're always adding new features for you!"
+msgstr ""
+
+#: aioseop_class.php:3253
+msgid "%taxonomy_description% - The description of the taxonomy"
+msgstr ""
+
+#: aioseop_class.php:3252
+msgid "%taxonomy_title% - The original title of the taxonomy"
+msgstr ""
+
+#: aioseop_class.php:3238
+msgid "Taxonomy Title Format:"
+msgstr ""
+
+#: modules/aioseop_feature_manager.php:87
+msgid "Create and manage your Video Sitemap using this feature and submit your Video Sitemap to Google, Bing/Yahoo and Ask.com."
+msgstr ""
+
+#. translators: the Image SEO module allows users to optimize their images for
+#. search engines.
+#: modules/aioseop_feature_manager.php:80
+msgid "Image SEO"
+msgstr ""
+
+#: aioseop_class.php:529
+msgid "SEO on only these taxonomies:"
+msgstr ""
+
+#: aioseop_class.php:351
+msgid "License Key:"
+msgstr ""
+
+#: aioseop_class.php:192
+msgid "Use these checkboxes to select which Taxonomies you want to use All in One SEO Pack with."
+msgstr ""
+
+#: aioseop_class.php:83
+msgid "This will be the license key received when the product was purchased. This is used for automatic upgrades."
+msgstr ""
+
+#: all_in_one_seo_pack.php:339
+msgid "Documentation"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Out-of-the-box SEO for your WordPress blog. Features like XML Sitemaps, SEO for custom post types, SEO for blogs or business sites, SEO for ecommerce sites, and much more. More than 30 million downloads since 2007."
+msgstr ""
+
+#: inc/commonstrings.php:39
+msgid "Notice: "
+msgstr ""
+
+#: inc/commonstrings.php:36
+msgid "License Key is not set yet or invalid. "
+msgstr ""
+
+#: inc/commonstrings.php:40
+msgid "Manage Licenses"
+msgstr ""
+
+#: inc/commonstrings.php:51
+msgid "There is a new version of %1$s available. Go to <a href='%2$s'>the plugins page</a> for details."
+msgstr ""
+
+#: inc/commonstrings.php:35
+msgid "Purchase one now"
+msgstr ""
+
+#. translators: Please mind the space at the beginning of the string.
+#: inc/commonstrings.php:38
+msgid " Need a license key?"
+msgstr ""
+
+#: inc/commonstrings.php:50
+msgid "You must <a href=\"%s\">enter a valid License Key</a> for it to work."
+msgstr ""
+
+#: inc/commonstrings.php:49
+msgid "%s is almost ready."
+msgstr ""
+
+#: admin/display/menu.php:40 all_in_one_seo_pack.php:350
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: aioseop_class.php:942 all_in_one_seo_pack.php:334
+msgid "Support Forum"
+msgstr ""
+
+#: all_in_one_seo_pack.php:329
+msgid "SEO Settings"
+msgstr ""
+
+#: modules/aioseop_opengraph.php:223
+msgid "Facebook Admin ID"
+msgstr ""
+
+#: modules/aioseop_opengraph.php:88
+msgid "Enter your Facebook App ID here. Information about how to get your Facebook App ID can be found at https://developers.facebook.com/docs/apps/register"
+msgstr ""
+
+#: aioseop_class.php:3725
+msgid "You can %1$s click here%2$s to go to your reading settings and toggle your blog visibility."
+msgstr ""
+
+#: aioseop_class.php:3724
+msgid "Warning: You're blocking access to search engines."
+msgstr ""
+
+#: modules/aioseop_opengraph.php:228
+msgid "Facebook App ID"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Michael Torbert"
+msgstr "मायकल टोर्बेर्ट"
+
+#. Plugin Name of the plugin/theme
+msgid "All In One SEO Pack"
+msgstr "ऑल इन वन एस.ई.ओ. पॅक"
+
+#: modules/aioseop_sitemap.php:1433
+msgid "Failed to notify %1$s about changes to your sitemap at %2$s, unable to access via wp_remote_get()."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:1430
+msgid "Failed to notify %1$s about changes to your sitemap at %2$s, error code %3$s."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:1256
+msgid "static"
+msgstr "स्टॅटिक"
+
+#: modules/aioseop_sitemap.php:1261
+msgid "dynamic"
+msgstr "डाइनॅमिक"
+
+#: modules/aioseop_sitemap.php:1258
+msgid "compressed"
+msgstr "कंप्रेस्ड"
+
+#: modules/aioseop_sitemap.php:1131
+msgid "Delete Conflicting Files"
+msgstr "कॉन्फ्लिक्ट होणारी फाइल्स डेलीट करा."
+
+#: modules/aioseop_sitemap.php:1130
+msgid "Rename Conflicting Files"
+msgstr "फाइल कॉन्फ्लिक्टला नवीन नाव द्या."
+
+#: modules/aioseop_sitemap.php:1088
+msgid "Potential conflict with unknown file %s."
+msgstr "संभावित अज्ञात %s फाइल्स मध्ये कॉन्फ्लिक्ट होतोय!"
+
+#: modules/aioseop_sitemap.php:1082
+msgid "Warning: a static sitemap '%1$s' generated by All in One SEO Pack %2$s on %3$s already exists that may conflict with dynamic sitemap generation."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:997
+msgid "Couldn't find file %s!"
+msgstr "%s अशी कुठलीही फाइल नाही!"
+
+#: modules/aioseop_sitemap.php:989
+msgid "Couldn't rename file %s!"
+msgstr "%s फाइल चे नाव बदलले जाऊ शकत नाही!"
+
+#: modules/aioseop_sitemap.php:979
+msgid "Deleted %s."
+msgstr "%s डेलीट करण्यात आली आहे."
+
+#: modules/aioseop_sitemap.php:962
+msgid "Warning: dynamic sitemap generation must have permalinks enabled."
+msgstr "डाइनमिक साइटमॅप निर्माण होताना पर्मालिंक्स एनेबल्ड (सक्षम) असायला हवेत."
+
+#: modules/aioseop_sitemap.php:737
+msgid "Warning: your privacy settings are configured to ask search engines to not index your site; you can change this under %s for your blog."
+msgstr "सूचना: आपल्या गोपनीय सेटिंग्स संयोजीत करण्यात आल्या आहेत. त्याप्रमाणे आपली साइट इंडेक्स सर्च एंजिन्स मध्ये न दाखविण्याची शिफारस केली जाईल. हे आपण कधीही  %s मध्ये जाऊन आपल्या ब्लॉगकरिता  बदलू शकतात."
+
+#: modules/aioseop_sitemap.php:735
+msgid "Privacy Settings"
+msgstr "गोपनीयताशी संबंधित सेटिंग्ज"
+
+#: modules/aioseop_sitemap.php:733
+msgid "Reading Settings"
+msgstr "वाचतानाची सेटिंग्ज "
+
+#: modules/aioseop_sitemap.php:727
+msgid "Dynamic sitemap generation does not appear to be using the correct rewrite rules; please disable any other sitemap plugins or functionality on your site and reset your permalinks."
+msgstr "डाइनमिक साइटमॅप निर्माण होताना सर्व नियम योग्य रीतीने वापरले जात नाही आहेत. कृपया आपल्या साइट वरील इतर कुठलेही साइटमॅप प्लजिन्स अथवा कार्यक्रम डिसेबल करा. आणि पर्मालिंक्स रिसेट करा."
+
+#: modules/aioseop_sitemap.php:717
+msgid "view your sitemap"
+msgstr "आपले साइटमॅप पहा"
+
+#: modules/aioseop_sitemap.php:635
+msgid "Update Sitemap"
+msgstr "साइटमॅप अपडेट करा"
+
+#: modules/aioseop_sitemap.php:550
+msgid " Taxonomy"
+msgstr "टेक्सॉनोमी "
+
+#: modules/aioseop_sitemap.php:549
+msgid " Post Type"
+msgstr "पोस्ट प्रकार"
+
+#: modules/aioseop_sitemap.php:548
+msgid "Manually set the frequency for the "
+msgstr "पुढील बाबीसांठी स्वत: वारंवारता तयार करा "
+
+#: modules/aioseop_sitemap.php:547
+msgid "Manually set the priority for the "
+msgstr "पुढील बाबीसांठी स्वत: अग्रक्रम तयार करा"
+
+#: modules/aioseop_sitemap.php:543
+msgid "All Taxonomies"
+msgstr "सर्व टॅक्सोनाॅमीस "
+
+#: modules/aioseop_sitemap.php:542
+msgid "All Post Types"
+msgstr "पोस्ट्सचे सर्व प्रकार "
+
+#: modules/aioseop_sitemap.php:540
+msgid "Media / Attachments"
+msgstr "मीडीया / अटॅचमेंट्स"
+
+#: modules/aioseop_sitemap.php:455
+msgid "Daily scheduled sitemap check has finished."
+msgstr "दररोज करण्याकरीता योजलेले साइटमॅप चेक पूर्ण झाले आहे."
+
+#: modules/aioseop_sitemap.php:432
+msgid "Once Monthly"
+msgstr "महिन्यातून एकदा"
+
+#: modules/aioseop_sitemap.php:428
+msgid "Once Weekly"
+msgstr "हप्त्यातून एकदा"
+
+#: modules/aioseop_sitemap.php:292
+msgid "Frequencies"
+msgstr "वारंवारता "
+
+#: modules/aioseop_sitemap.php:286
+msgid "Priorities"
+msgstr "प्राधान्ये"
+
+#: modules/aioseop_sitemap.php:280
+msgid "Excluded Items"
+msgstr "निष्कसित केलीली आइटम्स"
+
+#: modules/aioseop_sitemap.php:270
+msgid "Excluded Pages"
+msgstr "निष्कसित केलीली पेजेस "
+
+#: modules/aioseop_sitemap.php:266
+msgid "Excluded Categories"
+msgstr "निष्कसित केलीली केटेगरीस"
+
+#: modules/aioseop_sitemap.php:256
+msgid "Add URL"
+msgstr "यू.आर.एल. अॅड करा."
+
+#: modules/aioseop_sitemap.php:249 modules/aioseop_sitemap.php:274
+msgid "Additional Pages"
+msgstr "अतिरिक्त पृष्ठे"
+
+#: modules/aioseop_sitemap.php:242
+msgid "Last Modified"
+msgstr "शेवटी बदल केलेत"
+
+#: modules/aioseop_sitemap.php:235
+msgid "Page Frequency"
+msgstr "पेज वारंवारता "
+
+#: modules/aioseop_sitemap.php:228
+msgid "Page Priority"
+msgstr "पेज प्राधान्य "
+
+#: modules/aioseop_sitemap.php:222
+msgid "Page URL"
+msgstr "पेज यू.आर.एल. "
+
+#: modules/aioseop_sitemap.php:216
+msgid "Enter information below for any additional links for your sitemap not already managed through WordPress."
+msgstr "साइटमॅप करिता कुठल्याही अतिरिक्त लिंकस (ज्या आपल्या वर्डप्रेस मध्ये पुर्वीपासून मॅनेज्ड नाहीत) साठी खाली माहिती भरा."
+
+#: modules/aioseop_sitemap.php:202
+msgid "Manually set the %1$s of your %2$s."
+msgstr ""
+
+#: modules/aioseop_sitemap.php:190
+msgid "author pages"
+msgstr "लेखकांची पेजेस"
+
+#: modules/aioseop_sitemap.php:189
+msgid "archive pages"
+msgstr "संग्रहीत पेजेस"
+
+#: modules/aioseop_sitemap.php:188
+msgid "taxonomies"
+msgstr "टॅक्सोनाॅमीस "
+
+#: modules/aioseop_sitemap.php:187
+msgid "posts"
+msgstr "पोस्ट्स"
+
+#: modules/aioseop_sitemap.php:186
+msgid "homepage"
+msgstr "होमपेज"
+
+#: modules/aioseop_sitemap.php:179
+msgid "frequency"
+msgstr "वारंवारता"
+
+#: modules/aioseop_sitemap.php:178
+msgid "priority"
+msgstr "प्राधान्य"
+
+#: modules/aioseop_sitemap.php:165
+msgid "Select Individual"
+msgstr "व्यक्ती निवडा"
+
+#: modules/aioseop_sitemap.php:164
+msgid "Do Not Override"
+msgstr "अधिलिखित करण्यापासून टाळा."
+
+#: modules/aioseop_sitemap.php:148
+msgid "Sitemap Status"
+msgstr "साइटमॅप स्थिती"
+
+#: modules/aioseop_sitemap.php:137
+msgid "Dynamically Generate Sitemap"
+msgstr "डायनॅमिक पद्धतीने साइटमॅप निर्माण करा."
+
+#: modules/aioseop_sitemap.php:133
+msgid "Link From Virtual Robots.txt"
+msgstr "वर्चुयल Robots.txt फाइल पासूनची लिंक "
+
+#: modules/aioseop_sitemap.php:129
+msgid "Create Compressed Sitemap"
+msgstr "कंप्रेस्ड साइटमॅप बनवा"
+
+#: modules/aioseop_sitemap.php:126
+msgid "Include Author Pages"
+msgstr "लेखक पृष्ठे समाविष्ट करा"
+
+#: modules/aioseop_sitemap.php:125
+msgid "Include Date Archive Pages"
+msgstr "तारीख संग्रहण पृष्ठे समाविष्ट करा"
+
+#: modules/aioseop_sitemap.php:121
+msgid "Taxonomies"
+msgstr "टॅक्सोनाॅमीस"
+
+#: modules/aioseop_sitemap.php:116
+msgid "Post Types"
+msgstr "पोस्ट प्रकार"
+
+#: modules/aioseop_sitemap.php:110
+msgid "Maximum Posts Per Sitemap Page"
+msgstr ""
+
+#: modules/aioseop_sitemap.php:108
+msgid "Enable Sitemap Indexes"
+msgstr "साइटमॅप निर्दशिका सुरू करा."
+
+#: modules/aioseop_sitemap.php:104
+msgid "Monthly"
+msgstr "मासिक"
+
+#: modules/aioseop_sitemap.php:103
+msgid "Weekly"
+msgstr "साप्ताहिक"
+
+#: modules/aioseop_sitemap.php:102
+msgid "Daily"
+msgstr "दैनिक"
+
+#: modules/aioseop_sitemap.php:101
+msgid "No Schedule"
+msgstr "कुठलेही वेळापत्रक नाही"
+
+#: modules/aioseop_sitemap.php:98
+msgid "Schedule Updates"
+msgstr "वेळापत्रकात सुधारणा करा."
+
+#: modules/aioseop_sitemap.php:73
+msgid "Use page slugs or page IDs, seperated by commas, to exclude pages from the sitemap."
+msgstr "पेज स्लग्स अथवा पेज आइडीझ (कॉमावापरुन अलग केलेली) वापरुन साइटमॅप मधून पेजेस निष्कसित करा."
+
+#: modules/aioseop_sitemap.php:72
+msgid "Entries from these categories will be excluded from the sitemap."
+msgstr "ह्या केटेगरीमधून केलेल्या एंट्री, साइटमॅप मध्ये आढळणार नाहीत. "
+
+#: modules/aioseop_sitemap.php:71
+msgid "Last modified date of the page."
+msgstr "पेजमध्ये शेवटी केलेल्या बदलांची तारीख"
+
+#: modules/aioseop_sitemap.php:70
+msgid "The frequency of the page."
+msgstr "पेजेसची वारंवारता"
+
+#: modules/aioseop_sitemap.php:69
+msgid "The priority of the page."
+msgstr "पेजेसचा अग्रक्रम"
+
+#: modules/aioseop_sitemap.php:66
+msgid "Places a link to your Sitemap.xml into your virtual Robots.txt file."
+msgstr "वर्चुयल Robots.txt फाइलमध्ये Sitemap.xml ची लिंक साठवा."
+
+#: modules/aioseop_sitemap.php:65
+msgid "Create a compressed sitemap file in .xml.gz format."
+msgstr "कंप्रेस्ड साइटमॅप फाइल तयार करा. ( .xml, .gz या फॉरमॅट्स मध्ये)"
+
+#: modules/aioseop_sitemap.php:63
+msgid "Include Author Archives in your sitemap."
+msgstr "आपल्या साइटमॅप मध्ये लेखकांचे संग्रह समाविष्ट करा."
+
+#: modules/aioseop_sitemap.php:62
+msgid "Include Date Archives in your sitemap."
+msgstr "आपल्या साइटमॅपसाठी तारीख संग्रह निवडा."
+
+#: modules/aioseop_sitemap.php:61
+msgid "Select which taxonomy archives appear in your sitemap"
+msgstr "आपल्या साइटमॅप मध्ये आपणास हवी असलेली टेक्सॉनोमी आर्काइव्स निवडा. "
+
+#: modules/aioseop_sitemap.php:60
+msgid "Select which Post Types appear in your sitemap."
+msgstr "आपल्या साइटमॅप मध्ये आपणास हवी असलेली पोस्ट्स (प्रकार) निवडा. "
+
+#: modules/aioseop_sitemap.php:59
+msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
+msgstr "आपल्याला साइटमॅप मध्ये अधिकाधिक पोस्टस् निर्देशीत करण्याची अनुमती मिळते. (५०,००० पर्यंत)"
+
+#: modules/aioseop_sitemap.php:58
+msgid "Organize sitemap entries into distinct files in your sitemap. Enable this only if your sitemap contains over 50,000 URLs or the file is over 5MB in size."
+msgstr "साइटमॅप एन्ट्रीझ वेगवेगळ्या फाइल्समधे आयोजित करा. जर आपल्या साइटमॅप मध्ये ५०,०००पेक्षा जास्त यू.आर.एल्. किंवा फाइल साइज़ ५एमबीहून जास्त असल्यास हा विकल्प निवडा."
+
+#: modules/aioseop_sitemap.php:57
+msgid "Notify search engines based on the selected schedule, and also update static sitemap daily if in use. (this uses WP-Cron, so make sure this is working properly on your server as well)"
+msgstr ""
+
+#: modules/aioseop_sitemap.php:47
+msgid "XML Sitemap"
+msgstr "एक्स.एम.एल. साइटमॅप"
+
+#: modules/aioseop_robots.php:92
+msgid "Create a Robots.txt File"
+msgstr "Robots.txt फाइल बनवा."
+
+#: modules/aioseop_robots.php:62
+msgid "Add Rule"
+msgstr "नवीन नियम जोडा."
+
+#: modules/aioseop_robots.php:27 modules/aioseop_robots.php:54
+msgid "Directory Path"
+msgstr "डाइरेक्टरीकडे जाणारा मार्ग"
+
+#: modules/aioseop_robots.php:26 modules/aioseop_robots.php:41
+msgid "User Agent"
+msgstr "वापरकर्ता एजंट"
+
+#: modules/aioseop_robots.php:25
+msgid "Rule Type"
+msgstr "नियम प्रकार "
+
+#: modules/aioseop_performance.php:353
+msgid "Submit"
+msgstr "सबमीट"
+
+#: modules/aioseop_performance.php:352
+msgid "E-mail debug information"
+msgstr "ईमेल डीबगशी निगडीत माहिती"
+
+#: modules/aioseop_performance.php:341
+msgid "Error: please enter an e-mail address before submitting."
+msgstr "त्रुटी: कृपया फॉर्म सबमीट करण्याअगोदर आपला ईमेल आइडी प्रविष्ट करा. "
+
+#: modules/aioseop_performance.php:338
+msgid "Failed to send to %s."
+msgstr "%s ला पाठविण्यात अयशस्वी ठरले आहे."
+
+#: modules/aioseop_performance.php:336
+msgid "Sent to %s."
+msgstr "%s ला पाठविले. "
+
+#: modules/aioseop_performance.php:335
+msgid "SFWD Debug Mail From Site %s."
+msgstr "%s साइट वरुन एस. एफ. डब्ल्यू. डी. डीबग मेल "
+
+#: modules/aioseop_performance.php:300
+msgid "Form submission error: verification check failed."
+msgstr "फॉर्म सबमिशन त्रुटि: वेरिफिकेशन चेक अयशस्वी झाले आहे."
+
+#: modules/aioseop_performance.php:282
+msgid "All in One SEO Pack Pro Debug Info"
+msgstr "ऑल इन वन एस.ई.ओ. पॅक प्रो. डीबग बद्दलची माहिती"
+
+#: modules/aioseop_performance.php:262
+msgid "Active Theme"
+msgstr "सक्रिय थीम "
+
+#: modules/aioseop_performance.php:261
+msgid "Multisite"
+msgstr "मल्टीसाइट "
+
+#: modules/aioseop_performance.php:260
+msgid "WordPress DB Version"
+msgstr "वर्डप्रेस डेटाबेसची आवृत्ती"
+
+#: modules/aioseop_performance.php:259
+msgid "WordPress Version"
+msgstr "वर्डप्रेस ची आवृत्ती"
+
+#: modules/aioseop_performance.php:258
+msgid "Home URL"
+msgstr "होम यू.आर.एल. "
+
+#: modules/aioseop_performance.php:257
+msgid "Site URL"
+msgstr "साइट ची यू.आर.एल. "
+
+#: modules/aioseop_performance.php:256
+msgid "PHP XML support"
+msgstr "पी.एच.पी एक्स.एम.एल. सपोर्ट "
+
+#: modules/aioseop_performance.php:255
+msgid "PHP IPTC support"
+msgstr "पी.एच.पी आइ.पी.टी.सी. सपोर्ट"
+
+#: modules/aioseop_performance.php:254
+msgid "PHP Exif support"
+msgstr "पीएचपी एग्ज़िट सपोर्ट"
+
+#: modules/aioseop_performance.php:253
+msgid "PHP Max Script Execute Time"
+msgstr "पीएचपी स्क्रिप्ट एक्सेक्यूट करिता कमाल वेळ"
+
+#: modules/aioseop_performance.php:252
+msgid "PHP Max Post Size"
+msgstr "पीएचपी पोस्टची कमाल साइज़"
+
+#: modules/aioseop_performance.php:251
+msgid "PHP Max Upload Size"
+msgstr "पीएचपी अपलोडची कमाल साइज़"
+
+#: modules/aioseop_performance.php:250
+msgid "PHP Memory Limit"
+msgstr "पीएचपी मेमोरी लिमिट"
+
+#: modules/aioseop_performance.php:249
+msgid "PHP Allow URL fopen"
+msgstr "पीएचपी यूआरएल ओपन करण्यास अनुमती द्या. "
+
+#: modules/aioseop_performance.php:248
+msgid "PHP Version"
+msgstr "पीएचपी आवृत्ती"
+
+#: modules/aioseop_performance.php:247
+msgid "SQL Mode"
+msgstr "एसक्यूएल मोड"
+
+#: modules/aioseop_performance.php:246
+msgid "MYSQL Version"
+msgstr "मायएसक्यूएल आवृत्ती"
+
+#: modules/aioseop_performance.php:245
+msgid "Memory usage"
+msgstr "मेमोरी यूज़ेज"
+
+#: modules/aioseop_performance.php:244
+msgid "Server"
+msgstr "सर्वर"
+
+#: modules/aioseop_performance.php:243
+msgid "Operating System"
+msgstr "ऑपरेटिंग सिस्टम"
+
+#: modules/aioseop_performance.php:205 modules/aioseop_performance.php:210
+#: modules/aioseop_performance.php:215 modules/aioseop_performance.php:224
+msgid "Yes"
+msgstr "हो"
+
+#: modules/aioseop_performance.php:200
+msgid " MByte"
+msgstr "मेगाबाइटस"
+
+#: modules/aioseop_performance.php:182 modules/aioseop_performance.php:187
+#: modules/aioseop_performance.php:192 modules/aioseop_performance.php:197
+#: modules/aioseop_performance.php:202 modules/aioseop_performance.php:229
+msgid "N/A"
+msgstr "N/A"
+
+#: modules/aioseop_performance.php:177
+msgid "Off"
+msgstr "ऑफ "
+
+#: modules/aioseop_performance.php:175
+msgid "On"
+msgstr "ओन् "
+
+#: modules/aioseop_performance.php:172
+msgid "Not set"
+msgstr "सेट नाही"
+
+#: modules/aioseop_performance.php:87
+msgid "System Status"
+msgstr "सिस्टम स्टेटस"
+
+#: modules/aioseop_performance.php:49
+msgid "No limit"
+msgstr "नो लिमिट"
+
+#: modules/aioseop_performance.php:40
+msgid "Raise execution time"
+msgstr "एक्सेक्यूशन टाइम वाढवा."
+
+#: modules/aioseop_performance.php:32 modules/aioseop_performance.php:44
+msgid "Use the system default"
+msgstr "सिस्टम डिफॉल्ट वापरा."
+
+#: modules/aioseop_performance.php:28
+msgid "Raise memory limit"
+msgstr "मेमोरी लिमिट चा विस्तार करा."
+
+#: modules/aioseop_performance.php:23
+msgid "Use output buffering to ensure that the title gets rewritten. Enable this option if you run into issues with the title tag being set by your theme or another plugin."
+msgstr "शीर्षक पुन्हा नोंदविण्यात आले आहे हे तपासण्यासाठी आउटपुट बफरिंग वापरा. जर टाइटल टॅग कुठल्याही थीम अथवा इतर प्लगिन द्वारा सेट होत आहे अशी समस्या वाटत असल्यास  हा विकल्प वापरा."
+
+#: modules/aioseop_performance.php:22
+msgid "This setting allows you to raise your PHP execution time to a reasonable value."
+msgstr "पीएचपी एक्सेक्यूशन टाइम आपल्याला वाजवी किंमती पर्यंत नेण्यास ही सेटिंग अनुमती देते."
+
+#: modules/aioseop_performance.php:21
+msgid "This setting allows you to raise your PHP memory limit to a reasonable value. Note: WordPress core and other WordPress plugins may also change the value of the memory limit."
+msgstr "पीएचपी मेमोरी लिमिट ची वॅल्यू आपल्याला वाजवी किंमती पर्यंत नेण्यास ही सेटिंग अनुमती देते. सूचना: वर्डप्रेस कोर आणि इतर वर्डप्रेस प्लगिन्स सुद्धा एखाद्यावेळी मेमोरी लिमिट ची किंमत बदलतील. "
+
+#: modules/aioseop_opengraph.php:1553
+msgid "Choose a default value that best describes the content of your post type."
+msgstr "आपल्या पोस्ट टाइपची अचूक वर्णन कॅरणारी डिफॉल्ट किंमत्त निवडा."
+
+#: modules/aioseop_opengraph.php:1546
+msgid "Object Type"
+msgstr "ऑब्जेक्ट टाइप"
+
+#: modules/aioseop_opengraph.php:898
+msgid "Scan your site for duplicate social meta tags."
+msgstr "आपल्या साइट ला ड्यूप्लिकेट सोशल मेटा टॅग्स साठी स्कॅन करा."
+
+#: modules/aioseop_opengraph.php:897
+msgid "Scan Now"
+msgstr "आता स्कॅन करा."
+
+#: modules/aioseop_opengraph.php:750
+msgid "Default "
+msgstr "डिफॉल्ट"
+
+#: modules/aioseop_opengraph.php:611
+msgid "Scan Social Meta"
+msgstr "सोशल मेटा स्कॅन करा."
+
+#: modules/aioseop_opengraph.php:601
+msgid "Twitter Settings"
+msgstr "ट्वीटर सेटिंग्स "
+
+#: modules/aioseop_opengraph.php:586
+msgid "Facebook Settings"
+msgstr "फेसबुक सेटिंग्स"
+
+#: modules/aioseop_opengraph.php:576
+msgid "Image Settings"
+msgstr "प्रतिमे संबंधित सेटिंग्स"
+
+#: modules/aioseop_opengraph.php:545
+msgid "Social Settings"
+msgstr "सोशल सेटिंग्स"
+
+#: modules/aioseop_opengraph.php:494
+msgid "Associated Name"
+msgstr "संबंधित नाव"
+
+#: modules/aioseop_opengraph.php:490
+msgid "Organization"
+msgstr "ऑर्गनाइज़ेशन "
+
+#: modules/aioseop_opengraph.php:489
+msgid "Person"
+msgstr "व्यक्ती "
+
+#: modules/aioseop_opengraph.php:486
+msgid "Person or Organization?"
+msgstr "व्यक्ती अथवा ऑर्गनाइज़ेशन ?"
+
+#: modules/aioseop_opengraph.php:480 modules/aioseop_opengraph.php:581
+msgid "Social Profile Links"
+msgstr "सोशल प्रोफाइल लिंक्स"
+
+#: modules/aioseop_opengraph.php:477
+msgid "Show Facebook Author on Articles"
+msgstr "आर्टिकल्स वर फेसबुक ओथर दाखवा."
+
+#: modules/aioseop_opengraph.php:472
+msgid "Show Facebook Publisher on Articles"
+msgstr "आर्टिकल्स वर फेसबुक पब्लिशर दाखवा."
+
+#: modules/aioseop_opengraph.php:466
+msgid "Article Tags"
+msgstr "आर्टिकल टॅग्स"
+
+#: modules/aioseop_opengraph.php:460
+msgid "Article Section"
+msgstr "आर्टिकल सेक्शन"
+
+#: modules/aioseop_opengraph.php:1739
+msgid "Debug This Post"
+msgstr "ही पोस्ट डीबग करा."
+
+#: modules/aioseop_opengraph.php:454
+msgid "Facebook Debug"
+msgstr "फेसबुक डीबग"
+
+#: modules/aioseop_opengraph.php:419
+msgid "Use Post Tags In Article Tags"
+msgstr "आर्टिकल टॅग्स मधे पोस्ट टॅग्स वापरा."
+
+#: modules/aioseop_opengraph.php:414
+msgid "Use Categories In Article Tags"
+msgstr "आर्टिकल टॅग्स मधे केटेगरीस वापरा."
+
+#: modules/aioseop_opengraph.php:409
+msgid "Use Keywords In Article Tags"
+msgstr "आर्टिकल टॅग्स मधे की-वर्ड्स वापरा."
+
+#: modules/aioseop_opengraph.php:406
+msgid "Automatically Generate Article Tags"
+msgstr "आर्टिकल टॅग्स स्वयं निर्माण होऊ द्या."
+
+#: modules/aioseop_opengraph.php:397
+msgid "Twitter Domain"
+msgstr "ट्वीटर डोमेन"
+
+#: modules/aioseop_opengraph.php:394
+msgid "Show Twitter Author"
+msgstr "ट्वीटर ओथर दाखवा."
+
+#: modules/aioseop_opengraph.php:389
+msgid "Twitter Site"
+msgstr "ट्वीटर साइट"
+
+#: modules/aioseop_opengraph.php:376
+msgid "Twitter Card Type"
+msgstr "ट्वीटर कार्ड प्रकार"
+
+#: modules/aioseop_opengraph.php:367 modules/aioseop_opengraph.php:379
+msgid "Summary Large Image"
+msgstr "सारांश (मोठी प्रतिमा) "
+
+#: modules/aioseop_opengraph.php:366 modules/aioseop_opengraph.php:380
+msgid "Summary"
+msgstr "सारांश"
+
+#: modules/aioseop_opengraph.php:362
+msgid "Default Twitter Card"
+msgstr "ट्वीटर कार्ड"
+
+#: modules/aioseop_opengraph.php:350
+msgid "Specify Video Height"
+msgstr "वीडियोची उंची ठरवा."
+
+#: modules/aioseop_opengraph.php:338
+msgid "Specify Video Width"
+msgstr "वीडियोची रुंदी ठरवा."
+
+#: modules/aioseop_opengraph.php:334
+msgid "Custom Video"
+msgstr "कस्टम वीडियो"
+
+#: modules/aioseop_opengraph.php:329
+msgid "Specify Image Height"
+msgstr "प्रतिमेची उंची ठरवा "
+
+#: modules/aioseop_opengraph.php:324
+msgid "Specify Image Width"
+msgstr "प्रतिमेची रुंदी ठरवा "
+
+#: modules/aioseop_opengraph.php:320
+msgid "Custom Image"
+msgstr "कस्टम इमेज"
+
+#: modules/aioseop_opengraph.php:313
+msgid "Image"
+msgstr "प्रतिमा"
+
+#: modules/aioseop_opengraph.php:447
+msgid "Facebook Object Type"
+msgstr "फेसबुक ऑब्जेक्ट टाइप"
+
+#: modules/aioseop_opengraph.php:308
+msgid "Use Custom Field For Image"
+msgstr "प्रतिमेसाठी कस्टम फील्ड वापरा."
+
+#: modules/aioseop_opengraph.php:303
+msgid "Default Image Height"
+msgstr "प्रतिमेची उंची (डिफॉल्ट)"
+
+#: modules/aioseop_opengraph.php:298
+msgid "Default Image Width"
+msgstr "प्रतिमेची रुंदी (डिफॉल्ट)"
+
+#: modules/aioseop_opengraph.php:293
+msgid "Default OG:Image"
+msgstr "डिफॉल्ट ओजी: इमेज"
+
+#: modules/aioseop_opengraph.php:289
+msgid "Use Default If No Image Found"
+msgstr "साधारण प्रतिमा वापरा (कुठलीही प्रतिमा न मिळाल्यास)"
+
+#: modules/aioseop_opengraph.php:285
+msgid "First Available Image"
+msgstr "पहिली उपलब्ध प्रतिमा"
+
+#: modules/aioseop_opengraph.php:284
+msgid "Post Author Image"
+msgstr "ओथर ची प्रतिमा पोस्ट करा."
+
+#: modules/aioseop_opengraph.php:283
+msgid "Image From Custom Field"
+msgstr "कस्टम फील्ड मधील प्रतिमा"
+
+#: modules/aioseop_opengraph.php:282
+msgid "First Image In Content"
+msgstr "कॉंटेंट मधली पहिली प्रतिमा (इमेज)"
+
+#: modules/aioseop_opengraph.php:281
+msgid "First Attached Image"
+msgstr "सर्व प्रथम साठवलेली प्रतिमा"
+
+#: modules/aioseop_opengraph.php:280
+msgid "Featured Image"
+msgstr "वैशिष्ट्यीकृत प्रतिमा"
+
+#: modules/aioseop_opengraph.php:279
+msgid "Default Image"
+msgstr "डीफॉल्ट प्रतिमा"
+
+#: modules/aioseop_opengraph.php:276
+msgid "Select OG:Image Source"
+msgstr "ओजी निवडा: इमेज सोर्स"
+
+#: modules/aioseop_opengraph.php:268
+msgid "Home Image"
+msgstr "होम इमेज"
+
+#: modules/aioseop_opengraph.php:256
+msgid "Home Description"
+msgstr "होमचे वर्णन"
+
+#: modules/aioseop_opengraph.php:244
+msgid "Home Title"
+msgstr "होमचे शीर्षक"
+
+#: modules/aioseop_opengraph.php:239
+msgid "Site Name"
+msgstr "साइटचे नाव"
+
+#: modules/aioseop_opengraph.php:236
+msgid "Run Shortcodes In Description"
+msgstr "वर्णन करताना शॉर्टकोड वापरा. "
+
+#: modules/aioseop_opengraph.php:233
+msgid "Run Shortcodes In Title"
+msgstr "शीर्षकात शॉर्टकोड वापरा. "
+
+#: modules/aioseop_opengraph.php:219
+msgid "Use AIOSEO Title and Description"
+msgstr "एआइओएसईओ स्वरुपात शीर्षक आणि वर्णन वापरा."
+
+#: modules/aioseop_opengraph.php:214
+msgid "Scan Header"
+msgstr "हेडर स्कॅन करा. "
+
+#: modules/aioseop_opengraph.php:210
+msgid " characters. Open Graph allows up to a maximum of %1$s chars for the %2$s."
+msgstr ""
+
+#: modules/aioseop_opengraph.php:130
+msgid "Add the name of the person or organization who owns these profiles."
+msgstr "ह्या प्रोफाइल ओनर चे नाव अथवा कंपनीचे नाव येथे साठवा. "
+
+#: modules/aioseop_opengraph.php:129
+msgid "Add URLs for your website's social profiles here (Facebook, Twitter, Google+, Instagram, LinkedIn), one per line."
+msgstr "आपल्या साइट्स च्या सोशल प्रोफाइल यूआरएल्स येथे साठवा. (फेसबुक, ट्वीटर, गूगल+, इनस्टाग्रॅम, लिंक्डइन) एका ओळीत एक. "
+
+#: modules/aioseop_opengraph.php:128
+msgid "Are the social profile links for your website for a person or an organization?"
+msgstr "ह्या सोशल प्रोफाइल लिंक्स आपल्या वेबसाइट करिता आहेत का? (व्यक्ती अथवा कंपनी संबंधी)"
+
+#: modules/aioseop_opengraph.php:127
+msgid "Allows your authors to be identified by their Facebook pages as content authors on the Opengraph meta for their articles."
+msgstr "ओपन ग्राफ मेटा मध्ये असलेल्या आर्टिकल्स साठी आपल्या ब्लॉग लेखकांना त्यांचे फेसबुक पेजेस वर कॉंटेंट ओथर म्हणून आपली ओळख दाखविण्याची अनुमती द्या."
+
+#: modules/aioseop_opengraph.php:126
+msgid "Link articles to the Facebook page associated with your website."
+msgstr "आपल्या वेबसाइट संबंधी आर्टिकल्स फेसबुक पेजसोबत लिंक करा. "
+
+#: modules/aioseop_opengraph.php:125
+msgid "This Open Graph meta allows you to add a list of keywords that best describe this content."
+msgstr "हे ओपन ग्राफ मेटा आपल्याला कॉंटेंट चे अचूक वर्णन करणारे की-वर्ड्सची लिस्ट बनवण्यास अनुमती देते. "
+
+#: modules/aioseop_opengraph.php:124
+msgid "This Open Graph meta allows you to add a general section name that best describes this content."
+msgstr "हे ओपन ग्राफ मेटा आपल्याला कॉंटेंट चे अचूक वर्णन करणारे सामान्य (प्रकाराप्रमाणे) शीर्षक देण्यास अनुमती देते. "
+
+#: modules/aioseop_opengraph.php:123
+msgid "Press this button to have Facebook re-fetch and debug this page."
+msgstr "फेसबुक री-फेच आणि पेज डीबग करण्यासाठी हे बॅटन दाबा. "
+
+#: modules/aioseop_opengraph.php:122
+msgid "Select the Open Graph type that best describes the content of this Page or Post."
+msgstr "ओपन ग्राफ प्रकार निवडा (जो आपल्या पेज / पोस्टच्या कॉंटेंटला सूट होतो.)"
+
+#: modules/aioseop_opengraph.php:121
+msgid "This is the Open Graph description of this Page or Post."
+msgstr "हे या पोस्ट/ पेज चे ओपन ग्राफ वर्णन आहे."
+
+#: modules/aioseop_opengraph.php:120
+msgid "This is the Open Graph title of this Page or Post."
+msgstr "हे या पोस्ट/ पेज चे ओपन ग्राफ शीर्षक आहे."
+
+#: modules/aioseop_opengraph.php:119
+msgid "Select which Post Types you want to use All in One SEO Pack to set Open Graph meta values for."
+msgstr "आपल्याला ऑल इन वन एस.ई.ओ. पॅक मधे ओपन ग्राफ मेटा वॅल्यू सेट करण्याकरिता कुठले पोस्ट्स वापरायचे आहेत ते सेट करा."
+
+#: modules/aioseop_opengraph.php:118
+msgid "Use post tags in generated article tags."
+msgstr "निर्मित आर्टिकल टॅग्स मधे पोस्ट टॅग्स वापरा."
+
+#: modules/aioseop_opengraph.php:117
+msgid "Use categories in generated article tags."
+msgstr ""
+
+#: modules/aioseop_opengraph.php:116
+msgid "Use keywords in generated article tags."
+msgstr "निर्मित आर्टिकल टॅग्स मधे की-वर्ड्स वापरा."
+
+#: modules/aioseop_opengraph.php:115
+msgid "Automatically generate article tags for Facebook type article when not provided."
+msgstr "फेसबुक संबंधी आर्टिकल टॅग्स स्वयंम निर्माण करा (जेव्हा उपलब्ध नसतील तेव्हा)"
+
+#: modules/aioseop_opengraph.php:113
+msgid "Enter the name of your website here."
+msgstr "आपल्या वेबसाइटचे नाव येथे टाइप करा."
+
+#: modules/aioseop_opengraph.php:112
+msgid "Allows your authors to be identified by their Twitter usernames as content creators on the Twitter cards for their posts."
+msgstr "आपल्या लेखकांना त्यांचे ट्वीटर वरील यूज़र नेम वापरण्यास अनुमती मिळते. (जे लेखक आपले कॉंटेंट बनवतात त्यांच्या ट्वीटर कार्ड्स वर ही पोस्ट दिसेल.)"
+
+#: modules/aioseop_opengraph.php:111
+msgid "Enter the Twitter username associated with your website here."
+msgstr "आपल्या वेबसाइट शी संबंधी ट्वीटर यूज़रनेम येथे लिहा. "
+
+#: modules/aioseop_opengraph.php:109
+msgid "Select the default type of Twitter Card to display."
+msgstr ""
+
+#: modules/aioseop_opengraph.php:108
+msgid "Enter the height for your Open Graph video in pixels (i.e. 600)."
+msgstr "ओपन ग्राफ वीडियो ची उंची ठरवा. (जसे ६००)"
+
+#: modules/aioseop_opengraph.php:107
+msgid "Enter the width for your Open Graph video in pixels (i.e. 600)."
+msgstr "ओपन ग्राफ वीडियो ची रुंदी ठरवा. (जसे ६००) "
+
+#: modules/aioseop_opengraph.php:106
+msgid "This option lets you specify a link to the Open Graph video used on this Page or Post."
+msgstr "हा ओप्शन आपल्याला लिंक देण्याचा पर्याय देतो ज्यामुळे पेज अथवा पोस्ट वॉर ओपन ग्राफ वीडियो सुरू करता येईल."
+
+#: modules/aioseop_opengraph.php:105
+msgid "Enter the height for your Open Graph image in pixels (i.e. 600)."
+msgstr "ओपन ग्राफ इमेज ची उंची ठरवा. (जसे ६००)"
+
+#: modules/aioseop_opengraph.php:104
+msgid "Enter the width for your Open Graph image in pixels (i.e. 600)."
+msgstr "ओपन ग्राफ इमेज ची रुंदी ठरवा. (जसे ६००)"
+
+#: modules/aioseop_opengraph.php:103
+msgid "This option lets you upload an image to use as the Open Graph image for this Page or Post."
+msgstr "हा ओप्शन आपल्याला इमेज अपलोड करण्याकरताचा पर्याय देईल जे ओपन ग्राफ इमेज असेल ह्या पेज अथवा पोस्ट साठी. "
+
+#: modules/aioseop_opengraph.php:102
+msgid "This option lets you select the Open Graph image that will be used for this Page or Post, overriding the default settings."
+msgstr "हा ओप्शन आपल्याला ओपन ग्राफ इमेज निवडण्याचा पर्याय देईल जे पेज अथवा पोस्ट साठी वापरु शकतात.  ह्यात साधारण सेटिंग्स अधिलिखित केल्या जातात. "
+
+#: modules/aioseop_opengraph.php:101
+msgid "Enter the name of a custom field (or multiple field names separated by commas) to use that field to specify the Open Graph image on Pages or Posts."
+msgstr "कस्टम फील्ड चे शीर्षक रचा. (किंवा मल्टिपल फील्ड्स शीर्षके कॉमाने स्वतंत्र केलेली) याचा वापर फील्ड च्या मदतीने पेजेस अथवा पोस्ट्स वर ओपन ग्राफ इमेज ठरवण्यास होतो."
+
+#: modules/aioseop_opengraph.php:100
+msgid "This option lets you set a default height for your images, where unspecified."
+msgstr "इमेजची साधारण उंची ठरवण्यास हा ओप्शन उपयोगी ठरतो. (जेव्हा निर्देशीत केलेले नसेल तेव्हा)"
+
+#: modules/aioseop_opengraph.php:99
+msgid "This option lets you set a default width for your images, where unspecified."
+msgstr "इमेजची साधारण रुंदी ठरवण्यास हा ओप्शन उपयोगी ठरतो. (जेव्हा निर्देशीत केलेले नसेल तेव्हा)"
+
+#: modules/aioseop_opengraph.php:98
+msgid "This option sets a default image that can be used for the Open Graph image. You can upload an image, select an image from your Media Library or paste the URL of an image here."
+msgstr "आपण ओपन ग्राफ इमेज म्हणून कुठले इमेज वापरले आहे हे ठरवते.  आपण इमेज अपलोड करू शकतात, मीडीया लाइब्ररी तून निवडू शकतात अथवा इमेज यूआरएल् येथे पोस्ट करू शकतात. "
+
+#: modules/aioseop_opengraph.php:97
+msgid "This option lets you fall back to the default image if no image could be found above."
+msgstr "हा ओप्शन आपल्याला पूर्ववत सेट असलेल्या इमेज कडे नेऊन सोडतो. जर वर कुठलेही नवीन इमेज आढळले नाही तर हा ओप्शन यूज़ होतो. "
+
+#: modules/aioseop_opengraph.php:96
+msgid "This option lets you choose which image will be displayed by default for the Open Graph image. You may override this on individual posts."
+msgstr "हा ओप्शन आपल्याला ओपन ग्राफ इमेज म्हणून कुठली इमेज वापरावी हे निवडायला मुभा देते. आपण हे उरलेल्या पोस्ट्स वर अधिलिखित करू शकतात."
+
+#: modules/aioseop_opengraph.php:94
+msgid "The Home Image is the Open Graph image for your home page."
+msgstr "होम इमेज हे होमपेज चे ओपन ग्राफ इमेज आहे.  "
+
+#: modules/aioseop_opengraph.php:93
+msgid "The Home Description is the Open Graph description for your home page."
+msgstr "होम डिस्क्रिप्शन हे होमपेज चे ओपन ग्राफ डिस्क्रिप्शन आहे.  "
+
+#: modules/aioseop_opengraph.php:92
+msgid "The Home Title is the Open Graph title for your home page."
+msgstr "होम टाइटल हे होमपेज चे ओपन ग्राफ टाइटल आहे.  "
+
+#: modules/aioseop_opengraph.php:91
+msgid "The Site Name is the name that is used to identify your website."
+msgstr "साइट शीर्षक हे आपली वेबसाइट ओळखण्याचे माध्यम आहे. "
+
+#: modules/aioseop_opengraph.php:90
+msgid "Run shortcodes that appear in social description meta tags."
+msgstr "सोशल डिस्क्रिप्शन मेटा टॅग्स मध्ये येणारे शॉर्टकोड्स वापरा."
+
+#: modules/aioseop_opengraph.php:89
+msgid "Run shortcodes that appear in social title meta tags."
+msgstr "सोशल टाइटल मेटा टॅग्स मध्ये येणारे शॉर्टकोड्स वापरा."
+
+#: modules/aioseop_opengraph.php:86
+msgid "Checking this box will use the Home Title and Home Description set in All in One SEO Pack, General Settings as the Open Graph title and description for your home page."
+msgstr "हा बॉक्स टिक केल्यास ऑल इन वन एस.ई.ओ. पॅक मधले होम टाइटल आणि होम डिस्क्रिप्शन सेट सक्रिय होतील. ओपन ग्राफ टाइटल (शीर्षकासाठी) साठी जनरल सेटिंग्स आणि होम पेज करिता डिस्क्रिप्शन."
+
+#: modules/aioseop_opengraph.php:80
+msgid "Website"
+msgstr "वेबसाइट"
+
+#: modules/aioseop_opengraph.php:79
+msgid "Blog"
+msgstr "ब्लॉग "
+
+#: modules/aioseop_opengraph.php:78
+msgid "Article"
+msgstr "लेख "
+
+#: modules/aioseop_opengraph.php:75
+msgid "Episode"
+msgstr " भाग "
+
+#: modules/aioseop_opengraph.php:74
+msgid "TV Show"
+msgstr "टी व्ही कार्यक्रम"
+
+#: modules/aioseop_opengraph.php:73
+msgid "Song"
+msgstr " गाणे "
+
+#: modules/aioseop_opengraph.php:72
+msgid "Product"
+msgstr "उत्पादन"
+
+#: modules/aioseop_opengraph.php:71
+msgid "Movie"
+msgstr "चित्रपट "
+
+#: modules/aioseop_opengraph.php:70
+msgid "Game"
+msgstr " खेळ"
+
+#: modules/aioseop_opengraph.php:69
+msgid "Food"
+msgstr "अन्न"
+
+#: modules/aioseop_opengraph.php:68
+msgid "Drink"
+msgstr "पेय "
+
+#: modules/aioseop_opengraph.php:67
+msgid "Book"
+msgstr "पुस्तक "
+
+#: modules/aioseop_opengraph.php:66
+msgid "Album"
+msgstr " अल्बम "
+
+#: modules/aioseop_opengraph.php:63
+msgid "State Province"
+msgstr " राज्य प्रांत"
+
+#: modules/aioseop_opengraph.php:62
+msgid "Landmark"
+msgstr "लॅंडमार्क"
+
+#: modules/aioseop_opengraph.php:61
+msgid "Country"
+msgstr "देश "
+
+#: modules/aioseop_opengraph.php:60
+msgid "City"
+msgstr "शहर "
+
+#: modules/aioseop_opengraph.php:57
+msgid "Public Figure"
+msgstr "पब्लिक फिगर"
+
+#: modules/aioseop_opengraph.php:56
+msgid "Profile"
+msgstr " प्रोफाइल "
+
+#: modules/aioseop_opengraph.php:55
+msgid "Politician"
+msgstr "राजकारणी"
+
+#: modules/aioseop_opengraph.php:54
+msgid "Musician"
+msgstr "संगीतकार "
+
+#: modules/aioseop_opengraph.php:53
+msgid "Director"
+msgstr " संचालक "
+
+#: modules/aioseop_opengraph.php:52
+msgid "Author"
+msgstr "लेखक"
+
+#: modules/aioseop_opengraph.php:51
+msgid "Athlete"
+msgstr "क्रीडापटू"
+
+#: modules/aioseop_opengraph.php:50
+msgid "Actor"
+msgstr "अभिनेता "
+
+#: modules/aioseop_opengraph.php:47
+msgid "University"
+msgstr "विद्यापीठ "
+
+#: modules/aioseop_opengraph.php:46
+msgid "School"
+msgstr "शाळा "
+
+#: modules/aioseop_opengraph.php:45
+msgid "Non Profit"
+msgstr "नॉन प्रॉफिट"
+
+#: modules/aioseop_opengraph.php:44
+msgid "Government"
+msgstr "सरकार "
+
+#: modules/aioseop_opengraph.php:43
+msgid "Band"
+msgstr "बॅण्ड"
+
+#: modules/aioseop_opengraph.php:40
+msgid "Sports Team"
+msgstr "क्रीडा संघ"
+
+#: modules/aioseop_opengraph.php:39
+msgid "Sports League"
+msgstr " स्पोर्ट्स लीग"
+
+#: modules/aioseop_opengraph.php:38
+msgid "Cause"
+msgstr "हेतू"
+
+#: modules/aioseop_opengraph.php:35
+msgid "Restaurant"
+msgstr "रेस्टॉरन्ट "
+
+#: modules/aioseop_opengraph.php:34
+msgid "Hotel"
+msgstr "हॉटेल"
+
+#: modules/aioseop_opengraph.php:33
+msgid "Cafe"
+msgstr "कॅफे "
+
+#: modules/aioseop_opengraph.php:32
+msgid "Company"
+msgstr "कंपनी "
+
+#: modules/aioseop_opengraph.php:31
+msgid "Bar"
+msgstr "बार "
+
+#: modules/aioseop_opengraph.php:28
+msgid "Sport"
+msgstr "क्रीडा"
+
+#: modules/aioseop_opengraph.php:27
+msgid "Activity"
+msgstr "अॅक्टिविटी"
+
+#: admin/aioseop_module_class.php:2659
+msgid "Update Options"
+msgstr "ओप्शन अपडेट करा. "
+
+#: admin/aioseop_module_class.php:2583
+msgid "All in One SEO Options Updated."
+msgstr "ऑल इन वन एस.ई.ओ.ओप्शन अपडेट करण्यात आला आहे."
+
+#: admin/aioseop_module_class.php:2574
+msgid "Options Reset."
+msgstr "ओप्शन रिसेट करा."
+
+#: admin/aioseop_module_class.php:2571 modules/aioseop_sitemap.php:967
+msgid "Security Check - If you receive this in error, log out and back in to WordPress"
+msgstr "सेक्यूरिटी चेक: आपणास ह्या पद्धतीचा एरर दिसत असल्यास वर्डप्रेस लोग आउट करून पुन्हा लोग इन करा."
+
+#: admin/aioseop_module_class.php:2346
+msgid "Click for Help!"
+msgstr "मदतीसाठी क्लिक करा!"
+
+#: admin/aioseop_module_class.php:2307
+msgid " characters. Most search engines use a maximum of %1$s chars for the %2$s."
+msgstr ""
+
+#: admin/aioseop_module_class.php:1695
+msgid "Click here for documentation on this setting"
+msgstr "सध्या कुठलेही मोड्यूल्स लोड नाही आहेत"
+
+#: modules/aioseop_importer_exporter.php:518
+#: modules/aioseop_performance.php:318
+msgid "Settings export file for All in One SEO Pack"
+msgstr "ऑल इन वन एस.ई.ओ. पॅक करता सेटिंग्स एक्सपोर्ट फाइल"
+
+#: modules/aioseop_importer_exporter.php:464
+msgid "<b>Warning:</b> This following post could not be found: <b>\"%s\"</b>"
+msgstr "<b>सूचना:</b>उल्लेख केलेली पोस्ट कुठेही मिळाली नाही: <b>\"%s\"</b>"
+
+#: modules/aioseop_importer_exporter.php:415
+msgid "<b>Warning:</b> Line not matched: <b>\"%1$s\"</b>, On Line: <b>%2$s</b>"
+msgstr ""
+
+#: modules/aioseop_importer_exporter.php:156
+msgid ""
+"You may change this by activating or deactivating\n"
+"\t\t\t\t\t\tmodules in the Feature Manager."
+msgstr ""
+
+#: modules/aioseop_importer_exporter.php:149
+msgid "There are no other modules currently loaded!"
+msgstr "सध्या कुठलेही मोड्यूल्स लोड नाही आहेत"
+
+#: modules/aioseop_importer_exporter.php:115
+msgid "Export"
+msgstr "एक्सपोर्ट"
+
+#: modules/aioseop_importer_exporter.php:64
+msgid ""
+"Note: If General Settings is checked, the\n"
+"\t\t\t\t\t\t\t\tGeneral Settings, the Feature Manager settings,\n"
+"\t\t\t\t\t\t\t\tand the following currently active modules will\n"
+"\t\t\t\t\t\t\t\thave their settings data exported:"
+msgstr ""
+
+#: modules/aioseop_importer_exporter.php:51
+msgid "Export Post Types:"
+msgstr "एक्सपोर्ट पोस्ट टाइपस:"
+
+#: modules/aioseop_importer_exporter.php:43
+msgid "Export Settings"
+msgstr "एक्सपोर्ट सेट्टिंग्स"
+
+#: modules/aioseop_importer_exporter.php:37
+#: modules/aioseop_importer_exporter.php:105
+msgid "Import"
+msgstr "इम्पोर्ट"
+
+#: modules/aioseop_importer_exporter.php:29
+msgid "Select which Post Types you want to export your All in One SEO Pack meta data for.<br /><a href='https://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr ""
+
+#: modules/aioseop_importer_exporter.php:25
+msgid "You may choose to export settings from active modules, and content from post data.<br /><a href='https://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr ""
+
+#: modules/aioseop_importer_exporter.php:21
+msgid "Select a valid All in One SEO Pack ini file and click 'Import' to import options from a previous state or install of All in One SEO Pack.<br /><a href='https://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr ""
+
+#: inc/aioseop_functions.php:872
+msgid "Facebook"
+msgstr "फेसबुक"
+
+#: inc/aioseop_functions.php:869
+msgid "Twitter"
+msgstr "ट्वीटर"
+
+#: inc/aioseop_functions.php:863
+msgid "Google+"
+msgstr "गूगल+"
+
+#: inc/aioseop_functions.php:620
+msgid "Please refer to the document for each tool for help in using these to debug your social meta."
+msgstr "कृपया आपले सोशल मेटा डीबग करण्यासाठी जे टूल्स मदत करतात त्याच्या माहितीसाठी डॉक्युमेंट रेफर करा."
+
+#: inc/aioseop_functions.php:610
+msgid "You should avoid duplicate social meta tags. You can use these free tools from Facebook and Twitter to validate your social meta and check for errors:"
+msgstr ""
+
+#: inc/aioseop_functions.php:609
+msgid "You may prefer to use the social meta tags that are being output by the other plugin(s) or theme. If so, then you should deactivate this Social Meta feature in All in One SEO Pack Feature Manager."
+msgstr ""
+
+#: inc/aioseop_functions.php:608
+msgid "All in One SEO Pack has detected that a plugin(s) or theme is also outputting social meta tags on your site. You can view this social meta in the source code of your site (check your browser help for instructions on how to view source code)."
+msgstr ""
+
+#: inc/aioseop_functions.php:607
+msgid "What Does This Mean?"
+msgstr "याचा अर्थ काय होतो?"
+
+#: inc/aioseop_functions.php:604
+msgid "No duplicate meta tags found."
+msgstr "ड्यूप्लिकेट मेटा टॅग्स मिळाले नाहीत."
+
+#: inc/aioseop_functions.php:595
+msgid "Duplicate %s Meta"
+msgstr "ड्यूप्लिकेट %s मेटा"
+
+#: inc/aioseop_functions.php:531
+msgid "Row %s not found; no rows were deleted."
+msgstr "रो %s आढळले नाहीत; रो डेलीट केले नाही. "
+
+#: inc/aioseop_functions.php:404
+msgid "Unauthorized access; try reloading the page."
+msgstr "अनधिकृत प्रवेश; पेज पुन्हा रिलोड करा."
+
+#: inc/aioseop_functions.php:379 inc/aioseop_functions.php:765
+#: modules/aioseop_performance.php:207 modules/aioseop_performance.php:212
+#: modules/aioseop_performance.php:217 modules/aioseop_performance.php:226
+msgid "No"
+msgstr "नाही"
+
+#: inc/aioseop_functions.php:272
+msgid "Insert time"
+msgstr "वेळ सेट करा"
+
+#: inc/aioseop_functions.php:271
+msgid "Revisions"
+msgstr "उजळणी"
+
+#: inc/aioseop_functions.php:270
+msgid "Slug may not be empty!"
+msgstr "स्लग बहुतांश रिकामा नाही. "
+
+#: inc/aioseop_functions.php:269
+msgid "Please wait..."
+msgstr "कृपया थांबा..."
+
+#: inc/aioseop_functions.php:267
+msgid "Cancel"
+msgstr "रद्द करा."
+
+#: inc/aioseop_functions.php:266
+msgid "Save"
+msgstr "सेव"
+
+#: inc/aioseop_functions.php:265
+msgid "Post"
+msgstr "पोस्ट"
+
+#: inc/aioseop_functions.php:264 inc/aioseop_functions.php:383
+#: inc/aioseop_functions.php:769
+msgid "Edit"
+msgstr "एडिट"
+
+#: inc/aioseop_functions.php:193
+msgid "SEO Keywords"
+msgstr "एस.ई.ओ. की-वर्ड्स"
+
+#: inc/aioseop_functions.php:191
+msgid "SEO Description"
+msgstr "एस.ई.ओ. वर्णन"
+
+#: inc/aioseop_functions.php:190
+msgid "SEO Title"
+msgstr "एस.ई.ओ. शीर्षक"
+
+#: modules/aioseop_file_editor.php:86
+msgid "Update .htaccess"
+msgstr " .htaccess अपडेट करा. "
+
+#: modules/aioseop_file_editor.php:49
+msgid ".htaccess"
+msgstr ".htaccess"
+
+#: modules/aioseop_file_editor.php:33 modules/aioseop_file_editor.php:54
+msgid "Edit .htaccess"
+msgstr ".htaccess एडिट करा."
+
+#: modules/aioseop_file_editor.php:29
+msgid ".htaccess editor"
+msgstr ".htaccess एडिटर "
+
+#. translators: this button deactivates all active modules of the plugin.
+#: modules/aioseop_feature_manager.php:169
+msgid "Reset Features"
+msgstr "सगळी फीचर्स रिसेट करा."
+
+#: modules/aioseop_feature_manager.php:166
+msgid "Update Features"
+msgstr "फीचर्स अपडेट करा"
+
+#. translators: the Video Sitemap module allows users to generate a sitemap
+#. with video content in .xml format 					for their website and submit it to
+#. search engines such as Google, Bing and Yahoo.
+#: inc/commonstrings.php:21 modules/aioseop_feature_manager.php:86
+#: modules/aioseop_feature_manager.php:93
+msgid "Video Sitemap"
+msgstr "वीडियो साइटमॅप"
+
+#. translators: this refers to a feature that will be launched in the near
+#. future.
+#: modules/aioseop_feature_manager.php:78
+msgid "Coming Soon..."
+msgstr "लवकरच येत आहे."
+
+#: modules/aioseop_feature_manager.php:57
+msgid "Exports and imports your All in One SEO Pack plugin settings."
+msgstr "ऑल इन वन एस.ई.ओ. प्लगिन सेटिंग्स एक्सपोर्ट आणि इम्पोर्ट करा."
+
+#. translators: the Importer & Exporter module allows users to import/export
+#. their All in One SEO Pack 					settings for backup purposes or when
+#. migrating their site.
+#: modules/aioseop_feature_manager.php:56
+#: modules/aioseop_importer_exporter.php:16
+msgid "Importer & Exporter"
+msgstr "इमपॉर्टर आणि एक्सपोर्टर"
+
+#: modules/aioseop_feature_manager.php:69
+msgid "Optimize performance related to SEO and check your system status."
+msgstr "एस.ई.ओ. संबंधी कामीगिरी अधिक सक्षम करा. आपल्या सिस्टमचे स्टेटस तपसा. "
+
+#. translators: the Performance module allows users to set certain performance
+#. related settings and 					check the status of their WordPress installation.
+#: modules/aioseop_feature_manager.php:68 modules/aioseop_performance.php:15
+msgid "Performance"
+msgstr "कामगिरी"
+
+#. translators: 'bots' refers to user agents/web robots that misbehave.
+#: modules/aioseop_feature_manager.php:63
+msgid "Stop badly behaving bots from slowing down your website."
+msgstr "चुकीच्या पद्धतीने वर्ताव करणार्‍या बॉट्सच्या हालचालींना थांबवा. हे आपल्या साइटच्या क्रियाशिलतेला मंद करत आहेत."
+
+#. translators: the File Editor module allows users to edit the robots.txt file
+#. or .htaccess file on their site.
+#: modules/aioseop_feature_manager.php:50 modules/aioseop_file_editor.php:19
+msgid "File Editor"
+msgstr "फाइल एडिटर"
+
+#: modules/aioseop_feature_manager.php:46
+msgid "Generate and validate your robots.txt file to guide search engines through your site."
+msgstr "robots.txt फाइल निर्माण आणि वॅलिडेट करा. त्यामुळे सर्च एंजिन्सला आपल्या साइटशी संपर्कात येताना आणि पुढे जाताना मदत होते.  "
+
+#. translators: the Robots.txt module allows users to provide instructions to
+#. web robots, e.g. search engine crawlers.
+#: modules/aioseop_feature_manager.php:45 modules/aioseop_robots.php:19
+#: modules/aioseop_robots.php:74
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#. translators: the Social Meta module allows users to add Open Graph (OG:)
+#. meta tags to their site's post/pages 					to control the appearance of them
+#. when shared on social media networks like Facebook and Twitter.
+#: modules/aioseop_feature_manager.php:38 modules/aioseop_opengraph.php:22
+msgid "Social Meta"
+msgstr "सोशल मेटा"
+
+#: modules/aioseop_feature_manager.php:33
+msgid "Create and manage your XML Sitemaps using this feature and submit your XML Sitemap to Google, Bing/Yahoo and Ask.com."
+msgstr "हा विकल्प वापरुन आपले एक्स.एम.एल. साइटमॅप्स बनवा आणि व्यवस्थापित करा. आणि हेच एक्स.एम.एल. साइटमॅप्स गूगल, बिंग, याहू, अस्क इ. कडे सब्मिट करा."
+
+#. translators: the XML Sitemaps module allows users to generate a sitemap in
+#. .xml format for their website and 					submit it to search engines such as
+#. Google, Bing and Yahoo.
+#: modules/aioseop_feature_manager.php:32
+msgid "XML Sitemaps"
+msgstr " एक्स.एम.एल. साइटमॅप्स"
+
+#. translators: the Feature Manager allows users to (de)activate other modules
+#. of the plugin.
+#: modules/aioseop_feature_manager.php:24
+msgid "Feature Manager"
+msgstr "वैशिष्ट्य व्यवस्थापक"
+
+#: aioseop_class.php:4575
+msgid "Main Settings"
+msgstr "मेन सेटिंग्स"
+
+#: admin/aioseop_module_class.php:2074 admin/aioseop_module_class.php:2381
+#: admin/aioseop_module_class.php:2698 aioseop_class.php:4933
+#: aioseop_class.php:4953
+msgid "Help"
+msgstr "मदत"
+
+#: aioseop_class.php:4895 aioseop_class.php:4902
+msgid "Version"
+msgstr "आवृत्ती"
+
+#: aioseop_class.php:4902
+msgid "Support"
+msgstr "सपोर्ट"
+
+#: aioseop_class.php:4881
+msgid "Join Our Mailing List"
+msgstr "आमच्या मेलिंग लिस्ट चे सदस्य बना."
+
+#: aioseop_class.php:4788
+msgid "All in One SEO"
+msgstr "ऑल इन वन एस.ई.ओ."
+
+#: aioseop_class.php:4633
+msgid "Upgrade To Pro"
+msgstr "प्रो आवृत्तीत परवर्तीत कराधन्यवाद!"
+
+#: aioseop_class.php:4672 aioseop_class.php:4686
+msgid "Edit SEO"
+msgstr "एस.ई.ओ.एडिट करा"
+
+#: aioseop_class.php:4624
+msgid "SEO"
+msgstr "एस.ई.ओ."
+
+#: aioseop_class.php:3841
+msgid "Debug Warning: All in One SEO Pack meta data was included again from %1$s filter. Called %2$s times!"
+msgstr ""
+
+#: admin/display/general-metaboxes.php:160
+msgid "Getting started? Read the Beginners Guide"
+msgstr "प्रारंभ करत आहात? सुरुवातीला मार्गदर्शक वाचा."
+
+#: admin/display/general-metaboxes.php:156
+msgid "Watch video tutorials"
+msgstr "वीडियो द्वारे प्रशिक्षण घ्या"
+
+#: admin/display/general-metaboxes.php:152
+msgid "View the Changelog"
+msgstr "चेंज लॉग बघा"
+
+#: admin/display/general-metaboxes.php:143
+msgid "All in One SEO Pro Plugin Changelog"
+msgstr "ऑल इन वन एस.ई.ओ. प्रो प्लगिन चेंज लॉग"
+
+#: admin/display/general-metaboxes.php:140
+msgid "Access our Premium Support Forums"
+msgstr "आमच्या प्रीमियम सपोर्ट फोरम शी संपर्क साधा"
+
+#: admin/display/general-metaboxes.php:139
+msgid "All in One SEO Pro Plugin Support Forum"
+msgstr "ऑल इन वन एस.ई.ओ. प्रो प्लगिन सपोर्ट फोरम"
+
+#: admin/display/general-metaboxes.php:135
+msgid "Read the All in One SEO Pack user guide"
+msgstr "ऑल इन वन एस.ई.ओ. पॅक चे यूज़र गाइड वाचा"
+
+#: admin/display/general-metaboxes.php:119
+msgid "Sign up today and receive a free copy of the e-book 5 SEO Tips for WordPress ($39 value)."
+msgstr "आजच साइन उप करा आणि ५ एस ई ओ टिप्स असलेल्या ई बुक पुस्तिकेला मोफत मिळवा. ($३९ किंमत)"
+
+#: admin/display/general-metaboxes.php:117
+msgid "Join our mailing list for tips, tricks, and WordPress secrets."
+msgstr "काही टिप्स, ट्रिकस, आणि वर्डप्रेस शी संबंधित अधिक माहिती जाणून घेण्यासाठी आमच्या मेलिंग लिस्ट ला जॉइन करा "
+
+#: aioseop_class.php:936
+msgid "UPGRADE TO PRO VERSION"
+msgstr "प्रो आवृत्तीत परवर्तीत करा "
+
+#: admin/display/general-metaboxes.php:45
+msgid "Pro Version"
+msgstr "प्रो आवृत्ती"
+
+#: admin/display/general-metaboxes.php:38
+msgid "Reset Dismissed Notices"
+msgstr "घालविलेल्या नोटीस रिसेट करा"
+
+#: aioseop_class.php:3403
+msgid "nofollow"
+msgstr "nofollow"
+
+#: aioseop_class.php:3402
+msgid "follow"
+msgstr "follow"
+
+#: aioseop_class.php:3401
+msgid "Default - nofollow"
+msgstr "डिफॉल्ट - nofollow"
+
+#: aioseop_class.php:3395
+msgid "noindex"
+msgstr "noindex"
+
+#: aioseop_class.php:3394
+msgid "index"
+msgstr "index"
+
+#: aioseop_class.php:3393
+msgid "Default - noindex"
+msgstr "noindex"
+
+#: aioseop_class.php:3309
+msgid "Reset ALL Settings to Defaults"
+msgstr "सर्व सेट्टिंग्स पूर्ववत करा."
+
+#: aioseop_class.php:3305
+msgid "Reset General Settings to Defaults"
+msgstr "सामान्य सेटिंग्स पूर्ववत करा."
+
+#: aioseop_class.php:3110
+msgid "Thank you for running the latest and greatest All in One SEO Pack ever! New since 2.2: Control who accesses your site with the new Robots.txt Editor and File Editor modules!  Enable them from the Feature Manager.  Remember to review your settings, we have added some new ones!"
+msgstr "एक नवीनतम आणि उत्कृष्ट दर्जाचे ऑल इन वन एस.ई.ओ. पॅक सक्रिय करण्याबद्दल धन्यवाद! २.२ आवृत्ती पासून: आपली साइट कोण पाहत आहे, हे Robots.txt एडिटर आणि फाइल एडिटर मॉड्यूल द्वारे पडताळून पहा. त्यांना फीचर मॅनेजर मध्ये एनेबल करा.  आपल्या सेटिंग्सचे पुनरावलोकन जरूर करा, आम्ही आपल्यासाठी नवनवीन वैशिष्ट्ये उपलब्ध केली आहेत."
+
+#: aioseop_class.php:3074 aioseop_class.php:3091 aioseop_class.php:3109
+msgid "Review Your Settings"
+msgstr "आपल्या सेट्टिंग्स पुन्हा एकदा तपासा. "
+
+#: aioseop_class.php:3102
+msgid "Thank you for running the latest and greatest All in One SEO Pack ever! Please review your settings, as we're always adding new features for you!"
+msgstr "एक नवीनतम आणि उत्कृष्ट दर्जाचे ऑल इन वन एस.ई.ओ. पॅक सक्रिय करण्याबद्दल धन्यवाद! कृपया आपल्या सेटिंग्सचे पुनरावलोकन करा, आम्ही आपल्यासाठी सदैव नवनवीन वैशिष्ट्ये उपलब्ध करत राहू. "
+
+#: aioseop_class.php:3083 aioseop_class.php:3101
+msgid "Welcome to Version %s!"
+msgstr " %s आवृत्तीत आपले स्वागत आहे!"
+
+#: aioseop_class.php:3199
+msgid "%%tax_%1$s%% - This post's associated %2$s taxonomy title"
+msgstr ""
+
+#: aioseop_class.php:3195
+msgid "%post_title% - The original title of the post."
+msgstr "पोस्टचे मूळ शीर्षक: %post_title%"
+
+#: aioseop_class.php:3181
+msgid "Title Format:"
+msgstr "शीर्षक स्वरूप:"
+
+#: aioseop_class.php:3173
+msgid "Everywhere Else"
+msgstr "बाकी सगळीकडे"
+
+#: aioseop_class.php:3173
+msgid "Front Page"
+msgstr "पहीले पेज"
+
+#: aioseop_class.php:1101 modules/aioseop_opengraph.php:606
+msgid "Advanced Settings"
+msgstr "अड्वॅन्स्ड सेटिंग्ज"
+
+#: aioseop_class.php:1084
+msgid "Noindex Settings"
+msgstr "नोइंडेक्स सेटिंग्स"
+
+#: aioseop_class.php:1057
+msgid "Google Settings"
+msgstr "गूगल सेटिंग्स"
+
+#: aioseop_class.php:1052
+msgid "Webmaster Verification"
+msgstr "वेबमास्टर वेरिफिकेशन"
+
+#: aioseop_class.php:1047
+msgid "Display Settings"
+msgstr "डिसप्ले सेटिंग्स"
+
+#: aioseop_class.php:1042
+msgid "Custom Post Type Settings"
+msgstr "कस्टम पोस्ट टाइप सेटिंग्स"
+
+#: aioseop_class.php:1022
+msgid "Title Settings"
+msgstr "शीर्षकाशी संबंधित सेटिंग्स"
+
+#: aioseop_class.php:1119
+msgid "Keyword Settings"
+msgstr "कीवर्ड सेटिंग्स"
+
+#: aioseop_class.php:1017 modules/aioseop_opengraph.php:571
+msgid "Home Page Settings"
+msgstr "होम पेज सेटिंग्स"
+
+#: aioseop_class.php:995
+msgid "Disable Google Analytics"
+msgstr "गूगल अॅनलिटिक्स डिसेबल करा."
+
+#: aioseop_class.php:993
+msgid "Disable on this page/post"
+msgstr "या पेजवर / पोस्टवर डिसेबल करा."
+
+#: aioseop_class.php:992
+msgid "Exclude From Sitemap"
+msgstr "साइटमॅप पासून वेगळे करा."
+
+#: aioseop_class.php:980
+msgid "Custom Canonical URL"
+msgstr "कस्टम कनोनीकल यू.आर.एल. "
+
+#: aioseop_class.php:976
+msgid "Keywords (comma separated)"
+msgstr "कीवर्ड्स (कॉमा द्वारे स्वतंत्र)"
+
+#: aioseop_class.php:968 modules/aioseop_opengraph.php:438
+msgid "Description"
+msgstr "वर्णन"
+
+#: aioseop_class.php:962 modules/aioseop_opengraph.php:430
+msgid "Title"
+msgstr "शीर्षक"
+
+#: aioseop_class.php:945
+msgid "Preview Snippet"
+msgstr "छोट्या तुकड्याचे पूर्वावलोकन करा"
+
+#: aioseop_class.php:936
+msgid "Upgrade to All in One SEO Pack Pro Version"
+msgstr "ऑल इन वन एस.ई.ओ. पॅक प्रो. वरझन मधे अपग्रेड करा."
+
+#: aioseop_class.php:888
+msgid "Log important events:"
+msgstr "लॉग इंपॉर्टेंट इवेंट्स:"
+
+#: aioseop_class.php:882
+msgid "Additional Blog Page Headers:"
+msgstr "अॅडीशनल ब्लॉग पेज हेडर्स: "
+
+#: aioseop_class.php:876
+msgid "Additional Front Page Headers:"
+msgstr "अॅडीशनल फ्रंट पेज हेडर्स: "
+
+#: aioseop_class.php:870
+msgid "Additional Page Headers:"
+msgstr "अॅडीशनल पेज हेडर्स: "
+
+#: aioseop_class.php:864
+msgid "Additional Post Headers:"
+msgstr "अॅडीशनल पोस्ट हेडर्स:"
+
+#: aioseop_class.php:859
+msgid "Exclude Pages:"
+msgstr "पेजेस निष्कासित करा:"
+
+#: aioseop_class.php:851
+msgid "Unprotect Post Meta Fields:"
+msgstr "पोस्ट मेटा फील्ड्स असंरक्षित करा.:"
+
+#: aioseop_class.php:847
+msgid "Use Schema.org Markup"
+msgstr "Schema.org मार्कअप वापरा."
+
+#: aioseop_class.php:843
+msgid "Never Shorten Long Descriptions:"
+msgstr "लांब वर्णनांना सारांश रूपात परावर्तीत होण्यापासून थांबवा. :"
+
+#: aioseop_class.php:839
+msgid "Remove Descriptions For Paginated Pages:"
+msgstr "पृष्ठांकित पेजेस मधले वर्णन मिटवा."
+
+#: aioseop_class.php:834
+msgid "Run Shortcodes In Autogenerated Descriptions:"
+msgstr "ऑटो. जनरेटेड वर्णनात शॉर्टकोड चालवा."
+
+#: aioseop_class.php:825
+msgid "Autogenerate Descriptions:"
+msgstr "वर्णन ऑटो. जनरेट करा. "
+
+#: aioseop_class.php:821
+msgid "Use nofollow for paginated pages/posts:"
+msgstr "पृष्ठांकित पेजेस/ पोस्ट्स साठी नोफॉलो वापरा : "
+
+#: aioseop_class.php:817
+msgid "Use noindex for paginated pages/posts:"
+msgstr "पृष्ठांकित पेजेस/ पोस्ट्स साठी नोइंडेक्स वापरा :"
+
+#: aioseop_class.php:811
+msgid "Use noindex for Taxonomy Archives:"
+msgstr "टॅक्सोनोमी संग्रहाकरता नोइंडेक्स वापरा : "
+
+#: aioseop_class.php:807
+msgid "Use noindex for the 404 page:"
+msgstr "404 पेजसाठी नोइंडेक्स वापरा "
+
+#: aioseop_class.php:803
+msgid "Use noindex for the Search page:"
+msgstr "सर्च पेजसाठी नोइंडेक्स वापरा "
+
+#: aioseop_class.php:799
+msgid "Use noindex for Tag Archives:"
+msgstr "टॅग्स संचाकरता नोइंडेक्स वापरा "
+
+#: aioseop_class.php:795
+msgid "Use noindex for Author Archives:"
+msgstr "लेखकांच्या संग्रहाकरता नोइंडेक्स वापरा "
+
+#: aioseop_class.php:791
+msgid "Use noindex for Date Archives:"
+msgstr "तारखांच्या संग्रहाकरता नोइंडेक्स वापरा "
+
+#: aioseop_class.php:787
+msgid "Use noindex for Categories:"
+msgstr "केटेगरीस करता नोइंडेक्स वापरा"
+
+#: aioseop_class.php:782
+msgid "Dynamically Generate Keywords for Posts Page/Archives:"
+msgstr "पोस्ट्स, पेज किंवा आर्काइव्स साठी ऑटो. की-वर्ड्स जनरेट करा."
+
+#: aioseop_class.php:777
+msgid "Use Tags for META keywords:"
+msgstr "मेटा की-वर्ड्स साठी टॅग्स वापरा: "
+
+#: aioseop_class.php:772
+msgid "Use Categories for META keywords:"
+msgstr "मेटा की-वर्ड्स साठी केटेगरीस वापरा:"
+
+#: aioseop_class.php:760
+msgid "Enhanced Ecommerce:"
+msgstr "प्रगत ई-कॉमर्स"
+
+#: aioseop_class.php:748
+msgid "Enhanced Link Attribution:"
+msgstr "प्रगत लिंक अॅट्रिब्यूट्स"
+
+#: aioseop_class.php:736
+msgid "Track Outbound Links:"
+msgstr "आउटबाउंड लिंक्स ट्रॅक करा:"
+
+#: aioseop_class.php:724
+msgid "Exclude Users From Tracking:"
+msgstr "यूज़र्स ला ट्रॅकिंग पासून निष्कासित करा:"
+
+#: aioseop_class.php:712
+msgid "Display Advertiser Tracking:"
+msgstr "अॅडवरटाइझर ट्रॅकिंग डिसप्ले करा:"
+
+#: aioseop_class.php:700
+msgid "Anonymize IP Addresses:"
+msgstr "अनोनमाइज़ आइपी अड्रेसेस"
+
+#: aioseop_class.php:687
+msgid "Additional Domains:"
+msgstr "अडीशनल डोमेन्स:"
+
+#: aioseop_class.php:675
+msgid "Track Multiple Domains:"
+msgstr "ट्रॅक मल्टिपल डोमेन्स:"
+
+#: aioseop_class.php:663
+msgid "Tracking Domain:"
+msgstr "ट्रॅकिंग डोमेन:"
+
+#: aioseop_class.php:647
+msgid "Advanced Analytics Options:"
+msgstr "अड्वॅन्स्ड अॅनालिटिक्स ओप्शन:"
+
+#: aioseop_class.php:641
+msgid "Google Analytics ID:"
+msgstr "गूगल अॅनालिटिक्स आइडी:"
+
+#: aioseop_class.php:635
+msgid "Specify Publisher URL:"
+msgstr "पब्लिशर यूआरएल् चा उल्लेख करा."
+
+#: aioseop_class.php:625
+msgid "Display Publisher Meta on Front Page:"
+msgstr "पब्लिशर मेटा पहिल्या पानावर दाखवा"
+
+#: aioseop_class.php:619
+msgid "Display Google Authorship:"
+msgstr "गूगल ओथरशिप दाखवा"
+
+#: aioseop_class.php:609
+msgid "Advanced Authorship Options:"
+msgstr "अड्वॅन्स्ड ओथरशिप ओप्शन्स"
+
+#: aioseop_class.php:603
+msgid "Specify A Preferred Name:"
+msgstr "प्रिफर्ड शीर्षक ठरवा"
+
+#: aioseop_class.php:600
+msgid "Set Preferred Site Name:"
+msgstr "साइटचे प्रिफर्ड शीर्षक ठरवा"
+
+#: aioseop_class.php:597
+msgid "Display Sitelinks Search Box:"
+msgstr "साइटलिंक्स सर्च बॉक्स दाखवा:"
+
+#: aioseop_class.php:592
+msgid "Disable Google Plus Profile:"
+msgstr "गूगल प्लस प्रोफाइल डिसेबल करा:"
+
+#: aioseop_class.php:587
+msgid "Google Plus Default Profile:"
+msgstr "गूगल प्लस डिफॉल्ट प्रोफाइल:"
+
+#: aioseop_class.php:582
+msgid "Pinterest Site Verification:"
+msgstr "पी-इंट्रेस्ट साइट वेरिफिकेशन:"
+
+#: aioseop_class.php:577
+msgid "Bing Webmaster Center:"
+msgstr "बिंग वेबमास्टर टूल्स: "
+
+#: aioseop_class.php:572
+msgid "Google Webmaster Tools:"
+msgstr "गूगल वेबमास्टर टूल्स:"
+
+#: inc/commonstrings.php:45
+msgid "Display Menu At The Top:"
+msgstr "टॉप वर मेनु दाखवा:"
+
+#: inc/commonstrings.php:44
+msgid "Display Menu In Admin Bar:"
+msgstr "आडमिन बार मधे मेनु दाखवा:"
+
+#: aioseop_class.php:566
+msgid "Show Column Labels for Custom Post Types:"
+msgstr "कस्टम पोस्ट्स साठी कॉलम लेबल दाखवा.:"
+
+#: aioseop_class.php:556
+msgid "Custom titles:"
+msgstr "कस्टम टाइटल्स:"
+
+#: aioseop_class.php:551
+msgid "Default to NOFOLLOW:"
+msgstr "NOFOLLOW डिफॉल्ट आहे:"
+
+#: aioseop_class.php:546
+msgid "Default to NOINDEX:"
+msgstr "NOINDEX डिफॉल्ट आहे:"
+
+#: aioseop_class.php:535
+msgid "Enable Advanced Options:"
+msgstr "अड्वॅन्स्ड ओप्शन्स एनेबल करा:"
+
+#: aioseop_class.php:523
+msgid "SEO on only these post types:"
+msgstr "ठराविक पोस्ट टाइप्स करता एस.ई.ओ.:"
+
+#: aioseop_class.php:514
+msgid "SEO for Custom Post Types:"
+msgstr "कस्टम पोस्ट टाइप्स करता एस.ई.ओ.:"
+
+#: aioseop_class.php:508
+msgid "Paged Format:"
+msgstr "पेज्ड फॉरमॅट:"
+
+#: aioseop_class.php:502
+msgid "404 Title Format:"
+msgstr "404 टाइटल फॉर्मॅट:"
+
+#: aioseop_class.php:496
+msgid "Description Format"
+msgstr "डिस्क्रिप्शन फॉर्मॅट:"
+
+#: aioseop_class.php:490
+msgid "Search Title Format:"
+msgstr "टाइटल फॉरमॅट शोधा:"
+
+#: aioseop_class.php:484
+msgid "Tag Title Format:"
+msgstr "टाइटल फॉरमॅट टॅग करा:"
+
+#: aioseop_class.php:478
+msgid "Author Archive Title Format:"
+msgstr "टाइटल फॉरमॅट लेखकाप्रमाणे संग्रहीत करा:"
+
+#: aioseop_class.php:472
+msgid "Date Archive Title Format:"
+msgstr "टाइटल फॉरमॅट तारखेनीशी संग्रहीत करा:"
+
+#: aioseop_class.php:466
+msgid "Archive Title Format:"
+msgstr "टाइटल फॉरमॅट संग्रहण: "
+
+#: aioseop_class.php:460
+msgid "Category Title Format:"
+msgstr "केटेगरी टाइटल फॉरमॅट: "
+
+#: aioseop_class.php:454
+msgid "Post Title Format:"
+msgstr "पोस्ट टाइटल फॉरमॅट: "
+
+#: aioseop_class.php:448
+msgid "Page Title Format:"
+msgstr "पेज टाइटल फॉरमॅट: "
+
+#: aioseop_class.php:442
+msgid "Home Page Title Format:"
+msgstr "होम पेज टाइटल फॉरमॅट:"
+
+#: aioseop_class.php:433
+msgid "Use Original Title:"
+msgstr "ओरिजिनल टाइटल वापरा:"
+
+#: aioseop_class.php:423 modules/aioseop_performance.php:63
+msgid "Force Rewrites:"
+msgstr "पुन्हा लिहिण्यास सक्ती करा:"
+
+#: aioseop_class.php:414
+msgid "Rewrite Titles:"
+msgstr "शीर्षक पुन्हा लिहा:"
+
+#: aioseop_class.php:409
+msgid "Enable Custom Canonical URLs:"
+msgstr "कस्टम केनॉनिकल यूआरएल्स एनेबल करा:"
+
+#: aioseop_class.php:404
+msgid "No Pagination for Canonical URLs:"
+msgstr "केनॉनिकल यूआरएल्स ला पृष्ठांकित केले नाही:"
+
+#: aioseop_class.php:400
+msgid "Canonical URLs:"
+msgstr "केनॉनिकल यूआरएल्स:"
+
+#: aioseop_class.php:391
+msgid "Use Static Front Page Instead"
+msgstr "या ऐवजी स्टॅटिक फ्रंट पेज वापरा."
+
+#: aioseop_class.php:384
+msgid "Home Keywords (comma separated):"
+msgstr "होम की-वर्ड्स (कॉमा द्वारे स्वतंत्र):"
+
+#: aioseop_class.php:380 aioseop_class.php:396 aioseop_class.php:419
+#: aioseop_class.php:429 aioseop_class.php:438 aioseop_class.php:519
+#: aioseop_class.php:540 aioseop_class.php:614 aioseop_class.php:630
+#: aioseop_class.php:652 modules/aioseop_performance.php:68
+msgid "Disabled"
+msgstr "डिसेबल्ड"
+
+#: aioseop_class.php:379 aioseop_class.php:395 aioseop_class.php:418
+#: aioseop_class.php:428 aioseop_class.php:437 aioseop_class.php:518
+#: aioseop_class.php:539 aioseop_class.php:613 aioseop_class.php:629
+#: aioseop_class.php:651 modules/aioseop_performance.php:67
+msgid "Enabled"
+msgstr "एनेबल्ड"
+
+#: aioseop_class.php:375
+msgid "Use Keywords:"
+msgstr "की-वर्ड्स वापरा:"
+
+#: aioseop_class.php:365
+msgid "Home Description:"
+msgstr "होम डिस्क्रिप्शन:"
+
+#: aioseop_class.php:355
+msgid "Home Title:"
+msgstr "होम टाइटल:"
+
+#: aioseop_class.php:346
+msgid "Disable Google Analytics on this page."
+msgstr "या पेजवर गूगल अॅनॅलिटिक्स डिसेबल करा."
+
+#: aioseop_class.php:345
+msgid "Disable SEO on this page."
+msgstr "ह्या पेज साठी एस.ई.ओ. डिसेबल करा."
+
+#: aioseop_class.php:344
+msgid "Don't display this page in the sitemap."
+msgstr "हे पेज साइट मॅप मधून वगळा."
+
+#: aioseop_class.php:343
+msgid "Check this box to ask search engines not to follow links from this page."
+msgstr "सर्च एंजिन्सला या पेजवरील कुठलेही लिंक फॉलो करण्यापासून रोखण्यासाठी येथे टिक करा. "
+
+#: aioseop_class.php:342
+msgid "Check this box to ask search engines not to index this page."
+msgstr "सर्च एंजिन्सला हे पेज इंडेक्स करण्यापासून रोखण्यासाठी येथे टिक करा. "
+
+#: aioseop_class.php:341
+msgid "Override the canonical URLs for this post."
+msgstr "या पोस्टसाठी केनॉनिकल यू.आर.एल. अधिलिखित करा."
+
+#: aioseop_class.php:340
+msgid "A comma separated list of your most important keywords for this page that will be written as META keywords."
+msgstr "कॉमाने स्वतंत्र केलेली ह्या पेज साठीची महत्वाची कीवर्ड्स ची यादी. जे META कीवर्ड्स मध्ये गणण्यात येईल."
+
+#: aioseop_class.php:339
+msgid "The META description for this page. This will override any autogenerated descriptions."
+msgstr "ह्या पेज साठी META डिस्क्रीप्शन. हे कुठल्याही ऑटो. जनरेटेड डिस्क्रीप्शन्सला अधिलिखित करेल."
+
+#: aioseop_class.php:338
+msgid "A custom title that shows up in the title tag for this page."
+msgstr "कस्टम टॅग या पेजच्या टाइटल टॅग मध्ये दिसते. "
+
+#: aioseop_class.php:337
+msgid "A preview of what this page might look like in search engine results."
+msgstr "हे पेज सर्च एंजिन रिज़ल्ट्स मध्ये कसे दिसेल याचे पूर्वावलोकन करा."
+
+#: aioseop_class.php:242
+msgid "What you enter here will be copied verbatim to the header of the home page if you have Front page displays your latest posts selected in Settings, Reading.  It will also be copied verbatim to the header on the Posts page if you have one set in Settings, Reading. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "होम पेजच्या हेडर मध्ये शब्दशः आपण येथे जे टाइप करणार ते कॉपी होईल जर आपले फ्रंट पेज डिसप्ले असेल तर आपले नवीन पोस्ट्स सेटिंग्स, रीडिंग मधे निवडण्यात येतील. फ्रंट पेजच्या हेडर मध्ये सुद्धा शब्दशः आपण येथे जे टाइप करणार ते कॉपी होईल जर आपला रीडिंग आणि सेटिंग्स मधे एक सेट असेल तर.आपल्याला जसे हवे तसे अॅडीशनल हेडर आपण येथे साठवू शकतात, अगदी रेफरन्सेस आणि स्टाइल शीट्स सुद्धा!"
+
+#: aioseop_class.php:241
+msgid "What you enter here will be copied verbatim to the header of the front page if you have set a static page in Settings, Reading, Front Page Displays. You can enter whatever additional headers you want here, even references to stylesheets. This will fall back to using Additional Page Headers if you have them set and nothing is entered here."
+msgstr "फ्रंट पेजच्या हेडर मध्ये शब्दशः आपण येथे जे टाइप करणार ते कॉपी होईल (जर आपल्या सेटिंग्स, रीडिंग आणि फ्रंट पेज डिस्प्लेज़ मध्ये स्टॅटिक पेज असेल तर). आपल्याला याव्यतिरिक्त आणखी कुठले ही हेडर साठवायचे असतील तर तेसुद्धा आपण करू शकतात. रेफेरेन्सेस आणि स्टाइल शीट्स सुद्धा! जर आपण सेट केलेले असेल तर हे अडीशनल पेज हेडर म्हणून वापरले जाईल आणि येथे काहीच टाइप केले जाणार नाही."
+
+#: aioseop_class.php:240
+msgid "What you enter here will be copied verbatim to the header of all Pages. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "सर्व पेजेस च्या हेडर मध्ये शब्दशः आपण येथे जे टाइप करणार ते कॉपी होईल. आपल्याला याव्यतिरिक्त आणखी कुठले ही हेडर साठवायचे असतील तर तेसुद्धा आपण करू शकतात. रेफेरेन्सेस आणि स्टाइल शीट्स सुद्धा! "
+
+#: aioseop_class.php:239
+msgid "What you enter here will be copied verbatim to the header of all Posts. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "सर्व पोस्ट्स च्या हेडर मध्ये शब्दशः आपण येथे जे टाइप करणार ते कॉपी होईल. आपल्याला याव्यतिरिक्त आणखी कुठले ही हेडर साठवायचे असतील तर तेसुद्धा आपण करू शकतात. रेफेरेन्सेस आणि स्टाइल शीट्स सुद्धा!"
+
+#: aioseop_class.php:238
+msgid "Enter a comma separated list of pages here to be excluded by All in One SEO Pack.  This is helpful when using plugins which generate their own non-WordPress dynamic pages.  Ex: <em>/forum/, /contact/</em>  For instance, if you want to exclude the virtual pages generated by a forum plugin, all you have to do is add forum or /forum or /forum/ or and any URL with the word \\\"forum\\\" in it, such as http://mysite.com/forum or http://mysite.com/forum/someforumpage here and it will be excluded from All in One SEO Pack."
+msgstr "येथे कॉमा द्वारे स्वतंत्र केलेल्या पेजेस ची यादी तयार करा जी ऑल इन वन एस.ई.ओ. पॅक मधून वगळण्यात येईल. हे आपल्याला जेव्हा प्लगिन स्वत: नॉन-वर्डप्रेस डाइनमिक पेजेस बनवते तेव्हा मदत करू शकेल. उदा.  <em>/forum/, /contact/</em> आता, आपल्याला फोरम प्लगिन्सने बनवलेली वर्चुयल पेजेस वगळायची असतील तर, आपल्याला फक्त forum किंवा /forum किंवा  /forum/ किंवा कुठली ही यू.आर.एल. ज्यात forum  हा शब्द अॅड करावा लागेल. http://mysite.com/forum किंवा http://mysite.com/forum/someforumpage अशाठिकाणी अॅड करावा लागेल.  आणि ते ऑल इन वन एस.ई.ओ. पॅक मधून वगळण्यात येईल."
+
+#: aioseop_class.php:236
+msgid "Check this to unprotect internal postmeta fields for use with XMLRPC. If you don't know what that is, leave it unchecked."
+msgstr "इंटर्नल पोस्टमेटा फील्ड्स ला XMLRPC सोबत वापरण्याकरता अनुमती द्या. जर याबाबत आपल्याला माहिती नसल्यास येथे कुठलाही बदल करू नका."
+
+#: aioseop_class.php:235
+msgid "Check this to support Schema.org markup, i.e., itemprop on supported metadata."
+msgstr "Schema.org मार्कअप ला सपोर्ट करण्यासाठी येथे टिक करा. उदा. सपोर्टेड मेटाडेटा वरील itemprop"
+
+#: aioseop_class.php:234
+msgid "Check this to prevent your Description from being truncated regardless of its length."
+msgstr "डिस्क्रीप्शन काटले जाण्यापासून थांबवण्याकरता (त्यातील वाक्ये कितीही लांब असु शकतील) येथे टिक करा."
+
+#: aioseop_class.php:233
+msgid "Check this and your Meta Descriptions will be removed from page 2 or later of paginated content."
+msgstr "येथे टिक करा आणि आपले मेटा डिस्क्रीप्शन पेज २ आणि नंतरच्या पृष्ठांकित कॉंटेंट साठी मिटवले जाईल. "
+
+#: aioseop_class.php:232
+msgid "Check this and shortcodes will get executed for descriptions auto-generated from content."
+msgstr "कॉंटेंट पासून जे डिस्क्रीप्शन ऑटो. जनरेट झाले आहे त्यासाठी शॉर्टकोड कार्यान्वित केले जातील."
+
+#: aioseop_class.php:229
+msgid "Check this to ask search engines not to follow links from paginated pages/posts. Useful for avoiding duplicate content."
+msgstr "पृष्ठांकित पेजेस अथवा पोस्ट्स च्या लिंक्स फॉलो करण्यापासून सर्च एंजिन्स ला रोखण्याकरता येथेत टिक करा. हे नक्कल असेलेल्या कॉंटेंट पासून बचाव करण्यासाठी साहाय्यकारक आहे. "
+
+#: aioseop_class.php:228
+msgid "Check this to ask search engines not to index paginated pages/posts. Useful for avoiding duplicate content."
+msgstr "सर्च एंजिन्सनी अनुक्रमेनिकेत पृष्ठांकित पाने/ पोस्ट्स दाखवण्यपासून थांबवायचे असेल तर येथे टिक करा. हे नक्कल असेलेल्या कॉंटेंट पासून बचाव करण्यासाठी साहाय्यकारक आहे. "
+
+#: aioseop_class.php:227
+msgid "Check this to ask search engines not to index custom Taxonomy archive pages. Useful for avoiding duplicate content."
+msgstr "सर्च एंजिन्सनी अनुक्रमेनिकेत इतर वर्गीकरण असलेली सर्च एंजिन्स चे पाने दाखवण्यपासून थांबवायचे असेल तर येथे टिक करा. हे नक्कल असेलेल्या कॉंटेंट पासून बचाव करण्यासाठी साहाय्यकारक आहे. "
+
+#: aioseop_class.php:226
+msgid "Check this to ask search engines not to index the 404 page."
+msgstr "सर्च एंजिन्सनी अनुक्रमेनिकेत ४०४ पेज दाखवण्यपासून थांबवायचे असेल तर येथे टिक करा. "
+
+#: aioseop_class.php:225
+msgid "Check this to ask search engines not to index the Search page. Useful for avoiding duplicate content."
+msgstr "सर्च पेजेस, सर्च इंडेक्स मधील अनुक्रमेनिकेतून वगळण्यासाठी येथे टिक करा. हे नक्कल युक्त कॉंटेंट टाळण्यासाठी उपयुक्त आहे. "
+
+#: aioseop_class.php:224
+msgid "Check this to ask search engines not to index Tag Archives. Useful for avoiding duplicate content."
+msgstr "टॅग आर्काइव्स, सर्च इंडेक्स मधील अनुक्रमेनिकेतून वगळण्यासाठी येथे टिक करा. हे नक्कल युक्त कॉंटेंट टाळण्यासाठी उपयुक्त आहे. "
+
+#: aioseop_class.php:223
+msgid "Check this to ask search engines not to index Author Archives. Useful for avoiding duplicate content."
+msgstr "ओथर संबंधी(लेखक) आर्काइव्स, सर्च इंडेक्स मधील अनुक्रमेनिकेतून वगळण्यासाठी येथे टिक करा. हे नक्कल युक्त कॉंटेंट टाळण्यासाठी उपयुक्त आहे. "
+
+#: aioseop_class.php:222
+msgid "Check this to ask search engines not to index Date Archives. Useful for avoiding duplicate content."
+msgstr "डेट् आर्काइव्स, सर्च इंडेक्स मधील अनुक्रमेनिकेतून वगळण्यासाठी येथे टिक करा. हे नक्कल युक्त कॉंटेंट टाळण्यासाठी उपयुक्त आहे. "
+
+#: aioseop_class.php:221
+msgid "Check this to ask search engines not to index Category Archives. Useful for avoiding duplicate content."
+msgstr "केटेगरी आर्काइव्स, सर्च इंडेक्स मधील अनुक्रमेनिकेतून वगळण्यासाठी येथे टिक करा. हे नक्कल युक्त कॉंटेंट टाळण्यासाठी उपयुक्त आहे. "
+
+#: aioseop_class.php:219
+msgid "Set the default NOFOLLOW setting for each Post Type."
+msgstr "सर्व पोस्ट टाइप साठी डिफॉल्ट NOFOLLOW सेटिंग सेट करा. "
+
+#: aioseop_class.php:218
+msgid "Set the default NOINDEX setting for each Post Type."
+msgstr "सर्व पोस्ट टाइप साठी डिफॉल्ट NOINDEX सेटिंग सेट करा. "
+
+#: aioseop_class.php:217
+msgid "This enables support for the Enhanced Ecommerce in Google Analytics."
+msgstr "गूगल अॅनॅलिटिक्स मधे एनहॅन्स्ड ईकॉमर्स साठी सपोर्ट हे एनेबल करते. \t"
+
+#: aioseop_class.php:216
+msgid "This enables support for the Enhanced Link Attribution in Google Analytics."
+msgstr "गूगल अॅनॅलिटिक्स मधे  एनहॅन्स्ड लिंक अॅट्रिब्यूशन  साठी सपोर्ट हे  एनेबल करते. "
+
+#: aioseop_class.php:215
+msgid "Check this if you want to track outbound links with Google Analytics."
+msgstr "गूगल अॅनॅलिटिक्स सोबत आउटबाउंड लिंक्स ट्रॅक करण्याकरता येथे टिक करा."
+
+#: aioseop_class.php:214
+msgid "Exclude logged-in users from Google Analytics tracking by role."
+msgstr "गूगल अॅनॅलिटिक्स मधे रोलप्रमाणे लॉग्ड इन यूज़र्स वगळा."
+
+#: aioseop_class.php:213
+msgid "This enables support for the Display Advertiser Features in Google Analytics."
+msgstr "गूगल अॅनॅलिटिक्स मधे  डिसप्ले अड्वर्टाइज़र फिचर्स साठी हे सपोर्ट, एनेबल करते."
+
+#: aioseop_class.php:212
+msgid "This enables support for IP Anonymization in Google Analytics."
+msgstr "गूगल अॅनॅलिटिक्स मधे आइपी अनॉनामायज़ेशन साठी हे सपोर्ट, एनेबल करते."
+
+#: aioseop_class.php:211
+msgid "Add a list of additional domains to track here.  Enter one domain name per line without the http://."
+msgstr "जे अतिरिक्त डोमेन्स आपणास ट्रॅक करायचे आहे त्याची येथे यादी बनवा. एका ओळीत एकाच डोमेन लिहा  (http://. न वापरता)"
+
+#: aioseop_class.php:210
+msgid "Use this option to enable tracking of multiple or additional domains."
+msgstr "एकापेक्षा जास्त किंवा अतिरिक्त डोमेन्स ची ट्रॅकिंग एनेबल करण्याकरिता हा पर्याय वापरा."
+
+#: aioseop_class.php:209
+msgid "Enter your domain name without the http:// to set your cookie domain."
+msgstr "आपले कुकी डोमेन सेट करण्याकरता डोमेन येथे http:// न लिहिता टाइप करा."
+
+#: aioseop_class.php:208
+msgid "Check to use advanced Google Analytics options."
+msgstr "अड्वॅन्स्ड गूगल अॅनॅलिटिक्स पर्याय वापरण्याकरता येथे टिक करा."
+
+#: aioseop_class.php:207
+msgid "Enter your Google Analytics ID here to track visitor behavior on your site using Google Analytics."
+msgstr "गूगल अॅनॅलिटिक्स वापरुन आपल्या साइट वर भेट देणार्‍यांचा रेकॉर्ड ठेवा. आपला गूगल अॅनॅलिटिक्स आइडी द्या.  "
+
+#: aioseop_class.php:206
+msgid "Press the connect button to connect with Google Analytics; or if already connected, press the disconnect button to disable and remove any stored analytics credentials."
+msgstr "गूगल अॅनॅलिटिक्स शी कनेक्ट करण्यासाठी कनेक्ट बटन दाबा. जर आधीपासून कनेक्ट केलेले असेल तेव्हा डिसेबल करण्यासाठी डिसकनेक्ट बटन दाबा. आणि कुठलेही साठवलेले अॅनॅलिटिक्स क्रेडेन्शियल मिटवा."
+
+#: aioseop_class.php:205
+msgid "Add markup to tell Google the preferred name for your website."
+msgstr "गूगल ला आपल्या साइट चे प्रिफर्ड नाव देण्यासाठी मार्कअप अॅड करा. "
+
+#: aioseop_class.php:204
+msgid "Add markup to display the Google Sitelinks Search Box next to your search results in Google."
+msgstr "गूगलच्या सर्च रिज़ल्ट्स च्या साइड ला गूगल साइट लिंक सर्च बॉक्स डिसप्ले करण्यासाठी मार्क अप अॅड करा."
+
+#: aioseop_class.php:203
+msgid "The Google+ profile you enter here will appear on your homepage only as the rel=\\\"publisher\\\" tag. It is recommended that the URL you enter here should be the Google+ profile for your business."
+msgstr "आपण दिलेली गूगल+ प्रोफाइल येथे होमपेज वर फक्त पब्लिशर टॅग च्या स्वरुपात दिसेल. येथे साठवलेली गूगल+ प्रोफाइल यू.आर.एल. ही आपली बिज़्नेसची प्रोफाइल असावी असा सल्ला दिला जातो. "
+
+#: aioseop_class.php:202
+msgid "This option allows you to control whether rel=\\\"publisher\\\" is displayed on the homepage of your site. Google recommends using this if the site is a business website."
+msgstr "हा पर्याय आपल्याला पब्लिशर आपल्या होमपेज वर डिसप्ले केला जाणार की नाही हे निवडण्यास संधी देतो. गूगल आपणास हे वापरण्याचा सल्ला देईल. (जर आपली बिज़्नेस वेबसाइट असेल तर) "
+
+#: aioseop_class.php:201
+msgid "This option allows you to control which types of pages you want to display rel=\\\"author\\\" on for Google authorship. The options include the Front Page (the homepage of your site), Posts, Pages, and any Custom Post Types. The Everywhere Else option includes 404, search, categories, tags, custom taxonomies, date archives, author archives and any other page template."
+msgstr "गूगल ओथरशिप साठी कुठले प्रकारचे पेजेस ओथर हेडिंग खाली दाखवले जातील यावर नियंत्रण ठेवण्याची अनुमती आपल्याला हा पर्याय देतो. ह्या पर्यायमध्ये आपले फ्रंट पेज (आपल्या साइटचे होम पेज), पोस्ट्स, पेजेस, आणि इतर कस्टम पोस्ट टाइप्स समाविष्ट आहेत. इतर हे सगळे सोडून उरलेल्या पर्यायांमध्ये ४०४, सर्च, केटेगरीस, टॅग्स, इतर वर्गीकरणे, तारखांचा संग्रह, लेखकांचा संग्रह, आणि इतर पेज टेंप्लेटस् समाविष्ट आहे. "
+
+#: aioseop_class.php:200
+msgid "Enable this to display advanced options for controlling Google Plus authorship information on your website."
+msgstr "आपल्या वेबसाइट वर गूगल+च्या अड्वॅन्स्ड ऑथरशिप संबंधी माहिती नियंत्रणाबद्दल जास्तीचे पर्याय प्रदर्शित करण्याकरता हे एनेबल करा."
+
+#: aioseop_class.php:199
+msgid "Check this to remove the Google Plus field from the user profile screen."
+msgstr "गूगल+ फील्ड आपल्या प्रोफाइल स्क्रीन मधून वगळण्याकरता येथे टिक करा."
+
+#: aioseop_class.php:198
+msgid "Enter your Google+ Profile URL here to add the rel=“author” tag to your site for Google authorship. It is recommended that the URL you enter here should be your personal Google+ profile.  Use the Advanced Authorship Options below if you want greater control over the use of authorship."
+msgstr "ओथर टॅग आपल्या साइट वर गूगल ओथरशिप साठी अॅड करा आणि गूगल+ ची आपली प्रोफाइल यू.आर.एल. येथे टाइप करा. आपल्याला यू.आर.एल. टाइप करताना ती आपली वैयक्तिक गूगल+ प्रोफाइल असली पाहिजे असा सल्ला दिला जातो. खाली दिलेला अड्वॅन्स्ड ऑथरशिप पर्याय वापरुन ऑथरशिपवर चांगले नियंत्रण मिळवा."
+
+#: aioseop_class.php:197
+msgid "Enter your verification code here to verify your site with Pinterest.<br /><a href='https://semperplugins.com/documentation/pinterest-site-verification/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr ""
+
+#: aioseop_class.php:196
+msgid "Enter your verification code here to verify your site with Bing Webmaster Tools.<br /><a href='https://semperplugins.com/documentation/bing-webmaster-verification/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr ""
+
+#: aioseop_class.php:195
+msgid "Enter your verification code here to verify your site with Google Webmaster Tools.<br /><a href='https://semperplugins.com/documentation/google-webmaster-tools-verification/' target='_blank'>Click here for documentation on this setting</a>"
+msgstr ""
+
+#: inc/commonstrings.php:48
+msgid "Check this to move the All in One SEO Pack menu item to the top of your WordPress Dashboard menu."
+msgstr "ऑल इन वन एस.ई.ओ. पॅक मेनु आइटम आपल्या वर्डप्रेस मधल्या डॅशबोर्ड मेनुत सर्वात वरती प्रस्थापित करण्यासाठी येथे टिक करा. "
+
+#: inc/commonstrings.php:47
+msgid "Check this to add All in One SEO Pack to the Admin Bar for easy access to your SEO settings."
+msgstr "आपल्या एस.ई.ओ. सेटिंग्स अगदी सुलभपणे व्यवस्थापित करण्याकरिता ऑल इन वन एस.ई.ओ. पॅक, अॅडमिन बार वर प्रस्थापित करा. "
+
+#: aioseop_class.php:194
+msgid "This lets you select which screens display the SEO Title, SEO Keywords and SEO Description columns."
+msgstr "कुठली स्क्रीन \"एस.ई.ओ. टाइटल, एस.ई.ओ. कीवर्ड्स, आणि एस.ई.ओ. डिस्क्रीप्शन कॉलम्स\" दाखवेल हे निवडण्यासाठी आपल्याला येथे पर्याय मिळेल. "
+
+#: aioseop_class.php:193
+msgid "This allows you to set the title tags for each Custom Post Type."
+msgstr "सगळ्या पद्धतीच्या कस्टम पोस्ट टाइप्स करता टाइटल टॅग सेट करण्यास हे आपल्याला अनुमती देते."
+
+#: aioseop_class.php:191
+msgid "Use these checkboxes to select which Post Types you want to use All in One SEO Pack with."
+msgstr "ऑल इन वन एस.ई.ओ. पॅक मध्ये आपल्याला कुठले पोस्ट टाइप्स वापरायचे आहेत ते निवडण्यासाठी ह्या चेक बॉक्सेस मध्ये टिक करा. "
+
+#: aioseop_class.php:190
+msgid "This will show or hide the advanced options for SEO for Custom Post Types."
+msgstr "कस्टम पोस्ट टाइप्स करता हा एसईओ साठी  अड्वॅन्स्ड ओप्शन दाखवेल अथवा वगळेल."
+
+#: aioseop_class.php:189
+msgid "Check this if you want to use All in One SEO Pack with any Custom Post Types on this site."
+msgstr "आपल्याला या साइट वरील इतर पोस्ट टाइप्स सोबत ऑल इन वन एस.ई.ओ. पॅक वापरायचे असल्यास येथे टिक करा. "
+
+#: aioseop_class.php:188
+msgid "%page% - The page number"
+msgstr "%page% - पेजचा क्रमांक"
+
+#: aioseop_class.php:187 aioseop_class.php:3192 aioseop_class.php:3249
+msgid "The following macros are supported:"
+msgstr "पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:186
+msgid "This string gets appended/prepended to titles of paged index pages (like home or archive pages)."
+msgstr "पृष्ठांकित अनुक्रमणिका केलेल्या पेजेस च्या शीर्षकांना ह्या स्ट्रिंग्स पुढून / मागून जोडले जातात. (होम किंवा आर्काइव पेजेस प्रमाणे)"
+
+#: aioseop_class.php:185
+msgid "%404_title% - Additional 404 title input\""
+msgstr "%404_title% - ४०४ करिता अतिरिक्त इनपुट"
+
+#: aioseop_class.php:184
+msgid "%request_words% - The URL path in human readable form, like \"Url That Does Not Exist\""
+msgstr "%request_words% - सरळ भाषेत रचलेला फॉर्म.उदा.\"Url That Does Not Exist\""
+
+#: aioseop_class.php:183
+msgid "%request_url% - The original URL path, like \"/url-that-does-not-exist/\""
+msgstr "%request_url% - ओरिजिनल यूआरएल् पाथ असा असावा.उदा.\"/url-that-does-not-exist/\""
+
+#: aioseop_class.php:180
+msgid "This controls the format of the title tag for the 404 page.<br />The following macros are supported:"
+msgstr "४०४ पेज मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:175
+msgid "%wp_title% - The original WordPress title, e.g. post_title for posts"
+msgstr ""
+
+#: aioseop_class.php:170
+msgid "This controls the format of Meta Descriptions.The following macros are supported:"
+msgstr "मेटा डिस्क्रीप्शन चे फॉरमॅट हे कंट्रोल करते. या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:169
+msgid "%search% - What was searched for"
+msgstr "%search% - काय शोधले होते"
+
+#: aioseop_class.php:166
+msgid "This controls the format of the title tag for the Search page.<br />The following macros are supported:"
+msgstr "सर्च पेज मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:164
+msgid "%tag% - The name of the tag"
+msgstr "%tag% - टॅग चे शीर्षक (नाव)"
+
+#: aioseop_class.php:161
+msgid "This controls the format of the title tag for Tag Archives.<br />The following macros are supported:"
+msgstr "टॅग आर्काइव्स (संग्रह) मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:159
+msgid "%author% - The original archive title given by wordpress, e.g. \"Steve\" or \"John Smith\""
+msgstr "%author% - वर्डप्रेस कडून मिळालेले संग्रहाचे मूळ शीर्षक.उदा. \"Steve\" किंवा \"John Smith\""
+
+#: aioseop_class.php:156
+msgid "This controls the format of the title tag for Author Archives.<br />The following macros are supported:"
+msgstr "ओथर (लेखक) आर्काइव्स (संग्रह) मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:154
+msgid "%year% - The original archive year given by wordpress, e.g. \"2007\""
+msgstr "%year% - वर्डप्रेस कडून मिळालेले संग्रहाचे वर्ष. उदा.\"2007\""
+
+#: aioseop_class.php:153
+msgid "%month% - The original archive month given by wordpress, e.g. \"August\""
+msgstr " %month% - वर्डप्रेस कडून मिळालेला संग्रहाचा महिना. उदा.\"August\""
+
+#: aioseop_class.php:152
+msgid "%day% - The original archive day given by wordpress, e.g. \"17\""
+msgstr "%day% - वर्डप्रेस कडून मिळालेला संग्रहाचा दिवस. उदा. \"17\""
+
+#: aioseop_class.php:151
+msgid "%date% - The original archive title given by wordpress, e.g. \"2007\" or \"2007 August\""
+msgstr "%date% - वर्डप्रेस कडून मिळालेले संग्रहाचे मूळ शीर्षक.उदा.  \"2007\" किंवा \"2007 August\""
+
+#: aioseop_class.php:148
+msgid "This controls the format of the title tag for Date Archives.<br />The following macros are supported:"
+msgstr "डेट् आर्काइव्स (संग्रह) मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:146
+msgid "%archive_title - The original archive title given by wordpress"
+msgstr "%archive_title - वर्डप्रेस द्वारे संग्रहास देण्यात आलेले मूळ शीर्षक (ओरिजिनल आर्काइव टाइटल)"
+
+#: aioseop_class.php:143
+msgid "This controls the format of the title tag for Custom Post Archives.<br />The following macros are supported:"
+msgstr "कस्टम(इतर) पोस्ट आर्काइव्स (संग्रह) मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:141
+msgid "%category_description% - The description of the category"
+msgstr "%category_description%  - केटेगरी चे मूळ वर्णन"
+
+#: aioseop_class.php:140
+msgid "%category_title% - The original title of the category"
+msgstr "%category_title% - केटेगरी चे मूळ शीर्षक "
+
+#: aioseop_class.php:137
+msgid "This controls the format of the title tag for Category Archives.<br />The following macros are supported:"
+msgstr "केटेगरी आर्काइव्स (संग्रह) मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:131 aioseop_class.php:3206
+msgid "%post_author_lastname% - This post's author' last name (capitalized)"
+msgstr "%post_author_lastname%  - या पोस्टच्या लेखकाचे आडनाव (कॅपिटल लिपीत लिहीणे अनिवार्य) "
+
+#: aioseop_class.php:130 aioseop_class.php:3205
+msgid "%post_author_firstname% - This post's author' first name (capitalized)"
+msgstr "%post_author_firstname% - या पोस्टच्या लेखकाचे प्रथम नाव (कॅपिटल लिपीत लिहीणे अनिवार्य) "
+
+#: aioseop_class.php:129 aioseop_class.php:3204
+msgid "%post_author_nicename% - This post's author' nicename"
+msgstr "%post_author_nicename% - ह्या पोस्टच्या लेखकाचे टोपण नाव"
+
+#: aioseop_class.php:128 aioseop_class.php:3203
+msgid "%post_author_login% - This post's author' login"
+msgstr "%post_author_login% - ह्या पोस्टच्या ओथर करिता लोगिन"
+
+#: aioseop_class.php:127
+msgid "%1$category% - Alias for %2$category_title%"
+msgstr ""
+
+#: aioseop_class.php:126
+msgid "%category_title% - The (main) category of the post"
+msgstr "%category_title% - पोस्ट ची (मुख्य) केटेगरी"
+
+#: aioseop_class.php:125 aioseop_class.php:174
+msgid "%post_title% - The original title of the post"
+msgstr "%post_title% - पोस्ट चे मूळ शीर्षक"
+
+#: aioseop_class.php:122
+msgid "This controls the format of the title tag for Posts.<br />The following macros are supported:"
+msgstr "पोस्ट्स मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत: "
+
+#: aioseop_class.php:109
+msgid "This controls the format of the title tag for Pages.<br />The following macros are supported:"
+msgstr "पेजेस मध्ये असलेल्या टाइटल टॅग चे फॉरमॅट हे कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत:"
+
+#: aioseop_class.php:106 aioseop_class.php:116
+msgid "%page_author_lastname% - This page's author' last name (capitalized)"
+msgstr "%page_author_lastname% - या पेजच्या लेखकाचे आडनाव (कॅपिटल लिपीत लिहीणे अनिवार्य) "
+
+#: aioseop_class.php:105 aioseop_class.php:115
+msgid "%page_author_firstname% - This page's author' first name (capitalized)"
+msgstr "%page_author_firstname% - या पेजच्या लेखकाचे प्रथम नाव (कॅपिटल लिपीत लिहीणे अनिवार्य)"
+
+#: aioseop_class.php:104 aioseop_class.php:114
+msgid "%page_author_nicename% - This page's author' nicename"
+msgstr "%page_author_nicename% - या पेजच्या लेखकाचे टोपण नाव"
+
+#: aioseop_class.php:103 aioseop_class.php:113
+msgid "%page_author_login% - This page's author' login"
+msgstr "%page_author_login% - ह्या पेजच्या लेखकासाठी (ओथर) लोगिन"
+
+#: aioseop_class.php:102 aioseop_class.php:112
+msgid "%page_title% - The original title of the page"
+msgstr "%page_title% - आपल्या पेजचे ओरिजिनल शीर्षक"
+
+#: aioseop_class.php:101 aioseop_class.php:111 aioseop_class.php:124
+#: aioseop_class.php:139 aioseop_class.php:145 aioseop_class.php:150
+#: aioseop_class.php:158 aioseop_class.php:163 aioseop_class.php:168
+#: aioseop_class.php:172 aioseop_class.php:182 aioseop_class.php:3194
+#: aioseop_class.php:3251
+msgid "%blog_description% - Your blog description"
+msgstr "%blog_description% - आपल्या ब्लॉगचे वर्णन"
+
+#: aioseop_class.php:100 aioseop_class.php:110 aioseop_class.php:123
+#: aioseop_class.php:138 aioseop_class.php:144 aioseop_class.php:149
+#: aioseop_class.php:157 aioseop_class.php:162 aioseop_class.php:167
+#: aioseop_class.php:171 aioseop_class.php:181 aioseop_class.php:3193
+#: aioseop_class.php:3250
+msgid "%blog_title% - Your blog title"
+msgstr "%blog_title% - आपल्या ब्लॉगचे शिर्षक"
+
+#: aioseop_class.php:99
+msgid "This controls the format of the title tag for your Home Page.<br />The following macros are supported:"
+msgstr "हे आपल्या होम पेजच्या टाइटल टॅगचे फॉरमॅट कंट्रोल करते.<br />या करिता पुढील मॅक्रोझ सपोर्टेड आहेत:"
+
+#: aioseop_class.php:97
+msgid "Note that this is all about the title tag. This is what you see in your browser's window title bar. This is NOT visible on a page, only in the title bar and in the source code. If enabled, all page, post, category, search and archive page titles get rewritten. You can specify the format for most of them. For example: Using the default post title format below, Rewrite Titles will write all post titles as 'Post Title | Blog Name'. If you have manually defined a title using All in One SEO Pack, this will become the title of your post in the format string."
+msgstr "हे संपूर्ण टाइटल टॅग संबंधी आहे हे लक्षात घ्या. हे आपण आपल्या ब्राउज़रच्या विंडो टाइटल बार मधे पाहु शकतात. हे पेज वरती आपण बघू शकत नाही, हे फक्त टाइटल बार आणि सोर्स कोड मध्ये दिसते. जर हे सक्रिय केले, तर सगळी पोस्ट, पेज, केटेगरी, सर्च आणि आर्काइव पेजेस ची शीर्षके पुन्हा लिहिली जातील. आपण त्यांचा फॉरमॅट ठरवू शकतात. उदा., खालील प्रमाणे डिफॉल्ट पोस्ट टाइटल फॉरमॅट वापरुन, \"रिराइट टाइटल्स\" आपल्या सर्व पोस्ट च्या शीर्षकांना \"पोस्ट टाइटल | ब्लॉग नेम\" या स्वरुपात साठवेल. आपण स्वत: जर ऑल इन वन एस.ई.ओ. पॅक वापरुन एखादे शीर्षक परिभाषित केले असेल तर हे आपले पोस्टचे फॉरमॅट स्ट्रिँग मधले टाइटल बनेल. "
+
+#: aioseop_class.php:96
+msgid "Check this if you want your keywords on your Posts page (set in WordPress under Settings, Reading, Front Page Displays) and your archive pages to be dynamically generated from the keywords of the posts showing on that page.  If unchecked, it will use the keywords set in the edit page screen for the posts page."
+msgstr "आपल्याला पोस्ट्स पेज वर कीवर्ड्स वापरायचे असल्यास (जे वर्डप्रेस मध्ये सेटिंग्स, रीडिंग, फ्रंट पेज डिसप्ले येथे सेट असते) आणि आपल्याला आर्काइव (संग्रहण करणारी पेजेस) एखाद्या पेज वरती असलेल्या पोस्टच्या कीवर्ड्स पासून ऑटो. जनरेट करायची असल्यास येथे टिक करा. जर इथे टिक नसेल तर पोस्ट पेज च्या एडिट पेज स्क्रीन वरील कीवर्ड्स सेट वापरला जाईल. "
+
+#: aioseop_class.php:95
+msgid "Check this if you want your tags for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr " आपण दिलेल्या पोस्ट चे टॅग्स आपल्याला मेटा-कीवर्ड्स म्हणून वापरायचे असल्यास (ह्या पोस्ट मध्ये) येथे टिक करा. (हे एडिट पोस्ट स्क्रीन वर दिलेल्या कीवर्ड्स व्यतिरिक्त आणखी कीवर्ड्स साठी हा विकल्प आहे.)"
+
+#: aioseop_class.php:94
+msgid "Check this if you want your categories for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr " आपण दिलेल्या पोस्ट च्या केटेगरीस आपल्याला मेटा-कीवर्ड्स म्हणून वापरायचे असल्यास (ह्या पोस्ट मध्ये) येथे टिक करा. (हे एडिट पोस्ट स्क्रीन वर दिलेल्या कीवर्ड्स व्यतिरिक्त आणखी कीवर्ड्स साठी हा विकल्प आहे.)"
+
+#: aioseop_class.php:93
+msgid "This option allows you to toggle the use of Meta Keywords throughout the whole of the site."
+msgstr "हा ओप्शन आपल्याला मेटा कीवर्ड्स ला संपूर्ण साइट वर यूज़ करण्यासाठी अनुमती देतो."
+
+#: aioseop_class.php:92
+msgid "Checking this option uses the title, description, and keywords set on your static Front Page."
+msgstr "ह्या विकल्पावर टिक केल्यास टाइटल, कीवर्ड्स सेट, आणि डिस्क्रीप्शन आपल्या स्टॅटिक होम पेज वर यूज़ होते."
+
+#: aioseop_class.php:91
+msgid "Enter a comma separated list of your most important keywords for your site that will be written as Meta Keywords on your homepage. Do not stuff everything in here."
+msgstr "कॉमाने स्वतंत्र केलेली आपली महत्वाची कीवर्ड लिस्ट आपल्या साइट साठी तयार करा. जे आपल्या होमपेजवर मेटा कीवर्ड्सच्या स्वरुपात दिसेल. अनावश्यक टर्म येथे साठवू नका."
+
+#: aioseop_class.php:90
+msgid "This will be the Meta Description for your homepage. This is independent of any other option. The default is no Meta Description at all if this is not set."
+msgstr "हे आपल्या होमपेजचे मेटा डिस्क्रीप्शन आहे.  हे इतर कुठल्याही ओप्शन पासून स्वतंत्र असेल. डिफॉल्ट मेटा सेट हा डिफॉल्ट मोडे मधे रिकामा असतो. "
+
+#: aioseop_class.php:89
+msgid "As the name implies, this will be the Meta Title of your homepage. This is independent of any other option. If not set, the default Site Title (found in WordPress under Settings, General, Site Title) will be used."
+msgstr "ह्या नावाप्रमाणे, हे आपल्या होम-पेजचे मेटा टाइटल असेल. हे इतर कुठल्याही ओप्शन पासून स्वतंत्र असेल. जर सेट नसेल तर, डिफॉल्ट साइट टाइटल वापरले जाईल. (वर्डप्रेस मध्ये उपलब्ध असलेले, सेटिंग्स मेनुतील जनरल साइट टाइटल)"
+
+#: aioseop_class.php:88
+msgid "Check this and All in One SEO Pack will create a log of important events (all-in-one-seo-pack.log) in its plugin directory which might help debugging. Make sure this directory is writable."
+msgstr "ह्या ओप्शन ला टिक करा आणि ऑल इन वन एस.ई.ओ. पॅक आपले सर्व महत्वाचे लोग एका फाइल मधे (all_in_one_seo_pack.log) साठवेल जे प्लगिन डाइरेक्टरी मधे आढळेल. हे आपणास डीबगिंग करताना मदत करेल. ही डाइरेक्टरी लिहीण्यायोग्य आहे याची पडताळणी करा. "
+
+#: aioseop_class.php:87
+msgid "Use wp_title to get the title used by the theme; this is disabled by default. If you use this option, set your title formats appropriately, as your theme might try to do its own title SEO as well."
+msgstr "थीमद्वारा यूज़ झालेले शीर्षक मिळविण्यासाठी wp_title वापरा; हे सामान्यत: डिसेबल्ड असते. आपण हा विकल्प वापरला, तर शीर्षकाचे स्वरूप नीट सेट करा. कारण आपली थीम सुद्धा स्वत:चे शीर्षक वापरण्याचा प्रयत्न करेल."
+
+#: aioseop_class.php:86
+msgid "Checking this option will allow you to customize Canonical URLs for specific posts."
+msgstr "हा विकल्प ठराविक पोस्ट्सचे केनॉनिकल यूआरएल कस्टमाइज़ करण्यास अनुमती देईल "
+
+#: aioseop_class.php:85
+msgid "Checking this option will set the Canonical URL for all paginated content to the first page."
+msgstr "हा विकल्प संपूर्ण पहिल्या पेजच्या पृष्ठांकित कॉंटेंट साठी केनॉनिकल यूआरएल तयार करेल"
+
+#: aioseop_class.php:73 aioseop_class.php:1012
+#: modules/aioseop_importer_exporter.php:46
+msgid "General Settings"
+msgstr "सामान्य सेटिंग्स"
+
+#: aioseop_class.php:72
+msgid "%s Plugin Options"
+msgstr "%s प्लगिन् ओप्शन "
+
+#: modules/aioseop_bad_robots.php:99
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr ""
+
+#: modules/aioseop_bad_robots.php:93
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr ""
+
+#: modules/aioseop_bad_robots.php:58
+msgid "No requests yet."
+msgstr "कुठलेही रिक्वेस्ट्स नाहीत."
+
+#: modules/aioseop_bad_robots.php:57
+msgid "Log Of Blocked Bots"
+msgstr "ब्लॉक्ड बॉट्स चा लॉग"
+
+#: modules/aioseop_bad_robots.php:46
+msgid "Referer Blocklist"
+msgstr "रेफरर ब्लॉकलिस्ट"
+
+#: modules/aioseop_bad_robots.php:38
+msgid "User Agent Blocklist"
+msgstr "यूज़र एजेंट ब्लॉकलिस्ट"
+
+#: modules/aioseop_bad_robots.php:35
+msgid "Track Blocked Bots"
+msgstr "ब्लॉक्ड बॉट्स ट्रॅक करा "
+
+#: modules/aioseop_bad_robots.php:29
+msgid "Shows log of most recent requests from blocked bots. Note: this will not track any bots that were already blocked at the web server / .htaccess level."
+msgstr "लॉग दाखवा. ब्लॉक बॉट्सने शेवटी कधी रिक्वेस्ट केलेत ते पहा. सूचना: हे असे कुठलीही बॉट्स ट्रॅक करणार नाहीत जे वेब सर्वर अथवा  .htaccess लेवल वर पूर्वीच ब्लॉक्ड आहेत."
+
+#: modules/aioseop_bad_robots.php:28
+msgid "This is the list of disallowed referers used for blocking bad bots."
+msgstr " बॅड बॉट्स ब्लॉक करण्याकरिता अनुमती नसलेल्या रेफरर्सची ही लिस्ट आहे. "
+
+#: modules/aioseop_bad_robots.php:27
+msgid "This is the list of disallowed user agents used for blocking bad bots."
+msgstr " बॅड बॉट्स ब्लॉक करण्याकरिता अनुमती नसलेल्या यूज़र एजेंट्सची ही लिस्ट आहे. "
+
+#: modules/aioseop_bad_robots.php:26
+msgid "Check this to edit the list of disallowed user agents for blocking bad bots."
+msgstr "येथे टिक करा, आणि बॅड बॉट्स ब्लॉक करण्याकरिता अनुमती नसलेल्या यूज़र एजेंट्सची लिस्ट पुन्हा तपासा. "
+
+#: modules/aioseop_bad_robots.php:25
+msgid "Log and show recent requests from blocked bots."
+msgstr "लॉग करा आणि शेवटी रिक्वेस्ट ब्लॉक केलेले बॉट्स बघा. "
+
+#: modules/aioseop_bad_robots.php:23
+msgid "Block requests from user agents that are known to misbehave with 503."
+msgstr "गैरवर्तन करणार्‍या सर्व यूज़र एजेंट्स चे रिक्वेस्ट ब्लॉक करा."
+
+#. translators: the Bad Bot Blocker module allows users to block requests from
+#. user agents that are known to misbehave.
+#: modules/aioseop_bad_robots.php:17 modules/aioseop_feature_manager.php:61
+msgid "Bad Bot Blocker"
+msgstr "बॅड बॉट ब्लॉकर"
