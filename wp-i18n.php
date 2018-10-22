@@ -343,9 +343,9 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 *
 		 * # Download PO files for Theme:
 		 *
-		 * Syntax Command:  wp wpi18n download_theme {theme-slug} --lang={language}
+		 * Syntax Command:  wp wpi18n download_theme_po {theme-slug} --lang={language}
 		 *
-		 * Example Command: wp wpi18n download_theme bhari
+		 * Example Command: wp wpi18n download_theme_po bhari
 		 * 
 		 * This command create directory in `po-files\themes\bhari\` and download the files of that plugin.
 		 * 
@@ -357,9 +357,9 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 * 
 		 * ## EXAMPLES
 		 *
-		 * wp wpi18n download_theme {slug} --lang={mr}
+		 * wp wpi18n download_theme_po {slug} --lang={mr}
 		 */
-		function download_theme( $args, $assoc_args ) {
+		function download_theme_po( $args, $assoc_args ) {
 			$plugin_slug = isset( $args[0] ) ? $args[0] : '';
 			$lang        = isset( $assoc_args ) && array_key_exists( 'lang', $assoc_args )      ? $assoc_args['lang']      : '';
 
