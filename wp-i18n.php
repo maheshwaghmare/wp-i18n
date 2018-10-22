@@ -247,9 +247,9 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 *
 		 * # Download PO files for Plugins:
 		 *
-		 * Syntax Command:  wp wpi18n download_plugin {plugin-slug} --lang={language}
+		 * Syntax Command:  wp wpi18n download_plugin_po {plugin-slug} --lang={language}
 		 *
-		 * Example Command: wp wpi18n download_plugin contact-form-7
+		 * Example Command: wp wpi18n download_plugin_po contact-form-7
 		 * 
 		 * This command create directory in `po-files\plugins\contact-form-7\` and download the files of that plugin.
 		 * 
@@ -262,9 +262,9 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 *
 		 * ## EXAMPLES
 		 *
-		 * wp wpi18n download_plugin {slug} --lang={mr}
+		 * wp wpi18n download_plugin_po {slug} --lang={mr}
 		 */
-		function download_plugin( $args, $assoc_args ) {
+		function download_plugin_po( $args, $assoc_args ) {
 			$plugin_slug = isset( $args[0] ) ? $args[0] : '';
 			$lang        = isset( $assoc_args ) && array_key_exists( 'lang', $assoc_args )      ? $assoc_args['lang']      : '';
 
