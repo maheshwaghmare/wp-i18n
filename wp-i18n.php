@@ -1118,6 +1118,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 									$translation->setTranslation( $stored_string );
 									WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $post_title . ' | WITH ' . $stored_string );
 									$newly_translated++;
+									$all_translations_count++;
 									$data = file_get_contents( $dir . '/log.txt' );
 									file_put_contents( $dir . '/log.txt', $data . "\n" . $theme_slug . ' | ' . $post_title . ' | ' . $stored_string );
 								}
@@ -1291,6 +1292,129 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			$translations->toPoFile( $local_translated_file );
 		}
 
+		/**
+		 *
+		 * # Generate PO files for Plugin:
+		 *
+		 * Syntax Command:  wp wpi18n generate_plugin_po {plugin-slug} --lang={language}
+		 *
+		 * Example Command: wp wpi18n generate_plugin_po bhari
+		 * 
+		 * This command create directory in `po-files\plugins\bhari\` and download the files of that plugin.
+		 * 
+		 * ## EXAMPLES
+		 *
+		 * wp wpi18n generate_plugin_po {slug} --lang={mr}
+		 */
+		function generate_plugin_po( $args, $assoc_args ) {
+			$plugin_slug = isset( $args[0] ) ? $args[0] : '';
+			$lang        = isset( $assoc_args ) && array_key_exists( 'lang', $assoc_args )      ? $assoc_args['lang']      : '';
+
+			if( empty( $plugin_slug ) ) {
+				WP_CLI::error( "Empty Plugin Slug!" );
+			}
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
+
+			include_once "lib/Gettext/src/autoloader.php";
+			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
+
+			$dir = 'po-files/plugins/' . $plugin_slug . '/' . $lang . '/';
+
+			$local_translated_log  = $dir . 'log.txt';
+
+			// Empty log file.
+			file_put_contents( $local_translated_log, '' );
+
+			$files = $this->getDirContents( $dir );
+
+			$all_translations_count = 0;
+
+			// Avoid `log.txt`
+			// and `translate.po` files.
+			$only_plugin_po_files = array();
+			foreach ($files as $key => $file) {
+				if ( strpos($file, '.txt') === false && strpos($file, 'translated') === false ) {
+					$only_plugin_po_files[] = $file;
+				}
+			}
+			// WP_CLI::line( print_r( $files ) );
+			// WP_CLI::error( print_r( $only_plugin_po_files ) );
+
+			$files_count = count( $only_plugin_po_files );
+			foreach ($only_plugin_po_files as $key => $file) {
+
+				$file_name       = basename($file);
+				$translated_name = str_replace('.po', '-translated.po', $file_name);
+				// WP_CLI::line($file_name);
+				// WP_CLI::line($translated_name);
+				// WP_CLI::error('ok');
+				
+
+				// $dir . $plugin_slug . '/' . $lang
+
+				$translations = Translations::fromPoFile( $file );
+
+				$count = count( $translations );
+
+				foreach ($translations as $key => $translation) {
+
+					$post_title         = $translation->getOriginal();
+					$translation_string = $translation->getTranslation();
+
+					// Empty the translation text.
+					// And the post exist.
+					if( empty( $translation_string ) && ! empty( $post_title ) ) {
+
+						$post_id = post_exists( $post_title );
+						if( $post_id ) {
+
+							$stored_string = get_post_meta( $post_id, 'language_' . $lang, true );
+							
+							if( ! empty( $stored_string ) ) {
+								//edit some translations:
+								$translation = $translations->find(null, $post_title);
+
+								if ($translation) {
+									$translation->setTranslation( $stored_string );
+
+									WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $post_title . ' | WITH ' . $stored_string );
+									$all_translations_count++;
+
+									// Track all translate strings.
+									$log_data = file_get_contents( $local_translated_log );
+									if( empty( $log_data ) ) {
+										file_put_contents( $local_translated_log, $all_translations_count . ' | ' . $post_title . ' | ' . $stored_string );
+									} else {
+										file_put_contents( $local_translated_log, $log_data . "\n" . $all_translations_count . ' | ' . $post_title . ' | ' . $stored_string );
+									}
+								}
+							} else {
+								WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' EMPTY.' );
+							}
+						} else {
+							WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' NOT EXIST ' . $post_title );
+						}
+					}
+					$count--;
+				}
+
+
+				WP_CLI::line( $files_count . ' | ' . 'COMPLETE - TRANSLATED ' . $all_translations_count . ' STRINGS!' );
+
+				//Now save a po file with the result
+				$translations->toPoFile( $dir . $translated_name );
+				WP_CLI::line( $files_count . ' | ' . $dir . $translated_name );
+
+				$files_count--;
+			}
+
+			WP_CLI::line( 'TOTAL TRANSLATED ' . $all_translations_count );
+
+		}
+
 		public function import() {
 
 			include_once "lib/Gettext/src/autoloader.php";
@@ -1421,6 +1545,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			$newly_translated = 0;
 
 			// WP_CLI::error(print_r( $translations ) );
+
 
 			foreach ($translations as $key => $translation) {
 				// echo 'getOriginal : ---- ' . $translation->getOriginal() . '<br/>';

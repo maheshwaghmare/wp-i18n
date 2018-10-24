@@ -1,17 +1,51 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Plugins - Health Check &amp; Troubleshooting - Stable (latest release)\n"
+"Project-Id-Version: Plugins - Health Check &amp; Troubleshooting - Development (trunk)\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-11T17:53:43+00:00\n"
+"POT-Creation-Date: 2018-10-24T07:08:48+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. translators: %s: Plugin name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:965
+msgid "Enable the plugin, %s, while troubleshooting."
+msgstr ""
+
+#. translators: %s: Plugin name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:950
+msgid "Disable the plugin, %s, while troubleshooting."
+msgstr ""
+
+#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
+#. for WordPress. %3$s: The currently active theme.
+#: includes/class-health-check-site-status.php:355
+msgid "Your site has %1$d inactive theme, other than %2$s, the default WordPress theme, and %3$s, your active theme. It is recommended to remove any unused themes to enhance your sites security."
+msgid_plural "Your site has %1$d inactive themes, other than %2$s, the default WordPress theme, and %3$s, your active theme. It is recommended to remove any unused themes to enhance your sites security."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
+#. for WordPress. %3$s: The currently active theme. %4$s: The active themes
+#. parent theme.
+#: includes/class-health-check-site-status.php:337
+msgid "Your site has %1$d inactive theme. To enhance your sites security it is recommended to remove any unused themes. You should keep %2$s, the default WordPress theme, %3$s, your current theme and %4$s, the parent theme."
+msgid_plural "Your site has %1$d inactive themes. To enhance your sites security it is recommended to remove any unused themes. You should keep %2$s, the default WordPress theme, %3$s, your current theme and %4$s, the parent theme."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: The amount of plugins.
+#: includes/class-health-check-site-status.php:217
+msgid "Your site has %d active plugin, and it is up to date."
+msgid_plural "Your site has %d active plugins, and they are all up to date."
+msgstr[0] ""
+msgstr[1] ""
 
 #. Plugin Name of the plugin/theme
 msgid "Health Check & Troubleshooting"
@@ -54,23 +88,6 @@ msgstr ""
 msgid "Your site does not have a default theme, default themes are used by WordPress automatically if anything is wrong with your normal theme."
 msgstr ""
 
-#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
-#. for WordPress. %3$s: The currently active theme.
-#: includes/class-health-check-site-status.php:355
-msgid "Your site has %1$d inactive theme, other than %2$s, the default WordPress theme, and %3$s, your active theme. It is recommended to remove any unused themes to enhance your sites security."
-msgid_plural "Your site has %1$d inactive themes, other than %2$s, the default WordPress theme, and %3$s, your active theme. It is recommended to remove any unused themes to enhance your sites security."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
-#. for WordPress. %3$s: The currently active theme. %4$s: The active themes
-#. parent theme.
-#: includes/class-health-check-site-status.php:337
-msgid "Your site has %1$d inactive theme. To enhance your sites security it is recommended to remove any unused themes. You should keep %2$s, the default WordPress theme, %3$s, your current theme and %4$s, the parent theme."
-msgid_plural "Your site has %1$d inactive themes. To enhance your sites security it is recommended to remove any unused themes. You should keep %2$s, the default WordPress theme, %3$s, your current theme and %4$s, the parent theme."
-msgstr[0] ""
-msgstr[1] ""
-
 #. translators: %d: The amount of themes.
 #: includes/class-health-check-site-status.php:318
 msgid "Your site has %d installed theme, and it is up to date."
@@ -89,13 +106,6 @@ msgstr[1] ""
 #: includes/class-health-check-site-status.php:234
 msgid "Your site has %d inactive plugin, it is recommended to remove any unused plugins to enhance your site security."
 msgid_plural "Your site has %d inactive plugins, it is recommended to remove any unused plugins to enhance your site security."
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: %d: The amount of plugins.
-#: includes/class-health-check-site-status.php:217
-msgid "Your site has %d active plugin, and it is up to date."
-msgid_plural "Your site has %d active plugins, and they are all up to date."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -166,19 +176,9 @@ msgstr ""
 msgid "Enable"
 msgstr "सक्षम"
 
-#. translators: %s: Plugin name.
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:965
-msgid "Enable the plugin, %s, while troubleshooting."
-msgstr ""
-
 #: assets/mu-plugin/health-check-troubleshooting-mode.php:954
 msgid "Disable"
 msgstr "अक्षम"
-
-#. translators: %s: Plugin name.
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:950
-msgid "Disable the plugin, %s, while troubleshooting."
-msgstr ""
 
 #: assets/mu-plugin/health-check-troubleshooting-mode.php:920
 msgid "Available Plugins"
@@ -227,6 +227,10 @@ msgstr ""
 msgid "When enabling the plugin, %s, a site failure occurred. Because of this the change was automatically reverted."
 msgstr ""
 
+#: includes/class-health-check-debug-data.php:812
+msgid "- Some errors, likely caused by invalid permissions, were encountered when determining the size of your installation. This means the values represented may be inaccurate."
+msgstr ""
+
 #. translators: %s: Recommended PHP version
 #: includes/class-health-check-site-status.php:422
 msgid "For best performance we recommend using PHP %s or higher."
@@ -258,10 +262,6 @@ msgstr ""
 
 #: includes/class-health-check-files-integrity.php:113
 msgid "One possible reason for this may be that your installation contains translated versions. An easy way to clear this is to reinstall WordPress. Don't worry. This will only affect WordPress' own files, not your themes, plugins or uploaded media."
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:812
-msgid "- Some errors, likely caused by invalid permissions, were encountered when determining the size of your installation. This means the values represented may be inaccurate."
 msgstr ""
 
 #: includes/class-health-check-debug-data.php:808
@@ -364,18 +364,6 @@ msgstr ""
 msgid "File Integrity"
 msgstr ""
 
-#. translators: %1$s: Current PHP version. %2$s: Recommended PHP version.
-#: includes/class-health-check-site-status.php:408
-msgid "Your version of PHP, %1$s, is very outdated and no longer receiving security updates. You should contact your host for an upgrade, WordPress recommends using PHP version %2$s."
-msgstr ""
-
-#: includes/class-health-check-site-status.php:389
-#: includes/class-health-check-site-status.php:404
-#: includes/class-health-check-site-status.php:418
-msgctxt "The link to the Update PHP page, which may be localized."
-msgid "https://wordpress.org/support/upgrade-php/"
-msgstr ""
-
 #: modals/backup-warning.php:20
 msgid "I understand"
 msgstr "मला समजतंय"
@@ -402,10 +390,6 @@ msgstr ""
 
 #: includes/class-health-check-mail-check.php:51
 msgid "We have just sent an e-mail using <code>wp_mail()</code> and it seems to work. Please check your inbox and spam folder to see if you received it."
-msgstr ""
-
-#: includes/class-health-check-loopback.php:157
-msgid "Result from testing without any plugins active and a default theme"
 msgstr ""
 
 #: includes/class-health-check-files-integrity.php:119
@@ -447,12 +431,6 @@ msgstr ""
 msgid "Tools"
 msgstr "टूल्स"
 
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:715
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:1074
-#: includes/class-health-check-troubleshoot.php:299
-msgid "Disable Troubleshooting Mode"
-msgstr ""
-
 #: assets/mu-plugin/health-check-troubleshooting-mode.php:120
 msgid "Install a default theme"
 msgstr ""
@@ -461,37 +439,24 @@ msgstr ""
 msgid "You don't have any of the default themes installed. A default theme helps you determine if your current theme is causing conflicts."
 msgstr ""
 
-#: includes/class-health-check-debug-data.php:325
-msgid "Imagick Module Version"
+#. translators: %1$s: Current PHP version. %2$s: Recommended PHP version.
+#: includes/class-health-check-site-status.php:408
+msgid "Your version of PHP, %1$s, is very outdated and no longer receiving security updates. You should contact your host for an upgrade, WordPress recommends using PHP version %2$s."
 msgstr ""
 
-#: includes/class-health-check.php:233
-#: includes/class-health-check.php:250
-#: includes/class-health-check.php:309
-msgctxt "Menu, Section and Page Title"
-msgid "Health Check"
+#: includes/class-health-check-site-status.php:389
+#: includes/class-health-check-site-status.php:404
+#: includes/class-health-check-site-status.php:418
+msgctxt "The link to the Update PHP page, which may be localized."
+msgid "https://wordpress.org/support/upgrade-php/"
 msgstr ""
 
-#. Translators: %s: Plugin slug.
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:657
-msgid "Enable %s"
-msgstr "सक्षम %s"
-
-#. Translators: %s: Plugin slug.
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:644
-msgid "Disable %s"
-msgstr "अक्षम %s"
-
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:613
-msgid "Manage active plugins"
+#: includes/class-health-check-loopback.php:157
+msgid "Result from testing without any plugins active and a default theme"
 msgstr ""
 
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:231
-msgid "Enable while troubleshooting"
-msgstr ""
-
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:223
-msgid "Disable while troubleshooting"
+#: pages/troubleshoot.php:29
+msgid "Please note, that due to how Must Use plugins work, any such plugin will not be disabled for the troubleshooting session."
 msgstr ""
 
 #: pages/troubleshoot.php:25
@@ -502,122 +467,16 @@ msgstr ""
 msgid "By enabling the Troubleshooting Mode, all plugins will appear inactive and your site will switch to the default theme only for you. All other users will see your site as usual."
 msgstr ""
 
-#: pages/troubleshoot.php:16
-msgid "When troubleshooting issues on your site, you are likely to be told to disable all plugins and switch to the default theme."
-msgstr ""
-
-#. translators: %1$d: The HTTP response code. %2$s: The error message returned.
-#: includes/class-health-check-loopback.php:74
-msgid "Error encountered: (%1$d) %2$s"
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:519
-msgid "Database name"
-msgstr "डेटाबेस नाव"
-
-#: includes/class-health-check-debug-data.php:411
-msgid "Max input time"
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:369
-msgid "Ghostscript Version"
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:366
-msgid "Unable to determine if Ghostscript is installed"
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:357
-msgid "GD Version"
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:345
-msgid "Imagick Resource Limits"
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:329
-msgid "ImageMagick Version"
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:312
-msgid "Active editor"
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:139
-msgid "Media handling"
-msgstr ""
-
-#: includes/class-health-check.php:287
-msgid "Troubleshoot"
-msgstr ""
-
-#: includes/class-health-check.php:215
-msgid "Copied"
-msgstr "कॉपी केले"
-
-#: includes/class-health-check-troubleshoot.php:231
-msgid "Return to the Dashboard"
-msgstr ""
-
-#: includes/class-health-check-troubleshoot.php:204
-msgid "We were unable to replace the plugin file required to enable the Troubleshooting Mode."
-msgstr ""
-
-#: includes/class-health-check-troubleshoot.php:309
-msgid "Enable Troubleshooting Mode"
-msgstr ""
-
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:620
-msgid "Plugins"
-msgstr "प्लगिन्स"
-
-#: assets/mu-plugin/health-check-troubleshooting-mode.php:606
-msgid "Troubleshooting Mode"
-msgstr ""
-
-#: pages/troubleshoot.php:29
-msgid "Please note, that due to how Must Use plugins work, any such plugin will not be disabled for the troubleshooting session."
-msgstr ""
-
 #: pages/troubleshoot.php:17
 msgid "Understandably, you do not wish to do so as it may affect your site visitors, leaving them with lost functionality."
 msgstr ""
 
-#: includes/class-health-check-troubleshoot.php:160
-msgid "We were unable to copy the plugin file required to enable the Troubleshooting Mode."
-msgstr ""
-
-#: includes/class-health-check-troubleshoot.php:145
-msgid "We were unable to create the mu-plugins directory."
-msgstr ""
-
-#: includes/class-health-check-loopback.php:71
-msgid "The loopback request to your site failed, this may prevent WP_Cron from working, along with theme and plugin editors."
-msgstr ""
-
-#: includes/class-health-check.php:316
-msgid "Troubleshooting"
-msgstr "समस्यानिवारण"
-
-#: includes/class-health-check.php:214
-msgid "Please wait..."
+#: pages/troubleshoot.php:16
+msgid "When troubleshooting issues on your site, you are likely to be told to disable all plugins and switch to the default theme."
 msgstr ""
 
 #: pages/site-status.php:109
 msgid "Loopback request"
-msgstr ""
-
-#: includes/class-health-check-loopback.php:95
-msgid "The loopback request to your site completed successfully."
-msgstr ""
-
-#. translators: %d: The HTTP response code returned.
-#: includes/class-health-check-loopback.php:87
-msgid "The loopback request returned an unexpected status code, %d, this may affect tools such as WP_Cron, or theme and plugin editors."
-msgstr ""
-
-#: includes/class-health-check-debug-data.php:296
-msgid "Create loopback requests"
 msgstr ""
 
 #: pages/site-status.php:102
@@ -667,6 +526,44 @@ msgstr ""
 msgid "No scheduled events exist on this site."
 msgstr ""
 
+#: includes/class-health-check-troubleshoot.php:309
+msgid "Enable Troubleshooting Mode"
+msgstr ""
+
+#: includes/class-health-check-troubleshoot.php:231
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-health-check-troubleshoot.php:204
+msgid "We were unable to replace the plugin file required to enable the Troubleshooting Mode."
+msgstr ""
+
+#: includes/class-health-check-troubleshoot.php:160
+msgid "We were unable to copy the plugin file required to enable the Troubleshooting Mode."
+msgstr ""
+
+#: includes/class-health-check-troubleshoot.php:145
+msgid "We were unable to create the mu-plugins directory."
+msgstr ""
+
+#: includes/class-health-check-loopback.php:95
+msgid "The loopback request to your site completed successfully."
+msgstr ""
+
+#. translators: %d: The HTTP response code returned.
+#: includes/class-health-check-loopback.php:87
+msgid "The loopback request returned an unexpected status code, %d, this may affect tools such as WP_Cron, or theme and plugin editors."
+msgstr ""
+
+#. translators: %1$d: The HTTP response code. %2$s: The error message returned.
+#: includes/class-health-check-loopback.php:74
+msgid "Error encountered: (%1$d) %2$s"
+msgstr ""
+
+#: includes/class-health-check-loopback.php:71
+msgid "The loopback request to your site failed, this may prevent WP_Cron from working, along with theme and plugin editors."
+msgstr ""
+
 #. translators: %s: Plugin version number.
 #. translators: %s: Theme version number.
 #: includes/class-health-check-debug-data.php:547
@@ -689,8 +586,52 @@ msgstr "%s द्वारे"
 msgid "No version or author information available"
 msgstr ""
 
+#: includes/class-health-check-debug-data.php:519
+msgid "Database name"
+msgstr "डेटाबेस नाव"
+
+#: includes/class-health-check-debug-data.php:411
+msgid "Max input time"
+msgstr ""
+
 #: includes/class-health-check-debug-data.php:383
 msgid "(Supports 64bit values)"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:369
+msgid "Ghostscript Version"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:366
+msgid "Unable to determine if Ghostscript is installed"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:357
+msgid "GD Version"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:345
+msgid "Imagick Resource Limits"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:329
+msgid "ImageMagick Version"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:325
+msgid "Imagick Module Version"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:312
+msgid "Active editor"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:296
+msgid "Create loopback requests"
+msgstr ""
+
+#: includes/class-health-check-debug-data.php:139
+msgid "Media handling"
 msgstr ""
 
 #. translators: %s: Name of the filter used.
@@ -799,6 +740,65 @@ msgstr ""
 #: includes/class-health-check-auto-updates.php:103
 #: includes/class-health-check-auto-updates.php:125
 msgid "The %s constant is defined and enabled."
+msgstr ""
+
+#: includes/class-health-check.php:316
+msgid "Troubleshooting"
+msgstr "समस्यानिवारण"
+
+#: includes/class-health-check.php:287
+msgid "Troubleshoot"
+msgstr ""
+
+#: includes/class-health-check.php:233
+#: includes/class-health-check.php:250
+#: includes/class-health-check.php:309
+msgctxt "Menu, Section and Page Title"
+msgid "Health Check"
+msgstr ""
+
+#: includes/class-health-check.php:215
+msgid "Copied"
+msgstr "कॉपी केले"
+
+#: includes/class-health-check.php:214
+msgid "Please wait..."
+msgstr ""
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:715
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1074
+#: includes/class-health-check-troubleshoot.php:299
+msgid "Disable Troubleshooting Mode"
+msgstr ""
+
+#. Translators: %s: Plugin slug.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:657
+msgid "Enable %s"
+msgstr "सक्षम %s"
+
+#. Translators: %s: Plugin slug.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:644
+msgid "Disable %s"
+msgstr "अक्षम %s"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:620
+msgid "Plugins"
+msgstr "प्लगिन्स"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:613
+msgid "Manage active plugins"
+msgstr ""
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:606
+msgid "Troubleshooting Mode"
+msgstr ""
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:231
+msgid "Enable while troubleshooting"
+msgstr ""
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:223
+msgid "Disable while troubleshooting"
 msgstr ""
 
 #. Author of the plugin/theme
