@@ -1217,28 +1217,30 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				WP_CLI::error( "Language not set." );
 			}
 
-			$file_name             = 'wp-themes-'.$theme_slug.'-'.$lang . '.po';
-			$translated_file_name  = 'wp-themes-'.$theme_slug.'-'.$lang . '-translated.po';
+			$file_name            = 'wp-themes-'.$theme_slug.'-'.$lang . '.po';
+			$translated_file_name = 'wp-themes-'.$theme_slug.'-'.$lang . '-translated.po';
+			$log_file_name        = 'wp-themes-'.$theme_slug.'-'.$lang . '-log.txt';
 
 			$local_file_dir        = 'po-files/themes/' . $theme_slug . '/' . $lang . '/';
 
 			$local_file            = $local_file_dir . $file_name;
 			$local_translated_file = $local_file_dir . $translated_file_name;
+			$local_translated_log  = $local_file_dir . $log_file_name;
 
 			if( ! file_exists( $local_file ) ) {
 				WP_CLI::error( "The .po file of language ' . $lang . ' for theme '.$theme_slug.' not found! Use command 'wp wpi18n download_theme_po {slug} --lang={slug}' to download the theme .po file." );
 			}
 
+			// Empty log file.
+			file_put_contents( $local_translated_log, '' );
+
 			include_once "lib/Gettext/src/autoloader.php";
 			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
 
-			// $translations = Translations::fromPoFile( dirname(__FILE__) . '\meta-wordpress-org-de-ch.po' );
 			$translations = Translations::fromPoFile( $local_file );
 
 			$count = count( $translations );
 			$newly_translated = 0;
-
-			// WP_CLI::error(print_r( $translations ) );
 
 			foreach ($translations as $key => $translation) {
 				// echo 'getOriginal : ---- ' . $translation->getOriginal() . '<br/>';
@@ -1264,6 +1266,14 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 							
 								WP_CLI::line( $count . ' | ' . $post_id . ' UPDATED ' . $stored_string );
 								$newly_translated++;
+
+								// Track all translate strings.
+								$log_data = file_get_contents( $local_translated_log );
+								if( empty( $log_data ) ) {
+									file_put_contents( $local_translated_log, $newly_translated . ' | ' . $post_title . ' | ' . $stored_string );
+								} else {
+									file_put_contents( $local_translated_log, $log_data . "\n" . $newly_translated . ' | ' . $post_title . ' | ' . $stored_string );
+								}
 							}
 						} else {
 							WP_CLI::line( $count . ' | ' . $post_id . ' EMPTY.' );
