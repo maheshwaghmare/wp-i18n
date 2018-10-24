@@ -394,7 +394,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			// wp-plugins-bhari-mr.po
 			// 
 			$releases = array(
-				'wp-plugins-'.$plugin_slug.'-'.$lang           => 'https://translate.wordpress.org/projects/wp-themes/'.$plugin_slug.'/'.$lang.'/default/export-translations',
+				'wp-themes-'.$plugin_slug.'-'.$lang           => 'https://translate.wordpress.org/projects/wp-themes/'.$plugin_slug.'/'.$lang.'/default/export-translations',
 			);
 
 			foreach ($releases as $file_name => $remote_file_url) {
@@ -1183,6 +1183,102 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			$wpi18n_imported_files = array_unique($wpi18n_imported_files);
 
 			update_option( 'wpi18n-imported-files', $wpi18n_imported_files );
+		}
+
+		/**
+		 *
+		 * # Generate PO files for Theme:
+		 *
+		 * Syntax Command:  wp wpi18n generate_theme_po {theme-slug} --lang={language}
+		 *
+		 * Example Command: wp wpi18n generate_theme_po bhari
+		 * 
+		 * This command create directory in `po-files\themes\bhari\` and download the files of that plugin.
+		 * 
+		 * E.g.
+		 * 
+		 * 	- https://translate.wordpress.org/projects/wp-themes/{theme-slug}/{lang}/default/export-translations
+		 *
+		 * Downloaded files like:
+		 * 
+		 * ## EXAMPLES
+		 *
+		 * wp wpi18n generate_theme_po {slug} --lang={mr}
+		 */
+		function generate_theme_po( $args, $assoc_args ) {
+			$theme_slug = isset( $args[0] ) ? $args[0] : '';
+			$lang        = isset( $assoc_args ) && array_key_exists( 'lang', $assoc_args )      ? $assoc_args['lang']      : '';
+
+			if( empty( $theme_slug ) ) {
+				WP_CLI::error( "Empty Theme Slug!" );
+			}
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
+
+			$file_name             = 'wp-themes-'.$theme_slug.'-'.$lang . '.po';
+			$translated_file_name  = 'wp-themes-'.$theme_slug.'-'.$lang . '-translated.po';
+
+			$local_file_dir        = 'po-files/themes/' . $theme_slug . '/' . $lang . '/';
+
+			$local_file            = $local_file_dir . $file_name;
+			$local_translated_file = $local_file_dir . $translated_file_name;
+
+			if( ! file_exists( $local_file ) ) {
+				WP_CLI::error( "The .po file of language ' . $lang . ' for theme '.$theme_slug.' not found! Use command 'wp wpi18n download_theme_po {slug} --lang={slug}' to download the theme .po file." );
+			}
+
+			include_once "lib/Gettext/src/autoloader.php";
+			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
+
+			// $translations = Translations::fromPoFile( dirname(__FILE__) . '\meta-wordpress-org-de-ch.po' );
+			$translations = Translations::fromPoFile( $local_file );
+
+			$count = count( $translations );
+			$newly_translated = 0;
+
+			// WP_CLI::error(print_r( $translations ) );
+
+			foreach ($translations as $key => $translation) {
+				// echo 'getOriginal : ---- ' . $translation->getOriginal() . '<br/>';
+				// echo 'getTranslation : ---- ' . $translation->getTranslation() . '<br/>';
+
+				$post_title         = $translation->getOriginal();
+				$translation_string = $translation->getTranslation();
+
+				// Empty the translation text.
+				// And the post exist.
+				if( empty( $translation_string ) && ! empty( $post_title ) ) {
+
+					$post_id = post_exists( $post_title );
+					if( $post_id ) {
+						$stored_string = get_post_meta( $post_id, 'language_' . $lang, true );
+						
+						if( ! empty( $stored_string ) ) {
+							//edit some translations:
+							$translation = $translations->find(null, $post_title);
+
+							if ($translation) {
+								$translation->setTranslation( $stored_string );
+							
+								WP_CLI::line( $count . ' | ' . $post_id . ' UPDATED ' . $stored_string );
+								$newly_translated++;
+							}
+						} else {
+							WP_CLI::line( $count . ' | ' . $post_id . ' EMPTY.' );
+						}
+					} else {
+						WP_CLI::line( $count . ' | ' . $post_id . ' NOT EXIST ' . $post_title );
+					}
+				}
+				$count--;
+			}
+
+			WP_CLI::line( 'COMPLETE - TRANSLATED ' . $newly_translated . ' STRINGS!' );
+
+			//Now save a po file with the result
+			$translations->toPoFile( $local_translated_file );
 		}
 
 		public function import() {

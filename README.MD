@@ -6,9 +6,25 @@ Translate the WordPress by by re-using existing translated strings with the help
 
 ## WP CLI Commands
 
-### 1. wp wpi18n download_plugin {slug} --lang={mr}
+1. wp wpi18n download_plugin_po {slug} --lang={mr}
+2. wp wpi18n download_theme_po  {slug} --lang={mr}
 
-Download individual plugin .po files depends on the plugin slug.
+3. wp wpi18n generate_plugin_po {slug} --lang={mr}
+4. wp wpi18n generate_theme_po  {slug} --lang={mr}
+
+### 1. wp wpi18n download_plugin_po {slug} --lang={mr}
+
+Download individual plugin .po files by plugin slug.
+
+Syntax Command:  wp wpi18n download_plugin_po {plugin-slug} --lang={language}
+Example Command: wp wpi18n download_plugin_po contact-form-7 --lang='mr'
+
+### 2. wp wpi18n download_theme_po {slug} --lang={mr}
+
+Download individual theme .po file by theme slug.
+
+Syntax Command:  wp wpi18n download_theme_po {theme-slug} --lang={language}
+Example Command: wp wpi18n download_theme_po bhari --lang='mr'
 
 --
 
