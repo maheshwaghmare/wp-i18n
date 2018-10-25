@@ -1535,11 +1535,24 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			}
 		}
 
+		/**
+		 * [translate description]
+		 *
+		 * # Example:
+		 *
+		 * wp wpi18n translate
+		 * 
+		 * @return [type] [description]
+		 */
 		function translate() {
 			include_once "lib/Gettext/src/autoloader.php";
 			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
 
-			$translations = Translations::fromPoFile( dirname(__FILE__) . '\meta-wordpress-org-de-ch.po' );
+			$translations         = Translations::fromPoFile( dirname(__FILE__) . '/translate/wp-dev-mr.po' );
+			$local_translated_log = 'translate/log.txt';
+
+			// Empty log file.
+			file_put_contents( $local_translated_log, '' );
 
 			$count = count( $translations );
 			$newly_translated = 0;
@@ -1559,7 +1572,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				if( empty( $translation_string ) && ! empty( $post_title ) ) {
 					$post_id = post_exists( $post_title );
 					if( $post_id ) {
-						$stored_string = get_post_meta( $post_id, 'language_de-ch', true );
+						$stored_string = get_post_meta( $post_id, 'language_mr', true );
 						
 						if( ! empty( $stored_string ) ) {
 							//edit some translations:
@@ -1570,6 +1583,14 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 							
 								WP_CLI::line( $count . ' | ' . $post_id . ' UPDATED ' . $stored_string );
 								$newly_translated++;
+
+								// Track all translate strings.
+								$log_data = file_get_contents( $local_translated_log );
+								if( empty( $log_data ) ) {
+									file_put_contents( $local_translated_log, $newly_translated . ' | ' . $post_title . ' | ' . $stored_string );
+								} else {
+									file_put_contents( $local_translated_log, $log_data . "\n" . $newly_translated . ' | ' . $post_title . ' | ' . $stored_string );
+								}
 							}
 						} else {
 							WP_CLI::line( $count . ' | ' . $post_id . ' EMPTY.' );
@@ -1584,15 +1605,10 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			WP_CLI::line( 'COMPLETE - TRANSLATED ' . $newly_translated . ' STRINGS!' );
 
 			//Now save a po file with the result
-			$translations->toPoFile('locale.po');
-
-			// //export to a php array:
-			// $translations->toPhpArrayFile('locales/gl.php');
-
-			// //and to a .mo file
-			// $translations->toMoFile('Locale/gl/LC_MESSAGES/messages.mo');
-
+			$translations->toPoFile('translate/wp-dev-mr-translated.po');
 		}
+
+					file_put_contents( $local_translated_log, '' );
 
 		function test() {
 
