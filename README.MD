@@ -6,6 +6,28 @@ Translate the WordPress by by re-using existing translated strings with the help
 
 ## WP CLI Commands
 
+
+1.  info
+2.  clean_tracking
+
+3.  download_plugin_po
+4.  download_theme_po
+5.  generate_theme_po
+6.  generate_plugin_po
+
+7.  set_most_repeated_string_as_top
+8.  download_all_core_files
+9.  download_all_theme_files
+10. translate_all_plugin_files
+11. translate_all_theme_files
+
+12. getDirContents
+13. track_file
+14. import
+15. translate
+16. test
+17. tmp
+
 1. wp wpi18n download_plugin_po {slug} --lang={mr}
 2. wp wpi18n download_theme_po  {slug} --lang={mr}
 
