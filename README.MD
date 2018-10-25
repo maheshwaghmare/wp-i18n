@@ -6,6 +6,50 @@ Translate the WordPress by by re-using existing translated strings with the help
 
 ## WP CLI Commands
 
+
+1.  info
+2.  clean_tracking
+
+3.  download_plugin_po
+4.  download_theme_po
+5.  generate_theme_po
+6.  generate_plugin_po
+
+7.  set_most_repeated_string_as_top
+8.  download_all_core_files
+9.  download_all_theme_files
+10. translate_all_plugin_files
+11. translate_all_theme_files
+
+12. getDirContents
+13. track_file
+14. import
+15. translate
+16. test
+17. tmp
+
+1. wp wpi18n download_plugin_po {slug} --lang={mr}
+2. wp wpi18n download_theme_po  {slug} --lang={mr}
+
+3. wp wpi18n generate_plugin_po {slug} --lang={mr}
+4. wp wpi18n generate_theme_po  {slug} --lang={mr}
+
+### 1. wp wpi18n download_plugin_po {slug} --lang={mr}
+
+Download individual plugin .po files by plugin slug.
+
+Syntax Command:  wp wpi18n download_plugin_po {plugin-slug} --lang={language}
+Example Command: wp wpi18n download_plugin_po contact-form-7 --lang='mr'
+
+### 2. wp wpi18n download_theme_po {slug} --lang={mr}
+
+Download individual theme .po file by theme slug.
+
+Syntax Command:  wp wpi18n download_theme_po {theme-slug} --lang={language}
+Example Command: wp wpi18n download_theme_po bhari --lang='mr'
+
+--
+
 ### 1. wp wpi18n download_all_core_files
 
 Download all the files from WordPress project versions ['dev', '4.8.x', '4.7.x', '4.6.x', '4.5.x', '4.4.x', '4.3.x', '4.2.x', '4.1.x'].
