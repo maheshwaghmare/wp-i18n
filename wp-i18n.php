@@ -1220,7 +1220,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 			$file_name            = 'wp-themes-'.$theme_slug.'-'.$lang . '.po';
 			$translated_file_name = 'wp-themes-'.$theme_slug.'-'.$lang . '-translated.po';
-			$log_file_name        = 'wp-themes-'.$theme_slug.'-'.$lang . '-log.txt';
+			$log_file_name        = 'log.txt';
 
 			$local_file_dir        = 'po-files/themes/' . $theme_slug . '/' . $lang . '/';
 
