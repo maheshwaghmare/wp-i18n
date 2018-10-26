@@ -1,0 +1,575 @@
+# Translation of Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable Readme (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - LearnPress &#8211; WordPress LMS Plugin - Stable Readme (latest release)\n"
+
+#. Short description.
+msgid "A WordPress LMS Plugin to create WordPress Learning Management System. Turn your WP to LMS WordPress with Courses, Lessons, Quizzes &amp; more."
+msgstr ""
+
+#. Plugin name.
+msgid "LearnPress - WordPress LMS Plugin"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"~ Fixed issue vulnerabilities.\n"
+"~ Fixed issue related to object cache when doing quiz.\n"
+"~ Fixed lesson 404 with Polylang.\n"
+"~ Fixed PHP Fatal error class ‘LP_Plugins_Helper’ not found"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"~ Fixed minor bug in gradebook list in admin\n"
+"~ Made hook learn-press/course-tabs work\n"
+"~ Fixed bug: not auto complete quiz. Add 1 more filter hook for checking publicity in profile page\n"
+"~ Fixed bug: auto enroll course without permission to enroll course\n"
+"~ Changed filter tag for get_default_meta of lesson\n"
+"~ Auto full-screen in mobile view\n"
+"~ Fixed bug: wrong count number in No Preview at Lessons List back end page\n"
+"~ Fixed bug: Instructor user cannot see comments of lesson\n"
+"~ Changed version for template files\n"
+"~ Added base url for construct nav in user profile\n"
+"~ Added param for get_nav method\n"
+"~ Fixed bug: answer correct all question but quiz result is failse with 0%\n"
+"~ Fixed small bug in quiz editor\n"
+"~ Fixed bug: wrong count number of the courses in back end because of the status of preview course\n"
+"~ Fixed bug: not redirect to correct page after logged in in Profile page\n"
+"~ Fixed bug fatal error include file\n"
+"~ Added icon for chat-type-format of content item\n"
+"~ Fixed header-sent when log file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Added button allows wp admin can send a request to subscriber\n"
+"~ Improved auto redirecting to current question when user go to a quiz\n"
+"~ Improved UI of course editor for RTL\n"
+"~ Improved content of email sending to admin and instructor\n"
+"~ Fixed page show 404 with pagination in courses page (conflict with WPML)\n"
+"~ Fixed course price is still showing after user enrolled course\n"
+"~ Fixed not auto redirecting to checkout after logged in\n"
+"~ Fixed some issues made question can't edit\n"
+"~ Fixed issue for requesting to get related themes/addons in admin\n"
+"~ Fixed some issues with content header when viewing in Safari\n"
+"~ Fixed wrong ordering of course item when adding new\n"
+"~ Fixed order for multiple user is not show in list of orders\n"
+"~ Fixed some text is not translatable\n"
+"~ Fixed breadcrumb not show page name when viewing archive course\n"
+"~ Fixed archive course show header is title of first course"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added admin email to send to admin when an order is completed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added quiz option to minus a number of point for each wrong question in quiz"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://thimpress.com/product/announcement-add-on-for-learnpress/\">Announcement add-on for LearnPress</a> - Announcement is a great way to promote your courses and update new features + contents to your courses, including email notification."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/learnpress-fill-in-blank\">LearnPress Fill In Blank</a> - Fill in Blank question type for LearnPress WordPress LMS Plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/learnpress-offline-payment\">LearnPress Offline Payment</a> - help you to manually create order for offline payment instead of paying via any payment gateways to sell course."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"http://thimpress.com/learnpress\">WordPress LMS Plugin</a></strong> - LearnPress is a comprehensive <em>WordPress LMS Plugin</em> for WordPress, just like WordPress Moodle or Moodle for WordPress if you know what Moodle is. This is one of the best WordPress LMS Plugins can be used to easily create &amp; sell courses online. Each course curriculum can be made with lessons &amp; quizzes which can be managed with easy-to-use user interface. With this WordPress LMS plugin, you can quickly and easily create education, online school, online-course websites with no coding-knowledge required."
+msgstr ""
+
+#. Found in description list item.
+msgid "Assignment - <strong>DONE</strong> - <a href=\"https://thimpress.com/product/assignments-add-on-for-learnpress/\">check LearnPress Assignments Add-on HERE</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://thimpress.com/product/assignments-add-on-for-learnpress/\">Assignments add-on for LearnPress</a> - Newly released - Allowing instructors to give assignments, homework for students and they can grade the students' work later on. The Assignments add-on is a great supplement to LearnPress and will make your course more interactive."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>One-Off Sale - 10 Days Left - Limited Time Offer</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://demo-learnpress.thimpress.com/\">Live Demo</a> | <a href=\"https://thimpress.com/wordpress/themes/learnpress-premium-theme/\">LearnPress Themes</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://themeforest.net/item/course-builder-wordpress-learning-management-system-theme-elearning-software/20370918?utm_source=wporg&amp;utm_medium=learnpressDC&amp;ref=thimpress&amp;utm_campaign=learnpress\">Course Builder Wordpress Theme</a> - WordPress LMS theme for online courses is also FOR SALE at only $64, Learnpress included."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Take a look at Premium <strong><a href=\"http://themeforest.net/item/education-wordpress-theme-education-wp/14058034?utm_source=wporg&amp;utm_medium=learnpress&amp;ref=thimpress&amp;utm_campaign=learnpress\">Education WordPress Theme</a></strong>, <strong><a href=\"https://themeforest.net/item/speaker-and-life-coach-wordpress-theme-coaching-wp/17097658?utm_source=wporg&amp;utm_medium=learnpress&amp;ref=thimpress&amp;utm_campaign=learnpress\">Coaching WordPress Theme</a></strong> &amp; <strong><a href=\"http://themeforest.net/item/lms-wordpress-theme-elearning-wp/11797847?utm_source=wporg&amp;utm_medium=learnpress&amp;ref=thimpress&amp;utm_campaign=learnpress\">LMS WordPress Theme</a></strong> (someone calls it LMS WordPress Template) we designed to work with LearnPress, all developers are welcome to develop WordPress LMS Theme based on LMS plugin for WordPress - LearnPress. More WordPress LMS Themes will come soon, both free WordPress themes as well as premium WordPress themes for LearnPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>HOT!!</strong> <a href=\"https://themeforest.net/item/speaker-and-life-coach-wordpress-theme-coaching-wp/17097658?utm_source=wporg&amp;utm_medium=learnpressDC&amp;ref=thimpress&amp;utm_campaign=learnpress\">WordPress theme for Coaches, Trainers, Teachers - Coaching WP</a> is also FOR SALE at only $59, LearnPress included."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"https://thimpress.com/create-udemy-coursera-clone-easily-learnpress/?utm_source=wporg&amp;utm_medium=learnpress&amp;ref=thimpress&amp;utm_campaign=learnpress\">How to create a Udemy or Coursera clone easily with LearnPress</a></strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Step-by-step Youtube guide on setting up your own Online Course site. <strong><a href=\"https://www.youtube.com/watch?v=3LDa8vtDIAk\">Click here &gt;&gt;</a></strong>\n"
+"[youtube https://www.youtube.com/watch?v=3LDa8vtDIAk&amp;hd=1&amp;&amp;cc_load_policy=1]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Or you can buy <a href=\"http://themeforest.net/item/education-wordpress-theme-education-wp/14058034?utm_source=wporg&amp;utm_medium=learnpressDC&amp;ref=thimpress&amp;utm_campaign=learnpress\">Education WP Theme</a> for only $69 and get all of them."
+msgstr ""
+
+#. Found in description header.
+msgid "LearnPress Tutorials"
+msgstr ""
+
+#. Screenshot description.
+msgid "Add-ons of LearnPress."
+msgstr ""
+
+#. Screenshot description.
+msgid "Demo course page."
+msgstr ""
+
+#. Screenshot description.
+msgid "Email settings."
+msgstr ""
+
+#. Screenshot description.
+msgid "Quiz settings."
+msgstr ""
+
+#. Screenshot description.
+msgid "General settings."
+msgstr ""
+
+#. Screenshot description.
+msgid "Quiz preview."
+msgstr ""
+
+#. Screenshot description.
+msgid "Lesson content."
+msgstr ""
+
+#. Screenshot description.
+msgid "Curriculum - Drag and Drop lesson or quiz."
+msgstr ""
+
+#. Found in description list item.
+msgid "Russian"
+msgstr ""
+
+#. Found in description list item.
+msgid "Polish"
+msgstr ""
+
+#. Found in description list item.
+msgid "German"
+msgstr ""
+
+#. Found in description list item.
+msgid "Italian"
+msgstr ""
+
+#. Found in description list item.
+msgid "French"
+msgstr ""
+
+#. Found in description list item.
+msgid "English"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://goo.gl/JzwYkj\">Click here</a> to get a coupon for 20% Off all Learnpress Add-ons"
+msgstr ""
+
+#. Found in description list item.
+msgid "Commission for payment method (DONE)"
+msgstr ""
+
+#. Found in description list item.
+msgid "2Checkout (DONE)"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you get troubles when using LearnPress you can ask for help on the <a href=\"https://wordpress.org/support/plugin/learnpress\">LearnPress Support Forum</a> or <a href=\"https://www.facebook.com/groups/learnpress/\">join the private Facebook group</a>. You could share your feedback about LearnPress. And let us know which feature you would like us to build next."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://thimpress.com/product/paid-membership-pro-add-learnpress/\">Paid Membership Pro add-on for LearnPress</a> - integrates Paid Membership Pro with LearnPress, bring membership feature to your powerful WordPress based LMS system."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://thimpress.com/product/random-quiz-add-on-for-learnpress/\">Random Quiz add-on for LearnPress</a> - allows you to create a random questions quiz. Each student will get different quiz within a same course."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://thimpress.com/product/gradebook-add-on-for-learnpress/\">Gradebook add-on for LearnPress</a> - provides you features to view your class result, export these result to csv, post those to frontend."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://thimpress.com/product/commission-add-on-for-learnpress/\">Commission add-on for LearnPress</a> - provide a Commission Management system for LearnPress."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://thimpress.com/product/authorize-net-add-ons-learnpress/\">Authorize.Net add-ons for LearnPress</a> - Authorize.Net payment method for LearnPress WordPress LMS Plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://thimpress.com/product/2checkout-add-learnpress/\">2Checkout add-on for LearnPress</a> - makes LearnPress plugin ready to use 2Checkout payment gateway to pay for courses."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<a href=\"http://docs.thimpress.com/learnpress\">Documentation</a> is available in ThimPress site.\n"
+"<a href=\"https://github.com/LearnPress/LearnPress/\">LearnPress github repo.</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Any suggestions for this WordPress LMS Plugin? Send us <a href=\"http://thimpress.com/learnpress-suggestion/\">here.</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Group payment"
+msgstr ""
+
+#. Found in description list item.
+msgid "Private message from Admin to teacher"
+msgstr ""
+
+#. Found in description list item.
+msgid "Instructor's note"
+msgstr ""
+
+#. Found in description list item.
+msgid "Report/feedback about a question/quiz/lesson"
+msgstr ""
+
+#. Found in description list item.
+msgid "No distraction mode (when doing quiz)"
+msgstr ""
+
+#. Found in description list item.
+msgid "REST API for mobile app"
+msgstr ""
+
+#. Found in description list item.
+msgid "Student ranks"
+msgstr ""
+
+#. Found in description list item.
+msgid "Show enrolled user"
+msgstr ""
+
+#. Found in description list item.
+msgid "Presentation support (maybe support SlideShare)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Attachment restriction for lesson"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create quiz from randoms questions in question bank (DONE)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Manually reset quiz for retake"
+msgstr ""
+
+#. Found in description list item.
+msgid "BadgeOS"
+msgstr ""
+
+#. Found in description list item.
+msgid "Share Grade"
+msgstr ""
+
+#. Found in description list item.
+msgid "Events"
+msgstr ""
+
+#. Found in description list item.
+msgid "WePay"
+msgstr ""
+
+#. Found in description list item.
+msgid "Samurai by FeeFighters"
+msgstr ""
+
+#. Found in description list item.
+msgid "Braintree"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dwolla"
+msgstr ""
+
+#. Found in description list item.
+msgid "Amazon Payments"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Checkout"
+msgstr ""
+
+#. Found in description list item.
+msgid ""
+"Payment Method support (first priority)\n"
+"\n"
+"<ul>\n"
+"<li>Authorize.net (DONE)"
+msgstr ""
+
+#. Found in description header.
+msgid "Other note"
+msgstr ""
+
+#. Found in description header.
+msgid "WordPress LMS Plugin - LearnPress ROADMAP"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"<strong>LearnPress Translation project</strong>\n"
+"https://www.transifex.com/projects/p/learnpress/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can and we appreciate it. Join in our <a href=\"https://github.com/LearnPress/LearnPress\">Github Repository</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We will provide documentation about LearnPress REST API really soon."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can also report bugs on LearnPress Support Forum or LearnPress <a href=\"https://github.com/LearnPress/LearnPress\">Github Repository</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can send us your ideas through form <a href=\"http://thimpress.com/learnpress-suggestion/\">here.</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For help with premium add-ons, use our <a href=\"https://thimpress.com/forums/forum/learnpress\">helpdesk</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If you want to use LearnPress to build a Learning Management Website, please refer to our user guides in <a href=\"http://docs.thimpress.com/learnpress/\">LearnPress official site.</a>\n"
+"And if you want to extending or theming LearnPress, see our <a href=\"https://github.com/LearnPress/LearnPress/wiki\">Wiki.</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "LearnPress is a plugin to create a LMS website, to spread out course, or sell course."
+msgstr ""
+
+#. Found in faq header.
+msgid "LearnPress is great, can I contribute to it?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find the REST API documentation?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I report bugs or contribute to the project?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I ask for new features or suggest ideas or themes for LearnPress?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I get support or talk to other users?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find LearnPress documentation and user guides?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is LearnPress?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid ""
+"<strong>From WordPress.org</strong>\n"
+"1. Search, select and download LearnPress.\n"
+"2. Activate the plugin through the 'Plugins' menu in WordPress Dashboard."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid ""
+"<strong>From your WordPress dashboard</strong>\n"
+"1. Visit 'Plugin &gt; Add new'.\n"
+"2. Search for 'LearnPress'.\n"
+"3. Activate LearnPress from your Plugins page."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://docs.thimpress.com/learnpress\">LearnPress WordPress LMS Plugin Documentation</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>LearnPress is actively developed</strong>\n"
+"We are developing and improving LearnPress day by day and bringing new features to you cos we want LearnPress to become the <strong>best WordPress LMS plugin</strong>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>LearnPress is free and always will be</strong>\n"
+"Education should be free and we want you to bring it to as many people as you can. Therefore, we create LearnPress as a tool for you to create course and share it. We'll continue developing it as long as we can and make it better and better."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>LearnPress provide a bunch of add-on</strong>\n"
+"Add-on is used to providing extra features for LearnPress and you can also write it."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Communicate with your students</strong>\n"
+"With BuddyPress support, LearnPress will help you to communicate with your student or instructor via WordPress forum. Learning is not only on your own. Study, make friends and have fun."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Sell course</strong>\n"
+"LearnPress is free but it still allow you to sell courses you create with support many billing method such as Paypal, WooCommerce, Stripe, etc."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Manage course</strong>\n"
+"With the course you've created, you can share it, manage it, watch statistic about number of student, its trend, etc."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Create course</strong>\n"
+"LearnPress LMS Plugin provide an excellent user interface to create a course with options you need. You can find it easy to make a full curriculum layout as well as edit and maintain it.\n"
+"You can also export course and import to other website which also using LearnPress. We will provide the feature allow you to import course from other WordPress LMS plugins soon."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>LearnPress supports WordPress Multisite</strong>\n"
+"Create WordPress based LMS as multiple sites."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>LearnPress - WordPress LMS Plugin works with your theme</strong>\n"
+"We create LearnPress LMS Plugin to work with any WordPress themes."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Are you looking for <em>best LMS WordPress plugin</em>?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "LearnPress is free and always be free, but it has premium high quality WordPress Plugin which will probably help you make money from your <strong>WordPress based LMS</strong>, try and see how it is. LearnPress WordPress Online Course plugin is lightweight but super powerful with lots of add-ons to empower its core system."
+msgstr ""
+
+#. Found in description list item.
+msgid "Dutch"
+msgstr ""
+
+#. Found in description list item.
+msgid "Indonesian"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://thimpress.com/product/sorting-choice-add-on-for-learnpress/\">Sorting Choices question type for LearnPress</a> - another interactive question type for LearnPress."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://thimpress.com/product/content-drip-add-on-for-learnpress/\">Content Drip add-on for LearnPress</a> - the feature to restrict the access of student to each lesson by progress, or time."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://thimpress.com/product/woocommerce-add-on-for-learnpress/\">WooCommerce add-on for LearnPress</a> - using WooCommerce as payment gateway for LearnPress WordPress LMS Plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://thimpress.com/product/stripe-add-on-for-learnpress/\">Stripe Payment method for LearnPress</a> - Stripe payment method for LearnPress WordPress LMS Plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://thimpress.com/product/collections-add-on-for-learnpress/\">Collections add-on for LearnPress</a> - making LMS courses collection by selecting number of courses, this is helpful if you want to combine multiple LMS courses into a collection for a group of skills."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://thimpress.com/product/co-instructors-add-on-for-learnpress/\">Co-instructors add-on for LearnPress</a> - multiple instructors support for each LMS course."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://thimpress.com/product/certificates-add-on-for-learnpress/\">Certificates add-on for LearnPress</a> - adding drag &amp; drop certificates builder as well as selecting designed certificate for each LMS course, your student will get particular certificate when they finished a course."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://thimpress.com/product/mycred-add-on-for-learnpress/\">myCRED add-on for LearnPress</a> - adding myCRED support for LearnPress WordPress LMS plugin, you can add point system to your eLearning WordPress site using LearnPress + myCRED add-on."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/learnpress-buddypress\">LearnPress BuddyPress Integration</a> - add BuddyPress support for LearnPress WordPress LMS Plugin, turn your WordPress BuddyPress website into <em>BuddyPress LMS</em> (<em>BuddyPress Learning Management System</em>)\"."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/learnpress-bbpress\">LearnPress bbPress Integration</a> - add bbPress Forum support for LearnPress WordPress LMS Plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/learnpress-prerequisites-courses\">LearnPress Prerequisites Courses</a> - require student to pass some courses in order to enroll other course."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/learnpress-import-export\">LearnPress Import/Export</a> - export or import course or courses out-of-box."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/learnpress-course-review\">LearnPress Course Review</a> - review course for enrolled students."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/learnpress-wishlist\">LearnPress Wishlist</a> - add courses to a wishlist for students."
+msgstr ""
+
+#. Found in description header.
+msgid "LearnPress has been translated into the following languages"
+msgstr ""
+
+#. Found in description header.
+msgid "Premium add-ons for LearnPress WordPress LMS Plugin"
+msgstr ""
+
+#. Found in description header.
+msgid "Free add-ons for LearnPress WordPress LMS Plugin"
+msgstr ""
+
+#. Found in description header.
+msgid "LearnPress features"
+msgstr ""
+
+#. Found in description header.
+msgid "LMS &amp; Education WordPress Themes"
+msgstr ""

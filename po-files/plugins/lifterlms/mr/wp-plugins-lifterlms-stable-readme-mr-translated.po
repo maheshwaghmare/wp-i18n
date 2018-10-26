@@ -1,0 +1,1234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - LifterLMS - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-26T17:58:47+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "LifterLMS, the #1 WordPress LMS solution, makes it easy to create, sell, and protect engaging online courses."
+msgstr ""
+
+#. Plugin name.
+msgid "LifterLMS"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "An interface and API for sending test email notifications has been added, the following notifications can now be tested:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/product/access-plan-title.php\">product/access-plan-title.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/product/access-plan-restrictions.php\">product/access-plan-restrictions.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/product/access-plan-pricing.php\">product/access-plan-pricing.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/product/access-plan-feature.php\">product/access-plan-feature.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/product/access-plan-description.php\">product/access-plan-description.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/product/access-plan-button.php\">product/access-plan-button.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated <code>LLMS_Section-&gt;get_children_lessons()</code>, use <code>LLMS_Section-&gt;get_lessons( 'posts' )</code> instead"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue causing duplicated quizzes to initially show images for question images &amp; image choices (reorder pictures &amp; picture choice) but the image data would not be properly saved so when returning to the builder or viewing a quiz on the frontend the images would be lost"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When an order is deleted, all order transactions will also be deleted. This does not happen until the order is deleted (transactions will remain while the order is in the trash)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed 3.21.0 fixes for iOS touch issues that are now causing iOS touch issues on quizzes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed <code>get_option()</code> call to unused option <code>lifterlms_logout_endpoint</code> which ran on WordPress initialization unnecessarily."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed typos in a handful of i18n functions so that the proper textdomain is now being used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing post cleanup functions to run queries against unsupported post types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing HTML entity codes to display in email subject lines. Thanks <a href=\"https://github.com/philwp\">@philwp</a>!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a WordPress.org review request notice which displays a week after installation if the site has 50+ active students."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a WordPress.org review request link to the footer of LifterLMS admin pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated system report to include URLs to settings with URLs, adds a small speed boost to support request turn around time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added actions when creating, updating, and deleting records managed by <code>LLMS_Abstract_Database_Store</code> classes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin settings pages with no settings to save (like the Notifications list) no longer display a \"Save\" button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the ability for admin table classes to define <code>&lt;tr&gt;</code> element CSS classes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactored the <code>LLMS_Section-&gt;get_percent_complete()</code> method to utilize methods from the <code>LLMS_Student</code> model"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove use of deprecated <code>LLMS_Lesson-&gt;get_children_lessons()</code> in the <code>LLMS_Course</code> and <code>LLMS_Lesson</code> models as well as in the <code>course/syllabus.php</code> template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated all access plan templates added in 3.23.0 to ensure <code>ABSPATH</code> is defined to prevent direct template access"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>student_id</code> as a parameter passed to the <code>llms_student_get_progress</code> filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor increase to performance in the <code>LLMS_Course-&gt;get_lessons()</code> method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "In the course builder when a lesson is duplicated, the attached quiz will be duplicated as well"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change the page title of the Student Dashboard page installed via the Setup Wizard to be \"Dashboard\" instead of \"My Courses.\" Thanks <a href=\"https://github.com/philwp\">@philwp</a>!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The default content for Quiz Passed and Quiz Failed notifications have been enhanced. If you've modified these you can delete your modified content to have your notifications \"restored\" to the improved defaults."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Quiz Passed &amp; Quiz Failed notifications have new names on the admin panel (\"Quizzes: Quiz Passed\" &amp; \"Quizzes: Quiz Failed\")"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Quizzes: Passed (Thanks <a href=\"https://github.com/philwp\">@philwp</a>!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Quizzes: Graded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Quizzes: Failed (Thanks <a href=\"https://github.com/philwp\">@philwp</a>!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Purchase Receipt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Email notifications are now sent to a student when an instructor reviews, grades, or leaves remarks on a quiz attempt."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lessons can also be assigned a value of \"0\" to allow a lesson to not count towards the overall grade of the course."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When a course is graded the points assigned to each lesson will be used to calculate the value of the lesson's grade within the overall course grade"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Each lesson can now be assigned an individual \"points\" value"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Students can drill into individual reporting screens for each course where specific details for each course are available for review"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The main screen displays a paginated and sortable list of all courses a student is enrolled in and outputs their progress and grade in the courses"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A new student dashboard endpoint, \"My Grades\", has been added"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Added filters to the returns of many of the functions in the <code>LLMS_Acces_Plan</code> model."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New action hooks are available to modify the rendering of access plans in course / membership pricing tables."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue which would cause access plans to never be available to users. <em>This bug didn't affect any existing installations except if you wrote custom code that called the <code>LLMS_Access_Plan::is_available_to_user()</code> method.</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing PHP warnings to be generated when viewing the user add / edit screen on the admin panel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing PHP notices when viewing course / membership post lists on the admin panel when an instructor user was deleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing PHP errors when viewing courses / memberships on the admin panel when an instructor user was deleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes issue causing the \"Preview Changes\" button on courses to lock the \"Update\" publishing button which prevents changes from being properly saved.gi"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the HTML and added CSS classes to the access plan admin panel html view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filters to the saving of access plan data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filters to the \"Sales Page Content\" type options &amp; functions for courses and memberships to allow 3rd parties to define their own type of sales page functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of empty blank / empty data when adding instructors to courses and memberships"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor improvements made to <code>LLMS_Access_Plan</code> model"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>llms_acces_plan_footer</code>: Called after main content. Outputs trial info and the checkout / enrollment button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>llms_acces_plan_content</code>: Main access plan content. Outputs title, pricing info, restrictions, and description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>llms_before_access_plan</code>: Called before main content of access plan. Outputs the \"Featured\" area of plans"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>llms_access_plan</code>: Main hook for outputting an entire access plan within the pricing table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The pricing table template has been split into multiple templates which are now rendered via action hooks. No visual changes have been made but if you've customized the template using a template override you'll want to review the template changes before updating!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved CSS on setup wizard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing banners on general settings screen to cause a fatal error when api connection errors occurred"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue causing themes to appear as requiring updates when using the LifterLMS Helper"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The colors on the voucher screen on the admin panel have been updated to match the rest of the interfaces in LifterLMS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some visual changes have been made to the add-ons screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The admin panel add-ons screen has been reworked to be powered by the lifterlms.com REST api"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Course and membership catalogs items in navigation menus will now have expected CSS classes to identify current item and current item parents"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Frontend notifications are no longer powered by AJAX requests. This change will significantly reduce the number of requests made but will remove the ability for students to receive asynchronouos notifications. This means that notifications will only be displayed on page load as notification polling will no longer occur while a student is on a page (while reading the content a lesson, for example)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added methods to integration abstract to allow integration developers to automatically describe missing integration dependencies"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing <code>.mo</code> files stored in the <code>languages/lifterlms</code> safe directory from being loaded before files stored in the default location <code>languages/plugins</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing visual issues on checkout summary when using coupons which apply discounts to a plan trial"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We do not advocate using PHP 5.5 or lower but if you were using 5.5 or lower and encountered an error during bulk enrollment we've fixed that for. Please upgrade to 7.2 though. We all want faster more secure websites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incorrectly named filter causing section titles to not display on student course reporting screens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue causing multiple choice quiz questions to require a double tap on some iOS devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed plugin compatibility issue with Advanced Custom Fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If all user information fields are disabled, the \"Student Information\" are will now be hidden during checkout for logged in users instead of displaying an empty information box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new utility function to allow splicing data into associative arrays"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced various database queries for CRUD user postmeta data with new CRUD functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added CRUD functions for interacting with data located in the <code>wp_lifterlms_user_postmeta</code> table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new actions to the checkout form: <code>lifterlms_pre_checkout_form</code> &amp;&amp; <code>lifterlms_post_checkout_form</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings API can now create disabled fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new actions before and after global login form HTML: <code>llms_before_person_login_form</code> &amp; <code>llms_after_person_login_form</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Redirect to a custom URL (use a sales page hosted on another domain!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Redirect to a WordPress page (use custom templates and enhance page builder compatibility and capabilities)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show custom content (use a WYSIWYG editor to define content)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Additional options for sales pages (the content displayed to visitors and non-enrolled students) have been added:\n"
+"\n"
+"<ul>\n"
+"<li>Do nothing (show course description)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Non-Enrolled Student Description\" is now the \"Sales Page\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Enrolled Student Description\" is now the default WordPress editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated user interfaces on admin panel for courses and memberships with relation to \"Enrolled\" and \"Non-Enrolled\" student descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix file load paths in OptimizePress plugin compatibility function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed duplicate action on dashboard section template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed visual issue with <code>select2</code> elements being set without a width causing them to be both too small and too large in various scenarios."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug causing <code>select2</code> multi-selects from functioning as multi-selects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/checkout/form-summary.php\">templates/checkout/form-summary.php</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/office-hours/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">Live office hours</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/lifterlms-assignments//?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Assignments</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/advanced-quizzes//?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Advanced Quizzes</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/global/form-login.php\">templates/global/form-login.php</a>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/CHANGELOG.md#lifterlms-changelog\">View the full changelog</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested to WordPress 4.9.7"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/try/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">Try LifterLMS for $1</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/office-hours/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Office Hours</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/launchpad/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS LaunchPad Theme</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/private-areas/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Private Areas</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>With LifterLMS and LifterLMS Add-ons you can...</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Try LifterLMS and the premium add-ons before investing any time</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Save money while unlocking the full potential of your learning platform</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Our world-class support has your back</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Make your learning platform beautiful</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Integrate with the third-party tools you know and love</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Courses + Community + Coaching = Engagement</em>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Developer ecosystem"
+msgstr ""
+
+#. Found in description list item.
+msgid "User community"
+msgstr ""
+
+#. Found in description list item.
+msgid "System analyzer"
+msgstr ""
+
+#. Found in description list item.
+msgid "Demo course"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dynamic resources"
+msgstr ""
+
+#. Found in description list item.
+msgid "Detailed documentation"
+msgstr ""
+
+#. Found in description list item.
+msgid "Setup wizard"
+msgstr ""
+
+#. Found in description list item.
+msgid "Free training courses"
+msgstr ""
+
+#. Found in description list item.
+msgid "Technical support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Testing tools"
+msgstr ""
+
+#. Found in description list item.
+msgid "Layout"
+msgstr "मांडणी"
+
+#. Found in description list item.
+msgid "Scaleable"
+msgstr ""
+
+#. Found in description list item.
+msgid "Require terms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Security"
+msgstr ""
+
+#. Found in description list item.
+msgid "LMS Roles"
+msgstr ""
+
+#. Found in description list item.
+msgid "Branding &amp; Typography"
+msgstr ""
+
+#. Found in description list item.
+msgid "Web design management"
+msgstr ""
+
+#. Found in description list item.
+msgid "Access management"
+msgstr ""
+
+#. Found in description list item.
+msgid "Bulk enrollments"
+msgstr ""
+
+#. Found in description list item.
+msgid "Email notifications"
+msgstr ""
+
+#. Found in description list item.
+msgid "Gradebook"
+msgstr ""
+
+#. Found in description list item.
+msgid "Detailed reporting"
+msgstr ""
+
+#. Found in description list item.
+msgid "Self-hosted"
+msgstr ""
+
+#. Found in description list item.
+msgid "Password management"
+msgstr ""
+
+#. Found in description list item.
+msgid "Restricted access"
+msgstr ""
+
+#. Found in description list item.
+msgid "Members-only content"
+msgstr ""
+
+#. Found in description list item.
+msgid "User account management and registration"
+msgstr ""
+
+#. Found in description list item.
+msgid "Course protection"
+msgstr ""
+
+#. Found in description list item.
+msgid "Tin Can API (xAPI)"
+msgstr ""
+
+#. Found in description list item.
+msgid "E-learning authoring tools"
+msgstr ""
+
+#. Found in description list item.
+msgid "CRMs"
+msgstr ""
+
+#. Found in description list item.
+msgid "Built for compatibility"
+msgstr ""
+
+#. Found in description list item.
+msgid "Use any theme"
+msgstr ""
+
+#. Found in description list item.
+msgid "Mobile friendly"
+msgstr ""
+
+#. Found in description list item.
+msgid "Forums"
+msgstr ""
+
+#. Found in description list item.
+msgid "Email marketing"
+msgstr ""
+
+#. Found in description list item.
+msgid "Payment gateways"
+msgstr ""
+
+#. Found in description list item.
+msgid "Members-only forums"
+msgstr ""
+
+#. Found in description list item.
+msgid "Private group discussions"
+msgstr ""
+
+#. Found in description list item.
+msgid "Members-only payment plans"
+msgstr ""
+
+#. Found in description list item.
+msgid "Content restrictions"
+msgstr ""
+
+#. Found in description list item.
+msgid "Bulk course enrollment"
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatic course enrollment"
+msgstr ""
+
+#. Found in description list item.
+msgid "Traditional memberships"
+msgstr ""
+
+#. Found in description list item.
+msgid "Sitewide membership"
+msgstr ""
+
+#. Found in description list item.
+msgid "Text messaging"
+msgstr ""
+
+#. Found in description list item.
+msgid "Private coaching"
+msgstr ""
+
+#. Found in description list item.
+msgid "Social learning"
+msgstr ""
+
+#. Found in description list item.
+msgid "Peronalized email"
+msgstr ""
+
+#. Found in description list item.
+msgid "Certificates"
+msgstr ""
+
+#. Found in description list item.
+msgid "Achievement bages"
+msgstr ""
+
+#. Found in description list item.
+msgid "Payment switching"
+msgstr ""
+
+#. Found in description list item.
+msgid "Subscription switching"
+msgstr ""
+
+#. Found in description list item.
+msgid "Credit card management"
+msgstr ""
+
+#. Found in description list item.
+msgid "E-commerce dashboard"
+msgstr ""
+
+#. Found in description list item.
+msgid "Country and currency"
+msgstr ""
+
+#. Found in description list item.
+msgid "Customizable enrollment"
+msgstr ""
+
+#. Found in description list item.
+msgid "Offline sales"
+msgstr ""
+
+#. Found in description list item.
+msgid "Native sales pages"
+msgstr ""
+
+#. Found in description list item.
+msgid "Affiliate ready"
+msgstr ""
+
+#. Found in description list item.
+msgid "Bulk sales"
+msgstr ""
+
+#. Found in description list item.
+msgid "Coupons"
+msgstr ""
+
+#. Found in description list item.
+msgid "Private coaching upsells"
+msgstr ""
+
+#. Found in description list item.
+msgid "Course bundles"
+msgstr ""
+
+#. Found in description list item.
+msgid "Free courses"
+msgstr ""
+
+#. Found in description list item.
+msgid "Checkout"
+msgstr ""
+
+#. Found in description list item.
+msgid "Subscriptions"
+msgstr ""
+
+#. Found in description list item.
+msgid "PayPal"
+msgstr ""
+
+#. Found in description list item.
+msgid "Unlimited pricing models"
+msgstr ""
+
+#. Found in description list item.
+msgid "Payment plans"
+msgstr ""
+
+#. Found in description list item.
+msgid "Recurring payments"
+msgstr ""
+
+#. Found in description list item.
+msgid "One-time payments"
+msgstr ""
+
+#. Found in description list item.
+msgid "Credit card payments"
+msgstr ""
+
+#. Found in description list item.
+msgid "Course reviews"
+msgstr ""
+
+#. Found in description list item.
+msgid "Graphics pack"
+msgstr ""
+
+#. Found in description list item.
+msgid "Forum integrations"
+msgstr ""
+
+#. Found in description list item.
+msgid "Instructional design"
+msgstr ""
+
+#. Found in description list item.
+msgid "Discussion areas"
+msgstr ""
+
+#. Found in description list item.
+msgid "Course import &amp; export"
+msgstr ""
+
+#. Found in description list item.
+msgid "Lesson downloads"
+msgstr ""
+
+#. Found in description list item.
+msgid "Multi-instructor"
+msgstr ""
+
+#. Found in description list item.
+msgid "Quiz time limits"
+msgstr ""
+
+#. Found in description list item.
+msgid "Assignments (coming soon)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Course tracks"
+msgstr ""
+
+#. Found in description list item.
+msgid "Drip Content"
+msgstr ""
+
+#. Found in description list item.
+msgid "Course builder"
+msgstr ""
+
+#. Found in description list item.
+msgid "Quizzes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Multimedia lessons"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://demo.lifterlms.com/course/how-to-build-a-learning-management-system-with-lifterlms/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">Take a Free Course</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/universe-bundle/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">Universe Bundle</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/infinity-bundle/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">Infinity Bundle</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/mailchimp-extension/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS MailChimp</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/lifterlms-convertkit/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS ConvertKit</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/woocommerce-extension/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS WooCommerce</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/authorize-net/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Authorize.Net</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/paypal-extension/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS PayPal</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/stripe-extension/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Stripe</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/social-learning/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Social Learning</a>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Get Support</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Own and Manage Your Platform</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Secure and Protect Your Content</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Integrate with the Tools You Need</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Offer Memberships</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Engage Your Students</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Build an Education-Based Business</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Create Courses</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Save Big with a Bundle</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Support</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Design Tools</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Integrations</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Advanced</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/myaccount/dashboard-section.php\">templates/myaccount/dashboard-section.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/course/syllabus.php\">course/syllabus.php</a>"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Business to Business Bulk Enrollment Activations with Vouchers"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Membership Course Bundles and Auto Enrollment"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Lock Down Non LMS Content with Memberships"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Update Upcoming Order Details"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Course Access Plans"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Email Engagements"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Engagements"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Lesson Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Subscription Management"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Enrollment Reporting"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Student Reporting"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Sales Reporting"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Quiz Results"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Achievement Badges"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Achievement Earned"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Checkout"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Pricing Tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/product/free-enroll-form.php\">product/free-enroll-form.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/product/pricing-table.php\">templates/product/pricing-table.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/admin/post-types/product-access-plan.php\">templates/admin/post-types/product-access-plan.php</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gocodebox/lifterlms/blob/master/templates/checkout/form-checkout.php\">templates/checkout/form-checkout.php</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Be sure you’ve taken the free tutorial training video course: <a href=\"http://demo.lifterlms.com/course/how-to-build-a-learning-management-system-with-lifterlms/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">How to Create an Online Course with LifterLMS</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We care about your feature ideas and what you have to say. You can <a href=\"https://lifterlms.com/contact/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">request a feature</a>, <a href=\"?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">vote on existing feature requests</a>, and checkout the <a href=\"https://lifterlms.com/roadmap/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">product roadmap</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can find a full list of officlai LifterLMS Add-ons <a href=\"https://lifterlms.com/store/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">here</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Absolutely. If you're not finding your questions answered on the product pages, you can ask your presales questions through this <a href=\"https://lifterlms.com/contact/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">contact form</a>. You can also connect live with a member of our team <a href=\"https://lifterlms.com/contact/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. You can get an instant quote for the team at LifterLMS to set everything up for you through our signature Done For You service. Get an instant quote through our automated quote generation tool on the <a href=\"https://lifterlms.com/dfy/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS website services page</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Users of the free LifterLMS should post their questions in the plugin's WordPress.org forum. If you find you're not getting support in as timely a fashion as you wish, you might want to consider purchasing a <a href=\"https://lifterlms.com/product/lifterlms-pro/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Pro license</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Also be sure to check out the official LifterLMS <a href=\"https://lifterlms.com/docs/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">Knowledge Base</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "You can return to the setup wizard at any time by following <a href=\"https://lifterlms.com/docs/rerun-lifterlms-setup-wizard/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">these steps</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "After installing LifterLMS for the first time you will be redirected to the Setup Wizard. This wizard will walk quickly configure LifterLMS so you can get to course creating as quickly as possible. At the conclusion you'll have the option to import a sample course."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Please see this <a href=\"https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation\">WordPress Codex document</a> for full instruction on Manual Plugin Installation."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To manually install LifterLMS you'll need to download the zip file using the \"Download\" link on this screen. You'll then need to use FTP to manually upload the files to the proper directory on your webserver."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "This is the simplest way to install LifterLMS as it utilizes WordPress to handle file transfers and you never need to leave the web browser or admin panel."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Visit our <a href=\"https://lifterlms.com/docs/minimum-system-requirements-lifterlms/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">full system requirements</a> for additional information."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "LifterLMS Requires"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once installation is complete, click \"Activate\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once you've located LifterLMS click \"Install Now\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "In the search field type \"LifterLMS\" and click \"Search Plugins\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to Plugins -&gt; Add New"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Log in to your WordPress dashboard."
+msgstr ""
+
+#. Found in installation list item.
+msgid "WordPress 4.0 or later"
+msgstr ""
+
+#. Found in installation list item.
+msgid "MySQL 5.6 or later"
+msgstr ""
+
+#. Found in installation list item.
+msgid "PHP 5.6 or later"
+msgstr ""
+
+#. Found in installation header.
+msgid "Setup Wizard"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual Installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Automatic Installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Minimum System Requirements"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Also I'd like to invite you to the <a href=\"https://www.facebook.com/groups/lifterlmsvip/\">LifterLMS VIP Facebook group</a> so you can check out what other LifterLMS users are up to and ask questions to the community."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Want to add a new language to LifterLMS? Swell! You can contribute at <a href=\"https://translate.lifterlms.com/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">translate.wordpress.org</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you’re interested in contributing to LifterLMS, head over to the <a href=\"https://github.com/gocodebox/lifterlms/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS GitHub Repository</a> to find out how you can pitch in."
+msgstr ""
+
+#. Found in description list item.
+msgid "The <a href=\"http://podcast.lifterlms.com/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Podcast</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "The <a href=\"http://blog.lifterlms.com/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Blog</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "The <a href=\"https://lifterlms.com/docs/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Knowledgebase</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "The <a href=\"https://lifterlms.com/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Official Homepage</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://lifterlms.com/product/lifterlms-pro/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS Pro</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "https://www.youtube.com/watch?v=LugJPS7bhxI"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you're already a LifterLMS Pro user or you have purchased one of the LifterLMS themes or extensions, you're entitled to log into your account and contact the support team directly on the <a href=\"https://lifterlms.com/my-account/?utm_source=LifterLMS%20Plugin&amp;utm_medium=README&amp;utm_campaign=Readme%20to%20Sale\">LifterLMS website</a>. We can provide a deeper level of support here and address your needs on a daily basis during the work week. Generally, except in times of increased support loads, we reply to all comments within 12 business hours."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The most common issues we see are either plugin conflicts, theme conflicts, or outdated servers. You can test if a plugin or theme is conflicting by manually deactivating other plugins until just LifterLMS is running on your site. If the issue persists from there, revert to the default Twenty Fifteen theme. If the issue is resolved after deactivating a specific plugin or your theme, you'll know that is the source of the conflict. If it is a hosting issue, contact your web host and make sure they’re running the most current version of PHP."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "First, make sure that you're running the latest version of LifterLMS. And if you've got any other LifterLMS extensions or themes, make sure those are running the most current version as well."
+msgstr ""
+
+#. Found in faq header.
+msgid "I still have questions. Where can I find answers?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I have a feature idea. What's the best way to tell you about it?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What add-ons are available for LifterLMS, and where can I read more about them?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm interested in LifterLMS Pro, another LifterLMS extension, or a LifterLMS theme, but there are a few questions I've got before making the purchase. Can you help me get those addressed?"
+msgstr ""
+
+#. Found in faq header.
+msgid "LifterLMS is awesome! Can you set it all up for me?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm still stuck. Where do I go to file a bug or ask a question?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Are there any troubleshooting steps you'd suggest I try that might resolve my issue before I post a new thread?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "When you download LifterLMS, you join a thriving community of education entrepreneurs, developers, and WordPress enthusiasts. We’re one of the fastest growing open source eLearning communities online, and you are welcome here."
+msgstr ""
+
+#. Found in description header.
+msgid "<strong>Further Reading</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "LifterLMS is a powerful WordPress LMS plugin that makes it easy to create, sell, and protect engaging online courses. The mission of LifterLMS is to democratize education in the digital classroom."
+msgstr ""
+
+#. Found in description list item.
+msgid "Student management"
+msgstr ""
+
+#. Found in description list item.
+msgid "Student dashboard"
+msgstr ""
+
+#. Found in description list item.
+msgid "Pre-requisites"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Student Dashboard"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Certificates"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Lessons"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Sidebar Widgets"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Courses"
+msgstr ""
+
+#. Screenshot description.
+msgid "LifterLMS Course Builder"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested to WordPress 4.9.8"
+msgstr ""

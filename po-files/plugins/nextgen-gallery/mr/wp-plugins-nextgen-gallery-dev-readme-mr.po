@@ -1,0 +1,3983 @@
+# Translation of Plugins - WordPress Gallery Plugin &#8211; NextGEN Gallery - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - WordPress Gallery Plugin &#8211; NextGEN Gallery - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - WordPress Gallery Plugin &#8211; NextGEN Gallery - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "The most popular WordPress gallery plugin and one of the most popular plugins of all time with over 23 million downloads."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed    Fontawesome 4 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Repeated and missing images in featured images list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Orphaned entries being created and/or left in wp_postmeta"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   IGW gallery selections not persisting between edits"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Gritter messages with long texts overlapped their close-notification icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Editing of image attributes from search-galleries page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Corrected numerous phpdoc problems found by Phan"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Conflict with WP Social Widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Attribute 'target=_blank' not working in lightbox effects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Upgrading FontAwesome to 5.0.13"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Manage Albums page now uses GET for editing navigation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Improved memory use during thumbnail generation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: How gallery directories are removed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Fixed order_by=rand and 'variations' system not working by storing random results in a transient for 24h"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Basic Thumbnails default setting from \"[Show slideshow]\" to \"Show slideshow\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added requirements notification manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Added settings for basic slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Significantly simplified NextGEN default shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Changed implementation of \"Number of Columns\" setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: New default template and styling for extended albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: New default template and styling for compact albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: New default template and styling for imagebrowser galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: New default template and styling for thumbnail galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Changed Javascript library and styling for basic slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Simple Lightbox is the new default Lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added 2.0 template mechanism for basic galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   IGW broken with Chrome 69+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Sorting galleries with over 1k images did not work past image 999"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed unneeded wp_localize_script('wp-color-picker'...)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Patched PEL to catch a possible exception caused by malformed IFD"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   NGG &gt; Overview's \"Upgrade to Pro\" links were still present when NGG Plus/Pro were active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Importing Media Library images inside the IGW window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't invoke icl_translate() when the admin language matches the default language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Do not purge WPML tag/translation mapping when removing unused NGG tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Styling of upload notifications"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Image attribute storage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed unused swfUpload setting key from ngg_options array"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Slovakian translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Danish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added 'ngg_gallery_title_select_field' filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Prevent caching of display_tab.js which can break the IGW"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Prepare new filter to replace slideshow galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Rework crop feature of WordPress gallery plugin for featured images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Introduce jQuery dialog as new UI element for WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Disable colorpicker for WordPress gallery plugin option page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Adding images to database require slug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Convert WordPress gallery plugin widget function to new WP structure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : No resize of smaller images or photos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Load slideshow gallery widget always"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Use correct sort order in slideshow galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Resize only larger images in slideshow galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Various PHP notice fixes in gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Updated gallery plugin to jQuery Cycle Version 2.9995"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Better gallery plugin upport for WPML translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Handle IE8 cached images better in slideshow galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Fixed network-wide gallery plugin activation in WordPress 3.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix:  Removed Photocrati acquisition announcement from WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Inability to generate new image slugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility between gallery plugin and Arjuna X theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIXED:   Misc PHP warnings, errors, in gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: The container and its images are centered for photo slideshow galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Introduced new Growl-like notifications for WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed WordPress gallery plugin installer issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Click-to-advance slideshow behavior for slideshow galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WARNING: Broken release. Major bug creates redundant cron jobs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Numerous WordPress gallery plugin pagination issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Blank Insert Gallery interface window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WordPress gallery plugin Backup images option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WARNING: Broken release. Uses wp_clear_scheduled_hooks() to purge cron records"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed \"Plugin Check\" widget from WordPress gallery plugin overview page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WordPress gallery plugin widget settings interface not intuitive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Various XML-RPC issues in WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Sorting in the Insert Gallery interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Issues prohibiting the ability to upload images and photos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Gallery plugin interface tweaks for WordPress 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WordPress gallery plugin insert interface freezing in IE11"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Re-introduced the Reset button to WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Scan folder for new images and photos not working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Silenced many PHP warnings in gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WordPress gallery plugin not honouring NGG_IMPORT_ROOT constant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Moved some WordPress gallery plugin settings from DB to in-memory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed PicLens / CoolIris integration from WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated WordPress gallery plugin's  select2 to 3.5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed watermarking PNG images and photos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Various PHP warnings and notices in WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Cornerstone/X compatibility with WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Formatting issues with WordPress gallery plugin changelog"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Album breadcrumbs when used with WordPress gallery plugin legacy templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added Freemius integration to plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Insert Gallery Window placeholder images aren't used by WordPress SEO's OpenGraph analysis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Allow deselection of a WordPress gallery plugin legacy template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated WordPress gallery plugin's FontAwesome to 4.3.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Conflicts created by WordPress gallery plugin TinyMCE plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated gallery plugin translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Optimized scanning of images when importing a photo gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed PHP4 support from WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Gulp build system for plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Insert Gallery placeholder images are watermarked"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: New Gallery plugin Overview page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Content of WordPress gallery plugin Upgrade to Pro page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed Pope tests folder from WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Tamara Lackey's biography on the WordPress gallery plugin overview page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Insert Gallery Window-inserted tagclouds are incorrect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Hide Insert Gallery placeholder images in Yoast feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Various WordPress gallery plugin PHP notices and warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Image tags that are no longer should be removed from WordPress gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Basic Tagcloud does not honor display type setting when editing in Insert Gallery Window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Gallery plugin compatibility with Spider Calendar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Gallery plugin widgets causing WSOD on PHP 7.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WordPress gallery plugin wizards initialized too early."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use of deprecated functions in gallery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Conflict with Gutenberg editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Color selection widget keeping unsaved values between page refreshes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed use of screen_icon() from plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Gutenberg compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated link href to 'image delete' &amp; 'recover' links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Upgraded Select2 to latest release (4.0.5)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Image descriptions may now include  elements with src, alt, title, id, class, name, rel, and style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Complete redesign of NextGEN Gallery backend interface"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, the lightbox can be configured with multiple options directly from the Dashboard, and there are multiple CSS styles which can be applied and modified as well. If you want even more options, consider upgrading to NextGEN Pro and useing the NextGEN Pro lightbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Various issues with WordPress gallery plugin shortcodes when used in widgets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Shortcodes in WordPress gallery plugin widgets not getting substituted in Divi"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed:  Tags in WordPress gallery plugin readme.txt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:      WordPress gallery plugin review notices"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can use pagination when displaying thumbnail galleries. And you can adjust the amount of photos to be shown on a page at any time."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, we've put a lot of work into this and, NextGEN Galleries are compatible with Android, iOS. All photo galleries are also responsive, so galleries look good on diverse screen sizes. NextGEN Pro also includes a full screen, responsive Pro Lightbox with mobile gesture support. It's great for viewing photos on mobile devices."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Nope, we use no flash elements."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yup, NextGEN is a popular and well-established WordPress gallery plugin, and has been for a long time. It will work well with most other themes and plugins in the WordPress ecosystem."
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I crop photo thumbnails?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I add a watermark to the my photos?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will this gallery plugin work with my theme?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you do want to work with shortcodes, there is a powerful shortcode system as you'd expect of a popular WordPress gallery plugin. <a href=\"https://www.imagely.com/docs/nextgen-gallery-shortcodes/\">Learn About NextGEN Gallery Shortcodes</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "NextGEN Gallery offers an easy-to-use Insert Gallery Window, which means you never need to work with shortcodes again when inserting and manageing galleries - if you would prefer not too."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "https://www.youtube.com/embed/zmA-b_jiXN0"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "https://www.youtube.com/embed/mNEnY23i9DE"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "On the front end, the free version of NextGEN provides two main gallery styles (slideshows and thumbnail galleries) and two album styles (compact and extended), all of which come with a wide array of options for controlling size, style, timing, transitions, controls, lightbox effects, and more. Learn more about <a href=\"https://www.imagely.com/wordpress-gallery-plugin/\">NextGEN WordPress Gallery Plugin features.</a>"
+msgstr ""
+
+#. Screenshot description.
+msgid "Gallery Settings Page"
+msgstr ""
+
+#. Screenshot description.
+msgid "Insert Gallery Window"
+msgstr ""
+
+#. Screenshot description.
+msgid "Manage Gallery Page"
+msgstr ""
+
+#. Screenshot description.
+msgid "Slideshow Gallery"
+msgstr ""
+
+#. Screenshot description.
+msgid "Thumbnail Gallery"
+msgstr ""
+
+#. Plugin name.
+msgid "WordPress Gallery Plugin - NextGEN Gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Manage Galleries gallery path field was having extraneous slashes added on IIS servers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Manage Albums \"Not linked\" option wasn't selectable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Kudos:   ElevenPaths (Telefonica cibersecurity Unit)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Gallery paths and the ability to manage tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Broken Manage Albums page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed create_function() calls (deprecated in PHP 7.2)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   ImageBrowser display types generating warnings on PHP 7.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Segfaults on PHP 7.2, 7.1.12, and 7.0.26."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Certain image attributes were not being validated correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Clean exit in FastCGI environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Incorrect CSS class format used in form generator text field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Kudos:   Zhouyuan Yang of Fortinet's FortiGuard Labs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Vulnerable to CVE-2017-2416 buffer overflows"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Image property escaping case-sensitive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Partner page for Imagify image optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Include PHP 7.2-RCs in the warning created by NextGen Gallery 2.2.16"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Include PHP 7.2.0 in the warning created by NextGen Gallery 2.2.16"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Display an admin warning and disable NextGen Gallery when PHP 7.1.12 or 7.0.26 are in use"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Metadata is read and preserved when \"Resized images after upload\" feature is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     EXIF and IPTC metadata are copied to new images and photos when generating thumbnails, watermarks, or new sizes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Convert script/style urls to arrays in the lightbox installer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Problem with validation code of DataMapper Models"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Made transients manager flush only expired transients"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed useage of parse_str for PHP 7 (thanks Bodo Graumann)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Added DESC as an option to nggTags::find_images_for_tags()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Upgraded PHP-Parser version used when building plugin zips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Disabled Flash backend in plupload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that the plugin works when PHP isn't compiled against libxml"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WSOD caused by setting $wp_query-&gt;is_page to false"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Rework of WordPress gallery plugin overview page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Broken links on WordPress gallery plugin Overview page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   In Insert Gallery interface, galleries created in one tab weren't showing in another"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Sorting images/galleries using the Insert Gallery interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Content within the tabs of the Insert Gallery interface cut-off"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Isolate the Insert Gallery Window from implicit third-party script inclusion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ability to sort by Image ID in the Insert Gallery interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Insert Gallery interface instructing browser to cache the page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Insert Gallery interface broken when WPML is installed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Dynamic updates in the Insert Gallery interface (interframe communication)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Images and photos not responsive for all display types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed:  Updated WordPress gallery plugin branding to Imagely"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fix incompatibility with WPML pagination due to overriding $_SERVER['REQUEST_URI']"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   PHP warning when saving image meta data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   /ngg_tags pages displaying comments from all posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   get_unique_slug() creating invalid SQL query when gallery name contains quote characters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Breadcrumbs in albums when slug is shared between gallery and album"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Spacing preserved when our shortcodes are placed with other content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   NGG Basic slideshow galleries not honoring transition effect setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Special characters in <code>show_slideshow_text</code> parameter causing inserted display to not be editable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Limit display types available in \"Display galleries as\" setting for albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Basic Tagcloud allows selection of Pro display types when NGG Pro is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fancybox lightbox effect not compatible with Pro Mosaic galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Roles and Capabilities discrepancy with displaying NextGEN Gallery UI elements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Thumbnail editing links missing when locale uses RTL language such as Hebrew"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Better error reporting for the XML-RPC method, ngg.uploadImage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Added namespacing to NGG-generated transients"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: New design and video for Upgrade to Pro page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed custom Freemius opt-in message"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For more information, feel free to visit the official website for the NextGEN Gallery <a href=\"https://www.imagely.com/wordpress-gallery-plugin\">WordPress Gallery Plugin</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. See <a href=\"https://www.imagely.com/docs/nextgen-gallery/\">NextGEN Gallery Documentation</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "https://www.youtube.com/watch?v=qwNr5ZNGavo"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "DOCUMENTATION: See <a href=\"https://www.imagely.com/docs/nextgen-gallery/\">NextGEN Gallery Documentation</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Learn more or connect with us:<br />\n"
+"*<a href=\"https://www.imagely.com/\">Imagely Website</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-photography-themes/\">Genesis WordPress Themes for Photographers</a><br />\n"
+"*<a href=\"https://www.imagely.com/hosting/\">Managed WordPress Hosting for Photographers</a><br />\n"
+"*<a href=\"https://www.imagely.com/podcast/\">The WordPress Photography Podcast</a><br />\n"
+"*<a href=\"https://www.imagely.com/docs/nextgen-gallery/\">NextGEN Gallery Documentation</a><br />\n"
+"*<a href=\"https://twitter.com/imagely\">Imagely on Twitter</a><br />\n"
+"*<a href=\"https://facebook.com/imagely\">Imagely on Facebook</a><br />\n"
+"*<a href=\"https://instagram.com/imagely\">Imagely on Instagram</a><br />"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "NextGEN Gallery is maintained by Imagely. We're the WordPress photography experts. In addition to NextGEN Gallery, NextGEN Plus, and NextGEN Pro, we also make WordPress themes for photographers, provide turnkey websites for photographers, and run the WordPress Photography Podcast."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>NEXTGEN PRO DEMOS</strong><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-mosaic-gallery/\">Pro Mosaic Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-masonry-gallery/\">Pro Masonry Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-filmstrip-gallery/\">Pro Filmstrip Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-film-gallery/\">Pro Film Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-slideshow-gallery/\">Pro Slideshow Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-thumbnail-gallery/\">Pro Thumbnail Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-blogstyle-gallery/\">Pro Blog Style Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-grid-album/\">Pro Grid Albums</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-list-album/\">Pro List Album</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-lightbox-demo/\">Pro Lightbox Demo</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-proofing-demo/\">Pro Proofing Demo</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/pro-ecommerce-demo/\">Pro Ecommerce Demo</a><br />"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>INTRODUCING NEXTGEN GALLERY PRO.</strong> NextGEN Plus and NextGEN Pro are premium WordPress gallery plugin extensions for NextGEN Gallery that add new photo gallery displays, lightboxes, ecommerce, proofing, and pro support. Learn more about <a href=\"https://www.imagely.com/wordpress-gallery-plugin/\">NextGEN Plus and NextGEN Pro photo plugin features.</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>NEXTGEN GALLERY DEMOS</strong><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/basic-thumbnail-gallery/\">Basic Thumbnail Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/basic-slideshow-gallery/\">Basic Slideshow Gallery</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/basic-compact-album/\">Basic Compact Album</a><br />\n"
+"*<a href=\"https://www.imagely.com/wordpress-gallery-plugin/basic-extended-album/\">Basic List Album</a><br />"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "On the back end, NextGEN offers a complete WordPress gallery management system with the ability to batch upload photos, import meta data, add/delete/rearrange/sort photos, edit thumbnails, group galleries into albums, and more."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "NextGEN Gallery has been the industry's standard <strong>WordPress gallery plugin</strong> since 2007 and continues to receive over 1.5 million new downloads per year. It's easy for simple photo galleries, but powerful enough for the most demanding photographers, visual artists, and imaging professionals."
+msgstr ""
+
+#. Found in description header.
+msgid "About Imagely"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Copyright:<br />\n"
+"Imagely 2016-2018\n"
+"Photocrati Media 2012-2016<br />\n"
+"Alex Rabe 2007-2011"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This program is free software. You can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr ""
+
+#. Found in description header.
+msgid "Shortcode"
+msgstr ""
+
+#. Found in description header.
+msgid "Credits"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For more information, feel free to visit the official website for the NextGEN Gallery <a href=\"https://www.imagely.com/wordpress-gallery-plugin/\">WordPress Gallery Plugin</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, our WordPress gallery plugin has been translated into dozens of languages - <a href=\"https://www.imagely.com/languages/\">click here to find out more.</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Since the captions are fully HTML capable, you can add external links and any other type of mark up you wish."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, caption areas are fully HMTL capable."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, each thumbnail image can be individually adjusted to suit your needs."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can add text or image watermarks to your gallery images."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, WordPress allows you to password protect pages by default - which includes all photo galleries and content for the entire page. Password protection of pages can be turned on and off at any time, with just a few clicks."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can batch upload entire photo galleries at one time."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In simple terms, Albums are collections of galleries. So Galleries contain your photos and Albums contain your Galleries. Albums act as links and placeholders to quickly and easily navigate your galleries. Galleries will actually display your images."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is often due to the URL paths to the CSS and JavaScript files used by the Lightbox Effects not being changed to relevant addresses based on the new site. This article will help sort out this issue if that is the case: <a href=\"https://www.imagely.com/docs/galleries-opening-lightbox/\">Why are my galleries not opening up in a lightbox?</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "More Information"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is NextGEN Gallery available in foreign languages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I add an external links to galleries?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I add HTML to photo captions?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I customize the lightbox?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is there pagination for photo galleries?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I password protect galleries?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I upload multiple images at once?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the difference between a gallery and an album?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Are the galleries mobile friendly?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Are the photo galleries flash based?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do you have documentation or tutorials?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why are my photo galleries not opening up in a lightbox after I move my site?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "That's it ... have fun! For more information, feel free to visit the official website for the NextGEN Gallery <a href=\"https://www.imagely.com/wordpress-gallery-plugin\">WordPress Gallery Plugin</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "HOW TO USE: Just go to a page or post and click the NextGEN Gallery icon or the Add Gallery button. From our Insert Gallery Window, you can create, manage, customize, and display your WordPress photo galleries. You can also manage your photo galleries and gallery settings from the central options area under the \"Gallery\" tab on your dashboard menu."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "INSTALLATION: The easiest way to start uploading your photos is to login to you WordPress dashboard, go to Plugins &gt; Add New, search for NextGEN Gallery, and click to install the plugin. You can also download the plugin zip file from this page and upload it from the Plugins &gt; Add New &gt; Upload page."
+msgstr ""
+
+#. Found in description header.
+msgid "WordPress Gallery Plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    E_WARNING on Gallery Settings page due to improper use of array_combine() on PHP &lt;= 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Fatal error in Freemius code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Removed id parameter in shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    WordPress SEO sitemap image count"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Hyperlinks in image descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Resolved vulnerability with tag cloud displays"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Issue with dynamic container height for Imagebrowser display types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    false positive malware detection notices against 'eval'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Don't display legacy shortcodes after creating new galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Problems with activation after initial installation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed:  Added the ability to click on a gallery title and have it open direct to Pro Lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:      Template mechanism for all display types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Problem with deactivating other plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed:  Corrected Facebook link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Ensured compatibility with WordPress 4.7.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Pope product uninstaller not running during activation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Ensure that NextGEN Gallery is always loaded after it's extension plugins in WP 4.7"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Missing option names on setting pages when Wizard active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   The ability to dismiss the gallery wizard notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Typo in notice for launching the gallery wizard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Various thickbox issues on custom post type pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that NGG placeholder text doesn't get styled incorrectly by other themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Gallery creation wizard for new users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: SQL injection vulnerability for gallery names"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Custom Styles may only be written to specific directories"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Ensure that only .css files can be edited using Styles tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with WordPress 4.7.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: readme.txt improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Ability to customize CSS Styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Untranslatable strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Escaping of quotes in gallery titles and urls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Change display:hidden to visibility:hidden in various places"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Misc invalid HTML tags in admin pages (thanks to kniebremser)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Conflict with Easy Digital Downloads"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use of deprecated Yoast SEO (aka WPSEO) filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Uncaught TypeError: Cannot read property 'replace' of undefined"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Shortcodes added via Insert Gallery Window displayed as []"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Custom sortorder not preserved in shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Added placeholder text to gallery name field on Add Gallery / Upload Images page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Show gallery name in upload notification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Include backup image files when coping/moving a gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Display type icons are now clickable in the Insert Gallery Window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Shortcode parsing was affecting third-party shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   nextgen_admin's jquery-ui breaking Elegant Themes admin pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Warnings caused by calls to non-existent module package files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Table columns cache becomes out of date between versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Settings reset will now redirect to /wp-admin/ to avoid potential activation-related errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Import folder 'gallery title' field wasn't being used for new gallery titles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Extraneous backslashes being added to gallery titles &amp; descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated Freemius SDK to 1.2.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Now uses gulp for package compilation &amp; JS/CSS minification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Visual Shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Display types can have aliases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added php docblock directives for code hinting/completion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   PHP warning for C_NGG_Lightbox class using incompatible constructor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure Insert Gallery Window background stays white"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Maximum function nesting level fatal error when displaying two or more albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with the Imagely Lightroom plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Increased freemius opt-in to 100%"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added the ability to open galleries within albums using a lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Warning generated in nggallery.php checking useMediaRSS option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Uploading breaking when thumbnail or image resizing fails due to lack of specific format support for image libraries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Gallery Settings toggle not functioning"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure EXIF meta data is loaded from the appropriate exif_data array instead of exif_array"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility on Windows servers with network mounted document roots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Resolved all found PHP warnings/notices/deprecations and strict errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Replicate gallery name sanitation of NG legacy for gallery paths"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: ATP preview images are smaller with tighter margins to show more images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Option to display child gallery and album descriptions when viewing albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added notice for deprecating PHP 5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added \"generic\" error reporting back during image upload."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Add a \"Default\" template option to override ATP settings when a global setting is used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Remove inner nextgen-gallery folder due to build issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Freemius assets should not be minified"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   When a datamapper entity is saved, it's corresponding cache should be cleared"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Freemius code shouldn't be minified"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Links to manage a gallery after it's been created don't appear in the Insert Gallery Window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Integrated with WordPress SEO sitemaps to show include NGG images and photos in image counts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added the ability to apply GD filters during image generation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added \"ngg_before_save_thumbnail\" filter for image manipulation abilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added \"ngg_settings_during_image_generation\" filter to adjust image generation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added \"ngg_igw_placeholder_line_2_settings\" and \"ngg_igw_placeholder_line_1_settings\" filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added API for communicating with Lightroom plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     \"Add Gallery\" button added next to \"Add Media\" button on Create/Edit Post screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that shutter reloaded can find it's image assets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with themes and plugins which enqueue underscore.js in the head of the document"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Replaced use of get_currentuserinfo() with wp_get_current_user()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Navigating to albums with UTF8 characters in their name"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Default watermark setting causing images to be watermarked by text even though \"image\" is shown chosen on \"Other Options\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with added WP role objects without a remove_cap() method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Upgraded FontAwesome to 4.6.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated branding so all publicly visible instances of \"Photocrati\" are now \"Imagely\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated \"Roots\" relative url support to re-branded \"Soil\" relative url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Now prevent maximum_entity_count from being set to 0 or lower in Other Options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Moved 'ngg_delete_picture' action to before the image has been removed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added patch from WPML copyping ATP galleries to new language pages when duplicating a page to a new language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added actions actions ngg_updated_image_meta, ngg_recovered_image, ngg_generated_image, ngg_moved_images, and ngg_copied_images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Cleaned up overview.php's readability and removed some now-long-unused code from legacy's ajax.php"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Updated C_CustomPost_DataMapper_Driver-&gt;_save_entity() with user-submitted patch"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Updated C_Dynamic_Thumbnails_Manager-&gt;get_uri_from_params() with user-submitted patch"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    NGG's cross-frame-communication cookies not being purged"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    C_Gallery-&gt;validation() not working properly when sanitizing gallery title using UTF-8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Album breadcrumbs CSS compatibility with certain themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    nggdb::get_unique_slug() not generating unique slugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Added Roots-theme relative-url support to C_MVC_Router-&gt;get_static_url()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    C_Router-&gt;initialize() generating warnings with WP-CLI or the WP-CLI-Cron"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Detection of parents from grand-child-albums when generating breadcrumbs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:    Removed unnecessary whitespace from \"Related images\" template that caused issues with some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Static url generation when the nextgen-gallery directory is a symlink outside of the WordPress roots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Resource manager breaking the layout of the Multisite Plugin Activation page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Provided imagebrowser legacy templates not using AJAX pagination when enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Manage Galleries &gt; Search results not saving when edited"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Made get_image_url() encode gallery directory names 'because%this%is' a valid directory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with WPML String Translation when uploading images without title or description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Bug introduced in 2.1.24 allowing gallery paths &amp; slugs to contain spaces; galleries must be \"saved\" once to correct them"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Made get_static_url() look in the WP_CONTENT/ngg/(module_name)/static directory for CSS/JS overrides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: ATP slug field disallow several characters (spaces, ?, |, &amp;, [, ]) by replacing them with dashes as they are typed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added warning when saving galleries and refuse to automatically delete galleries with one or more \"../\" in their path."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added constant NGG_SCRIPT_VERSION that is either the plugin version or rand() should SCRIPT_DEBUG be on"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Ability to browse and import gallery folders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: XSS vulnerabilities in Manage Gallery pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   PHP warning about incorrect usage of parse_url()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Problem deleting interframe communication cookies"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't use interframe communication outside of the Insert Gallery Window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Double-UTF8-encoding of image metadata"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   _NGG_Galleries_List_Table compatibility with WordPress 4.3+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Order direction not honored on Manage Galleries page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Attempt to load non-existing minified translation files for Plupload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Loading non-WOFF fonts on IIS servers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed redundant translatable strings (thanks Rene Wolf)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Handle for bundled version select2 is now called 'ngg_select2'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated plugin's FontAwesome to version 4.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Swedish (sv_SE) translation (thanks Anders O Johansson)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Add the ability to specify gallery title with import_gallery_from_fs() method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added text domain and domain path to gallery plugin header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     JW ImageRotator v3.17 is now bundled with the plugin and used by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   CSS and usability issues with the TinyMCE window used to display galleries"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed:     Match legacy behaviour when changing gallery path, i.e. don't move files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed : Canonical link is now part of Wordpress 2.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Remove various PHP notices for a better world"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Fix onload bug for Chrome 4 in Shutter script"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Import meta data didn't work correct for existing images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Keep fix dimension in edit thumbnail operation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Select album preview from gallery preview pics instead random list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Restructure addgallery and settings page to enable custom tabs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Include lookup for tags into the backend search"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Rename query var from slideshow to callback for compat reason with other plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Auto downloader for translation file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding various new capabilities for user roles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added a JSON class for fetching galleries in a RESTful way (see xml/json.php)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Resize images after upload (THX to Simone Fumagalli)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Backup and Recover function for images (THX to Simone Fumagalli)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Support for Post thumbnail feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Adding correct stripslash for gallery title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Gallery widget can now have a empty title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : PHP4 compat issue for Add gallery &amp; options page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Missing $wpdb in shortcodes.php"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : XSS security vulnerability (THX to Core Security Advisories Team , Pedro Varangot)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Slideshow option 'Show next image on click\" has wrong default value"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Fixed brackets position for old shortcode query"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Pagination of galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Remove non-breaking space from navigation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New : Adding pagination to footer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Esc_URL in Media RSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Compat issues for Post Thumbnails under WP3.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding more hooks for custom fields plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Compat issue for post thumbnails with WP2.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Calculate correct ratio for fix thumbnail size (THX to Alekz Keck)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Copy/Move also backup file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : New German translation (THX to Martin Kramarz)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Allow JPG, PNG, GIF extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Security bugfix for Zip-Upload (THX to Dominic Szablewski)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Load frontend libs always"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : New menu icon and screen icon (THX to Ben Dunkle)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Reorder tabs for upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added filter hook 'ngg_slideshow_size' to resize sildeshow for mobile browser plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added action hook 'ngg_show_imagebrowser_first' on custom request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding jQuery File Tree for import folder (THX to Sergey Pasyuk )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Integrate jQuery Cycle as NON-Flash slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Wordpress 3.0 Network (Multi-Site) support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Rework null byte check in zip upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Show sideshow also with 1 or 2 images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Script load of swfobject.js failed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Use site_url() instead get_option ('siteurl'), required for SSL support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : New admin notice for database upgrade"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Slideshow script failed in IE7, load script now in header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Load Tags library with core files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added constant NGG_SKIP_LOAD_SCRIPTS to avoid script load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Icon Support for Ozh' Admin Drop Down Menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Copy meta data when image is copied"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Rework load mechanism for slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Empty tags in XMP Meta causes PHP error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Fix validation issues in Media-RSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Install/Upgrade failed when table prefix contain captial letters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Better support for SSL blogs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Call TinyMCE window via admin-ajax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : New hooks for gallery table (THX to Alexander Schneider)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : More methods for XMLRPC interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding Autocomplete field to TinyMCE Popup and Album page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added filter hook 'ngg_get_image_metadata' to add more exif/iptc information"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Publish a new post direct from the gallery admin page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Compat fix for upgrade"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Disable upgrade for PHP4 user"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : WP3.1 compat issue, show site admin page only on Multisite installation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Bugfix for Multisite setup and flash upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Rework register script for autocomplete feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding new XMLRPC method ngg.editImage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding new XMLRPC method ngg.deleteImage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Introduce plugin health check for conflicts with other plugins/themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Improved image format detection in gd.thumbnail class (THX to Kupar.b)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Rework jQuery Cycle slideshow for IE compat reason (THX to Justin Dickenson)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Disallow direct call of ajax file to avoid path disclosure (THX to High-Tech Bridge SA)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Permalink didn't work in combination with album &amp; imagebrowser"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Create gallery failed when safe-mode on"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Empty values in XMLRPC update calls are ignored"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Rework screen options filter for gallery and image table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Create unique slug in a better way"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Updated pagination to new WP3.1 style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding sort operation for galleries overview page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding support for arrow key in shutter effect (THX to Flyvans)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Support for WPML ( WordPress Multilingual Plugin )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Adding Google Sitemaps for Images (require WordPress SEO plugin by YOAST )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Full rework of permalink url structure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Flush rewrite rules during upgrade later"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Typo in rewrite rules"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Special case for pagination, instead of showing page-1, we show the clean url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Update failed for paged galleries since WordPress 3.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Set pagination variables for search result, otherwise update failed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Preview picture lost on backend gallery page 2 or higher"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Adding index.php to home_url()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : AJAX Pagination didn't work anymore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Sub-Albums in Albums didn't create the correct link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Support for simple custom permalink structures (i.e. /%category%/%postname%/)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Fixed security vulnerability (TXH to Alain Schneider)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Check also EXIF field \"DateTimeOriginal\" for timestamp"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : FTP Import missing slug field into database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Resize fix for Shutter effect and mobile Browser"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Allow empty altext in ngg.editImage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Bugfix for Edit thumbnails under IE 8 + 9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Couldn't use bulk operation for search results"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Always cache the single pictures, remove option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added new hook ngg_delete_picture"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Support for gallery templates in album shortcodes [ album id=x template=\"name\" gallery=\"templatename\" ]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added client side resize feature (only with WordPress 3.3)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Switch to Plupload, support now HTML5 Upload (only with WordPress 3.3)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Keep images transparency for PNG and GIF format"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : IE7/IE8 width set correctly for edit album autocomplete field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : IE7 script fix for add gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Load piclens script via other function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Fixed security vulnerability (TXH to Jon Cave)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Security hardness for untrusted filenames/meta data (THX to Brian St. Pierre)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Allow other tinymce intance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Support non latin chars in tagcloud"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Increase z-index for twenty eleven theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Check first for valid images on unzip (only Mac OS zip-files)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed : Rework Post-thumbnail function (THX to Kristian Edlund)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW : Added more XMLRPC commands (THX to Vladimir Vinogradsky)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Show album preview image if selected  (THX to Kristian Edlund)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Ensure error checking on IPTC array (THX to Kristian Edlund)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Updated german translation ( THX to Roger Hunziker )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix : Ensure to set the slug for \"all\" albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Gallery plugin is no longer dependent on its folder name"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Fixed compatibility issues with Contact Form 7 and other plugins by following WordPress Plugin conventions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Adjusted thickbox effect styling to ensure that the lightbox is always displayed in the foreground"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Use WordPress-bundled JavaScript libraries for swfobject and swfupload instead of bundling our own"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Branding changes following Photocrati acquisition (removed donation messages and updated links)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Using correct Facebook Page ID in Like button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Fixed compatibility issue with Simple Facebook Connect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Adjusted Javascript for activating social media pages to load on NextGEN Gallery pages only."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Fixed an issue with users not being able to dismiss the \"Photocrati Acquisition Notice\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Implemented workaround for bug found in WordPress SEO, resulting in no images being added to sitemap"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix:  Switched from \"template_redirect\" to \"wp_enqueue_script\" hook to load scripts and styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix:  Fixed incorrect usage of ImageJpeg() function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix:  Adjusted TinyMCE window to use built-in JavaScript libraries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix:  Image uploads work in WP 3.2 when using Safari"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Using JQuery UI for the image sorting interface (thanks Tomás Soler)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Removed bundled version of swfupload; using WordPress-bundled version instead for WordPress 3.2 instances"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   The transient adjustment fixes: http://wordpress.org/support/topic/plugin-nextgen-gallery-_transient_ngg_request-entry-in-wp_options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Our primary SCM is conducted at http://bitbucket.org/photocrati/nextgen-gallery, but was not synchronizing correctly with the WordPress Plugin SVN Repository"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: All transients created by NextGEN are flushed when the plugin is activated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Removed bundled version of swfupload. See fix below for SCM information."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Sorting by filename now produces expected results using a natural sorting algorithm"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with WordPress v3.5 ( wpdb-&gt;prepare() warnings )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed database upgrade code for versions of NextGEN Gallery earlier than 1.9.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Correct use of register_uninstall_hook"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Deleted galleries within an album are handed gracefully without warning messages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed some remaining references to database upgrade code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Restored compatibility with NextGEN Gallery Export Plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   XML-RPC error displayed when authenticating using WordPress 3.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Correct use of register_uninstall_hook across all PHP versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed many E_NOTICE errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   E_DEPRECATED warning when using get_userdatabylogin() function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility issues with PHP 5.4 on album page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   “Creating default object from empty value” on album page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Alphabetical image sorting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Empty drop-down for \"Page Link To\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Database schema is automatically updated when out-of-date"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Using natural sorting algorithm for alphanumeric values"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Added \"nggalbum\" shortcode. Use this when Jetpack is installed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added the ability to detect JQuery conflicts on NGG Admin Pages and auto-resolve"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   jQuery Conflict Detection was trying to dequeue irremovable scripts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed mention of upgrade.php, which no longer exists"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Import date is preserved are no longer Jan 1 1970"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Ensure that only logged in users can upload images via plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Slideshow galleries are now centered to their content area     "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIXED:   The ability to use NextGEN image as a Featured Image."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: NextGEN legacy templates have been deprecated (but still function)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: NextGEN styles now override vs replace default styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Replaces shortcodes with placeholder images, however still supports legacy shortcodes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Support for FastCGI environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Galleries have now global and instance settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     New shortcode, “ngg_images”, and corresponding Insert Gallery interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Architecture based on Pope Framework (http://bitbucket.org/photocrati/pope-framework)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Streamlined functionality for displaying galleries based on tags."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Galleries are now mobile friendly and responsive, which is most noticeable with a responsive theme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added new interface for adding galleries from pages and posts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Complete redesign of the NextGEN options panel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Plupload queue uploader that allows for bulk and zip uploads within the same interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Improved user experience throughout the plugin, settings and usage."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Warning: \"Invalid CRT parameters detected\" for Windows environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Allow \"No Lightbox\" as an option for Lightbox Effects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed dependency on mb_string PHP module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Remove usage of <strong>DIR</strong> constant not supported by PHP 5.2.x"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use PHP 5.2.1 compatible named pattern matching syntax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fancybox: adjust CSS for further box-sizing protection from themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that pluggable.php is loaded at the start of every request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Path and URL calculations for Windows and UNIX environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Correct use of select2 DOM selector for maximum compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Adjusted our forms to comply with WordPress Firewalls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use WordPress Home URL over Site URL when appropriate"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Always use domain as specified by WordPress Site URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Restore nggShowGallery and nggShowSlideshow as wrappers to new API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Generation of AJAX url is now based on slug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Upgrade-safe way of overriding Styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Reverted default gallerypath to wp-content/gallery/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Conflict between imagebrowser and album urls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that gallery images don't have a border by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Incompatibilities with Elegant Themes, Oxygen, Responsive, and many other themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Incompcatibilities with Member Access, AMember, Magic Fields, and More Fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Incompatibilities with Events+, bbPress, Custom Permalinks, and many other plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Incompatibilities with BuddyPress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: jQuery is now enqueued at the beginning of every request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated the simplehtmldom library to version 1.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Removed default connector for jQuery FileTree library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added option to \"Other Options -&gt; Misc\" to control maximum images returned"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Styles (custom stylesheets) should reside in wp-content/ngg_styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     New resource manager that fixes many plugin and theme incompatibilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   PHP warnings caused by accessing unserialized data as array"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Encoding issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Enqueuing AJAX JS libraries twice in wp-admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Implemented techniques to ensure WP_Query variables aren't overwritten"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed ability to change Lightbox Effect settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Conflicts with Photocrati Theme Galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with W3 Total Cache. Please flush cache after updating."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed \"Reset &amp; Uninstall\" tab, for now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added \"run_ngg_resource_manager\" hook to by-pass our resource manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed an issue with thickbox loading animation when home url differs from site url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Datamapper works correctly in environments where temporary tables aren't supported"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that urls are generated correctly in HTTPs environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Improved reliability of iframely.js"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Try to ensure that third party plugins don't add content to our dynamic JS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Broken links and lightbox effects with AJAX pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that stylesheet url returned is correct for Windows hosts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Re-added the ability to select the original image size for widgets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Shortcode Manager API, which ensures that shortcodes are outputted as intended"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added the ability to override thumbnail settings for NextGEN Basic Albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Suppress wp_footer notices unless WP_DEBUG is set to TRUE"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with Adsense Explosion plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with NextGen Custom Fields plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Stylesheet url generated correctly for Windows hosts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   View as Slideshow link works with AJAX pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Security warnings from VaultPress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't compress inline JavaScript in post/page content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Related images functionality works as it did in 1.9.x"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed dependence on simplehtmldom library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Default image quality set to 100 for generated images and photos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Multisite support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use correct gallery/transient ID when ajax pagination is used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Problem with transient cache not getting flushed properly from Other Options page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed issue with displayed galleries using source='tags'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Image date is no longer overwritten when an image is modified"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   AJAX handling is third-party compatible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   PHP Warning about undefined index when viewing basic albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Related images heading only added when Related Images functionality is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that sub-albums display correctly when numerical slugs are used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that sub-albums display correctly when the word \"album\" is part of a slug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Highslide displays images and photos from the correct displayed galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Lightbox effect is honoured by all display types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added \"excluded_container_ids\" as parameter for ngg_images shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     WP-Cron job to periodically clean-up displayed gallery transients"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Reverting to the 2.0.21 codebase, due to major performance issues in 2.0.23 and 2.0.24"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Reduce performance impact of purging displayed gallery transients"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't output frame events cookie for XML-RPC requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't load pluggable.php. This will fix plugin conflicts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that transients are removed when an external object cache is used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that image meta is imported on creation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   URL generation for imagebrowser pagination links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed empty result set for displayed galleries selecting 'All' tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Adjusted Photocrati Resource Manager to be third-party friendly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility issue with AJAX Event Calendar (and possibly others)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility issue with WordPress SEO and broken site maps (and large error_logs)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Silence PHP warnings/errors in an output buffer for AJAX actions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Displayed galleries are no longer rendered in RSS feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Restored the ability to use imagebrowser display type instead of a lightbox effect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   3rd party compat: raise &amp; never lower pcre.backtrack_limit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   SQL query generated for displayed galleries using tags as source"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Carousel template was linking to NextGEN Basic ImageBrowser view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Router can handle port numbers in urls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   JavaScript errors in Attach to Post interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Added the ability to find legacy templates in both the child/parent theme directories"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Photocrati Resource Manager further adjusted to be third-party friendly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Integration of NextGEN Basic Thumbnail and NextGEN Basic Slideshow display types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Inability to upload images if image_slug field was missing in database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with WordPress Local SEO by Yoast"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Restored AJAX pagination for NextGEN Basic ImageBrowser display type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Only display rendering errors if WP_DEBUG is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use target=_blank when the link setting is provided for NextGEN Basic Singlepic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WordPress media-upload with 'singlepic' image size"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Show slideshow link isn't required for thumbnail/imagebrowser integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Scanning of router slug is now limited to the uri, not the url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Pro galleries wouldn't display in environments using PHP 5.3.3 or less"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compilation errors of regular expressions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fix detection of HTTPS (pull request by Leonhardt Wille)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Inability to upload images and photos in some Windows host environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Installer should remove all instances of the component factory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Load widgets.css when a widget is being used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Tagclouds not working in multisite instances"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ability to display previous exception with debug mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Pagination conflicts for multiple Imagebrowsers on the same page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility issues with BJ-Lazy-Load and Colorbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Detect if an applying a transient to a displayed gallery was successful"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Undefined property warnings when using NextGEN Basic Thumbnails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   PHP notice: Attempt to assign property of non-object"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Links are broken on the ngg_tags-sitemap.xml file by WordPress SEO"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Option added to \"Import Gallery\" tab to use original images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Requests /ngg_tag/[tagname] will create a displayed gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Merged:  Pull request from andreasE (https://bitbucket.org/photocrati/nextgen-gallery/pull-request/6/)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Sub-album requests conflicting with paginated galleries on the same page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ability to use HTML in gallery/album descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Broken Dynamic CSS links on GoDaddy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Routing problem which would cause conflicts with different display types on the same page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Typo adjusting pcre.backtrack_limit for shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   E_NOTICE emitted when viewing display type settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   E_NOTICE emitted when cleaning up cached image files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Issue with color not being pre-selected when previewing Watermark"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Widgets stylesheet not included"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with NextGEN Facebook OpenGraph+ plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Check for the existance of thumbnails when generating urls, and if missing, generate new ones"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Call to a non-member function get() on WP_Query"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Requests for galleries within albums that have numeric names are broken"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   HTML allowed in gallery/album descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with NextGEN Gallery Export Plugin for Adobe Lightroom (thanks Vladimir!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Excessive creation of transients for random galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Variant support for displayed gallery sources. Random images is limited to 5 variations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Add data-(src|thumbnail|image-id|title|description) attribute to gallery image anchors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Display helpful error messages when there's a problem uploading images and photos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Each custom table record will have an associated custom post record for expansion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_DEBUG constant. Define and set to TRUE to display helpful messages for debugging"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NEXTGEN_GALLERY_IMPORT_ROOT constant. Define and set to TRUE to browse from a custom directory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_HIDE_STRICT_ERRORS constant. Define and set to TRUE to hide strict errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added the ability to apply lightbox effects to non-NGG images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with the Weaver II theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with the Flattr plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Third-party incompatibilities caused by the Photocrati Resource Manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with web servers which don't provide PHP a document root"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with Headway Themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   parse_url() warnings generated for PHP 5.3.3 and earlier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Pagination broken when Basic Thumbnail gallery on the same page as Basic Album"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Incorrect page permalink used for \"Page Link To\" functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Remove custom table extra records from wp_options table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't enforce Pope interface contracts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't sleep when checking if the installer is running"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Double forward slashes in static urls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Maximum images limit not being applied for galleries already created."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Watermarking not working in low-memory environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Home URL now used instead of Site URL in MediaRSS feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Sanitization of gallery title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   PHP warning about HTMLDocument when displaying a SinglePic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ability to set shuffle parameter for ImageRotator slideshow galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   NextGEN Gallery Thumbnail Widget shouldn't use ImageBrowser effect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Apply maximum entity count to existing displayed galleries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Sub-album urls not processed correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Gallery path calculations on Windows web servers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Importing galleries using the Insert Gallery Interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Routing issues on subdirectory installs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Padding on Gallery Settings and Other Options pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Corrupted MediaRSS feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Multiple database queries generated for determining next available image slug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   SQL query performance problems. Honor max_packet_allowed variable for MySQL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Displayed gallery cache not regularly flushed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Lightboxes storing absolute paths for static resources"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Database query performance. No more joins to the WP options table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Module installer integrity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Path issues on Windows Servers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Support for filenames with non-ASCII characters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ability to upload ZIP files on Windows hosts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Default path for NEW multisite installations to wp-content/uploads/sites/%BLOG_ID%/nggallery/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Admin Page &amp; Form components refactored to allow custom POST processing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Transients are removed every 30 minutes instead of 60 minutes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added Font Awesome, available for NextGEN Gallery extensions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_DISABLE_LEGACY_SHORTCODES constant. When TRUE, [slideshow] becomes [nggslideshow]."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_DISPLAYED_GALLERY_CACHE_TTL constant. TTL measured in seconds."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_RENDERING_CACHE_TTL constant. TTL measured in seconds."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_CRON_SCHEDULE constant. Set to the number of seconds between the execution of NextGEN Gallery cron jobs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_Store, a client-side persistence layer (not in use)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Displayed Gallery Triggers moved from NextGEN Pro to NextGEN Gallery (not in use)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Tooltip added for Page Link to functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with Peekaboo theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with WP jQuery Lightbox plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Reset jQuery to WP defaults when modified by a third-party"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with Gravity Forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Datamapper-&gt;count() not returning the correct count"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   When resetting the 'jquery' handle, ensure that jquery-migrate is a dependency"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Allow third-parties to override jQuery with Google's CDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed code causing jQuery compatibility issues in WP Admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Separated pope_module_list from ngg_options record in options table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Exception thrown when using Reset button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with WP 3.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Remove CKEditor's NextGEN button, which is incompatible with NextGEN Gallery 2.x"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Added tooltips to basic slideshow gallery settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Routing problem for galleries with images named 1.jpg, 2.jpg, 3.jpg, etc."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Start the resource manager as early as we can within the init action"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Convert absolute urls to relative urls for lightboxes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Resource manager is manipulating feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Datamapper entities not allowed to have properties with a value of 0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Handle images of wrong image type correctly when trying to create cropped thumbnails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Suhosin compatibility issue when overriding PHP memory limit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Enqueue fontawesome only when necessary"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   use 'del' for function name in ngg_store.js, 'delete' is a reserved keyword"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with WPML Translation Management"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Support for web servers which use a document root of '//'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Problems with zlib compression: https://core.trac.wordpress.org/ticket/18525"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Maximum entity code should be a displayed gallery property for recent/random sources only"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed;   Compability with jQuery Dialogs in WordPress 3.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Display setting forms compatibility issue with WordPress 3.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Alignment issues in Basic Compact Albums caused by subalbums not displaying image 'counter'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed inability to edit gallery properties using XMLRPC's edit_gallery method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Incorrect handling of NextGEN Styles in multisite environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Insert Gallery Window support for multisite environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed redundant roles form in multisite environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Incorrect display of disk space quotas in multisite environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use correct absolute path when importing images in a multisite environment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Copy IPTC data from original to new image when creating new sizes / thumbnails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Thumbnail dimension calculations are inaccurate by 1px when maintaining aspect ratio"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Original display settings are passed to secondary display types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Moved jquery.nextgen_radio_toggle.js to NextGEN Admin Module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_DISABLE_FILTER_THE_CONTENT constant to manage conflicts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Bundled Browser+ JavaScript library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     WPML / qTranslate support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Including Finnish translation by Vesa Tiirikainen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Including Czech translation by Separatista"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Including German translation by Roland Stumpp"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Translation ready"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Limit uploads to images and zips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Check mime type of image files using a variety of mechanisms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Admin pages can now update when the \"Save\" button text has been translated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Basic Singlepic will now display images marked 'excluded' in the admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Basic slideshow galleries fixes WP creating extraneous P element above the slideshow display"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't enqueue related images css in the admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Flush 'all' caches when pope_module_list setting changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Multisite gallery path tooltip gave a wrong default setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Translate \"Attach NextGEN Gallery to Post\" ATP icon alt text when translations are active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   If NGG is uninstalled, so are it's custom capabilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   If using the caption template for Basic Thumbnails, only show the image caption when appropriate"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   NGG_RENDERING_CACHE_TTL constant is honored properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WP Cron job will remove not only displayed gallery transients, but rendering transients as well"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use plugins_url() content_url() when appropriate rather than just site_url() and home_url()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Disable Buddypress 'bp_do_redirect_canonical' filter as it ruins our routing system"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Complete WPML compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Random galleries should be substantially faster now (1000% or more for large image tables)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Gallery widgets now apply height:auto to their element; fixes compatibility with some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Basic Albums templates now given the image counter P element the class 'ngg-album-gallery-image-counter' (by user request)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: \"Upgrade to Pro\" page has new design, advertises for NextGEN Plus"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated Czech language thanks to Separatista; additional thanks to Martin Krizek for the original translation who was mistakenly unaccredited"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Spanish (es_ES) language thanks to Andrew Kurtis at WebHostingHub"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Russian (ru_RU) language thanks to SnakeD3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Italian (it_IT) language thanks to Jacopo Caggiano, @tizz"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Hungarian (hu_HU) language thanks to Zoltán Varanka"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     French (fr_FR) language thanks to Jean-Yves Dumaine &amp; Le Blog de Lise"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Filipino (fil) language thanks to Find Hold, http://www.findhold.dk/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Dutch (nl_NL) language thanks to Taeke Kooiker"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Chinese (zh_CN) language thanks to Vahi Chen, http://www.vahichen.com"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Bosnian (bs_BA) language thanks to Nevesin Srdoc"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_GALLERY_ROOT_TYPE constant. Set to 'content' to load galleries from the content_dir / content_url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added NGG_SKIP_LOAD_SCRIPTS constant, which existed in 1.9.x"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added a \"ngg_routes\" action for other plugins to hook into to provide new routes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added new \"limit\" setting to slideshow gallery widgets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: XSS vulnerability on Manage Albums page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: XSS vulnerability in thumbnail/slideshow integration links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: XSS vulnerability in jQuery Plupload Queue (thanks Codevigilant Team)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added French translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Issue with settings manager in multisite enviroments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Workaround GoDaddy's throttling of consecutive AJAX requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Autoupdate conflict with Photocrati Theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ability to find static resources outside of WP_PLUGIN_DIR"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility with BuddyPress plugin in multisite environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added fault tolerance to bulk action AJAX requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Missing class.frame_communication_option_handler.php error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ability to override image files using XML-RPC"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use canonical redirects when appropriate"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed filters to home_url needed previously for WMPL compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Adjust regex for replacing displayed gallery placeholder images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   SQL generation for random image selection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added skip_excluding_globally_excluded_images property to displayed gallery objects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Broken shortcodes with WordPress 4.0.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Spanish PO file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Broken NextGEN Pro ecommerce-related shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Pagination not working for slideshow galleries using thumbnail integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Prevent conflicts when using imagebrowser as a lightbox effect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fix Shutter positioning when admin bar is displayed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   TinyMCE Image Editor conflict with Insert Gallery Window placeholder images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't run Resource Manager on wp-login.php or wp-sign.php"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Conflict with WordPress SEO and get_the_excerpt() call"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use M_DataMapper's serialization methods throughout the codebase"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fallback to \"full\" image sizes if \"backup\" images aren't available"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed problem with default settings being applied multiple times"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fix C_GalleryStorage_Driver_Base-&gt;import_gallery_from_fs() not checking imgBackup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed pagination issues with slideshow galleries displayed as thumbnails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Allow pagination to retain query string url parameters when linking to other pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility between ImageBrowser display type and TwentyFifteen theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Angled quotations marks used in shortcode parameters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Imagebrowser as lightbox effect not working when non-default permalink slug used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility issue with PHP's transparent ZLIB compression"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Restrict folder browsing to NGG_IMPORT_ROOT constant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Legacy template drop-down selection now using select2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: LZW module removed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed unused code from ngglegacy module. Created wrappers for commonly-used functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Insert Gallery Window is routed using wp-admin/admin_init"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Ngg_Store now uses cookies instead of localStorage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Reduce the number of resources we enqueue for every HTTP request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Don't enqueue scripts or styles unless we require them"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: For performance reasons, we cache datamapper and SQL queries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Greatly reduced the # of sql queries, and eliminated anything redundant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: For performance reasons, we cache FS &amp; url lookups/calculations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed JSON API. Please use XML-RPC API instead"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added ngg_effect_code filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     NextGEN Gallery's functionality is disabled if NextGEN Pro is incompatible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Uses Pope 2.0, benefiting from the new caching capabilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     All lightboxes are configured using an in-memory management class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     All CSS stylesheets and Javascript source files are minified to reduce latency"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Module files are compiled into a single package file to reduce disk I/O"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed jQuery Lightbox and Highslide due to incompatible licensing with GPL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   $nggdb-&gt;get_gallery() returning a different result than before"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WPML/ATP compatibility issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Include more quotation symbols in our shortcode manager (foreign language shortcodes)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Bug preventing source='recent' from displaying images in the correct order"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Restored a method to nggAdmin to fix compatibility with NextGen Public Uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Invalid URL being enqueued if a custom lightbox is selected with no URL provided"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Zero-byte downloads in WooCommerce and WPE-Commerce"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility checks for very old versions of NextGEN Pro plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Use a more reliable means of excluding Pro/Plus modules from using minified static resources"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: AJAX actions for uploading images and importing folders now uses nonce checks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Sanitized C_Displayed_Gallery-&gt;_add_find_in_set_column() third parameter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Warning about getimagesize() failure when backing up an image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Warning about missing style.php file on Network Admin -&gt; Gallery page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Properly handle themes that don't call wp_footer() or wp_print_footer_scripts()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Use of C_Gallery_Mapper in C_Image_Wrapper"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   When importing galleries from folders, allow symlinks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Custom template images not being given their full effect code attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't minify Plupload's i18n JavaScript"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Allow gallery slug as parameter to nggdb::get_gallery()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Restored nggdb-&gt;get_random_images(), nggdb-&gt;search_for_file, and nggdb-&gt;find_all_albums()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Image mapper setting gid to gallery name, not the unique ID"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Conflicts created by our TinyMCE plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Seconds were not retained from CaptureTime EXIF field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Using the \"Import Metadata\" bulk action overwrites existing data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Custom CSS is enqueued late to ensure it's one of the last stylesheets loaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Imagebrowser pagination with custom templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Double-escaping of non-latin characters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   \"Add page\" button not displaying on the next immediate page load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Plugin compatibility with MultiVerso Advanced File Sharing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Imagebrowser as lightbox effect not working with pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Insert Gallery Window not working with nested levels of gzip compression"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Image filenames substituting spaces for + which is only proper in the query string"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Integrity check when updating from 1.9.x"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Various issues with the tag cloud display type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   \"Manage Galleries\" display image alttext in the filename column"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed;   Empty $_SERVER['PATHINFO'] causing multiple routing issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   WP option 'ngg_do_upgrade' updated in every HTTP request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that backup image functionality fails gracefully"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Compatibility fixes for WPML"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Uploading zips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Image date/time meta data fields are stored as UNIX timestamps"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Taxnomies now use internationalized strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed link to capsman plugin in Roles accordion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Product now adheres to Pope 0.12 and provides get_modules_to_load()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Default thumbnail dimensions set to 240x160"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     The ability to set template in widgets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Including Ukranian and Polish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added \"ngg_get_image_url\" filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added ngg_manage_images_items_per_page filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added 'ngg_basic_tagcloud_title' and 'ngg_basic_tagcloud_excluded_display_types' filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added 'ngg_get_image_size_params' filter to control image generation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added the ability to set post thumbnails via XML-RPC module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Robust transient management"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Ability to override builtin MVC templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Album breadcrumbs and pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that file_exists() calls are prefixed with @"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed Insert Gallery Window box shadow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   When a photo gallery is deleted, ensure that DB and filesystem are purged"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed default settings for imagerotator, which is no longer supported"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Replaced empty gallery rendering in is_feed() with a link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Adjusted album-compact template to always include p.ngg-album-gallery-image-counter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed unnecessary calls to parent::initialize()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Better WP-CPI detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Cache results of lookup_columns() to avoid multiple identical queries; thanks go to Alex Bradaric"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Fixed typo in nggallery.po"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed note about flash support and fixed typoe (thanks Rene Wolf)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Removed 'fixed' class from manage galleries table. Allows columns to adjust to content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Styled plupload buttons to resemble WordPress buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Updated custom jQuery-UI styling to resemble WordPress postbox styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't use resource manager in download requests for WP Photo Shelter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ability to set NextGEN Image as Featured Image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added filter 'ngg_manage_albums_items_order'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added filter 'ngg_add_page_shortcode' to control Manage Galleries &gt; 'Create new page' content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added filters 'ngg_load_frontend_logic' and 'ngg_get_modules_to_load'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added filter ngg_manage_images_items_per_page_array to control pagination options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Pagination available on Manage Images page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added filter <code>ngg_legacy_template_directories</code> for legacy template locator (thanks Ross McKay)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added filter 'ngg_datamapper_table_name'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Ability to import from Media Library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Permanently hide display types from ATP without an active POPE module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Setting post thumbnail more than once on a page/post"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Recovering images and photos was 'generating' from backup instead of copying"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   C_NextGen_Metadata-&gt;get_EXIF() was bugged with imagebrowser-exif template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Updated widgets to use PHP5 parent::__construct() over $this-&gt;WP_Widget()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: No longer cache displayed galleries as transients"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Made Add Gallery/Images notifications a link to the gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: \"Show Meta\" popup: parse date_format through date_i18n()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: \"Flush image cache\" now removes images and photos from the database w/o a gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Limit the ability to browse folders outside of NGG_IMPORT_ROOT"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     ngg_manage_galleries_items_orderby"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added ngg_manage_galleries_items_order filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW:     Added ngg_manage_galleries_items_per_page filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Escape output of parameters in templates to avoid XSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   get_gallery_abspath() should return NULL if the path doesn't exist"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Ensure that deleting a gallery doesn't delete anything it shouldn't"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed:   Don't use esc_attr_e() to prevent translation issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secured: Image uploads"
+msgstr ""

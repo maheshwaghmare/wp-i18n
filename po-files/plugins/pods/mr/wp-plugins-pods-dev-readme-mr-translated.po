@@ -1,0 +1,2430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-26T18:16:09+00:00\n"
+"PO-Revision-Date: 2016-04-13 07:16:43+0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Pods is a framework for creating, managing, and deploying customized content types and fields."
+msgstr ""
+
+#. Plugin name.
+msgid "Pods - Custom Content Types and Fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix compatibility issue with Polylang &amp; WPML when getting the current language from the edit post and edit tax pages. #5060 (JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: pods_shortcode_output filter to allow customization of shortcode output based on shortcode attributes, #5083 (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for Pods::fields() argument keyed which when set to true will return the array for relationship fields with the IDs used as keys, #5092 (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hotfix: Time field generates a fatal error on PHP prior to 5.5, #5079 (@davegaeddert)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Features/Enhancements/Improvements</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Non-internationalized string \"Add Another Custom Capability\". #5028 (@GaryJones, @pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Midnight (00:00) results as 'empty' in an [if][/if] Template Tag. #4999 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods Template Editor is adding two 'tabs' to the front of the template during Save. #5022 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: \"Export all\" button for ACTs does not work, #5005 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: 'others' capability checks for current_user_can pods_{$action}{$pod} vs pods{$action}others{$pod} capabilities, #5043 (@Ulminia, @sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code Quality: Use interpolation to construct all dynamic hook names, #4992 (@GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code Quality: WordPress.WhiteSpace.PrecisionAlignment compliance, #5026 (@GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code Quality: Disallow multiple assignments and assignment inside conditions, #5021 (@GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Records added modally via DFV's 'Add New' are not selected and don't refresh list view in 2.7.5, #5014 (@sc0ttkclark, @pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: SelectWoo fields would sometimes call <code>focus()</code> inappropriately #4725 (@GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Only flush rewrite rules in an admin context, #5006 (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Features/Enhancements</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: CodeMirror fields in Taxonomy and User edit forms #4913 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Non-required color-picker field did not allow saving empty value #4919 (@JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pick fields with predefined/custom lists using numeric keys not loading values #4892, #4753 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fatal error if not logged in and accessing wp-admin, #4828 (@therealgilles)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Media modal issues in post edits, #4945, #4967 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Resolve file uploads directory check logic for file exports #4970 (@elia-senatore-cippest, @sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Time field cannot save midnight #3488, #4937 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods breaks Theme Editor for PHP files, hangs loopback test #4595, #4931 (@jamesgol, @pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Code Editor for Pods Template double-escapes HTML when Visual Editor is OFF in WordPress, #3462 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Relationship fields related to the _pods_pod or _pods_field post type would not return the correct value, #4979 (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: HTML entities in a field's description are converted when the Pod is loaded again, #4495 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Autocomplete/List View broken with \"Other WP Objects\", #4504 (@pglewis, @sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Check for localized 'help' before adding tooltip #4614 (@davidatwhieltrue, @GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: CLI: Fix missing negation on valid &amp; exists checks #4989 (@GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: jQuery.fn.size() is deprecated #3898 (@GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Tooltip for the Hierarchical option for taxonomies, #4949 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code Quality: All @since and @deprecated tags updated to use three digits everywhere, #4995 (@GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code Quality: Address some i18n code standard violations, #4982 (@GaryJones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: 'before_content' and 'after_content' were ignored in widgets #4891 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: 'search' param for Pods shortcodes #4909 (@pglewis)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Bug Fixes</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Developer and deployment enhancements</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Array to string conversion notice in Pods form #4886 (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fatal exception attempting to parse Persian DateTime strings #4896 (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Slider controls not showing #4895 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods Widget output #4891 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: export-ignore list #4898 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: .editorconfig file <a href=\"http://editorconfig.org/\">http://editorconfig.org/</a> #4571 (@JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>New Features Added</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Bug Fixes &amp; Corrections</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Fixes for Unit Testing and Workflow</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: eslint rules and formatting for Javascript (DFV only) #4590 (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP Codesniffer Fixes #4569 (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: mockery 1.0 requires php &gt;=5.6.0; downgrade to 0.9 for now #4818 @pglewis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Skip npm install and js tests on the PHP 5.3/Precise box to fix #4788 (#4789) (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrected conflicts with container CSS/JS around Date/Time Fields (#4878) (@pglewis,@nicdford)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Allow user-meta (and other extended Pods) to work in templates (#4847) (@jamesgol)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Autotemplate hook validation to verify filter before applying Auto Templates (#4695) (@JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Disable the \"Add New\" button for relationships when we're inside a media modal window (#4864). This is just a workaround until we can iron out the CSS and display for a modal from a modal. (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Single-select Post Thumbnail does not display in Pods Template traversal. Allow traversing into post_thumbnail. (#4719) (@jamesgol)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Avoid printing null message in PodsUI #4796 (@davidatwhiletrue)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrects most relationship fields on media items when editing in grid mode. Select2 based fields still need a workaround (Autocomplete, List View). (#4795) (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Extend the condition for WPML validation exception to cover the Translation Editor so required fields don't break the Translation Editor in WPML. (#4802) (@dgwatkins)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: <code>%F</code> with PHP's <code>sprintf</code> function defaults to a precision of 6 decimal places, we now include the precision specifier whenever more than 6 decimal places of precision is needed. (#4741) (@0xLBF)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Quality of life visual updates and optimizations for the CLEditor (#4633) (@nicdford)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Checkbox misalignment on custom settings pages (#4711) (@JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Bug with decimal handler when converting to dash (-) #4829 (@JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update all storage type tooltips. Many were still referencing old Custom Taxonomy Table Storage requirements that were no longer required after Term Meta support. Fixes #4835 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods DFV fields no longer depend upon the specific instance of jQuery shipped with WordPress (#4680). (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Prefix all form styles with <code>form.pods-manage</code>. Namespace prefix all pods-manage styles to avoid CSS conflicts with Gravity forms (#4615,#4612) (@JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: appropriate CSS namespace prefixes to avoid style conflicts #4632 (#4612) (@nicdford)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where fields with particularly long post titles would extend past the width of the container #4831( Fixes #4700) (@nicdford)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Tooltip corrections: Update Pods Add New screen for extended taxonomies as Table Storage is not required since Term Meta was added by WordPress. #4609 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Isolates qtip styles and functionality to pods only which should hopefully resolve any issues with conflicting with other plugins/themes that may use the tooltip functionality [#4834] Fixes #4832 where tooltips were not displaying (@nicdford)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Tooltips were not working in the Pods Templates or Roles and Capabilities components #4851 (Fixes #4850) (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Simplify how we inject the PHP string into the JS #4787 Fixes #4786 which was creating syntax error in JS for number fields (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Text field readonly no longer defaults to <code>true</code> #4794 Fixes #4791 (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Missing thickbox styles for <code>PodsUI::filters()</code> #4797 Fixes #4693 which was preventing Advanced Content Type Filters Popup from Loading (@pglewis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Currency formats with spacing between currency sign and value #4838 (@JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Currency field enhancement: Add a currency sign before the field input. #4714 (@JoryHogeveen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter HTML class for li.pods-field form element to allow for more styling options. #4813 (@paddelboot)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WP-CLI commands for Pods, more details at <a href=\"https://docs.pods.io/advanced-topics/pods-wp-cli/\">https://docs.pods.io/advanced-topics/pods-wp-cli/</a> (@sc0ttkclark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Roll-back minimum version requirement for MySQL from 5.5 to 5.1 #4634 @sc0ttkclark"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix dashicons style conflicts with Pods Form #4626 @nicdford"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Pods Form submit errors and 404s #4618 @pglewis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix table join logic for taxonomies when renaming meta fields #4613 @sc0ttkclark"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Known Issues with this Release:</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Behind the Scenes Fixes and Improvements:</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Significant Improvements and Fixes:</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Major Changes in 2.7 Release: Flexible Relationships:</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>New PHP &amp; WP Minimum Version Requirements:</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Relationships to Taxonomy have Flexible Relationships disabled as the input screen for Taxonomy was not able to be accessed in an iFrame. We’re working on this for a future release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SelectWoo migration from Select2 to address version incompatibilities #4546 @pglewis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pods Templates added for Polylang Translation Compatibility @JoryHogeveen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Built with Node @pglewis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactor CSS @nicdford"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "table storage list fields #4420 @jamesgol"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "pods_ui_get_params hook #3785 @telwing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "js unit tests #3640, #4049 @pglewis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for Advanced Content Types and Relationships in <code>[each][/each]</code> tags correcting for lowercase id. #4585 @0xLBF"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter Added for Select2 Overrides #4571 @sc0ttkclark"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Compatibility with Admin Columns 3.0+ #4570 @JoryHogeveen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Comment Traversal #4118 @sc0ttkclark"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Major fixes for Pods Templates: Proper handling of shortcodes within Pods Templates and in if/each blocks. Proper handling of all image tags and user traversal @jamesgol"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "IsEmpty for all Date/Time Fields, Number, Currency, etc. improvements for <code>[if field][/if]</code> for Templates @JoryHogeveen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gallery &amp; Tile View for Upload/Media Fields #3589 @JoryHogeveen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancements for Date, Time &amp; Date/Time Fields to improve class inheritance, use WP Defaults and allow for custom options for saving and display @JoryHOgeveen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dynamic Field Views: The relationship fields and file upload fields have been rewritten to take advantage of \"Dynamic Field Views\", driven by JavaScript. More technical details about the directions we went towards these field changes can be read about in our <a href=\"https://pods.io/2017/12/05/pods-2-7-developer-notes/\">\"Pods 2.7: What We Did and Why We Did It\"</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add New with Flexible Relationships: The new flexible relationships will automatically enable Add New on all your existing relationships, but you can disable this from the Additional Options tab for each relationship field. You can switch field formats to the new List View from additional options tab as well."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Relationship Field Format \"List View\": The power of the new flexible relationships is our new modal window that opens within the existing record for relationship fields. This is modeled after the Media Modal from WordPress and provides full functionality to Add New related records or edit existing records all from within the parent record of the relationship. This is provided through our new List View field format for relationship fields. To see a demo of this field in action <a href=\"https://youtu.be/V8c067GAEcA\">head on over to our YouTube</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP Version Change Required 4.5+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP Version Change Requirement 5.3+"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.wpbeaverbuilder.com/\">Beaver Builder</a> and <a href=\"https://www.wpbeaverbuilder.com/beaver-themer/\">Beaver Themer</a> Using the <a href=\"https://wordpress.org/plugins/pods-beaver-builder-themer-add-on/\">Pods Beaver Themer Add-On</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Removed CodeClimate Integration (#4275) and updated glob 7.1 (#4242). [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Minor Spelling fixes related to i18n. (#4276) [@garrett-eclipse]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrected 2.x branch for GitHub Feed. Fixes (#4305). (#4306). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Pods Templates &amp; Page Capabilities have been added to the Members Cap Filter and Pods Role Manager from Components, Roles &amp; Capabilities. This corrects an issue where Pods Templates and Pods Pages were not available to Admins, only Network Admins. Admins will still need to have the pods_templates_ and pods_pages_ capabilities added to their role, but now they'll be able to do this without additional code. Fixes (#4311). (#4342). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Multi-file fields save was causing array to string conversion warning. New function &amp; helper added called <code>array_filter_walker</code> for backwards compatibility. Also fixes the 'editable' titles in Multiple File Upload. Fixes (#4112,#4313). (#4314). [@mgratch,@JoryHogeveen,@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods Templates were creating erroneous output with nested <code>[if _fieldname_][else][/if]</code> and <code>[each _fieldname_][/each]</code> template tags inside HTML entities after 2.6.9 upgrade. This fix bypasses <code>do_shortcode</code> and also bypasses <code>do_shortcodes_in_html_tags</code> which was the problem with this particular fix. Fixes (#4324,#4307,#4307). (#4335). [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stay tuned for Pods 2.7 which will be out soon -- <a href=\"https://github.com/pods-framework/pods/archive/release/2.7.zip\">Download Pods 2.7 RC1</a> and join our <a href=\"https://pods.io/chat/\">Pods Slack channel #pods-beta</a> to help us finish the final testing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: WordPress 4.8.2 introduced a breaking change that no longer correctly prepared number/currency queries. It did not introduce a vulnerability but only produced Database errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Brand assets for Pods (icons and banners) for WordPress Plugin Directory. Fixes (#3948). (#4268) [@jimtrue]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Spelling error in UI. Fixes (#4266). (#4267). [@danmaby]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Editable Titles in Multiple File Upload fields are 'editable' again (broke in 2.6.8) without breaking bidirectional relationship saving. Fixes (#4112) and resolves (#3477,#3720). (#4264). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Composer: composer installers v1.2 to v1.3. (#4239) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Allow float values for menu positions and the option to remove trailing decimals from number field. Fixes issue where Pods Converted menu positions with decimals to INT on save. Fixes (#2839). (#4192). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Invalid AJAX error with frontend forms and Settings Pods; $id will always return for AJAX requests. Fixes (#4181). (#4184). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Missing images in unit test (#4177). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Conflict with The Event Calendar issue with Handlebars (as we're using an older implementation). Temporary hack until 2.7 with the correct fix. (#4173). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Adding back_link to wp_die() usage which allows Modal Add/Edit to give you a way to go back in the edit screen. Fixes (#4168). (#4169). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Handling of Single &amp; Double Quotes in post_thumbnail interpolation. Fixes (#4166). (#4167). [@quasel]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Audio attachments will now work properly with pods_attachment_import. (#4155) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: When using shortcodes/magic tags with PDF attachments, ._src returns an image since WP 4.7. This will now output the URL of the file. You can still get PDF generated images using ._src.image_size or ._img. Fixes (#4040). (#4111). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrected Pods overriding preview link for post updated messages. Fixes (#4092). (#4093). [@tuanmh]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Help Text for HTML fields wpautop reference. Fixes (#4090,#4091). (#4089). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Use register_taxonomy_for_object_type for post types that support post formats. Was not originally being registered for Pods CPT. Fixes (#2165). (#4076,#4084). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Hidden field did not save Default Values on fields with both Visibility hidden and a Default Value set. Fixes (#3996). (#4061). [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: duplicate_pod_item now works for WP objects. Fixes (#3238,#4025). (#4070). [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Additional CSS Classes were not saved (#4003) so new Duplicating Pod now gives preference to existing field options values on duplication (#4028). [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Ensure call to pods_view returns shortcode generated content, instead of echo'ing. Fixes (#3433). (#4010) [@dom111]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Search the proper SQL column with \"search\" and meta based CPT. Fixes (#3858). (#4007). [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: post_author querying now works through traversal of related post type. Fixes (#3931). (#3953,#4065). [@sc0ttkclark,@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Template Reference in Template Editor now properly displays without running out of memory. Fixes (#3370,#3992). (#4088,#4000). [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Allow raw value in PodsUI rows. New type \"raw\" that can output HTML form elements; used in i18n component. Fixes (#3959). (#3960). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Auto Template Fix: Add configurations setting to override and allow Auto Templates to run against the_content outside of the WordPress_Loop. By default now, it will only run inside the WP Loop. (#4088). [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Pods Template Component is now automatically active on initial installation or reinstallation of Pods. Fixes (#3446). (#4060,#4180). [@pglewis,@sc0ttkclark]"
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We also have a dedicated <a href=\"https://pods.io/chat/\">Slack Chat</a> channel to help our translators get started and to support them on the process."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Join us in further translating the Pods interface at: <a href=\"https://translate.wordpress.org/projects/wp-plugins/pods\">https://translate.wordpress.org/projects/wp-plugins/pods</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Let Pods help you grow your development skills and manage content beyond the standard WordPress Posts &amp; Pages. Check out <a href=\"https://pods.io/\">pods.io</a> for our User Guide, <a href=\"https://pods.io/forums/\">Support Forum</a>, and our <a href=\"https://pods.io/chat/\">Slack Chat</a> to help you develop with Pods."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Manage all your custom content needs in ONE location with the Pods Framework. You can:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create connections between any of your content to help organize it in logical and useful ways with relationship fields."
+msgstr ""
+
+#. Found in description list item.
+msgid "Easily display your custom content, whether you want to use shortcodes, widgets, the code-free Pods Template approach, or use standard PHP in WordPress Theme templates and functions."
+msgstr ""
+
+#. Found in description list item.
+msgid "Create and edit custom post types, taxonomy, fields and extend existing WordPress objects like users, media, posts and pages or extend other plugins' custom post types -- all from Pods."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We don't provide any special CSS or display attributes with your custom content so as long as your theme works with WordPress standard functions and the <a href=\"https://wphierarchy.com\">WordPress Template Hierarchy</a>, you should be fine. You may need to create special PHP WordPress Theme Templates for your content, or you can use our Pods Templates and the Auto Template option to display your 'template' containing your custom content where your theme normally outputs <code>the_content</code> filter."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We do have a community of Pods users and developers that hang out on Slack so you're sure to get an answer quickly. We answer our Forum questions once a week with follow-up during the week as we're prioritizing resources towards restructuring and improving our documentation."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Our primary Support is handled through our Support Forums at <a href=\"https://pods.io/forums/\">https://pods.io/forums/</a>. For the fastest support, you can contact us on our Slack Chat at <a href=\"https://pods.io/chat/\">https://pods.io/chat/</a> in the #support channel. We do not staff our Slack channel 24 hours, but we do check any questions that come through daily and reply to any unanswered questions."
+msgstr ""
+
+#. Found in faq header.
+msgid "Will Pods work with my Theme?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I've found a Bug or I have a Feature Request"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you’ve uncovered a Bug or have a Feature Request, we kindly request you to create an Issue on our GitHub Repository at <a href=\"https://github.com/pods-framework/pods/issues/new\">https://github.com/pods-framework/pods/issues/new</a>. Please be very specific about what steps you did to create the issue you’re having and include any screenshots or other configuration parameters to help us recreate or isolate the issue."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where do we go for Support on your plugin?"
+msgstr ""
+
+#. Found in description list item.
+msgid ""
+"Themes we've integrated with\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"http://www.ithemes.com/\">Builder</a> (iThemes)"
+msgstr ""
+
+#. Found in description list item.
+msgid ""
+"Plugins we've integrated with\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"http://wordpress.org/plugins/tabify-edit-screen/\">Tabify Edit Screen</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Many thanks go out to the fine folks who have helped us translate Pods into other languages other than English!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://github.com/pods-framework/pods/graphs/contributors\">github.com/pods-framework/pods/graphs/contributors</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Pods really wouldn't be where it is without all of the contributions both financially and through code / time. Check out our GitHub for a list of contributors, or search our GitHub issues to see everyone involved in adding features, fixing bugs, or reporting issues/testing."
+msgstr ""
+
+#. Found in description header.
+msgid "Translations"
+msgstr "अनुवाद"
+
+#. Found in description header.
+msgid "Contributors"
+msgstr "योगदानकर्ते"
+
+#. Found in installation paragraph, faq paragraph.
+msgid "OR you can just install it with WordPress by going to Plugins &gt;&gt; Add New &gt;&gt; and type this plugin's name"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Activate this plugin"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Navigate to <code>wp-admin/plugins.php</code> on your site (your WP Admin plugin page)"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Upload to your site"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Unpack the entire contents of this plugin zip file into your <code>wp-content/plugins/</code> folder locally"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We also do our best to integrate and play nicely with other projects:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Using another solution? We've built additional components to help you transition:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can enable some of our included components to extend your WordPress site even further:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Utilize Pods UI (included in Pods 1.10+) to build your own Custom Management panels for your Pods."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Additionally, we have a United Theming API that lets you theme your content types across every type of Pod, regardless if it's a post type or taxonomy or user, or.. you get the picture."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There are several ways to get Pods data to show up throughout your site, but with any WP object type you create or extend with Pods, you can use all of the functions and methods you're already used to with the core WordPress API / Loop -- out of the box!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "And many other relationships are also available including:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Each of these field type have their own set of options, if those aren't enough they are also easily extended:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We have a lot of common field types available for you to use, or you can build your own with our extensible field type classes."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Not satisfied? How about the power of being able to extend existing content types? We've got you covered with extending these major WordPress objects:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With Pods, you can create entirely new content types:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We now give you the power you've never before had with a single plugin because we've re-imagined how to manage content types from the ground up."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Create any type of content that you want -- small or large -- we've got you covered. Every content type created with Pods gets all the love it needs to grow up big and strong. You'll get an easy to use interface that lets you manage custom fields and how your content type will function."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube http://www.youtube.com/watch?v=bYEE2i3nPOM]"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.studiopress.com/\">Genesis</a> (StudioPress)"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://calderaforms.com\">Caldera Forms</a> Using the <a href=\"https://github.com/pods-framework/pods-caldera-forms\">Pods Caldera Forms Add-on</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.gravityforms.com/\">Gravity Forms</a> Using the <a href=\"https://wordpress.org/plugins/pods-gravity-forms/\">Pods Gravity Forms Add-on</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://upstatement.com/timber/\">Timber</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://conductorplugin.com/\">Conductor</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://wpml.org/\">WPML</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://wordpress.org/plugins/yet-another-related-posts-plugin/\">YARPP</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://wordpress.org/plugins/polylang/\">Polylang</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://wordpress.org/plugins/codepress-admin-columns/\">Codepress Admin Columns</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "More imports coming soon including Importing from Custom Field Suite, Advanced Custom Fields, and Custom Tables"
+msgstr ""
+
+#. Found in description list item.
+msgid "Import from Custom Post Type UI"
+msgstr ""
+
+#. Found in description list item.
+msgid "Builder theme integration - Use our tightly integrated modules for Builder in your layouts"
+msgstr ""
+
+#. Found in description list item.
+msgid "Markdown Syntax - Parses Markdown Syntax for Paragraph Text / WYSIWYG fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Advanced Relationships - Add advanced relationship objects for relating to including Database Tables, Multisite Networks, Multisite Sites, Themes, Page Templates, Sidebars, Post Type Objects, and Taxonomy Objects"
+msgstr ""
+
+#. Found in description list item.
+msgid "Table Storage - Enable table-based storage for custom fields on Post Types, Media, Users, and Comments. Also adds the ability to add custom fields to Taxonomies"
+msgstr ""
+
+#. Found in description list item.
+msgid "Advanced Content Types - These types of content were built into Pods prior to 2.3, but are now optionally enabled"
+msgstr ""
+
+#. Found in description list item.
+msgid "Helpers - Customize how Pods works right from the admin area with simple to advanced reusable code snippets"
+msgstr ""
+
+#. Found in description list item.
+msgid "Templates - Use our template engine to create templates that can be handed off to clients for carefree management"
+msgstr ""
+
+#. Found in description list item.
+msgid "Pages - Create custom pages that function off of your site's path, with wildcard support, and choose the Page Template to use"
+msgstr ""
+
+#. Found in description list item.
+msgid "Roles and Capabilities - Create or edit Roles for your site, and customize their corresponding capabilities"
+msgstr ""
+
+#. Found in description list item.
+msgid "Months of Year (predefined)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Days of Week (predefined)"
+msgstr ""
+
+#. Found in description list item.
+msgid "US States (predefined)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Countries (predefined)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Sidebars"
+msgstr ""
+
+#. Found in description list item.
+msgid "Post Status"
+msgstr ""
+
+#. Found in description list item.
+msgid "Post Formats"
+msgstr "पोस्ट स्वरूप"
+
+#. Found in description list item.
+msgid "Navigation Menus"
+msgstr "नॅव्हिगेशन मेनूज"
+
+#. Found in description list item.
+msgid "Image Sizes"
+msgstr "प्रतिमा आकार"
+
+#. Found in description list item.
+msgid "Comments"
+msgstr "टिप्पण्या"
+
+#. Found in description list item.
+msgid "Media"
+msgstr "मीडिया"
+
+#. Found in description list item.
+msgid "User Capabilities"
+msgstr ""
+
+#. Found in description list item.
+msgid "User Roles"
+msgstr "वापरकर्ता भूमिका"
+
+#. Found in description list item.
+msgid "Users"
+msgstr "युझर्स"
+
+#. Found in description list item.
+msgid "Taxonomies"
+msgstr ""
+
+#. Found in description list item.
+msgid "Post Types"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom defined list"
+msgstr ""
+
+#. Found in description list item.
+msgid "Relationships - Relate any item, to any item of any WP object type, another Pod, or a custom user-defined list -- with bidirectional relationships"
+msgstr ""
+
+#. Found in description list item.
+msgid "Avatars - Upload new media or select from existing ones, automatically integrates with get_avatar calls for Users extended by Pods"
+msgstr ""
+
+#. Found in description list item.
+msgid "File / Image / Video - Upload new media or select from existing ones with our Media Library integration, or use a simple uploader, your choice"
+msgstr ""
+
+#. Found in description list item.
+msgid "Yes / No - You can't really go wrong with a checkbox, but we've added a few charms to make it stand out"
+msgstr ""
+
+#. Found in description list item.
+msgid "Color Picker - Choose colors, because colors are great"
+msgstr ""
+
+#. Found in description list item.
+msgid "Paragraph Text - Plain Paragraph, WYSIWYG (TinyMCE or CLEditor, or add your own), or Code (Syntax Highlighting)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Text - Plain Text, Website, Phone, E-mail, or Password"
+msgstr ""
+
+#. Found in description list item.
+msgid "Number - Plain Number or Currency"
+msgstr ""
+
+#. Found in description list item.
+msgid "Date / Time - Date, Time, or both"
+msgstr ""
+
+#. Found in description list item.
+msgid "Comments - Create and manage fields for your visitor comments, easily add fields to fit the way you use comments as reviews and more"
+msgstr ""
+
+#. Found in description list item.
+msgid "Users - Create and manage fields for your user profiles, this is truly the bees knees!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Media - Create and manage fields for your media uploads, easily add additional information and context to any file you want"
+msgstr ""
+
+#. Found in description list item.
+msgid "Taxonomies - Create and manage fields for any existing Taxonomies (Categories, Tags, etc), even those created by plugins or themes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Post Types - Create and manage fields for any existing Post Type (Posts, Pages, etc), even those created by plugins or themes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Advanced Content Types - These are entirely separate from WordPress and function off their own database tables"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Settings Pages - Create custom admin forms under Settings to help organize your site's custom global settings"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Taxonomies - Content types that look and function like Categories and Tags, but in their own separate areas"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Post Types - Content types that look and function like Posts and Pages, but in their own separate areas"
+msgstr ""
+
+#. Found in description header.
+msgid "Plays well with others"
+msgstr ""
+
+#. Found in description header.
+msgid "Migrate to Pods, find out what you've been missing"
+msgstr ""
+
+#. Found in description header.
+msgid "Optional Components to do even more"
+msgstr ""
+
+#. Found in description header.
+msgid "Customized Management Panels"
+msgstr ""
+
+#. Found in description header.
+msgid "Easily display your content"
+msgstr ""
+
+#. Found in description header.
+msgid "Relationships to rule the world with"
+msgstr ""
+
+#. Found in description header.
+msgid "Use our field types, or make your own"
+msgstr ""
+
+#. Found in description header.
+msgid "Extend existing content types"
+msgstr ""
+
+#. Found in description header.
+msgid "Create new content types"
+msgstr ""
+
+#. Found in description header.
+msgid "Content types that evolve with your needs"
+msgstr ""
+
+#. Found in description header.
+msgid "Introduction"
+msgstr ""
+
+#. Screenshot description.
+msgid "Create Advanced Content Types that exist only as you define them, outside of the normal WP object structure"
+msgstr ""
+
+#. Screenshot description.
+msgid "Media pods will add fields to the Media forms"
+msgstr ""
+
+#. Screenshot description.
+msgid "Comment pods will add fields to the Comment forms"
+msgstr ""
+
+#. Screenshot description.
+msgid "User pods will add fields to the User forms"
+msgstr ""
+
+#. Screenshot description.
+msgid "Taxonomy pods will add fields to the Taxonomy forms"
+msgstr ""
+
+#. Screenshot description.
+msgid "Post Type pods will add fields to the Post editor"
+msgstr ""
+
+#. Screenshot description.
+msgid "Add fields of many different types, with individual options for each so you can define your content type to be what you need it to be"
+msgstr ""
+
+#. Screenshot description.
+msgid "Create new content types or extend existing ones"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Our GitHub has the full list of all prior releases of Pods: https://github.com/pods-framework/pods/releases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Allow the entry of negative numbers in Currency fields. Fixes (#3708). (#3709). [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Properly update bidirectional taggable relations. Corrects the issue where bidirectional relationships were creating new entries from the taggable choice in AutoComplete fields, but not saving the relationship. Fixes (#3477). (#3720). [@caleb]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Validate field option dependencies based on location within tabs. Corrects and issue with compatibility between Pods SEO. Fixes (#3707). (#3723). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Updated URL for translation contributions. Fixes (#3725). (#3726). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removed max-length for default field value for Text &amp; WYSIWYG fields. Fixes (#3729). (#3730). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix plupload file field listings, specifically fixing some issues in the CSS and jQuery. Fixes (#3731). (#3732). [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix SQL for multilingual taxonomies for compatibility with PolyLang. Fixes (#3728). (#3754). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Basic included post types from WP-API are no longer having their REST base overridden by Pods. Fixes (#3759). (#3760). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: jQuery fix to change from deprecated .live() to .on(). Fixes (#3771). (#3772). [@mikeschinkel]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Clear <code>$related_item_cache</code> when saving a relationship. Fixes an issue where the $PodsAPI::save_relationships was not clearing the cache. Fixes (#3775). (#3776). [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Correcting a bug in adding Taxonomy REST support. Fixes (#3777). (#3778). [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Use taxonomy capabilities in custom locations for taxonomy edit pages. Fixes an issue where Taxonomies assigned as Top Level Menu Items are not usable by Editors (only by Administrators). Fixes (#3569). (#3780). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix error exporting taxonomy relationship over REST API. Fixes (#3606). (#3794). [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: When preloading config after flushing cache, bypass cache. solves the issue when running multisite and you’ve got an object cache drop-in that won’t flush cache for multisite when wp_cache_flush is called. (#3806). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update postmeta cache before get_post_meta calls when bypassing cache, ensuring the meta is \"fresh\". (#3807). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP7 Compatibility issues, a few deprecated constructors and deprecated mysql_ with the use of $wpdb. Fixes (#3828). (#3830). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Set Start of Week Day from General Settings; fixes issue where Calendar of datetime field in admin UI didn't follow the first day of week settings from Setting, General. Fixes (#3826). (#3831). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Improve CSS for Code Field (CodeMirror). Fixes (#3818). (#3832). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: CSS fixes (remove old images + linter), fixing issues with gradient button not in WP Core. Fixes (#3812). (#3833). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update the attachment parent if updating a post type. Only updates if the parent isn't set but allows file fields/upload fields to now properly show parent post. Fixes (#3808). (#3834). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix error with PODS_LIGHT and components. Fixes (#2301,#3811,#2293). (#3837). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Store the old field name in meta. Pods already stored the old 'pod' name, but didn't do the same for fields after updating. Added for (#3841). (#3842). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Make field type labels translatable. Fixes (#3849). (#3850). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Unchecking Show in Menu in the Admin UI selection for Custom Taxonomies will now properly not show the Taxonomy. <code>show_in_menu</code> option for for Taxonomies. Fixes (#3848). (#3852). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Make sure self::$field_data is set in all cases. Corrects issue where relationship to predefined list was not working in AutoComplete/Select2 fields.  Fixes (#3862). (#3863). [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: opcache names and add OPcache. Fixes (#3864). (#3875). [@szepeviktor]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrected non-printable character added after $api-&gt;cache_flush_pods() to settings-tools.php. Fixes (#3876). [@szepeviktor]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pass audio_args to the Audio Shortcode, src wasn't being passed when multiple audio files were on the same page using the same shortcode. Fixes (#3891). [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removing a Bad Init Call generated by a fix to correct plupload file field listings. Fixes (#3900,#3731). (#3901). [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Multiple Travis and Unit Test fixes and build functions. (#3942,#3913,#3911,#3907,#3903,#3888,#3887,#3886,#3885,#3883,#3882,#3881,#3880,#3869,#3868,#3819,#3770,#3750,#3745,#3743) [@Ramoonus,@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: get_meta() $single usage to ensure it's always a boolean. Fixes (#3742). (#3921). [@sc0ttkclark,@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Proper reset of the local var cache in Pods::$row when using add_to/remove_from/save. Fixes (#3784). (#3923). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Compatibility additions for WP 4.7, Taxonomy Class (#3895,#3894)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Add <code>pods_ui_get_find_params</code> filter for PodsUI to extend default <code>find()</code>. Fixes (#3925). (#3926). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update save_post / save_user handling with better fallbacks when nonce not active. Fixes an issue where the $is_new_item was not set as expected on post saves and user saves. Fixes (#3801,#3918). (#3936). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Revamp pods_error to handle multiple modes, PodsMeta now returns false instead of die/exception. Fixes (#3930). (#3937). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Properly clear cache before running post-save actions in PodsAPI::save_pod_item. Prevents double saves being necessary to use the <code>pods_api_post_save_pod_item</code> filters to update WordPress Object fields. Fixes (#3917). (#3938). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Undefined Index Notice in (#3936). (#3941). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Double qtip/tooltip when using single checkboxes (boolean type). Fixes (#3940). (#3943) [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Additional save_user/save_post handling problems corrected and addition of Unit Tests. Fixes (#3918,#3801). (#3945). [sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Number/Currency format validation error with French formatting. Fixes (#3842). (#3950). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Enhance Currency Field storage. Fixes Adds new format as arrays for multiple values (label, name, sign) and decimal handling options. Fixes(#1915,#3453). (#3949). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New singular capabilities for Taxonomies for Compatibility with WP 4.7. Fixes (#3896). (#3946). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Keep Plupload instances in <code>windows.pods_uploader[id]</code>. This makes it possible to bind event listeners to the file uploader. Fixes (#3763). (#3768). [@thirdender]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add action after successful AJAX in admin_ajax. This allows other scripts to hook in the ajax handlers from Pods. Fixes (#3839). (#3840). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: WP Gallery display options for image fields. Fixes (#3905). (#3910). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: travis-ci: test with PHP 7.1 (#3702). [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods field() now properly handles user and media when the output type is pod/pods. Original issue resulted in <code>$object</code> being empty as <code>user</code> and <code>media</code> do not have a <code>pick_val</code> (#3694). Fixes (#3693). [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: WPML Compatibility (#3691). Related to (#142). [@srdjan-jcc]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Allow field options to be filtered (UI). Also allows for il8n module to improve translation handling. (#3683). Fixes (#3682). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Taxonomy capabilities + No more hardcoded tax settings (#3678). Fixes (#3676,#3677). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Check for PodsInit in general.php (#3665). Fixes (#3473,#2803,#3353). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Improved field alignment on setting pages (#3649). Fixes (#3648). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Added PODS_DIR to directories that are checked by field_loader() (#3644). Fixes (#3643). [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Refactor object type checking in PodsRESTHandlers::get_handler (#3630). Fixes (#3629). [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Allow post_status filter to be set for related post_type objects in the edit field UI (#3626). Fixes (#3594). [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Do not display metagroup if all fields are set to hidden. Fixes (#1614). (#3615) [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: WYSIWYG editor type option is used as dependency by the editor options. Fixes (#3549). (#3610) [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with pll_get_post returning false instead of null. Fixes (#3596). (#3599) [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods Wizard for Forms now properly uses the <code>[podsform]</code> shortcode. Fixes (#3251). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Magic Tag {@permalink} fixes for taxonomy / user / comment detail URL Mapping. Fixes (#3339). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PodsRESTHandlers::write_handler needs to be static (#3511). Fixes (#3510) [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Use html_entity_decode to convert separator as it is an html entity. (#3536) Fixes (#3527) [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removed extra setting showing up in Auto Templates settings for Taxonomies (#3543). Fixes (#3541) [@Shelob9]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Don't add space to currency names that use HTML encoding (#3553). Fixes British pound currency symbols and others. Resolves (#3498) [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pass $strict = false to load_pod (#3554). This will keep the \"Pod not found\" message from being displayed during register of other post types. Related to (#3416) [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Allow midnight (00:00) as valid time (#3555). If \"Allow empty value\" is unchecked and a value is not passed it will default to the current time, but it will still accept 00:00:00 as a valid value. Related to (#3488) [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Exclude Unique Post fields from duplication during <code>$pods-&gt;save</code>. (#3564). Includes <code>ID</code>, <code>post_name</code>, <code>post_date</code>, <code>post_date_gmt</code>, <code>post_modified</code>, <code>post_modified_gmt</code> and <code>guid</code>. Fixes (#3563) [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: REST API cleanup for pick field handling. (#3560) Fixes (#3559) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter the Pods Metas to Display (#3544). Fixes (#3520). [@coding-panda]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add user, media and comment support to REST API (#3516). Related to (#3418,#3419) [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Use form_counter in field name to be unique and prevent conflicts. (#3535) Fixes (#3533) [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add filter to PodsMeta-&gt;groups_get() allowing adjusting the groups via filter (#3548). Related to (#3547) [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Create new 'post_id' method for pods_v (#3537). Provides a method to allow i18n plugins to return a different post id. Related to (#3542,#3526) [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Polylang support to pods_v post_id (#3562). Allows Pods templates that are translated to be properly selected. Fixes (#3561,#3537) [@jamesgol]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Allow changing the Auto Templates Filter. This adds a new section in the Auto Templates tab that allows overriding the default <code>the_content</code> filter (#3542). Fixes (#3540) [@Shelob9]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: REST API v2 Compatibility (#3584). Switches <code>register_api_field</code> to <code>register_rest_field</code>. Fixes (#3581) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Polylang compatibility with latest versions along with fixes to longstanding issues with editing and displaying content, relationships, and taxonomy (#3574). Fixes (#3572, #3506) [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Typo in PLL Compatibility check corrected. (#3504) Fixes (#3503). Thank you @JoryHogeveen and @fmommeja for tracking down, fixing and validating this fix. [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Additional Field Options tab disappears from field admin view. Fixes (#3501). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Support for new Polylang Versions with much kudos to @JoryHogeveen for tackling this (#3491). Fixes (#3490,#3223) [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Renaming of Pods with underscores to hyphenated names that was introduced in 2.6.3. Hyphenated Pods names will remain hyphenated and Underscored Pods names will remain underscored. Fixes (#3499). [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Modified Run activation/install priority to fire before plugins loaded. Fix for the Clearing Pods Cache automatically after Pods Upgrade (#3487). Fixes (#2558,#3348) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: An Git / SVN deploy bug caused some files to not be properly pushed to WordPress.org SVN, this release is just to ensure everyone who may have updated to 2.6.3 during the period which we were fixing it will be able to still get the proper file updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Clearing Pods Cache automatically after Pods Upgrade \"Salt n'Pepa\"'ing the cache keys (#3401). Fixes (#2558,#3348) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix forcing underscores when loading Edit Pod Form (#3483). Fixes (#3095) [@sc0ttkclark] Kudos to @lkraav for helping us pin this particular issue down and bring it to resolution."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Currency/Number Validation used to correct issue with Currency Usage in the Pods Gravity Forms plugin (#3436) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Correcting CSS used for Dashicon to remove conflict with icon usage in Divi. (#3404,#3406) [@jimtrue]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for object fields when using Pods::field() with a specific $field and $option. This was also used to correct a problem with \"fetching\" Custom Taxonomy's Term List when using Pods Feeds in Pods Gravity Forms Plugin. (#3437) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Taxonomy custom meta fields returning false from REST API (#3365,#3369) [@anandamd]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Replace usage of get_currentuserinfo with wp_get_current_user (preparation for WP 4.5) (#3399,#3398) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Refresh #3388 with 2.x (#3388,#3389) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Over-escaping strikes again (file upload, restrict file types with more than one mime type) (#3083,#3328) [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Do not use Hashtag as name (#3316) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Remove dockunit leftovers (#3307) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Disable xdebug on Travis (#3284,#3283) [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Typo's Rest into REST (#3303) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update Version number on 2.x (#3282,#3281) [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrected Dashicons Link in the Menu Options panel of Edit Pods (#3287,#3271) [@benbrandt]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Non-Zero Array Keys here in PHP7 cause odd behaviour so just strip the keys (#3294,#3299) [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Change Markup to Support CSS in WP 4.4 (Thanks to @nicdford we missed mentioning in 2.6 Change log) (#3277,#3270,#3279)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update Select2 to v3.2.0, should resolve #3344 (#3377,#344) [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: 'type' not 'object_type' (#3378,#3351) [@pglewis]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add option to website fields to open links in new window (#3388,#3387) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add use_current option for Widget Single (#3393,#3394) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Additional Label support for Post Type / Taxonomy register functions (#3275) [@pcfreak30]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Composer remove coveralls. Was not being used and needs phpunit support. Could also be replaced by php codesniffer or scrutinizer. (#3174) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Dump composer in Scrutinizer (#3204,#3167) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Readme removed code coverage badge (#3220) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Double exclude path in scrutinizer (#3228) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Added Dockunit Badge (#3145) [@tlovett1]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Added option to deselect Auto Template for Archive views. There needed an 'empty' selection to correct issue where Template error wouldn't go away. (#3148,#3146,#3142,#3247) [@Sgillessen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Related_act.permalink calls to fix permalink/slug traversal in ACTs and related taxonomies (#3156,#3155,#2779) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Remove limit of 5 in get_template_titles Auto Template (#3157,#3160) [@jimtrue]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Revert scrutinizer less is more (#3172,#3170) [@sc0ttkclark,@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Add pods_auto_template_name filter, by context to change auto template (#3199,#3200,#3198) [@Shelob9]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Merged #3205 to fix install-wp-tests.sh (#3211,#3205) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Scheduled post preview message/URL. When a post was scheduled, the status message displayed at the top of the edit post page was malformed where the string placeholders were numbered. (#3234) [@sparkdevelopment]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Improve Contributing guidelines correcting wrong pull location and fixing correct release branch. (#3149,#3147) [@quasel]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Dockunit - replace PHP 7 rc1 with rc4 (#3201) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Grunt ignore dockunit.json (#3150) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Travis cache composer (#3151) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Travis include WordPress 4.3 in test matrix (#3152) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Travis allow PHP7 to fail (#3153) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: phpunit support for clover-coverage (#3161) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Use phpcs standard wordpress in scrutinizer (#3166) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Nonce and text translation to delete link in pod edit sidebar. Fixes issue where attempted to delete pod from edit page results in fatal error. (#3203,#3194) [@cpruitt]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Tests for Mariadb and mysql 5.6+7 with PHP 5.6 Travis (#3212,#3208) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Travis do not allow PHP7 to fail (#3235) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: PHPunit support for clover-coverage FN (#3176) [@Ramoonus]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Fixes to REST API Admin Tab (thanks @nicdford) to display always but also explain why it won't work if not able to work. (#3246,#3259) [@Shelob9,@nicdford]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Inline hook docs in PodsAdmin class (#3180,#3179) [@Shelob9]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Added compatibility with the latest Polylang version, using $polylang-model to get the current language and version. (#3223) [@JoryHogeveen]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add REST API Support to Post Types, Taxonomies, Users. Read the update in https://github.com/pods-framework/pods/pull/3184 for step by step details. (#3184,#3182) [@Shelob9]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for Term Meta in WP 4.4 - Now create meta-based taxonomies and Pods just magically works! (#3169,#3163) [@sc0ttkclark]"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Found a bug? Have a great feature idea? Get on GitHub and tell us about it and we'll get right on it: https://pods.io/submit/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Improper wording for text at top of settings page field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Correct parent_file to highlight the correct top level menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Usage of pods_v in currency.php for optimzation purposes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PodsForm::submit_button() method that had been lost from previous versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pagination default value for Pods shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Extra spaces in custom defined list labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pre-save enforcing of max length for meta-based values"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with ability to use filters on reorder page with Pods UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Undefined method error in WP 3.4 due to use of WP_User::to_array() which was added in WP 3.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where required currency and number fields could be saved at default value"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Added 'output' to reserved content types names and reserved query vars"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fixed jQuery scope in Pods Form inline JavaScript"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Magic tags for taxonomies in Pods Templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Array to string conversion error for CSS fields in Pods UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Compatibility problem with changes to plupload in WordPress 3.9 that prevented upload pop-up from loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Bug with custom extensions for allowed file types in upload fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: With Pods UI. Keep view when generating pagination links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with PodsForm::default_value"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issues with user tables in multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Inline docs for 'pods_admin_setup_edit_tabs' (and related) filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Inline docs for 'pods_admin_setup_edit_options' (and related) filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Inline docs for 'pods_admin_menu' filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Inline docs for 'pods_api_get_table_info_default_post_status' filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Currently active theme to Pods Debug info list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support links in Pods Admin -&gt; Help"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New descriptions for Pods Pages and Pods Advanced Content Types component descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Instructions about using Pods Templates in Pods Widgets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New and improved help bubbles in Pods Editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Better names for many fields in Pods Editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Improved Pods Template code sanitization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'pods_image_default' filter to allow for placekitten.com or other image placeholder scripts for testing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'pods_pick_ignore_internal' filter to enable/disable Relationships with core Pods types (_pods_pod, etc)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'pods_api_save_pod_item_track_changed_fields_{POD_NAME}' filter for tracking changes to fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'pods_admin_media_button' filter to disable the Pods shortcode button in post editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New constant PODS_DISABLE_SHORTCODE_SQL to disable SQL-related parameters in shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New constant PODS_ALLOW_FULL_META for for enabling/disabling get_post_meta( $id ) interaction with Pods (on by default)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Actions before and after Pods Form all and individual form fields are outputted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Max character length option for paragraph fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for JetPack Publicize and Markdown modules"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: created/modified functionality (see Advanced Content Types) to other Pod types, as long as they are date/datetime fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Additional Currency formats to Currency field type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: An optional download link to File Upload field type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New Pods Template editor revamp to include auto-complete for magic tags and field reference, which can be further extended by installing Pods Frontier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: _pods_location to $params for PodsAPI::save_pod_item which will contain the URL of the form it was submitted from"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: PodsAPI::get_changed_fields() that can be used when in a pre-save hook to return array of changed values or used in PodsAPI::save_pods_item() to track changes to fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Tagging feature for Relationship fields with Autocomplete (Select2) which lets you add new items on-demand when saving"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "In Pods 3.0 we're focusing on finishing some overarching performance improvements that are necessary to support large installs with the new Loop and Repeatable fields features."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "After a long road, we've got a new minor release out that fixes a large number of outstanding bugs and adds a few improvements that were within reach right away."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Ability to use pods() without any parameters. Will pull the pod object based off of the current WP_Query queried object / object id"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Filter: 'pods_admin_components_menu' to add/edit components submenu items."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with markdown module header causing activation errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue when mbstring module is not active."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pagination/search boolean checks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Unwarranted base_dir warnings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: $params with unslashed data in Pods_Admin::admin_ajax()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved UX for select2 field adding new items."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where extended custom post types had diffrent names then original post type due to use of dashes in names."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update from GitHub functionality."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Item ID to pods_api::export() item array."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Inline docs for 'pods_meta_default_box_title' filter and normalized args across each usage."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New Hooks In ui/admin/form, which generates ACT editor, for adding additional forms or other content to editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PodsUI SQL table-based lookups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with tabled-based SQL delete actions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Constant: PODS_PRELOAD_CONFIG_AFTER_FLUSH check to allow for preloading $api-&gt;load_pods() after a Pods Cache flush."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP error in Pods Template reference."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new filter: ‘pods_view_alt_view’ for overriding normal Pods Views to be loaded in via AJAX inline from Pods AJAX Views plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issues in Packages component when importing existing fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add new filter: ‘pods_pod_form_success_message’ for changing the message when Pods Forms are successfully submitted."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PodsUI Admin Icon Display"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Reordering fields in PodsUI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Display of of hidden fields in Pods Forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security Update: We recommend all Pods 2.x installations be updated to the latest version of Pods to fix a noncing issue with form saving, or replace your plugin files with the download of your version from http://wordpress.org/plugins/pods/developers/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hardened: Further security hardening of the <code>[pods]</code> shortcode, added PODS_DISABLE_SHORTCODE constant to allow sites to disable the Pods shortcode altogether"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Readonly fields and noncing now works properly, Pods 2.4.2 caused all forms with readonly fields to fail submission"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PodsUI data issue with Custom DB Table support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods Templates component now has better handling of the new shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If you need assistance in upgrading your Pods 2.x site to the latest version of Pods, please don't hesitate to contact us at https://pods.io/help/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security Update Reminder: As of Pods 2.4.2, we recommend all Pods 2.x installations be updated to the latest version, or replace your plugin files with the download of your version from http://wordpress.org/plugins/pods/developers/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add ability to use pods_group_add() in the ACT editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue where user_url was created as a required field when extending users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed pods_error(): reversed logic that was emitting an error instead of throwing an exception when $display_errors is false"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added join as an acceptable tag for Pods shortcodes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allowed extending the link category taxonomy, if in use."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where fields, storing one value, returned arrays, instead of strings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: An issue preventing fields from being sorted by orderby."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allowed save_post_meta to delete single meta elements instead of update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed the default of $display_errors in Pods class to true."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Handling of required fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better validation of custom fields when saving custom post types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When saving custom fields, whitespace is now trimmed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Default avatars on the Discussion settings page replaced by user's custom avatar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switched from using $wpdb-&gt;prefix to $wpdb-&gt;base_prefix in pick field class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue preventing color pickers from working in front-end form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevented string replace and trim from running on a form field default when default value is not a string"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Styling of shortcode insert button."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where get_current_screen(), in some contexts was used as an object, when it was null."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Implement glotpress-grunt for manging translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove redundant file/class checks for Pods Templates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed usages of the deprecated WordPress function like_escape()."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved traversal regex in Pods::find() to have better handling for variation of backticks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a \"pre_select\" hook in PodsData."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue in currency fields to ensure proper handling of decimals."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "In PodsData::select(), allow proper use of cache expiration time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevented Pods::id() from calling the field method unless it has to."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switched pods_v() to use switch/case instead of if/else where possible."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allowed PodsField_Pick to save names"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where Pods::field() showed cached data after saving via Pods::save(), without re-building the Pods Object."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Inline docs for pods_api_get_table_info_default_post_status filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated design of new Pod wizard to match MP6 (props to @nikv!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Hiding of text in title-prompt-text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where updating relationship to users in pods editor  threw an erroneous error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent use of date_i18n() in PodsData when not needed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensure that pods_v_sanitized() passes the $strict argument to pods_v()."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: YARRP support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switch from Pods::do_hook() to apply_filters() or do_action() for 'pods_pods_fields', 'pods_pods_field_related_output_type', 'pods_pods_field_', 'pods_pods_field', 'pods_pods_fetch', 'pods_pods_reset', 'pods_pods_total_found', 'pods_pods_filters'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify logic when creating new PodsAPI singleton internally."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve: PodsAPI::export_pod_item_lvl(), adding item ID to all steps."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'pods_data_pre_select_params' filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'join' to the accepted tags for Pods Shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue preventing Pods Template editor from working with certain xcache configurations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue causing issues in admin with CodePress admin columns."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Added nonces for multiple actions in the admin area to avoid accidental / unwanted results"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated translations -- Add your translations at http://wp-translate.org/projects/pods"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgraded qTip library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgraded Code Mirror library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Travis-CI / Scrutinizer-CI for all pushes and pull requests to unit test and check for other issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More unit tests -- now 1,858 tests with a total of 13,420 assertions covering all content type, storage type, and field variations (props to @sc0ttkclark, @clubduece, and @mordauk! it was a group effort)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Major performance enhancements can now make things run up to 400% faster (props to @jamesgol!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with custom taxonomy joins preventing \"custom_tax.d.custom_field\" type where clauses from working."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: If block in Frontier."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Magic tag for custom taxonomy, which was showing no content in Pods Templates in 2.5."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue preventing public, publicly queryable &amp; rewrite with front from saving choices in advanced options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with pods_error() that was causing it to display AJAX errors improperly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with pods_version_check() usage that was causing a deprecated core function to run, when it was supposed to prevent it from running."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where PodsAPI::delete_field() was unable to delete fields in certain situations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where hidden fields were being shown for admin users, when they should have been hidden."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Use of anonymous function in PodsMeta.php causing issues with old versions of PHP."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Missing gradients in UI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue preventing fields from being sorted by weight or by orderby, that was affecting image multi-select image field ordering."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing files for font icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pods UI orderby now strictly enforces Database column format"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "or replace your plugin files with the download of your version from http://wordpress.org/plugins/pods/developers/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security Update: We recommend all Pods 2.x installations be updated to the latest version of Pods"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: URL escaping in PodsUI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Double slashing in PodsView class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where multiple post type Pods objects called in same session were treated as the same in cache."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Extra meta data with <em>pods</em> prefix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for term splitting in WordPress 4.2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: New youtube video in readme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Compatibility with Github updater plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Elaborated on what data is and isn't deleted when Pods data is reset."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Icon font used for Pods admin icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue preventing associated taxonomies to be fetched via Pods::field() and therefore magic tags."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Gradients in Pods wizard."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Translation strings in ui/admin/help"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Shortcode button was outputted in post editor when shortcodes were disabled. This will no longer happen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Proper sanitization/ escaping of URLs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Style of components filter bar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue preventing ongoing compatibility with Admin Columns."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Bug that was causing Pods to overwrite admin menus."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Added caching info to debug info."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue preventing codemirror from being enqueued in Pods templates and therefore breaking Pods tempaltes editor in certain configurations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue preventing proper display of fields in a related CPT via Pods::field()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where Pods update was causing WP-API endpoints to 404. Rewirte rules now flush on wp_loaded."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issues with default values for number and other types of fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Allow fields to be sorted by orderby; Two separate but connected issues. First if orderby is passed then the $data array is never populated. Then looping through $ids will always give it results sorted by priority in the relationships field (data returned by lookup_related_items) (#2350, #2277)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Cleared old unit tests from EDD (#2380)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Updated Taxonomy to get called after cache is flushed (#2264, #2375, #2382)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Trim off whitespace when saving custom fields; code in classes/fields/pick.php already does this. (#2386, #2343)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Missing $ in PodsInit line 494 (#2475, #2476)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Clarify help text as to what does and doesn't get deleted on reset (#2792, #2778)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removed Vestiges of Old Updater (#2940, #2983)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix for symlinked pods in local deve environment (#2946, #2945, #2949)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix for over escaping icon URL in file fields previewer (#2957, #2956, #2955, #2978)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix for ACT editor not staying on current item after saving (#2968, #2942, #2974)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Remove <code>@internal</code> phpDoc for pods_query() (#2970, #2969, #2975)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: ui/js/jquery.pods.js fixes (#2971, #2972)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Composer: updated for phpunit 4.7 (#2987, #2988, #2783)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrects ACT - Admin Order DESC not working &amp;&amp; SQL error if order by an relationship field (#2843, #2989)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrects Delete not working for Edit Items (#2752, #2991)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update post field in pod instance before saving, related to MetaData (post field) not flushing after saving (#3000, #3002, #3003)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fix for pagination handling in shortcodes. Shortcodes currently use 'pagination' for two contexts (display and data) but if page or offset is supplied, it's only meant for one context (display). (#2807, #3004)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Fixes for Drag and Drop Reorder Action not working in ACT's (#3015, #3016)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Additional Pods_Field_Text tests added to incorrect text dependencies. (#2388)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Unit test to create pod factory object and moves fixture set up from traversal tests to test case. (#2445)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Unit tests for PodsField_Boolean (#2473, #2474)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add git workflow and a link to it from contributing.md (#2490, #2496)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for Pod and Field names with dashes and prefixes with underscores (#3012, #3021, #3022)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for Term Splitting in WP 4.2 (#2856, #2660)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Style escaping which created a quote encoding bug in PodsMeta.php. (#3053, #3032)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP Doc Improvement (#3039, #3040)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: PHP4-style constructor removed in Pods Widgets (#3055, #3056, #3057)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Copy of EDDs scrutinizer (#2917, #3072)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Feature/pods page export support. Added 'pods_page_exists' filter to allow Pods Page content to be supplied from another source (eg exported files) (#3049, #3054)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for autoCAST()ing meta_value orderby for dates and numbers (#3043, #3041, #3058)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Query_field tests (meta_query syntax for where) (#3033, #3032, #1662, #2689)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for Compare ALL with meta_query syntax. Kudos to @pcfreak30. (#3037, #3038)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: License.txt changes to sync with GPL v2 (#3130, #3133) Kudos to @Ramoonus"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Merged Auto Template into Pods Template Component.  (#3125, #3105) Major thanks to @Shelob9 both for the original plugin and for incorporating this into Pods Templates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for CPT UI 1.0.x in CPT UI migration component by adding support for multiple possible option names for post types and taxonomies. (#3112, #3109, #3113, #3116, #3117) Kudos to @pglewis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: <code>permalink</code> field traversal has only been working for post types, not for related taxonomies. (#2779, #3114, #3115) Kudos to @pglewis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where [each] tag traversal did not work with Taxonomy in Pods Templates. Related notes regarding pod-&gt;object_fields for taxonomy added for 3.0 notes. (#3106, #3018, #3107, #3111) Major thanks to @pglewis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Changed Content property to fix spacing issues with AutoComplete Field where the formatted selection fields have awkward spacing between the selection box and the selection list. (#3098, #3097, #3099) Kudos to @nicdford"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Drop External code coverage - timeout in Scrutinizer.  (#3091) Kudos to @Ramoonus"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Unit testing for PHPUnit 4.8 support. (#3090, #3069) Kudos to @Ramoonus"
+msgstr ""

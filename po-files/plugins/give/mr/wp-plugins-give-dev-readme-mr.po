@@ -1,0 +1,1347 @@
+# Translation of Plugins - Give &#8211; Donation Plugin and Fundraising Platform - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - Give &#8211; Donation Plugin and Fundraising Platform - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - Give &#8211; Donation Plugin and Fundraising Platform - Development Readme (trunk)\n"
+
+#. Plugin name.
+msgid "Give - Donation Plugin and Fundraising Platform"
+msgstr ""
+
+#. Short description.
+msgid "Accept donations and begin fundraising with Give, the highest rated WordPress donation plugin for online giving."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Ensure date fields have the same placeholders throughout the admin interface. <a href=\"https://github.com/impress-org/Give/issues/3757\">#3757</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Do not display shortcode generator above form content. <a href=\"https://github.com/impress-org/Give/issues/3739\">#3739</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved jumping to a page number issue in Donations &gt; Donors when entering a custom page number and pressing enter. <a href=\"https://github.com/impress-org/Give/issues/3719\">#3719</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved typos in the \"Dry Run\" option of the importer. <a href=\"https://github.com/impress-org/Give/issues/3699\">#3699</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Set autocomplete off to all the admin date fields. <a href=\"https://github.com/impress-org/Give/issues/3675\">#3675</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Allow selection of more than the first 30 forms in the Export tool. <a href=\"https://github.com/impress-org/Give/issues/3674\">#3674</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: When Singapore is selected the City requirement is removed. <a href=\"https://github.com/impress-org/Give/issues/3669\">#3669</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: When you delete a donation form the form's metadata is now removed from the database for better cleanup. <a href=\"https://github.com/impress-org/Give/issues/3641\">#3641</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Per-form emails now use the global email content as a starting point for easier customization. <a href=\"https://github.com/impress-org/Give/issues/3653\">#3653</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: When the \"Delete all data\" tool is used, Give data is removed from all tables BUT Give settings and custom tables are not removed. When Give is uninstalled with the \"Remove Data on Uninstall\" selected under Settings &gt; Advanced tab, Give data and settings are removed AND custom tables are removed. <a href=\"https://github.com/impress-org/Give/issues/3638\">#3638</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The donor wall has now been modified so each individual donation displays separately. As well, we've added additional options in the shortcode to sort the donors. The styles have also been improved to be more cross-theme compatible. <a href=\"https://github.com/impress-org/Give/issues/3744\">#3744</a>, <a href=\"https://github.com/impress-org/Give/issues/3781\">#3781</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Currency settings now allow for 8 decimal points to better support Bitcoin and other crytocurrencies. <a href=\"https://github.com/impress-org/Give/issues/3602\">#3602</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The TCPDF library is now included with composer to help prevent conflicts with other plugins using the same library. <a href=\"https://github.com/impress-org/Give/issues/3482\">#3482</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: When changing payment gateways a nonce is verified for additional security. <a href=\"https://github.com/impress-org/Give/issues/2580\">#2580</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Optimized the loading of give options by setting autoload to no for most of Give's settings. <a href=\"https://github.com/impress-org/Give/issues/2491\">#2491</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Dates are formatted to the WordPress date format found under Settings &gt; General. <a href=\"https://github.com/impress-org/Give/issues/3502\">#3502</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Updated the \"Card Name\" field label to \"Cardholder Name\" to help donor's understand the field. <a href=\"https://github.com/impress-org/Give/issues/3714\">#3714</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added filters to the donation exporter so developers can include custom data to export as needed. <a href=\"https://github.com/impress-org/Give/issues/3709\">#3709</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The donor wall gravatars have been optimized to now load after page load as to not slow down page speed. <a href=\"https://github.com/impress-org/Give/issues/3758\">#3758</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Acceptance testing has been updated to include UI testing. <a href=\"https://github.com/impress-org/Give/issues/3663\">#3663</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added the ability to export donation comments within the exporter. <a href=\"https://github.com/impress-org/Give/issues/3743\">#3743</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: There is now a {donor_comment} email tag to pass within emails. <a href=\"https://github.com/impress-org/Give/issues/3655\">#3655</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: We've added a \"Select All Fields\" option within the donation exporter for easier select/deselect checkboxes. <a href=\"https://github.com/impress-org/Give/issues/3649\">#3649</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: There is now a Gutenberg block for the donor wall. <a href=\"https://github.com/impress-org/Give/issues/3546\">#3546</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: You can now more easily copy form shortcodes by clicking a new \"Copy Shortcode\" button. <a href=\"https://github.com/impress-org/Give/issues/2602\">#2602</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: A real time view of currency number formatting displays when modifying the setting. <a href=\"https://github.com/impress-org/Give/issues/3490\">#3490</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Admins now have the ability to send notes to donors via a customizable email within the donation details screen. <a href=\"https://github.com/impress-org/Give/issues/2159\">#2159</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: This release includes an upgrade routine to move comments from WordPress core tables to our own custom tables. This was done to resolve conflicts with various plugins incorrectly flagging Give's comments as spam. <a href=\"https://developers.givewp.com/2018/10/08/give-2-3-0-custom-comment-tables/\">Developer's Post - Custom Comment Tables</a>, <a href=\"https://github.com/impress-org/Give/issues/3627\">#3627</a>, <a href=\"https://github.com/impress-org/Give/issues/3589\">#3589</a>, <a href=\"https://github.com/impress-org/Give/issues/3604\">#3604</a>, <a href=\"https://github.com/impress-org/Give/issues/3588\">#3588</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed usage of deprecated jQuery load() method. <a href=\"https://github.com/impress-org/Give/issues/3688\">#3688</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Typo within tooltip. <a href=\"https://github.com/impress-org/Give/issues/3685\">#3685</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved a JS error preventing visitors from successfully logging into via a donation form. <a href=\"https://github.com/impress-org/Give/issues/3684\">#3684</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgrade: This version contains an upgrade routine to correct issues with the donor wall in which past donors would incorrectly display on the wall regardless of whether they elected to be anonymous or not. As well, donors can now give to multiple donation forms and be anonymous on one and not anonymous on another."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Ensure donors can be properly connected and disconnected to WP users in the donor details screen. <a href=\"https://github.com/impress-org/give/issues/3636\">#3636</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent error notices from displaying in the Gutenberg editor. <a href=\"https://github.com/impress-org/give/issues/3575\">#3575</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent JS errors when attempting to deactivate the plugin. <a href=\"https://github.com/impress-org/give/issues/3619\">#3619</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: There is an upgrade routine to Donors that mark themselves as anonymous ."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: PHP notices when recalculating total donation income amount. <a href=\"https://github.com/impress-org/give/issues/3611\">#3611</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Do not display encoded UTF-8 characters in donor comments. <a href=\"https://github.com/impress-org/give/issues/3631\">#3631</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a test to check if all registered db updates complete automatically on fresh install. <a href=\"https://github.com/impress-org/give/issues/3628\">#3628</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The donor wall shortcode has been modified so that donors who give without leaving a comment will display by default. <a href=\"https://github.com/impress-org/Give/issues/3581\">#3581</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent emails from being sent when importing donations. <a href=\"https://github.com/impress-org/Give/issues/3592\">#3592</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Uncomment the give_checkout_login_fields_before hook so developers can use it accordingly. <a href=\"https://github.com/impress-org/Give/issues/3566\">#3566</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent login button text from updating with wrong text. <a href=\"https://github.com/impress-org/Give/issues/3562\">#3562</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolve error with email access when the \"View Receipt\" link is clicked the donor would receive a permissions error. <a href=\"https://github.com/impress-org/Give/issues/3571\">#3571</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Increased the contrast for the floating labels for inactive placeholders. <a href=\"https://github.com/impress-org/Give/issues/2179\">#2179</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: All donation forms are now listed on Export screen in wp-admin. <a href=\"https://github.com/impress-org/Give/issues/1970\">#1970</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Exclude the honeypot field from floating labels js. <a href=\"https://github.com/impress-org/Give/issues/2230\">#2230</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Refactored the settings API to have custom save logic for individual setting sections. Developers can now easily create a custom setting page and option name which will store data in its own option rather than increasing the size of the give_settings option. <a href=\"https://github.com/impress-org/Give/issues/3541\">#3541</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added backwards compatibility for email tag \"description\" and \"function\" options that were modified in the previous version. <a href=\"https://github.com/impress-org/Give/issues/3584\">#3584</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved PHP notices when accessing donation history via email in PHP version 7.2. <a href=\"https://github.com/impress-org/give/issues/3565\">#3565</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed email access issue with the donation history page preventing donors from using the submit button once they entered their email. <a href=\"https://github.com/impress-org/give/issues/3553\">#3553</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Pass widget arguments to action hook for developers to more easily extend. <a href=\"https://github.com/impress-org/give/issues/3245\">#3245</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Render settings textarea field type within a div instead of a p tag for better compatibility with tabs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Confirm system generated notes insert as comments for donations and aren't blocked by WP's spam protections. <a href=\"https://github.com/impress-org/give/issues/3537\">#3537</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolve an issue with the donor wall displaying incorrect amounts when a donor has given multiple times. <a href=\"https://github.com/impress-org/give/issues/3532\">#3532</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Increase donors table email column length to support longer emails. <a href=\"https://github.com/impress-org/give/issues/3525\">#3525</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Use send_preview_email function to setup email data for previewing emails. <a href=\"https://github.com/impress-org/give/issues/3517\">#3517</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Don't block login form after first failed login. <a href=\"https://github.com/impress-org/give/issues/3423\">3423</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Deleting all data doesn't remove form categories or tags. <a href=\"https://github.com/impress-org/give/issues/3145\">3145</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Extend email notification functionality to support admin context. <a href=\"https://github.com/impress-org/give/issues/3516\">#3516</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Updating donor information does not update display on donations admin page. <a href=\"https://github.com/impress-org/give/issues/2985\">#2985</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Format dates to WordPress <code>date_format</code> in the donation admin screens. <a href=\"https://github.com/impress-org/give/issues/3502\">#3502</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: When activating an add-on from the Give menu within the plugin page it incorrectly redirected the admin back to the All menu tab. <a href=\"https://github.com/impress-org/give/issues/3438\">#3438</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved modal background scrolling on iOS. <a href=\"https://github.com/impress-org/give/issues/3424\">#3424</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed the Give Shortcode button from the editor for creating emails. <a href=\"https://github.com/impress-org/give/issues/3422\">#3422</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added minor CSS to fix conflict with the popular Enfold theme. <a href=\"https://github.com/impress-org/give/issues/3403\">#3403</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Updated TCPDF to support PHP 7.2. <a href=\"https://github.com/impress-org/give/issues/3411\">#3411</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed the restriction of when a donation form is created from the PDF receipt export report found under Donations &gt; Tools &gt; Export &gt; Export PDF of Donations and Income. <a href=\"https://github.com/impress-org/give/issues/3395\">#3395</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: When using a dropdown multilevel select type in Button mode the dropdown would incorrectly display above the button. <a href=\"https://github.com/impress-org/give/issues/3215\">#3215</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Donation form earning now update when a donation amount is updated so stats remain correct. <a href=\"https://github.com/impress-org/give/issues/3085\">#3085</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Modal and button mode donations forms were not properly displaying payment errors within the modal leading to potential donor confusion. <a href=\"https://github.com/impress-org/give/issues/3006\">#3006</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: All email tags listed below the email template WYSIWYG editor are now usable. Previously some were not rendering properly because of the type of email being edited. <a href=\"https://github.com/impress-org/give/issues/2997\">#2997</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved issues with the newsletter sign up on the Give activation welcome screen. <a href=\"https://github.com/impress-org/give/issues/2322\">#2322</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Exporting and Importing donations is now in sync without any errors to make migrating data between environments easier. <a href=\"https://github.com/impress-org/give/issues/2135\">#2135</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The address email tag is now appropriately formatted so the address fields appear in the correct order. <a href=\"https://github.com/impress-org/give/issues/2790\">#2790</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Gutenberg blocks are now fully functional in anticipation of WP 5.0 release. <a href=\"https://github.com/impress-org/give/issues/3518\">#3518</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Core now uses the form's currency in the process of donation creation. <a href=\"https://github.com/impress-org/Give/issues/3401\">#3401</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The \"Terms and Conditions\" label now accepts HTML so you can insert links to more info and content. This is particularly useful for improved GDPR compliance. <a href=\"https://github.com/impress-org/Give/issues/3225\">#3225</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Refactored the multiple methods to delete donors so now there is a singular method for donor deletion that is extensible. For more info see <a href=\"https://developers.givewp.com/2018/07/24/give-2-2-0-singular-method-for-donor-deletion-process/\">this developers blog post</a>. <a href=\"https://github.com/impress-org/Give/issues/2347\">#2347</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Refactored the Give \"_give_paymentmeta\" table name to \"_give_donationmeta\" to prevent naming conflicts with plugins like Restrict Content Pro and potentially others that use the same custom table name. <a href=\"https://github.com/impress-org/Give/issues/2710\">#2710</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved the database update process so that even if AJAX is inaccessible by the plugin updates can still be ran. The only difference is that admins will have to remain on the page while the upgrade runs. AJAX was used for background updates, but if it's not able to be used the background process is removed and a notice displays prompting the admin to remain on page. <a href=\"https://github.com/impress-org/give/issues/3420\">#3420</a>, <a href=\"https://github.com/impress-org/give/issues/3393\">#3393</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: There is now a plugin deactivation screen that displays with a survey to help us improve the plugin. <a href=\"https://github.com/impress-org/give/issues/648\">#648</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The \"Company Name\" field is now able to be updated in wp-admin on the donation details screen. <a href=\"https://github.com/impress-org/give/issues/3413\">#3413</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Donation receipts are now loaded via AJAX to prevent caching conflicts. <a href=\"https://github.com/impress-org/give/issues/3412\">#3412</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: You can now duplicate donation forms on the donation form listing screen in wp-admin. <a href=\"https://github.com/impress-org/give/issues/3331\">#3331</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: An additional \"exclude\" option has been added to NOT include a donation form by default on the form grid. <a href=\"https://github.com/impress-org/give/issues/3206\">#3206</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a new helper function <code>give_form_get_default_level( $form_id )</code> for developers to more easily retrieve a donation form's default level ID. <a href=\"https://github.com/impress-org/give/issues/3397\">#3397</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a more complete list of currencies from around the world. <a href=\"https://github.com/impress-org/give/issues/3367\">#3367</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The following email tags are added in this feature: {admin_email}, {offline_mailing_address}, {site_url}. <a href=\"https://github.com/impress-org/Give/pull/3070\">#3070</a>, <a href=\"https://github.com/impress-org/Give/pull/3378\">#3378</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Country and State dropdowns are now using searchable dropdowns in wp-admin plugin settings. <a href=\"https://github.com/impress-org/Give/issues/2423\">#2423</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Refactored how Give stores sessions in a much more cache-friendly way using a new custom table called \"_give_sessions\". For more information please see the <a href=\"https://developers.givewp.com/2018/07/24/give-2-2-0-revamp-session/\">this Give developers post</a> for more information."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: You can now enable Title Prefixes, or also commonly called \"Honorifics\" (Mr., Mrs., Dr.), for donors in a flexible and customizable way. <a href=\"https://github.com/impress-org/Give/issues/3011\">#3011</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The Donor Wall is here. Now you can display your donors, their comment, and the amount they donated in a customizable shortcode. <a href=\"https://github.com/impress-org/Give/issues/2900\">#2900</a>, <a href=\"https://github.com/impress-org/Give/issues/3312\">#3312</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Important: This release requires a number of updates to our add-ons for full compatiblity due to the optimization of how we handle donor session data and additional refactoring of the database schema. Please ensure you update all your add-ons after updating for full compatibility. If you have any issues with the update feel free to reach out to our support. <a href=\"https://givewp.com/support/\">GiveWP Plugin Support</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The reset email receipt donation button popup now opens the alert using Give's new modal API. <a href=\"https://github.com/impress-org/Give/issues/3244\">#3224</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added logic so developers can now adjust the arguments passed to the chosen dropdowns Give uses. <a href=\"https://github.com/impress-org/Give/issues/3192\">#3192</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved the tooltip helpers within the shortcode inserter for the Give Form Grid shortcode. <a href=\"https://github.com/impress-org/Give/issues/32350\">#3235</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved the logic of verifying min/max amount for the Currency Switcher add-on. <a href=\"https://github.com/impress-org/Give/issues/3203\">#3203</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Inline plugin upgrade notices were not displaying properly in previous versions. <a href=\"https://github.com/impress-org/Give/issues/2789\">#2789</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Several typos on the welcome guide were corrected. <a href=\"https://github.com/impress-org/Give/issues/3230\">#3230</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: We've updated the donation form's form HTML tag ID so it's unique per form for better W3C compatibility and to ensure Stripe elements works as expected with multiple forms on a single page. <a href=\"https://github.com/impress-org/Give/issues/3139\">#3139</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: We have moved \"babel-polyfill\" to Give Core for better browser compatibility so our various add-ons can use it and it's not enqueued multiple times which can cause errors. <a href=\"https://github.com/impress-org/Give/issues/3433\">#3433</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Don't allow db updates to display if AJAX is inaccessible. <a href=\"https://github.com/impress-org/Give/issues/3393\">#3393</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Ensure the level title in the exported CSV reads custom on custom donations. <a href=\"https://github.com/impress-org/give/issues/3380\">#3380</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: DB Update incorrectly appears on fresh installs. <a href=\"https://github.com/impress-org/give/issues/3390\">#3390</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Ensured a custom logo appears in the email preview when configured. <a href=\"https://github.com/impress-org/give/issues/3330\">#3330</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The Give manager role is now able to view a donation's details. <a href=\"https://github.com/impress-org/give/issues/3261\">#3261</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: A user who had the same ID as a donor ID could incorrectly view the donation details of that donor. <a href=\"https://github.com/impress-org/give/issues/3333\">#3333</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Various admin interface style improvements. <a href=\"https://github.com/impress-org/give/issues/2706\">#2706</a>, <a href=\"https://github.com/impress-org/give/issues/3328\">#3328</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The \"All Forms\" dropdown option on the Donation Export only used the first ten forms. <a href=\"https://github.com/impress-org/give/issues/3303\">#3303</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved unnecessary notice that would display when a donor clicked on the option for a custom amount to any other level. A show minimum amount notice would display incorrectly to the donor. <a href=\"https://github.com/impress-org/give/issues/3299\">#3299</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved conflict with the qTranslate X plugin. <a href=\"https://github.com/impress-org/give/issues/3345\">#3345</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The \"Create an account\" checkbox now displays correctly in a full row if registration is enabled. <a href=\"https://github.com/impress-org/give/issues/3358\">#3358</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The Goal amount should not change upon re-saving settings. <a href=\"https://github.com/impress-org/give/issues/3373\">#3373</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The License tab was not displaying when an addon was network enabled. <a href=\"https://github.com/impress-org/give/issues/3349\">#3349</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: If a DB update needs to run button cannot there are more actionable steps displayed to admins on how to resolve the issue. <a href=\"https://github.com/impress-org/give/issues/3267\">#3267</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a \"give\" prefix to Give's notice CSS class to help prevent theme conflicts. <a href=\"https://github.com/impress-org/give/issues/3337\">#3337</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The total goal attribute is now a required field for the [give_totals] shortcode. <a href=\"https://github.com/impress-org/give/issues/3060\">#3060</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a Company attribute to the give_receipt shortcode. <a href=\"https://github.com/impress-org/give/issues/3361\">#3361</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added shortcode support to the \"Offline Donations Instructions\" output. This will allow you to include any type of shortcode output within the content to improve your content. <a href=\"https://github.com/impress-org/give/issues/2937\">#2937</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a \"Give\" filter for the plugin menu section on WP multisites. <a href=\"https://github.com/impress-org/give/issues/3355\">#3355</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved a form grid shortcode issue where the Payment Method field would display incorrect when only one gateway is enabled. <a href=\"https://github.com/impress-org/give/issues/3293\">#3293</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The \"total\" attribute is now required for the give_totals shortcode so you don't have a blank goal displaying on the website. <a href=\"https://github.com/impress-org/give/issues/3060\">#3060</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Don't allow the set donation amount to be less than the minimum amount when saving donation forms in wp-admin. <a href=\"https://github.com/impress-org/give/issues/3249\">#3249</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Ensure that Give's state field doesn't lose its style when switching countries. <a href=\"https://github.com/impress-org/give/issues/3255\">#3255</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Theme conflict with Woo's Storefron theme where Give's admin footer text would overlap some elements. <a href=\"https://github.com/impress-org/give/issues/3274\">#3274</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The Give notice dismiss button should work when rendering Give notices using JS. <a href=\"https://github.com/impress-org/give/issues/3278\">#3278</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Plugin conflict where WPML would cause the give_totals shortcode to output the incorrect donation amounts. <a href=\"https://github.com/impress-org/give/issues/3291\">#3291</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: In button mode text would display incorrectly from the form if closing the modal popup. <a href=\"https://github.com/impress-org/give/issues/3301\">#3301</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Plugin conflict with WPML where the plugin would display language settings within Give's admin settings incorrectly. <a href=\"https://github.com/impress-org/give/issues/3314\">#3314</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The Give API was not respecting date ranges for earnings and donations endpoints. <a href=\"https://github.com/impress-org/give/issues/3191\">#3191</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent the licenses tab from displaying in settings if there are no add-ons installed. <a href=\"https://github.com/impress-org/give/issues/3254\">#3254</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Preventing PHP notices related to AKISMET admin settings when saving. <a href=\"https://github.com/impress-org/give/issues/3260\">#3260</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Improved the layout of the export donations columns so that they look good on mobile devices and more. <a href=\"https://github.com/impress-org/give/issues/3266\">#3266</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: If a gateway is marked as disabled in the admin settings then disable the option to set it as the default gateway. <a href=\"https://github.com/impress-org/give/issues/3296\">#3296</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved how a donation amount is saved within the internal Give_Payment class. <a href=\"https://github.com/impress-org/give/issues/3304\">#3304</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a new check for add-ons to always check the minimum Give version required prior to being able to update. This will prevent the case where an add-on is updated and requires a new version of Give Core than is currently running and deactivates itself. <a href=\"https://github.com/impress-org/give/issues/3217\">#3217</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added support for multiple messages passed to Give's internal notice API. <a href=\"https://github.com/impress-org/give/issues/1936\">#1936</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved PHP notices when exporting donor in lower PHP versions. (#3222)[https://github.com/impress-org/Give/issues/3222], <a href=\"https://github.com/impress-org/Give/issues/3218\">#3218</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: This version contains a database cleanup routine to delete donation payment meta that is not attached to any payment. For instance, if you deleted a payment the metadata associated with it still remained prior to this version. With this upgrade the orphaned data will be removed. <a href=\"https://github.com/impress-org/Give/issues/3205\">#3205</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Give's API was not respecting the date range parameters passed to it. Now it does so you can filter the API by date ranges as expected. <a href=\"https://github.com/impress-org/Give/issues/3191\">#3191</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Give was conflicting with Beaver Builder preventing users from seeing the builder options within the WP-admin single page/post view. <a href=\"https://github.com/impress-org/Give/issues/3207\">#3207</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Give's shortcode picker was having an incompatibility with Elementor causing the TinyMCE to be partially blocked. <a href=\"https://github.com/impress-org/Give/issues/3171\">#3171</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The add-on plugin activation banner now displays properly without having to refresh the plugins screen to see it. <a href=\"https://github.com/impress-org/Give/issues/3153\">#3153</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: We have refactored how we are using nonces so now the often reported issue of \"Nonce verification failed\" should no longer happen. The solution implemented provides for the additional security of nonces and is now compatible with various forms of caching. <a href=\"https://github.com/impress-org/Give/issues/3200\">#3200</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a Give CLI command to update all add-ons or a single add-on from GitHub. <a href=\"https://github.com/impress-org/Give/issues/1390\">#1390</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added autocomplete field attributes to the applicable donation form fields for faster completion. <a href=\"https://github.com/impress-org/Give/issues/3202\">#3202</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added new customizable \"Email Heading\" fields for all Core emails (coming soon to add-ons as well). <a href=\"https://github.com/impress-org/Give/issues/3110\">#3110</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Better SPAM protection through the usage of improved client and server side validation to only allow alphabet characters for first and last name, validation to ensure that the gateway field is not left empty (to compbat SPAM bot scripts), and sanitize all input fields when processing the donation. <a href=\"https://github.com/impress-org/Give/issues/3035#issuecomment-391393093\">#3035</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Ensure the minimum donation amount calculates properly with various international decimal separators. <a href=\"https://github.com/impress-org/give/issues/3176\">#3176</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: We found another conflict with the new \"maximum\" donation amount field and existing forms. This time forms NOT using custom fields would incorrectly display a validation error about a custom amount which prevented the donor from giving. <a href=\"https://github.com/impress-org/give/issues/3159\">#3159</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent the update notice from appearing while actively updating plugins. <a href=\"https://github.com/impress-org/give/issues/3155\">#3155</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Correct the weekly donation total in the dashboard stats widget. <a href=\"https://github.com/impress-org/give/issues/3156\">#3156</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved JS error when editing a price type setting field in wp-admin. <a href=\"https://github.com/impress-org/give/issues/3161\">#3161</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Display a progress indicator for updates in 2.1+ and prevent an issue with receiving a blank screen if clicking on \"Updates\" while an update is running. <a href=\"https://github.com/impress-org/give/issues/3163\">#3163</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent a setting from appearing above Give's new modal window. <a href=\"https://github.com/impress-org/give/issues/3164\">#3164</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added clarification to the Donation Form Grid shortcode so admins know which options are optional and have a better description of what it does. <a href=\"https://github.com/impress-org/give/issues/3166\">#3166</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Conflict with the new \"maximum\" donation amount field and existing forms using custom fields preventing donations if the form is not re-saved. <a href=\"https://github.com/impress-org/give/issues/3159\">#3159</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Don't clear form fields via JS if no Give form is present on the page. <a href=\"https://github.com/impress-org/Give/issues/3093\">#3093</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The SSL check within the System Info tool was displaying an error due to an API change by the service used. <a href=\"https://github.com/impress-org/Give/issues/2998\">#2998</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added validation to prevent donors from entering their email address into the First Name field. <a href=\"https://github.com/impress-org/Give/issues/2862\">#2862</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added hardening to further help prevent spam donations. <a href=\"https://github.com/impress-org/Give/issues/2930\">#2930</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: We've polished the activation banner for add-ons so that it's more intuitive and user friendly. <a href=\"https://github.com/impress-org/Give/issues/2056\">#2056</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: There is a new \"Donor\" based goal so that you can set a goal based on the total number of donors. <a href=\"https://github.com/impress-org/Give/issues/2986\">#2986</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: There is a new metabox on the donation form edit screen that displays goal progress. <a href=\"https://github.com/impress-org/Give/issues/3027\">#3027</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: You can now query donation forms that are closed status. <a href=\"https://github.com/impress-org/Give/issues/2250\">#2250</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: There is now a Give plugin filter so you can view only Give and it's add-ons more easily. <a href=\"https://github.com/impress-org/Give/issues/2953\">#2953</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: There is now a delete button on the single donation payment screen. <a href=\"https://github.com/impress-org/Give/issues/2734\">#2734</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: We've replace boring JS alerts with a new modal window API that looks and functions great and other developers can utilize."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: You can now set a maximum donation amount for donations per form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: There is now a new functionality to display a \"Company Name\" field within your donation forms. This is useful for company matching or just general purpose information collection. <a href=\"https://github.com/impress-org/Give/issues/2453\">#2453</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: You can now display goal progress from multiple donation forms using a new shortcode. For example, [give_totals total_goal=\"5000\" ids=\"1,2,3\"] would display the progress of 3 donation forms towards the goal of $5,000 in donations. <a href=\"https://github.com/impress-org/Give/issues/2883\">#2883</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The importer has been upgraded with a new \"Dry Run\" feature and we've also included a sample data CSV file for you to test out. <a href=\"https://github.com/impress-org/Give/issues/2419\">#2419</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The donation form grid is here! Now you can display multiple donation forms quick and easily using the new donation form grid shortcode. <a href=\"https://github.com/impress-org/Give/issues/1414\">#1414</a>, <a href=\"https://github.com/impress-org/Give/issues/2943\">#2943</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Query performance improvements for sites with a large database of donations. <a href=\"https://github.com/impress-org/Give/issues/2987\">#2987</a>, <a href=\"https://github.com/impress-org/Give/issues/3069\">#3069</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Now you can export your donations with much more flexibility via the new advanced donation exporter. <a href=\"https://github.com/impress-org/Give/issues/2875\">#2875</a>, <a href=\"https://github.com/impress-org/Give/issues/2996\">#2996</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Sequential ordering is here! You can now configure donation payments with a prefix, suffix, number padding and more. <a href=\"https://github.com/impress-org/Give/issues/2912\">#2912</a>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "An SSL certificate -- while this is not strictly required, it is highly recommend. If you are converting your site to use SSL/HTTPS now, <a href=\"http://docs.givewp.com/ssl\">we have a detailed guide to help you here</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Due to a bug released in 2.0.5 changing levels multiple times would result in a JS error preventing from the amount to be subsequently updated. This bug has been fixed and it's suggested you update immediately if you're on 2.0.5. <a href=\"https://github.com/impress-org/Give/issues/2861\">#2861</a>, <a href=\"https://github.com/impress-org/Give/issues/2860\">#2860</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: When you add a new donation level in the donation form creation screen the amount field will be auto-focused. This provides the admin a faster interface for adding levels. <a href=\"https://github.com/impress-org/Give/issues/2866\">#2866</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Notices and warnings on the frontend can now be dismissed if the notice has been configured to be manually or auto-dismissed. Previously all frotnend notices were static, meaning they weren't able to be removed automatically or by the user. <a href=\"https://github.com/impress-org/Give/issues/2869\">#2869</a>, <a href=\"https://github.com/impress-org/Give/issues/2853\">#2853</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: WP's media uploader would upload to the incorrect directory when Give is active under certain environment settings.<a href=\"https://github.com/impress-org/Give/issues/2830\">#2830</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The unformat currency JS function wasn't correctly unformatting the Danish krone currency. <a href=\"https://github.com/impress-org/Give/issues/2838\">#2838</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved conflict with Polylang translation plugin that caused the base language to appear within the donation form when switching gateways. <a href=\"https://github.com/impress-org/Give/issues/2784\">#2784</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolved conflict with W3 Total Cache causing new donations to not be saved correctly when certain database caching configurations are in place. <a href=\"https://github.com/impress-org/Give/issues/2780\">#2780</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The dashboard widget was displaying incorrect stat for donations raised \"This Year\". It was showing all time rather than the current year. <a href=\"https://github.com/impress-org/Give/issues/2847\">#2847</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed usage of the .load() jQuery method causing conflicts on some installs and now using .on() properly. <a href=\"https://github.com/impress-org/Give/issues/2818\">#2818</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Resolve bug within Give_Payment_Query affecting WP multisite installs. On multisite, custom post type (form, donation log, and donor ) meta query is not working if using the switch_to_blog function. This has now been resolved. <a href=\"https://github.com/impress-org/Give/issues/2815\">#2815</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: 2.0.3 broke those pretty chosen dropdown selects, but this version brings them back to life! This bug only affected wp-admin dropdowns using the \"Chosen\" select field which allows you to search user lists and forms. <a href=\"https://github.com/impress-org/Give/issues/2787\">#2787</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI: Improved the interface for the Donations Importer to display more clearly which fields are required to import donations. <a href=\"https://github.com/impress-org/Give/issues/2354\">#2354</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The dashboard widget was not using the proper date function for translation thus the day of the week and month would always be in english. <a href=\"https://github.com/impress-org/Give/issues/2811\">#2811</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Properly display the donation payment status icon on translated sites. <a href=\"https://github.com/impress-org/Give/issues/2785\">#2785</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Removed the custom amount leabel from the set donation {donation} email tag. <a href=\"https://github.com/impress-org/Give/issues/2653\">#2653</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added helper give_get_locate_template function to improve custom template location loading. <a href=\"https://github.com/impress-org/Give/issues/2577\">#2577</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Removed deprecated email files. <a href=\"https://github.com/impress-org/Give/issues/2802\">#2802</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: We have added a minimum height to floating label fields for improved theme compatiblity. <a href=\"https://github.com/impress-org/Give/issues/2340\">#2340</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI: Improved heading within the Donor details screen in wp-admin so it now displays the donor's name. <a href=\"https://github.com/impress-org/Give/issues/2286\">#2286</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "This release contains additional health checks for sites still experiencing 2.0+ update issues. There are no additional upgrades needed to perform if you have already updated successfully within this release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a dynamanic email template tag that allows you to output any meta field within your emails by using. <a href=\"https://github.com/impress-org/Give/issues/2801\">#2801</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Now all your donation forms are now displayed within the shortcode builder. Previously only the most recent 30 would display. <a href=\"https://github.com/impress-org/Give/issues/2259\">#2259</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The frontend profile editor shortcode now outputs proper messages according to the content the user updated. <a href=\"https://github.com/impress-org/Give/issues/2553\">#2553</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Deprecated the second $_POST parameter within the give_checkout_error_checks action. <a href=\"https://github.com/impress-org/Give/issues/2663\">#2663</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Donation form donation counts were not getting properly updated when a payment goes from complete to abandoned donation status. <a href=\"https://github.com/impress-org/Give/issues/2708\">#2708</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent importer from modifying existing form settings. <a href=\"https://github.com/impress-org/Give/issues/2737\">#2737</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Data tools have been upgraded to be compatible with 2.0+. <a href=\"https://github.com/impress-org/Give/issues/2744\">#2744</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: WP_Query being modified in upgrade routine by the Polylang plugin. <a href=\"https://github.com/impress-org/Give/issues/2747\">#2747</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The donation form now resets when you go back from the donation confirmation page. <a href=\"https://github.com/impress-org/Give/issues/2091\">#2091</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "This update includes additional health checks for the 2.0.0 release. We've switched from using WP_Query to move data to direct SQL queries to prevent query manipulation by other plugins and themes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: MySQL error aftering updating Email Preview on Windows 64-bit OS. There was also a database error on the donations list page in the backend on Windows 64-bit OS. <a href=\"https://github.com/impress-org/Give/issues/2677\">#2677</a>, <a href=\"https://github.com/impress-org/Give/issues/2677\">#2677</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: View all donations link on the donation forms list screen wasn't properly redirecting to the filtered results. <a href=\"https://github.com/impress-org/Give/issues/2683\">#2683</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Updating the Currency Position resulted to a confusing user experience unless you saved it. <a href=\"https://github.com/impress-org/Give/issues/2667\">#2667</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The {billing_address} tag was displaying blank on PDF receipts. <a href=\"https://github.com/impress-org/Give/issues/2707\">#2707</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: If an issue with an upgrade progress happens there is now a pause and restart functionality built in. It is not recommended that you actually use the pause feature inless you're absolutely positive there was an issue with the update. <a href=\"https://github.com/impress-org/Give/issues/2676\">#2676</a>, <a href=\"https://github.com/impress-org/Give/issues/2671\">#2971</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI/UX: Revised field descriptions for the donations importer. <a href=\"https://github.com/impress-org/Give/issues/2688\">#2688</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI/UX: Added an email icon to the per form emails tab. <a href=\"https://github.com/impress-org/Give/issues/2680\">#2680</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added the database table prefix to the system info settings. <a href=\"https://github.com/impress-org/Give/issues/2678\">#2678</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "This update includes a number of health checks for the 2.0.0 release. For a post reflection on the Give 2.0.0 release and additional developer information on the 2.0.1 release please read the <a href=\"https://github.com/impress-org/Give/issues/2695\">Give 2.0.1 checklist</a> as well as <a href=\"http://docs.givewp.com/2-0-release-reflection\">Give 2.0 Release Reflection</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Donors are now required to actually add content into the First Name field and not just use a space character to pass the validation. <a href=\"https://github.com/impress-org/Give/issues/2562\">#2562</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Sorting by donation statuses wasn't returning the expected results in wp-admin. <a href=\"https://github.com/impress-org/Give/issues/2400\">#2400</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a nonce verification to donation forms for additional security. <a href=\"https://github.com/impress-org/Give/issues/2568\">#2568</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Renamed the give_customers and give_customermeta tables to give_donors and give_donormeta. <a href=\"https://github.com/impress-org/Give/issues/1960\">#1960</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The plugin's images are now minified for faster load times. <a href=\"https://github.com/impress-org/Give/issues/1035\">#1035</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The upgrade process now works in the background and is much more reliable on various server environments. You can also view overall progress in percentage format and see a stepped progress bar on the upgrade screen. <a href=\"https://github.com/impress-org/Give/issues/2531\">#2531</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Implementing query caching in wp-admin for intense queries. You should see improved load times now when viewing your donations, donors, reports and more. <a href=\"https://github.com/impress-org/Give/issues/1944\">#1944</a>, <a href=\"https://github.com/impress-org/Give/issues/2121\">#2121</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Revamped how donors can create an account when giving. Rather than adding additional form fields there's now a single \"Create an account\" checkbox. If checked upon submission of the donation a new WP User will be automatically created for that donor. <a href=\"https://github.com/impress-org/Give/issues/1517\">#1517</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: You can now set donation goals based on total number of donations. For instance, setting a goal to accept 500 total donations is now possible. This is useful if you don't want to show amount or percentage based goals. <a href=\"https://github.com/impress-org/Give/issues/1443\">#1443</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The tooltip library being used has been switched from qTip2.js to Hint.css. Not only do the new tooltips look nicer, they are also more light weight and have better compatibility with the various WP themes. <a href=\"https://github.com/impress-org/Give/issues/619\">#619</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Donors can now have multiple addresses attached to their profiles. This is helpful in the case of donors having a separate billing and mailing address and also to segment other addresses like Gift Aid addresses, etc. <a href=\"https://github.com/impress-org/Give/issues/370\">#370</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The email system within Give has been revamped so it's easier to toggle on or off and customize the various notifications all via one interface. <a href=\"https://github.com/impress-org/Give/issues/1346\">#1346</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: We have refactored how Give stores data so it's much more scalable now. This means implementing custom tables and our own database schema. We've worked hard to ensure the upgrade routine works without an issue but be sure to make a backup just in case. <a href=\"https://givewp.com/prepare-for-give-2-0/\">How to Prepare Your WordPress Site for Give 2.0</a>, <a href=\"https://github.com/impress-org/Give/issues/1132\">#1132</a>, <a href=\"https://github.com/impress-org/Give/issues/1148\">#1148</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"http://bit.ly/WPORGGive\" title=\"Visit the Give website\">Visit the Give website</a></strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Find out more:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"http://bit.ly/WPORGGiveFeaturesDonors\">Complete Donor Management</a></strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"http://bit.ly/WPORGGiveFeaturesReporting\">Full-Featured Reporting</a></strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"http://bit.ly/WPORGGiveFeaturesForms\">Powerful Donation Forms</a></strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"http://bit.ly/WPORGGiveDemos\" title=\"Give Demos Showcase\">View Give demos</a></strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"http://bit.ly/WPORGGiveFeatures\" title=\"Give Features Showcase\">View Give features</a></strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"http://bit.ly/WPORGGive\" title=\"Visit the Give website\">Give Website</a></strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Integrate with third-party services via our Give API"
+msgstr ""
+
+#. Found in description list item.
+msgid "Generate tax-deductible receipts"
+msgstr ""
+
+#. Found in description list item.
+msgid "View a complete history of your donor activity"
+msgstr ""
+
+#. Found in description list item.
+msgid "Measure performance across multiple campaigns."
+msgstr ""
+
+#. Found in description list item.
+msgid "Filter reports by date, form, and payment method."
+msgstr ""
+
+#. Found in description list item.
+msgid "Control your data with exports and reports"
+msgstr ""
+
+#. Found in description list item.
+msgid "Get a complete overview of your donation activity"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add goals, multiple giving amounts, custom amounts, terms and conditions and more with just a couple clicks"
+msgstr ""
+
+#. Found in description list item.
+msgid "Give inherits your themes styles so it integrates seamlessly out of the box"
+msgstr ""
+
+#. Found in description list item.
+msgid "Build custom donation forms in your WordPress admin"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use Give for donations, and let WooCommerce or WP eCommerce or the like handle your products. They work alongside each other just fine. Your donors will be happy, your customers will be happy, and so will you."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "On top of that, customizing the plugin's terminology is a daunting task. You never want your users to receive an \"invoice\" for the donation \"product\" they \"purchased\". Rather, you'd like for them to receive a receipt for the donation they gave."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We actually built Give specifically to overcome many of the hurdles you have to go through in order to get an eCommerce plugin (like WooCommerce) to be streamlined for donations. You want to treat your donors right. No donor wants to add their donation to a cart and go through several page refreshes just to type their information in. You, as the site admin, don't want to have to change the word \"Products\" to \"Donations\" everywhere, and go through all the hoops of removing taxes and shipping either."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Give works great alongside all the most popular form plugins. Use Give for donations, and Caldera Forms, Ninja Forms, Gravity Forms or other for your general purpose intake forms. They'll work great alongside each other."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Form plugins are excellent solutions for general intake forms. That said, they most often lack substantial donation reporting features, and donor management options. They also lack a variety of presentation options like Give has for embedding your forms in different places throughout your site. If you want a \"Donate Now!\" button in the header of your site that opens in a modal, you'll most often have to do quite a bit of customization to get that working just right with form plugins -- but not with Give."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Yes! We have two different types of studies that highlight nonprofits in different ways.\n"
+"\"Give Stories\" are stories of how nonprofits or individuals implemented Give with success. <a href=\"http://bit.ly/WPORGGiveStories\">You can read them all here</a>.\n"
+"\"Case Studies\" are more detailed examples of how an agency implemented Give for a specific purpose for an organization. <a href=\"http://bit.ly/WPORGGiveCaseStudies\">You can read those here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! We have several live examples of Give and the wide variety of form options you can use with Give. Check out <a href=\"http://bit.ly/WPORGGiveDemos\">our Demos here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://bit.ly/WPORGGiveSupport\">Priority support</a> is given to users who have an active license for one of Give's <a href=\"http://bit.ly/WPORGGiveAddons\">Add-ons</a> or <a href=\"http://bit.ly/WPROGGiveBundles\">Bundles</a>. We provide email-based support to our Premium Add-on customers with an average response time of under 2 hours and average time to resolution of 24-48 hours depending on the severity of the issue."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We work hard to the best support possible for Give. The <a href=\"https://wordpress.org/support/plugin/give\">WordPress.org Support Forum</a> is used for free community based support. We continually monitor the forum and do our best to ensure everyone gets a response."
+msgstr ""
+
+#. Found in installation list item.
+msgid "cURL version 5.40 or higher"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Join the <a href=\"https://www.facebook.com/groups/wp4nonprofits/\">WordPress for Nonprofits Facebook group</a>. We chat about all things related to WordPress and nonprofits there and very often about Give and online donations in general."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Translate Give into your native language. The best place to do that is here on wordpress.org. Go to <a href=\"https://translate.wordpress.org/projects/wp-plugins/give\">https://translate.wordpress.org/</a>, then search for your language, click the \"Plugins\" tab, then search for \"Give\". When you've submitted at least 95% of Give's strings, the language moderators will review and approve your translations and then they will be available to all WordPress users for your native language. If you are interested in translating any of our Premium Add-ons, <a href=\"https://givewp.com/contact-us\">contact us</a>, we'd love to chat with you about that."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Star/fork/watch the <a href=\"https://github.com/impress-org/Give\" title=\"Visit the Give GitHub Repo\">Give GitHub repository</a> to learn more about what issues we're tackling and the project is developing. If you've never worked with Github before, learn about <a href=\"https://help.github.com/articles/about-pull-requests/\">pull requests here</a> and submit one for Give, we'd love to give you our feedback."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Here's a few ways you can contribute to Give:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is proudly open source (GPL license) and we're always looking for more contributors. Whether you know another language, can code like no one's business, or just have an idea, we would love your help and input."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Backed by a growing team of WordPress developers, support engineers, and marketing professionals who've worked with WordPress and nonprofits since 2009. This means Give is made with best practices in mind; extremely extensible and customizable, stable, and reliable. We'll be here in years to come for you and your nonprofit organization."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For example, you can use one of our add-ons to accept funds through your favorite <a href=\"http://bit.ly/WPORGGivePaymentGateways\">payment gateway</a>, enable <a href=\"http://bit.ly/WPORGGiveRecurring\">recurring donations</a>, or send donor emails to your favorite email marketing platform. <a href=\"http://bit.ly/WPORGGiveAddons\" title=\"View all Give add-ons\">View all of Give's Add-ons</a> to discover all the ways you can further enhance and extend Give."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Give's goal is to \"Democratize Generosity.\" We want to make it easy for <em>everyone</em> to raise funds online. The money you raise using Give is yours to support your cause. Period. We are supported through the sale of <a href=\"http://bit.ly/WPORGGiveAddons\" title=\"View all of Give's Premium Add-ons\">premium Give add-ons</a>. Add-ons enable advanced features that enable you to extend the functionality of Give."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you are a Give customer with an active license of any of our popular add-ons, we'd love to hear from you and support you via our <a href=\"http://bit.ly/WPORGGiveSupport\">Priority Support channel</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The strength of Give lies within its optimized donation forms. When creating a form you may specify whether the form is a single or multi-level amounts. As well, you can allow donors to give a custom amount if you wish. The donation forms can then be displayed anywhere on your website using a shortcode, widget, or the single donation form page. Simply install and activate the plugin to get started."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our development and support team built Give from day one with best practices in WordPress development and online giving in mind. Give works great -- the \"WordPress way\" so you're already familiar with the interface once you begin using it."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You may have struggled with other WordPress donation plugins in the past; dealing with the lack of features, documentation, and support can be a real pain. There's a better way. Now you have Give and our entire team on <em>your</em> side."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If your nonprofit or cause depends on donations, you want to treat your donors right. Don't send them through a shopping cart or kick them off-site to a third-party platform. Give streamlines the giving process by allowing your donors to complete their donations directly on your website using an easy to complete donation form. As an admin, you have the customization options and reporting and donor management features you need in order to run successful giving campaigns."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With more than 40,000+ active installs of Give, we hear more and more success stories from nonprofit organizations using Give. Causes are using Give to raise millions of dollars per year. Check out some of our <a href=\"http://bit.ly/WPORGGiveStories\">Give Stories</a> and <a href=\"http://bit.ly/WPORGGiveCaseStudies\">Case Studies</a> for details about their success."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Give is free and yet is full of many advanced features to suit your needs. Slick donation forms, full-featured reporting, and donor management features provide you with the tools you need to accept donations and manage your donors."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Transform the way you accept online donations. With Give you can accept charitable gifts through customizable donation forms, view donation statistics and reports, manage donors, and integrate with a wide variety of third-party gateways and services."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"http://bit.ly/WPORGGive\" title=\"Visit the Give website\">Give</a></strong> is the highest rated, most downloaded, and best supported donation plugin for WordPress. Built from the ground up for all your fundraising needs, Give provides you with a powerful donation platform optimized for online giving."
+msgstr ""
+
+#. Found in description header.
+msgid "About the Give Team"
+msgstr ""
+
+#. Found in description header.
+msgid "Who Uses Give?"
+msgstr ""
+
+#. Found in description header.
+msgid "Give's Features"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://docs.givewp.com/custom-fields\">How to Create Custom Form Fields</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://docs.givewp.com/themeing\">Themeing with Give</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://docs.givewp.com/blog-chartjs\">Using the Give API to Create Charts with ChartJS</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://docs.givewp.com/blog-auto-populate\">Populate Donor Info with One Click</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://docs.givewp.com/blog-email-templates\">Create Dramatic Donation Email Receipts</a>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>This is an example of a simple, yet powerful, donation form that allows the user to input a custom amount.</p>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We have extensive documentation on installing and configuring Give <a href=\"http://bit.ly/WPORGDocs\">on our website</a>. We suggest starting with the <a href=\"http://bit.ly/WPORGGive101\">Give 101 article</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Do you have Case Studies of Nonprofits using Give?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do you have any demos?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I get support for Give?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I learn more about how to use Give?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Here's some great developer-oriented tutorials and docs to help you customize Give to your liking:"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Give has a dedicated support team to help answer any questions you may have and help you through stumbling blocks.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Give is thoroughly <a href=\"https://givewp.com/documentation\" title=\"Visit the Give documentation\">documented</a> to help you get started quickly and learn basic to advanced features and functionalities.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Extend Give with a robust suite of powerful <a href=\"https://givewp.com/addons\" title=\"View all Give Add-ons\">Add-ons</a>. Accept recurring donations, credit cards, add custom form fields, and more!</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>In-depth donation reports allow you to track just how much your cause has raised over time. You can even export the data to CSV or PDF formats.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Don't need donation levels? No problem. You can set a default amount and allow your donor's to configure a custom donation amount to create a simple, yet powerful, donation form.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>The admin view of a donation form with multi-level amounts configured. Give's flexible options allow you to control whether the amounts output as radio buttons, a select field, or input buttons.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>The multi-level donation amount functionality allows you to set different giving levels for your donors to choose from. In addition, you can allow donors to specify custom donation amounts and even set donation goals.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Give makes the donation process simple and easy for your donors. This helps maximize conversion rates and further empower your cause.</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Donation form fields can appear within a modal window (as shown here), be revealed with a nice sliding animation, or display entirely on the page (default).</p>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Creating powerful donation forms is easy with Give. Simply install the plugin, create a new donation form, set the desired giving options, and publish!</p>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Are you a developer? Give is fully extendable. We built in an advanced templating system similar to the ones found in many of WordPress' top plugins that makes customizing many of Give's frontend elements upgrade proof and extremely flexible. Run into some trouble? We're here to help! Along with the plugin is a support team that is dedicated, fast to respond, and always willing to squash bugs and help troubleshoot."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Give is built by <a href=\"https://impress.org/\" title=\"Visit the developers of Give - Impress.org\">Impress.org</a>, our plugins are built from the ground up to be intuitive and easy to use. By following along with our <a href=\"http://docs.givewp.com/give101\" title=\"Give 101 - Getting started using Give to accept donations on WordPress\">Getting Started Guide</a>, setting up Give to accept donations on WordPress is simple and easy."
+msgstr ""
+
+#. Found in description header.
+msgid "Why Use Give for Donations?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How is Give better than an eCommerce plugin for accepting donations on WordPress?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How is Give better than a form plugin for accepting donations through WordPress?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Automatic updates should work like a charm; as always though, ensure you backup your site just in case."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "The manual installation method involves downloading our donation plugin and uploading it to your server via your favorite FTP application. The WordPress codex contains <a href=\"https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation\">instructions on how to do this here</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "In the search field type \"Give\" and click Search Plugins. Once you have found the plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking \"Install Now\"."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't need to leave your web browser. To do an automatic install of Give, log in to your WordPress dashboard, navigate to the Plugins menu and click \"Add New\"."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Some payment gateways require fsockopen support (for IPN access)"
+msgstr ""
+
+#. Found in installation list item.
+msgid "MySQL version 5.0.15 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "PHP version 5.6 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "WordPress 4.8 or greater"
+msgstr ""
+
+#. Found in installation header.
+msgid "Updating"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Automatic installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Minimum Requirements"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Stay in touch with us for important plugin news and updates:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For new users, we suggest reviewing our <a href=\"http://bit.ly/WPORGDocs\" title=\"Visit the Give docs\">documentation</a> to get an understanding of how the plugin works. If you run into any trouble, we offer <a href=\"https://wordpress.org/support/plugin/give\" title=\"Visit the Give support page on WordPress.org\">free support</a> to help you with your issues, questions, and concerns."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube https://www.youtube.com/watch?v=gNdEelhjoKE]"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://github.com/impress-org/Give\" title=\"Visit the developers of Give\">GitHub</a></strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://facebook.com/wpgive\" title=\"Visit the Give on Facebook\">Facebook</a></strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"http://eepurl.com/bggG99\" title=\"Subscribe to Give via MailChimp\">Newsletter</a></strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"http://bit.ly/WPORGGiveAddons\" title=\"View all Give Add-ons\">Give Add-ons</a></strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "Contribute to Give"
+msgstr ""
+
+#. Found in description header.
+msgid "Connect with Give"
+msgstr ""
+
+#. Found in description header.
+msgid "Easy to Customize and Enhance"
+msgstr ""
+
+#. Found in description header.
+msgid "Zero Commission Charges"
+msgstr ""
+
+#. Found in description header.
+msgid "First Time Users"
+msgstr ""
+
+#. Found in description header.
+msgid "Simple and Pain-Free Giving"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<a href=\"https://plugins.svn.wordpress.org/give/trunk/changelog.txt\">See full changelog here &gt;&gt;</a>"
+msgstr ""

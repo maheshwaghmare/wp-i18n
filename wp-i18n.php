@@ -1535,11 +1535,18 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			}
 		}
 
+		/**
+		 * wp wpi18n translate
+		 * @return [type] [description]
+		 */
 		function translate() {
 			include_once "lib/Gettext/src/autoloader.php";
 			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
 
-			$translations = Translations::fromPoFile( dirname(__FILE__) . '\meta-wordpress-org-de-ch.po' );
+			$file = 'meta-wordpress-org-mr';
+			$lang = 'mr';
+
+			$translations = Translations::fromPoFile( dirname(__FILE__) . '\\'.$file.'.po' );
 
 			$count = count( $translations );
 			$newly_translated = 0;
@@ -1559,7 +1566,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				if( empty( $translation_string ) && ! empty( $post_title ) ) {
 					$post_id = post_exists( $post_title );
 					if( $post_id ) {
-						$stored_string = get_post_meta( $post_id, 'language_de-ch', true );
+						$stored_string = get_post_meta( $post_id, 'language_' . $lang, true );
 						
 						if( ! empty( $stored_string ) ) {
 							//edit some translations:
@@ -1584,7 +1591,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			WP_CLI::line( 'COMPLETE - TRANSLATED ' . $newly_translated . ' STRINGS!' );
 
 			//Now save a po file with the result
-			$translations->toPoFile('locale.po');
+			$translations->toPoFile($file . '-translated.po' );
 
 			// //export to a php array:
 			// $translations->toPhpArrayFile('locales/gl.php');

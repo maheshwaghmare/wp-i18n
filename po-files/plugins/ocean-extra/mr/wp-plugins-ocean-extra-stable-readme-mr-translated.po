@@ -1,0 +1,683 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Ocean Extra - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-26T18:25:31+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Plugin name.
+msgid "Ocean Extra"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Some tweaks for an upcoming big update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Notices will not be displayed if Ocean White Label is used (you don't need to update if you don't use this white label plugin)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Dismiss button for the theme panel rating box so you can easily remove it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Missing CSS issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Contact Forms 7 replaced by WPForms for all free demos, which is a much better and flexible form plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with the [oceanwp_woo_free_shipping_left} shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: White screen if PHP under 5.6 is used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Slick script in Theme Panel &gt; Scripts &amp; Styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with the About Me widget in the customizer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Sticky Header notice automatically removed if one premium extension is activated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New setting in OceanWP Settings to select a custom footer per page/post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: New setting for the Custom Menu widget to allow you to open the sub menus at the parent link hover or via an icon click."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: issue with some shortcodes and Yoast SEO."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Theme Panel sidebar improved."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Social Share widget not displayed in the widget page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New premium extension Full Screen in the extensions page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New widget Social Share. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New premium extension \"Ocean Cookie Notice\" in the Extensions admin page. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: MailChimp widget improved, you just need to add your MailChimp API Key and List ID in Theme Panel &gt; Integration, and the form will don't redirect anymore."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Push Monkey integration, if you used it in the Theme Panel, you just need to install the official plugin: https://wordpress.org/plugins/push-monkey-desktop-push-notifications/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Typography settings for the Menu in the OceanWP Settings metabox."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "-Tweak: Theme Panel edited."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "-Tweak: OceanWP dashboard widget display the theme version."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"-Added: OceanWP News &amp; Updates widget in the WordPress dashboard so you can see the latest news of the theme.\n"
+"-Tweak: Licenses tab moved to an admin panel, more easier to access, Theme Panel &gt; Licenses.\n"
+"-Fixed: Color picker that close on Safari browser.\n"
+"-Fixed: $hashtag and $blocked_users user variables not defined for the Instagram widget.\n"
+"-Fixed: Mini cart issue on the Cart and Checkout page if the woo cart icon shortcode is used."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"-Added: Switch button to easily check or un-check every script for the Scripts &amp; Styles page.\n"
+"-Added: Upload setting for the Instagram widget if you want to add a profile picture, as it is not possible anymore to get it from the username.\n"
+"-Fixed: Instagram widget issue \"Images not found\"."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "-Fixed: Error in Theme Panel &gt; Extensions."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "-Fixed: 500 error on PHP 5.4."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"-Tweak: The activation/deactivation of the scripts and styles work on every hosts now.\n"
+"-Removed: Wishlist icon shortcode, with the TI WooCommerce Wishlist plugin you can use their \"[ti_wishlist_products_counter]\" shortcode, so if you use the theme shortcode, you need to replace it.\n"
+"-Removed: Rec. Plugins in Theme Panel, it can be confusing for new users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Font Awesome and Simple Line Icons styles was not disabled if no other styles was not un-checked."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Menu icons issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Twiiter widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Wishlist icon shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Cart icon shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Popup Login extension in Theme Panel &gt; Extensions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Theme Panel issue with PHP 5.6."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Core Extensions Bundle block in Theme Panel &gt; Licenses, so now, you just need to add one license to activate all premium extensions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Licenses issue on mulsite, now you can enable your premium extensions licenses for all your subsites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Scripts &amp; Styles issue on the Theme Panel page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Integration with Push Monkey, see Theme Panel &gt; Push Notifications."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Icons issue of the contact info widget on RTL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Better approch for the Scripts &amp; Styles, now the files are automatically updated after the theme update, no need to do it manually."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New options for the Contact Info widget to add a target to the links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Instagram and White Label extensions added in the extensions tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Small issue on the Scripts &amp; Styles page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deleted: Admin notice if OceanWP is not the theme used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deleted: Post tab in the OceanWP Settings metabox if it is not the Post post type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Three styles for the Contact Info widget, default, big icons and no icons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New fields in the Contact Info widget to allow you to add a URL for the Address, Phone and Mobile fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Save button for the About Me and Social widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with the Magnific Popup script when you disable a script in the Scripts and Styles page with external plugins who are using the same script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with the color control on the OceanWP Settings metabox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with the breadcrumb shortcode in the elementor editor mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Custom JS textarea in the customizer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Color fields in the Social Icons widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with some admin pages style."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Page header, page header heading and breadcrumb issue if there disabled in the customizer and you want enable them per page/post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The fields to enter your licenses key are now hidden so you can use them for your customers.."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter to remove the admin notice to get Ocean Hooks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Spanish language, thanks to Angel Julian Mena."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: OceanWP Settings metabox in Anywhere Elementor post type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: 500 error issue if you use an outdated OceanWP version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Scripts and styles files path."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Parallax Footer script in Theme Panel &gt; Scripts &amp; Styles, so you can disable it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New shortcode to display the breadcrumb where you want: [oceanwp_breadcrumb]."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New options in the Title tab in OceanWP Settings to disable the page title heading per page/post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New options in OceanWP Settings to add different parent menu items color per page/post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New options in OceanWP Settings to add a different max width and max height for your logo per page/post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New options in OceanWP Settings to add a different logo and retina logo per page/post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New option in OceanWP Settings to select a header per page/post, the header style options need to be set via the customizer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"Both Sidebars\" layout in OceanWP Settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Now you can add HTML code in the text field of the About Me widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Capabilities for the OceanWP Settings metabox with \"manage_options\" by default, you can change it with the \"ocean_main_metaboxes_capabilities\" filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Blog entries CSS issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Transparent header style issue in the edit mode of elementor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Links Effect style in Scripts &amp; Styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Shortcode in the My Library post type, now you can create a template via this post type and insert it where you want via the Shortcodes tab of the OceanWP Settings metabox, work with any page builder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improvement for the Scripts &amp; Styles feature. If you see that your site's CSS is malfunctioning, go to your WordPress dashboard, click Theme Panel &gt; Scripts &amp; Styles, and click Save Changes. This will create a new JS and CSS files if you have disabled an JS or CSS field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Your posts can be displayed on the Recent Posts widget even if there is no thumbnails."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: French translation, thanks a lot to Jean of freepixel.net."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"My Library\" tab in Theme Panel, this post type will be used for your custom header, custom footer, custom error page, etc... The old way (pages select) still work but it is better to import your content directly into this new post type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Portfolio extension in the Extensions tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with the top bar menu with the center header style."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: JS error with the Fixed Footer script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New Typography control for the metabox to use it in extensions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Some code improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Admin notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Double lighbox icon on the single product images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Code improvements for the metabox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Review box instead of the affiliate box."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Ajax for the [oceanwp_woo_free_shipping_left] shortcode, now when you'll add a product on your cart, the free shipping left amount will updated automatically."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Mobile menu with the Custom Header Nav widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deleted: Customizer unnecessary sections."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue when disabling Font Awesome and Simple Line Icons, did not work anymore."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Theme Panel issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved Extensions admin page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved Theme Panel page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue when you add HTML code in the content of the contact info widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with disabling customizer's panels via Theme Panel, if you have disabled customizer panels, you have to do it again, sorry for that."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue when you add the OceanWP widgets in your page with Elementor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New WooCommerce shortcode \"[oceanwp_woo_free_shipping_left]\" to display the amount left to get free shipping."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New WooCommerce shortcode \"[oceanwp_woo_cart_items]\" to display the total items number of your cart."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New WooCommerce shortcode \"[oceanwp_woo_total_cart]\" to display the total amount of your cart."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"Breadcrumbs\" tab and fields in the OceanWP Settings metabox to show/hide and customizer the breadcrumbs per page/post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"Shortcodes\" tab in the OceanWP Settings metabox to allow you to add shortcodes before/after elements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"Rec. Plugins\" tab in Theme Panel to easily allow you to install recommended plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New way to add an icon for your menu items, now you can see available icons, change the size, put your icon before/after or above text, hide text, etc."
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Short description.
+msgid "Ocean Extra add extra features to OceanWP like widgets, metaboxes, activate/desactivate the customizer sections, enable/disable the theme&#039;s scrip &hellip;"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Ocean Extra add extra features to <a href=\"https://oceanwp.org/\">OceanWP</a> like widgets, metaboxes, activate/desactivate the customizer sections, enable/disable the theme's scripts and styles, import/export and a panel to activate the premium extensions.\n"
+"This plugin requires the <a href=\"https://oceanwp.org/\">OceanWP</a> theme to be installed."
+msgstr ""
+
+#. Found in faq header.
+msgid "I installed the plugin but it does not work"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This plugin will only work with the <a href=\"https://oceanwp.org/\">OceanWP</a> theme."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Done!"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Upload <code>ocean-extra</code> to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Screenshot description.
+msgid "Custom CSS."
+msgstr ""
+
+#. Screenshot description.
+msgid "Customizer panels."
+msgstr ""
+
+#. Screenshot description.
+msgid "The meta boxes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: WooCommerce CSS updated to fix the small issue with the products categories images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Small issue with some scripts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deleted: oceanwp_insta_square image size, no need anymore."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Small issue with the Custom Menu widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Layouts names modified, from No Sidebar to Full Width and Full Screen to 100% Full Width."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Tags cloud widget, now you can add your own style (background, color, font size, text-transform, etc...)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New shortcode \"[oceanwp_current_user]\", see the <a href=\"http://docs.oceanwp.org/article/433-oceanwpcurrentuser-shortcode\">documentation</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Scripts Panel tab to allow you to enable or disable any scripts from the theme to improve your loading speed, thank you a lot to Steeve Lefebvre for helping me with this."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"Custom Sidebar\" extension in the extensions tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improvement exporter settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support OceanWP 1.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: RTL support for the metaboxes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"Ocean Hooks\" and \"Ocean Posts Slider\" extensions in the extensions tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"Sidebar\" section in the Theme Panel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue with select on the admin product page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Error 500 fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Ocean Sticky Footer in the extension tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Small issue with the post type select in the recent post widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: All widgets have been added in this plugin because some things are not allowed in a theme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The [ocean_logo] and [ocean_nav] shortcodes have changed to [oceanwp_logo] and [oceanwp_nav], so if you use its shortcodes on your site, you need to update them."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New shortcodes: <a href=\"http://docs.oceanwp.org/category/369-shortcodes\">see the documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Dynamic date shortcode: <a href=\"http://docs.oceanwp.org/article/367-add-a-dynamic-date-in-the-footer-bottom\">see the documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New fields to add image attributs for the background image of the page header."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improvement of the licenses fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Select2 script replaced by Selective to prevent conflict."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Ocean Modal Window added in the extension tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Color picker script moved to use it in all metaboxes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Admin script loaded only when necessary."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Import issue with WordPress 4.7.1/4.7.2 bug affecting uploads."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deleted: Posts Slider shorcode from this plugin, added directly into the free Ocean Posts Slider extension."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New settings to enabled/disabled the top bar, header, footer widgets and footer bottom per page or per post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Large improvement of metabox options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Shortcodes for the custom header (available in OceanWP 1.1.1)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: OceanWP Settings into the Library post type of Elementor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deleted: Custom CSS tab (Since version 1.0.9 the CSS is imported directly into the customizer)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improvement of referral urls for affiliation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved style for the Import/Export tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New field in the Title tab in the metabox to add a custom color to the overlay title."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New \"Ocean Demo Import\" extension in the extensions tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New import/export tab to easily import or export your settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Posts Slider shortcode, see the documentation for more infos."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New field in the Main tab in the metabox to add shorcode to the top of the page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Modified capability to manage options for the Custom CSS tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New field in the OceanWP Settings meta box to add an overlay to the background image title."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add documentation link in the panel."
+msgstr ""

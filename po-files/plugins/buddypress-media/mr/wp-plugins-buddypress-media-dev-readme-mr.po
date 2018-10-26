@@ -1,0 +1,3524 @@
+# Translation of Plugins - rtMedia for WordPress, BuddyPress and bbPress - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - rtMedia for WordPress, BuddyPress and bbPress - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-30 07:23:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - rtMedia for WordPress, BuddyPress and bbPress - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Add albums, photo, audio/video upload, privacy, sharing, front-end uploads &amp; more. All this works on mobile/tablets devices."
+msgstr ""
+
+#. Plugin name.
+msgid "rtMedia for WordPress, BuddyPress and bbPress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Non authorized pdf files on WordPress uploads directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load More button issue with BuddyPress activity feed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Warnings and Notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "An issue for the \"redirect\" attribute used with uploader shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled Post Update button issue while adding BuddyPress Public Message post"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated correct support link on plugin's support tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"media_title\" attribute issue with uploader shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upload terms error message visibility issue with rtMedia uploader using BuddyPress legacy template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Read More\" link issue on BuddyPress Activity post with the Nouveau template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility of BuddyPress activity media upload section with Nouveau template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media privacy issue with BuddyPress Nouveau template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The issue with Load more button showing when there are no BuddyPress activities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lightbox scroll in mobile devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Broken media URL with multisite <a href=\"https://rtmedia.io/docs/features/upload-media/#activity-stream-for-multisite\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media privacy issue while editing media under moderation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default album deletion issue for personal data erase request"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/support/\" title=\"Visit rtMedia's support page\">Support</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Nouveau template issue with the error message of Upload terms in BuddyPress Activity stream"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with media privacy and search caused by conditional check for Nouveau template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "JavaScript issue with Upload terms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added translation support for “Search Media” string"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added JavaScript hook to handle uploader slide event <a href=\"https://rtmedia.io/docs/developers/hooks/rtmedia-js-hooks/#rtmediajsuploaderslideaftergalleryreload\">Doc</a>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "ENHANCEMENT"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load more button issue under the Music tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue while WordPress user deletion on multi-site setup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved performance by adding conditional check before enqueuing scripts and styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to modify text of Media tab <a href=\"https://rtmedia.io/docs/developers/hooks/rtmedia_media_tab_name/\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to change position of group media tab <a href=\"https://rtmedia.io/docs/developers/hooks/rtmedia_group_media_tab_position/\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed affiliate support with this version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added rtMedia specific privacy information for a site’s privacy policy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to change background color, text color and position of privacy message strip <a href=\"https://rtmedia.io/docs/developers/hooks/rtm_privacy_bar_position/\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added admin setting to show optional privacy notice to users <a href=\"https://rtmedia.io/docs/features/upload-terms/#show-privacy-message-on-the-website\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added upload terms premium feature to rtMedia core with this version <a href=\"https://rtmedia.io/docs/features/upload-terms/\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integrated with new personal data Erase/Export tools in WordPress 4.9.6 <a href=\"https://rtmedia.io/docs/features/gdpr-export-erase-personal-data/\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added functionality to Import/Export rtMedia admin settings <a href=\"https://rtmedia.io/docs/features/export-import-rtmedia-settings/\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated BuddyPress templates for <a href=\"https://wordpress.org/plugins/buddypress/\">version 3.0.0</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Empty textbox validation under the terms settings"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/docs/features/upload-terms/\" title=\"Upload Terms\">Upload-Terms</a></strong> - This feature is useful to set terms of services page on website during user upload media on website."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue with latest BuddyPress release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Conflict of empty comment check with other validation message location"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media gallery conflict with rtMedia Upload By URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media player height issue on single media page for video"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gallery swipe gesture with all the WordPress themes older than Twenty Fifteen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved media count display for large numbers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set auto focus for key field on the Licenses Page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor UI issues for mobile users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI issue for comment media upload button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Console warning for FireFox browser"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Option button’s visibility issue with twentyseventeen theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI issue with Back button on the edit media page for theme twentyseventeen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lightbox height issue with rtMedia media comments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved license verification process of rtMedia add-ons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with rtMedia comment count under BuddyPress activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BuddyPress activity media upload conflict with <a href=\"https://rtmedia.io/products/rtmedia-upload-terms/\">rtMedia Upload Terms</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added informative message while uploading media without enabling media type setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added check for empty comments on media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added check for BuddyPress activity component while adding comment on media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Visibility issue with Edit &amp; Delete action links after first media upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved edit media process with single save button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to customize existing progress bar <a href=\"https://rtmedia.io/docs/developers/hooks/rtmedia-js-hooks/#rtmcustomprogressbarcontent\">Doc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added intuitive left-right swipe gesture guide while opening gallery for the first time on mobile"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgraded MediaElement library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a check for BuddyPress Group component while using bp_before_member_header action"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve localization, thanks to <a href=\"https://github.com/xavivars\">xavivars</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upload multiple images on mobile devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media display issue if masonry view is disabled and width is set to zero"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>media_title</code> attribute was not working for gallery shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Medium image size not working correctly with zero height"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fatal Error in gallery search if BuddyPress is not installed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upload falls over while using special characters into filename"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pagination issue with album search"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI issue of media close button on Twenty Seventeen theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Notices of \"Undefined offset\" and \"get property of non-object\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BuddyPress activity upload issue with Microsoft Edge"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Buttons UI of edit media screen for default WordPress themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Unit text (MB/KB) of media size doesn't display correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add filter to change the \"alt\" attribute value for photos in media gallery <a href=\"https://rtmedia.io/docs/developers/hooks/rtmc_change_alt_text/\">Documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Broken thumbnails in sidebar widget gallery and sorting gallery shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI issue for music player when opened in the lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue editing album when pagination is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load more issue for albums tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI for caret under like button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP notice and warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cancel media search button issue under albums tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Duplicate \"no media found\" message under media gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gallery reload issue while uploading new media under a single album page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media search issue under album"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced HTML comments '&lt;!-- --&gt;' with PHP comments '&lt;?php // ?&gt;'"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "NEW"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Like button will display in the right sidebar of light box even when media comments are deactivated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "White strip-line issue in lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue while playing video on IOS safari"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "rtMedia shortcode uploader issue with IOS mobile safari browser"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing data in debuginfo file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed trimming media name issue when it contains a dot in the name"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Audio player display issue in lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Applied Post Update button style once the document is ready instead of window load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter to change the text \"Are you sure you want to delete this media?\" <a href=\"https://rtmedia.io/docs/developers/hooks/rtmedia_delete_prompt_message/\">Documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added media description parameter in JSON API <a href=\"https://rtmedia.io/docs/developers/json-api/#media-upload\">Documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added album description input while creating an album <a href=\"https://rtmedia.io/docs/features/view-media/#album-description\">Documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added search functionality in Media Gallery <a href=\"https://rtmedia.io/docs/features/upload-media/#search-media\">Documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enabled Masonry Cascading grid layout for BuddyPress Activity feed <a href=\"https://rtmedia.io/docs/features/lightboxes-masonry/#masonry-activity-feed\">Documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"What's new\" section not getting properly styled on page load <a href=\"https://rtmedia.io/docs/troubleshooting/post-update-upload-media-privacy-buttons-not-appearing/\">Documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "After uploading media, the Upload panel will now collapse"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Albums will now display media count by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security issues pointed out by James Golovich"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bulk delete in Media library Dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "rtMedia settings to unable or disable likes for Media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Comment Media - User can upload media in comment box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pagination and navigation fix in media tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove media titles from media tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Edit media feature when BuddyPress activity stream component is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "JavaScript error while deleting media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvise comment media admin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "rtMedia action button alignment issue on the single media page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set as Album Cover button UI issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media attachment button issue under rtMedia comment section"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Inconsistent name display in the Activity stream"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Attach media button issue in comments for IOS devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter which allows replacing the text \"Like/dislike\" with any icon <a href=\"https://rtmedia.io/docs/developers/hooks/rtmedia_like_label_text-rtmedia_like_undo_label_text/\">Documentation</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-seo/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia SEO\">rtMedia-SEO</a></strong> - Generate XML sitemap of all the public media files uploaded via rtMedia plugin, also compatible with <a href=\"https://wordpress.org/plugins/wordpress-seo/\" title=\"Yoast SEO\">Yoast-SEO</a> plugin if you are already using on your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://wordpress.org/plugins/transcoder/\" title=\"Audio/Video Transcoding Service\">Audio/Video Transcoding Service</a></strong> - If free plan is not enough for you, there is monthly subscription service also. Easiest to setup."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "rtMedia is the <strong>only</strong> complete media solution for WordPress, BuddyPress and bbPress, and is <strong>WordPress.com VIP</strong> compatible."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "rtMedia uses the following projects/sources for some functionality"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "(<strong>Note</strong>: Credits are given for translations that are at least 50% complete.)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "rtMedia includes <a href=\"https://rtmedia.io/docs/translations/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\">full translation support</a>. Head over to the <a href=\"https://rtmedia.io/translate/projects/rtmedia/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\">translation project</a> to contribute your translations. If you don't see the language of your choice, let us know in the support forum, we'll add it."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://backbonejs.org/\">Backbone.js</a> for an MVC architecture for the frontend"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://foundation.zurb.com/\">Foundation</a> for the media grid and layout"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://getid3.sourceforge.net/\">getID3</a> gets us some ID tags for the media"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://dimsemenov.com/plugins/magnific-popup/\">Maginific Popup</a> for responsive lightbox"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://mediaelementjs.com/\">MediaElement.js</a> for html5 audio/video player"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/de/default\">German</a> translation by [hannes.muc]"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/fa/default\">Persian</a> translation by <a href=\"http://profiles.wordpress.org/mahdiar/\">mahdiar</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/it/default\">Italian</a> translation by [Yukiko.Kawa]"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/sk/default\">Solvak</a> translation by <a href=\"http://profiles.wordpress.org/igid26\">igid26</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/es/default\">Spanish</a> translation by <a href=\"http://profiles.wordpress.org/naturalworldstm/\">Andrés Felipe</a> and [d3ne]"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/pl/default\">Polish</a> translation by <a href=\"http://profiles.wordpress.org/polski_ziom\">Polski_Ziom</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/nl/default\">Dutch</a> translation by <a href=\"http://profiles.wordpress.org/rjpj\">rjpj</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/it/default\">Italian</a> translation by [Paolo]"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia/nl/default\">Dutch</a> translation by [carry2web] (http://profiles.wordpress.org/carry2web)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Richard Ellis has sponsored the profile picture along with the link back to the profile in the media pop ups."
+msgstr ""
+
+#. Found in description list item.
+msgid "优素映像 (Yousu Image) has sponsored the latest <em>Like</em> feature which doesn't depend on BuddyPress, any more."
+msgstr ""
+
+#. Found in description list item.
+msgid "<em><a href=\"http://profiles.wordpress.org/henrywright-1\">Henry Wright</a></em> has kindly sponsored the <em>Featured Media</em> feature."
+msgstr ""
+
+#. Found in description header.
+msgid "Credits"
+msgstr "क्रेडिट"
+
+#. Found in description header.
+msgid "Translation"
+msgstr "भाषांतर"
+
+#. Found in description header.
+msgid "Sponsors"
+msgstr "प्रायोजक"
+
+#. Found in faq paragraph.
+msgid "Read rtMedia <a href=\"https://rtmedia.io/docs/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\">Documentation</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please visit <a href=\"https://rtmedia.io/faq/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"Visit rtMedia's FAQ page\">rtMedia's FAQ page</a>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate it through the 'Plugins' section."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Alternatively, you can <a href=\"http://downloads.wordpress.org/plugin/buddypress-media.zip\" title=\"Download rtMedia\">download</a> the plugin from the repository. Unzip it and upload it to the plugins folder of your WordPress installation (<code>wp-content/plugins/</code> directory of your WordPress installation)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install the plugin from the 'Plugins' section in your dashboard (Go to <code>Plugins &gt; Add New &gt; Search</code> and search for rtMedia)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "rtMedia has 3 premium solutions to take care of audio/video conversion."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "http://www.youtube.com/watch?v=dJrykKQGDcs"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Since rtMedia has many features video doesn't include all features:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you're in a hurry, you can skip the long list of features in subsequent sections and just explore live demos!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Built with a mobile-first approach, it works on mobile/tablet devices (like iPhone/iPad, Android)."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/translate/projects/rtmedia?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\">Translations</a> - Please do NOT use Github for translations. Instead Use <a href=\"https://rtmedia.io/translate/projects/rtmedia?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\">this GlotPress project</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://github.com/rtmediawp/rtMedia/\">GitHub</a> - Please mention your wordpress.org username when sending pull requests."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/faq/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"Visit rtMedia's FAQ page\">FAQ</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/docs/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"Visit rtMedia's Documentation page\">Documentation</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedia.io/roadmap/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"Visit rtMedia's Roadmap page\">Roadmap</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://rtmedio.io/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"Visit rtMedia's Project Homepage\">Project Homepage</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-set-custom-thumbnail-for-audiovideo/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Set Custom Thumbnail for Audio/Video\">Set-Custom-Thumbnail-for-Audio/Video</a></strong> - Allow media owner to change the thumbnail of uploaded audio/video files."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-buddypress-group-media-control/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia BuddyPress Group Media Control\">BuddyPress-Group-Media-Control</a></strong> - Allow group owner to provide media upload feature for their group."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-album-privacy/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Album Privacy\">Album-Privacy</a></strong> - Set album privacy when user create new albums or edit album."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-shortcode-generator/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Shortcode Generator\">Shortcode-Generator</a></strong> - The shortcode generator button added in WordPress post and page editor for all the rtMedia shortcodes."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-view-counter/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia View Counter\">View-Counter</a></strong> - Enable view count for all the uploaded media."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-activity-url-preview/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Activity URL Preview\">Activity-URL-Preview</a></strong> - This addon provides a preview of the URL that is shared and shows up on BuddyPress activity."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-likes/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Likes\">Likes</a></strong> - This add-on let you know who liked media. User can also see which media file he/she liked under user profile."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-upload-by-url/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Upload by URL\">Upload-by-URL</a></strong> - Allow users to upload media using absolute URL."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-direct-download-link/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Direct Download Link\">Direct-Download-Link</a></strong> - This addon provide a download button for all the uploaded media."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-album-cover-art/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Album Cover Art\">Album-Cover-Art</a></strong> - Allow users to set album cover from uploaded image."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-buddypress-profile-picture/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia BuddyPress Profile Picture\">BuddyPress-Profile-Picture</a></strong> - Allow users to set their profile picture from existing uploaded media file."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-bulk-edit/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Bulk Edit\">Bulk-Edit</a></strong> - Allow users to move files from one album to another, change attributes, change privacy, delete files in bulk."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-sorting/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Sorting\">Sorting</a></strong> - Sort uploaded media based on file size, ascending/descending title, upload date of media."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-edit-mp3-info/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia - Edit Mp3 Info (ID3 Tags)\">Edit-Mp3-Info-(ID3 Tags)</a></strong> - Allow user to edit MP3 FIle Audio tags (ID 3 tags)."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-star-ratings/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia 5 Star Ratings\">5-Star-Ratings</a></strong> - User can rate the media files from 1 to 5 star."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-sidebar-widgets/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Sidebar Widgets\">Sidebar-Widgets</a></strong> - This addon provide widgets to upload media and display gallery for rtMedia plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-social-sharing/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Social Sharing\">Social-Sharing</a></strong> - Share uploaded media on social network sites like Facebook, twitter, linkedin, Google+. This addon integrate with <a href=\"https://wordpress.org/plugins/rtsocial/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\">rtSocial</a> plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-wordpress-comment-attachments/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia WordPress Comment Attachments\">WordPress-Comment-Attachments</a></strong> - Allow users to upload a media file in WordPress comment attachment box."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-wordpress-sitewide-gallery/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia WordPress Sitewide Gallery\">WordPress-Sitewide-Gallery</a></strong> - Site admin can create and upload media into WordPress album."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-bbpress-attachments/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia bbPress Attachments\">bbPress-Attachments</a></strong> - Attach media files to bbPress forum topics and replies."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-restrictions/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Restrictions\">Restrictions</a></strong> - Site admin can set limits in terms of total size &amp; file count."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-podcast-feed/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Podcast (RSS and Atom feeds)\">Podcast-Feed</a></strong> - Read rtMedia uploads from iTunes as well as any RSS feed-reader/podcasting software."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-default-albums/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Default Albums\">Default-Albums</a></strong> - This plugin allows the creation of multiple default albums for rtMedia uploads."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-docs-files/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Docs and Other files\">Docs-and-Other-files</a></strong> - This plugin allows uploading for doc, pdf and other file types such as zip, tar, etc."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-custom-attributes/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Custom Attributes\">Custom-Attributes</a></strong> - This plugin is for categorizing media using attributes defined by site owner when uploading."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-moderation/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Moderation\">Moderation</a></strong> - This plugin is for reporting media if user find offensive."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-favorites/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Favorites\">Favorites</a></strong> - This plugin allows users to create their own list of favorite media."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-playlists/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Playlists\">Playlists</a></strong> - This plugin is used to create a playlist for uploaded music file with rtMedia."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-cubepoints/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia CubePoints\">CubePoints</a></strong> - It allows you to integrate rtMedia with CubePoints and award virtual points for various rtMedia activities, like upload media, delete media, create albums, playlists, etc."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-mycred/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia myCRED\">myCRED-Points</a></strong> - It allows you to integrate rtMedia with myCRED and award virtual points for various rtMedia activities, like media upload, likes, deleted, albums creation, playlist, etc."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-social-sync/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Social Sync\">Social-Sync</a></strong> - It allows you to import media from your Facebook account."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-membership/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Membership\">Membership</a></strong> - It provides membership functionality in your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-photo-watermark/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Photo Watermark Addon\">Photo-Watermark</a></strong> - rtMedia Photo Watermark add-on let you watermarked or copyright your uploaded photos.)"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-photo-tagging/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Photo-Tagging Addon\">Photo-Tagging</a></strong> - Users can tag their friends/other users in photos."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-photo-filters/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Instagram Addon\">Instagram-Effects</a></strong> - Users can apply Instagram like filters to photos."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-kaltura-add-on/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Kaltura Addon for Kaltura.com/Kaltura-CE/Kaltura On-Prem version\">Kaltura-Addon</a></strong> - Requires a Kaltura.com account or Kaltura-CE or Kaltura-on-Prem server."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/products/rtmedia-ffmpeg-addon/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia FFMPEG Addon\">FFMPEG-Addon</a></strong> - Requires FFMPEG &amp; Media-Node installed on a VPS/Dedicated server."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/docs/features/gallery/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Gallery\">rtMedia Gallery</a></strong> - Display media gallery anywhere on your site using <code>[rtmedia_gallery]</code> shortcode or <code>&lt;?php rtmedia_gallery ?&gt;</code> template tag."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/docs/features/upload/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"rtMedia Uploader\">rtMedia Uploader</a></strong> - Use <code>[rtmedia_uploader]</code> shortcode or <code>&lt;?php rtmedia_uploader() ?&gt;</code> template tag, to show drag-n-drop uploader in any WordPress area (post, page, custom-post, etc)."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://rtmedia.io/docs/developers/featured-media/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\" title=\"Featured Media documentation\">Featured Media</a></strong> - This can be used for facebook-style cover photo on profiles."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Templating system</strong> - Completely customise rtMedia by modifying the template files. Just copy over the template folder to your theme."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Privacy</strong> - Control who can see media files, albums and BuddyPress activities."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Responsive</strong> - Album Slideshow (Lightbox), video player, uploads work on mobiles &amp; tablets. Support for swipe guestures."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Albums</strong> - Organise media into manageable collections. BuddyPress Group albums support collaboration."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>BuddyPress Activity Stream</strong> - Attach media to activity status updates just like Facebook."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>BuddyPress Integration</strong> - Find a new media tab under BuddyPress Profiles &amp; Groups."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>WordPress Integration</strong> - Display media on WordPress author pages ( eg: http://demo.rtmedia.io/author/admin/media/ )"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://demo.rtmedia.io/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\">rtMedia Demo</a>"
+msgstr ""
+
+#. Found in description header.
+msgid "Important Links"
+msgstr ""
+
+#. Found in description header.
+msgid "rtMedia Premium Addons"
+msgstr ""
+
+#. Found in description header.
+msgid "Audio/Video Conversion"
+msgstr ""
+
+#. Found in description header.
+msgid "rtMedia Features"
+msgstr ""
+
+#. Found in description header.
+msgid "Video Tour"
+msgstr ""
+
+#. Found in description header.
+msgid "Live Demos"
+msgstr ""
+
+#. Screenshot description.
+msgid "Custom CSS settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Media Size Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "User Privacy Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Media Activity"
+msgstr ""
+
+#. Screenshot description.
+msgid "Media Edit View"
+msgstr ""
+
+#. Screenshot description.
+msgid "Single Media View"
+msgstr ""
+
+#. Screenshot description.
+msgid "Lightbox"
+msgstr ""
+
+#. Screenshot description.
+msgid "Uploader Thumbnails"
+msgstr ""
+
+#. Screenshot description.
+msgid "Uploader"
+msgstr ""
+
+#. Screenshot description.
+msgid "Album View"
+msgstr ""
+
+#. Screenshot description.
+msgid "Media View"
+msgstr ""
+
+#. Screenshot description.
+msgid "BuddyPress Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Privacy Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Media Settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Privacy for reported media in moderation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Warnings when uploading media in activity comment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter to change user id while fetching user's album list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change text in rtMedia setting for comment media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sorting &amp; Options issue in Media Tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unwanted fields in rtMedia support form"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "rtMedia gallery shortcode pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Warnings when user click on pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter to Change Media menu position in admin bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Action to Change rtMedia query before shortcode run"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: rtMedia Version Constant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Attachment upload in rtMedia support form"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load More issue on activity and group Tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Comment and Like for media delete issue in Group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Comment and Like Privacy issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed plugin's review link to rate on WordPress.org"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Addon validation checks will happen every six hours (only if addons installed)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Invalid license key notice appearing even when all keys are valid"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media upload error when activity stream is disabled from the backend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "JS error on media comments when activity stream is disabled from the backend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Audio / Video autoplay in Safari browser"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Section fluctuation when user drags media into activity box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added validation on custom CSS before saving"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Access rights to modify/update the rtMedia settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Direct access of a file"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "FIXED"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "ENHANCEMENTS"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "NEW FEATURES"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lightbox privacy symbol alignment issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed \"Activate License\" event bug in License tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed broken \"Import media sizes\" anchor link in admin notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS-related responsive video layout issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Video popup UI for vertical videos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link to comment in WordPress backend not leading back to comment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media description not saving properly when uploading multiple media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BuddyPress Group Media tab not displaying in Beta version 2.7.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Singular/plural form of \"n people liked this\" string"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Duplicate activity generation when \"Post Update\" is clicked multiple times"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"posted an update\" string not getting translated in Activity feed for posts with attached media. Added translation support for all \"rtmedia_update\" Activity type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Incorrect pagination text display in Media tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter to modify \"Options\" &amp; \"Upload\" labels in Media Gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter to disallow blank text field while uploading media in Activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter to add extra component to comments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Action to target area below media comments in lightbox or single media page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: \"Show more comments\" link in media pop-up (lightbox) and single media page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "rtMedia \"Support\" tab improvements- Directly attach a screenshot while submitting a support ticket Debug Info can now be easily downloaded as a .txt file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"Next\" / \"Previous\" navigation links to single media page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"@mentions\" in comments added to lightbox and single media page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix fatal error for older PHP version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix save settings button of manage media in group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the scroll bar on the media pop screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix UI/media broken on activity page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change string UNSET to REMOVE to improve the translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check for the valid URL structure for compatibility with multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update the notice messages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change the UI of addons license tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bootstrap css selector conflict"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add filters to alter the image/video URLS in activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix playlist settings not getting saved in groups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Divide rt-template-functions.php into four files (core functions, actions &amp; filters)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue related to media sorting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix broken UI when image information is edited/updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue where media query not reset properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add filter to change 'under' album text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue where multiple gallery shortcode not working together"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the attachment URL when rtAmazon S3 is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix video player fullscreen issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix audio player height issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix audio/video time duration on media thumbnail"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update the original audio URL with transcoded audio URL in activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add backward compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix notice undefined index"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add span tag to remove duplicity of activity content on thumbnail update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduced new <a href=\"https://wordpress.org/plugins/transcoder/\">Transcoder</a> plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove encoding service"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update read more media description with scroll"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix view counter not working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix media upload not working on Windows Servers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Media upload using json api"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update products page link on Admin Dashboard widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix warning for pagination links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix read more media description in media popup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for profile pic not changing on uploading photo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix hide rtMedia template files notice after click on dismiss"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make pagination work on opening page-link in new tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix html markup in support tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue more and less click on media description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bulk edit not working on delete and move"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Backward compability for PHP 5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix media uploading issue from activity for multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix delete activity for like and comment after media delete"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix warning for video encoding"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix filter_input warning for media in group creation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed single activity permalink issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed privacy issue in activity for BuddyPress 2.6.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the_content filter and used wpautop function for media description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Keep current tab active when traversing different media type tabs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed lightbox loading whole site"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed context &amp; context_id for profile media upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed time conversion issue in lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue of wpdb prepare statement missing argument"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed check of class_exist for group extension for BuddyPress 2.6 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed BuddyPress nav items in group issue for BuddyPress 2.6 with backward compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed esc_html causing stripping of html tags in rtMedia featured for WordPress VIP compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WordPress VIP compatibility added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed price for add-ons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed database error when deleting comment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated german language file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed CSS for twentysixteen theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed JS issue for tabs in media edit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed - Required changes done for rtmedia.io"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed - 404 Error for titles on bbPress templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed - JS issue for WordPress 4.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed - BuddyPress group privacy now depends on group status (public, private, hidden)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code Cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed minor bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the video &amp; audio player issue for activity load more"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed browser title if theme has title-tag support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Freemius SDK"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix XSS vulnerability (thanks to <a href=\"https://profiles.wordpress.org/sbrajesh/\">Brajesh</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update BuddyPress activity query filter for activity privacy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update privacy of all attached media on update of activity privacy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set media description before upload feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added BuddyPress activity for media likes and comments feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added update BuddyPress activity privacy feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix rtMedia add-on broken images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new hook in album gallery template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed media slug issue while deleting media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix undefined function call error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update korean and chinese language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Privacy issue fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upload media from BP activity without activity update text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "BP Notification feature for media likes and comments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update chinese translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix translation text domain"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Audio/video player CSS issue fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added thrive theme under rtMedia 3rd party themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix encoding service key save issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix undefined JS error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update rtMedia main template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "HTML5 Video Tag Support (with fallback)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "HTML5 Audio Tag Support (with fallback)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integration into BuddyPress Activities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warning on activities page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced codec finding library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admins can manage which media types to allow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Edit functionality for Media Title and Media Description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delete functionality fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the short open tag bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a few filters and actions for addon support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added checking for MP3 filetype and its content before uploading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added remaining modules of getID3 php library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for audio format added including *.mp3, *.ogg, *.wav, *.aac, *.m4a, *.wma."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for video format added including *.avi, *.mkv, *.asf, *.flv, *.wmv, *.rm, *.mpg."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added necessary hooks &amp; filters to support buddypress-media add-on creation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some changes in readme file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed some default values and normalized all files with end of file as line feed only"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed file uploading via iPhone."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the MediaElementJS player library."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added video thumbnail support for addons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the postmeta box bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin-option to disable download button below media files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Easy access to the backend admin-options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multiple file uploads with progress bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ajaxified pagination to make it easy to view large albums."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Album Support for Users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed anonymous function since its not supported in PHP versions &lt; 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the Notice that was generated on the albums page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified the upgrade loop to handle the sites with large number of media files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added custom message on delete activity action."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more verification to check whether the object being used is available or not."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixes bbPress conflict in_array() expects parameter 2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for media-count on albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug in upgrade script"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the Multisite issue for the options page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the \"Upgrade\" button issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some screen functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Featured image selection in albums"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Groups Media feature added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the warning on the \"New Post\" about the MYSQL query."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default permission for album creation in groups set to admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Version number constant."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Album creation on a single file upload. Thanks to <a href=\"http://profiles.wordpress.org/joshlevinson/\">Josh Levinson</a> for providing the fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed extra jQuery UI scripts and styles, for speed and optimisation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added proper translation support!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Total code overhaul. Fixed a lot of bugs and optimised a lot of other code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some more housekeeping, code cleanup and documentation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed conflicts with 'BuddyPress Activity Plus', thanks to <a href=\"http://profiles.wordpress.org/number_6/\">number_6</a> and <a href=\"https://github.com/param-veer\">param-veer</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed 'Show More' action on Group Album thanks to <a href=\"http://profiles.wordpress.org/bowoolley/\">bowoolley</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Widget added with more options!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some minor code changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with iOS uploads."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Workaround for bug where the last activity wouldn't show up."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where settings weren't getting saved on multisites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made minor changes for add-on compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added auto-update for add-ons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed latest activity formatting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Album renaming and deleting functionality."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Brazilian Portuguese, Spanish and Japanese languages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed translation readiness."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated upload UI. Now uploads are possible from all tabs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes for activity on multiple uploads."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes for admin notices on multisite installs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved long album title and count display."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where when a user visits another member's media tab when groups are inactive, they'd get an error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes warning on admin side."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added incomplete translations for German, Italian, French and Dutch languages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to toggle BuddyPress Media menu in admin bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A few bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed gallery responsiveness."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More code comments and documentation added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved settings screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Uploader UI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media tabs display now responds to admin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Polish language."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to enable/disable BuddyPress Media on Groups. (Profile toggle, coming soon)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other minor UI changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes thumbnail appearance and height issues with some themes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Major code refactoring"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved css and js"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rewritten query functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed download functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed featured functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed 'Featured' to 'Set as Album Cover' in the UI for clarity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed widget to recognize enabled/disabled media types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Revised media count functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added crude support for activity privacy (due for revision)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Privacy for Media."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warnings that appeared on non-upgrade of database."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed database upgrade issues due to js and css caching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactored database update checker to fix bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved group compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Special thanks are due to <a href=\"http://cg-creatives.com\">Stephan Oberlander</a> who let us use his site for testing and reproducing the errors!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed all warnings and errors with 2.6 thanks to <a href=\"http://wordpress.org/support/profile/dzapata79\">dzapata79</a>, <a href=\"http://wordpress.org/support/profile/davidsons\">Scott</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes other bugs in Privacy Update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes automatic count update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes load more on albums."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor Admin UI revisions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes default privacy levels."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes modular compatibility with friends component."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes modular compatibility with friends component. Thanks to <a href=\"http://community.rtcamp.com/users/cat555/?utm_source=readme&amp;utm_medium=plugin&amp;utm_campaign=buddypress-media\">Cat555</a> for reporting this."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactored code and styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug due to which edit/delete buttons would show up"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug in friends' privacy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added activity uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Revamped uploader UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds ajax loader to lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes bug with stylesheet loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes bug related to group ids."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes some styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes broken spinner image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes image rotation on upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Implements forced download for media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes mediaelement display"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds lightbox to activity media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves Group Wall Post handling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes warning related to scalar variables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor code revision"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed conflict with bootstrap-based themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to toggle lightbox functionality to prevent theme conflicts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Widget privacy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added french translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes image rotation for PHP &lt; 5.3 that caused upload failure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rewrites activity uploader to fix a lot of issues with themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes multimedia display on single media view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes duplicate comment box on lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes errors due to absence of EXIF"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other minor bug fixes, especially for Groups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with <a href=\"http://reallifescrapped.com\">reallifescrapped</a>, an awesome social network for scrapbookers by <a href=\"http://profiles.wordpress.org/oceanwidedesigns\">Meg</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds importer for BP Album"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved i18n support, thanks to <a href=\"http://profiles.wordpress.org/daveshine/\">David Decker</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds framework for shortcode support ( Functionality will be added in the next release )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes bug in js"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds thickbox to BuddyPress Media Widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Creates only required image sizes ( Rather than all registered image sizes )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds options to modify the image ( Crop, Rotate, Flip &amp; Scale )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds options to specify Media Sizes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added partial Arabic and Persian translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds localization to JS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds shortcode to display media [bpmedia]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds album management options (Merge/Move/Delete)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes bug in shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated translations, especially German and Persian"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds support for Tagging Addon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds framework for notifications"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes text-domain issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a <a href=\"https://github.com/rtCamp/rtmedia/issues/264\">bug in admin</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a few bugs related to notifications"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removes lightbox from mobile devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes comment posting on lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added media editing, deleting and other actions when activity stream is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature sponsored by <a href=\"http://profiles.wordpress.org/henrywright-1\">Henry Wright</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lets users add a featured image/video/audio for their profiles. Can be used to create \"Cover Photos\" or videos for each user using a template tag."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimises db queries for privacy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes bug in featured media that occurred when the featured media was deleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds support for audio/video conversion via rtCamp's Encoding Service"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations Updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds option to disable encoding"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolves delete album issue (when activity is enabled)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes bug in admin menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes bug in navigation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved admin menu warnings for members"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds parameter to include/exclude media title in shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes comments and media actions in the absence of activities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Author page integration (in the absence of BuddyPress)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds Anywhere media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds Anywhere uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed to rtMedia for WordPress, BuddyPress and bbPress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added database check for migration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Legacy path support for addon Updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed lightbox option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added album enable /disable option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Legacy code added for addon Updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed activity duplication issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with featured media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with audio/video uploads"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved template system"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed privacy issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed https problem in plugin update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide buddypress tab if not active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add like button count"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Handle delete media and activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed template issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove grid from gallery and activity for use defined size"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed encoding download issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed activity media upload issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed privacy issue in media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed photo tagging lightbox issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed template url issue for backbone"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Delete redirection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Activity Delete issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed group create album permission and add setting for group admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed image size issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed file format and mime type issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed hide activity on private group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed comment issue on media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed rewrite rule issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed post parent issue and regenerate thumbnail issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed privacy user setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed duplicate media in popup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed gallery and upload shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Feature image issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Setting for Upload media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Media Count"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix uploader for Mobile"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Dashboard Widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed backbone paging on custom shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed lightbox whitespace issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed image size issue in gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Context Null issue in activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed WordPress 3.6 attachment meta function issue &amp; mediaElementJs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added profile picture along with the link back to the profile in the media pop ups ( sponsored by Richard Ellis )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other minor bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Thanks to <a href=\"http://profiles.wordpress.org/kanakiyajay\">kanakiyajay</a> for replacing deprecated function split"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update SEO for media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed permalink and count issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed media player css issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed featured video issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed encoding service free subscription issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed group avatar blank page issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed activity mention issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add rtMedia JS hook for lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed getID3 issue for FFMPEG"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add redirect in upload shortcode sponsored by <a href=\"http://profiles.wordpress.org/henrywright-1\">Henry Wright</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Gallery shortcode issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Activity Privacy issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed single media issue (add preload for video)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix uploader for IE and Opera."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimize SQL query &amp; code for better performance ."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Change Video thumbnail for video in media edit screen (Admin &amp; Frontend)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Regenerate thumbnail option for video."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Thumbnail support in encoding."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed media filename issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed permalink for default album."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed shortcode issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed activity and comment sync issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add index for Activity query."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed album count."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed encoding issue for sub directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add activity update after updating video thumbs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed template issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add hooks and filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed template issue (css)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Trailing space issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other minor issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ignore privacy if admin user."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Playlists and its required filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed for translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed download button enable/disable settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed count issue on update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bug fixed for album deletion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Limits items posted in activity feed thanks to <a href=\"https://github.com/jarretc\">jarretc</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translatable message and button in activity stream and single media view thanks to <a href=\"https://github.com/jonasnick\">jonasnick</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Used Font awesome for icon buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cover art for music"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI Changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed activity issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed header already sent issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixed for group avatar upload while creating a group in buddypress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Strings made translation ready"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed multiple gallery on same page,comment sync for single media in activity, comments visibilty when not-logged in."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated polish,solvak and spanish transalation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed WordPress template issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated dutch translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for simple file uploader in shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update readme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Shortcode invalid argument issue fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix WordPress MultiSite issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix permalink issue in album gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support in some strings translations thanks to <a href=\"profiles.wordpress.org/rafaelfunchal\">rafaelfunchal</a> for pull request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove notices and update js libs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Unused file, remove wp_load and add admin_ajax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Spanish translation, bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "lib updated for magnific popup and media-element, bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed 404 permalink issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced UI for media edit screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More enhanced Uploader with new features, better error handling and notification."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Lightbox UI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update po files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated uploader with media delete functionality."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Separate media handling for group and profile"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes related to media privacy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support in some strings translations again thanks to <a href=\"https://github.com/jonasnick\">jonasnick</a> for pull request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update german trasalation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix pagging query sql issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix paging query and bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated too foundation 5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Album selection in media edit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for mobile uploads"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for AudioPlayer under LightBox in WordPress TwentyFourteen Theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom thumbnail for medias"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show content of single album using gallery shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "User can specify media type to be upload in uploader shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable / disable media per group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated dutch translation, thanks to [carry2web] (http://profiles.wordpress.org/carry2web)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin UI bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated russian translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "rtMedia JSON API added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update German and Russian language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix lightbox issue after load more activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update German language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "rtMedia premium theme InspireBook 1.0 released"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix CSS issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix image edit issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix activity after ajax load content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix audio/video js issue after activity update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix for media single edit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Spanish language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Regenerate Thumbnail plugin image sizes issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update german translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix single activity video lightbox issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "JS fix for WordPress 3.9 Beta"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update German and Swedish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Russian and Polish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with WordPress 3.9 and BuddyPress 2.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translation update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New hooks added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media template update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix BuddyPress privacy issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "remove deprecated mime_type_content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix js error for upload type filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New js hooks in rtMedia's backbone js file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new hook in create album modal"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix 404 page and nav menu issue when media disable for BuddyPress profile and group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Romanian, Russian, French and Hungarian translation update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix activity issue in safari browser (For Mobile and Desktop)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Norwegian translation(nb_NO)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "translation bug fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lightbox and swipe support for mobile devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Masonry style cascading grid layout for media gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Templates updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filters in query model"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update CSS for masonry"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix multiple file extension info in uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Per page (per_page) attribute in gallery shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix template if BuddyPress profile/group is disabled for rtMedia"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "show album name in single media view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pagination option for media gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New gallery shortcode attributes ( Enable/disable lightbox: lightbox = true/false, Show media title : media_title = true/false )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change media title before upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Spanish translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Swedish and Italian translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FontAwesome updated(v4.2.0)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Swedish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FontAwesome font load issue fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix video player issue in BuddyPress activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new database table to store activity privacy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added license tab for premium addons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix media player issue in activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change uploader object initialization in rtMedia.backbone.js"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix CSS for audio/video player"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Travis CI Config added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix BuddyPress load more issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Add media button glitches in BuddyPress activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix rename non-english characters to valid english characters for file upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated CSS for rtMedia addon licenses"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix rtMedia addon Buy Now url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Dutch, Japanese, French, Portuguese and Danish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix media tab link shown to non members user of a private group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added membership add-on information"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added JS alert when uploading is in progress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix activity photo after media edit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix likes translated in SQL query"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing og:image property in single rtMedia BuddyPress activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix drag n drop in activity page when attachment for activity is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "masonry layout fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix max regenerate video thumb admin setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix like button when comments are disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix scalar value warning"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unwanted database call on BuddyPress single activity page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for template include for relative paths"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security fix for template include"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for JSON API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Italian and Portuguese translation update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Track length for audio/video in media gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Featured media option for group"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed group featured media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Validate media before inserting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix database warning on first time install"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix group featured media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix for encoding service"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix for '\\' in media title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS and markup changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added dynamic activity actions rtMedia activities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new function rtmedia_is_uploader_view_allowed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update spainsh translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update CSS and templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix persian and swedish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More validations for admin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show add-on purchase link only when add-on is not purchased"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix warnings on BuddyPress activity page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update admin settings help text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed activity upload issue when BuddyPress Multilingual plugin is active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix BuddyPress activity upload URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change activity upload URL when activity component is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix BuddyPress group media gets upload to user profile issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix media title issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update all translation files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix update activity after thumb set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use WordPress' *_metadata functions for meta data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "JPEG image quality option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix media move in album edit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix uplaoder param in gallery shortcode database error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add klein theme in 3rd party theme list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix activity upgrade"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added tabs support in rtMedia uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix JSON API parameters bug."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Social Sync in add-on list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix delete attachment issue while reassigning user"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Media Url upload issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix media meta table name in $wpdb"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Template update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix rtMedia lightbox get disabled after BuddyPress activity load more"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix default privacy issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix translation issue and update strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable/disable encoding service"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Danish translations and add Bulgarian translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update label for create album"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix possible XSS vulnerability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security fix, thanks to <a href=\"https://research.g0blin.co.uk/\">James Hooker</a> for reporting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix album edit issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix multisite global album does not exist issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update support link and github link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "js fix for uploader tabs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added rtmedia_get_media_description function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update tested upto information"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix create group album issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Direct media upload on file selection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media gallery UI changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin settings UI changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Template updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed FontAwesome fonts and instead used WordPress Dashicons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed ZURB Foundation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix BuddyPress group table error on rtMedia update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix direct media upload in activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix license page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated <a href=\"https://rtmedia.io/blog/rtmedia-pro-splitting-major-change/\">premium add-ons</a> content for rtMedia"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added quick edit/delete links on media gallery thumbs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Login popup for non logged in user on upload button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Spanish, Korean, Portuguese and Danish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix encoding service issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix syntax error on Support Page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix upload URL in activity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Privacy link in BuddyPress Settings profile menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix browser title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix language file names for Korean(ko_KR), Serbian(sr_RS) and Tamil(ta_IN)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix pagination on pressing enter key"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix view link in WordPress Media Library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix activity music player width issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update CSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix CSS conflict with BuddyPress Cover plugin in rtMedia admin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Dutch and Danish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added privacy option in uploader shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lightbox changes for mobile devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix login popup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix media comment ordering"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix CSS conflict with BuddyPress change profile picture"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix plupload max_file_size parameters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix BuddyPress comment filter issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Autoplay video in lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix BuddyPress activity content on media edit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update album edit template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes"
+msgstr "बग निर्धारण"
+
+#. Found in changelog list item.
+msgid "Fixed bugs in admin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added SCRIPT_DEBUG support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated view count process"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated action messages for single media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated media gallery actions for BuddyPress groups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update French, Spanish, Persian and German translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for \"og\" meta tags for Yoast SEO plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced delete media action in media gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new filters and actions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix music file thumbnails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix encoding service for music files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add rtMedia SEO add-on"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Persian translation and add Finnish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix shortcode issue with album uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix video max height in lightbox"
+msgstr "लाईटबॉक्स करीत व्हिडिओची कमाल उंची निराकरण करा "
+
+#. Found in changelog list item.
+msgid "Fix upload dir filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated getid3 lib to latest version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter for media action text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New wrapper functions to upload media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new theme: Foodmania"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix getid3 related issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rename plugin text domain from 'rtmedia' to 'buddypress-media'"
+msgstr ""

@@ -1,0 +1,419 @@
+1 | Post | लेख
+2 | Spam | स्पॅम
+3 | Delete | खोडून टाकणे
+4 | Reply | उत्तर
+5 | Spam | स्पॅम
+6 | Delete | खोडून टाकणे
+7 | Comment | टिपणी
+8 | Comment | टिपणी
+9 | Change | बदला
+10 | Activate | सक्रिय करा
+11 | Close | बंद
+12 | Apply | लागू करा
+13 | Search | शोधा
+14 | Search | शोधा
+15 | Crop Image | इमेज क्रॉप करा
+16 | Save | जतन करा
+17 | Comment | टिपणी
+18 | Cancel | रद्द करा
+19 | Release Lead | प्रकाशन लीड
+20 | Year | वर्ष
+21 | Day | दिवस
+22 | Four columns | चार स्तंभ
+23 | Three columns | तीन स्तंभ
+24 | Two columns | दोन स्तंभ
+25 | One column | एक स्तंभ
+26 | All Sites | सर्व साइटस्
+27 | Subject | विषय
+28 | Content | मजकूर
+29 | Select bulk action | निवडा क्रिया मोठ्या प्रमाणात 
+30 | [deleted] | [हटवलेले]
+31 | Filter users list | फिल्टर केलेल्या वापरकर्त्यांना यादी
+32 | Email | ईमेल
+33 | Add New | नवीन लिंक
+34 | Background color | पार्श्वभूमीचा रंग
+35 | Text color | मजकूर रंग
+36 | Submitted on: %s | %s : वर सबमिट
+37 | Activity | अॅक्टिवेटी
+38 | You have attempted to queue too many files. | तुम्ही रांगेत खूप फाइल्स ठेवल्या आहेत
+39 | %s exceeds the maximum upload size for this site. | %s या साइटसाठी जास्तीत जास्त अपलोड आकार मर्यादा ओलांडली आहे.
+40 | This file type is not allowed. Please try another. | या फाइल प्रकाराला परवानगी नाही. आणखी एक प्रयत्न करा.
+41 | Memory exceeded. Please try another smaller file. | मेमरी ओलांडली. कृपया लहान फाइल प्रयत्न करा.
+42 | This file is not an image. Please try another. | ही फाइल प्रतिमा नाही. कृपया पुन्हा प्रयत्न करा.
+43 | This is larger than the maximum size. Please try another. | या कमाल आकार पेक्षा मोठा आहे. कृपया पुन्हा प्रयत्न करा.
+44 | You may only upload 1 file. | तुम्ही फक्त 1 च फाइल अपलोड करू शकता.
+45 | There was a configuration error. Please contact the server administrator. | कॉन्फिगरेशन त्रुटी. सर्व्हर प्रशासकाशी संपर्क साधा .
+46 | %s exceeds the maximum upload size for the multi-file uploader when used in your browser. | ब्राउझर वापरून मल्टी-फाइल अपलोडरची जास्तीत जास्त अपलोड आकार मर्यादा %s  ने ओलांडली आहे. 
+47 | Please try uploading this file with the %1$sbrowser uploader%2$s. | ही फाइल अपलोड करण्याचा प्रयत्न करा %1$s ब्राउझर अपलोडर चा वापर करा %2$s.
+48 | Security error. | सुरक्षितता त्रुटी.
+49 | Crunching&hellip; | करण्चींग आणि हेल्लीप 
+50 | Dismiss | घालवा
+51 | Upload stopped. | अपलोड करणे थांबविले.
+52 | File canceled. | फाइल रद्द केली.
+53 | Upload | अपलोड
+54 | &#8220;%s&#8221; has failed to upload. | &#8220;%s&#8221; अपलोड अयशस्वी झाले आहे.
+55 | Sites | साईटस्
+56 | Description | वर्णन
+57 | Type | टाईप
+58 | Failed to write file to disk. | डिस्कवर फाइल राइट करण्यास अयशस्वी.
+59 | No file was uploaded. | कोणतीही फाइल अपलोड केलेली नाही 
+60 | File upload stopped by extension. | विस्ताराणे फाइल अपलोड थांबविले.
+61 | Bulk Actions | मोठ्या प्रमाणात क्रिया
+62 | Select Bulk Action | निवडा क्रिया मोठ्या प्रमाणात 
+63 | Select all | सर्व निवडा
+64 | Activity | अॅक्टिवेटी
+65 | Profile | प्रोफाईल
+66 | View | पहा
+67 | All | सर्व
+68 | Profile | प्रोफाईल
+69 | View | पहा
+70 | Profile | प्रोफाईल
+71 | View | पहा
+72 | Edit | संपादन
+73 | URL | URL
+74 | Edit | संपादन
+75 | Profile | प्रोफाईल
+76 | Settings | सेटिंग्स
+77 | Details | तपशील
+78 | Permalink: | परमालिंक:
+79 | Posts | टिप्पणी
+80 | For more information, see <a href="%s">the release notes</a>. | अधिक माहितीसाठी, <a href="%s"> रिलीज केलेल्या नोटस </a> पहा.
+81 | <strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug. | <strong> आवृत्ती %1$s </strong> काही सुरक्षितता समस्या आणि निश्चित %2$s बग संबोधित केले.
+82 | <strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug. | असामान्य: <strong> आवृत्ती%1$s </strong> सुरक्षा समस्येचे निराकरण आणि %2$s बगचे निर्धारण.
+83 | <strong>Version %1$s</strong> addressed %2$s bug. | एकवचनी: <strong>आवृत्ती %1$s</strong>%2$s बग संबोधित केले.
+84 | Maintenance and Security Release | देखभाल व सुरक्षा प्रकाशन
+85 | Security Release | सुरक्षा प्रकाशन
+86 | Maintenance Release | देखभाल प्रकाशन
+87 | Activate | सक्रिय करा
+88 | Activity | अॅक्टिवेटी
+89 | Activity | अॅक्टिवेटी
+90 | Activity | अॅक्टिवेटी
+91 | Core Developer | कोर विकसक
+92 | That username is already activated. | हा वापरकर्ता आधीच सक्रिय आहे.
+93 | The site is already active. | साइट आधीपासूनच सक्रिय आहे.
+94 | The user is already active. | वापरकर्ता आधीपासूनच सक्रिय आहे.
+95 | Invalid activation key. | अवैध सक्रियन कळ
+96 | Confirm | खा‍त्री करा 
+97 | Email | ईमेल
+98 | Activate | सक्रिय करा
+99 | Could not create user | वापरकर्ता बनवू नाही शकत.
+100 | Available Tools | उपलब्ध साधनसामुग्री
+101 | %s site | %s साइट
+102 | Update Profile | प्रोफाइल सुधारणा करा
+103 | Add New | नवीन लिंक
+104 | Edit User | वापरकरर्ता संपादित करा
+105 | &larr; Back to Users | &larr; वापरकर्तेकडे परत
+106 | Profile updated. | प्रोफाइल अपडेट केले.
+107 | Add to Menu | मेनू जोडा
+108 | %s week | %s आठवडा
+109 | %s month | %s महिना
+110 | %s year | %s वर्ष
+111 | Title: | शीर्षक:
+112 | Register | नोंदणी
+113 | Sites | साईटस्
+114 | Activity | अॅक्टिवेटी
+115 | Save | जतन करा
+116 | Support Forums | सपोर्ट फोरम
+117 | Missing a temporary folder. | तात्पुरता फोल्डर गहाळ.
+118 | The uploaded file was only partially uploaded. | अपलोड केलेल्या फाईलमध्ये फक्त अंशतः अपलोड केली होती.
+119 | General | सामान्य
+120 | Lead Developer | आघाडी विकसक
+121 | Project Leaders | प्रकल्पाचे नेते
+122 | Credits | क्रेडिट
+123 | Change | बदला
+124 | Descending | उतरत्या क्रमाने
+125 | Ascending | चढत्या क्रमाने
+126 | Custom | सानुकूल
+127 | Sort Order: | क्रमाची क्रमवारी लावा:
+128 | Description | वर्णन
+129 | Name | नाव
+130 | %1$s (%2$s) | %1$s (%2$s)
+131 | Name | नाव
+132 | Privacy | गोपनीयता
+133 | Settings | सेटिंग्स
+134 | Toolbar | टूलबार
+135 | Must-Use <span class="count">(%s)</span> | वापरलंच पाहिजे <span class="count">(%s)</span>
+136 | Inactive <span class="count">(%s)</span> | निष्क्रिय <span class="count">(%s)</span>
+137 | Active <span class="count">(%s)</span> | सक्रिय <span class="count">(%s)</span>
+138 | Select %s | निवडा %s
+139 | Capabilities | क्षमता
+140 | %s was successfully deleted. | %s यशस्वीरीत्या हटविले गेले
+141 | Profile picture | परिचय चित्र
+142 | Link | लिंक
+143 | Spam <span class="count">(%s)</span> | स्पॅम <span class="count">(%s)</span>
+144 | Search results for &#8220;%s&#8221; | &#8220;%s&#8221; च्या शोधाचे निकाल
+145 | &hellip; | &hellip;
+146 | right now | ताबडतोब
+147 | Edit comment | टिप्पणी संपादित करा
+148 | Create Site | साईट तयार करा
+149 | Site Name: | साईटच नाव:
+150 | Site Domain: | साईट डोमेन
+151 | My Sites | माझ्या साईट्स
+152 | Search for: | शोध घ्या यांचा:
+153 | Updates | अपडेटस्
+154 | Pages:  | पृष्ठे:
+155 | Edit My Profile | माझे प्रोफाइल संपादित करा
+156 | <strong>ERROR</strong>: Your account has been marked as a spammer. | <strong>त्रुटी</strong>: आपले खाते स्पॅमर म्हणून चिन्हांकित केले आहे.
+157 | Update | अपडेट
+158 | Leave a reply | प्रतिक्रिया व्यक्त करा
+159 | Password Lost and Found | पासवर्ड हरवले आणि सापडले
+160 | %1$s at %2$s | %1$s येथे %2$s
+161 | Actions | क्रिया
+162 | Remember Me | माझी आठवण ठेवा
+163 | Search Results | शोध परिणाम
+164 | Confirm Password | संकेतशब्द कन्फर्म करा
+165 | Email Address | ई-मेल अॅड्रेस
+166 | Clear | स्पष्ट
+167 | To: | च्यापर्यत:
+168 | From: | पासून:
+169 | Links | लिंक्स
+170 | Finish | समाप्त
+171 | (required) | (आवश्यक)
+172 | comments | टिप्पण्या
+173 | Your comment is awaiting moderation. | आपली टिप्पणी मंजुरीची प्रतीक्षा करत आहे.
+174 | Content: | सामग्री:
+175 | Submit | सबमिट
+176 | Tags:  | टॅग्स:
+177 | RSS | आरएसएस
+178 | Delete Selected | निवडलेले हटवा
+179 | Site URL | साइट युआरअल
+180 | Log in | लॉग ईन
+181 | Remove | काढा
+182 | Page %s | पृष्ठ %s
+183 | Administrator | प्रशासन
+184 | F j, Y | F j, Y
+185 | June | जून
+186 | &raquo; | &raquo;
+187 | &laquo; | &laquo;
+188 | Deactivate | निष्क्रिय
+189 | Date format | तारीख स्वरूप
+190 | Registered | नोंदणी झाली
+191 | Tools | टूल्स
+192 | Users | युझर्स
+193 | Month | महिना 
+194 | %s ago | %s पूर्वी
+195 | Visit Site | साईट ला भेट द्या
+196 | Page not found | पृष्ठ सापडले नाही
+197 | Sorry, that email address is already used! | क्षमस्व, हा इमेल अड्रेस आधी वापरला आहे
+198 | Sorry, that username already exists! | क्षमस्व, हा वापरकर्ता अस्थित्वात नाही.
+199 | Sorry, that email address is not allowed! | माफ करा, हा ई-मेल पत्ता वापरण्याची अनुमती नाही!
+200 | Sorry, usernames must have letters too! | क्षमस्व , वापरकर्ता नावामध्ये अक्षरे पण असणे आवश्यक आहे!
+201 | Popular | लोकप्रिय
+202 | Active | सक्रिय
+203 | Manage Comments | टिप्पण्या व्यवस्थापित करा
+204 | Visit | भेट
+205 | New Password | नवीन पासवर्ड
+206 | Repeat New Password | नवीन पासवर्ड पुन्हा द्या
+207 | Save Changes | बदल जतन करा
+208 | BuddyPress | बडिप्रेस
+209 | General Settings | सामान्य सेटिंग्ज
+210 | Thumbnail | थम्बनेल
+211 | Log In | लॉग ईन
+212 | Log Out | लॉग आऊट
+213 | Dashboard | डॅशबोर्ड
+214 | Post | लेख
+215 | Spam | स्पॅम
+216 | Delete | खोडून टाकणे
+217 | Reply | उत्तर
+218 | Spam | स्पॅम
+219 | Delete | खोडून टाकणे
+220 | Comment | टिपणी
+221 | Comment | टिपणी
+222 | Change | बदला
+223 | Activate | सक्रिय करा
+224 | Close | बंद
+225 | Apply | लागू करा
+226 | Search | शोधा
+227 | Search | शोधा
+228 | Comment | टिपणी
+229 | Cancel | रद्द करा
+230 | Save | जतन करा
+231 | Crop Image | इमेज क्रॉप करा
+232 | Year | वर्ष
+233 | Month | महिना 
+234 | Day | दिवस
+235 | Four columns | चार स्तंभ
+236 | Three columns | तीन स्तंभ
+237 | Two columns | दोन स्तंभ
+238 | One column | एक स्तंभ
+239 | All Sites | सर्व साइटस्
+240 | Select bulk action | निवडा क्रिया मोठ्या प्रमाणात 
+241 | Content | मजकूर
+242 | Subject | विषय
+243 | Release Lead | प्रकाशन लीड
+244 | [deleted] | [हटवलेले]
+245 | Filter users list | फिल्टर केलेल्या वापरकर्त्यांना यादी
+246 | Email | ईमेल
+247 | Add New | नवीन लिंक
+248 | Background color | पार्श्वभूमीचा रंग
+249 | Text color | मजकूर रंग
+250 | Select %s | निवडा %s
+251 | Activity | अॅक्टिवेटी
+252 | Submitted on: %s | %s : वर सबमिट
+253 | Search Results | शोध परिणाम
+254 | Leave a reply | प्रतिक्रिया व्यक्त करा
+255 | Search for: | शोध घ्या यांचा:
+256 | Links | लिंक्स
+257 | Your comment is awaiting moderation. | आपली टिप्पणी मंजुरीची प्रतीक्षा करत आहे.
+258 | Edit comment | टिप्पणी संपादित करा
+259 | Pages:  | पृष्ठे:
+260 | Type | टाईप
+261 | Description | वर्णन
+262 | Submit | सबमिट
+263 | Descending | उतरत्या क्रमाने
+264 | Ascending | चढत्या क्रमाने
+265 | Custom | सानुकूल
+266 | Sort Order: | क्रमाची क्रमवारी लावा:
+267 | URL | URL
+268 | Clear | स्पष्ट
+269 | Profile | प्रोफाईल
+270 | Edit | संपादन
+271 | View | पहा
+272 | Profile | प्रोफाईल
+273 | Edit | संपादन
+274 | View | पहा
+275 | Profile | प्रोफाईल
+276 | comments | टिप्पण्या
+277 | Password Lost and Found | पासवर्ड हरवले आणि सापडले
+278 | To: | च्यापर्यत:
+279 | From: | पासून:
+280 | Select all | सर्व निवडा
+281 | Change | बदला
+282 | Confirm Password | संकेतशब्द कन्फर्म करा
+283 | Email Address | ई-मेल अॅड्रेस
+284 | (required) | (आवश्यक)
+285 | Finish | समाप्त
+286 | Content: | सामग्री:
+287 | RSS | आरएसएस
+288 | Capabilities | क्षमता
+289 | %s was successfully deleted. | %s यशस्वीरीत्या हटविले गेले
+290 | Select Bulk Action | निवडा क्रिया मोठ्या प्रमाणात 
+291 | Delete Selected | निवडलेले हटवा
+292 | All | सर्व
+293 | View | पहा
+294 | Profile | प्रोफाईल
+295 | That username is already activated. | हा वापरकर्ता आधीच सक्रिय आहे.
+296 | Could not create user | वापरकर्ता बनवू नाही शकत.
+297 | The site is already active. | साइट आधीपासूनच सक्रिय आहे.
+298 | The user is already active. | वापरकर्ता आधीपासूनच सक्रिय आहे.
+299 | Invalid activation key. | अवैध सक्रियन कळ
+300 | Sorry, that username already exists! | क्षमस्व, हा वापरकर्ता अस्थित्वात नाही.
+301 | Sorry, usernames must have letters too! | क्षमस्व , वापरकर्ता नावामध्ये अक्षरे पण असणे आवश्यक आहे!
+302 | Sorry, that email address is already used! | क्षमस्व, हा इमेल अड्रेस आधी वापरला आहे
+303 | Sorry, that email address is not allowed! | माफ करा, हा ई-मेल पत्ता वापरण्याची अनुमती नाही!
+304 | <strong>ERROR</strong>: Your account has been marked as a spammer. | <strong>त्रुटी</strong>: आपले खाते स्पॅमर म्हणून चिन्हांकित केले आहे.
+305 | Edit My Profile | माझे प्रोफाइल संपादित करा
+306 | Confirm | खा‍त्री करा 
+307 | Update Profile | प्रोफाइल सुधारणा करा
+308 | Add New | नवीन लिंक
+309 | &larr; Back to Users | &larr; वापरकर्तेकडे परत
+310 | Edit User | वापरकरर्ता संपादित करा
+311 | Profile updated. | प्रोफाइल अपडेट केले.
+312 | Email | ईमेल
+313 | Activate | सक्रिय करा
+314 | Details | तपशील
+315 | Settings | सेटिंग्स
+316 | Details | तपशील
+317 | Description | वर्णन
+318 | Name | नाव
+319 | %1$s (%2$s) | %1$s (%2$s)
+320 | Actions | क्रिया
+321 | Name | नाव
+322 | Privacy | गोपनीयता
+323 | Permalink: | परमालिंक:
+324 | Settings | सेटिंग्स
+325 | Save | जतन करा
+326 | Support Forums | सपोर्ट फोरम
+327 | Popular | लोकप्रिय
+328 | Active | सक्रिय
+329 | Site URL | साइट युआरअल
+330 | Tags:  | टॅग्स:
+331 | Log in | लॉग ईन
+332 | Remove | काढा
+333 | Administrator | प्रशासन
+334 | &raquo; | &raquo;
+335 | &laquo; | &laquo;
+336 | Bulk Actions | मोठ्या प्रमाणात क्रिया
+337 | Deactivate | निष्क्रिय
+338 | General Settings | सामान्य सेटिंग्ज
+339 | Date format | तारीख स्वरूप
+340 | Save Changes | बदल जतन करा
+341 | Registered | नोंदणी झाली
+342 | Repeat New Password | नवीन पासवर्ड पुन्हा द्या
+343 | New Password | नवीन पासवर्ड
+344 | General | सामान्य
+345 | Page not found | पृष्ठ सापडले नाही
+346 | Visit | भेट
+347 | Manage Comments | टिप्पण्या व्यवस्थापित करा
+348 | File upload stopped by extension. | विस्ताराणे फाइल अपलोड थांबविले.
+349 | Failed to write file to disk. | डिस्कवर फाइल राइट करण्यास अयशस्वी.
+350 | Missing a temporary folder. | तात्पुरता फोल्डर गहाळ.
+351 | No file was uploaded. | कोणतीही फाइल अपलोड केलेली नाही 
+352 | The uploaded file was only partially uploaded. | अपलोड केलेल्या फाईलमध्ये फक्त अंशतः अपलोड केली होती.
+353 | Remember Me | माझी आठवण ठेवा
+354 | Posts | टिप्पणी
+355 | %1$s at %2$s | %1$s येथे %2$s
+356 | Log In | लॉग ईन
+357 | %s week | %s आठवडा
+358 | %s month | %s महिना
+359 | %s year | %s वर्ष
+360 | %s ago | %s पूर्वी
+361 | right now | ताबडतोब
+362 | Register | नोंदणी
+363 | Activate | सक्रिय करा
+364 | Sites | साईटस्
+365 | Activity | अॅक्टिवेटी
+366 | Page %s | पृष्ठ %s
+367 | Upload | अपलोड
+368 | &#8220;%s&#8221; has failed to upload. | &#8220;%s&#8221; अपलोड अयशस्वी झाले आहे.
+369 | Crunching&hellip; | करण्चींग आणि हेल्लीप 
+370 | Dismiss | घालवा
+371 | Upload stopped. | अपलोड करणे थांबविले.
+372 | File canceled. | फाइल रद्द केली.
+373 | Security error. | सुरक्षितता त्रुटी.
+374 | %s exceeds the maximum upload size for the multi-file uploader when used in your browser. | ब्राउझर वापरून मल्टी-फाइल अपलोडरची जास्तीत जास्त अपलोड आकार मर्यादा %s  ने ओलांडली आहे. 
+375 | Please try uploading this file with the %1$sbrowser uploader%2$s. | ही फाइल अपलोड करण्याचा प्रयत्न करा %1$s ब्राउझर अपलोडर चा वापर करा %2$s.
+376 | You may only upload 1 file. | तुम्ही फक्त 1 च फाइल अपलोड करू शकता.
+377 | There was a configuration error. Please contact the server administrator. | कॉन्फिगरेशन त्रुटी. सर्व्हर प्रशासकाशी संपर्क साधा .
+378 | This is larger than the maximum size. Please try another. | या कमाल आकार पेक्षा मोठा आहे. कृपया पुन्हा प्रयत्न करा.
+379 | Memory exceeded. Please try another smaller file. | मेमरी ओलांडली. कृपया लहान फाइल प्रयत्न करा.
+380 | This file is not an image. Please try another. | ही फाइल प्रतिमा नाही. कृपया पुन्हा प्रयत्न करा.
+381 | This file type is not allowed. Please try another. | या फाइल प्रकाराला परवानगी नाही. आणखी एक प्रयत्न करा.
+382 | %s exceeds the maximum upload size for this site. | %s या साइटसाठी जास्तीत जास्त अपलोड आकार मर्यादा ओलांडली आहे.
+383 | You have attempted to queue too many files. | तुम्ही रांगेत खूप फाइल्स ठेवल्या आहेत
+384 | For more information, see <a href="%s">the release notes</a>. | अधिक माहितीसाठी, <a href="%s"> रिलीज केलेल्या नोटस </a> पहा.
+385 | <strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug. | <strong> आवृत्ती %1$s </strong> काही सुरक्षितता समस्या आणि निश्चित %2$s बग संबोधित केले.
+386 | <strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug. | असामान्य: <strong> आवृत्ती%1$s </strong> सुरक्षा समस्येचे निराकरण आणि %2$s बगचे निर्धारण.
+387 | <strong>Version %1$s</strong> addressed %2$s bug. | एकवचनी: <strong>आवृत्ती %1$s</strong>%2$s बग संबोधित केले.
+388 | Maintenance and Security Release | देखभाल व सुरक्षा प्रकाशन
+389 | Security Release | सुरक्षा प्रकाशन
+390 | Maintenance Release | देखभाल प्रकाशन
+391 | Credits | क्रेडिट
+392 | Core Developer | कोर विकसक
+393 | Lead Developer | आघाडी विकसक
+394 | Project Leaders | प्रकल्पाचे नेते
+395 | Available Tools | उपलब्ध साधनसामुग्री
+396 | Tools | टूल्स
+397 | General | सामान्य
+398 | Add to Menu | मेनू जोडा
+399 | BuddyPress | बडिप्रेस
+400 | Must-Use <span class="count">(%s)</span> | वापरलंच पाहिजे <span class="count">(%s)</span>
+401 | Inactive <span class="count">(%s)</span> | निष्क्रिय <span class="count">(%s)</span>
+402 | Active <span class="count">(%s)</span> | सक्रिय <span class="count">(%s)</span>
+403 | Title: | शीर्षक:
+404 | %s site | %s साइट
+405 | Visit Site | साईट ला भेट द्या
+406 | Site Domain: | साईट डोमेन
+407 | Site Name: | साईटच नाव:
+408 | Sites | साईटस्
+409 | Profile picture | परिचय चित्र
+410 | Activity | अॅक्टिवेटी
+411 | Activity | अॅक्टिवेटी
+412 | Updates | अपडेटस्
+413 | &hellip; | &hellip;
+414 | Activity | अॅक्टिवेटी
+415 | Spam <span class="count">(%s)</span> | स्पॅम <span class="count">(%s)</span>
+416 | Search results for &#8220;%s&#8221; | &#8220;%s&#8221; च्या शोधाचे निकाल
+417 | Activity | अॅक्टिवेटी
+418 | Link | लिंक
+419 | Update | अपडेट

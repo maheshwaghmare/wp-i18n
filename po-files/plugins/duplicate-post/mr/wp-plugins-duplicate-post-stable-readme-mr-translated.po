@@ -1,0 +1,574 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Duplicate Post - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-26T17:09:41+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Copy posts of any type with a click!"
+msgstr ""
+
+#. Plugin name.
+msgid "Duplicate Post"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Duplicate Post does not collect any information outside your WordPress installation, therefore it's 100% GDPR compliant."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better display of icon in the Admin bar on small screens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Option for \"Slug\" not set by default on new installations "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The \"Admin bar\" option shows the link in the post edit screen too, so you can use the plugin with Gutenberg enabled"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "While viewing a post as a logged in user, you can click on 'Copy to a new draft' in the admin bar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevents creating a revision immediately after the cloning"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with WPML + page builders, thanks to WPML team"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes issue when upgrading on multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixing some issues of the 3.* trunk before major redesign"
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Pay also attention to the \"Permissions\" tab in the Settings: make sure the plugin is enabled for the desired roles and post types."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>If you're a plugin developer</strong>, I suggest you to read the <a href=\"https://duplicate-post.lopo.it/docs/developers-guide/\">Developer's Guide</a> to ensure compatibility between your plugin(s) and mine. Feel free to <a href=\"https://duplicate-post.lopo.it/contact\">contact me</a> so we can keep in touch and collaborate."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Duplicate Post has many useful settings to customize its behavior and restrict its use to certain roles or post types. Check out the extensive documentation on <a href=\"https://duplicate-post.lopo.it\">the plugin's site</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"This plugin allows users to clone posts of any type, or copy them to new drafts for further editing.\n"
+"If you find this useful, <a href=\"https://duplicate-post.lopo.it/\"><strong>please consider donating</strong></a> whatever sum you choose, <strong>even just 10 cents</strong>. Just a few cents from every user would help me develop the plugin and improve support."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In 'Edit Posts'/'Edit Pages', you can select one or more items, then choose 'Clone' in the 'Bulk Actions' dropdown to copy them all at once."
+msgstr ""
+
+#. Screenshot description.
+msgid "Bulk clone action."
+msgstr ""
+
+#. Found in description list item.
+msgid "If you want to translate it to your language (there are just a few lines of text), you can use the <a href=\"https://translate.wordpress.org/projects/wp-plugins/duplicate-post\">translation project</a>;"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If Duplicate Post is still in English, or if there are some untraslated strings, you can help traslating to your language <a href=\"https://translate.wordpress.org/projects/wp-plugins/duplicate-post\">here</a>: you only need a WordPress.org account.\n"
+"<a href=\"https://duplicate-post.lopo.it/contact\">Contact me</a> if you wish to become an editor for your language."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "From version 3.0 the plugin's translations are managed by the WordPress.org platform and the plugin is shipped without language files, so first of all update translations under Dashboard-&gt;Updates."
+msgstr ""
+
+#. Found in faq header.
+msgid "The plugin is not translated in my language!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you find this useful and if you want to contribute, there are three ways:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Using the plugin is free, but if you want you can support my efforts by donating with PayPal <a href=\"https://duplicate-post.lopo.it/donate\">here</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "You can <a href=\"https://duplicate-post.lopo.it/contact\">write me</a> and submit your bug reports, suggestions and requests for features;"
+msgstr ""
+
+#. Found in description header.
+msgid "Contribute"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If it still doesn't work, maybe there is some kind of conflict with other plugins: feel free <a href=\"https://wordpress.org/support/plugin/duplicate-post\">to write in the forum</a> and we'll try to discover a solution (it will be <em>really</em> helpful if you try to deactivate all your other plugins one by one to see which one conflicts with mine... But do it only if you know what you're doing, I will not be responsible of any problem you may experience)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Then try to deactivate and re-activate it, some user have reported that this fixes some problems."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "First, check your version of WordPress: the plugin is not supposed to work on old versions anymore. Make sure also to upgrade to the last version of the plugin!"
+msgstr ""
+
+#. Found in faq header.
+msgid "The plugin doesn't work, why?"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "Use WordPress' Add New Plugin feature, searching \"Duplicate Post\", or download the archive and:"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Go to Settings -&gt; Duplicate Post and customize behaviour as needed"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Upload <code>duplicate-post</code> directory to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Unzip the archive on your computer  "
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Thanks for all the suggestions, bug reports, translations and donations, they're frankly too many to be listed here!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There is also a <strong>template tag</strong>, so you can put it in your templates and clone your posts/pages from the front-end. Clicking on the link will lead you to the edit page for the new draft, just like the admin bar link."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "3, 4 and 5 will lead to the edit page for the new draft: change what you want, click on 'Publish' and you're done."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "On the post edit screen, you can click on 'Copy to a new draft' above \"Cancel\"/\"Move to trash\" or in the admin bar."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In 'Edit Posts'/'Edit Pages', you can click on 'New Draft' link below the post/page title."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In 'Edit Posts'/'Edit Pages', you can click on 'Clone' link below the post/page title: this will immediately create a copy and return to the list."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "How it works:"
+msgstr ""
+
+#. Screenshot description.
+msgid "The admin bar link."
+msgstr ""
+
+#. Screenshot description.
+msgid "The template tag manually added to Twenty Ten theme. Click on the \"Copy to a new draft\" link and you're redirected to the edit screen for a new draft copy of your post."
+msgstr ""
+
+#. Screenshot description.
+msgid "The options page."
+msgstr ""
+
+#. Screenshot description.
+msgid "By clicking on \"Clone\" the post is cloned immediately. \"New draft\" leads to the edit screen."
+msgstr ""
+
+#. Screenshot description.
+msgid "Here you can copy the post you're editing to a new draft."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial version on WP repository"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "various small fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improved security with nonces"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "small changes to hooks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improved Jetpack compatibility (Subscriptions, Markdown)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WPML compatibility, thanks to WPML team"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new website with extensive documentation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for custom fields not copied"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for nasty update nag (plus a failsafe checkbox)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Other minor bugs fixed "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Probable fix for repeated clone bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check if admin bar is showing before enqueueing CSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Using wp_slash (WP 3.6+) or a better workaround (WP 4.4+) on the post and its meta, should also fix some compatibility issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check publish_posts/publish_pages capability to prevent Contributors from publishing by cloning"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Options to copy post author, post format (moved from taxonomies), menu order, post template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wildcards enabled for custom fields to skip"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bulk clone action added (WP 4.7+)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor fixes "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Uses site options for version and notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes warning in custom post type archives"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Notices in admin after copying"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes for minor bugs and typos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New \"Donate\" button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin bar CSS only enqueued when needed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Can now be enabled for every custom post type with visible UI (not just public ones)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes the issues for people upgrading from an older version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Checked PHP 7 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations removed to use WP.org's official translation project"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed other little bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a possible XSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Jetpack Publicize compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable/disable cloning for every custom post type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More options to enable/disable copy of every part of a post"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings page redesigned"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for new WP post revision feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP2.7 compatibility "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for post-meta"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internationalization (Italian and Japanese language files shipped)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WPMU compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for WP 2.8.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested WP 2.9 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dropped WP 2.6.5 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added French and Spanish language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added actions for plugins which store post metadata in self-managed tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better integration with WP 2.7+ interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added German, Swedish, Romanian, Hebrew, Catalan (incomplete) and Polish (incomplete) language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Option page: minimum user level, title prefix, fields not to be copied, copy post/page date also"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP 3.0 compatibility (not tested against multiblog feature, so beware)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Dutch language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix conflicts with a few other plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin split in two files for faster opening in Plugins list page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added complete Polish language files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP 3.1.1 compatibility (still not tested against multiblog feature, so beware)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added template tag"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added suffix option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added options for taxonomies and post excerpt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Immediate cloning from post list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minimum WP version: 3.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP 3.3 compatibility (still not tested against multiblog feature, so beware)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option so you can choose if cloning from the posts list must copy the post status (draft, published, pending) too."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug for action filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested on multisite mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Two links on posts list: clone immediately or copy to a new draft to edit."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug for permalinks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings link in plugin list, 'Donate' and 'Translate' link in option page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "duplicate_post_get_original template tag"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "'Copy to a new draft' link in admin bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stopped using deprecated User levels, now it uses Roles and Capabilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Term order preserved when copying"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Even more code cleaning (no more custom queries, using WP API)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Can't rely on activation hook for upgrade, this caused problems with new options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed deprecated parameter when adding options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for multiple _dp_original field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for problems when copying serialized meta fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some other fixes (missing checks, PHP warnings and errors, etc.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for untranslated user roles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clone attachments (i.e. references in the DB, not physical files) "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added options to choose where to show the \"Clone\" links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translation project moved to GlotPress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with prefix/suffix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed publishing dates for drafts "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Licence changed to GPLv2 or later"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option to clone the children of the original page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't clone to_ping and pinged (maybe there will be an option about those later)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with guid"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed regression about draft permalinks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to WP 3.8.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated and added translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "other bugs "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed possible XSS and SQL injections"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP 5.4 (Strict Standards) compatible"
+msgstr ""
