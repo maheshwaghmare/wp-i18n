@@ -6,6 +6,7 @@ Translate the WordPress by by re-using existing translated strings with the help
 
 ## WP CLI Commands
 
+All Files Log here - https://docs.google.com/spreadsheets/d/1s2RMLE1qslIwdEOqsKPrRbUPRyermiA0qC8Z7TjxIJ8/edit#gid=878822179
 
 1.  info
 2.  clean_tracking
