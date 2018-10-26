@@ -1537,6 +1537,11 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 		/**
 		 * wp wpi18n translate
+		 *
+		 * # Example:
+		 *
+		 * wp wpi18n translate
+		 * 
 		 * @return [type] [description]
 		 */
 		function translate() {
@@ -1548,15 +1553,15 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 			$translations = Translations::fromPoFile( dirname(__FILE__) . '\\'.$file.'.po' );
 
+			$local_translated_log = $file . '-log.txt';
+
+			// Empty log file.
+			file_put_contents( $local_translated_log, '' );
+
 			$count = count( $translations );
 			$newly_translated = 0;
 
-			// WP_CLI::error(print_r( $translations ) );
-
-
 			foreach ($translations as $key => $translation) {
-				// echo 'getOriginal : ---- ' . $translation->getOriginal() . '<br/>';
-				// echo 'getTranslation : ---- ' . $translation->getTranslation() . '<br/>';
 
 				$post_title         = $translation->getOriginal();
 				$translation_string = $translation->getTranslation();
@@ -1577,6 +1582,14 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 							
 								WP_CLI::line( $count . ' | ' . $post_id . ' UPDATED ' . $stored_string );
 								$newly_translated++;
+
+								// Track all translate strings.
+								$log_data = file_get_contents( $local_translated_log );
+								if( empty( $log_data ) ) {
+									file_put_contents( $local_translated_log, $newly_translated . ' | ' . $post_title . ' | ' . $stored_string );
+								} else {
+									file_put_contents( $local_translated_log, $log_data . "\n" . $newly_translated . ' | ' . $post_title . ' | ' . $stored_string );
+								}
 							}
 						} else {
 							WP_CLI::line( $count . ' | ' . $post_id . ' EMPTY.' );
@@ -1592,13 +1605,6 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 			//Now save a po file with the result
 			$translations->toPoFile($file . '-translated.po' );
-
-			// //export to a php array:
-			// $translations->toPhpArrayFile('locales/gl.php');
-
-			// //and to a .mo file
-			// $translations->toMoFile('Locale/gl/LC_MESSAGES/messages.mo');
-
 		}
 
 		function test() {
