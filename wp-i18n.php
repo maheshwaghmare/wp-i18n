@@ -1415,26 +1415,55 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 		}
 
-		public function import() {
+		/**
+		 * [import description]
+		 *
+		 * # Syntax
+		 *
+		 * wp wpi18n import_translated_strings {language-slug}
+		 *
+		 * # Example
+		 * 
+		 * wp wpi18n import_translated_strings en-ca
+		 * 
+		 * @return [type] [description]
+		 */
+		public function import_translated_strings( $args, $assoc_args ) {
+			
+			$lang = isset( $args[0] ) ? $args[0] : '';
+			
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
+
+			$lang_dir = 'po-files/wordpress/'.$lang.'/';
+			if( ! file_exists( $lang_dir ) ) {
+				WP_CLI::error( "Language directory not found!" . $lang_dir );
+			}
 
 			include_once "lib/Gettext/src/autoloader.php";
 			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
 
-			$wpi18n_imported_files = get_option( 'wpi18n-imported-files', array() );
+			$wpi18n_imported_files = get_option( 'wpi18n-imported-'.$lang.'-files', array() );
 
-			$files = $this->getDirContents('po-files/wordpress/oci/');
+			$files = $this->getDirContents( $lang_dir );
 			// WP_CLI::line( print_r( $files ));
 			// // WP_CLI::error(dirname(__FILE__) . '\wp-dev-ru.po');
 			// WP_CLI::error('ok');
 
 			$files_count = count( $files );
 			foreach ($files as $key => $file) {
-				// WP_CLI::error( basename($file) );
 				
 				if( ! in_array($file, $wpi18n_imported_files) ) {
 
-					// Track file.
-					$this->track_file( $file, $wpi18n_imported_files );
+					// {@START}
+					$wpi18n_imported_files[] = $file;
+
+					// Unique.
+					$wpi18n_imported_files = array_unique($wpi18n_imported_files);
+
+					update_option( 'wpi18n-imported-'.$lang.'-files', $wpi18n_imported_files );
+					// {@END}
 
 					//import from a .po file:
 					$translations = Translations::fromPoFile( $file );
