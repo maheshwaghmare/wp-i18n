@@ -1472,7 +1472,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 					// $file_name  = 'bbpress-2.4.x-ru.po';
 					$file_name  = basename($file);
 
-					$language   = $translations->getHeader( 'Language' );
+					$language   = $lang; // $translations->getHeader( 'Language' );
 					$project_id = $translations->getHeader( 'Project-Id-Version' );
 
 					$line = count( $translations );
