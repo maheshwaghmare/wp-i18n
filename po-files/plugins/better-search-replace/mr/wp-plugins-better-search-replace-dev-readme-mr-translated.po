@@ -1,0 +1,410 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Better Search Replace - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-27T17:38:46+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "A simple plugin to update URLs or other text in a database."
+msgstr ""
+
+#. Plugin name.
+msgid "Better Search Replace"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Update text in sidebar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Only one table searched on some environments (props @Ov3rfly)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Increased size of table select"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security: Check if data is serialized before unserializing it"
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong><a href=\"https://bettersearchreplace.com/\">Learn more about Better Search Replace Pro</a></strong>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "More information on moving WordPress can be found <a href=\"http://codex.wordpress.org/Moving_WordPress\">here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you're moving your site from one server to another and changing the URL of your WordPress installation, the approach below allows you to do so easily without affecting the old site:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When running this plugin on a WordPress Multisite installation, it will only be loaded and visible for Network admins. Network admins can go to the dashboard of any subsite to run a search/replace on just the tables for that subsite, or go to the dashboard of the main/base site to run a search/replace on all tables."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! Entering a wrong search or replace string could damage your database. Because of this, it is always adviseable to have a backup of your database before using this plugin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! This plugin should be compatible with any host."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Once activated, Better Search Replace will add a page under the \"Tools\" menu page in your WordPress admin."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Delete the site_url constant you added to <code>wp-config.php</code>. You may also need to regenerate your .htaccess by going to Settings -&gt; Permalinks and saving the settings."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Log in at your new admin URL and run Better Search Replace on the old site URL for the new site URL"
+msgstr ""
+
+#. Found in faq list item.
+msgid "On the new host, define the new site URL in the <code>wp-config.php</code> file, as shown <a href=\"http://codex.wordpress.org/Changing_The_Site_URL#Edit_wp-config.php\">here</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Install the database on your new host"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Backup the database on your current site"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I use this plugin when changing URLs?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How does this work on WordPress Multisite?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I damage my site with this plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is my host supported?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Using Better Search Replace"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "Upload Method:"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "Dashboard Method:"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "Install Better Search Replace like you would install any other WordPress plugin."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Activate the plugin through the Plugins menu in WordPress"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Unzip the plugin and upload the \"better-search-replace\" folder to your 'wp-content/plugins' directory"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Click \"Install\", and then \"Activate Plugin\""
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Type \"Better Search Replace\" in the search bar and select this plugin"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Login to your WordPress admin and go to Plugins -&gt; Add New"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Feel free to open an issue or submit a pull request on <a href=\"https://github.com/deliciousbrains/better-search-replace/\">GitHub</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Want to contribute?</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Supported Languages</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The search and replace functionality is heavily based on interconnect/it's great and open-source Search Replace DB script, modified to use WordPress native database functions to ensure compatibility."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Time-saving features available in the Pro version:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "When moving your WordPress site to a new domain or server, you will likely run into a need to run a search/replace on the database for everything to work correctly. Fortunately, there are several plugins available for this task, however, all have a different approach to a few key features. This plugin consolidates the best features from these plugins, incorporating the following features in one simple plugin:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Spanish"
+msgstr "स्पॅनिश"
+
+#. Found in description list item.
+msgid "German"
+msgstr "जर्मन"
+
+#. Found in description list item.
+msgid "French"
+msgstr "फ्रेंच"
+
+#. Found in description list item.
+msgid "English"
+msgstr "इंग्रजी"
+
+#. Found in description list item.
+msgid "Support and updates for 1 year"
+msgstr ""
+
+#. Found in description list item.
+msgid "Save or load custom profiles for quickly repeating a search/replace in the future"
+msgstr ""
+
+#. Found in description list item.
+msgid "Priority email support from the developer of the plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "Backup and import the database while running a search/replace"
+msgstr ""
+
+#. Found in description list item.
+msgid "View exactly what changed during a search/replace"
+msgstr ""
+
+#. Found in description list item.
+msgid "WordPress Multisite support"
+msgstr ""
+
+#. Found in description list item.
+msgid "No server requirements aside from a running installation of WordPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "The ability to run a \"dry run\" to see how many fields will be updated"
+msgstr ""
+
+#. Found in description list item.
+msgid "The ability to select specific tables"
+msgstr ""
+
+#. Found in description list item.
+msgid "Serialization support for all tables"
+msgstr ""
+
+#. Screenshot description.
+msgid "After running a search/replace dry-run."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Better Search Replace page added to the \"Tools\" menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent requests to invalid tabs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Outdated links to old website"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Updated sidebar and added pro version discount"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: CSS not loaded on details page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with wp_magic_quotes interfering with some search strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"Settings saved\" notice when saving settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved progress bar info and styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unused code/small cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with 4.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Check BSR_PATH instead of ABSPATH to be consistent"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Untranslateable string"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Bug with report details"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Bug with early skip due to lack of primary key"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Bug with case-insensitive searches in serialized objects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for WordPress Multisite (see FAQs for more info)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated to use \"Dry Run\" as default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with reporting timing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with loading translations and added Spanish translation (props Eduardo Larequi)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed untranslateable strings on submit button and submenu page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with replacing some objects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with searching for special characters like '\\'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Potential security fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added German translation (props @Linus Ziegenhagen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for case-insensitive searches"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added French translation (props @Jean Philippe)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added table sizes to the database table listing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small bugfixes and translation fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to change capability required to use plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Decreased default page size to prevent white screen issue on some environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to change max page size"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"Help\" tab with system info for easier troubleshooting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Decreased minimum \"Max Page Size\" to 1000"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switched to AJAX bulk processing for search/replaces"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated translation file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed minor issue with display of progress bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated German translation (props @Linus Ziegenhagen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked \"System Info\" to use get_locale() instead of WP_LANG constant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few issues with translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed AJAX conflict with WooCommerce"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of missing primary keys"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed potential notice in append_report"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed potential bug with getting tables in large multisites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with searching for backslashes"
+msgstr ""

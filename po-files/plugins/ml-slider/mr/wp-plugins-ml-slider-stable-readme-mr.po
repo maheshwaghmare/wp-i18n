@@ -1,0 +1,1675 @@
+# Translation of Plugins - MetaSlider - Stable Readme (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - MetaSlider - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - MetaSlider - Stable Readme (latest release)\n"
+
+#. Short description.
+msgid "Easy to use WordPress slider plugin. Create SEO-optimized responsive slideshows with Nivo Slider, Flex Slider, Coin Slider and Responsive Slides."
+msgstr ""
+
+#. Plugin name.
+msgid "MetaSlider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Adds an extra check for an error before saving the theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes a bug when babel-polyfil is loaded more than once"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds new developer filters to adjust slide output/visibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Updates unusable filter when attempting to filter slides by type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds new channel for user feedback"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds unique images by theme if a user is importing images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds 11 new themes users can apply to their slideshows"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Other:</strong>\n"
+"* Preview from within the admin area\n"
+"* Shortcode lets you add the slideshow anyway\n"
+"* Fully localized\n"
+"* WordPress Multi-site compatible, and \n"
+"* compatible with translation plugins (WPML, PolyLang &amp; qTranslate)\n"
+"* Developer Friendly, with extensive hooks &amp; filters"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Apply one of our professional slidehow designs to really make your website stand out."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://github.com/Codeinwp/Nivo-Slider-jQuery\">Nivo Slider</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Themes - build your own theme"
+msgstr ""
+
+#. Found in description list item.
+msgid "Slide scheduling &amp; slide visibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes a bug where some slides get appended inside others."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes bug where icons would jump during delete"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes broken Nivo themes (due to css specificity)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Limits image srcset to image and layer slides (fixes post feed image)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Tweaks edits buttons style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adds filters to slides edit buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Updates option name on slideshow select box as title name changes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adds ability to import images with captions, title, alt and desc. from a theme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adds compatibility with Pro feature ability to change layer slide background"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adds placeholder and comparison table entries for schedule functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Updates Pro slide types descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adds a title to the theme module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds ability for a theme developer to add instructions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds ability to preview a slideshow with a theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds translation functionality to JS components"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds ability to use the title in a shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds Gutenberg block"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds ability to import images if none exist"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds a light and dark preview option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds full width toggle to preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds keyboard shortcuts to preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds the option to toggle autoplay for Coin Slider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Increases responsive image srcset maximum size to Full"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Limits responsive image srcset to slideshows with cropping disabled only"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "REFACTOR: Updates how the plugin handles setting updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "REFACTOR: Standardizes the code to deny direct access"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "REFACTOR: Removes plugin dependency on Notice class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Adds a check to the copy/paste element to make sure it exists before adding an event"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes bug that always strips referral tags. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes broken markup in settings in some languages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes error when trying to save many slides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adds default Flexslider fonts to repo for users that require them."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Improves Responsiveness"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds option to enable or disable initial fade in"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds compatibility with retina plugin https://wordpress.org/plugins/wp-retina-2x/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds compatibility with new Pro schedule feature"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Create powerful, SEO-optimized slideshows in minutes with the world's #1 slider plugin!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SECURITY: Prevents a non-persistent logged-in XSS attack. The attacker must persuade a logged-in admin-level WP user to click on a malicious link specifically targeted to your site; this can result in his chosen JavaScript being run inside your browser on the MetaSlider page. Hence, the risk is low, but you should certainly update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Removes an obsolete admin notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Updates FlexSlider to remove flash on page load. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Updates support links to their correct locations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Updates to the correct support link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Adds capability filter to pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Allows users to inherit default captions and other data from the image. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Removes unnecessary type attribute that was causing validation errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Updates compatibility for various themes (including Genesis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Adds compatibility fixes for older WP versions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adds DocBlock checking with CI for PHP and JS files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds back in some instructions on how to display the slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Updates layout on post feed slides."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes FlexSlider bug when resizing slider."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevents a PHP debug log item that appeared in the short-lived 3.6.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixes issues with bottom margin of slideshow, among other minor tweaks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Removes translation of slider brand names."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Updates various styles to retain compatibility with previous releases based upon user feedback"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Restore compatibility with old WP versions that lack the wp_add_inline_script() function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Update various styles to retain compatibility with previous releases based upon user feedback"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UPGRADE NOTE: If upgrading to MetaSlider 3.6+, users of the MetaSlider Add-On pack should also upgrade that plugin to a current release (2.7.1 or later)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Removes default FlexSlider styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Add dashboard notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Adds a guided tour"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Change the label \"Meta Slider\" to \"MetaSlider\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Allow the background image to be changed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Allow a slide to be restored after deletion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TRANSLATIONS: Addresses spelling/localization issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Allow for https image URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Updates FlexSlider to latest"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: FlexSlider touch events respect pause on hover setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adds links to activation page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Accessibility enhancements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Loads inline JS properly"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Support:</strong>\n"
+"* Includes free basic support (covering installation issues and theme/plugin conflicts)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Creative:</strong>\n"
+"* Unrestricted full-width support for image slides, including captions, links, title texts and alt. texts.\n"
+"* Includes drag and drop slide reordering, intelligent image cropping, set image crop position. \n"
+"* Multiple slideshow configuration options (e.g. for speed, timing, plus many more!)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>General:</strong>\n"
+"* Simple and intuitive interface – perfect for individual users, developers &amp; clients!\n"
+"* Fast – requires only the minimum JavaScript/CSS on your page\n"
+"* Creatively responsive"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Included slideshow types:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Choose one of 4 different slideshow types, and use our provided short-code or template to embed the slideshows."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With WordPress’ most popular slider plugin, enhancing your blog or website couldn’t be easier: simply select images from your WordPress Media Library, drag and drop them into place, and then set the slide captions, links and SEO fields all from one page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Update _wp_attachment_metadata when creating new image sizes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: When a media file is deleted from the media library, also remove it from the slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Pre-populate caption and alt text fields for new image slides (based on original media file data)"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "See https://www.metaslider.com/documentation/image-cropping/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "https://www.metaslider.com/documentation/troubleshooting/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Check out the troubleshooting page here:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "https://www.metaslider.com/documentation/theme-integration/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Theme specific instructions:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Add the 'restrict_to' parameter to the shortcode, eg:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You will need to paste the \"Template Include\" code into your theme (you can find this in the 'Usage' section underneath the slideshow settings)"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Text Guide:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "https://www.youtube.com/watch?v=gSsWgd66Jjk"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Video Guide:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "https://www.metaslider.com/documentation/"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Paste in the code and save."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Find the correct place to add it (for example above or below the logo)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Edit a file called 'header.php' (or similar)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Go to Appearance &gt; Editor in WordPress"
+msgstr ""
+
+#. Found in faq header.
+msgid "MetaSlider is cropping my images in the wrong place - what can I do?"
+msgstr ""
+
+#. Found in faq header.
+msgid "It's not working - what can I do?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I only want to show the slideshow on my homepage, how can I do that?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I include a slideshow in the header of my site?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "The not so easy way:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "The easy way:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Manage your slideshows using the 'MetaSlider' menu option"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>ml-slider</code> folder to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click \"Install\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Search for \"MetaSlider\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the Plugins Menu in WordPress"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Follow us on Twitter: <a href=\"https://twitter.com/wpmetaslider\">@wpmetaslider</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Find out more at https://www.metaslider.com"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Read more and thanks to:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The <a href=\"https://www.metaslider.com/upgrade\">MetaSlider Pro</a> includes added support for:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Features</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://workshop.rs/projects/coin-slider/\">Coin Slider</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://responsiveslides.com/\">Responsive Slides</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://flexslider.woothemes.com/\">Flex Slider</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Premium Support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Thumbnail Navigation"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dynamic Post Feed/Featured Image Slides (content slider)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Layer slides with CSS3 animations &amp; HTML5 Video backgrounds"
+msgstr ""
+
+#. Found in description list item.
+msgid "HTML slides"
+msgstr ""
+
+#. Found in description list item.
+msgid "YouTube &amp; Vimeo slides"
+msgstr ""
+
+#. Found in description list item.
+msgid "Lightbox support with the <a href=\"https://wordpress.org/plugins/ml-slider-lightbox/\">MetaSlider Lightbox</a> add-on"
+msgstr ""
+
+#. Found in description list item.
+msgid "Free basic support (covering installation issues and theme/plugin conflicts)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fast - only the minimum JavaScript/CSS is included on your page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Extensive developer API (hooks &amp; filters)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Compatible with translation plugins (WPML, PolyLang &amp; qTranslate)"
+msgstr ""
+
+#. Found in description list item.
+msgid "WordPress Multi Site compatible"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fully localized"
+msgstr ""
+
+#. Found in description list item.
+msgid "Loads of slideshow configuration options - transition effect, speed etc (per slideshow)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Built in Widget and Shortcode"
+msgstr ""
+
+#. Found in description list item.
+msgid "Set image crop position"
+msgstr ""
+
+#. Found in description list item.
+msgid "Intelligent image cropping"
+msgstr ""
+
+#. Found in description list item.
+msgid "Drag and drop slide reordering"
+msgstr ""
+
+#. Found in description list item.
+msgid "Full width slideshow support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Unrestricted support for image slides (supports caption, link, title text, alt text)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create Responsive, SEO-optimized slideshows in seconds"
+msgstr ""
+
+#. Found in description list item.
+msgid "Simple, easy to use interface - perfect for individual users, developers &amp; clients!"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Coin Slider</strong> - 4 transition effects"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Responsive Slides</strong> - responsive &amp; incredibly light weight"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Nivo Slider</strong> - responsive, 16 transition effects, 4 themes"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Flex Slider 2</strong> - responsive, 2 transition effects, carousel mode"
+msgstr ""
+
+#. Screenshot description.
+msgid "Administration panel - selecting slides"
+msgstr ""
+
+#. Screenshot description.
+msgid "Carousel Example"
+msgstr ""
+
+#. Screenshot description.
+msgid "Flex Slider example"
+msgstr ""
+
+#. Screenshot description.
+msgid "Coin Slider example"
+msgstr ""
+
+#. Screenshot description.
+msgid "Nivo Slider example"
+msgstr ""
+
+#. Screenshot description.
+msgid "MetaSlider - for live demos see https://www.metaslider.com/examples/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Add \"metaslider_after_resize_image\" action"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Load admin JavaScript in footer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Workaround/Fix: Don't use WP_Image_Editor to load slide images that are missing metadata (invalid images)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New slides will now be added as a new post type (ml-slide) (existing slideshows and slides will be unaffected)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Workaround/Fix: Don't use WP_Image_Editor to load admin slide thumbnails, use wp_get_attachment_image_src instead. Attempts to fix white screen issues affecting some users. Related: https://core.trac.wordpress.org/ticket/36534"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "We are releasing this update in a number of small stages due to the number of users MetaSlider has. We are being overly cautious to ensure it's a smooth transition. This update does not make any major changes to the current plugin functionality, but it does put in place the \"scaffolding\" code which we will rely on to implement further updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Using unique captions when the same slide has been added to more than one slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding the same slide to a slideshow multiple times"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Duplicating slides and sliders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Drafting slides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Scheduling slides"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "This is the first in a series of small updates which will eventually allow us to remove restrictions in the plugin which prevent us from implementing certain functionality, including:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changing a slide image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Save Spinner"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: \"Maximum level reached\" error when inserting the shortcode for a slideshow into it's own caption. Thanks to Zhouyuan @ Fortinet for reporting this."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Improvement: Classes are now auto loaded to reduce memory footprint\n"
+"(Thanks to Viktor Szépe for the above suggestions!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small styling fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prepare plugin for WordPress.org translation project (rename textdomain from 'metaslider' to 'ml-slider')"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "More info/Comments: http://www.metaslider.com/coming-soon-meta-slider-2-6-free/"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>This is not a major update. We're just following the WordPress versioning conventions (3.0 comes after 2.9)</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "http://codex.wordpress.org/Security_FAQ#Why_are_there_path_disclosures_when_directly_loading_certain_files.3F"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "The fix will prevent some servers (configured with 'display_errors' set to 'on') from disclosing the full path to certain files within MetaSlider."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "More information:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: min version incorrect (should be 3.5)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: More screenshots added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Settings for new sliders now based on the last edited slider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: hitting [enter] brings up Media Library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Add multiple files to slider from Media Browser"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Captions not being escaped (reported by and thanks to: papabeers)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Warning notice when the slider has unsaved changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: JavaScript error when jQuery is loaded in page footer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Unable to assign the same image to more than one slider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Allow images smaller than default thumbnail size to be added to slider (reported by and thanks to: MadBong)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Add warning when BMP file is added to slider (reported by and thanks to: MadBong)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Number of slides per slideshow limited to WordPress 'blog pages show at most' setting (reported by and thanks to: Kenny)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Editors now have permission to use MetaSlider (reported by and thanks to: rritsud)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: UTF-8 support in captions (reported by and thanks to: petergluk)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: max-width css rule added to slider wrapper"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Open URL in new window option added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: jQuery tablednd replaced with jQuery sortable for reordering slides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Template include PHP code now displayed on slider edit page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Plugin localized"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Admin styling cleaned up"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed to MetaSlider (previously ML Slider)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: JS &amp;&amp; encoding error (reported by and thanks to: neefje)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Nivo slider invalid markup (reported by and thanks to: nellyshark)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Flex Slider captions now sit over the slide"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Code refactored"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Responsive AJAX powered administration screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Captions now supported by responsive slides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Coin Slider upgraded to latest version, new options now exposed in MetaSlider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: 'Center align slideshow' option added for all sliders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: 'Smart Crop' setting ensures your slideshow size remains consitent regardless of image dimensions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: 'Auto play' option added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: 'Carousel mode' option added for flex slider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: 'Easing' options added to flex slider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Preview slideshows in admin control panel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Paragraph tags outputted in JavaScript (reported by and thanks to: CrimsonRaddish)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Double slash on jQuery easing path"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: JetPack Photo not loading images (reported by and thanks to: Jason)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: UTF-8 characters in captions (reported by and thanks to: javitopo)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Smart Crop ratio"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Load default settings if original settings are corrupt/incomplete"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Error messages exposed in admin is MetaSlider cannot load the slides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Flexslider navigation overflow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Smart crop edge cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Update slide order on save"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Responsive slides navigation styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Responsive slides navigation positioning"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Nivoslider HTML Captions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Set direction to LTR for flexslider viewport (fix for RTL languages)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Use transparent background on default flexslider theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: French language pack (thanks to: fb-graphiklab)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: PHP Error when using slides the same size as the slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Coinslider navigation centered"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Display warning message when unchecking Print JS and Print CSS options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Flex slider shows first slide when JS is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Multiple CSS fixes added for popular themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: System check added (checks for required image libraries and WordPress version)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Widget added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: PHP version compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Spanish language pack (thanks to eltipografico)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Title field added to widget (suggested by and thanks to: pa_esp)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: HTML5 Validation fix for inline styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Nivo Slider theme select dropdown (reported by and thanks to: macks)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: User Access Manager Plugin incompatibility issues (reported by and thanks to: eltipografico)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Widget markup invalid (reported by and thanks to: CarlosCanvas)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: HTML 5 Validation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added hook to adjust carousel image margin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Coin slider caption width in FireFox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Only submit form when submit button is clicked (not all buttons)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Ensure taxonomy category exists before tagging slide to slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Refresh slides after clicking 'save'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Colorbox conflict when using resizable elements in lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Conflict with Advanced Post Types Order plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Use the original image file if the slideshow size is the same size as the image file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Paragraph tags being added to output using Nivo Slider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Flex Slider carousel causing browser to crash in some circumstances"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Responsive slides styling in FireFox (reported by and thanks to: dznr418)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: System check added with option to dismiss messages. Checks made for: role scoper plugin, wp_footer, wordpress version &amp; GD/ImageMagick."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: HTML Output tidied up"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Image URL Field less restrictive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Settings area tidied up"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: Filters added to allow modification of image slide HTML"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Remove 'Insert Media' tab from 'Add Slide' modal (WP 3.6 only)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: 'metaslider_max_tabs' filter added to convert tab list to ordered drop down menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: wp_footer check removed due to confusion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: 'scoped' attribute removed from inline CSS tag until browsers catch up with supporting it properly. A new filter has been added: \"metaslider_style_attributes\" if you wish to add the scoped attribute back in."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: 'Create first slideshow' prompt added for new users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Responsive Slides upgraded to v1.54"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Flex Slider upgraded to v2.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: WPML fix to ensure slides are extracted for all languages (set up a new slideshow for each language)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: PolyLang fix to ensure slides are extracted for all languages (set up a new slideshow for each language)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: qTranslate support for slide URLs (see: http://screencast.com/t/FrsrptyhoT)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: 'metaslider_resized_image_url' filter added (could be used to disable cropping)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Chinese language pack added (thanks to 断青丝)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Polish Language pack added (thanks to gordon34)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Replace deprecated 'live()' jQuery call with 'on()'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Image filename now displayed for each slide (instead of image dimensions)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Default slideshow size increased to 700x300"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: New slides are resized during addition to the slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Settings table tidied up"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: IE10 - \"Caption\" placeholder text being saved as actual caption"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: FlexSlider styling in twenty twelve theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: PHP Warning (reported by &amp; thanks to: fgirardey)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: qTranslate caption &amp; URL parsing for image slides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Do not try to resize/open images that are corrupt (missing metadata) (blank screen fix)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Symlink path resolution"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Add slides to slideshow in the same order they're selected in the Media Library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Remove bottom margin from flex slider when navigation is hidden (add a CSS Class of 'add-margin' if you need the margin)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Security - nonce checking added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Filters added to add/change attributes in  and <a> tags</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: IE9 admin styling tidied up"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Generate resized images through multiple Ajax requests on save (blank screen fix)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Feature: 'percentwidth' parameter added to shortcode to allow for 100% wide slideshows"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Center align slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Flexslider anchor attributes filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Vantage theme backwards compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: MP6 styling fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Chinese language pack updated (thanks to 断青丝)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: German Language pack added (thanks to gordon34)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: JetPack Photon conflict"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: CSS is now enqueued using wp_enqueue_style (Use a minification plugin or caching plugin to move styles to the  if HTML5 validity is required - eg W3 Total Cache)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: SEO options (add title &amp; alt text to slides)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: 'Add slider' button for posts and pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: No conflict mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: 'Stretch' setting for full width slideshows"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Interface update for WordPress 3.8 admin redesign"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: New window styling improved in WP3.7 and below"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Tab styling improved"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Caption not working in Nivo Slider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Typo in metaslider_responsive_slide_image_attributes filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Norwegian language pack added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: NextGen \"Insert Gallery\" conflict"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: All in one SEO / Page builder / MetaSlider conflict"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Advanced settings arrow toggle"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Vantage background image tiling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Renamed in admin menu from \"MetaSlider Lite\" to \"MetaSlider\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: 'slider' parameter added to flexslider before/start/after etc callbacks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: 'No Conflict' mode refactored"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Filter added for slide image label"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Filters added for complete slideshow output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: RTL fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Add 'ms-' prefix to Advanced settings toggle boxes and Preview button (avoid theme conflicts)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Various admin screen styling improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: \"Responsive\" option renamed to \"R. Slides\". The (old) \"Responsive\" option refers to the \"Responsive Slides\" jQuery library, but users were getting confused as the naming suggested it was the only responsive option. Flex Slider &amp; Nivo Slider are also responsive."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: White Label Branding plugin compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Only include the easing library when transition effect is set to slide"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Add z-index to MetaSlider, attempted conflict fix for themes with drop down menus."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Smart Cropping sometimes not returning smart cropped image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: PHP Warnings when one slideshow exists"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Use plugins_loaded action to initialize plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: CSS Resets updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Admin save spinner functionality improved"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Tab rename UX"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Process shortcodes in captions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Carousel margin option added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Croatian Lang pack added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: qTranslate captions not being processed (typo)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Navigation options greyed out in IE"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Remove easing parameter when effect is set to fade"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Thumbnail margin when theme has #content div"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Enqueue Easing library when carousel mode is enabled, regardless of effect selection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Only apply carousel margin to slides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: HTML5 Compatibility (Experimental). Set <code>define('METASLIDER_ENABLE_RESOURCE_MANAGER', true);</code> in wp-config.php to move MetaSlider link tags head of the page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: WP Super Cache compatibility - cache is cleared when saving slideshow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Dutch Language Pack added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Romanian Language Pack added (Thanks to Octav Madalin Stanoaia)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Flex Slider updated to v2.2.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Flex Slider slideshows should now 'reserve' a space for themselves while they fully load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: HTML5 Compatibility: Alt tags always present on image tag - even if empty."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Slideshow initilization time reduced"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Preview now uses admin-post action"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: PHP Warning when no slideshows have been created"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Save slideshow after reordering slides"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Shortcode parameter added to restrict slideshow to displaying on homepage only (see FAQ)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: wpautop issue with double ampersand"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Carousel image scaling in FireFox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Russian Language Pack added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: FlexSlider IE11 Fade transition"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Layer Editor in IE11 - text fields not accessible in modal windows"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Autoload visibility conflict (http://wordpress.org/support/topic/autoload-visibillity-conflict)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: CSS resets to avoid theme conflicts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: All in One Events Calendar conflict fix (Advanced Settings not toggling)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Thumbnail outline in firefox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: reference to window.parent in media library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Flex Slider updated to 2.3.0-bleeding (fix initial image fade)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added ms-left and ms-right css classes to align slideshow to left or right"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Switch between tab and list view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Persian Language Pack added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Japanese Language Pack added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Admin slide tabs can be modified with filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Escape attributes and text fields in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Escape attributes and JS in slideshow output (credit to jwenerd!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Hungarian Language Pack added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Add filter for capability required to use MetaSlider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Use get_posts instead of WP_Query to extract slideshows (fix conflicts with plugins using get_post_type in admin_footer hooks)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Disable cropping setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Set crop position for slides (requires WP 3.9+)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Allow shortcode parameters to be filtered"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Escape admin tab names (thanks to Dylan Irzi for spotting and reporting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Escape admin setting text fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Remove upgrade nags from media library, add Go Pro page (with an option to hide the page)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Hide share buttons for pro users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Minor admin styling fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Change icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: restrict_to shortcode parameter now accepts page IDs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Ajax delete slide (to stop users from losing changes when deleting a slide)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Add metaslider_flex_slider_list_item_attributes filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: restrict_to shortcode parameter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: German language files (thanks to Ov3rfly!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Change slide image (click top right of slide thumbnail)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Apply FireFox mobile fix to Flex Slider (github #1110)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Change slide image functionality backed out"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Russian language files updated (thanks to asidoryak)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Portuguese language files added (thanks to mauro.mascarenhas)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Smart pad option (for Image Slides &amp; Flex Slider only)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Use admin actions to save slideshow settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Return public slide when DOING_AJAX"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Support for Enhanced Media Library plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Remove 'create video playlist' option from Media Library (on MetaSlider page only)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: FPD Security issue. Thanks to Ole Aass (@oleaass) for finding and disclosing this issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add \"metaslider_attachment_url\" filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: MetaSlider hoplink incorrectly adding parameters to filtered url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ukrainian language pack added (thanks to mister_r!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Chinese language pack updated (thanks to mamsds!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unused \"Resource Manager\" code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add HTML5 validation by applying a property=\"stylesheet\" attribute to MetaSlider  CSS tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Roots theme CSS conflict"
+msgstr ""

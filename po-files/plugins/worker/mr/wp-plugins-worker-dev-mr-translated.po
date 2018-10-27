@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - ManageWP Worker - Development (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-27T17:24:13+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Author of the plugin/theme
+msgid "ManageWP"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "ManageWP Worker plugin allows you to manage your WordPress sites from one dashboard. Visit <a href=\"https://managewp.com\">ManageWP.com</a> for more information."
+msgstr ""
+
+#. #-#-#-#-#  tmp-worker.pot (ManageWP - Worker 4.1.17)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://managewp.com"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ManageWP - Worker"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:95
+msgid "User <strong>%s</strong> could not be found."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:89
+msgid "The automatic login token is invalid. Please check if this website is properly connected with your dashboard, or, if this keeps happening, contact support."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:78
+msgid "The automatic login token was already used. Please try again, or, if this keeps happening, contact support."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:76
+msgid "The automatic login token has expired. Please try again, or, if this keeps happening, contact support."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:74
+msgid "The automatic login token is invalid. Please try again, or, if this keeps happening, contact support."
+msgstr ""

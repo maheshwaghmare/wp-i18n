@@ -317,24 +317,24 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 					// Is WP Error?
 					if ( is_wp_error( $request ) ) {
-						WP_CLI::line( $request->get_error_message() );
+						WP_CLI::line( $plugin_slug . ' | ' . $request->get_error_message() );
 					}
 
 					// Invalid response code.
 					if ( wp_remote_retrieve_response_code( $request ) != 200 ) {
-						WP_CLI::line( 'ERROR URL: ' . $remote_file_url );
-						WP_CLI::line( print_r( $request['response'] ) );
+						WP_CLI::line( $plugin_slug . ' | ' . 'ERROR URL: ' . $remote_file_url );
+						WP_CLI::line( $plugin_slug . ' | ' . print_r( $request['response'] ) );
 					}
 
 					if( ! is_wp_error( $request ) && wp_remote_retrieve_response_code( $request ) == 200 ) {
 						// Get body data.
 						$body = wp_remote_retrieve_body( $request );
-						WP_CLI::line( 'CREATED - ' . $local_file . ' | ' . $remote_file_url );
+						WP_CLI::line( $plugin_slug . ' | ' . 'CREATED - ' . $local_file . ' | ' . $remote_file_url );
 
 						file_put_contents( $local_file, $body);
 					}
 				} else {
-					WP_CLI::line( 'File exist! ' . $local_file );
+					WP_CLI::line( $plugin_slug . ' | ' . 'File exist! ' . $local_file );
 				}
 			}
 		}
@@ -1380,7 +1380,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 								if ($translation) {
 									$translation->setTranslation( $stored_string );
 
-									WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $post_title . ' | WITH ' . $stored_string );
+									WP_CLI::line( $plugin_slug . ' | ' . $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $post_title . ' | WITH ' . $stored_string );
 									$all_translations_count++;
 
 									// Track all translate strings.
@@ -1392,26 +1392,26 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 									}
 								}
 							} else {
-								WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' EMPTY.' );
+								WP_CLI::line( $plugin_slug . ' | ' . $files_count . ' | ' . $count . ' | ' . $post_id . ' EMPTY.' );
 							}
 						} else {
-							WP_CLI::line( $files_count . ' | ' . $count . ' | ' . $post_id . ' NOT EXIST ' . $post_title );
+							WP_CLI::line( $plugin_slug . ' | ' . $files_count . ' | ' . $count . ' | ' . $post_id . ' NOT EXIST ' . $post_title );
 						}
 					}
 					$count--;
 				}
 
 
-				WP_CLI::line( $files_count . ' | ' . 'COMPLETE - TRANSLATED ' . $all_translations_count . ' STRINGS!' );
+				WP_CLI::line( $plugin_slug . ' | ' . $files_count . ' | ' . 'COMPLETE - TRANSLATED ' . $all_translations_count . ' STRINGS!' );
 
 				//Now save a po file with the result
 				$translations->toPoFile( $dir . $translated_name );
-				WP_CLI::line( $files_count . ' | ' . $dir . $translated_name );
+				WP_CLI::line( $plugin_slug . ' | ' . $files_count . ' | ' . $dir . $translated_name );
 
 				$files_count--;
 			}
 
-			WP_CLI::line( 'TOTAL TRANSLATED ' . $all_translations_count );
+			WP_CLI::line( $plugin_slug . ' | ' . 'TOTAL TRANSLATED ' . $all_translations_count );
 
 		}
 

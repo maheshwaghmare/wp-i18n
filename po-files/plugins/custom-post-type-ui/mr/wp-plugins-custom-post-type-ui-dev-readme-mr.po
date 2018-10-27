@@ -1,0 +1,400 @@
+# Translation of Plugins - Custom Post Type UI - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - Custom Post Type UI - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - Custom Post Type UI - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Admin UI for creating custom post types and custom taxonomies for WordPress"
+msgstr ""
+
+#. Plugin name.
+msgid "Custom Post Type UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removed duplicate \"label\" in taxonomy \"get code\" section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Add our stylesheet only on our CPTUI pages. Fixes responsive bug on post editor screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Make sure \"No post type selected\" alert trigger from both buttons on the taxonomy settings edit screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Incorrect use of reserved taxonomy slugs function in a check for reserved post types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Prevent errors from non-existant callback functions during post type or taxonomy processing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Error occurred when attempting to unset post types while editing a taxonomy."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Only register archive slug if has_archive is set to true."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Make \"Show In Rest\" setting default to true for sake of easier Gutenberg integration in the future."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Clarify that the listed post types to associate to a CPTUI taxonomy are public post types by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Clarify what is exported with the Post Types and Taxonomies spots for the Tools section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Utilize <code>wp_doing_ajax()</code> function for our AJAX checks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Adjusted preserved label handling to aid with plugin performance. Props alex-solovyev"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Pass the object_type array to <code>cptui_pre_register_taxonomy</code> filter as extra parameter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Bump minimum WordPress version to 4.7."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Handling of array versions for \"capability_type\" field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: <code>name_admin_bar</code> support in post type labels."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Some initial WP-CLI support for importing and exporting CPTUI settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for \"rest_controller_class\" parameters for both post types and taxonomies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for \"publicly_queryable\" parameter for taxonomies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Warning indicators to our \"Slug changed\" and \"Slug exists\" warnings for post types and taxonomies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filter on taxonomies to be listed as available for association with a post type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Required PHP version to readme.txt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: <code>cptui_get_taxonomy_exists</code> function to check if a provided taxonomy is registered."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Filters for post type and taxonomy data right before saving of final data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: \"delete_with_user\" support for post types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for <code>meta_box_cb</code> parameter for <code>register_taxonomy</code> and taxonomies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Dynamically warn about existing slugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated sidebar links for Pluginize products."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Change how we hide submit button when editing existing post types or taxes so switching is available if a javascript error occurs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: \"Undefined index\" notices for show_in_rest and rest_base settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Add \"show_in_nav_menus\" settings/output to tools section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Add post_format taxonomy support for CPTUI post types that declare post formats support. This primarily addresses issues with previewing changes for existing post type posts with post_format support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Corrected issue with \"Get Code\" area regarding post types and \"show in menu\" field values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Things have been tested on the latest WordPress. You're in good hands."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Text at top of help area and readme description to promote available layouts in CPTUI-Extended."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Prevent potential fatal error with customized links in plugin list page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: \"output\" added to blacklisted taxonomy slug list."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "While CPTUI helps solve the problem of creating custom post types, displaying the data gleaned from them can be a whole new challenge. That’s why we created <a href=\"https://pluginize.com/product/custom-post-type-ui-extended/?utm_source=cptui-desription&amp;utm_medium=text&amp;utm_campaign=wporg\">Custom Post Type UI Extended</a>. <a href=\"https://pluginize.com/cpt-ui-extended-features/?utm_source=cptui-description-examples&amp;utm_medium=text&amp;utm_campaign=wporg\">View our Layouts page</a> to see some examples that are available with Custom Post Type UI Extended."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: The \"Invalid JSON\" error message was receiving the wrong color indicator for the admin notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Added \"custom_css\", \"customize_changeset\", \"author\", and \"post_type\" as reserved post_types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Better accommodate possible labels with apostrophes, in relation to \"Get code\" functionality."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Prevent possible conflicts with .required css selector by prefixing ours."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Layout issues on about page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Resolved saving issue around post types that matched existing page slugs."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please see http://codex.pluginize.com/cptui/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please see http://docs.pluginize.com/category/126-custom-post-type-ui"
+msgstr ""
+
+#. Found in faq header.
+msgid "Code/API documentation"
+msgstr ""
+
+#. Found in faq header.
+msgid "User documentation"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once done uploading, activate Custom Post Type UI."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click \"Install Now\" button."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click the \"Browse...\" button and select zip file from your computer."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Visit the Add New plugin screen and click the \"Upload Plugin\" button."
+msgstr ""
+
+#. Found in installation header.
+msgid "Admin Installer via zip"
+msgstr ""
+
+#. Found in installation header.
+msgid "Admin Installer via search"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Official development of Custom Post Type UI is on GitHub, with official stable releases published on WordPress.org. The GitHub repo can be found at <a href=\"https://github.com/WebDevStudios/custom-post-type-ui\">https://github.com/WebDevStudios/custom-post-type-ui</a>. Please use the Support tab for potential bugs, issues, or enhancement ideas."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Custom Post Type UI provides an easy to use interface for registering and managing custom post types and taxonomies for your website."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://pluginize.com/?utm_source=cptui&amp;utm_medium=text&amp;utm_campaign=wporg\">Pluginize</a> was launched in 2016 by <a href=\"https://webdevstudios.com/\">WebDevStudios</a> to promote, support, and house all of their <a href=\"https://pluginize.com/shop/?utm_source=cptui-&amp;utm_medium=text&amp;utm_campaign=wporg\">WordPress products</a>. Pluginize is not only <a href=\"https://pluginize.com/product/custom-post-type-ui-extended/?utm_source=cptui&amp;utm_medium=text&amp;utm_campaign=wporg\">creating new products for WordPress all the time, like CPTUI Extended</a>, but also provides ongoing support and development for WordPress community favorites like <a href=\"https://wordpress.org/plugins/cmb2/\">CMB2</a> and more."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click the \"Install Now\" button."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Visit the Add New plugin screen and search for \"custom post type ui\"."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to the \"CPTUI\" Menu."
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual"
+msgstr ""
+
+#. Screenshot description.
+msgid "Get Code screen."
+msgstr ""
+
+#. Screenshot description.
+msgid "Import/Export Post Types screen."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "That's it! Now you can easily start creating custom post types and taxonomies in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the Custom Post Type UI folder to the plugins directory in your WordPress installation."
+msgstr ""
+
+#. Screenshot description.
+msgid "Help/support screen."
+msgstr ""
+
+#. Screenshot description.
+msgid "Registered post types and taxonomies from CPTUI"
+msgstr ""
+
+#. Screenshot description.
+msgid "Add new taxonomy screen and tab."
+msgstr ""
+
+#. Screenshot description.
+msgid "Add new post type screen and tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Updated existing and added new, fancier side graphics."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removed ability to rename post type and taxonomy slugs to reserved slugs after initial saving."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Clarification text regarding what the \"Get code\" section is useful for."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Help text for post type and taxonomy slugs around the use of dashes. See http://docs.pluginize.com/article/135-dashes-in-post-type-taxonomy-slugs-for-url-seo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Further hardened undefined index notices and instance checks in our cptui_not_new_install() callback."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Chrome conflicts around the js used to sanitize post type and taxonomy slugs and cursors moving to end of input."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Replaced hardcoded \"manage_options\" reference in our menu setup with variable holding filtered capability."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Blacklisted the word \"fields\" from allowed post type slugs. Causes pages to not show in WP Admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Blacklisted the word \"include\" from allowed taxonomy slugs. Causes menus to not show in WP Admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Undefined index notice during update process for themes or plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Added filter to tab collection for the tools section. You can now add your own tabs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Changed appropriate help/support links to docs.pluginize.com."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Clarified what checking a checkbox does in regards to \"Supports\" area of post type settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Bumped minimum required WordPress version to 4.6."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Further evolved Registered Post Types and Taxonomies screen to better match list table styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Post types and taxonomies no longer need extra page refresh to be registered after an import."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Provide empty quote indicator in Registered Post Types and Taxonomies screen for empty values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Prevent triggering post type/taxonomy slug convert when navigating screen via tab key."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP Notices for rewrite array index, present since version 1.0.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Added \"action\" as a reserved taxonomy name."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Parameter handling for get_terms() to match WordPress 4.5."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Conversion from Cyrillic characters to latin equivalents."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: FAQ clarifying why post type/taxonomy slugs are forced to underscores. We mean well, I assure you."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Helper functions to mark and check if a new CPTUI install."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Helper functions to grab individual post types or taxonomies from CPTUI options, function to check for support for custom saved values."
+msgstr ""

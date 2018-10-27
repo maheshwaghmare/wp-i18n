@@ -1,0 +1,1238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Instagram Feed - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-27T17:28:36+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Display beautifully clean, customizable, and responsive feeds from multiple Instagram accounts"
+msgstr ""
+
+#. Plugin name.
+msgid "Instagram Feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue where the Load More button would disappear if all posts for a feed were cached."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Automatic image resolution detection setting now works better with wide images. Resizing the browser will now automatically raise the image resolution if needed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Using a percent for the image padding was causing the height of Instagram images to be to tall"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Captions missing as \"alt\" text for Instagram images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed a PHP notice when the Instagram API was blocked by the web host"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Using a percent for the image padding was causing the height of images to be too tall"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: More header sizes; you can now choose from three sizes: small, medium, and large. Change this on the \"Customize\" tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: We've made improvements to the way photos are loaded into the feed, adding a smooth transition to display photos subtly rather than suddenly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: \"Unauthorized redirect URL\" error occurring while trying to connect a new Instagram account due to recent changes from Instagram"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: System information was not formatting connected Instagram accounts and user ids correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an occasional issue with the Instagram login flow which would result in an \"Unauthorized redirect URL\" error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Disabled auto load in the database for backup caches"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Retrieving Access Tokens and connecting multiple Instagram accounts is now easier using our improved interface for managing account information. While on the Configure tab, click on the big blue button to connect an account, or use the \"Manually Connect an Account\" option to connect one using an existing Access Token. Once an account is connected, you can use the associated buttons to either add it to your primary Instagram User feed or to a different Instagram feed on your site using the <code>user</code> shortcode option, eg: <code>user=smashballoon</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Instagram Access Tokens may have been incorrectly saved as invalid under certain circumstances"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Backup feed not always being used when Access Tokens expire"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed support for using usernames in the Instagram User ID setting due to recent API changes. Will now default to the Instagram User ID attached to the Access Token."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: SVG icons caused some display problems in IE 11"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a rare issue where feeds were displaying \"Looking for cache that doesn't exist\" when page caching was not being used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Page caches created with the WP Rocket plugin will be cleared when the Instagram Feed settings are updated or the cache is forced to clear"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Setting \"Cache Error API Recheck\" enabled by default for new Instagram Feed installs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Font method setting not working when \"Are you using an ajax theme?\" setting is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed issue where Instagram feeds were displaying \"Looking for cache that doesn't exist\" when page caching was not being used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an Access Token shortcode option and support for multiple Instagram Access Tokens. If you own multiple Instagram accounts then you can now use multiple Access Tokens in order to display user feeds from each Instagram account, either in separate feeds, or in the same feed. Just use the <code>accesstoken</code> shortcode option. See <a href=\"https://smashballoon.com/display-multiple-instagram-feeds/#multiple-user-feeds\">this FAQ</a> for more information on displaying multiple User feeds."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Important: Due to <a href=\"https://smashballoon.com/instagram-api-changes-april-4-2018/\">recent changes</a> in the Instagram API it is no longer possible to display photos from other Instagram accounts which are not your own. You can only display the user feed of the account which is associated with your Access Token."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: links back to instagram.com will use the \"www\" prefix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Using the \"sort posts by random\" feature will include the most recent 33 posts instead of just the posts shown in the Instagram feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Instagram carousel posts include an icon to indicate that they are carousel posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Icons are now generated as SVGs for a sharper look and more semantic markup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added backup caching for all feeds. If the Instagram feed is unable to display then a backup feed will be shown to visitors if one is available. The backup cache can be disabled or cleared by using the following setting: <code>Customize &gt; Misc &gt; Enable Backup Caching</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added feed caching to limit the number of Instagram API requests. Use the setting on the \"Configure\" tab \"Check for new posts every\" to set how long feed data will be cached before refreshing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a rare issue where the Load More button wouldn't be displayed after the last update if the Instagram account didn't have many posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added a workaround for an Instagram API bug which caused some feeds to show fewer posts than expected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed inline padding style for sbi_images element causing validation error when set to \"0\" or blank space"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed Font Awesome 5.0 causing Instagram icon to appear as a question mark with a circle"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a potential security vulnerability. Thanks to <a href=\"http://dumpco.re/\">Magnus Stubman</a> for reporting the issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added translation files for Dutch (nl_NL)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Loading icon appears when waiting for new posts after clicking the \"Load More...\" button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed JavaScript errors which were being caused if the Instagram Access Token had expired or the user ID was incorrect, private, or had no Instagram posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: All links in the feed are now https"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Padding removed from \"Load More\" button if no buttons are being used in the Instagram feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Updated the Font Awesome icon font to the latest version: 4.7.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Font Awesome stylesheet handle has been renamed so it will only be loaded once if our Custom Facebook Feed plugin is also active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Optimized several images used in the Instagram feed including loader.png"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added translation files for French (fr_FR), German (de_DE), English (en_EN), Spanish (es_ES), Italian (it_IT), and Russian (ru_RU) to translate \"Load More...\" and \"Follow on Instagram\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Feeds without any Instagram posts yet will display a message informing logged-in admins to make a post on Instagram in order to view the feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Feeds that include IDs from \"private\" Instagram accounts will now ignore the private data and display a message to logged-in site admins which indicates that one of the Instagram accounts is private"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an option to show/hide Instagram bio text in feed header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Improved tool for retrieving Instagram Access Tokens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added translation files for Danish (da_DK), Finnish (fi_FL), Japanese (ja_JP), Norwegian (nn_NO), Portuguese (pt_PT), and Swedish (sv_SE) to translate the \"Load More\" and \"Follow on Instagram\" text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The plugin is now compatible with the <a href=\"https://wpml.org/\">WPML plugin</a> allowing you to use multiple translations for your feeds on your multi-language sites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with WordPress 4.8"
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid ""
+"You can display as many different Instagram feeds as you like, on either the same page or on different pages, by just using the shortcode options below. For example:\n"
+"    [instagram-feed]\n"
+"    [instagram-feed id=\"ANOTHER_USER_ID\"]\n"
+"    [instagram-feed id=\"ANOTHER_USER_ID, YET_ANOTHER_USER_ID\" num=4 cols=4 showfollow=false]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"For a pop-up photo <strong>lightbox</strong>, to display posts by <strong>hashtag</strong>, show photo <strong>captions</strong>, <strong>video</strong> support + more, check out the <a href=\"http://smashballoon.com/instagram-feed/\" title=\"Instagram Feed Pro\">Pro version</a>.\n"
+"Add beautifully clean, customizable, and responsive Instagram feeds to your website. Super simple to set up and tons of customization options to seamlessly match the look and feel of your site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Mind-blowing Customer Support</strong>\n"
+"We understand that sometimes you need help, have issues or just have questions. We love our users and strive to provide the best support experience in the business. We're experts in the Instagram API and can provide unparalleled service and expertise. If you need support then just let us know and we'll get back to you right away."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Super simple to set up</strong>\n"
+"Once installed, you can be displaying your Instagram photos within 30 seconds! No confusing steps or Instagram Developer account needed."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>No Coding Required</strong>\n"
+"Choose from tons of built-in Instagram Feed customization options to create a truly unique feed of your Instagram content."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Keep Your Site Looking Fresh</strong>\n"
+"Automatically push your new Instagram content straight to your site to keep it looking fresh and keeping your audience engaged."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Display Your Content Your Way</strong>\n"
+"Customize your Instagram feeds to look exactly the way you want, so that they blend seemlessly into your site or pop out at your visitors!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Save Time</strong>\n"
+"Don't have time to update your photos on your site? Save time and increase efficiency by only posting your photos to Instagram and automatically displaying them on your website."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Increase Social Engagement</strong>\n"
+"Increase engagement between you and your Instagram followers. Increase your number of Instagram followers by displaying your Instagram content directly on your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "Plus more customization options added all the time!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Use the shortcode options to style multiple Instagram feeds in completely different ways"
+msgstr ""
+
+#. Found in description list item.
+msgid "Enter your own custom CSS or JavaScript for even deeper customization"
+msgstr ""
+
+#. Found in description list item.
+msgid "Use your own custom text and colors for the 'Load More' and 'Follow' buttons"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display Instagram photos in chronological or random order"
+msgstr ""
+
+#. Found in description list item.
+msgid "Set the spacing/padding between the Instagram photos"
+msgstr ""
+
+#. Found in description list item.
+msgid "Control the width, height and background color of your Instagram feed"
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose to show or hide certain parts of the Instagram feed, such as the header, 'Load More', and 'Follow' buttons"
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose how many columns to display your Instagram photos in and the size of the Instagram photos"
+msgstr ""
+
+#. Found in description list item.
+msgid "Set the number of Instagram photos you want to display"
+msgstr ""
+
+#. Found in description list item.
+msgid "By default the Instagram feed will adopt the style of your website, but can be completely customized to look however you like!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Plus more features added all the time!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Infinitely load more of your Instagram photos with the 'Load More' button"
+msgstr ""
+
+#. Found in description list item.
+msgid "Use the built-in shortcode options to completely customize each of your Instagram feeds"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display posts from multiple Instagram User IDs"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display multiple Instagram feeds on the same page or on different pages throughout your site by using our powerful Instagram Feed shortcode options"
+msgstr ""
+
+#. Found in description list item.
+msgid "Completely responsive and mobile ready –your Instagram feed layout looks great on any screen size and in any container width"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display Instagram photos from any non-private Instagram account."
+msgstr ""
+
+#. Found in description header.
+msgid "Completely Customizable"
+msgstr ""
+
+#. Found in description header.
+msgid "What can it do?"
+msgstr ""
+
+#. Found in description header.
+msgid "Why do I need this?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You may have an error in the Instagram Feed shortcode you are using or are missing a necessary argument."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "6) The shortcode you are using is incorrect"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you are trying to display an Instagram feed that has no posts made to it, a loading symbol may be all that shows for the Instagram feed or nothing at all. Once you add an Instagram post the Instagram feed should display normally"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "5) The feed you are trying to display has no Instagram posts"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If a JavaScript error is occurring on your site then you'll see it listed in red along with the JavaScript file which is causing it."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You find find out whether this is the case by right clicking on your page, selecting 'Inspect Element', and then clicking on the 'Console' tab, or by selecting the 'JavaScript Console' option from your browser's Developer Tools."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "4) There's a JavaScript error on your site which is preventing the plugin's JavaScript file from running"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is most likely because your WordPress theme is missing the WordPress wp_footer function which is required for plugins to be able to add their JavaScript files to your page. You can fix this by opening your theme's footer.php file and adding the following directly before the closing  tag:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "3) The plugin's JavaScript file isn't being included in your page"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If your Instagram User ID doesn't show any Instagram photos then it may be that your Instagram account is private and that the Instagram photos aren't able to be displayed."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please double check the Instagram User ID that you are using. Please note that your Instagram User ID is different from your Instagram username. To find your Instagram User ID simply enter your Instagram username into <a href=\"http://www.otzberg.net/iguserid/\">this tool</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "2) Your Instagram User ID is incorrect or is from a private Instagram account"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Occasionally the blue Instagram login button does not produce a working access token. You can try <a href=\"https://smashballoon.com/instagram-feed/token/\">this link</a> as well."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can obtain a new Instagram Access Token on the Instagram Feed Settings page by clicking the blue Instagram login button and then copy and pasting it into the plugin's 'Access Token' field."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "1) There's an issue with the Instagram Access Token that you are using"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If your Instagram photos aren't loading and all your see is a loading symbol then there are a few common reasons:"
+msgstr ""
+
+#. Found in faq header.
+msgid "My Feed Stopped Working – All I see is a Loading Symbol"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "8) You can use the default WordPress 'Text' widget to display your Instagram Feed in a sidebar or other widget area."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "7) You can paste the Instagram Feed shortcode directly into your page editor."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "6) Copy the Instagram Feed shortcode and paste it into any page, post or widget where you want the Instagram feed to appear."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "5) Once you've customized your Instagram feed, click on the Display Your Feed tab to grab the [instagram-feed] shortcode."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "4) Navigate to the Instagram Feed customize page to customize your Instagram feed."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "You can also display photos from other Instagram accounts by using <a href=\"http://www.otzberg.net/iguserid/\">this tool</a> to find their Instagram User ID."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "3) Copy and paste the Instagram Access Token and Instagram User ID into the relevant Instagram Access Token and Instagram User ID fields. If you're having trouble retrieving your Instagram information from Instagram then try using the Instagram button on <a href=\"https://smashballoon.com/instagram-feed/token/\">this page</a> instead."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "2) Click on the large blue Instagram button to log into your Instagram account and get your Instagram Access Token and Instagram User ID"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "1) Once you've installed the Instagram Feed plugin click on the Instagram Feed item in your WordPress menu"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "See the table below for a full list of available shortcode options:"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "If you'd like to display multiple Instagram feeds then you can set different settings directly in the shortcode like so: <code>[instagram-feed num=9 cols=3]</code>"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "<strong>Multiple Instagram Feeds</strong>"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "Copy and paste the following shortcode directly into the page, post or widget where you'd like the Instagram feed to show up: <code>[instagram-feed]</code>"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "<strong>Single Instagram Feed</strong>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Activate the Instagram Feed plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation header, faq header.
+msgid "Setting up the Free Instagram Feed WordPress Plugin"
+msgstr ""
+
+#. Found in installation header, faq header.
+msgid "Display your Feed"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For more FAQs related to the Instagram Feed plugin please visit the <a href=\"https://smashballoon.com/instagram-feed/support/faq/\" title=\"Instagram Feed plugin FAQs\">FAQ section</a> on our website."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The below options are available on the Instagram Feed Settings page but can also be used directly in the <code>[instagram-feed]</code> shortcode to customize individual Instagram feeds on a feed-by-feed basis."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can embed your Instagram feed directly into a template file by using the WordPress <a href=\"http://codex.wordpress.org/Function_Reference/do_shortcode\">do_shortcode</a> function: <code>&lt;?php echo do_shortcode('[instagram-feed]'); ?&gt;</code>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is a feature of the <a href=\"http://smashballoon.com/instagram-feed/\" title=\"Instagram Feed Pro\">Pro version</a> of the plugin, which allows you to view the photos in a pop-up lightbox, support videos, display captions, display photos by hashtag + more!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Nope. The Access Token used in the plugin is a \"read only\" token, which means that it could never be used maliciously to manipulate your Instagram account."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you're still having an issue displaying your feed then please open a ticket in the <a href=\"http://wordpress.org/support/plugin/instagram-feed\" title=\"Instagram Feed Support Forum\">Support forum</a> with a link to the page where you're trying to display the Instagram feed and, if possible, a link to your Instagram account."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There are a few common reasons for this:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can also display photos from other peoples Instagram accounts. To find their Instagram User ID you can use <a href=\"http://www.otzberg.net/iguserid/\">this tool</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We've made it super easy. Simply click on the big blue button on the Instagram Feed Settings page and log into your Instagram account. The plugin will then retrieve and display both your Access Token and User ID from Instagram."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yep. You can just separate the IDs by commas, either in the User ID(s) field on the plugin's Settings page, or directly in the shortcode like so: <code>[instagram-feed id=\"12986477,13460080\"]</code>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yep. You can display multiple Instagram feeds by using our built-in shortcode options, for example: <code>[instagram-feed id=\"12986477\" cols=3]</code>."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<strong>Your website may contain a JavaScript error which is preventing JavaScript from running.</strong> The plugin uses JavaScript to load the Instagram photos into your page and so needs JavaScript to be running in order to work. You would need to remove any existing JavaScript errors on your website for the plugin to be able to load in your feed."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<strong>The plugin's JavaScript file isn't being included in your page.</strong> This is most likely because your WordPress theme is missing the WordPress <a href=\"http://codex.wordpress.org/Function_Reference/wp_footer\">wp_footer</a> function which is required for plugins to be able to add their JavaScript files to your page. You can fix this by opening your theme's <strong>footer.php</strong> file and adding the following directly before the closing  tag: <code>&lt;?php wp_footer(); ?&gt;</code>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<strong>Your User ID may not be valid</strong>. Be sure you're not using your Instagram username instead of your User ID. You can find your Instagram User ID by using <a href=\"http://www.otzberg.net/iguserid/\">this tool</a>."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<strong>Your Instagram account may be set to private.</strong> Your Instagram account may be set to private. Instagram doesn't allow photos from private Instagram accounts to be displayed publicly."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<strong>Your Access Token may not be valid.</strong> Try clicking on the blue Instagram login button on the plugin's Settings page again and copy and paste the Instagram token it gives you into the plugin's Access Token field."
+msgstr ""
+
+#. Found in faq header.
+msgid "What are the available shortcode options that I can use to customize my Instagram feed?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I embed my Instagram Feed directly into a WordPress page template?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I view the full-size photos or play Instagram videos directly on my website?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Are there any security issues with using an Access Token on my site?"
+msgstr ""
+
+#. Found in faq header.
+msgid "My Instagram feed isn't displaying. Why not!?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I find my Instagram Access Token and Instagram User ID"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I display photos from more than one Instagram account in one single feed?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I display multiple Instagram feeds on my site or on the same page?"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "For more shortcode options, check out the <a href=\"http://smashballoon.com/instagram-feed/\" title=\"Instagram Feed Pro\">Pro version</a>."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "<strong>cols</strong> - The number of columns in your Instagram feed. 1 - 10 - Example: <code>[instagram-feed cols=5]</code>"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "<strong>num</strong> - The number of Instagram posts to display initially. Maximum is 33 - Example: <code>[instagram-feed num=10]</code>"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "For simple step-by-step directions on how to set up the Instagram Feed plugin please refer to our <a href=\"http://smashballoon.com/instagram-feed/free/\" title=\"Instagram Feed setup guide\">setup guide</a>."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>followtext</strong> - The text used for the 'Follow on Instagram' button - Example: <code>[instagram-feed followtext=\"Follow me\"]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>followtextcolor</strong> - The text color of the 'Follow on Instagram' button. Any hex color code - Example: <code>[instagram-feed followtextcolor=#fff]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>followcolor</strong> - The background color of the 'Follow on Instagram' button. Any hex color code - Example: <code>[instagram-feed followcolor=#ff0000]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>showfollow</strong> - Whether to show the 'Follow on Instagram' button. 'true' or 'false' - Example: <code>[instagram-feed showfollow=true]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>'Follow on Instagram' Button Options</strong>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>buttontext</strong> - The text used for the button - Example: <code>[instagram-feed buttontext=\"Load More Photos\"]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>buttontextcolor</strong> - The text color of the button. Any hex color code - Example: <code>[instagram-feed buttontextcolor=#fff]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>buttoncolor</strong> - The background color of the button. Any hex color code - Example: <code>[instagram-feed buttoncolor=#000]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>showbutton</strong> - Whether to show the 'Load More' button. 'true' or 'false' - Example: <code>[instagram-feed showbutton='false']</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>'Load More' Button Options</strong>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>headercolor</strong> - The color of the Instagram feed Header text. Any hex color code - Example: <code>[instagram-feed headercolor=#333]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>showheader</strong> - Whether to show the Instagram feed Header. 'true' or 'false' - Example: <code>[instagram-feed showheader=false]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>Header Options</strong>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>disablemobile</strong> - Disable the mobile layout for your Instagram feed. 'true' or 'false' - Example: <code>[instagram-feed disablemobile=true]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>imagepaddingunit</strong> - The unit of the padding in your Instagram feed. 'px' or '%' - Example: <code>[instagram-feed imagepaddingunit=px]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>imagepadding</strong> - The spacing around your Instagram photos - Example: <code>[instagram-feed imagepadding=10]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>imageres</strong> - The resolution/size of the Instagram photos. 'auto', full', 'medium' or 'thumb' - Example: <code>[instagram-feed imageres=full]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>sortby</strong> - Sort the Instagram posts by Newest to Oldest (none) or Random (random) - Example: <code>[instagram-feed sortby=random]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>Photo Options</strong>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>class</strong> - Add a CSS class to the Instagram feed container - Example: <code>[instagram-feed class=feedOne]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>background</strong> - The background color of the Instagram feed. Any hex color code - Example: <code>[instagram-feed background=#ffff00]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>heightunit</strong> - The unit of the height of your Instagram feed. 'px' or '%' - Example: <code>[instagram-feed heightunit=px]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>height</strong> - The height of your Instagram feed. Any number - Example: <code>[instagram-feed height=250]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>widthunit</strong> - The unit of the width of your Instagram feed. 'px' or '%' - Example: <code>[instagram-feed widthunit=%]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>width</strong> - The width of your Instagram feed. Any number - Example: <code>[instagram-feed width=50]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>id</strong> - An Instagram User ID - Example: <code>[instagram-feed id=AN_INSTAGRAM_USER_ID]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<strong>General Options</strong>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "You can display multiple Instagram feeds by using shortcode options, for example: <code>[instagram-feed num=6 cols=3]</code>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Use the shortcode <code>[instagram-feed]</code> in your page, post or widget to display your Instagram photos."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Navigate to the 'Instagram Feed' settings page to obtain your Instagram Access Token and Instagram User ID and configure your settings."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Install the Instagram Feed plugin either via the WordPress plugin directory, or by uploading the files to your web server (in the <code>/wp-content/plugins/</code> directory)."
+msgstr ""
+
+#. Found in installation header, faq header.
+msgid "Shortcode Options"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We're dedicated to providing the most customizable, robust and well supported Instagram feed plugin in the world, so if you have an issue or have any feedback on how to improve the plugin then please open a ticket in the <a href=\"http://wordpress.org/support/plugin/instagram-feed\" title=\"Instagram Feed Support Forum\">Support forum</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "\"<strong>Great plugin, greater support!</strong> - I've definitely noticed an increase in followers on Instagram since I added this plugin to my sidebar. Thanks for the help in making some adjustments...looks and works great!\" - <a href=\"https://wordpress.org/support/topic/thanks-for-a-great-plugin-6\" title=\"Great plugin, greater Support!\">BNOTP</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "\"<strong>Simple and concise</strong> - Excellent plugin. Simple and non-bloated. I had a couple small issues with the plugin when I first started using it, but a quick comment on the support forums got a new version pushed out the next day with the fix. Awesome support!\" - <a href=\"https://wordpress.org/support/topic/simple-and-concise-3\" title=\"Simple and concise Instagram plugin\">Josh Jones</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Display Instagram photos from any non-private Instagram accounts, either in the same single feed or in multiple different ones."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Super simple to set up</strong> - Once installed, you can be displaying your Instagram photos within 30 seconds! No confusing steps or Instagram Developer account needed."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Keep Your Site Looking Fresh</strong> - Automatically push your new Instagram content straight to your site to keep it looking fresh and keeping your audience engaged."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Display Your Content Your Way</strong> - Customize your Instagram feeds to look exactly the way you want, so that they blend seemlessly into your site or pop out at your visitors!"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Save Time</strong> - Don't have time to update your photos on your site? Save time and increase efficiency by only posting your photos to Instagram and automatically displaying them on your website"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Increase Social Engagement</strong> - Increase engagement between you and your Instagram followers. Increase your number of followers by displaying your Instagram content directly on your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "Add your own Custom CSS and JavaScript for even deeper customizations"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display your Instagram photos chronologically or in random order"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display a <strong>beautiful header</strong> at the top of your feed"
+msgstr ""
+
+#. Found in description list item.
+msgid "Includes a <strong>Follow on Instagram button</strong> at the bottom of your feed"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Infinitely load more</strong> of your Instagram photos with the 'Load More' button"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display thumbnail, medium or <strong>full-size photos</strong> from your Instagram feed"
+msgstr ""
+
+#. Found in description list item.
+msgid "Use the built-in <strong>shortcode options</strong> to completely customize each of your Instagram feeds"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display <strong>multiple Instagram feeds</strong> on the same page or on different pages throughout your site"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Completely customizable</strong> - Customize the width, height, number of photos, number of columns, image size, background color, image spacing and more!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Completely <strong>responsive</strong> and mobile ready - layout looks great on any screen size and in any container width"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display photos from <strong>multiple Instagram accounts</strong> in the same feed or in separate feeds"
+msgstr ""
+
+#. Found in description list item.
+msgid "Super <strong>simple to set up</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "Feedback or Support"
+msgstr ""
+
+#. Found in description header.
+msgid "Featured Reviews"
+msgstr ""
+
+#. Found in description header.
+msgid "Benefits"
+msgstr ""
+
+#. Found in description header.
+msgid "Features"
+msgstr "वैशिष्ट्ये"
+
+#. Screenshot description.
+msgid "The Instagram Feed plugin Settings pages"
+msgstr ""
+
+#. Screenshot description.
+msgid "Just copy and paste the shortcode into any page, post or widget on your site"
+msgstr ""
+
+#. Screenshot description.
+msgid "Display your Instagram photos in multiple columns, with or without a scrollbar"
+msgstr ""
+
+#. Screenshot description.
+msgid "Your Instagram feeds are completely responsive and look great on any device"
+msgstr ""
+
+#. Screenshot description.
+msgid "Display multiple Instagram feeds from any non-private Instagram account"
+msgstr ""
+
+#. Screenshot description.
+msgid "Your Instagram Feed is completely customizable"
+msgstr ""
+
+#. Screenshot description.
+msgid "Default plugin styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with upcoming WordPress 4.6 update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a security vulnerabiliy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Minor bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Updated plugin links for new WordPress.org repo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed a comment from the plugin's JavaScript file which was causing an issue with some optimization plugins, such as Autoptimize."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with the Instagram image URLs which was resulting in inconsistent url references in some feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>IMPORTANT: Due to the recent Instagram API changes, in order for the Instagram Feed plugin to continue working after June 1st you must obtain a new Access Token by using the Instagram button on the plugin's Settings page.</strong> This is true even if you recently already obtained a new token. Apologies for any inconvenience."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Updated the Font Awesome icon font to the latest version: 4.6.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a help link next to the Instagram login button in case there's an issue using it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Updated the Instagram icon to match their new branding"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a setting to disable the Font Awesome icon font if needed. This can be found under the Misc tab at the bottom of the Customize page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: When you click on the name of a setting on the plugin’s Settings pages it now displays the shortcode option for that setting, making it easier to find the option that you need"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added links to our other <strong>free</strong> plugins to the bottom of the admin pages: <a href=\"https://wordpress.org/plugins/custom-facebook-feed/\">The Custom Facebook Feed</a> and <a href=\"https://wordpress.org/plugins/custom-twitter-feeds/\">Custom Twitter Feeds</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue caused by a specific type of emoji which would cause the feed to break when used in a post"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Corrected a typo in the Instagram Feed Shortcode Options table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added an initialize function to the Instagram Feed plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved the documentation within the Instagram Feed plugin settings pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: The Instagram Feed plugin now includes an 'Auto-detect' option for the Instagram Image Resolution setting which will automatically set the correct Instagram image resolution based on the size of your Instagram feed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an optional header to the Instagram feed which contains your Instagram profile picture, Instagram username and Instagram bio. You can activate this on the Instagram Feed Customize page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Addressed a few CSS issues which were causing some minor formatting issues in the Instagram Feed on certain themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an option to disable the Instagram Feed mobile layout"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Made some JavaScript improvements to the core Instagram Feed plugin code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Used the Instagram photo caption to add a more descriptive alt tag to the Instagram photos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Important notice added in the last update is now only visible to admins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Minified CSS and JS files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: A few minor UI tweaks on the settings pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a width and height attribute to the images to help improve Google PageSpeed score"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a setting to allow you to use a fixed pixel width for the feed on desktop but switch to a 100% width responsive layout on mobile"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added video icons to Instagram posts in the feed which contain videos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Compatible with Instagram's new API changes effective June 1st"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue where when an Instagram feed was initially hidden (in a tab, for example) then the Instagram photo resolution was defaulting to 'thumbnail'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a bug which was causing the height of the Instagram photos to be shorter than they should have been in some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a JavaScript error in Internet Explorer 8 caused by the 'addEventListener' function not being supported"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The new square photo cropping is no longer being applied to Instagram feeds displaying images at less than 150px wide as the images from Instagram at this size are already square cropped"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue which was setting the visibility of some Instagram photos to be hidden in certain browsers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue where the new Instagram image cropping fuction was failing to run on some sites and causing the Instagram images to appear as blank"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue where Instagram photos wouldn't appear in the Instagram feed if it was initially being hidden inside of a tab or some other element"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: If you have uploaded an Instagram photo in portrait or landscape then the plugin will now display the square cropped version of the photo in your Instagram feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Launched the Instagram Feed plugin!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with the Instagram Feed 'Load More' button opening an empty browser window in Firefox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with the Instagram login URL on the plugin's Instagram Feed Settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a full list of all available Instagram Feed shortcode options to help you if customizing multiple Instagram feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added 'Step 3' to the Instagram Feed Settings page explaining how to display your feed using the [instagram-feed] shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an option to show or hide the 'Load More' button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an option to set the number of Instagram photos to be initially displayed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an uncommon issue related to the output of the Instagram content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pre-tested for the upcoming WordPress 4.0 update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with the maximum Instagram image width"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with the Instagram Access Token and Instagram User ID retrieval functionality in certain web browsers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added a line of code which enables shortcodes to be used in widgets for themes which don't have it enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: A maximum width is now only applied to the Instagram feed when the Instagram photos are displayed in one column"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a icon to the Instagram Feed menu item"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a small gap to the top of the 'Load More' button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: The 'Load More' button now automatically hides if there are no more Instagram photos to load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a <a href=\"http://smashballoon.com/instagram-feed/\" title=\"Instagram Feed Pro\">Pro version</a> of the Instagram Feed plugin which allows you to display Instagram photos by hashtag, display Instagram captions, view Instagram photos in a pop-up lightbox, show the number of Instagram likes &amp; comments and more"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an option to preserve your Instagram Feed settings when uninstalling the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: A new tabbed layout has been implemented on the Instagram Feed plugin's settings pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an option to display your Instagram photos in random order"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added Custom CSS and Custom JavaScript sections which allow you to add your own custom CSS and JavaScript to the Instagram Feed plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Changed the double quotes to single quotes on the 'data-options' attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed stray PHP notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a minor issue with the Custom JavaScript being run before the Instagram photos are loaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an occasional issue with the 'Sort Photos By' option being undefined"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Replaced the 'on' function with the 'click' function to increase compatibility with themes using older versions of jQuery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with the feed not clearing other widgets correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Included a link to <a href=\"smashballoon.com/instagram-feed/free/\" title=\"Instagram feed setup directions\">step-by-step setup directions</a> for the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved the responsive layout behavior of the Instagram feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a subtle fade effect to the Instagram photos when hovering over them"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a unique ID to each Instagram photo so that they can be targeted individually via CSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a loader icon to indicate that the Instagram photos are loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added the ability to use your own custom text for the 'Load More' button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an optional 'Follow on Instagram' button which can be displayed at the bottom of your Instagram feed. You can activate this on the Instagram Feed Customize page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: You can now display Instagram photos from multiple Instagram User IDs. Simply separate your Instagram IDs by commas."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with the Instagram icon not appearing in the 'Follow on Instagram' button or in the Instagram Feed header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a JavaScript bug which caused the feed not to load photos correctly in IE8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Made the Instagram Access Token field slightly wider to prevent tokens being copy and pasted incorrectly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added validation to the Instagram User ID field to prevent usernames being entered instead of IDs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added friendly error messages which display only to WordPress admins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a Support tab which contains System Info to help with troubleshooting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added a 'class' shortcode option which allows you to add a CSS to class to each individual Instagram feed: <code>[instagram-feed class=feedOne]</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an setting which allows you to use the Instagram Feed plugin with an Ajax powered theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Moved the initiating sbi_init function outside of the jQuery ready function so that it can be called externally if needed by Ajax powered themes/plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with the 'Load more' button not always showing when displaying Instagram photos from multiple Instagram User IDs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed a line of code which was disabling WordPress Debug/Error Reporting. If needed, this can be disabled again by using the setting at the bottom of the plugin's 'Customize' settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added CSS opacity property to Instagram images to prevent issues with lazy loading in some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added a stricter CSS implementation for some elements to prevent styles being overridden by themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Instagram photos are now only displayed once they're fully loaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed the image load function as it was causing Instagram images not to be displayed for some users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Reverted the 'prop' function introduced in the last update back to 'attr' as prop isn't supported in older versions of jQuery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue introduced in version 1.3.4 which was causing theme settings to not be applied in some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with double quotes in photo captions (used in the Instagram photo alt tags) which caused a formatting issue"
+msgstr ""

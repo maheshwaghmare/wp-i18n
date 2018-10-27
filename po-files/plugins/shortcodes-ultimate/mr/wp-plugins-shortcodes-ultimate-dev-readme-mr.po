@@ -1,0 +1,1790 @@
+# Translation of Plugins - Shortcodes Ultimate - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - Shortcodes Ultimate - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - Shortcodes Ultimate - Development Readme (trunk)\n"
+
+#. Plugin name.
+msgid "Shortcodes Ultimate"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<a href=\"https://www.youtube.com/watch?v=6xhplrZJD9c\">Watch video of the process</a>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to <code>Dashboard</code> ▸ <code>Plugins</code> and active the plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Unzip downloaded archive and upload <code>shortcodes-ultimate</code> folder under your <code>/wp-content/plugins/</code> directory (resulted plugin path should be <code>/wp-content/plugins/shortcodes-ultimate/**</code>);"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download a .zip file with plugin;"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click <code>Install</code>, then <code>Activate</code>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Search for <code>Shortcodes Ultimate</code>;"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to <code>Dashboard</code> ▸ <code>Plugins</code> ▸ <code>Add New</code>;"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "From within dashboard (recommended)"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://github.com/vanokhin/shortcodes-ultimate\">GitHub</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/support/\">Premium support</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://docs.getshortcodes.com\">Documentation</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/add-ons/\">Add-ons</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Developer-friendly"
+msgstr ""
+
+#. Found in description list item.
+msgid "Translation-ready"
+msgstr ""
+
+#. Found in description list item.
+msgid "Documentation"
+msgstr ""
+
+#. Found in description header.
+msgid "Links"
+msgstr ""
+
+#. Found in description list item.
+msgid "50+ beautiful shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed <code>&lt;img&gt;</code> icon appearance of the <code>[su_service]</code> shortcode"
+msgstr ""
+
+#. Found in description header.
+msgid "Available Shortcodes"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Other</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Returned <code>su_cmpt()</code> and <code>su_compatibility_mode_prefix()</code> utils"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New filters for gallery, slider, and carousel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various code improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed <code>[su_siblings]</code>, now it works again at top-level pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Live Preview, wasn't representing changed settings"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Security update</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed shortcode generator preview vulnerability. <a href=\"https://www.pluginvulnerabilities.com/2018/09/25/full-disclosure-of-vulnerability-in-wordpress-plugin-with-700000-active-installations/\">Description</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing <code>su_do_shortcode()</code> utility function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing <code>su_scattr()</code> utility function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing <code>su_get_icon()</code> utility function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Fatal error: Call to a member function get_page_permastruct() on null in link-template.php:357"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Changes</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Improvements</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Fixes</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The new option <code>zoom</code> for <code>su_gmap</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The <code>su_post</code> shortcode now support slugs in the <code>post_id</code> attribute;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New options <code>title</code> and <code>rel</code> for the <code>su_permalink</code> shortcode;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "https support for the <code>su_dailymotion</code> shortcode;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The new option <code>mute</code> for the <code>su_vimeo</code> shortcode;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The new option <code>dnt</code> (do not track) for the <code>su_vimeo</code> shortcode, <a href=\"https://help.vimeo.com/hc/en-us/articles/360001494447-Using-Player-Parameters\">learn more</a>;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for nested shortcodes in the <code>title</code> attribute of the <code>su_button</code> shortcode;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for the <code>youtube-nocookie.com</code> domain in <code>su_youtube</code> and <code>su_youtube_advanced</code> shortcodes;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The new option <code>mute</code> for <code>su_youtube</code> and <code>su_youtube_advanced</code> shortcodes;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved appearance of the <code>Show more</code> and <code>Show less</code> links of the <code>su_expand</code> shortcode;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with fitvid.js;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing images for <code>su_audio</code>, <code>su_video</code>, <code>su_slider</code> and <code>su_carousel</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warning in <code>su_siblings</code> shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Shortcodes styles merged into a single stylesheet."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: [scheduler] shortcode logic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: issue with spoiler loaded through ajax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: nested shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: is_plugin_active call removed on frontend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: added missing FontAwesome icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: responsive styles for [su_pullquote]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Font Awesome to version 4.7.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP warning in [su_posts] shortcode when specified template does not exist"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: caching issue with [su_dummy_text]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Inview.js library replaced with <a href=\"https://github.com/protonet/jquery.inview\">jQuery.Inview</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new attribute 'playsinline' for youtube_advanced shortcode: [su_youtube_advanced playsinline=\"no|yes\"]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new attribute 'responsive' for table shortcode: [su_table responsive=\"no|yes\"]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: OwlCarousel jQuery plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: compatibility with 'Plugin Organizer'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: border-radius on [box] shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: [expand] shortcode now works when loaded through AJAX"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: icon sizes at 'Dashboard - Available Shortcodes' page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: an issue where RTL stylesheet won't displayed if custom CSS field is empty"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://docs.getshortcodes.com/article/84-external-resources\">Reviews by advanced users</a>"
+msgstr ""
+
+#. Found in description header.
+msgid "Check out premium add-ons!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcodes: spoiler, service, list, columns, note"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcodes: button, tabs, box, carousel"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcode settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcode insertion window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new filter 'su/assets/custom_css/template' to filter custom css output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new filter 'su/slides_query', which can be used to modify posts query for slider, carousel and custom_gallery shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new attribute 'ID' for [button] shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: bug, where backslashes were removed from custom CSS code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: old bug when unwanted code parts was added with shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: shortcodes prefix field now accepts special characters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: changed admin menu position (it was replacing 'Settings' menu on some installations)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: serious security vulnerability, which allows attacker to run any code using filter in meta, post, or user shortcodes. Thanks to Robert L Mathews."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Security improvement. Plugin will now strip all HTML tags from Custom CSS code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor improvements and fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: [user] shortcode works when user is not logged in"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed default content for [tabs], [row] and [accordion] shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: [feed] shortcode (now it uses SimplePie)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: 'Cheatsheet' admin menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: 'Examples' admin menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'Available shortcodes' admin menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New documentation <a href=\"http://docs.getshortcodes.com/\">docs.getshortcodes.com</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New project website <a href=\"https://getshortcodes.com/\">getshortcodes.com</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Read <a href=\"https://vanokhin.com/whats-new-in-shortcodes-ultimate-5/\">this blog post</a> to learn more about update"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If you get stuck, you can ask for help in <a href=\"https://wordpress.org/support/plugin/shortcodes-ultimate\">official plugin forum</a>.\n"
+"For help with premium add-ons, please <a href=\"https://getshortcodes.com/account/open-support-ticket/\">open new support ticket</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Plugin has comprehensive <a href=\"http://docs.getshortcodes.com/\">documentation</a>.\n"
+"Also, you can find more answers at <a href=\"https://getshortcodes.com/support/\">support page</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You should <a href=\"https://github.com/gndev/shortcodes-ultimate/\">create an issue at GitHub</a> or <a href=\"https://getshortcodes.com/account/open-support-ticket/\">open new support ticket</a> (for premium add-ons only)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! Shortcodes Ultimate is designed to work with any theme, but your theme must include very basic things: 'wp_head' and 'wp_footer' template tags. Sometimes, the plugin may not work properly because of javascript errors caused by third-party plugins/themes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! <a href=\"http://docs.getshortcodes.com/article/52-using-of-shortcodes-in-template-files\">How to use shortcodes in template files</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Yes, you can create custom shortcodes using 'su/data/shortcodes' filter. Tutorial: <a href=\"http://docs.getshortcodes.com/article/45-how-to-add-custom-shortcodes\">How to add custom shortcodes</a>.\n"
+"Alternatively, you can use <a href=\"https://getshortcodes.com/add-ons/shortcode-creator/\">Shortcode Creator add-on</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can remove default shortcodes using 'su/data/shortcodes' filter. Tutorial: <a href=\"http://docs.getshortcodes.com/article/51-how-to-remove-default-shortcodes\">How to remove default shortcodes</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The most common reasons of this issue are listed <a href=\"http://docs.getshortcodes.com/article/42-insert-shortcode-button-do-not-work\">here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The most common reasons of this issue are listed <a href=\"http://docs.getshortcodes.com/article/41-shortcodes-do-not-work\">here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.getshortcodes.com/article/36-shortcodes-ultimate\">How Shortcodes Ultimate plugin works</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I get support or talk to other users?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where to find additional information?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I report a bug?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will this plugin work with my theme?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I use shortcodes in template files?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I create custom shortcodes?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I remove default shortcodes?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Insert shortcode button do not work. Why?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Shortcodes do not work. Why?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How this plugin works"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<a href=\"http://docs.getshortcodes.com/article/13-plugin-installation\">Detailed installation guide</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://getshortcodes.com/\">Shortcodes Ultimate</a> is a comprehensive collection of various visual and functional elements, which you can use in the post editor, text widgets or even in template files. Using Shortcodes Ultimate you can easily create tabs, buttons, boxes, sliders and carousels, responsive videos and much, much more."
+msgstr ""
+
+#. Found in description list item.
+msgid "pt_br locale: <a href=\"http://www.ibidem-translations.com/\">Ibidem Translations</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://getshortcodes.com/add-ons/add-ons-bundle/\">Add-ons Bundle</a></strong> - All-in-one!"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/add-ons/shortcode-creator/\">Shortcode Creator</a> - create your own custom shortcodes"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/add-ons/additional-skins/\">Additional Skins</a> - 60+ additional skins"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/add-ons/extra-shortcodes/\">Extra Shortcodes</a> - 15+ additional shortcodes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Modern responsive design"
+msgstr ""
+
+#. Found in description list item.
+msgid "1-click shortcode insertion with live preview"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/shortcodes/\">Available shortcodes</a>"
+msgstr ""
+
+#. Found in description header.
+msgid "Thanks to these great guys for contribution"
+msgstr ""
+
+#. Screenshot description.
+msgid "Insert Shortcode button added above the editor"
+msgstr ""
+
+#. Short description.
+msgid "A comprehensive collection of visual components for your site"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: user capability check in [permalink]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: [slider] and [custom_gallery] markup (skipped whitespaces among link attributes)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: compatibility with PHP7 ([user] and [post] shortcodes)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: lightbox javascript"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: https support for Youtube. <a href=\"https://github.com/gndev/shortcodes-ultimate/pull/39\">Pull request #39</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: https support for Google Maps. <a href=\"https://github.com/gndev/shortcodes-ultimate/pull/40\">Pull request #40</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: PHP7 compatibility. Checked with <a href=\"https://github.com/sstalle/php7cc\">php7cc</a> and <a href=\"https://wordpress.org/plugins/php-compatibility-checker/\">PHP Compatibility Checker</a>. <a href=\"https://github.com/gndev/shortcodes-ultimate/pull/45\">Pull request #45</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: added access check to permalink shortcode. <a href=\"https://github.com/gndev/shortcodes-ultimate/pull/20\">Pull request #20</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: security vulnerability at 'Examples' admin page (insecure call of file_get_contents() at inc/core/tools.php:774)"
+msgstr ""
+
+#. Found in description list item.
+msgid "el_gr locale: <a href=\"mailto:&#097;&#107;&#105;&#115;&#x5f;&#x6d;&#x61;&#x6e;&#x6f;&#x6c;&#x6f;&#x70;&#x6f;u&#108;&#111;&#115;&#095;&#097;&#116;&#095;&#104;&#111;&#116;&#x6d;&#x61;&#x69;&#x6c;&#x5f;&#x64;&#x6f;&#x74;&#x5f;c&#111;&#109;\">Kleanthis Manolopoulos</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "James Smith - <a href=\"http://loopj.com/jquery-simple-slider/\">Simple Slider jQuery plugin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dave Gandy - <a href=\"http://fortawesome.github.io/Font-Awesome/\">Font Awesome</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Vladimir Kharlampidi - <a href=\"http://www.idangero.us/sliders/swiper/\">Swiper jQuery plugin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Craig Thompson - <a href=\"http://qtip2.com/\">qTip jQuery plugin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dmitry Semenov - <a href=\"http://dimsemenov.com/plugins/magnific-popup/\">Magnific Popup jQuery plugin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "sv_se locale: <a href=\"http://ninjaseo.es/\">Javier Marcilla</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "cs_cz locale: <a href=\"http://nuze.cz/\">Punc00</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "sk_sk locale: <a href=\"http://patwist.com/\">Patrik Žec (PATWIST)</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "fr_fr locale: <a href=\"http://etic-studio.fr/\">Nicolas Leclerc</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/support/plugin/shortcodes-ultimate\">Support forum</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Works with any theme"
+msgstr ""
+
+#. Found in description list item.
+msgid "RTL support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom widget"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom CSS editor"
+msgstr ""
+
+#. Found in description header.
+msgid "Features"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor improvements, fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: vote popup at plugins page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed options saving"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added options page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Localization support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added shortcode \"Fancy link\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new shortcode table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new shortcode media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new list styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new button styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option \"Compatibility mode\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added donation forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom CSS editor with syntax hughlight"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New admin panel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added shortcode photoshop"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added shortcode nivo_slider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved settings page design"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multiple tabs support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No-js compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ajax admin page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some small additions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: bloginfo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: permalink"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Different tabs styles (1 old + 1 new)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New button attribute - target"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New button attribute - class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some admin fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: siblings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: subpages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New attribute for spoiler shortcode - style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New attribute for column shortcode - style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option: disable any stylesheet"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option: disable any script"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New tabs style (style=3)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New attr: p for [subpages]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New attr: link=\"caption\" for [nivo_slider]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: feed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: members"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: document"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New admin page: Demo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: jcarousel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Theme integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed for work with new jQuery 1.6 in WP 3.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "French translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched and secure timthumb.php"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: private (private notes for editors)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Button for WYSIWIG editor (search it near Upload/Insert buttons)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "German translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: guests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New parameter: [members login=\"0|1\"]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode: [custom_gallery]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: [nivo_slider] and [jcarousel] (see docs in console)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [dropcap]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Belarusian translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Nested shortcodes: spoiler, column, tabs, box, note"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Authors can also use shortcode generator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multiple tabs bugfix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved spoiler shortcode (check settings page)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [accordion] for muliple spoilers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed size option for sliders and gallery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom options for jwPlayer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Descriptions for [custom_gallery]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed images ordering for [custom_gallery], [jcarousel] and [nivo_slider]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New style for buttons [button style=\"5\"]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [label]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete support for nested shortcodes. Check the FAQ page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 2 useful screencasts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated timthumb.php (version 2.8.10)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Donate button in control panel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "2 new translations (Sk, Lt)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Farbtastic color picker"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Generator select improved with <a href=\"http://harvesthq.github.com/chosen/\">Chosen</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Partners section on settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"http://www.youtube.com/watch?v=IjmaXz-b55I\">Awesome tutorial by Digital Cascade TV</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hebrew translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Special widget for shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More screencasts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Columns, google maps, google document viewer, youtube player, vimeo player and custom audio player is now fully responsive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now you can create your own custom skins for shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new shortcode [posts]. This is awesome and flexible mechanism to display your content in many different ways"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For speed-up maniacs: completely rewritten assets mechanism. Now css and js files included on page depend on used shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For security maniacs: timthumb.php replaced by native WordPress mechanism"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Completely reorganized code. Added and removed some shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"http://gndev.info/kb/shortcodes-ultimate-api-overview/\">Shortcodes API</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Brand new Shortcode Generator, <a href=\"http://www.youtube.com/watch?v=DR2c266yWEA\">demo video</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/gndev/shortcodes-ultimate\">GitHub repo</a>. Now you can easily fork and modify best plugin in the world (:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin based on <a href=\"https://github.com/gndev/sunrise\">Sunrise Plugin Framework</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"http://gndev.info/shortcodes-ultimate/maker/\">Premium add-on for creating custom shortcodes</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"http://gndev.info/shortcodes-ultimate/\">Official plugin page</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [document]. Now it accepts file and url attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [column]. Now it accepts attribute last and can be not wrapped with [row]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [note]. Now it accepts color and note_color attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [box]. Now it accepts color and box_color attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [members]. Now it accepts style and login attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [button]. Need to test"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [permalink]. Now it accepts p and id attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [dropcap]. Now it accepts 1, 2 and 3 as style values"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [label]. Now it accepts style and type attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [highlight]. Now it accepts bg and background attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added custom CSS import from previous versions. Styles will be imported automatically and prepended to the existing CSS-code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [spoiler]. Now it accepts 0 and 1 as values for attribute open. Also, it now accepts style attribute (1, 2, default, fancy, simple)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [tabs]. Now it accepts style=3 and vertical attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed [column] margins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [frame]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixd button style 3D"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added attribute \"active\" for tabs container. This option allows you to select tab number that will be open by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with hidden single [tab]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backward compatibility for [media]. Shortcode has basic support for youtube and vimeo videos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed many PHP warnings when debug mode enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated caching mechanism. Cache now will be reseted on plugin activation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated [frame]. Now it can contain other shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New attribute \"center\" for [button]. Buttons can now be centered on the page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New screencast - <a href=\"http://www.youtube.com/watch?v=kCWyO2F7jTw\">How to create image gallery</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"http://gndev.info/shortcodes-ultimate/metro-skins/\">5 metro skins</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional access check option for Shortcode Generator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed spoiler background for style=fancy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated galleries mechanism. Removed some conflicts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated caching mechanism. Cache will be reseted when you add or remove terms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added wp_footer check. User will be noticed if current theme doen't includes wp_footer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added [accordion] scrolling. <a href=\"http://wordpress.org/support/topic/accordion-usability-issue\">Forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new attribute. [tab disabled=\"yes\"]. Now, any tab can be disabled. <a href=\"http://wordpress.org/support/topic/tabs-how-to-disable-one-of-the-tabs\">Forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added shortcode [tooltip]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated qTip plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added compatibility mode prefix for spoilers inside of accordion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Greek translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed wp_footer notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small fix for tooltips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed wp_footer notice, again"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled wp_footer check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed [lightbox]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Greek translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed [tooltip]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated [accordion], [spoiler] and [tabs] js code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed [button] css code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added pot file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved js code for generator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved js code for spoilers and tabs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new attr [column center=yes]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed media query for [column]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed [button wide=yes]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translated into Japanese"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to use shortcodes inside of attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added default post_type value for [posts]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added default taxonomy value for [posts]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Aded font-awesome.css. Will be completely included in closest versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small performance improvemets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed syntax for shortcodes inside of attributes - <a href=\"http://gndev.info/kb/how-to-use-another-shortcodes-inside-of-attributes/\">documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed another warning (undefined index) - <a href=\"http://wordpress.org/support/topic/undefined-index-with-wp_debug-true\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed warning at settings page - <a href=\"http://wordpress.org/support/topic/warning-on-settings-page\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warning in footer - <a href=\"http://wordpress.org/support/topic/bug-showing-in-online-site-after-updating-the-plugin\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Font Awesome icons (in Generator)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed [video] player"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New attr for [button] onclick"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Z-index for visual composer - <a href=\"http://wordpress.org/support/topic/compatible-with-visual-composer\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New media manager added to the file fields in Generator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New media manager added for galleries manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fatal error in [media]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Shortcodes inside of [button]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media manager is now works on widgets page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New icon picker for [service], [button] and [list]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "IMPORTANT: removed old list icons. These icons replaced with new font-awesome icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Anchor navigation for spoilers and tabs - <a href=\"http://wordpress.org/support/topic/hyperlinks-to-spoilers-and-tabs\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New text-shadow picker for [button]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New slider control for shortcode generator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with date format in [posts]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New attr [spoiler icon=\"\"]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Font Awesome updated to version 4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New admin page - Add-ons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New admin page - Examples"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortocde [youtube_advanced]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortocde [animate]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortocde [dummy_text]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortocde [dummy_image]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unused classes MediaUpload and ImageMeta"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added classes Shortcodes_Ultimate_Generator, Shortcodes_Ultimate_Shortcodes and Shortcodes_Ultimate_Data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed file_get_contents() (disabled http wrappers) issue at the examples page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor admin panel fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated admin page framework Sunrise"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed all default links (default youtube videos)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>IMPORTANT</strong>: new galleries mechanism. Your created galleries will work but will not be visible in admin panel. Now, you're able to create galleries right in \"Insert shortcode\" window. Also, you can now create galleries from posts, categories or even custom taxonomies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New attribute limit for [slider], [carousel] and [custom_gallery]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [post]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [user]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [meta]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Font-awesome updated to 4.0.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility mode is now enabled by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option for compatibility mode prefix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New WP filters for shortcodes attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Presets. Now you need to adjust the shortcodes only once"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added NL translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated custom formatting filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed import functions. Old versions of plugin (like 3.9.5) is not supported anymore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated some examples"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility with recent version of <a href=\"http://www.elegantthemes.com/gallery/elegant-builder/\">Elegant Themes page builder</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility with recent version of <a href=\"http://vc.wpbakery.com/\">Visual Composer</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility with recent version of <a href=\"siteorigin.com/page-builder/\">SiteOrigin page builder</a> - it's free!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated readme.txt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New review - <a href=\"http://thewpchick.com/show-shortcode/\">Show Me the Shortcode</a> + Video"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New review - <a href=\"http://www.makeuseof.com/tag/add-40-new-layout-features-wordpress-shortcodes-ultimate/\">Add 40+ New Layout Features To WordPress with Shortcodes Ultimate</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New review - <a href=\"http://wisdmlabs.com/blog/how-to-style-wordpress-themes-with-shortcodes-ultimate/\">Shortcodes Ultimate: Ultimatize your written content</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Font-Awesome is now loaded from bootstrap CDN. <a href=\"http://stackoverflow.com/questions/20032426/fontawesome-doesnt-display-in-firefox\">Technical details</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated .pot file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added some hooks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated settings pages capabilities"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with animations names in shortcode generator, <a href=\"http://wordpress.org/support/topic/animations-2\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with service title, <a href=\"http://wordpress.org/support/topic/service-shortcode-not-wrapping-properly-on-mobile-browser\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with tax_term IDs in [posts] shortcode, <a href=\"http://wordpress.org/support/topic/posts-tax_term-category-number\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New locale - VI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor UX improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New premium add-on - <a href=\"http://gndev.info/shortcodes-ultimate/extra/\">Extra Shortcodes</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Auto-save for shortcodes settings. Now you don't need to adjust it again and again"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slovak language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional help notes in Shortcode Generator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "YouTube (advanced) can now use https protocol"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [dailymotion]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor UI fixes (for WP 3.9+)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Ghost style for [button]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with multiple users queries - <a href=\"http://wordpress.org/support/topic/plugin-making-700-sql-calls\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed https bug in FontAwesome enqueue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Long-awaited feature: custom links in slider, carousel and custom_gallery shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Long-awaited feature: slider, carousel and custom_gallery links can now be open with lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Japanese translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor [spoiler] fix, for hidden spoiler content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New dashboard page: Cheatsheet"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: [spoiler]'s content is now hidden until the page is loaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Swiper click event, Swiper has been updated - <a href=\"http://wordpress.org/support/topic/carousel-links-not-working\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: extra CSS class for [menu] - <a href=\"http://wordpress.org/support/topic/extra-css-class-not-working-on-menu-shortcode-video-included\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: full compatibility with multiple editors on same page - <a href=\"http://wordpress.org/support/topic/enhance-compatibility-with-other-plugins\">fourm topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Czech translation by <a href=\"http://nuze.cz/\">Punc00</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor UI fixes (compatibility with page builders)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Highly decreased plugin size"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Responsive CSS for [tabs]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated ACE editor (custom CSS editor)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Animate.css (animations library)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved shortcode search. Just type shortcode name and hit Enter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode [qrcode] allows you to generate colorful and responsive QR codes!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: large DB query on sites with many users, <a href=\"http://wordpress.org/support/topic/installing-sc-ultimate-on-site-with-30000-wp-users\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: templates/default-loop.php - removed extra n character in comments number, <a href=\"http://wordpress.org/support/topic/minor-bug-in-templatesdefault-loopphp\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: animations script has been changed. CSS animations will be skipped in non-supported browsers, <a href=\"http://wordpress.org/support/topic/disable-animations-on-non-supported-devicesbrowsers\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New option <code>rel</code> for [button]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New options for [divider]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New shortcode [expand]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New shortcode [scheduler]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Magnific Popup, 0.9.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: FontAwesome, 4.1.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Japanese language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Russian language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: removed global function $.support.transition, <a href=\"http://wordpress.org/support/topic/transition-check-returns-string-instead-of-object\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: lightbox and galleries scripts, <a href=\"http://wordpress.org/support/topic/carousel-su-little-hack\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new shortcode [lightbox_content]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new option wmode for [youtube_advanced], <a href=\"http://wordpress.org/support/topic/youtube-player-option-request\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new option for tabs. You can now link any tab to any webpage [su_tab url=\"http://\" target=\"blank\"]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: compatibility with TablePress's advanced editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: minor improvements for tabs/spoilers anchors (auto-removing extra # characters)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: global skin option at settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: errors when updating user profile, <a href=\"https://wordpress.org/support/topic/error-message-when-updating-users-in-wp-admin\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: multiple errors on cheatsheet page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: [vimeo] ssl issue (thanks to Adam)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: minor UI improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: owl-carousel.js"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: skins directory creation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: vulnerability at Custom CSS page. Added wp_nonce check. Thanks to <a href=\"https://planetzuda.com/\">Ryan Satterfield</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: vulnerability in Examples preview. Added wp_nonce check. Thanks to <a href=\"http://security.szurek.pl/\">Kacper Szurek</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: minor fixes in shortcode settings window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Polish translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Japanese translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: new plugin's banner and icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: new demo video at plugin settings page (About tab)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Insert shortcode popup window hotkey. So now, you can open Insert shortcode window, choose shortcode and insert it with just one click"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: completely redesigned search feature. Now it's like a Google, but for shortcodes =)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: minor imrovements on [quote], fixed markup bug for long values in cite, thanks to <a href=\"http://systemo.biz/\">Anatoly Yumashev</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: minor improvement for slider/gallery posts query. <a href=\"https://wordpress.org/support/topic/slider-code-suggestion\">Forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: JS error (blocking shortcodes settings) on WordPress 3.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: basic RTL support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Quick fix for disabled custom css since previous update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: stripslashes for [button] content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new attribute for [button title=\"\"], <a href=\"https://wordpress.org/support/topic/how-add-title-tag-to-a-button\">forum topic</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: carousel items width calculation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: [document] is now compatible with https"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: nested spoilers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: buttons line-height on narrow screens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Font Awesome updated to 4.4.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Spanish translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: text domain from 'su' to 'shortcodes-ultimate'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: lightbox captions for slider, carousel and custom_gallery. Commit by <a href=\"https://github.com/vpistis\">Valentino Pistis</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: compatibility with WordPress 4.3+"
+msgstr ""

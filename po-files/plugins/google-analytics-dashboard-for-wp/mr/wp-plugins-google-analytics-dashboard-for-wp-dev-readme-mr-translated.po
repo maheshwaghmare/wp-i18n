@@ -1,0 +1,668 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP) - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-27T17:01:28+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:\n"
+"\n"
+"<ul>\n"
+"<li>Re-tagging release to fix a deployment issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds the ability to opt-into usage tracking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:\n"
+"\n"
+"<ul>\n"
+"<li>Adds more robust settings to control various ExactMetrics configuration warnings."
+msgstr ""
+
+#. Plugin name.
+msgid "Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where the opt-out and exclude DNT options were listed twice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:\n"
+"\n"
+"<ul>\n"
+"<li>Updated endpoint for GA auth to use updated system."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For documentation, tutorials, FAQ and videos check out: <a href=\"https://exactmetrics.com/\">Google Analytics Dashboard for WP by ExactMetrics documentation</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adds opt-out and DNT support for Google Tag Manager   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adding <em>gadwp_gtag_commands</em> and <em>gadwp_gtag_script_path</em> hooks to allow further gtag (Global Site Tag) code customization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements: \n"
+"\n"
+"<ul>\n"
+"<li>use <em>gadwp_useroptout</em> shortcode to easily generate opt-out buttons and links, <a href=\"https://exactmetrics.com/google-analytics-gdpr-and-user-data-privacy-compliance\">more details</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>fixes for user opt-out feature "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>avoid tracking issues by not clearing the profiles list on automatic token resets"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<a href=\"https://exactmetrics.com/adding-gtag-js-to-your-site/\">GADWP v5.3 release notes</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>frontend_item_reports PHP notice when upgrading from a version lower than v4.8.0.1   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adds support for button submits"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adds custom dimensions support for AMP pages with Google Tag Manager tracking"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "remove Scroll Depth functionality, since this is now available as a trigger on Google Tag Manager"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "User privacy oriented features:"
+msgstr ""
+
+#. Found in description list item.
+msgid "support for user tracking opt-out"
+msgstr ""
+
+#. Found in description list item.
+msgid "option to follow Do Not Track (DNT) sent by browsers"
+msgstr ""
+
+#. Found in description list item.
+msgid "Global Site Tag (gtag.js) tracking code"
+msgstr ""
+
+#. Found in description list item.
+msgid "Universal Google Analytics (analytics.js) tracking code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>form submit events were not following the non-interaction settings   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements: \n"
+"\n"
+"<ul>\n"
+"<li>adds full support for Global Site Tag (gtag.js)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>fixing a small reporting issue "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "cURL options were overwritten during regular API calls    "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>remove a debugging message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "check to avoid using a redeemed access code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add System tab to Errors &amp; Debug screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add option to exclude tracking for users sending the <em>Do Not Track</em> header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:\n"
+"\n"
+"<ul>\n"
+"<li>add Google Analytics user opt-out support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>use the theme color palette for the frontend widget    "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "introducing the gadwp_maps_api_key filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Error reporting improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GADWP Endpoint improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "disable autocomplete for the access code input field to avoid reuse of the same unique authorization code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:<br />\n"
+"\n"
+"<ul>\n"
+"<li>more informative alerts and suggestions on the authorization screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>fixes a bug for custom PHP cURL options "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:<br />\n"
+"\n"
+"<ul>\n"
+"<li>avoid submitting empty error reports"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixes a bug on affiliate events tracking"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix for inline SVG links, props by <a href=\"https://github.com/macbookandrew\">Andrew Minion</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "analytics icon disappears from post list after quick edit, props by <a href=\"https://github.com/karex\">karex</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>some thrown errors were not displayed on Errors &amp; Debug screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "hide unusable options based on plugin's settings "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "enable PHP cURL proxy support using WordPress settings, props by <a href=\"https://github.com/joehobson\">Joe Hobson</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "move the upgrade notice from the Dashboard to plugin's settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "option to report errors to developer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improvements on error reporting system"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "code cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "multiple updates of plugin's options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "introduces a new authentication method with endpoints"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:<br />\n"
+"\n"
+"<ul>\n"
+"<li>improvements on exponential backoff system"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom event categories, actions and labels using annotated HTML elements"
+msgstr ""
+
+#. Found in description list item.
+msgid "Hashmarks, outbound links, telephones and e-mails tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "Affiliate links tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "File downloads tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "Form submit tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom dimensions tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "Scrolling depth tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatically removes <em>amp/</em> from Google Analytics tracking page URL"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Tag Manager basic tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "User sampling rate control"
+msgstr ""
+
+#. Found in description header.
+msgid "Accelerated Mobile Pages (AMP) features"
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Actions and filters are available for further Google Analytics tracking code customization."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In addition, you can control who can view specific Google Analytics reports by setting permissions based on user roles."
+msgstr ""
+
+#. Found in description list item.
+msgid "Page Scrolling Depth"
+msgstr ""
+
+#. Found in description list item.
+msgid "Telephone"
+msgstr ""
+
+#. Short description.
+msgid "Connects Google Analytics with your WordPress site. Displays stats to help you understand your users and site content on a whole new level!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ecommerce support for Google Analytics"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "As an alternative to Google Analytics tracking code, you can use Google Tag Manager for tracking:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Accelerated Mobile Pages (AMP) support for Google Tag Manager"
+msgstr ""
+
+#. Found in description list item.
+msgid "Data Layer variables: authors, publication year, publication month, categories, tags, user type"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Tag Manager code"
+msgstr ""
+
+#. Found in description list item.
+msgid "Accelerated Mobile Pages (AMP) support for Google Analytics"
+msgstr ""
+
+#. Found in description header.
+msgid "Google Tag Manager Tracking"
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics Tracking"
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics Real-Time Stats"
+msgstr ""
+
+#. Found in description list item.
+msgid "Publication month"
+msgstr ""
+
+#. Found in description list item.
+msgid "Tags"
+msgstr "टॅगस्"
+
+#. Found in description list item.
+msgid "Device categories, browsers, operating systems, screen resolutions, mobile brands analytics stats"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Google Analytics Dashboard for WP on GitHub</strong><br />\n"
+"  You can submit feature requests or bugs on <a href=\"https://github.com/awesomemotive/Google-Analytics-Dashboard-for-WP\">the Google Analytics Dashboard for WP by ExactMetrics Github repository</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can translate Google Analytics Dashboard for WP on <a href=\"https://translate.wordpress.org/projects/wp-plugins/google-analytics-dashboard-for-wp\">translate.wordpress.org</a>."
+msgstr ""
+
+#. Found in description header.
+msgid "Localization"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Google Analytics Dashboard for WP it's released under the GPLv2, you can use it free of charge on your personal or commercial website."
+msgstr ""
+
+#. Found in description header.
+msgid "License"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can submit pull requests, feature requests and bug reports on <a href=\"https://github.com/awesomemotive/Google-Analytics-Dashboard-for-WP\">our GitHub repository</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We are constantly improving Google Analytics Dashboard for WP, sometimes the video tutorial may be a little outdated."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, once the plugin is authorized and a default domain is selected the Google Analytics tracking code is automatically inserted in all webpages."
+msgstr ""
+
+#. Found in faq header.
+msgid "Documentation, Tutorials and FAQ"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I suggest a new feature, contribute or report a bug?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Some settings are missing in the video tutorial"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do I have to insert the Google Analytics tracking code manually?"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Go to Google Analytics -&gt; Tracking Code to configure/enable/disable tracking."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Go back to the plugin configuration page, which is located under Google Analytics menu to update/set your settings."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Authorize the plugin to connect to Google Analytics using the Authorize Plugin button."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Open the plugin configuration page, which is located under Google Analytics menu."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "In WordPress select Plugins from your sidebar menu and activate the Google Analytics Dashboard for WP plugin."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Upload the full google-analytics-dashboard-for-wp directory into your wp-content/plugins directory."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is fully compatible with multisite network installs, allowing three setup modes:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With Google Analytics Dashboard for WP you can use custom dimensions to track:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Google Analytics Dashboard for WP enables you to easily track events like:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Installs the latest Google Analytics tracking code and allows full code customization:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Google Analytics reports you need, on your dashboard, in your All Posts and All Pages screens, and on site's frontend:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Google Analytics reports, in real-time, in your dashboard screen:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Google Analytics tracking code is fully customizable through options and hooks, allowing advanced data collection like custom dimensions and events."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In addition to a set of general Google Analytics stats, in-depth Page reports and in-depth Post reports allow further segmentation of your analytics data, providing performance details for each post or page from your website."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This Google Analytics for WordPress plugin enables you to track your site using the latest Google Analytics tracking code and allows you to view key Google Analytics stats in your WordPress install."
+msgstr ""
+
+#. Found in description list item.
+msgid "Mode 3: network deactivated using multiple Google Analytics accounts"
+msgstr ""
+
+#. Found in description list item.
+msgid "Mode 2: network activated using a single Google Analytics account"
+msgstr ""
+
+#. Found in description list item.
+msgid "Mode 1: network activated using multiple Google Analytics accounts"
+msgstr ""
+
+#. Found in description list item.
+msgid "User engagement"
+msgstr ""
+
+#. Found in description list item.
+msgid "Categories"
+msgstr "कॅटेगरी"
+
+#. Found in description list item.
+msgid "Publication year"
+msgstr ""
+
+#. Found in description list item.
+msgid "Authors"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fragment identifiers"
+msgstr ""
+
+#. Found in description list item.
+msgid "Affiliate links"
+msgstr ""
+
+#. Found in description list item.
+msgid "Outbound links"
+msgstr ""
+
+#. Found in description list item.
+msgid "Emails "
+msgstr ""
+
+#. Found in description list item.
+msgid "Downloads"
+msgstr ""
+
+#. Found in description list item.
+msgid "Exclude user roles from tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "Cross domain tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "Page Speed sampling rate control"
+msgstr ""
+
+#. Found in description list item.
+msgid "Remarketing, demographics and interests tracking"
+msgstr ""
+
+#. Found in description list item.
+msgid "Enhanced link attribution"
+msgstr ""
+
+#. Found in description list item.
+msgid "IP address anonymization"
+msgstr ""
+
+#. Found in description list item.
+msgid "Traffic channels, social networks, traffic mediums, search engines analytics stats"
+msgstr ""
+
+#. Found in description list item.
+msgid "Locations, pages, referrers, keywords, 404 errors analytics stats"
+msgstr ""
+
+#. Found in description list item.
+msgid "Sessions, organic searches, page views, bounce rate analytics stats"
+msgstr ""
+
+#. Found in description list item.
+msgid "Real-time traffic sources details "
+msgstr ""
+
+#. Found in description list item.
+msgid "Real-time acquisition channels"
+msgstr ""
+
+#. Found in description list item.
+msgid "Real-time number of visitors "
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics Dashboard for WP on Multisite"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Analytics basic tracking "
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics Reports"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP Widget"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP cities on region map"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP statistics per page on Frontend"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP Traffic Overview"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP Top Pages, Top Referrers and Top Searches"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP Geo Map"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP reports per Posts/Pages"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP Real-Time"
+msgstr ""
+
+#. Screenshot description.
+msgid "Google Analytics Dashboard for WP Blue Color"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "The full changelog is <a href=\"https://exactmetrics.com/changelog-google-analytics-dashboard-for-wp/\">available here</a>."
+msgstr ""

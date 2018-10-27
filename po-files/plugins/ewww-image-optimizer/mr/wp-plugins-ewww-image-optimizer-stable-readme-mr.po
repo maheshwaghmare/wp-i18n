@@ -1,0 +1,583 @@
+# Translation of Plugins - EWWW Image Optimizer - Stable Readme (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - EWWW Image Optimizer - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - EWWW Image Optimizer - Stable Readme (latest release)\n"
+
+#. Plugin name.
+msgid "EWWW Image Optimizer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: bulk scanner stuck in resume mode with nothing to do"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: srcset fill generates notices with non-numeric widths"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN srcset fill adds double arguments to urls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN srcset functions cause duplicate image requests with zoom=1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: Alt WebP blocks on Facebook tracking pixel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: folder scanner ignores files with no extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: optimization failure produces rename() errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: better lazy load support in ExactDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ExactDN fully supports protocol-relative urls for non-image resources"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: notice for Pantheon users that an API key is required"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN srcset fill replaces images with first image on page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "deprecated: PHP 5.5 support will be removed in the next major release (version 4.5)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: PDF uploads with S3 Uploads plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: WebP images missing from S3 when using WP Offload S3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: WP esc_url mangles ExactDN urls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: regression with ExactDN and max-width style attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: ExactDN uses premium compression by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: Remove Metadata option has been renamed, if you previously had it configured as an override (JPEGTRAN_COPY), please use the new name: EWWW_IMAGE_OPTIMIZER_METADATA_REMOVE"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: Alt WebP still depends on jQuery, but jQuery can be loaded in async or defer mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: configuration options in the settings page for several \"hidden\" ExactDN options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ExactDN will fill in srcset/sizes attributes for all images based on detected width for better mobile support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: preserve animations in GIF images during resize operations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: Alt WebP broken on sites that have jquery-migrate disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: auto-convert PNG to JPG was running on images with transparency"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: prevent dynamic JS/CSS urls within wp-admin/ from being rewritten by ExactDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: fatal error on older WP versions due to missing privacy policy function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "deprecated: PHP 5.4 support will be removed in the next major release (version 4.4)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: PNGOUT installer confirmation notice was missing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: toggle for plugin status and bulk status generate admin-ajax.php 403 errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: if urls on a localized WPML domain are using the default domain, ExactDN ignores them"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: entering a decimal for bulk delay does nothing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: encoded ampersands within the path portion of a url prevent ExactDN parsing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: unique filename function producing names with a hyphen and no digits"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: uploading images in the Gutenberg editor uses the wrong resize dimensions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: thumbs not generated during WP/LR Sync"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: bulk operations for batches of NextGEN images now use the bulk optimizer page instead of loading inline"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: one-click copy for debug info, and debug collapsed by default in media library and bulk results"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: auto-rotate function disabled with EWWW_IMAGE_OPTIMIZER_DISABLE_AUTOROTATE"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: allow crop via filter even when one dimension is the same as the original"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: filter NextGEN quality to prevent oversized thumbs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: Resize Other Images removed from GUI, configure via Overrides tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: resizing uses the primary media dimensions unless the \"other\" dimensions are configured"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: detect wordpress.com sites and disable exec function and binaries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: suggested privacy policy text for users of the API and ExactDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: auto-installer for Cloud plugin when running EWWW IO on a \"banned\" webhost"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: NextGEN dynamic thumbs included during manual/bulk optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: NextGEN image urls properly rewritten for ExactDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: use EXACTDN_EXCLUDE in wp-config.php to bypass ExactDN for JS, CSS, etc."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: use file modification time to add query strings on JS/CSS files for cache invalidation on ExactDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: auto-convert large PNG images to JPG during upload, define EWWW_IMAGE_OPTIMIZER_DISABLE_AUTOCONVERT to skip"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: links within settings and other notices for contextual help"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: Alt WebP enables instant conversion with ExactDN, no need for bulk optimize"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There are three parts (and all are optional). First, using the command <em>pngquant original-file</em>, then using the commands <em>pngout-static -s2 original-file</em> and <em>optipng -o2 original-file</em>. You can adjust the optimization levels for both tools using the <a href=\"https://docs.ewww.io/article/40-override-options\">Overrides</a>. Optipng is an automated derivative of pngcrush, which is another widely used png optimization utility."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "See https://docs.ewww.io/article/39-bulk-optimizer-failure for full troubleshooting instructions."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "If these steps do not work, additional documentation is available at https://docs.ewww.io/article/6-the-plugin-says-i-m-missing-something. If you need further assistance using the plugin, please visit our <a href=\"https://ewww.io/contact-us/\">Support Page</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "removed: PHP 5.4 no longer supported"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Lossless optimization is done with the command <em>jpegtran -copy all -optimize -progressive -outfile optimized-file original-file</em>. Optionally, the -copy switch gets the 'none' parameter if you choose to strip metadata from your JPGs on the options page."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To find out if your webhost works with the EWWW Image Optimizer, you can check the <a href=\"https://docs.ewww.io/article/43-supported-web-hosts\">official list</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With ExactDN support, images will be automatically resized to fit the page and device size. ExactDN also enables basic retina support and automatic compression."
+msgstr ""
+
+#. Found in description header.
+msgid "Automatic Resizing"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Allows you to run all Bulk Optimization processes from your command line, instead of the web interface. It is much faster, and allows you to do things like run it in 'screen' or via regular cron (instead of wp-cron, which can be unpredictable on low-traffic sites). Install WP-CLI from wp-cli.org, and run 'wp-cli.phar help ewwwio optimize' for more information or see the <a href=\"https://docs.ewww.io/article/25-optimizing-with-wp-cli\">Docs</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"That's not a question, but since I made it up, I'll answer it. See these resources:\n"
+"https://developers.google.com/speed/docs/insights/OptimizeImages\n"
+"http://developer.yahoo.com/performance/rules.html#opt_images"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Images can be optimized using tools on your own server for free (jpegtran, optipng, pngout, pngquant, gifsicle, cwebp), or can be optimized via specialized servers that utilize the best tools available in lossless or lossy mode. Our lossy compression uses unique algorithms to gain maximum compression while remaining visually lossless. Your images can even be converted to the most suitable file format using the appropriate options. Using the EWWW I.O. API will allow the plugin to work on any hosting platform, and can also be desirable if you cannot, or do not want to use the exec() function on your server, or prefer to offload the resource demands of optimization."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "EWWW I.O. will optimize images uploaded and created by any plugin, and features special integrations with many popular plugins, detailed below."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The EWWW Image Optimizer will increase your page speeds by way of image optimization. Increased page speeds can result in better search engine rankings, and will also improve conversion rates (increased sales and signups). It will also save you storage space and bandwidth. While EWWW I.O. will automatically optimize new images that you upload, it can also optimize all the images that you have already uploaded, and optionally convert your images to the best file format. You can choose pixel perfect compression or high compression options that are visually lossless."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Pack a Spare:</strong> free image backups store your original images for 30 days."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Roadside Assistance:</strong> top-notch support is in our DNA. While API customers get top priority, we answer <a href=\"https://ewww.io/contact-us/\">every single support question with care</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Safety First:</strong> all communications are secured with top SSL encryption."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Comprehensive Coverage:</strong> no image gets left behind, optimize everything on your site, beyond just the WordPress Media Library."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Free Parking</strong> The core plugin is free and always will be. Additionally, if you choose the API, you never pay for an image we can’t compress, you are never billed for a month you do not use the API, and pre-paid credits never expire. Plus, get WebP image generation at no extra cost: any JPG or PNG can be converted to Google’s next-generation image format."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Adaptive Steering</strong> with intelligent conversion options to get the right image format for the job (JPG, PNG, or GIF)."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>High Torque</strong> as we bring you the best compression/quality ratio available with our lossy options for JPG, PNG, and PDF files."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Smooth Handling</strong> with pixel-perfect optimization using industry-leading tools and progressive rendering."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>No Speed Limits</strong> and <a href=\"https://ewww.io/unlimited-file-size/\">unlimited file size</a>. Using automatic Background Optimization and optional Parallel Optimization, get rid of upload delays and get back to doing what you love."
+msgstr ""
+
+#. Short description.
+msgid "Speed up your website and improve your visitors&#039; experience by automatically compressing and resizing images and PDFs."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Please refer to the separate changelog.txt file."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Written by <a href=\"https://ewww.io\">Shane Bishop</a>. Based upon CW Image Optimizer, which was written by <a href=\"http://www.jacoballred.com/\">Jacob Allred</a> at <a href=\"http://www.corbanworks.com/\">Corban Works, LLC</a>. CW Image Optimizer was based on WP Smush.it. Jpegtran is the work of the Independent JPEG Group. PEL is the work of Martin Geisler, Lars Olesen, and Erik Oskam. ExactDN class based upon the Photon module from Jetpack."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Tested regularly to ensure compatibility with multilingual sites. Learn more at https://wpml.org/plugin/ewww-image-optimizer/"
+msgstr ""
+
+#. Found in description header.
+msgid "WPML Compatible"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The lossy JPG optimization using the API will determine the ideal quality setting and give you the best results, but you can also adjust the default quality for conversion and resizing. More information: https://docs.ewww.io/article/12-jpq-quality-and-wordpress"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Huge thanks to all our translators! See the full list here: https://translate.wordpress.org/projects/wp-plugins/ewww-image-optimizer/contributors"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Optimize all your images from a single page using the Bulk Scanner. This includes the Media Library, your theme, and a handful of pre-configured folders (see Optimize Everything Else below). Officially supported galleries (GRAND FlaGallery, NextCellent and NextGEN) have their own Bulk Optimize pages."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"If you need assistance using the plugin, please visit our <a href=\"https://ewww.io/contact-us/\">Support Page</a>.\n"
+"The EWWW Image Optimizer is developed at https://github.com/nosilver4u/ewww-image-optimizer"
+msgstr ""
+
+#. Found in description header.
+msgid "Support"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "One-click WebP with ExactDN and Alternative WebP Rewriting. Otherwise, can generate WebP versions of your images, and enables you to serve even smaller images to supported browsers. Several methods are available for serving WebP images, including Apache-compatible rewrite rules and our Alternative WebP Rewriting option compatible with caches and CDNs. Also works with the WebP option in the Cache Enabler plugin from KeyCDN."
+msgstr ""
+
+#. Found in description header.
+msgid "WebP Images"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can, set it up on the Resize tab."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Uploads to Amazon S3, Azure Storage, Cloudinary, and DreamSpeed CDN are optimized. All pull mode CDNs like Cloudflare, KeyCDN, MaxCDN, and Sucuri CloudProxy are also supported."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All images created by the built-in WP_Image_Editor class will be automatically optimized. Current implementations are GD, Imagick, and Gmagick. Images optimized via this class include Animated GIF Resize, BuddyPress Activity Plus (thumbs), Easy Watermark, Hammy, Imsanity, MediaPress, Meta Slider, MyArcadePlugin, OTF Regenerate Thumbnails, Regenerate Thumbnails, Simple Image Sizes, WP Retina 2x, WP RSS Aggregator and probably countless others. If you are not sure if a plugin uses WP_Image_Editor, <a href=\"https://ewww.io/contact-us/\">just ask</a>."
+msgstr ""
+
+#. Found in description header.
+msgid "CDN Support"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All images uploaded and cached by FooGallery are automatically optimized. Previous uploads can be optimized by running the Media Library Bulk Optimize. Previously cached images can be optimized by entering the wp-content/uploads/cache/ folder under Folders to Optimize and running a Scan &amp; Optimize from the Bulk Optimize page."
+msgstr ""
+
+#. Found in description header.
+msgid "FooGallery"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This article will walk you through installing the required tools (and the alternatives if installation does not work): https://docs.ewww.io/article/6-the-plugin-says-i-m-missing-something"
+msgstr ""
+
+#. Found in faq header.
+msgid "The plugin complains that I'm missing something, what do I do?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"If you would like to help translate this plugin (new or existing translations), you can do so here: https://translate.wordpress.org/projects/wp-plugins/ewww-image-optimizer\n"
+"To receive updates when new strings are available for translation, you can signup here: https://ewww.io/register/"
+msgstr ""
+
+#. Found in description header.
+msgid "Contact and Credits"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Using the command <em>gifsicle -b -O3 --careful original file</em>. This is particularly useful for animated GIFs, and can also streamline your color palette. That said, if your GIF is not animated, you should strongly consider converting it to a PNG. PNG files are almost always smaller, they just don't do animations. The following command would do this for you on a Linux system with imagemagick: <em>convert somefile.gif somefile.png</em>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "I've tested it on Windows (with Apache), Linux, Mac OSX, FreeBSD 9, and Solaris (v10). The cloud API will work on any OS."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, but only if the optimized version is smaller. The plugin should NEVER create a larger image."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Try this for starters: https://docs.ewww.io/article/5-pagespeed-says-my-images-need-more-work"
+msgstr ""
+
+#. Found in faq header.
+msgid "I want to know more about image optimization, and why you chose these options/tools."
+msgstr ""
+
+#. Found in faq header.
+msgid "How are GIFs optimized?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How are PNGs optimized?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How are JPGs optimized?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What are the supported operating systems?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The bulk optimizer doesn't seem to be working, what can I do?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I lower the compression setting for JPGs to save more space?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I resize my images with this plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the plugin replace existing images?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Google Pagespeed says my images need compressing or resizing, but I already optimized all my images. What do I do?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Done!"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<em>Recommended</em> Visit the settings page to enable/disable specific tools and turn on advanced optimization features."
+msgstr ""
+
+#. Found in installation list item.
+msgid "If the binaries don't run locally, you can sign up for the EWWW IO cloud service to run them via our optimization servers: https://ewww.io/plans/"
+msgstr ""
+
+#. Found in installation list item.
+msgid "The plugin will attempt to install jpegtran, optipng, and gifsicle automatically for you. This requires that the wp-content folder is writable by the user running the web server."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the \"ewww-image-optimizer\" plugin to your /wp-content/plugins/ directory."
+msgstr ""
+
+#. Found in installation header.
+msgid "Webhosts"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Uploads are automatically optimized. Look for Optimize under the Image Store (Galleries) menu to see status of optimization and for re-optimization and bulk-optimization options. Using the Bulk Optimization tool under Media Library automatically includes all Image Store uploads."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Features optimization on upload capability, re-optimization, and bulk optimizing. The Bulk Optimize function is located near the bottom of the FlAGallery menu, and will optimize all images in all galleries. It is also possible to optimize groups of images in a gallery, or multiple galleries at once."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Features all the same capability as NextGEN, and is the continuation of legacy (1.9.x) NextGEN support."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Features optimization on upload capability, re-optimization, and bulk optimizing. The NextGEN Bulk Optimize function is located near the bottom of the NextGEN menu, and will optimize all images in all galleries. It is also possible to optimize groups of images in a gallery, or multiple galleries at once."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Configure any folder within your WordPress folder to be optimized. The Bulk Scan under Media-&gt;Bulk Optimize will optimize theme images, BuddyPress avatars, BuddyPress Activity Plus images, Meta Slider slides, WP Symposium Pro avatars, GD bbPress attachments, Grand Media Galleries, and any user-specified folders. Additionally, this tool can run on an hourly basis via wp_cron to keep newly uploaded images optimized. Scheduled optimization should not be used for any plugin that uses the built-in Wordpress image functions."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All optimized images are stored in the database so that the plugin does not attempt to re-optimize them unless they are modified. On the Bulk Optimize page you can view a list of already optimized images. You may also remove individual images from the list, or use the Force optimize option to override the default behavior. The re-optimize links on the Media Library page also force the plugin to ignore the previous optimization status of images."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you need a version of this plugin for API use only, see <a href=\"https://wordpress.org/plugins/ewww-image-optimizer-cloud/\">EWWW Image Optimizer Cloud</a>. It is much more compact as it does not contain any binaries or any mention of the exec() function."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Why use EWWW Image Optimizer?</strong>"
+msgstr ""
+
+#. Found in description header.
+msgid "Translations"
+msgstr ""
+
+#. Found in description header.
+msgid "Image Store"
+msgstr ""
+
+#. Found in description header.
+msgid "GRAND Flash Album Gallery"
+msgstr ""
+
+#. Found in description header.
+msgid "NextCellent Gallery"
+msgstr ""
+
+#. Found in description header.
+msgid "NextGEN Gallery"
+msgstr ""
+
+#. Found in description header.
+msgid "WP-CLI"
+msgstr ""
+
+#. Found in description header.
+msgid "Optimize Everything Else"
+msgstr ""
+
+#. Found in description header.
+msgid "WP Image Editor"
+msgstr ""
+
+#. Found in description header.
+msgid "Skips Previously Optimized Images"
+msgstr ""
+
+#. Found in description header.
+msgid "Bulk Optimize"
+msgstr ""
+
+#. Screenshot description.
+msgid "Bulk optimization page. You can optimize all your images at once and resume a previous bulk optimization. This is very useful for existing blogs that have lots of images."
+msgstr ""
+
+#. Screenshot description.
+msgid "Additional optimize column added to media listing. You can see your savings, manually optimize individual images, and restore originals (converted only)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Plugin settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature requests can be submitted via https://ewww.io/contact-us/ and commented on here: https://trello.com/b/Fp81dWof/ewww-image-optimizer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If you would like to help translate this plugin in your language, get started here: https://translate.wordpress.org/projects/wp-plugins/ewww-image-optimizer/"
+msgstr ""

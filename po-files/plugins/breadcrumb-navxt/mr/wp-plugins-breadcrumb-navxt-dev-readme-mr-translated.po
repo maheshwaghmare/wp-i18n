@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Breadcrumb NavXT - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-27T17:20:17+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Plugin name.
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release date: October, 26th 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue that caused PHP warnings and “the following settings were not saved” messages for hierarchical CPTs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Added <code>span</code> element wrapping the breadcrumb title in the default unlinked breadcrumb template."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release date: September, 24th 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where a PHP warning would be thrown due to <code>get_term()</code> returning something other than an instance of <code>WP_Term</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Corrected label for the Schema.org BreadcrumbList (RDFa format) option in the included widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added REST API endpoint for posts, terms, and author archives."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added new Root Page support for author archives."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added support for Schema.org BreadcrumbList (microdata format) in the included widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Links to generate support requests migrated to the WordPress.org forums."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue that caused the settings reset option under the help drop down to not work."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where on loading the settings page immediately after migrating settings causes PHP warnings on CPT and custom taxonomy settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added support for following the post parent hierarchy first then falling back to a secondary hierarchy."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added <code>bcn_breadcrumb_assemble_json_ld_array</code> filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added <code>bcn_register_rest_endpoint</code> filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Breadcrumb NavXT REST API endpoints are no longer enabled by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Default unlinked breadcrumb templates no longer contain Schema.org BreadcrumbList markup."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Cleaned up translations for default templates, simplifying and clarifying the translatable content."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release date: June, 1st 2018"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To customize the breadcrumb trail you may edit the default values for the options in the administrative interface. This is located in your administration panel under Settings &gt; Breadcrumb NavXT."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Breadcrumb NavXT can be installed from within WordPress’ administration panel. After installing and activating the plugin, to get breadcrumb trails to display either use the included widget, or call the breadcrumb trail in your theme (or child theme). See the <a href=\"http://mtekk.us/archives/guides/calling-the-breadcrumb-trail\" title=\"Read more on calling the breadcrumb trail\">Calling the Breadcrumb Trail</a> article for more information on calling the breadcrumb trail."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release date: January, 26th 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where a PHP notice would be generated on archive pages where attachments were included in the <code>wp_query</code> results."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where a PHP notice would be generated on the page for posts when the blog breadcrumb display option is set to false."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Added auto migration of post type hierarchy settings to <code>bcn_display*()</code> functions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where the post and page roots were not updating to track user changes in Settings &gt; Reading."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where an improper breadcrumb would be generated in the trail for pages under some circumstances."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release date: December, 30th 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where the <code>bcn_display_list</code> function did not include the <code>li</code> elements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where the <code>$reverse</code> parameter for <code>bcn_display</code> and <code>bcn_display_list</code> did not work properly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where the parents of a page may not show up in the breadcrumb trail."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Changed Breadcrumb Separator and Paged Template from an input field to a textbox to reduce confusion caused by HTML entities."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Added warning alerting that <code>bcn_breadcrumb::type</code> must be an array."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release date: December, 28th 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where the blog display setting was ignored."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed issue where changes to the hierarchy type for any post type would not save."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Removed unused Blog Template and Blog Template (Unlinked) from settings page."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release date: December, 26th 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Removed use of <code>create_function</code> in registering the widget as it was deprecated in PHP 7.2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed UI/UX issue in the settings screen where not including the paged breadcrumb still allowed the paged breadcrumb template to be edited."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fixed UI/UX issue in the settings screen where enabling/disabling settings groups for the Home, Blog, and Mainsite breadcrumb settings did not work."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added <code>$posttype_name</code> as the third parameter to <code>bcn_show_tax_private</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added <code>bcn_default_hierarchy_type</code> filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added <code>bcn_default_hierarchy_display</code> filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New feature: Added support for various HTML tags in the widget's pretext field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: Breadcrumb for 404 error pages changed to be a child of the front page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: <code>bcn_breadcrumb_trail::find_type()</code> deprecated and removed from bcn_breadcrumb_trail."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: <code>bcn_breadcrumb_trail::do_archive_by_date()</code> deprecated in favor of calling bcn_breadcrumb_trail::do_day()<code>,</code>bcn_breadcrumb_trail::do_month()<code>, and/or</code>bcn_breadcrumb_trail::do_year()`."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: <code>bcn_li_attributes</code> filter was deprecated in favor of <code>bcn_display_attributes</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: <code>bcn_breadcrumb_trail::do_front_page()</code> deprecated in favor of calling <code>bcn_breadcrumb_trail::do_home()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: <code>bcn_breadcrumb_trail::do_attachment()</code> deprecated in favor of calling <code>bcn_breadcrumb_trail::do_post()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Behavior change: <code>bcn_breadcrumb_trail::display_list()</code> deprecated in favor of using the <code>$template</code> parameter in <code>bcn_breadcrumb_trail::display()</code>."
+msgstr ""
+
+#. Short description.
+msgid "Breadcrumb NavXT, the successor to the popular WordPress plugin Breadcrumb Navigation XT, was written from the ground up to be better than its ancesto &hellip;"
+msgstr ""
+
+#. Found in description list item.
+msgid "bbPress compatible (enhanced compatibility with bbPress extensions plugin)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Polylang compatible (enhanced compatibility with Polylang extensions plugin)."
+msgstr ""
+
+#. Found in description list item.
+msgid "RDFa format Schema.org BreadcrumbList compatible breadcrumb generation."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Breadcrumb NavXT now supports WordPress.org language packs. Want to translate Breadcrumb NavXT? Visit <a href=\"https://translate.wordpress.org/projects/wp-plugins/breadcrumb-navxt/\">Breadcrumb NavXT's WordPress.org translation project</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Breadcrumb NavXT 5.2 and newer require PHP5.3\n"
+"Breadcrumb NavXT 5.1.1 and older require PHP5.2"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Please visit <a href=\"http://mtekk.us/code/breadcrumb-navxt/breadcrumb-navxt-doc/\" title=\"Go to Breadcrumb NavXT's Documentation.\">Breadcrumb NavXT's Documentation</a> page for more information."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Breadcrumb NavXT, the successor to the popular WordPress plugin Breadcrumb Navigation XT, was written from the ground up to be better than its ancestor. This plugin generates locational breadcrumb trails for your WordPress powered blog or website. These breadcrumb trails are highly customizable to suit the needs of just about any website running WordPress. The Administrative interface makes setting options easy, while a direct class access is available for theme developers and more adventurous users."
+msgstr ""
+
+#. Found in description list item.
+msgid "BuddyPress compatible (enhanced compatibility with BuddyPress extensions plugin)."
+msgstr ""
+
+#. Found in description list item.
+msgid "WPML compatible (enhanced compatibility with WPML extensions plugin)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Extensible via OOP and provided <a href=\"http://mtekk.us/code/breadcrumb-navxt/breadcrumb-navxt-doc/2/#action_reference\" title=\"Go to the Breadcrumb NavXT Documentation's action reference.\">actions</a> and <a href=\"http://mtekk.us/code/breadcrumb-navxt/breadcrumb-navxt-doc/2/#filter_reference\" title=\"Go to the Breadcrumb NavXT Documentation's filter reference.\">filters</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "Built in WordPress Widget."
+msgstr ""
+
+#. Found in description list item.
+msgid "Network admin settings page for managing breadcrumb settings for all subsites with <a href=\"http://mtekk.us/archives/guides/controlling-breadcrumb-navxt-settings-from-the-network-settings-page/\" title=\"Go to the article on configuring the network settings priority.\">configurable global priority</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "Extensive breadcrumb customization control via a settings page with appropriate default values for most use cases."
+msgstr ""
+
+#. Found in description header.
+msgid "Translations"
+msgstr "अनुवाद"
+
+#. Found in description header.
+msgid "Features (non-exhaustive)"
+msgstr ""
+
+#. Found in description header.
+msgid "PHP Requirements"
+msgstr ""
+
+#. Screenshot description.
+msgid "A screenshot of the Settings Import/Export/Reset form under the Help menu"
+msgstr ""
+
+#. Screenshot description.
+msgid "A screenshot of the Miscellaneous tab of the settings page"
+msgstr ""
+
+#. Screenshot description.
+msgid "A screenshot of the Taxonomies tab of the settings page"
+msgstr ""
+
+#. Screenshot description.
+msgid "A screenshot of the Post Types tab of the settings page"
+msgstr ""
+
+#. Screenshot description.
+msgid "A screenshot of the General tab of the settings page"
+msgstr ""
+
+#. Screenshot description.
+msgid "This screenshot shows 5 different examples of breadcrumbs generated by Breadcrumb NavXT"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release date: January, 1st 2018"
+msgstr ""
