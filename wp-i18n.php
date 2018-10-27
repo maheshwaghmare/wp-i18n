@@ -1682,6 +1682,54 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			WP_CLI::line( print_r( $data ) );
 		}
 
+		/**
+		 * [generate_reusable_strings_report description]
+		 *
+		 * # Example
+		 *
+		 * wp wpi18n generate_reusable_strings_report
+		 * 
+		 * @return [type] [description]
+		 */
+		function generate_reusable_strings_report() {
+
+			$args = array(
+				'post_type'      => 'wpi18n',
+
+				// Query performance optimization.
+				'fields'         => 'ids',
+				'no_found_rows'  => true,
+				'post_status'    => 'any',
+				'posts_per_page' => -1,
+
+				// 'post__in' => array( '5007' ),
+			);
+
+			$query = new WP_Query( $args );
+
+			$lang_report = array();
+
+			// Have posts?
+			if ( $query->posts ) {
+
+				foreach ($query->posts as $key => $post_id) {
+					$post_title = get_the_title( $post_id );
+					$languages  = get_repeat_string_mapping( $post_id );
+
+					// foreach ($languages as $lang => $value) {
+					// 	$lang_report[ $lang ] = 
+
+					// 	# code...
+
+					// }
+
+					if( count( $languages ) > 2 ) {
+						WP_CLI::error( print_r( $languages ) );
+					}
+				}
+			}
+		}
+
 		function set_most_repeated_string_as_top() {
 
 			$args = array(
