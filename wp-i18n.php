@@ -59,6 +59,64 @@ function get_repeat_string_mapping( $post_ID ) {
 	// echo '</pre>';
 }
 
+
+function get_repeat_string_mapping_if_project_key( $post_ID ) {
+
+	$excluded = array( '_edit_lock', 'original' );
+	$all_meta = get_post_meta( $post_ID );
+	$new_languages = array();
+	foreach ($all_meta as $meta_key => $meta_value) {
+
+		$ky = strstr($meta_key, '_project', true);
+		// $ky = str_replace('language_', '', $ky);
+		// $ky = str_replace('_', '-', $ky);
+		// $ky = strtolower( $ky );
+		WP_CLI::line($ky);
+
+		if ( strpos($meta_key, 'project_') === false && ! in_array($meta_key, $excluded)) {
+			$lang = str_replace('language_', '', $meta_key);
+        	foreach ($all_meta as $other_projects_meta_key => $other_projects_meta_value) {
+
+        		$tempcount = 1;
+				if ( strpos($other_projects_meta_key, 'language_'.$lang) !== false && strpos($other_projects_meta_key, 'project_') !== false ) {
+					$meta_key_label = end(explode('project_wordpress-', $other_projects_meta_key));
+					$meta_key_val   = $other_projects_meta_value[0];
+					if( $meta_key_val ) {
+
+						// Set all repeat strings from all available projects.
+						$new_languages[$lang ]['all'][ $meta_key_label ] = $meta_key_val;
+
+						// Set repeat strings with count.
+						if( isset( $new_languages[$lang ]['repeat'][ $meta_key_val ] ) ) {
+							$new_languages[$lang ]['repeat'][ $meta_key_val ] = $new_languages[$lang ]['repeat'][ $meta_key_val ] + $tempcount;
+						} else {
+							$new_languages[$lang ]['repeat'][ $meta_key_val ] = $tempcount;
+						}
+					}
+				}
+			}
+
+			// Set top most repeat from all available strings.
+			if( isset( $new_languages[$lang ]['repeat'] ) ) {
+				$c   = 0;
+				$top = '';
+				$repeats = $new_languages[$lang ]['repeat'];
+				foreach ($repeats as $j => $repeat) {
+					if( $c < $repeat ) {
+						$top = $j;
+						$c = $repeat;
+					}
+				}
+				$new_languages[$lang ]['top'] = $top;
+			}
+		}
+	}
+	return $new_languages;
+	// echo '<pre>';
+	// print_r( $new_languages );
+	// echo '</pre>';
+}
+
 function translated_strings_meta_box_callback() {
 	global $post;
 
@@ -1730,7 +1788,11 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			}
 		}
 
-		function set_most_repeated_string_as_top() {
+		/**
+		 * wp wpi18n temp_ids
+		 * @return [type] [description]
+		 */
+		function temp_ids() {
 
 			$args = array(
 				'post_type'      => 'wpi18n',
@@ -1747,71 +1809,87 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			$query = new WP_Query( $args );
 
 			// Have posts?
-			if ( $query->have_posts() ) :
-
-				$results = array();
+			if ( $query->posts ) {
 
 				$count = count( $query->posts );
 
-				$fp = fopen('de-ch-repeat-strings.txt', 'w');
-
 				foreach ($query->posts as $key => $post_id) {
-					$post_title = get_the_title( $post_id );
-					$languages = get_repeat_string_mapping( $post_id );
-
-					// WP_CLI::error( print_r( $languages) );
-
-					// $original = get_post_meta( $post_id, 'language_mr', $languages['mr']['top'] );
-					$top = '';
-
-					if( isset( $languages['de-ch']['top'] ) && ! empty( $languages['de-ch']['top'] ) ) {
-						$top = $languages['de-ch']['top'];
-					}
-
-					$stored = get_post_meta( $post_id, 'language_de-ch', $top );
-					if( ! empty( $stored ) && ! empty( $top ) ) {
-						if( $stored !== $top ) {
-							// WP_CLI::error( $count . ' | MISMATCH ' . $post_id . ' with ' . $top );
-						}
-					}
-					// update_post_meta( $post_id, 'language_de-ch', $top );
-					// WP_CLI::line( $count . ' | NOT MISMATCH ' . $post_id . ' with ' . $top );
-						
-					if( isset( $languages['de-ch']['repeat'] ) && ! empty( $languages['de-ch']['repeat'] ) ) {
-						// fprintf($fp, " \n\n -----------------------------------	\n\n"	 );
-						// fprintf($fp, $count . ' | ' . $post_title.' | '.$top. "\n"	 );
-						if( isset( $languages['de-ch']['repeat'] ) && ! empty( $languages['de-ch']['repeat'] ) ) {
-
-							$tmpcount = count( $languages['de-ch']['repeat'] );
-							if( $tmpcount > 1 ) {
-								WP_CLI::line( $count . ' | FOUND ' . $tmpcount );
-								fprintf($fp, $post_id . ' | ' . $tmpcount. ' | ' . $post_title . "\n" );
-							}
-							foreach ($languages['de-ch']['repeat'] as $project_string => $times) {
-								// fprintf($fp, ' | '.$project_string. ' | ' . $times. "\n" );
-							}
-						}
-						if( isset( $languages['de-ch']['all'] ) && ! empty( $languages['de-ch']['all'] ) ) {
-							foreach ($languages['de-ch']['all'] as $project_string => $times) {
-								// fprintf($fp, ' | '.$times. ' | ' . $project_string. "\n" );
-							}
-						}
-					}
-
+					update_post_meta( $post_id, 'ast_ES', '' );
+					update_post_meta( $post_id, 'az_IR', '' );
+					update_post_meta( $post_id, 'az', '' );
+					update_post_meta( $post_id, 'en_CA', '' );
+					update_post_meta( $post_id, 'en_ZA', '' );
+					update_post_meta( $post_id, 'oc_FR', '' );
+					WP_CLI::line( $count . ' updated ' . $post_id );
 
 					$count--;
 				}
-				fclose($fp);
-				// $fp = fopen($filename, 'w+');
-				// foreach ($results as $fields) {
-				// 	// $fields = array_map("utf8_encode", $fields); //added
-				// 	// fprintf($fp, chr(0xEF).chr(0xBB).chr(0xBF));
-				// 	fputcsv($fp, $fields);
-				// }
-				// fclose($fp);
+			}
+		}
 
-			endif;
+		/**
+		 * Set Most Repeated String as Top.
+		 *
+		 * # Example:
+		 *
+		 * wp wpi18n set_most_repeated_string_as_top
+		 */
+		function set_most_repeated_string_as_top() {
 
+			$langs = array( 'ast_ES', 'az_IR', 'az', 'en_CA', 'en_ZA', 'oc_FR' );
+
+			$all_found_strings = 0;			
+			foreach ($langs as $key => $lang) {
+				$args = array(
+					'post_type'      => 'wpi18n',
+
+					// Query performance optimization.
+					'fields'         => 'ids',
+					'no_found_rows'  => true,
+					'post_status'    => 'any',
+					'posts_per_page' => -1,
+				);
+
+				$query = new WP_Query( $args );
+
+				// Have posts?
+				if ( $query->posts ) {
+
+					$count                = count( $query->posts );
+					$line                 = 0;
+					$local_translated_log = 'available/strings-'.$lang.'.txt';
+
+					// Empty log file.
+					file_put_contents( $local_translated_log, '' );
+
+					foreach ($query->posts as $key => $post_id) {
+						$post_title = get_the_title( $post_id );
+						$small_post_title = substr($post_title, 0, 30);
+						$languages = get_repeat_string_mapping( $post_id );
+
+						if( isset( $languages[ $lang ]['top'] ) && ! empty( $languages[ $lang ]['top'] ) ) {
+							$all_found_strings++;
+							$line++;
+							$newly_translated = $languages[ $lang ]['top'];
+							
+							update_post_meta( $post_id, 'language_' . $lang, $newly_translated );
+							WP_CLI::line( $all_found_strings . ' | ' . $lang . ' | ' . $count . ' | ' . $line . ' | ' . $newly_translated . ' | ' . $small_post_title );
+
+							// Track all translate strings.
+							$log_data = file_get_contents( $local_translated_log );
+							if( empty( $log_data ) ) {
+								file_put_contents( $local_translated_log, $line . ' | ' . $newly_translated . ' | ' . $post_title );
+							} else {
+								file_put_contents( $local_translated_log, $log_data . "\n" . $line . ' | ' . $newly_translated . ' | ' . $post_title );
+							}
+						} else {
+							WP_CLI::line( $all_found_strings . ' | ' . $lang . ' | ' . $count . ' | ' . $line . ' | NOT FOUND | ' . $small_post_title );
+						}
+
+						$count--;
+					}
+				}
+			}
 		}
 
 	}
