@@ -1,0 +1,693 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Google XML Sitemaps - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-28T16:04:38+00:00\n"
+"PO-Revision-Date: 2016-02-02 18:43:37+0000\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.arnebrachhold.de/"
+msgstr "http://www.arnebrachhold.de/"
+
+#. Author of the plugin/theme
+msgid "Arne Brachhold"
+msgstr "Arne Brachhold"
+
+#. Description of the plugin/theme
+msgid "This plugin will generate a special XML sitemap which will help search engines like Google, Yahoo, Bing and Ask.com to better index your blog."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.arnebrachhold.de/redir/sitemap-home/"
+msgstr "http://www.arnebrachhold.de/redir/sitemap-home/"
+
+#. Plugin Name of the plugin/theme
+msgid "Google XML Sitemaps"
+msgstr "Google XML Sayt xəritəsi"
+
+#: sitemap.php:95
+msgid "Unfortunately this release of Google XML Sitemaps requires at least PHP %4$s. You are using PHP %2$s, which is out-dated and insecure. Please ask your web host to update your PHP installation or go to <a href=\"%1$s\">active plugins</a> and deactivate the Google XML Sitemaps plugin to hide this message. You can download an older version of this plugin from the <a href=\"%3$s\">plugin website</a>."
+msgstr ""
+
+#: sitemap.php:95
+msgid "Your PHP version is too old for XML Sitemaps."
+msgstr ""
+
+#: sitemap.php:85
+msgid "Unfortunately this release of Google XML Sitemaps requires at least WordPress %4$s. You are using Wordpress %2$s, which is out-dated and insecure. Please upgrade or go to <a href=\"%1$s\">active plugins</a> and deactivate the Google XML Sitemaps plugin to hide this message. You can download an older version of this plugin from the <a href=\"%3$s\">plugin website</a>."
+msgstr ""
+
+#: sitemap.php:85
+msgid "Your WordPress version is too old for XML Sitemaps."
+msgstr ""
+
+#: sitemap-ui.php:1269
+msgid "Reset options"
+msgstr "Parametrləri sıfırla"
+
+#: sitemap-ui.php:1268
+msgid "Update options"
+msgstr "Parametrləri yenilə"
+
+#: sitemap-ui.php:1243
+msgid "Archives"
+msgstr "Arxivlər"
+
+#: sitemap-ui.php:1225
+msgid "Minimum post priority (Even if auto calculation is enabled)"
+msgstr ""
+
+#: sitemap-ui.php:1219
+msgid "Posts (If auto calculation is disabled)"
+msgstr ""
+
+#: sitemap-ui.php:1208
+msgid "Priorities"
+msgstr ""
+
+#: sitemap-ui.php:1200
+#: sitemap-ui.php:1257
+msgid "Author pages"
+msgstr "Müəllif səhifəsi"
+
+#: sitemap-ui.php:1193
+#: sitemap-ui.php:1250
+msgid "Tag pages"
+msgstr "Etiket səhifələri"
+
+#: sitemap-ui.php:1186
+msgid "Older archives (Changes only if you edit an old post)"
+msgstr ""
+
+#: sitemap-ui.php:1180
+msgid "The current archive of this month (Should be the same like your homepage)"
+msgstr ""
+
+#: sitemap-ui.php:1174
+#: sitemap-ui.php:1237
+msgid "Categories"
+msgstr "Kateqoriyalar"
+
+#: sitemap-ui.php:1168
+#: sitemap-ui.php:1231
+msgid "Static pages"
+msgstr "Statistika səhifələri"
+
+#: sitemap-ui.php:1162
+msgid "Posts"
+msgstr "Yazılar"
+
+#: sitemap-ui.php:1156
+#: sitemap-ui.php:1213
+msgid "Homepage"
+msgstr "Əsas Səhifə"
+
+#: sitemap-ui.php:1150
+msgid "Please note that the value of this tag is considered a hint and not a command. Even though search engine crawlers consider this information when making decisions, they may crawl pages marked \"hourly\" less frequently than that, and they may crawl pages marked \"yearly\" more frequently than that. It is also likely that crawlers will periodically crawl pages marked \"never\" so that they can handle unexpected changes to those pages."
+msgstr ""
+
+#: sitemap-ui.php:1146
+msgid "Change frequencies"
+msgstr ""
+
+#: sitemap-ui.php:1140
+msgid "Child posts won't be excluded automatically!"
+msgstr ""
+
+#: sitemap-ui.php:1138
+msgid "List of IDs, separated by comma"
+msgstr ""
+
+#: sitemap-ui.php:1138
+msgid "Exclude the following posts or pages:"
+msgstr ""
+
+#: sitemap-ui.php:1136
+msgid "Exclude posts"
+msgstr ""
+
+#: sitemap-ui.php:1128
+msgid "Excluded categories"
+msgstr ""
+
+#: sitemap-ui.php:1126
+msgid "Excluded items"
+msgstr ""
+
+#: sitemap-ui.php:1119
+msgid "This is highly recommended and helps the search engines to know when your content has changed. This option affects <i>all</i> sitemap entries."
+msgstr ""
+
+#: sitemap-ui.php:1117
+msgid "Include the last modification time."
+msgstr ""
+
+#: sitemap-ui.php:1112
+msgid "Further options"
+msgstr ""
+
+#: sitemap-ui.php:1100
+msgid "Include custom post type %s"
+msgstr ""
+
+#: sitemap-ui.php:1089
+msgid "Custom post types"
+msgstr ""
+
+#: sitemap-ui.php:1071
+msgid "Include taxonomy pages for %s"
+msgstr ""
+
+#: sitemap-ui.php:1060
+msgid "Custom taxonomies"
+msgstr ""
+
+#: sitemap-ui.php:1046
+msgid "Include tag pages"
+msgstr ""
+
+#: sitemap-ui.php:1039
+msgid "Include author pages"
+msgstr ""
+
+#: sitemap-ui.php:1033
+msgid "Include archives"
+msgstr ""
+
+#: sitemap-ui.php:1027
+msgid "Include categories"
+msgstr ""
+
+#: sitemap-ui.php:1021
+msgid "Include static pages"
+msgstr ""
+
+#: sitemap-ui.php:1015
+msgid "Include posts"
+msgstr ""
+
+#: sitemap-ui.php:1009
+msgid "Include homepage"
+msgstr ""
+
+#: sitemap-ui.php:1004
+msgid "WordPress standard content"
+msgstr ""
+
+#: sitemap-ui.php:1003
+msgid "Sitemap Content"
+msgstr ""
+
+#: sitemap-ui.php:992
+msgid "All posts will have the same priority which is defined in &quot;Priorities&quot;"
+msgstr ""
+
+#: sitemap-ui.php:992
+msgid "Do not use automatic priority calculation"
+msgstr ""
+
+#: sitemap-ui.php:990
+msgid "Please select how the priority of each post should be calculated:"
+msgstr ""
+
+#: sitemap-ui.php:988
+msgid "Post Priority"
+msgstr ""
+
+#: sitemap-ui.php:982
+msgid "Add new page"
+msgstr "Yeni səhifə əlavə et"
+
+#: sitemap-ui.php:977
+msgid "No pages defined."
+msgstr ""
+
+#: sitemap-ui.php:972
+msgid "#"
+msgstr "#"
+
+#: sitemap-ui.php:970
+msgid "Change Frequency"
+msgstr "Tezliyi Dəyişdir"
+
+#: sitemap-ui.php:936
+msgid "Enter the date of the last change as YYYY-MM-DD (2005-12-31 for example) (optional)."
+msgstr ""
+
+#: sitemap-ui.php:935
+#: sitemap-ui.php:971
+msgid "Last Changed"
+msgstr ""
+
+#: sitemap-ui.php:933
+msgid "Choose the priority of the page relative to the other pages. For example, your homepage might have a higher priority than your imprint."
+msgstr ""
+
+#: sitemap-ui.php:932
+#: sitemap-ui.php:969
+msgid "Priority"
+msgstr ""
+
+#: sitemap-ui.php:930
+msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
+msgstr ""
+
+#: sitemap-ui.php:929
+#: sitemap-ui.php:968
+msgid "URL to the page"
+msgstr ""
+
+#: sitemap-ui.php:927
+msgid "If your blog is in a subdirectory and you want to add pages which are NOT in the blog directory or beneath, you MUST place your sitemap file in the root directory (Look at the &quot;Location of your sitemap file&quot; section on this page)!"
+msgstr ""
+
+#: sitemap-ui.php:926
+#: sitemap-ui.php:1140
+#: sitemap-ui.php:1149
+msgid "Note"
+msgstr "Qeyd"
+
+#: sitemap-ui.php:924
+msgid "Here you can specify files or URLs which should be included in the sitemap, but do not belong to your Blog/WordPress.<br />For example, if your domain is www.foo.com and your blog is located on www.foo.com/blog you might want to include your homepage at www.foo.com"
+msgstr ""
+
+#: sitemap-ui.php:921
+msgid "Additional pages"
+msgstr ""
+
+#: sitemap-ui.php:912
+msgid "Allow anonymous statistics (no personal information)"
+msgstr ""
+
+#: sitemap-ui.php:906
+msgid "(The required PHP XSL Module is not installed)"
+msgstr ""
+
+#: sitemap-ui.php:906
+msgid "Include sitemap in HTML format"
+msgstr ""
+
+#: sitemap-ui.php:901
+msgid "Use this if your blog is in a sub-directory, but you want the sitemap be located in the root. Requires .htaccess modification."
+msgstr ""
+
+#: sitemap-ui.php:900
+msgid "Override the base URL of the sitemap:"
+msgstr ""
+
+#: sitemap-ui.php:897
+msgid "Use default"
+msgstr ""
+
+#: sitemap-ui.php:897
+msgid "Full or relative URL to your .xsl file"
+msgstr ""
+
+#: sitemap-ui.php:896
+msgid "Include a XSLT stylesheet:"
+msgstr ""
+
+#: sitemap-ui.php:892
+msgid "Disable this option if you get garbled content or encoding errors in your sitemap."
+msgstr ""
+
+#: sitemap-ui.php:890
+msgid "Try to automatically compress the sitemap if the requesting client supports it."
+msgstr ""
+
+#: sitemap-ui.php:885
+msgid "in seconds, e.g. \"60\" or \"0\" for unlimited"
+msgstr ""
+
+#: sitemap-ui.php:885
+msgid "Try to increase the execution time limit to:"
+msgstr ""
+
+#: sitemap-ui.php:882
+msgid "e.g. \"4M\", \"16M\""
+msgstr ""
+
+#: sitemap-ui.php:882
+msgid "Try to increase the memory limit to:"
+msgstr ""
+
+#: sitemap-ui.php:879
+msgid "Advanced options:"
+msgstr ""
+
+#: sitemap-ui.php:875
+msgid "The virtual robots.txt generated by WordPress is used. A real robots.txt file must NOT exist in the blog directory!"
+msgstr ""
+
+#: sitemap-ui.php:871
+msgid "Add sitemap URL to the virtual robots.txt file."
+msgstr ""
+
+#: sitemap-ui.php:866
+msgid "No registration required, but you can join the <a href=\"%s\">Bing Webmaster Tools</a> to check crawling statistics."
+msgstr ""
+
+#: sitemap-ui.php:865
+msgid "Notify Bing (formerly MSN Live Search) about updates of your Blog"
+msgstr ""
+
+#: sitemap-ui.php:861
+msgid "No registration required, but you can join the <a href=\"%s\">Google Webmaster Tools</a> to check crawling statistics."
+msgstr ""
+
+#: sitemap-ui.php:860
+msgid "Notify Google about updates of your Blog"
+msgstr ""
+
+#: sitemap-ui.php:856
+#: sitemap-ui.php:879
+#: sitemap-ui.php:901
+#: sitemap-ui.php:913
+msgid "Learn more"
+msgstr "Daha çox məlumat"
+
+#: sitemap-ui.php:856
+msgid "Update notification:"
+msgstr ""
+
+#: sitemap-ui.php:854
+msgid "Basic Options"
+msgstr ""
+
+#: sitemap-ui.php:838
+msgid "Since you are using Nginx as your web-server, please configure the following rewrite rules in case you get 404 Not Found errors for your sitemap:"
+msgstr ""
+
+#: sitemap-ui.php:837
+msgid "Webserver Configuration"
+msgstr ""
+
+#: sitemap-ui.php:829
+msgid "If you like the plugin, please <a target=\"_blank\" href=\"%s\">rate it 5 stars</a> or <a href=\"%s\">donate</a> via PayPal! I'm supporting this plugin since over 9 years! Thanks a lot! :)"
+msgstr ""
+
+#: sitemap-ui.php:825
+msgid "If you encounter any problems with your sitemap you can use the <a href=\"%d\">debug function</a> to get more information."
+msgstr ""
+
+#: sitemap-ui.php:813
+msgid "There was a problem while notifying %name%. <a href=\"%s\" target=\"_blank\">View result</a>"
+msgstr ""
+
+#: sitemap-ui.php:810
+msgid "It took %time% seconds to notify %name%, maybe you want to disable this feature to reduce the building time."
+msgstr ""
+
+#: sitemap-ui.php:807
+msgid "%s was <b>successfully notified</b> about changes."
+msgstr ""
+
+#: sitemap-ui.php:798
+msgid "Search engines haven't been notified yet. Write a post to let them know about your sitemap."
+msgstr ""
+
+#: sitemap-ui.php:795
+msgid "The URL to your sitemap index file is: <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: sitemap-ui.php:792
+msgid "There is still a sitemap.xml or sitemap.xml.gz file in your blog directory. Please delete them as no static files are used anymore or <a href=\"%s\">try to delete them automatically</a>."
+msgstr ""
+
+#: sitemap-ui.php:781
+msgid "Enable"
+msgstr "Aktivləşdir"
+
+#: sitemap-ui.php:781
+msgid "Support Topics have been disabled. Enable them to see useful information regarding this plugin. No Ads or Spam!"
+msgstr ""
+
+#: sitemap-ui.php:778
+msgid "No support topics available or an error occurred while fetching them."
+msgstr ""
+
+#: sitemap-ui.php:760
+msgid "Disable"
+msgstr "Ləğv et"
+
+#: sitemap-ui.php:756
+msgid "Recent Support Topics / News"
+msgstr ""
+
+#: sitemap-ui.php:749
+msgid "Result of the last ping, started on %date%."
+msgstr ""
+
+#: sitemap-ui.php:745
+msgid "Search engines haven't been notified yet"
+msgstr ""
+
+#: sitemap-ui.php:725
+msgid "Thanks for your support!"
+msgstr "Dəstəyiniz üçün təşəkkürlər!"
+
+#: sitemap-ui.php:722
+msgid "Hide this list"
+msgstr ""
+
+#: sitemap-ui.php:720
+msgid "List of the donors"
+msgstr ""
+
+#: sitemap-ui.php:717
+msgid "Recent Donations:"
+msgstr ""
+
+#: sitemap-ui.php:714
+msgid "My Sitemaps FAQ"
+msgstr ""
+
+#: sitemap-ui.php:713
+msgid "Official Sitemaps FAQ"
+msgstr ""
+
+#: sitemap-ui.php:712
+msgid "Sitemaps Protocol"
+msgstr ""
+
+#: sitemap-ui.php:710
+msgid "Webmaster Center Blog"
+msgstr ""
+
+#: sitemap-ui.php:707
+msgid "Search Blog"
+msgstr "Bloqu Axtar"
+
+#: sitemap-ui.php:705
+msgid "Webmaster Blog"
+msgstr "Vebusta Bloqu"
+
+#: sitemap-ui.php:704
+#: sitemap-ui.php:709
+msgid "Webmaster Tools"
+msgstr "Vebusta Alətləri"
+
+#: sitemap-ui.php:703
+msgid "Sitemap Resources:"
+msgstr "Sayt xəritəsi Mənbələri:"
+
+#: sitemap-ui.php:700
+msgid "translator_url"
+msgstr "translator_url"
+
+#: sitemap-ui.php:700
+msgid "translator_name"
+msgstr "translator_name"
+
+#: sitemap-ui.php:699
+msgid "My Amazon Wish List"
+msgstr ""
+
+#: sitemap-ui.php:698
+msgid "Donate with PayPal"
+msgstr ""
+
+#: sitemap-ui.php:696
+msgid "Report a Bug"
+msgstr ""
+
+#: sitemap-ui.php:695
+msgid "Support Forum"
+msgstr "Dəstək Forumu"
+
+#: sitemap-ui.php:694
+msgid "Notify List"
+msgstr ""
+
+#: sitemap-ui.php:693
+msgid "Help / FAQ"
+msgstr ""
+
+#: sitemap-ui.php:692
+msgid "Suggest a Feature"
+msgstr ""
+
+#: sitemap-ui.php:691
+msgid "Plugin Homepage"
+msgstr ""
+
+#: sitemap-ui.php:690
+msgid "About this Plugin:"
+msgstr ""
+
+#: sitemap-ui.php:675
+msgid "Your blog is currently blocking search engines! Visit the <a href=\"%s\">Reading Settings</a> to change this."
+msgstr ""
+
+#: sitemap-ui.php:526
+msgid "Don't show this anymore"
+msgstr ""
+
+#: sitemap-ui.php:526
+msgid "Thanks for using this plugin! You've installed this plugin some time ago. If it works and your are satisfied, why not <a href=\"%s\">rate it</a> and <a href=\"%s\">recommend it</a> to others? :-)"
+msgstr ""
+
+#: sitemap-ui.php:519
+msgid "No thanks, please don't bug me anymore!"
+msgstr ""
+
+#: sitemap-ui.php:519
+msgid "Sure, but I already did!"
+msgstr ""
+
+#: sitemap-ui.php:519
+msgid "Thanks for using this plugin! You've installed this plugin over a month ago. If it works and you are satisfied with the results, isn't it worth at least a few dollar? <a href=\"%s\">Donations</a> help me to continue support and development of this <i>free</i> software! <a href=\"%s\">Sure, no problem!</a>"
+msgstr ""
+
+#: sitemap-ui.php:513
+msgid "Hide this notice"
+msgstr "Bu bildirişi gizlət"
+
+#: sitemap-ui.php:513
+msgid "Thank you very much for your donation. You help me to continue support and development of this plugin and other free software!"
+msgstr ""
+
+#: sitemap-ui.php:470
+msgid "Ping was executed, please see below for the result."
+msgstr ""
+
+#: sitemap-ui.php:453
+msgid "All done!"
+msgstr "Tamamdır!"
+
+#: sitemap-ui.php:431
+msgid "The plugin is notifying the selected search engines about your main sitemap and all sub-sitemaps. This might take a minute or two."
+msgstr ""
+
+#: sitemap-ui.php:430
+msgid "Notify Search Engines about all sitemaps"
+msgstr ""
+
+#: sitemap-ui.php:393
+msgid "The old files were successfully deleted."
+msgstr ""
+
+#: sitemap-ui.php:391
+msgid "The old files could NOT be deleted. Please use an FTP program and delete them by yourself."
+msgstr ""
+
+#: sitemap-ui.php:381
+msgid "The default configuration was restored."
+msgstr ""
+
+#: sitemap-ui.php:373
+msgid "Error while saving pages"
+msgstr ""
+
+#: sitemap-ui.php:372
+msgid "Pages saved"
+msgstr ""
+
+#: sitemap-ui.php:369
+msgid "Error while saving options"
+msgstr ""
+
+#: sitemap-ui.php:368
+msgid "Configuration updated"
+msgstr "Konfiqurasiya yeniləndi"
+
+#: sitemap-ui.php:181
+#: sitemap-ui.php:671
+msgid "XML Sitemap Generator for WordPress"
+msgstr "itemap Generator for WordPress üçün XML Sayt xəritəsi Generatoru"
+
+#: sitemap-loader.php:236
+msgid "Donate"
+msgstr "İanə"
+
+#: sitemap-loader.php:235
+msgid "Support"
+msgstr "Dəstək"
+
+#: sitemap-loader.php:234
+msgid "FAQ"
+msgstr "ÇVS"
+
+#: sitemap-loader.php:233
+msgid "Settings"
+msgstr "Parametrlər"
+
+#: sitemap-loader.php:206
+msgid "XML-Sitemap"
+msgstr "XML-Sayt xəritəsi"
+
+#: sitemap-loader.php:206
+msgid "XML-Sitemap Generator"
+msgstr "XML-Sayt xəritəsi Generatoru"
+
+#: sitemap-core.php:784
+msgid "Never"
+msgstr "Heç bir zaman"
+
+#: sitemap-core.php:783
+msgid "Yearly"
+msgstr "İllik"
+
+#: sitemap-core.php:782
+msgid "Monthly"
+msgstr "Aylıq"
+
+#: sitemap-core.php:781
+msgid "Weekly"
+msgstr "Həftəlik"
+
+#: sitemap-core.php:780
+msgid "Daily"
+msgstr "Günlük"
+
+#: sitemap-core.php:779
+msgid "Hourly"
+msgstr "Saatlıq"
+
+#: sitemap-core.php:778
+msgid "Always"
+msgstr ""
+
+#: sitemap-core.php:618
+msgid "Uses the average comment count to calculate the priority"
+msgstr ""
+
+#: sitemap-core.php:608
+msgid "Comment Average"
+msgstr ""
+
+#: sitemap-core.php:557
+msgid "Uses the number of comments of the post to calculate the priority"
+msgstr ""
+
+#: sitemap-core.php:547
+msgid "Comment Count"
+msgstr "Şərh Miqdarı"

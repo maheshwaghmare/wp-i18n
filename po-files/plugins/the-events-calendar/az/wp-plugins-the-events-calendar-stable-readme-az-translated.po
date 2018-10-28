@@ -1,0 +1,3945 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - The Events Calendar - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-28T16:38:22+00:00\n"
+"PO-Revision-Date: 2015-12-27 00:20:22+0000\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "The Events Calendar is a carefully crafted, extensible plugin that lets you easily manage and share events. Beautiful. Solid. Awesome."
+msgstr ""
+
+#. Plugin name.
+msgid "The Events Calendar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added <code>$origin_show_map_options</code> parameter to the <code>tribe_aggregator_fields</code> filter to allow new EA origins to make use of them [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_events_aggregator_import_form</code> action to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_events_status_third_party</code> action to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_event_translate_service_data_organizer_field_map</code> filter to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_event_translate_service_data_venue_field_map</code> filter to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_event_translate_service_data_field_map</code> filter to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_events_aggregator_refine_location_exclusions</code> filter to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_events_aggregator_refine_keyword_exclusions</code> filter to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_import_validate_meta_by_origin</code> filter to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_service_post_import_args</code> filter to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_record_by_origin</code> filter to allow new EA origins [114652]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Accept 0 as an argument in tribe_get_events() so that <code>'post_parent' =&gt; 0</code> works, thanks Cy for the detailed report [111518]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Move Google Maps API loading to tribe_assets and only load once on single views when PRO is active, thanks to info2grow first reporting [112221]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_events_month_daily_events</code> filter to the Month view [114041]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Ensure linked posts are listed alphabetically in metabox dropdowns, as they are in all other admin locations [108120]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Fixed the handling of the global $post variable in some Month View templates to make it easier for themers to customize those templates [113283]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new filters for customizing the fallback Google Maps embeds: <code>tribe_is_using_basic_gmaps_api</code>, <code>tribe_get_basic_gmap_embed_url</code>, and <code>tribe_get_basic_gmap_embed_url_args</code> [114442]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added checks to prevent JS Type Error in mobile view. Thanks szenenight, agrilife and others for flagging this! [113524]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure that the <code>tribe-events-bar-should-show</code> filter functions as aspected; if <code>__return_false</code> is passed, the Tribe Bar will be totally hidden (thanks @debranettles for reporting this!) [112260]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a bug where it was often not possible to un-check the \"Enable JSON-LD\" option in the Events List Widget (thanks to @myrunningresource and @craigwilcox for reporting this!) [113541]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Stop potential fatal errors from debug logging when running EA import actions from command line [114555]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Updated the Events Gutenberg extension install check to show only when the extension is not active [114577]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Restores the event categories and tags creation summary in CSV imports [105888]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Correct the Google Maps API link in the Settings help text to point to the correct API page [112322]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure that venue, organizer, and meta information doesn't show on password-protected events [102643]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Only load widget assets when widget is active on the page [113141]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent broken and low-resolution Google Maps if user has not provided a Google Maps API key of their own by providing our own fallback API key [114442]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_import_setting_origins</code> filter to the origins available for default import settings [115704]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Handle left-over Facebook scheduled imports and notices [114831]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where a fatal error could be generated when trying to save a new Event Aggregator scheduled import [115339]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - <code>Tribe__Events__Aggregator__Record__Facebook</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow stopping and clearing asynchronous queue processes from the admin UI [113418, 113475]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow changing Event Aggregator import process system between the asynchronous and the cron-based one; previously only available as a filter [113418, 113475]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add the WordPress Custom Fields Metabox show|hide settings from the Events Calendar Pro [109815]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Allow venue location fields to be intentionally empty on Venue Singular REST API calls [108834]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure Event Aggregator allows for importing events from Eventbrite sites other than eventbrite.com, including but not limited to eventbrite.ca, .co.uk, and .co.nz [107821]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Remove references to and settings for Facebook importing in Event Aggregator [112432]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Modify resource url function to work in mu-plugin directory, thanks to Doug for reporting it  [86104]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed the \"Full Styles\" mobile view. Thanks Matthew, Laura and others for flagging this! [112301]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Tribe_Select2 in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Tribe_Events_Bar in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Smoothness in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Settings in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__PHP_Date_Formatter in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Jquery_Resize in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Jquery_Placeholder in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Factory in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Events_Css in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Events_Css_Skeleton in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Events_Css_Full in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Events_Css_Default in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Ecp_Plugins in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Dynamic in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Dialog in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Datepicker in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Chosen in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Calendar_Script in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Bootstrap_Datepicker in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Ajax_List in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Ajax_Dayview in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Ajax_Calendar in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Admin in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Admin_Ui in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Admin_Menu in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Abstract_Events_Css in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Asset__Abstract_Asset in favor of using <code>tribe_asset</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Manage plugin assets via <code>tribe_assets()</code> [40267]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent selection of past dates when setting up Scheduled Other URL Imports in Event Aggregator [111227]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Sending empty 'categories' and 'tags' for the REST API event endpoints when inserting and updating events [109627]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Escape each closing html element in month view tooltip to prevent PHP parser from exposing html, thanks to Karen for a solution [64834]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where saving Event Aggregator scheduled imports with an empty preview would generate PHP notices [110311]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure no console errors are being displayed if there's no Google Maps API key present. Thanks Greg for flagging this [95312]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Added WPML metadata improvements for Organizers and Venue. Thanks to David Garcia Watkins and the entire WPML team for their contribution [106798]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Make global $post obj available to tribe_events_get_the_excerpt() with setup_postdata($post) [108043]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Display JS debug messages only if setting is set or through the <code>tribe_events_js_debug</code> filter. Thanks to Rob, @aand and others for flagging this! [82781]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak -  Drop the order from the query WPML linked query as it is set later in the method, thanks to dgwatkins for the PR [110459]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add venue name to address string for iCal and gCal export, thanks for the coding from sylviavanos [110464]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Namespace javascript debug function to prevent conflicts causing a function found, thanks to Tom-Mulvey for the fix [110462]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fix the classic header option not working. Thanks @hanemac, David Luyendyk and others for flagging this! [111672]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Retain category title in month view and month view shortcode, thanks corthoover for the first report [108258]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Correctly import and set Organizers for iCal and ICS files Event Aggregator imports [96059]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Change template_redirect to an action for some legacy view redirects, thanks barryceelen! [110463]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Only show admin notice when it is a top-level page with the event slug, thanks to MikeNGarrett for the code fix! [111186]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Handle the case where Event Aggregator import queues might get stuck when deleting import records [111856]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Editing an existing event no longer loses the linked posts just because they were not part of the submission. Example of the bug in prior versions: If organizers are editable in the wp-admin event edit screen but not on the Community Events \"event edit\" form (via template override or other custom code), all pre-existing organizers were removed in error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>tribe_get_linked_posts_by_post_type()</code> now works as expected, no longer returning zero results in error, nor returning all of the post type's posts if there are none linked. The <code>tribe_events_return_all_linked_posts_if_none</code> filter was added, as it is necessary for this fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We no longer rely on a separate postmeta value dedicated to ordering linked posts (e.g. <code>_EventOrganizerID_Order</code>), and you may want to remove all such values from your database after re-saving any events that have linked posts and their ordering is important"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated the functions added in version 4.6.13 that previously attempted to fix ordering logic but was not done in a backwards-compatible way: <code>get_order_meta_key()</code> and <code>tribe_sanitize_organizers()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Fix - Multiple fixes regarding linked post types (e.g. Organizers and custom post types) - props to @natureslens and others for reporting these [105116]:\n"
+"\n"
+"<ul>\n"
+"<li>Now correctly saves in their drag-and-drop order"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - The \"Import events but preserve local changes to event fields\" Event Aggregator change authority setting will now behave as expected [87443]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent subsequent CSV imports from duplicating events in some instances [102745]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Enable future event display to get all events in the future that have not started [70769]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Allow filtering events, in REST API requests, by their post ID with <code>include</code> [94326]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Allow user to choose venues not created by them. Props to @integrity, @nomadadmin, and many others for reporting this! [113147]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 68 new strings added, 406 updated, 3 fuzzied, and 37 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add <code>tribe_events_month_has_events_filtered</code> function and filter to see if there are events on a certain month, with filters (categories, search) [67607]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - The EB 4.5 migration process to better detect events for migration and insure all fields are migrated [106623]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Enable only url imports for Eventbrite when that plugin is not active [107415]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Accessibility repair: hide Google Map embeds from screen readers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Accessibility repair: provide meaningful aria labels for filter bar inputs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Accessibility repair: filter bar view selector adjustments."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Accessibility repair: remove redundant tab stops on feature image links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Accessibility repair: make sure all elements have unique <code>id</code> attributes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Accessibility repair: heading hierarchy improvements throughout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Renamed the Time zone mode option \"Use the local time zones for each event\" to \"Use manual timezones for each event\" (thanks @hikeitbaby for the suggestion) [67148]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added venue google map link to events in Day view [91610]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add the <code>'tribe_aggregator_async_import_event_task</code> filter to allow overriding the Event Aggregator asynchronous import task [107929]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add the <code>tribe_aggregator_async_insert_event</code> filter to allow overriding the Event Aggregator asynchronous event insertion [107929]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added classes to meta output in Single Event meta templates to facilitate customization [62704]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Modify the default values for the CSV settings if there's no EA license [94426]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Display the correct Import Settings when Eventbrite Tickets is enabled [106947]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed two PHP 5.2 errors on the Events &gt; Help page [108338]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - The connected status for Eventbrite under Third Party Accounts on the Help page [106868]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Split linked posts (Organizers and Venues) by ownership, for all users [71349]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Correct the pagination in list view when a keyword is being searched. Thanks to @versi, @akr and Mary for reporting this! [94613]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Keep filter bar date when changing from month to list view, with all datepicker formats. Thanks to Caio for reporting this! [83018]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Correct the \"View All\" link when using the events month view and plain permalinks. props to Kay and Robert for notifying us [72544]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make the date picker respect the \"Start of the week\" Setting. Thanks to @websource, @dsb and others for flagging this! [76320]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improve Event Import message responses from Event Aggregator for certain cases where \"Unknown service message\" would be returned [107606]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Check the Events Aggregator license each time the page is accessed [67864]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved customizer inconsistencies with month/week views and full styles [69758]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Month view pagination for datepicker formats: YYYY.MM.DD, MM.DD.YYYY, and DD.MM.YYYY. Thanks @netzwerk, @wdburgdorf, @oliverwick and others for notifying us! [105443]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure that the \"Export Events\" button is properly displayed in month view when paginating. Thanks to @linpleva, Steven, Will and others for flagging this! [104751]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - More robust handling of errors and exceptions during Event Aggregator imports [107929]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Accessibility repair: adjust main content container element from <code>div</code> to <code>main</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Accessibility repair: new title-bar template for loop views included above the filter bar and content containing the page title in a <code>h1</code> tag."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Add Eventbrite Icon to Third Party Accounts on the help page [105388]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - CSV importer now supports a featured event column [72376]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_record_finalized</code> action to allow developers to act before Event Aggregator imports start [109938]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added event ID parameter to <code>tribe_events_event_classes</code> filter to make it more useful [64807]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Add Privacy Policy guide for The Events Calendar [108454]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added basic checks to prevent saving obviously-invalid event meta values, such as sending <code>EventStartMinute</code> of <code>60</code> (since it should be 0-59) to <code>tribe_create_event()</code>. This prevents falling back to \"zero\" values (e.g. Unix Epoch) when another value was intended. Thanks to @compton-bob for flagging this via our Help Desk. [109722]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Allow venue and organizer fields to be intentionally empty on Event Singular REST API calls [109482]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Display the exact search term in the \"no results\" notice on the events page [106991]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add featured event column support for CLI imports [108027]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fix the error displayed when navigating the month view via shortcode. Thanks Lam, @ltcalendar, Disk and others for flagging this! [109589]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fix an issue where Event Aggregator imports might get blocked at 1% progress [110258]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Save order of organizers as displayed in the admin (thanks to JobInfo and others for report) [79126]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Add new <code>tribe_events_linked_post_type_meta_key</code> filter, required to be set for each custom linked post type, to output custom linked post types in their drag-and-drop order (thanks @natureslens for highlighting the issue) [100733]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 28 new strings added, 290 updated, 29 fuzzied, and 7 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Honor the return types for <code>tribe_has_next_event</code> and <code>tribe_has_previous_event</code> when the global query is null"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure that default venue and address values are used throughout various venue-creation forms [63915]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make the <code>[tribe_events]</code> shortcode's output scroll to top when using the List View to match the non-shortcode List View  [81509]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent 404s and malformed URLs that would sometimes arise when navigating to a past-events view from the \"All\"-events view on a single recurring event [43925]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent <code>url_to_postid</code> from running when on the main events page to avoid query conflicts [94328]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a bug where the <code>[tribe_events]</code> Month View pagination would fail when no Tribe Bar was visible and plain permalinks were being used [95720]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure that organizers can be deleted when an event has multiple organizers [103715]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added wp-cli command to run scheduled imports with Event Aggregator. See <code>wp event-aggregator run-import --help</code> to know more [104426]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added wp-cli command to import events from a source with Event Aggregator. See <code>wp event-aggregator import-from --help</code> to know more [104426]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevents notices for Events Community when handling State and Province fields [106415]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Replaced the Aggregator queue processing system to run independently of WP Cron (not for CSV) [105650]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 4 new strings added, 170 updated, 1 fuzzied, and 0 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - An issue with organizers and venues not being attached to events on Eventbrite import  [106869]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Add a warning when the site Timezone is set to UTC [105217]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Hide any errors generated by servers that don't support <code>set_time_limit()</code> (props to @jsww for flagging this!) [64183]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add tribe_redirected parameter to enable a visitor to select another view after default mobile redirect, thanks to Marcella for notifying us [102743]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Remove Legacy Imports UI [81829]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add Eventbrite imports to the Import History Tab [81826]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Move Eventbrite settings from Legacy Import to Settings Import Tab [94388]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Import from Eventbrite Location Search URL, i.e. https://www.eventbrite.com/d/or--portland/events/ [94588]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Ability to preview and import multiple Eventbrite events using the Organizer URL [94284]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Import Eventbrite events using the Other URL import origin [81825]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Preview for Eventbrite events in the import screen ordered from farthest future event to closest [70130]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Ability to schedule Eventbrite imports through Event Aggregator [35454]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Default category and change authority for Eventbrite Imports [61173]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Priority attribute to Import Setting fields to be able to customize order of fields [61173]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - Eventbrite to Event Aggregator import origins [61172]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Save time zone and time zone abbreviation fields (if provided) even if date was not changed when saving event through API [102705]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add notice if an import is missing required columns [67886]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Restore some missing header navigation elements [99742]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Ensure \"secondary\" maps, e.g. in the sidebar, have the same full-width behavior as \"main\" maps [74052]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add new filter, <code>tribe_events_import_event_duplicate_matches</code>, to determine if an event is part of the duplicates matches [77956]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Display the retry time for a failed Event Aggregator scheduled import in the Scheduled tab [102489]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_aggregator_find_matching_organizer</code> and <code>tribe_aggregator_find_matching_venue</code> filters in Events Aggregator to allow the definition of custom Venue and Organizer match criteria [97292]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Better \"guessing\" on column mapping during the import of CSV file (thanks to April in our Help Desk for flagging this problem!) [96162]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Changed the HTTP status codes of empty event, venue, organizer, category, and tag archives from 404 to 200 and return empty arrays to stick with WP REST API standard [102283]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed some imported-event handling so that events with no time and that aren't all-day events do not display on the front-end [93979]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Hid the filters in the Tribe Bar if a unique view is enabled [75114]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure the Tribe Bar displays all the available ranges of dates and times [100646]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where failed Event Aggregator scheduled imports would re-attempt the import too soon [102489]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - If the main events page is set to be the site's front page, ensure it shows as \"selected\" in the Customizer's front page option [100832]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Expanded the size of the time zone input in the admin to allow for better visibility for long names [100363]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Made the <code>tribe-ea-record</code> custom post type (used to store Event Aggregator record information) private [99106]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed the generation of PHP warnings on retrieval of posts if the \"Include events in main blog loop\" option is checked (thanks to Colin Carmichael for reporting this problem) [97667]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Updated the \"front page\" logic to store the value in the DB instead of \"mocking\" the view via JS [100832]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed fatal error that would sometimes arise when The Events Calendar was set to display on the front page"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Events Calendar is crafted the WordPress way with hours of strategy, design, development, and testing going into each release. We stand behind our work and offer light support weekly for the community via the WordPress.org support forums."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Looking for additional functionality including recurring events, ticket sales, publicly submitted events, automatic imports, and more?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Just getting started? Read through the <a href=\"http://m.tri.be/2d\">New User Primer</a> to get set up."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2e\">Eventbrite Tickets</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/fa\">Filter Bar</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/18wl\">Community Tickets</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2g\">Community Events</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/1a0r\">Library of extensions</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Hooks &amp; filters galore"
+msgstr ""
+
+#. Found in description list item.
+msgid "Multiple stylesheets to improve integration"
+msgstr ""
+
+#. Found in description list item.
+msgid "Event List view"
+msgstr ""
+
+#. Found in description header.
+msgid "Submitting Patches"
+msgstr ""
+
+#. Found in description header.
+msgid "Features"
+msgstr "Özəlliklər"
+
+#. Found in description header.
+msgid "Plug-n-play &amp; highly customizable"
+msgstr ""
+
+#. Found in description header.
+msgid "Built solid &amp; supported"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 3 new strings added, 161 updated, 1 fuzzied, and 2 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved compatibility with the Twety Seventeen theme (ensuring the calendar is full-width if set to be the site's homepage) [97977]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added pagination to single organizer and venue pages [97772]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved performance by reducing the number of queries that run in single event pages (in relation to <code>tribe_get_prev_event_link()</code> and <code>tribe_get_next_event_link()</code> specifically) [94587]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added caching to reduce the number of HTTP requests being made in relation to Event Aggregator within the admin environment [99486]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Renamed 'Use Javascript to control date filtering' option to 'Enable live refresh' and improved the associated helper text [98022]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added safety checks around our use of the global $wp_query object (thanks @archetypalsxe for highlighting this issue!) [100199]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Corrected the export of upcoming events from single organizer pages (added to support changes in Events Calendar PRO) [70727]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improved logic responsible for identifying which events are expired (in the past) by using timezone-aware comparisons [91168]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved Javascript errors in month view which were triggered under some conditions by the presence of password-protected events [99089]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improved compatibility with WordPress SEO in relation to the default mobile events view [68716]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved errors within the admin environment when the \"ticketed\" view of events is generated [99266]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved an oversight resulting in notice-level errors when the <code>tribe_event_is_on_date()</code> function was called incorrectly (props to @sharewisdom for pointing this out) [99117]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Altered day view to start at 00:00:00 and not 00:00:01 [99641]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new filter <code>tribe_tickets_venue_action_links_edit_url</code> to modify the venue edit link for the sales and attendee reports [93923]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added Gutenberg compatibility for the Gutenberg Extension plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Corrected the behavior of the previous/next event links rendered on single event pages (props to @jeremyfelt for fixing this) [101757]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added facilities allowing users to trash or permanently delete expired events [98826]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new hooks (<code>tribe_events_ical_before</code>, <code>tribe_events_ical_events_list_args</code> and <code>tribe_events_ical_events_list_query</code>) to allow further customization of the iCal feed [86227]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added safeguards to reduce conflicts when lodash and underscore are used on the same site [92205]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 0 new strings added, 41 updated, 0 fuzzied, and 0 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Stopped modifications of the main query if is in a single post to allow custom variables don't affect the page loading when using shortcode (our thanks to Joseph Reckley and others for highlighting this problem) [91787]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Fixed a handful of small CSS bugs in the mobile views of the Twenty Sixteen, Twenty Fifteen, and Twenty Fourteen themes [95693]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure parity of CSS styles between the default Month View and the embedded Month Views generated by Events Calendar PRO's [tribe_events] shortcode (thanks @copoloff for reporting this bug!) [92329]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - If <code>tribe_ical_feed_calname</code>  is empty the property <code>X-WR-CALNAME</code> is not added to the .ics file [46620]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - The render of the venue and organizer templates (thanks to Antonio and others for reporting this in our forums) [99550]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make sure events on calendar are not affected by DST changes [99537]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make sure rewrite rule for <code>/events</code> is not hardcoded and is based on dynamic option field (thanks to @earnjam and others for flagging this problem) [98463]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow queries to explicitly include or exclude events that are nominally hidden from event listings [91254]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Button \"Merge Duplicates\" is always visible from now on [75208]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Made the \"/page/\" component of some views' URL string translatable [40976]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve performance on Event Admin List Count by removing JOIN and use cached results [63567]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added some more context to the labeling of the \"Number of events per page\" option (thanks to Todd H. for highlighting this label) [73659]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved the alignment of the event cost on the single-event view (props to @canberraclimbersassociation for reporting this bug) [97208]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Brought day number headers in the Month View into compliance with WCAG 2.0 accessibility standards when using the \"Tribe Events\" stylesheet [68411]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Prevent empty or otherwise-invalid values for various date-format options in the Display settings [94725]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Introduced the <code>tribe_events_query_force_local_tz</code> filter to allow for forcing non-UTC event start and end times in Tribe__Events__Query [92948]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Made the \"events\" and \"event\" slugs translatable by WPML and other multilingual plugins [95026]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add <code>the_title</code> filter to events called by <code>tribe_events_template_data</code> [38237]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add a link to the knowledge base about 'Setting Up Your Google Maps API Key' [89761]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Trigger an event <code>map-created.tribe</code> when a map is created to allow flexibility on customization [91984]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Use <code>featured_color_scheme_custom</code> if present as mechanism to overwrite the default color scheme for highlight color [96821]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make sure the date for past events is set to the current date not the end of the day of the current date [71936]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Remove the errant <code>div.tribe-events-single-section</code> on the single event view when there is no venue [97615]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Allow The Events Calendar REST API to be disabled using the <code>tribe_events_rest_api_enabled</code> filter [97209]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 3 new strings added, 68 updated, 0 fuzzied, and 0 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new <code>tribe_events_rest_use_inclusive_start_end_dates</code> filter so that users can make the REST API return events from a more literal date range [90005]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added <code>slug</code> to the REST API parameters allowed to use when inserting or updating an event [92825]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added <code>slug</code> to the REST API responses for event data [92825]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new REST API endpoint that allows looking up events by slug instead of ID at the path <code>events/by-slug/{slug}/</code>, it has the same functionality as the endpoint <code>events/{ID}</code> [92825]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjusted CSS to improve the display of venue URLs/phone numbers (especially when Events Calendar PRO is also active) (our thanks to Mathew on the forums for flagging this issue) [69127]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added Google Maps API key to all Google Maps URLs when the key is available, allowing maps to load more reliably on some hosting environments (props to @sfdfortnight, @thor, and many others for reporting this!) [62910]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure that when start and end dates are passed to the REST API, all events within the date range are correctly retrieved (thanks @braffenberg and others for highlighting this issue!) [90005]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Corrected reference to a Select2 asset (our thanks to @pyxis630 for flagging this problem and props to @andrasguseo for the fix) [95348]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where Google Maps Link would display in some situations even when there is no address information for which to generate a link. [94909]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where left- or right-aligned images at the bottom of event descriptions would overlap event meta on single-event pages [71134]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed some layout issues with the \"Buy Now\" button and stock labels on mobile list views [81115]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure the correct properties are set for list widget queries, to avoid problems when running alongside Events Calendar PRO (props @KZeni) [94105]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fix radio filters so they are only included as values when switching views when checked [72954]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Preserve filter bar checkbox selections when changing views [66749]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 5 new strings added, 30 updated, 0 fuzzied, and 0 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Old <code>tribe_rest_venue_data</code> filter was passing the venue and the event two the second parameter because of the duplication. Now it has the second parameter as $venue, third parameter as $event if event ID was provided [96090]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filter: <code>tribe_events_rest_organizer_prepare_postarr</code> [96069]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filter: <code>tribe_events_rest_venue_prepare_postarr</code> [96069]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added action: <code>tribe_events_organizer_save</code> [96069]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added action: <code>tribe_events_venue_save</code> [96069]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added <code>slug</code> to the REST API parameters allowed to use when inserting or updating an organizer or event [96088]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added <code>slug</code> to the REST API responses for organizer and venue data [96088]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new REST API endpoint that allows looking up venues by slug instead of ID at the path <code>venues/by-slug/{slug}/</code>, it has the same functionality as the endpoint <code>venues/{ID}</code> [96088]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new REST API endpoint that allows looking up organizers by slug instead of ID at the path <code>organizers/by-slug/{slug}/</code>, it has the same functionality as the endpoint <code>organizers/{ID}</code> [96088]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved escaping of map IDs (props LucaPipolo) [96772]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Made it possible to translate the iCal feed's description field (props @gafderks) [96677]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new <code>tribe_aggregator_import_event_image</code>, <code>tribe_aggregator_import_venue_image</code> and <code>tribe_aggregator_import_organizer_image</code> filter so that users can control whether, during EA imports, images should be attached to post or not [96393]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Remove the duplicate filter call that was running twice for <code>tribe_rest_venue_data</code> [96090]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue that prevented EA from importing images attached to Facebook events [96393]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make sure latitude and longitude information from iCal feeds is used if available [96363]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid issues when importing multiple organizers that specify images [96354]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add new utility functions tribe_is_events_home and tribe_is_events_front_page similar to native WP is_home and is_front_page [42195]"
+msgstr ""
+
+#. Found in description list item.
+msgid "WP REST API endpoints"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved datepicker handling so an end date on or later than the start date can always be selected [89825]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 10 new strings added, 167 updated, 0 fuzzied, and 2 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Required changes to make the plugin compatible with version 4.6 of Event Tickets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Timepicker is now part of Tribe Common, it was removed from The Events Calendar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 1 new strings added, 132 updated, 0 fuzzied, and 1 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Ensured REST API taxonomy endpoints are only registered in WordPress versions 4.7 and higher (thanks @dnaber-de for reporting this) [93227]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved integration with Twenty Seventeen - main events page now uses full height header when set to front page (thanks @uncovery for pointing this out) [89767]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Made the options presented by the timezone selector filterable (via the newly added <code>tribe_events_timezone_choice</code> hook - our thanks to National University's Marketing Department for this idea) [92909]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Made the \"End of Day Cutoff\" option better accommodate 24-hour and other time formats (thanks @festivalgeneral for bringing this issue to our attention!) [78621]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new filter: <code>tribe_events_force_filtered_ical_link</code>. This makes the \"Export Events\" URL more easily modifiable (thanks to @tdudley07 for highlighting this issue) [43908]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Fix PHP 7.1 compatibility with Event Aggregator (props @BJP NEALE) [90002]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Tweaked some language in Event Aggregator's metabox on individual edit-event screens to reduce confusion around the impact of the Update Authority on CSV imports [77957]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Fixed some layout issues that would emerge with \"Events URL Slug\" option when \"Plain\" permalinks were enabled [92314]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow for non-Latin characters to be used as the Events URL slug and the Single Event URL slug (thanks @daviddweb for originally reporting this) [61880]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Remove net import scheduled notes for on domand imports [79079]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where venues and organizers would not be correctly assigned to events in CSV imports with import statuses other than \"Publish\" [79680]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue in list view navigation with backwards previous/next classes (thanks @secondtoughest) [36230]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed the broken 'Learn more' URL received after an unsuccessful \"Other URL\" import preview [92890]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a bug where only some parts of event featured images were clickable in List Views (thanks @mattemkadia for highlighting this issue) [81392]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added opportunities to override edit linked post links [89015]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved some issues with the \"Show Map\" and \"Show Map Link\" options in CSV files not being reliably respected on import (props @joappf and many others for highlighting this issue) [82784]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Removed code which was automatically populating various address fields with default values when creating a new venue from within the event editor [44732]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where Event Aggregator scheduled imports might remain stuck in pending status [90501, 92614, 91754]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Modified tribe_get_template_part() to remove potential for multiple templates to be rendered in a single call [46630]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improved legacy URL redirect logic to prevent unwanted redirects (our thanks to wesleyanhq and Adam Schwartz for highlighting this issue) [86942]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 4 new strings added, 79 updated, 0 fuzzied, and 0 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved Aggregator notices including error data on the responses [87326]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Included <code>tribe_callback_return</code> for static returns for Hooks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added clear warnings and errors to prevent and limit the import of iCalendar sources missing required fields [93600]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added Template class which adds a few layers of filtering to any template file included"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 0 new strings added, 2 updated, 0 fuzzied, and 0 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_events_x_theme_force_full_content()</code> filter to let users disable X Theme compatibility code [92554]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a WPML incompatibility issue where language could be switched to the wrong one (thanks @dgwatkins) [94732]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where Month View wouldn't render correctly in X Theme with the \"Events template\" option set to \"Default Page Template\" [92554]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where EA imports might not correctly create venues for iCalendar imports (thanks @starweb and others for highlighting this issue) [94323]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the <code>tribe_rest_single_event_data</code> filter to the single event REST API endpoint to allow filtering the returned data (thanks @mwender) [88748]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow date range and events count limits to be set on each type of import (except for 'Other URL') in Event Aggregator [79975]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow users to import CSV with numerically-named categories by using a flag (currently <code>%n</code>) (thanks @Shamsi for reporting) [78340]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add actions before and after posts are inserted or updated by Event Aggregator to allow custom functions to kick in (<code>tribe_aggregator_before_insert_posts</code> and <code>tribe_aggregator_after_insert_posts</code>) [87530]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve text in the Event Aggregator settings [77452]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Aggregator will now allow for some minor shifts in schedule execution time to help distribute requests to EA Service [86628]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Aggregator prevents duplicated records with the same params from being created [68833]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid issues when REST API archive request parameters are not in the original order (thanks @Nslaver for reporting this and providing a fix) [88748]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Aggregator will no longer update comments while inactive [78890]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed the issue that would prevent the start date and date range parameters from being taken into account when using 'Other URL' source in Event Aggregator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - When \"Full Styles\" or \"Tribe Events Styles\" are used, prevent duplicate featured images from showing up in the Twenty Seventeen theme (props to @want2what and others in the forums for reporting this) [80955]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Addressed some PHP notices that would sometimes emerge in tag-filtered post lists in the wp-admin (thanks to @wfsec28 and others in the forums for reporting this!) [45274]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a typo in the Event List widget options [71081]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Patched jQuery Resize vendor library to avoid JavaScript conflicts (props to @britner for the original report) [71994]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Ignored Events will restore previous status instead of setting to 'publish' [82213]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Remove 'France, Metropolitan' option from country list to prevent issues with Google Maps API (thanks @varesanodotfr for pointing this out) [78023]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add link to the featured image in the Events List widget. New filter introduced to control this: <code>tribe_events_list_widget_featured_image_link</code> (props to @cabadaj007 for the feature request) [84807]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 152 new strings added, 217 updated, 6 fuzzied, and 1 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added duplicate-detection filters: <code>tribe_duplicate_post_strategies</code>, <code>tribe_duplicate_post_strategy</code>, <code>tribe_duplicate_post_{$strategy}_strategy</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added REST filters: <code>tribe_rest_organizer_default_only_with_upcoming</code>, <code>tribe_rest_venue_default_only_with_upcoming</code>, <code>tribe_events_rest_term_allow_delete</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added action: <code>tribe_events_organizer_created</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added linked post filters: <code>tribe_{$this-&gt;post_type}_has_events_excluded_post_stati</code>, <code>tribe_events_tribe_organizer_create</code>, <code>tribe_events_tribe_organizer_update</code>, <code>tribe_event_venue_duplicate_post_fields</code>, <code>tribe_event_organizer_duplicate_custom_fields</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Replaced deprecated first parameter of <code>tribe_get_organizers()</code> with a parameter that, when specified with a truthy value, returns only organizers with upcoming events attached to them"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added JSON-LD data to REST responses when available"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added latitude/longitude to REST responses when available on venues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Updated Bootstrap Datepicker to v1.7.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added full CRUD REST support for Events, Organizers, Venues, Event Categories, and Tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 7 new strings added, 180 updated, 4 fuzzied, and 3 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - Improvements to aid translatability of text throughout plugin (props: @ramiy) [88982]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Deprecated the <code>tribe-events-bar-date-search-default-value</code> filter; use <code>tribe_events_bar_date_search_default_value</code> instead [67482]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add support for a <code>found_posts</code> argument in <code>tribe_get_events</code>, <code>tribe_get_venues</code> and <code>tribe_get_organizers</code> functions to return the number of posts found matching the current query arguments [89743]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved the performance of The Events Calendar REST API tweaking some queries [89743]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjusted the <code>tribe_update_venue()</code> template tag so it no longer creates some unnecessary meta fields involving post_title, post_content, etc. (thanks @oheinrich for bringing this to our attention) [66968]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added a filter to CSV importer for altering the delimiter, escaping, and enclosing characters [70570]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved options format in the Event Aggregator settings [88970]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjusted the EA cron start time so that it never gets created in the past [88965]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Remove unnecessary parameters from some remove_action calls in the plugin (thanks to @JPry on GitHub for submitting this fix!) [88867]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed the \"Start Time\" and \"End Time\" timepicker fields in the event-creation screen to make it impossible to have an end date/time that comes before the start date/time [72686]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue that would prevent Event Aggregator scheduled imports from running [88395]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issues with the jQuery Timepicker vendor script conflicting with other plugins' similar scripts (props: @hcny et al.) [74644]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue when exporting all-day multi-day events via iCal where the end date was one day early (Thank you @fairmont for reporting this!) [87775]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevented modification of event titles within the loop when using TRIBE_MODIFY_GLOBAL_TITLE [89273]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed some layout issues with the Tribe Bar datepicker that would arise when using a Twentysixteen or Twentyfifteen child them (thanks to @stefanrueegger for reporting this) [46471]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed \"Next Events\" and \"Previous Events\" navigation links in list views, which would sometimes make a category-filtered list view lose its category filter as a user navigated through pages of future or past events (props @forumhelpdesk and @atomicdust for reporting this!) [72013]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added a new filter <code>tribe_events_ical_single_event_links</code> to make customizing the iCal and gCal export links on single-event views easier [90705]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Avoid notice level errors when a non-existent category archive is requested (our thanks to Charles Simmons for highlighting this) [90697]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve site identification in multisite installations using Event Aggregator to avoid throttling issues [90489]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improvements to the readme.txt file surrounding plugin requirements (thanks @ramiy) [90285]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Removed unneeded escaping to ensure the organizer link displays as expected (pros @f4w-pwharton) [91074]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improved translatability by adding missing textdomains for a number of strings (props @pedro-mendonca) [91071]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue that would cause a 404 error if the selected default view was not enabled (thanks @pruneau) [45612]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed start/end times being displayed in incorrect timezone in structured data (thanks @mtncreative &amp; @esosa) [42125]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Made some changes to prevent Month View caching from breaking WPML support when in Month View (props: @mpike and many others!) [82286]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue in Month view with multi-month events not appearing on subsequent months (thanks @shinno.kei &amp; @schittly for helping isolate this) [89747]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Restored functionality to the \"currency position\" options in Events Settings, and in the per-event cost settings (props @schola and many others!) [89918]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 0 new strings added, 7 updated, 0 fuzzied, and 0 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjusted linked posts selector HTML to improve compatibility with Batcache [92049]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Changed the order in which the list view \"next events\" link is assembled for better translatability (with thanks to @alelouya for highlighting this problem) [72097]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved the clarity of and amount of context for some linked post labels to make translation of those labels a little easier and more nuanced (props @hnacc and others) [88589]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Fixed some display issues for the event schedule details (props @mia-caro)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improved JSON LD output for events by outputting the correct UTC offset where required (our thanks to Nina and many others for flagging this issue) [78233]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure the <code>tribe_json_ld_{type}_object</code> filter is available to make modifications of event, venue and organizer JSON LD data possible (thanks to Mathew for flagging this problem) [89801]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improve shortcode pagination/view change url so it is reusable (props: @der.chef and others) [70021]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added some more specification to our jquery-ui-datepicker CSS to limit conflicts with other plugins and themes [90577]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where the value of an event's \"Show Google Maps Link\" option would not properly affect the displaying of the link on List View (props: @etechnologie) [75547]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent JS error when adding a Pro widget in the WP Customizer screen [72127]"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Events Calendar PRO can be purchased directly on <a href=\"http://m.tri.be/18wi\">our website</a>. There are five (5) license types available, and all licenses include access to premium support, new feature releases, and regular maintenance updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Display events on Month View correctly for WordPress version 4.8.2 and up (props @realcrozetva for reporting this) [88952]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where manually running Scheduled Imports would always result in a failed import [87321]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added tribe_events_month_get_events_in_month filter to allow overriding of events used in month templates. [83317]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added period \".\" separator to datepicker formats. [65282]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improve handling of large and/or slow Google Calendar and iCal feeds [79975]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid overwriting Venues and Organizers when importing FB events with similarly named Venues and Organizers [75370]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Scheduled Aggregator cron for inserting will re-enqueue to complete scheduled imports [83382]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Send Aggregator callback URL with correct Scheme [83364]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 1 new strings added, 119 updated, 0 fuzzied, and 0 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility - Minimum supported version of WordPress is now 4.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve compatibility and avoid Javascript errors when running alongside Twenty Seventeen [70853]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Avoid notice-level errors while processing queues within Event Aggregator (our thanks to David Sharpe and others for reporting this) [84020]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filter to tribe_get_display_end_date()'s return value [77730]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Moved the organizer e-mail address field label a bit to better accommodate Community Events [80426]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Made linked post fields' auto-save features more stringently check for empty values to prevent the plugin from trying to \"save\" empty values (our thanks to Jean-Marie for highlighting this problem) [80282]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where errors from the Event Aggregator service were not properly logging/visible on the History tab [83767]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug that caused scheduled imports to get stuck in a perpetual state of failure when receiving error messages from the Event Aggregator service (our thanks to Antonio Jose and others for flagging this problem) [83767]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid duplicate events when importing from some iCal, Google Calendar and Facebook feeds in Event Aggregator (our thanks to Jason Sears, controlyours and many other users for highlighting these issues) [67038]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Updates common library to resolve a range of issues preventing frontend assets from loading and breaking parts of our user interface [85017]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 5 new strings added, 56 updated, 1 fuzzied, and 3 obsoleted [the-events-calendar]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - Improvements to various strings to improve ease of translation (props to @ramiy)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility - Minimum supported version of WordPress is now 4.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Updated views: <code>src/views/day/single-event.php</code> and <code>src/views/list/single-event.php</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filter: <code>tribe_events_linked_post_meta_values_{$current_linked_post_meta_key}</code> for filtering the array of values retrieved for a specific linked post meta field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filter: <code>tribe_aggregator_meta_source</code> to filter the Event Aggregator import source"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Removed WP API adjustments [85996]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Support importing from URLs (Event Aggregator) where the protocol hasn't been specified by defaulting to HTTP [76466]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve Event Aggregator message regarding Facebook token expiration [70376]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Modify certain event queries to widen the window of opportunity for query caching (props @garretjohnson) [84841]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Prevent stray commas from showing up for some event venues in the Day View [85429]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Prevent stray commas from showing up for some event venues in the List View [72289]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issues where Event Aggregator scheduled imports could not run other than manually [81639]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Remove extra trailing double-quotes at the end of the timepicker data-format attributes [85603]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Do not hijack the blog when the main events page is configured to appear on the site's homepage (our thanks to Jason and others for flagging this problem) [72094]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where invalid linked post IDs prevent proper updates on linked posts (props to Mathew L. and a few others for highlighting this issue) [71802]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where the mobile.php template file would often fail to include an event's featured image [74291]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue that would sometimes render Event Aggregator options invalid even with a valid license [78469]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where Month View tooltips would often go off-screen in some smaller viewport sizes [65136]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed Post ID not being sent to the_title filter for Organizers and Venues (props Anna L.) [85206]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue with <code>tribe_events_get_the_excerpt()</code> returning a read more link that sometimes pointed to the current page [70473]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed start and end date limit parsing for events archive in the REST API code [78375]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid Event Aggregator previews or scheduled imports being marked as failures [84259]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 2 new strings added, 90 updated, 0 fuzzied, and 1 obsoleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added template tags: <code>maybe_format_from_datepicker()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filters: <code>tribe_get_state_options</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added all the Aggregator Origins to the Admin Bar [68693]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Included tooltip for Aggregator \"Hide &amp; Ignore\" button for events [67890]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Datatables Head and Foot checkboxes will not select all items, only the current page [77395]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added check to see if log directory is readable before listing logs within it (thank you @rodrigochallengeday-org and @richmondmom for reporting this) [86091]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Allow any datepicker format to be used on Aggregator filtering Events (props to matthewseymour for reporting this!) [77819]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved problem where Aggregator wouldn't allow you to remove filtering terms for Records [76949]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent Warnings when throwing WordPress admin notices from Aggregator daily usage limit (props to cigarplanner for reporting this!) [83187]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Allows Aggregator Google Map settings to extend the Global Setting by default (props to queerio for reporting this!) [67639]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent notice when the Aggregator Record title is an array [82149]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issues with Event Aggregator queueing system where events might be duplicated or incorrectly updated [79975]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a typo in REST API Swagger documentation that mentioned \"organizer\" when it should have stated \"venue\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where, with certain date formats chosen in the Events display settings, the \"Next Month\" link navigation wasn't working (props to @tttammi and others for reporting this issue!) [86937]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where events imported via Event Aggregator from an iCal-like source would be duplicated in place of being updated [87654]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improve compatibility of The Events Calendar when operating with WPML from within a subdirectory (props: @dgwatkins) [81998]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid EA Client hanging when no events are found while attempting an import from a Facebook source [82713]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Add a safety check in isOrganizer() function (our thanks to Kevin for flagging this!) [81645]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid type error when setting up one-time imports for Facebook URLs (our thanks to @J for flagging this!) [78664]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Remove permalink logic for recurring events (Events Calendar PRO will implement instead) [74153]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed an issue where failed EA Imports would hang for a long time before failing [83344]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Better sanitization of data (Props to Valentinos Chouris for reporting this) [80310]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new filter hooks 'tribe_events_register_event_type_args' and 'tribe_events_register_event_cat_type_args' [80658]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Removed unused Javascript (jQuery UI Dialog) to help avoid warnings (our thanks to @gama6889 for flagging this) [80766]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed inconsistent font styling of Tribe Bar form labels. [27252]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent tabs from being incorrectly escaped in iCal output (props: KZeni) [80452]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Better sanitization on CSV imports (thanks to Valentinos Chouris from NCC Group for reporting this) [80311]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make the list and day view styles match more closely [63599]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Removed extra double quotes in organizer link output [71133]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 0 new strings added, 0 updated, 1 fuzzied, and 0 obsoleted [tribe-common]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 1 new strings added, 15 updated, 1 fuzzied, and 1 obsoleted [the-events-calendar]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Changed views: <code>day/single-event</code>, <code>day/single-featured</code>, <code>list/single-event</code>, <code>list/single-featured</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added actions: <code>tribe_events_inside_cost</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where the Meta Chunker attempted to inappropriately chunk meta for post post_types [80857]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved how Cost field looks and it's consistency across views [71092 &amp; 71094]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Don't show Event Aggregator system status in Help tab if there's no Event Aggregator license in place [68506]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve performance of theme compatibility code [71974]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - New filter added (\"tribe_events_linked_posts_dropdown_enable_creation\") to facilitate more control over linked posts [80487]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Textual corrections (with thanks to @garrett-eclipse for highlighting many of these) [77196]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Better detection and reporting of communication failures with the Event Aggregator server"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improved handling of Venue fields that allows for better form validation in Community Events [76297]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improve compatibility with WPML in relation to event permalinks specifically (props: @dgwatkins) [81224]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improve handling of shortcodes within event view excerpts (props: @awbauer) [81226]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Restore support for translated events category slugs when WPML is active [73478]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 4 new strings added, 20 updated, 1 fuzzied, and 0 obsoleted [tribe-common]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language - 2 new strings added, 156 updated, 0 fuzzied, and 4 obsoleted [the-events-calendar]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where scheduled imports sometimes failed to execute [79587]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent drag and drop icon showing when singular linked post type is been displayed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Minor tweaks to the CSS for linked post types (Organizer/Venues)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Other fixes to the plugin verbiage (with thanks to @garrett-eclipse and others)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix — Fixed bug where venues and organizers would be duplicated when their associated event is previewed. [64088]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed compatibility issue with WPML which caused organizers and venues to disappear on translated events [67581]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Made it easier to translate the update confirmation message (our thanks to safu9 for highlighting this) [79729]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjustments to help avoid false positive security alerts being generated in relation to our customizer integration [78355]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Make the inclusion or exclusion of the year (within the event schedule string) filterable [78070]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improve Event Aggregator integration to avoid situations where imports continually restart but do not complete [77988]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Correct REST API reference URL (our thanks to Lindsey for flagging this) [78658]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent fatal errors occuring in PHP 5.5 and earlier [79208]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure compatibility with WordPress version 4.4 and earlier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Styling/layout improvements within the Event Aggregator screen [77895]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Enhance month view caching to minimize impact of JSON-LD generation [74656]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Made EA preserve custom dates after reimporting a Facebook Event when option is set. [75787]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevented errors on EA import screen that happened in exotic circumstance. Thanks @kathryn for reporting this! [75787]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Removed methods for <code>Tribe__Events__Aggregator__Service</code>: <code>has_service_message</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Removed methods for <code>Tribe__Events__Main</code>: <code>track_event_post_field_changes</code>, <code>maybe_load_tickets_framework</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added actions for Initialization: <code>tribe_events_bound_implementations</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Removed filters for Event Aggregator: <code>tribe_aggregator_track_modified_fields</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filters for Event Aggregator: <code>tribe_aggregator_localized_data</code>, <code>tribe_aggregator_service_messages</code>, <code>tribe_aggregator_url_import_range_options</code>, <code>tribe_aggregator_url_import_range_cap</code>, <code>tribe_aggregator_url_import_range_start</code>, <code>tribe_aggregator_url_import_range_end</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filters for Modified fields tracking: <code>tribe_tracker_post_types</code>, <code>tribe_tracker_excluded_meta_keys</code>, <code>tribe_tracker_enabled</code>, <code>tribe_tracker_enabled_for_terms</code>, <code>tribe_tracker_taxonomies</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filters for REST API Documentation: <code>tribe_rest_swagger_cost_details_documentation</code>, <code>tribe_rest_swagger_date_details_documentation</code>, <code>tribe_rest_swagger_image_details_documentation</code>, <code>tribe_rest_swagger_image_size_documentation</code>, <code>tribe_rest_swagger_term_documentation</code>, <code>tribe_rest_swagger_event_documentation</code>, <code>tribe_rest_swagger_organizer_documentation</code>, <code>tribe_rest_swagger_venue_documentation</code>, <code>tribe_rest_swagger_documentation</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added filters for REST API: <code>tribe_events_rest_url_prefix</code>, <code>tribe_rest_url</code>, <code>tribe_events_rest_use_builtin</code>, <code>tribe_rest_events_archive_data</code>, <code>tribe_rest_event_max_per_page</code>, <code>tribe_rest_event_data</code>, <code>tribe_rest_venue_data</code>, <code>tribe_rest_organizer_data</code>, <code>tribe_rest_event_categories_data</code>, <code>tribe_rest_event_tags_data</code>, <code>tribe_rest_event_taxonomy_term_data</code>, <code>tribe_rest_event_featured_image</code>, <code>tribe_events_rest_api_enabled</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Increase consistency on Column Mapping for CSV imports [76476]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Categories and Tags are no longer cleared when importing with Event Aggregator (thank you @Nicolas for the report) [74264]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent Aggregator to run on Empty Queues thus generating fatals (props to @Donald for the report here) [75377]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Create a global ID to increase consistency on all of the imported items with Event Aggregator [75218]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Remove including Event Tickets for backwards compatibility as a vendor library [71908]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Clean up direct calls to get events and use wrapper <code>tribe_get_events()</code> which has a hook for customizing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Update Authority for modified fields now will include Organizer, Venues and Taxonomy changes [71152]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Include granular Scheduling for Events Aggregator"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Include a Events REST API endpoint for read operations [70711]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Event Aggregator now allows users to import from other sites with The Events Calendar [68139]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolving issue where some premium plugins were falsely claiming they were out of date"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Events Calendar has been scaled to work on networks with over 25 million unique visitors per month and hundreds of thousands of events. Fortune 100 companies, major universities, government institutions, and some seriously epic startups showcase their events with our platform."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Whether your vision is big or small, you’re in good company. Hundreds of thousands of churches, eateries, small businesses, musicians, venues, and non-profits are publishing and promoting their events with The Events Calendar."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you need a deeper level of support or a faster response to your specific question, our Events Calendar PRO add-on includes access to our premium support forums with a 24-48 hour response time during the workweek."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Packed with loads of useful features, The Events Calendar by Modern Tribe is ready to go right out of the box. It’s extensible, easy to use, and completely customizable."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Create an events calendar and manage it with ease. The Events Calendar plugin provides professional-level quality and features backed by a team you can trust."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Still not happy? Shoot us an email to support@theeventscalendar.com or tweet to <a href=\"https://twitter.com/TheEventsCal\">@TheEventsCal</a> and tell us why. We'll do what we can to make it right."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our Premium Plugins and Services:"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://theeventscalendar.com/known-issues/\">Known Issues</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://theeventscalendar.com/release-schedule/\">Release Schedule</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/197u\">Event Aggregator</a> (service)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://m.tri.be/197u\">Event Aggregator</a>, a service that effortlessly fills your calendar with events from Meetup, Google Calendar, iCalendar, Eventbrite, CSV, and ICS."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Events Calendar is built to work out of the box. Just turn it on, configure the settings to match your needs and you'll be making events in less than 5 minutes."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>New Import Tool!</strong>\n"
+"  We’ve made bulk event imports easier to manage than ever. This add-on service for The Events Calendar allows you to import events from your favorite sources, including Meetup, Google Calendar, iCalendar, CSV, ICS and Other URLs (beta).\n"
+"  <a href=\"http://m.tri.be/197u\">Check out Event Aggregator now</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Check out <a href=\"http://m.tri.be/mj\">Events Calendar PRO</a> and <a href=\"http://m.tri.be/2a\">other add-ons</a></strong>"
+msgstr ""
+
+#. Screenshot description.
+msgid "Month View with hover"
+msgstr ""
+
+#. Screenshot description.
+msgid "CSV Importer"
+msgstr ""
+
+#. Screenshot description.
+msgid "Mobile Month View"
+msgstr ""
+
+#. Screenshot description.
+msgid "Events List Widget"
+msgstr ""
+
+#. Screenshot description.
+msgid "Day View"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/image-widget/\">Image Widget</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/gigpress/\">GigPress</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you have any questions about this plugin, you can post a thread in our <a href=\"https://wordpress.org/support/plugin/the-events-calendar\">WordPress.org forum</a>. Please search existing threads before opening a new one."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/18wk\">Event Tickets Plus</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/event-tickets/\">Event Tickets</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/18wm\">Knowledgebase</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Check out our extensive <a href=\"http://m.tri.be/18wm\">knowledgebase</a> for articles on using, tweaking, and troubleshooting our plugins."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The following add-ons are available for The Events Calendar:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Absolutely. If you're not finding your questions answered on the product pages, hit up our <a href=\"http://m.tri.be/2w\">pre-sales forum</a> on our site. You can save yourself some time by reviewing the threads first to verify if your question has already been asked. If it hasn't, post a new thread as a guest. We'll get you a reply as quickly as we can, so you can make an informed decision regarding purchase."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://m.tri.be/18wl\">Community Tickets</a>, which allows event organizers to sell tickets to the events they submit via Community Events."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://m.tri.be/18wk\">Event Tickets Plus</a>, which allows you to sell tickets for your events using your favorite e-commerce platform."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://m.tri.be/18wj\">Event Tickets</a> (free), which allows you to collect RSVPs to events. It can run alongside The Events Calendar or as a standalone plugin that adds RSVP functionality to WordPress posts and pages."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://m.tri.be/18wi\">Events Calendar PRO</a>, for adding premium calendar features like recurring events, advanced views, cool widgets, shortcodes, additional fields, and more!"
+msgstr ""
+
+#. Found in faq header.
+msgid "I've still got questions. Where can I find answers?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "That's it! Just configure your settings as you see fit, and you're on your way to creating events in style. Need help getting things started? Check out our <a href=\"http://m.tri.be/2l\">new user primer</a> for help with settings and features."
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Calendar and iCal exporting"
+msgstr ""
+
+#. Found in description list item.
+msgid "Day view"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Some things to consider before posting on the forum:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We hit the <a href=\"https://wordpress.org/support/plugin/the-events-calendar/\">The Events Calendar forum here on WordPress.org</a> about once a week, assisting users with basic troubleshooting and identifying bugs that have been reported. (If you are looking for more active support, might we suggest buying a PRO license? Our team hits the <a href=\"http://m.tri.be/2r\">Premium Forums</a> daily.)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Additional resources available include:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you aren't familiar with The Events Calendar, check out our <a href=\"http://m.tri.be/2p\">new user primer</a>. It'll introduce you to the basics of what the plugin has to offer and will have you creating events in no time. From there, the resources below -- extensive template tag documentation, FAQs, video walkthroughs and more -- will give you a leg up as you dig deeper."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Welcome to The Events Calendar, a full-featured events management system for WordPress. Thank you so much for using the labor of our love. We are Modern Tribe and we are here to help you be awesome."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our Free Plugins:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "But wait: there's more! We've got a whole stable of plugins available to help you be awesome at what you do. Check out a full list of the products below, and over on <a href=\"http://m.tri.be/18wn\">our website</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The <a href=\"http://m.tri.be/2r\">Modern Tribe premium support forums</a> are available for you to read. You won't, however, be able to post a message in any forums beyond Pre-Sale Questions unless you have purchased a premium license."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Some links you may find particularly useful are:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All of our online documentation can be found on <a href=\"http://m.tri.be/eu\">our documentation site</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "Sometimes, just resetting your permalinks can fix the issue. Visit Events -&gt; Settings -&gt; Permalinks, save your permalinks with a different option and then save with your preferred choice again. This can solve events-related problems and is worth a shot before creating a new thread."
+msgstr ""
+
+#. Found in description list item.
+msgid "Your issue will be solved more quickly if you run a few checks before making a support request. Deactivate your plugins one by one - if the issue is fixed by deactivating a plugin you know you've got a plugin conflict. To test your Theme, revert to the default Twenty Twelve Theme to see if you are still experiencing the problem. If not, your Theme is the issue. Please provide this information when making your support request."
+msgstr ""
+
+#. Found in description list item.
+msgid "Look through existing threads before posting a new one and check that there isn't already a discussion going on for your issue."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2r\">Forums</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2v\">Release Notes</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2u\">Tutorials</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2t\">Help Videos</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2n\">FAQ</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/eu\">Documentation</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/18wi\">Events Calendar PRO</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/advanced-post-manager/\">Advanced Post Manager</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2m\">The Themer's Guide to The Events Calendar</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://m.tri.be/2l\">The Events Calendar New User Primer</a>"
+msgstr ""
+
+#. Found in description header.
+msgid "Help"
+msgstr "Yardım"
+
+#. Found in description header.
+msgid "Add-Ons"
+msgstr ""
+
+#. Found in description header.
+msgid "Documentation"
+msgstr "Sənədlər"
+
+#. Found in faq paragraph.
+msgid "We've got a <a href=\"https://tribe.uservoice.com/forums/195723-feature-ideas\">UserVoice page</a> where we're actively watching for feature ideas from the community. Vote up existing feature requests or add your own, and help us shape the future of the products business in a way that best meets the community's needs."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you're already a PRO user, you're entitled access to our more actively-monitored <a href=\"http://m.tri.be/2r\">Events Calendar PRO forum</a> on our website. We can provide a deeper level of support here and hit these forums on a daily basis during the work week. Generally, except in times of increased support loads, we reply to all comments within 24-48 hours during the business week."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Users of the free The Events Calendar should post their questions in the plugin's <a href=\"https://wordpress.org/support/plugin/the-events-calendar/\">WordPress.org forum</a>, which we hit about once a week (usually on Wednesdays). Please make sure to read <a href=\"http://m.tri.be/19oc\">our sticky post</a> providing an overview of the support we provide free users BEFORE posting. If you find you're not getting support in as timely a fashion as you wish, you might want to consider purchasing a PRO license."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Note that we aren't going to say \"tough luck\" if you identify a plugin/theme conflict. While we can't guarantee 100% integration with any plugin or theme out there, we will do our best (and reach out the plugin/theme author as needed) to figure out a solution that benefits everyone."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The most common issues we see are either plugin or theme conflicts. You can test if a plugin or theme is conflicting by manually deactivating other plugins until just The Events Calendar is running on your site. If the issue persists from there, revert to the default Twenty Fourteen theme. If the issue is resolved after deactivating a specific plugin or your theme, you'll know that is the source of the conflict."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "First, make sure that you're running the latest version of The Events Calendar (4.6 as of this release). If you're running Events Calendar PRO it needs to match the version number of The Events Calendar. And if you've got any other add-ons, make sure those are current / running the latest code as well."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://m.tri.be/fa\">Filter Bar</a>, for adding advanced frontend filtering capabilities to your events calendar."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://m.tri.be/2g\">Community Events</a>, for allowing frontend event submission from your readers."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"http://m.tri.be/2e\">Eventbrite Tickets</a>, for selling tickets to your event directly through Eventbrite."
+msgstr ""
+
+#. Found in faq header.
+msgid "I have a feature idea. What's the best way to tell you about it?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What add-ons are available for The Events Calendar, and where can I read more about them?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm interested in PRO or another add-on, but there are a few questions I've got before making the purchase. Can you help me get those addressed?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Events Calendar PRO looks awesome! I'm sold! How can I get my hands on it?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm still stuck. Where do I go to file a bug or ask a question?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Are there any troubleshooting steps you'd suggest I try that might resolve my issue before I post a new thread?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Installing the plugin is easy. Just follow these steps:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "When it's finished, activate the plugin via the prompt. A message will show confirming activation was successful. A link to access the calendar directly on the frontend will be presented here as well."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Follow the on-screen instructions and wait as the upload completes."
+msgstr ""
+
+#. Found in installation list item.
+msgid "When the popup appears select the the-events-calendar-x.x.zip file from your desktop. (The 'x.x' will change depending on the current version number)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Select the Upload option and hit \"Choose File.\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "From the dashboard of your site, navigate to Plugins --&gt; Add New."
+msgstr ""
+
+#. Found in installation header.
+msgid "Install &amp; Activate"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you’ve identified a bug and have a fix, we’d welcome it at our <a href=\"https://github.com/moderntribe/the-events-calendar\">GitHub page for The Events Calendar</a>. Simply submit a pull request so we can review as part of our <a href=\"http://m.tri.be/release-schedule\">release cycle</a> and merge into the codebase if appropriate from there. If a pull request is rejected, we'll do our best to tell you why. Users whose pull requests are accepted will receive credit in the plugin's changelog. For more information, check out the readme at our GitHub page. Happy coding!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Whether you’re operating a hyperlocal hub listing thousands of events, a university with many thousands of users, or you’re a sole business owner listing your classes, The Events Calendar has your back."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "By developers, for developers... it's ready to be the foundation for your wildest hack sessions. Complete with a skeleton stylesheet to theme fast and efficiently, loads of tools including partial template overrides, a host of template tags, hooks and filters, <a href=\"http://m.tri.be/eu\">careful documentation</a>, as well as a <a href=\"http://m.tri.be/ext\">library of free extensions</a>. The Events Calendar is built FOR people who build websites."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Enjoy using The Events Calendar, know how to customize it, and want to make money helping people? We’re growing our community team and would love to hear from you. If you’re interested, <a href=\"http://m.tri.be/mk\">check this out!</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Debug mode for developers"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Extensive template tags for customization"
+msgstr ""
+
+#. Found in description list item.
+msgid "Internationalized &amp; translated"
+msgstr ""
+
+#. Found in description list item.
+msgid "Increase your SEO with Microformats"
+msgstr ""
+
+#. Found in description list item.
+msgid "Tested on the major theme frameworks such as Avada, Genesis, Woo Themes, Thesis and many more."
+msgstr ""
+
+#. Found in description list item.
+msgid "Completely responsive from mobile to tablet to desktop"
+msgstr ""
+
+#. Found in description list item.
+msgid "Completely ajaxified for super smooth browsing"
+msgstr ""
+
+#. Found in description list item.
+msgid "Events Taxonomies (Categories &amp; Tags)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Widget: Upcoming events list"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google maps"
+msgstr ""
+
+#. Found in description list item.
+msgid "Event search"
+msgstr ""
+
+#. Found in description list item.
+msgid "Calendar month view with tooltips"
+msgstr ""
+
+#. Found in description list item.
+msgid "Saved venues &amp; organizers"
+msgstr ""
+
+#. Found in description list item.
+msgid "Rapidly create events"
+msgstr ""
+
+#. Screenshot description.
+msgid "Display Settings"
+msgstr "Görünüş Parametrləri"
+
+#. Screenshot description.
+msgid "General Settings"
+msgstr "Əsas Parametrlər"
+
+#. Screenshot description.
+msgid "Events admin listing"
+msgstr ""
+
+#. Screenshot description.
+msgid "Event Editor"
+msgstr ""
+
+#. Screenshot description.
+msgid "Single event"
+msgstr ""
+
+#. Screenshot description.
+msgid "List View"
+msgstr "Siyahı görünüşü"
+
+#. Screenshot description.
+msgid "Month View"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Links to WordPress.org changed from http to https (ultimately this is also credited to @bjf2000's find. Thanks!) [72273]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - External links to Google maps changed from http to https (nice find by @bjf2000 - reported via the .org support page) [74930]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Enable the month view cache by default on new installations [74867]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Correct the value for days of the week abbreviation (thanks @mmmmartin03 for the report) [75379]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Local changes to events should be preserved in accordance with the Event Import Authority setting (thanks to @bryan for reporting this one) [72876]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve template loading for easier customization by developers and better support of the template hierarchy (props @QWp6t) [72842]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolving issue where sites that overrode the wp-admin path would fail to successfully perform a Facebook OAuth with Event Aggregator [74687]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid unnecessarily removing a callback from an action while inside the same action (improves PolyLang compatibility - props @Chouby) [73122]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow \"-1\" when specifying the \"Month view events per day\" setting [70497]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Translation improvements and fixes (@Katja - thanks! ) [70068]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where translated 'all' slugs were not respected (thank you @Marianne for your report in the forums) [71996]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where featured images were not being imported via Event Aggregator Facebook imports (cheers to @Cody for the initial bug report) [72764]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved meta width issue for maps when Pro is active (gracias a @ANTONIO JOSE por el reporte del error)  [69844, 72272]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where iCal exports on month view were exporting more events than intended (thanks to @s2ldesign for reporting in our forums) [72133]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add filters for template tag functions related to dates: <code>tribe_get_start_time</code>, <code>tribe_get_end_time</code>, <code>tribe_get_start_date</code> and <code>tribe_get_end_date</code> [67759]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure the events list widget's show/hide if there are upcoming events setting is respected [72965]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent PHP 5.2 Strict mode from throwing notices due to usage of <code>is_a</code> [72812]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure the global and source-specific Google Map settings for imports are respected [67228]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved fatal caused when rendering themes that override tribe styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - WPML integration smaller incompatibilities [70520, 70522]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Elminate some cases of problem with Facebook manual import on Event Aggregator [69137]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent Fatals on Event Aggregator Cron, due to Activity logging failure [71904]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Google Maps now are using HTTPS instead of HTTP (props @cliffordp)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent Third Party notes to be escaped, anchor link working again [71872]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent Fatals when Importing Images on Event Aggregator [70576]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolve JavaScript error when jQuery was been de-registered [71369]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add theme version to <code>tribe-event.css</code> (props @berler) [71973]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Changes the Search label to prevent duplicate words (props @oheinrich) [72149]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - iCal export for Single events working again [71916]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolve the Fatals related to undefined methods and Memory exhaustion [71958, 71912]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Adds safety check to ensure a smooth activation process when earlier versions of Tribe Common are active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add AJAX and improve consistency of the venue and organizer UI [38129]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjustments made to the default week view color scheme [69756]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - iCal export now includes all events - up to a reasonable limit - rather than just those in the current view [65037]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved the start/end date user interface [66486, 66487, 66550]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Eliminate duplicate meta data for organizer posts [25084]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Organizers and Venues are now with a better and cleaner interface [68430]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjusted styles and added actions for featured events in the List Widget [65923]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Multisite license editing and displaying consistency [68662]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Add a link to The Events Calendar Help page in the Network Administration screen of multisite installations [68665]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Support for Event Aggregator in a multisite network context added [61427]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Make it possible to adjust map pins via the theme customizer [65889]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add support for the theme customizer [67489]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add support for placing the main events archive on the site homepage [38757]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add support for featured events [65898]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add dynamic helper text to single event editor to display the events date and time [66484]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fix calendar view links in WPML language switcher [67134]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid error screen when saving licenses on multisite installations [68599]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed and issue that would make Event Aggregator importing notices remain stuck in the Import screen [70614]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Only show link to Venues if Pro is active in List View [69887]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed PHP notices and warnings raised when importing .ics files [69960]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed comment count and visibility issues due to Event Aggregator records [68297]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - JavaScript and CSS files will respect HTTPS on all pages [69561]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Assets URL on Windows Servers are fully operational again [68377]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent JavaScript Notices related to Bumpdown [69886]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow better filtering for Organizers and Venue Meta fields (Props: @Chouby from Polylang) [70894]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Event Aggregator will only load on the Administration, prevent bigger loads for Front-End users [70812]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve behavior of tribe_get_events_title() in respect of single events [46313]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Updated the template override instructions in a number of templates [68229]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Correct an oversight leading to breakages of the /all/ events archive for Events Calendar PRO users [70662]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Updates Tribe Common to remove some stray characters that were impacting page layouts (props: @Aetles) [70536]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - On demand Event Aggregator records will update events correctly [69542]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Google Calendar and iCalendar files are now updating their respective events [68684]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Featured Images for Event Aggregator imports are working as expected again. [69465]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Tribe Common now is loaded only once across our plugin suite, improves performance in some cases [65755]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - On <code>WP_Query</code> we will no-longer overwrite custom <code>post__not_in</code> params [42143]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent HTTPS websites from pointing to Assets in HTTP [68372]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Sticky on Month View is working as expected again [68902]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Mismatched text domains are resolved, important for translations (props to @Hans) [68462]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent notices for Event Aggregator License checking [67981]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Enable ampersand character in mobile month view titles (thanks @kate for the report of this) [45409]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ordering on Month view is working as expected again [69123]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added Tribe Extension class and loader, to make small addons easier to build [68188]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid errors and notices on calendar page when X theme and WPML plugins are active (thanks @ingrid for reporting this one) [64400]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid loading the select2 JavaScript library twice when Advanced Custom Fields is activated (props to @ryan for the initial report [43605]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Shortcode Month view now will display tooltips correctly [68094]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Event Aggregator ICS default configuration now are been Selected Correctly [67885]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Aggregator Errors will not show more than once daily as comments (Thanks @Jacob for your report on the forums) [68094]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixes an issue where the text in the Location search field was URL encoded when using the back or forward button for navigation. [61742]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Corrected a packaging issue from the 4.3.1 release [67936]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved an issue where the <code>/all</code> link on recurring events on non English websites could be broken (reported by @lumiest - thanks!) [68062]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved an issue where long file names would break plugin updates on some Windows installations (pros to @Alan [62552]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved a bug where searching for past events in the List view would always yield no results (Thanks for the report @Davide) [61863]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved the support for translated event category archive slug that could lead to broken links on the front-end while using WPML (Props to Wilco in the support Forums) [62018]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Pagination links on Month view are updating correctly [67977]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved a bug where Venue and Organizers urls were been generated incorrectly (Thanks @Matt) [68168]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved a bug where empty meta fields were being inserted into Event Aggregator record post meta [68290]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved an issue where scheduled Event Aggregator imports marked as \"On Demand\" were being run by cron [68284]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve <code>tribe_create_event</code> documentation (Props to Keith) [44871]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Event Aggregator will now verify that the license key has uses remaining before creating a history record [68286]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Implement the pruning of Event Aggregator history records after 7 days, filterable by tribe_aggregator_record_retention [68283]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Preventing legacy Facebook events from being duplicated"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "For release notes from the 3.x and older lifecycles, see our <a href=\"https://theeventscalendar.com/category/products/release-notes/\">full historical release notes</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Category default view is now set to <code>default</code> in place of hardcoding the current default view in the category base rewrite rule [31907]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - The <code>register()</code>, <code>check_exists()</code>, and <code>get_args()</code> methods have been deprecated in the <code>Tribe__Events__Meta_Factory</code> class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - The <code>the_title()</code>, <code>event_date()</code>, <code>event_category()</code>, <code>event_tag()</code>, <code>event_website()</code>, <code>event_origin()</code>, <code>organizer_name()</code>, <code>organizer_email()</code>, <code>venue_name()</code>, <code>venue_address()</code>, and <code>venue_map()</code> methods have been deprecated in the <code>Tribe__Events__Advanced_Functions__Register_Meta</code> class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - The <code>setup_meta()</code> method in both the <code>Tribe__Events__Template__Single_Event</code> and <code>Tribe__Events__Template_Factory</code> classes has been deprecated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - <code>Tribe__Events__Main::set_meta_factory_global()</code> has been deprecated in favor of using the <code>Tribe__Events__Meta_Factory</code> class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - <code>Tribe__Events__Main::initOptions()</code> has been deprecated with no replacement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Correct the datetime formatting issues within the iCal feed (props @henryk) [65968]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolves an issue where we were duplicating a core WordPress hook but with a different set of parameters (props @Chouby) [66455]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Avoid problems that can occur when hooking and unhooking actions (props @Chouby) [63474]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Cease using GLOB_BRACE for including deprecated files due to limited server support [63172]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Deprecated various disused functions and classes relating to the Meta Factory [39905]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added context to a set of strings to make translation easier (props @pedro-mendonca) [64586]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Revise and simplify integration with Event Tickets attendee screen [61992]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Use an earlier hook for iCal feed generation (props @jlambe) [64141]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added an option for users to opt into automatic system infomation so our support system can grab the system information found on the help tab automatically [31645]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added a button to copy the system infomation on the help tab [43709]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjusted some view logic to support the new Event Views shortcode in Pro [44800]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Revamped the CSV import screens to work within the new Event Aggregator pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added Event Aggregator to enable service-based event imports from iCal feeds, Facebook, and Meetup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Additional support for plugin extensions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add - tribe_is_event_past() conditional to detect if event end time is past current time (Reported by @Jonathan in our support forums - thanks Jonathan.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Restored preview for published events [64874]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed inconsistent template filtering logic for single event template [62525]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed default venue state and province settings [64629]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed default venue setting [64628]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Changed \"Event Add-Ons\" to load faster [64286]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Use Community Events Venue Edit Link when on Community Events Forms instead of Admin (also as a result of the report abve from @NailedIT. Thanks again.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Show Google Map and Link checkbox so they show when editing an event (Reported originally by Michael of @NailedIT in the .org forum)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Incorrect JSON-LD event start and end times (thank you @jjbte for reporting on .org forums)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - In month view, be sure to unhook JSON-LD output when calling unhook function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Small CSS Issue on Welcome Page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Month view on mobile device width doesn't have links to prev/next months"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Reimport of updated CSV removes featured image (Bug #46149)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed the issue that would make multiple organizers details disappear when trying to submit invalid event data using Community"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Add a check to avoid being unable to switch view when Filter Bar plugin is active and at least one field is set to auto-complete mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Only add the events custom post type to the tag archive queries and not custom queries with tags [45635]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - When using the filter tribe_events_excerpt_allow_shortcode shortcodes will be maybe be processed in event excerpts in the list views [42289]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure translations load as expected with all supported versions of WordPress (thanks to @JacobALund for originally reporting this on .org forums)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fix a shorthand array that was causing errors in PHP 5.2 and 5.3 when importing events"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Miscellaneous tweaks to improve the Month and Day views"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Add styling to adjust List View description to full width"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Reduce the ginormous font size of Month View titles in skeleton styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixes <code>tribe_get_event_link()</code> which wasn't working when passing second parameter as `true'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Add missing styles for correctly hide screen reader text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Replace a bad return type to avoid unnecessary notices in the error log"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjust the caching rules for Month View for faster loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accessibility - Add ARIA label for events footer sub nav heading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accessibility - Add ARIA labels for Month/Day/List sub nav"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accessibility - Focus styles added for search fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed - Changed the use of <code>have_posts()</code> in the maybe iCal links for the main views that could cause an infinite loop"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - <code>Tribe__Events__PUE__Checker</code>, <code>Tribe__Events__PUE__Plugin_Info</code>, and <code>Tribe__Events__PUE__Utility</code> classes are deprecated and are replaced by <code>Tribe__PUE__Checker</code>, <code>Tribe__PUE__Plugin_Info</code>, and <code>Tribe__PUE__Utility</code> classes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Move plugin CSS to PostCSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Updated venue and organizer templates to use the new architecture for attaching custom post types to events"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Corrected the spelling of timezone in the CSV Importer's event field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Avoid notice-level errors when working with WP CLI on a site where The Events Calendar is also active (Thanks to @sun)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Consistency of JSON-LD markup improved (Cheers to @garrettjohnson for the help!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve the \"stickiness\" of CSV import column mappings (Thank you @jamesgol!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added missing semicolon to a laquo (Props to mwender on GitHub for the fix!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved performance of query used to test for events without any cost"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjustments for single event view in Twenty Fifteen theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved filtering of organizer details when importing by CSV (Props to @Geir for bringing this up!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved filterability of calendar excerpts by introducing the new <code>tribe_events_get_the_excerpt</code> filter hook"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Switch to using HTTPS by default for interactions with Google Maps API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Switch to HTTPS for the \"Powered by The Events Calendar\" link (Thank you Cynthia for reporting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Language files in the <code>wp-content/languages/plugins</code> path will be loaded before attempting to load internal language files (Thank you to user aafhhl for bringing this to our attention!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved our JSON-LD output to ensure consistency (Props to @garrettjohnson and Lars!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add an encoding class for the CSV importer to prevent non utf8 characters from preventing imports (Thanks to screenrage for the report!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved filtering of the <code>tribe_event_featured_image()</code> function (Cheers to @fabianmarz!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added support for attaching custom post types to events"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Improve performance of a query used to determine if there are free/uncosted events (Thank you @fabianmarz for the pull request!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added an oEmbed template for events"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added support for featured image and description in the .csv file import function for organizers (Thank you to Rebecca for posting on UserVoice!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added support for featured image, description, map details and more custom fields in the .csv file import function for venues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added support for featured image, multiple organizers, excerpt and more custom fields in the .csv file import function for events (Thank you to Graphic Designer for posting on UserVoice!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added Google Maps API key field in the Settings tab to avoid map timeouts and errors on larger sites (Thanks to Yan for reporting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improve accuracy of list view pagination after switching from month view"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Give the multi-organizer form 'sticky' properties so values persist even if the submission is initially rejected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Resolved minor CSS issues in the welcome page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Month View single days are now ordered as follows: sticky events, ongoing multi-day events, all day events, then start time. In other words, all events should be ordered as you'd expect when viewing events in Month View."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Updated the compatibility of CSV importer with WordPress 4.5 due to a change in the <code>post_status</code> filter. This will help prevent some of the errors you may have seen when importing events using a CSV file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new event names for AJAX success to the List, Month, and Day views to help The Events Calendar's compatibility with our other premium plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - The notice that pops up when a conflicting \"events\" page exists can now be dismissed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Dashes, hyphens, or whatever you like to call them in the events archive slug no longer breaks the URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved an issue where events marked as \"sticky\" would not display as such in Month View"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Removed an unneeded hook that attempted to add a query argument to event tag links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security - Tightened up security around tribe bar submissions (props to Paul Mynarsky for reporting this issue!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security - Tightened up security with post type link filtering (props to Nadal Soler for reporting this issue!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved various capitalization issues with German translations (props to oheinrich in our forums for pointing out this issue!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Removed quotes from around TZID-specified timezones in iCal feeds which causes problems with some parsers (props to factory44 for reporting the issue that lead to this fix)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed notice that caused Ajax requests to fail (props to cgrymala on WP.org for reporting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where a \"0\" was added to the default Venue name when creating a new event"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where the Month View in mobile sizes retained the long day-of-week names when the abbreviations should have been used (props to Lucy for the bug report!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved bug where array notices were output on single event pages when venues were not set (props to zaxiscreative for reporting this issue!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved multiple issues with the German <code>de_DE</code> language file that caused a number of site-breaking issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where ajaxurl was sometimes undefined"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where the default country would be \"Array\" if no default country is set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed the System Info URL in Events &gt; Help"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where events in month view were not always sorted in chronological order"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a warning produced by passing a DateTime() object into start_date or end_date args of tribe_get_events (props to iamhexcoder for the pull request!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added missing tribe-loading@2x.gif"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where some characters were not escaped appropriately for month and year formats"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a fatal that sometimes occurred when refreshing the import CSV page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Obfuscate license keys Events &gt; Help &gt; System Information"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added a more flexible cost range parsing function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add a filter for month view daily events query: tribe_events_month_daily_events_query_args"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Ignore alpha/beta/rc suffixes on version numbers when checking template versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow the \"same slug\" notice to be dismissed and fix some text in that message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Always show the \"Merge Duplicates\" button for venues and organizers in the Events General Settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved the logic around rebuilding known date ranges"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added a hook to allow single day queries in month view to be filtered: tribe_events_month_daily_events_query_args"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Allow iCal filenames to be filtered via a new filter: tribe_events_ical_feed_filename"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Performance - Lazy-load venue and organizer selector data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added a tribe_get_venue_website_url() function for fetching Venue website URLs (props to fervorcreative in our forums for this request!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added missing semicolon on the list navigation for \"&amp;laquo\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Description on mobile views now have the correct class attribute on HTML"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Modified the add-on license validation method to better explain what is happening"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Organizer information is showing up again correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent third-party bugs with SEO plugins when inserting events programmatically"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - iCal links now will respect categories on the first page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevented notices from happening when using <code>the_title</code> filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Reordering Venue and Organizer metadata no longer breaks titles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Mobile breakpoints on month view working with custom breakpoints"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolve display issues on templates with Jetpack and a few themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Licenses Tab now will work with <code>DISALLOW_FILE_MODS</code> (Props to Sun for spotting and fixing this)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Event Title now Accepts HTML on Tooltips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Numeric named categories URLs are now fully working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make HTML Single Event Pages valid"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent Notices from appearing when using <code>tribe_get_organizer()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Removal of generic CSS classes like <code>.updated</code> and <code>.published</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Better handling of edge cases on the post_excerpt for List View"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Change mobile month view selector to load event details below the calendar for better theme compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjust injection of event data into the_content from priority 10 to 9 for better 3rd-party plugin compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security - Security fix with Venues and Organizers (props to grantdayjames for reporting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Including the latest embedded Event Tickets release for backward compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where clicking on columns on the Events listed in the Admin Dashboard were ALWAYS sorted by Event start/end date before sorting by the column selected (Cheers to Corrado for bringing this to our attention!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue with an overly escaped Event Category edit URL that prevented editing categories (Thanks to Ian for the first report of this issue!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjust single-event.php template to allow the \"Time\" title and content to be filterable (Props to Sitecrafting for highlighting this issue!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a settings page URL (Props to Kristy for the heads up!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved bug where category links sometimes included event category 1 (Thank you Anthony for the original report of this problem!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where using Quick Edit on events caused the table columns in the event list to become jumbled on save (Props to A K for the report!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where the datepicker in Twenty Sixteen was really ugly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where events set with the explicit cost of 0 were not showing as \"Free\" (Thank you terrizsolo for reporting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where events with the same date/time would sometimes be excluded from single-event navigation (Cheers to JeremyEnglert for the tip!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Support ordering by venue/organizer within event queries (Thank you Doug for bringing this to our attention!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Ensure the past events list displays the correct events when accessed via ajax (Thank you Jesse for highlighting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve handling of internationalized slugs (Cheers to Oliver for the help!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adding better support for default venues (Props to Karly for noting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Hook to Event Tickets to inject event dates into ticket emails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve messaging in the same-slug warning message (Thanks to Simon for bringing this to our attention!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Avoid notice level errors when advanced events list widget settings are saved (Thank you Johan for reporting the issue!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adding better support for non-numeric cost values on events (Props to Mirja for highlighting this!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Timezone handling fixed within generated iCal feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved bug where multiday all-day events displayed the end date as one day later than it should be when the End of Day Cut-off was set to something other than 12am"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where /events/list would sometimes 404 on a new install"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where events imported via CSV were excluded from single event navigation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where full event content text was displayed where excerpts should have been displayed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved bug where sorting by event category or tag resulted in an error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where the events list in the admin dashboard were not ordered in an intuitive manner"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where the admin toolbar's Events &gt; Import &gt; CSV did not link to the CSV importer page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where the mobile calendar view did not display the date for the date being viewed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Removed <code>wp_trim_excerpt</code> and use only it's powers, fixing the excerpt problem"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved bug where visiting /events/upcoming could sometimes result in an infinite redirect loop"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved WP 4.4 related fatal on the Nav Menu page that prevented the admin footer from rendering/enqueuing JS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Target the calendar view grid in JS using a simpler selector"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - For SEO reasons, use an h1 for the title rather than an h2 (props to wpexplorer for this fix)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add a warning message for major updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - tribe_events_the_notices() in favor of tribe_the_notices()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - tribe_event_format_date() in favor of tribe_format_date()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - tribe_event_end_of_day() in favor of tribe_end_of_day()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - tribe_event_beginning_of_day() in favor of tribe_beginning_of_day()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::truncate() in favor of tribe_events_get_the_excerpt()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::setNotice() in favor of Tribe__Notices::set_notice()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::setNetworkOptions() in favor of Tribe__Settings_Manager::set_network_options()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::saveAllTabsHidden() in favor of Tribe__Settings_Manager::save_all_tabs_hidden()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::renderDebug() in favor of Tribe__Debug::render()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::removeNotice() in favor of Tribe__Notices::remove_notice()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::pluginUrl in favor of Tribe__Events__Main::plugin_url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::pluginPath in favor of Tribe__Events__Main::plugin_path"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::pluginName in favor of Tribe__Events__Main::plugin_name"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::pluginDir in favor of Tribe__Events__Main::plugin_dir"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::isNotice() in favor of Tribe__Notices::is_notice()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::have_addons() in favor of Tribe__Settings_Manager::have_addons()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::getOptions() in favor of Tribe__Settings_Manager::get_options()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::getOption() in favor of Tribe__Settings_Manager::get_option()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::getNotices() in favor of Tribe__Notices::get()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::getNetworkOptions() in favor of Tribe__Settings_Manager::get_network_options()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::getNetworkOption() in favor of Tribe__Settings_Manager::get_network_option()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::do_licenses_tab() in favor of Tribe__Settings_Manager::do_licenses_tab()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::doSettingTabs() in favor of Tribe__Settings_Manager::do_setting_tabs()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::doNetworkSettingTab() in favor of Tribe__Settings_Manager::do_network_settings_tab()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::doHelpTab() in favor of Tribe__Settings_Manager::do_help_tab()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::defaultValueReplaceEnabled() in favor of tribe_get_option( 'defaultValueReplace' )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::debug() in favor of Tribe__Debug::debug()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::array_insert_before_key() in favor of Tribe__Main::array_insert_before_key()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::array_insert_after_key() in favor of Tribe__Main::array_insert_after_key()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::addNetworkOptionsPage() in favor of Tribe__Settings_Manager::add_network_options_page()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::addHelpAdminMenuItem() in favor of Tribe__Settings_Manager::add_help_admin_menu_item()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::OPTIONNAMENETWORK in favor of Tribe__Main::OPTIONNAMENETWORK"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Main::OPTIONNAME in favor of Tribe__Main::OPTIONNAME"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__View_Helpers in favor of Tribe__View_Helpers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Validate in favor of Tribe__Validate"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Tickets__Tickets_Pro in favor of Tribe__Tickets__Tickets_Handler in the event-tickets plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Tickets__Tickets in favor of Tribe__Tickets__Tickets in the event-tickets plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Tickets__Ticket_Object in favor of Tribe__Tickets__Ticket_Object in the event-tickets plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Tickets__Metabox in favor of Tribe__Tickets__Metabox in the event-tickets plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Tickets__Attendees_Table in favor of Tribe__Tickets__Attendees_Table in the event-tickets plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Template_Part_Cache in favor of Tribe__Template_Part_Cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Support in favor of Tribe__Support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Settings_Tab in favor of Tribe__Settings_Tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Settings in favor of Tribe__Settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Field in favor of Tribe__Field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Date_Utils in favor of Tribe__Date_Utils"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Credits in favor of Tribe__Credits"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Changelog_Reader in favor of Tribe__Changelog_Reader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Cache_Listener in favor of Tribe__Cache_Listener"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Cache in favor of Tribe__Cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Autoloader in favor of Tribe__Autoloader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__App_Shop in favor of Tribe__App_Shop"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Admin__Helpers in favor of Tribe__Admin__Helpers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - Tribe__Events__Abstract_Deactivation in favor of Tribe__Abstract_Deactivation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - The third parameter of tribe_get_organizer_link() (the $echo parameter) has been deprecated and is scheduled for removal in 5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - The tribe_event_link() has been deprecated in favor of tribe_get_event_link(). Scheduled for removal in 5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated - The Tribe__Events__Main::defaultValueReplaceEnabled() method is being deprecated in favor of tribe_get_option('defaultValueReplace'). Schedules for removal in v4.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue that caused /events/ to 404 if it was visited on a new install before hitting \"Save\" on the Events &gt; Settings &gt; Display page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue in mobile month view where date was missing from heading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved a problem causing the previous month view to appear when it should not"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed a problem where iCal data was generated with incorrect dates in the case of some all days events (thanks to Matt for highlighting this)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed CSS issue where the month view calendar could sometimes extend beyond the edge of the page when Skeleton Styles were enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where Timezone event start/end date property name strings were malformed which guaranteed a a call to get_post_meta for Timezone date strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed error message returned when tabbing away from a blank event name meta box so that it properly indicates that an event name is required (Our thanks to @tapan29bd for this fix!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where organizer ID meta attached sometimes included a blank record. That blank record is no longer returned in tribe_get_organizer_ids()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where accessing object properties on a non object errored out when saving event meta (props to @dalethedeveloper on GitHub for this fix!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Improved our handling of <code>get_current_screen()</code> across the plugin, avoiding notices and warnings (Thank you Mike for the help!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Various CSS fixes for twenty(ten-fifteen)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed issue where the \"Add another organizer\" text wasn't using the correct singular label (Thank you MIKE for the report!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing tribe_get_single_ical_link() and tribe_get_ical_link() to use the same URL when it shouldn't (Props to Ben Byrne @drywall on Twitter for the heads up!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevented duplicate CSS IDs on the mini calendars (Cheers to Corrado for the help!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added support for translating some previously untranslatable strings (Props to tititou36, media325, and Stef!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Resolved issue where the iCal feed did not provide an appropriately formatted timezone in some cases (Cheers to Matt for the report!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - No longer hiding default address fields when default venues are selected when Pro is active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjust the logic used for adding a noindex/follow tag to event views"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Change the priority of bootstrapping the-events-calendar to ensure it occurs before any of the TEC addons in the event some addons are upgraded to v4.0 later than TEC"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - No longer retrieve empty costs when fetching all costs for all events"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - tribe_get_venue_link() no longer echoes if you ask it to return an <a> element</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve our responsiveness for the widget mini calendar, allowing smaller sidebars."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Error messages for empty Venue names"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Various codesniffer fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Adjusted the CSS padding on Admin Menu items for Events"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Drop the use of the generic CSS class \"placeholder\" in favor of \"tribe-event-placeholder\" (Thanks to Marc on the forums!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Cleaned up the output of JSON-LD data. Filterable via the new tribe_google_data_markup_json filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - The Plugin Update Checker will now auto-save valid plugin keys (Thanks to Denon for originally bringing this up!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Changed the \"updated\" CSS class to \"tribe-updated\" so that it is properly namespaced (Thank you vijayrajesh!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Remove microformat CSS classes from templates and replace with namespaced content-relevant CSS classes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - When a user cannot create organizers, prevent the auto-selection of organizers when editing an event"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Only display data separators between fields that have data when rendering organizers (Thank you Bud for highlighting this issue!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Check post creation permissions before letting users create venues and organizers from the event meta box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Add support for wp_get_document_title in response to the WordPress 4.4 deprecation of wp_title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Updated all excerpt output to use tribe_events_get_the_excerpt() to ensure a consistent display of excerpt content (Cheers to Joseph to pointing this out!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added the ability to filter attendees CSV items via tribe_events_tickets_attendees_csv_items (Props to @bostondv on GitHub for this patch!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - When suggesting a UTF-8 compatibility CSV formatting tool, point to one that still exists"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Consolidated import pages for TEC and add-ons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Deprecate old JS event names in favor of a new JS event naming standard. Example: deprecated tribe_ev_runAjax in favor of run-ajax.tribe"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Restructured TEC's core settings code for reusability with other standalone plugins like Event Tickets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Improve the date formats UI by providing example output for each selected format"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Created a new Add-Ons tab in Settings so that TEC add-ons can have a consolidated settings tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added support for the twentysixteen theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - The event cost now supports more international formats with the addition of the tribe_events_cost_separators filter (Thank you remokrol for bringing this to our attention!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Moved the Ticket framework code into its own plugin (event-tickets)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security - A TON of escaping was added to our codebase thanks to the efforts of the always-helpful Andy Fragen (@afragen)"
+msgstr ""

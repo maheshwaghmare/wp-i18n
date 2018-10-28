@@ -1,0 +1,2157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - MailChimp for WordPress - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-28T16:16:15+00:00\n"
+"PO-Revision-Date: 2016-01-26 11:18:59+0000\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Found in description header.
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Get rid of cached result of MailChimp API connection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change Gravity Forms field name to \"MailChimp for WordPress\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only re-add subscriber to list if we want to re-trigger a double opt-in confirmation email."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add methods for accessing MailChimp's e-commerce promo code endpoints to API class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Send <code>null</code> for unknown values in usage tracking data (only when opted-in)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pre-check MailChimp list when creating a new form if there is only 1 list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stop showing trashed forms immediately."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensure type-safety on some global variables."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fallback to meta-refresh if redirect fails because of \"headers already sent\" error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow [ENTER] key again after field helper overlay is closed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't wrap \"agree to terms\" input in hyperlink element."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add filter <code>mc4wp_http_request_args</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add \"agree to terms\" checkbox to field helper."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed use of PHP 5.4 function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Form preview URL should respect admin HTTP(S) scheme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Events Manager integration was not working with logged-in users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update translation files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add textual warnings to settings that may affect <a href=\"https://kb.mc4wp.com/gdpr-compliance/\">GDPR compliance</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not pre-check integration checkboxes by default. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved tooltips on settings pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove obsolete <code>type</code> attribute from all <code>&lt;script&gt;</code> tags printed by the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Namespace usage warning when running PHP 5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ninja Forms export checkbox would always state \"checked\" when form contained a MailChimp sign-up checkbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show interest grouping ID in list overview on settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't send empty field values to MailChimp when updating subscribers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://kb.mc4wp.com/javascript-form-events/\">Form JavaScript events</a> are fired in an isolated thread now, to prevent errors in event callbacks from breaking form functionality."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Debug log now includes request &amp; response data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved <a href=\"https://kb.mc4wp.com/conditional-fields-elements/\">conditional fields logic</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Live form preview while editing form. "
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://mc4wp.com/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=add-on-list\">MailChimp for WordPress Premium</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you're getting an <code>HTTP Error</code> after entering your API key, please contact your webhost and ask them if they have PHP CURL installed and updated to the latest version (7.58.x). Make sure requests to <code>https://api.mailchimp.com/</code> are allowed as well."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find my API key to connect to MailChimp?"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "If you can't find an answer there, please look through the <a href=\"https://wordpress.org/support/plugin/mailchimp-for-wp\">plugin support forums</a> or start your own topic."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "Please take a look at the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=installation-instructions-link\">MailChimp for WordPress knowledge base</a> first."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<em>(Optional)</em> Add more fields to your form."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin provides various filter &amp; action hooks that allow you to modify or extend default behavior. We're also maintaining a <a href=\"https://github.com/ibericode/mc4wp-snippets\">collection of sample code snippets</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin allows you to tightly integrate your WordPress site with your MailChimp account."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Developer friendly. For inspiration, check out our <a href=\"https://github.com/ibericode/mc4wp-snippets\">repository of example code snippets</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin helps you grow your MailChimp lists and write better newsletters through various methods. You can create good looking opt-in forms or integrate with any existing form on your site, like your comment, contact or checkout form."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Allowing your visitors to subscribe to your newsletter should be easy. With this plugin, it finally is.</em>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Multiple forms"
+msgstr ""
+
+#. Found in description header.
+msgid "Some (but not all) features"
+msgstr ""
+
+#. Short description.
+msgid "MailChimp for WordPress, the #1 MailChimp plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved scroll to form handling after a form is submitted without AJAX."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not redirect when showing \"already subscribed\" warning."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various minor code optimizations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Interest groups with an all-numeric ID were not properly passed to MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dropdown fields with special characters were not properly passed to MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow marking Gravity Forms sign-up checkbox as a required field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Array to string conversion in default form messages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make it clear that redirecting after successful form submissions will not show the \"subscribed\" message."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wrap some missing strings in translate calls. Thanks <a href=\"https://github.com/morloi\">morlor</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Validate method was incorrectly checking required array fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integration for AffiliateWP."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent 404 errors by proactively replacing lowercased <code>name=\"name\"</code> input attributes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplified form processing &amp; notice logic."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ninja Forms double opt-in setting was incorrectly inversed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link to the <a href=\"https://www.htmlforms.io/\">HTML Forms</a> from the plugin settings pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter out empty array values when overriding selected MailChimp lists via <code>_mc4wp_lists</code>. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Gravity Forms integration. You can now integrate with Gravity Forms by adding the \"MailChimp\" field to your forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now logging all sign-ups from Ninja Forms integrations when using <a href=\"https://mc4wp.com/premium-features/\">MailChimp for WordPress Premium</a>. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unused options from Ninja Forms integration."
+msgstr ""
+
+#. Found in description list item.
+msgid "WPForms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Gravity Forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom integration now works with Enfold theme's contact form element."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>&lt;label&gt;</code> element to sign-up checkbox for WCAG compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Form tag <code>{data key=\"foo.bar\"}</code> now allows you to access nested array values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated internal JS dependencies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add sign-up integration for WPForms forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now loading integrations after WPML so that String Translations work properly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly escape the return value of <code>add_query_arg</code> when it is used in HTML attributes to prevent cross-site scripting. Thanks to <a href=\"https://www.ripstech.com/\">Karim Ouerghemmi of RIPS</a> for responsibly disclosing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Method on API class for retrieving campaign data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show Akamai reference number when an API request is blocked by MailChimp's firewall."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor output buffering improvements in form previewer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added campaign &amp; template methods to API client class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increase browser timeout for AJAX request when fetching MailChimp lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fire action hook <code>mc4wp_form_updated_subscriber</code> whenever a form was used to update a subscriber in MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix BuddyPress sign-ups when using WordPress Multisite."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly close HTML anchor element in French translation files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Failsafe against outputting sign-up checkbox twice in registration forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Notice that asks for a plugin review would re-appear after dismissing it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Registration form integration now works with WooCommerce registration form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some form specific JS events were not firing due to incorrect event names."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Always try to show MailChimp list info when API key is given."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Randomise time of cron event that renews MailChimp lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated plugin translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show error message when fetching lists fails."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved MailChimp list fetching &amp; memory usage for accounts with many lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use earlier hook priority for Ninja Forms 3 integration so action is registered on time."
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid ""
+"if( function_exists( 'mc4wp_show_form' ) ) {\n"
+"    mc4wp_show_form();\n"
+"}"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "&lt;?php"
+msgstr ""
+
+#. Screenshot description.
+msgid "Dive into detailed sign-up statistics (premium feature)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Integrate your WooCommerce store with MailChimp (premium feature)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Style your form with our Styles Builder (premium feature)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Add a highly converting top bar form to your site."
+msgstr ""
+
+#. Screenshot description.
+msgid "Integrate with any other plugin out there."
+msgstr ""
+
+#. Screenshot description.
+msgid "Create beautiful sign-up forms that blend in with your theme."
+msgstr ""
+
+#. Found in description header.
+msgid "Customizing the plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "Advanced e-commerce integration for WooCommerce"
+msgstr ""
+
+#. Found in description list item.
+msgid "MemberPress"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We recommend the <a href=\"https://wordpress.org/plugins/boxzilla/\">Boxzilla pop-up plugin</a> for this. You can use the form shortcode in your pop-up box to show a sign-up form."
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I show a sign-up form in a pop-up?"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/boxzilla/\">Boxzilla Pop-ups</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid ""
+"Third Party:\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"https://wordpress.org/plugins/goodbye-captcha/\">WPBruiser</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MailChimp for WordPress has a Premium add-on which comes with several additional benefits."
+msgstr ""
+
+#. Found in description list item.
+msgid "Detailed reports &amp; statistics"
+msgstr ""
+
+#. Found in description list item.
+msgid "An easy way to style your forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Email notifications"
+msgstr "E-poçt bildirişləri"
+
+#. Found in description header.
+msgid "Become a Premium user"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/mc4wp-activity/\">MailChimp Activity</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Default WordPress Registration Form"
+msgstr ""
+
+#. Found in description list item.
+msgid "Default WordPress Comment Form"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MailChimp is a newsletter service that allows you to send out email campaigns to a list of email subscribers. It is free for lists up to 2000 subscribers, which is why it is the newsletter-service of choice for thousands of businesses."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://mc4wp.com/features/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=after-features-link\">View more Premium features</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Well documented. Our <a href=\"https://mc4wp.com/kb/\">knowledge base</a> is updated daily."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "A multitude of available add-on plugins:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Seamless integration with the following plugins:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Sign-up forms which are good looking, user-friendly and mobile optimized. You have complete control over the form fields and can send anything you like to MailChimp."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/mailchimp-sync/\">MailChimp User Sync</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/mailchimp-top-bar/\">MailChimp Top Bar</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/mc4wp-captcha/\">Captcha</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#. Found in description list item.
+msgid "Events Manager"
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ninja Forms 3"
+msgstr ""
+
+#. Found in description list item.
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Found in description list item.
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#. Found in description header.
+msgid "What is MailChimp?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube https://www.youtube.com/watch?v=fZCYPnFybqU]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is being developed on GitHub. If you want to collaborate, please look at <a href=\"https://github.com/ibericode/mailchimp-for-wordpress\">ibericode/mailchimp-for-wordpress</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin is translated using Transifex. If you want to help out, please head over to the <a href=\"https://www.transifex.com/projects/p/mailchimp-for-wordpress/\">translation project on Transifex</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There are several <a href=\"https://mc4wp.com/add-ons/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=description\">add-on plugins</a> available, which help you get even more out of your site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please take a look at the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=description\">MailChimp for WordPress knowledge base</a> as well."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you're a premium user, please use the email address inside the plugin for support as that will guarantee a faster response time."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Use the <a href=\"https://wordpress.org/support/plugin/mailchimp-for-wp\">WordPress.org plugin forums</a> for community support where we try to help all of our users. If you found a bug, please create an issue on Github where we can act upon them more efficiently."
+msgstr ""
+
+#. Found in description header.
+msgid "Development"
+msgstr "Təkmilləşdirmə"
+
+#. Found in description header.
+msgid "Translations"
+msgstr "Tərcümələr"
+
+#. Found in description header.
+msgid "Add-on plugins"
+msgstr ""
+
+#. Found in description header.
+msgid "Support"
+msgstr "Dəstək"
+
+#. Found in faq paragraph.
+msgid "Please head over to the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=faq\">MailChimp for WordPress knowledge base</a> for more detailed documentation."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can add your custom CSS to your theme stylesheet or (easier) by using a plugin like <a href=\"https://wordpress.org/plugins/simple-custom-css/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=after-css-link\">Simple Custom CSS</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can use custom CSS to style the sign-up form if you do not like the themes that come with the plugin. The following selectors can be used to target the various form elements."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When you have double opt-in disabled, new subscribers will be seen as <em>imports</em> by MailChimp. They will not show up in your daily digest emails or statistics. <a href=\"http://blog.mailchimp.com/double-opt-in-vs-single-opt-in-stats/\">We always recommend leaving double opt-in enabled</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If the form shows a success message, there is no doubt that the sign-up request succeeded. MailChimp could have a slight delay sending the confirmation email though, please just be patient and make sure to check your SPAM folder."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use the following shortcode in your CF7 form to display a newsletter sign-up checkbox."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://kb.mailchimp.com/accounts/management/about-api-keys#Find-or-Generate-Your-API-Key\">You can find your API key here</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Go to <strong>Appearance &gt; Widgets</strong> and use the <strong>MailChimp for WP Form</strong> widget that comes with the plugin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use the <code>[mc4wp_form]</code> shortcode."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "More detailed documentation can be found in the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=faq\">MailChimp for WordPress knowledge base</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "My question is not listed"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm getting an \"HTTP Error\" when trying to connect to MailChimp"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I style the sign-up form?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The form shows a success message but subscribers are not added to my list(s)?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to add a sign-up checkbox to my Contact Form 7 form?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to display a form in widget areas like the sidebar or footer?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to display a form in posts or pages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "More documentation"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "Show a sign-up form from your theme files by using the following PHP function."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Show a sign-up form in your widget areas using the \"MailChimp Sign-Up Form\" widget."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Embed a sign-up form in pages or posts using the <code>[mc4wp_form]</code> shortcode."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Select at least one list to subscribe people to."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Go to <em>MailChimp for WP &gt; Forms</em>"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Set <a href=\"https://admin.mailchimp.com/account/api\">your API key</a> in the plugin settings."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Activate the plugin"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Alternatively, download the plugin and upload the contents of <code>mailchimp-for-wp.zip</code> to your plugins directory, which usually is <code>/wp-content/plugins/</code>."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "In your WordPress admin panel, go to <em>Plugins &gt; New Plugin</em>, search for <strong>MailChimp for WordPress</strong> and click \"<em>Install now</em>\""
+msgstr ""
+
+#. Found in installation header, faq header.
+msgid "Need help?"
+msgstr "Yardım lazımdırmı?"
+
+#. Found in installation header, faq header.
+msgid "Configuring Sign-Up Form(s)"
+msgstr ""
+
+#. Found in installation header, faq header.
+msgid "Installing the plugin"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you are not yet using MailChimp, <a href=\"http://mailchimp.com/monkey-rewards/?utm_source=freemium_newsletter&amp;utm_medium=email&amp;utm_campaign=monkey_rewards&amp;aid=a2d08947dcd3683512ce174c5&amp;afl=1\">creating an account is 100% free and only takes you about 30 seconds</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Connect with your MailChimp account in seconds."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated JavaScript dependencies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use updated order methods when using WooCommerce 3.0, thanks to Liam McArthur."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WPML String Translation not working with the checkbox label for sign-up integrations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>mc4wp_integration_show_checkbox</code> filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Ninja Forms 3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Conditional form elements now uses event delegation, so it works with forms in <a href=\"https://boxzillaplugin.com/\">Boxzilla pop-ups</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Explain that greyed out integrations means that specific plugin is not activated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Failsafed filter hooks to prevent invalid variable types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated all JavaScript dependencies in the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show all address-type fields as required when form contains 1 or more fields of the same address group."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better OptimizePress compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensure fields are HTML decoded before sending to MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Throw form specific JavaScript events, like <code>15.subscribed</code> to hook into \"subscribed\" events for form with ID 15."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>update_ecommerce_store_product</code> method to API class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated German translations, thanks to Sven de Vries."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Polish translations, thanks to Mateusz Lomber."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved formatting of birthday fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin review notice is now dismissible over AJAX."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't call <code>stripslashes</code> on POST data twice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>$args</code> parameter to <code>API::get_lists_activity</code> method. Relates to the <a href=\"https://wordpress.org/plugins/mc4wp-activity/\">MailChimp Activity</a> plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Unescaped request variable on integration settings page, allowing for authenticated XSS. Thanks to <a href=\"https://security.dxw.com/\">dxwsecurity</a> for responsibly disclosing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved UI for adding hidden interest groupings fields to a form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No longer using deprecated function in Contact Form 7, thanks to <a href=\"https://github.com/stodorovic\">stodorovic</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now enable or disable debug logging from the \"Other\" settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with escaped HTML when using form tags introduced by previous update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add hooks for delayed BuddyPress sign-up. Thanks to <a href=\"https://profiles.wordpress.org/needle\">Christian Wach</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>data-hide-if</code> attribute logic to forms. See <a href=\"https://kb.mc4wp.com/conditional-fields-elements/\">conditionally hide form fields</a>. Thanks to <a href=\"http://kurtzenisek.com/\">Kurt Zenisek</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now use nested tags in your form code, eg <code>{data key=\"utm_source\" default=\"{current_path}\"}</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom form integration now handles arrays with 1-level depth. Thanks to <a href=\"https://github.com/GarryOne\">Mardari Igor</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show notice when form is missing required MailChimp fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved error messages when writing exceptions to debug log."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of large debug logs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>element_class</code> argument to <code>[mc4wp_form]</code> shortcode for adding CSS classes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>mc4wp_form_api_error</code> action hook for API errors encountered by forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No longer wrapping CF7 checkbox in paragraph tags."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Failsafe against including JavaScript file twice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow vertical resizing of debug log."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ask for confirmation before disabling double opt-in, which we do not recommend."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Obfuscate all email addresses in debug log. Thanks <a href=\"https://twitter.com/SJLfi\">Sauli Lepola</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing e-commerce related API methods to API class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We're no longer stripping newlines from text fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with lists not showing when using W3 Total Cache with APCu object cache enabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add missing e-commerce related API methods for next week's <a href=\"https://mc4wp.com/kb/what-is-ecommerce360/\">WooCommerce MailChimp e-commerce integration</a> release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <a href=\"https://www.memberpress.com/\">MemberPress</a> integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>{post}</code> and <code>{user}</code> shortcodes now accept a <code>default</code> parameter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stop using double underscore prefix in function names, as these are reserved in PHP 7."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved <code>&lt;label&gt;</code> element accessibility for checkbox integrations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Periodically fetch MailChimp lists, so cache is always fresh."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fetch MailChimp lists over AJAX, to speed up perceived performance (especially when your account has many lists)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow checkbox option for the List Choice field (again)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bump limit of number of MailChimp lists to fetch from 100 to 500."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Differentiate between connection &amp; authorization errors when testing connection to MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Write to debug log when custom integrations can not find an EMAIL field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Write field specific errors to debug log when MailChimp denies a sign-up request."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not show checkboxes option for fields that only accept a single value."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow re-running previous migrations by visiting a certain admin URL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now <a href=\"https://mc4wp.com/kb/conditional-fields-elements/\">conditionally hide fields or elements</a> using the <code>data-show-if</code> attribute."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add pre-checked option to Ninja Forms integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show connection errors on MailChimp settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ninja Forms integration not working when using PayPal integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Decrease file size of JavaScript for forms by about 30%."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding hidden field to form would reset value on every change."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hidden fields which referenced interest groups by name were not sent to MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "List fields not fetched when list has just 1 non-default merge field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Error in upgrade routine when API request fails."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Incorrect form message showing when double opt-in is disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with only 10 MailChimp lists / fields / interests being returned."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Changes</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "This release updates the plugin to version 3 of the MailChimp API. Please <a href=\"https://mc4wp.com/kb/upgrading-to-4-0/\">read through the upgrade guide</a> before updating to make sure things keep working as expected for you."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Birthday fields now accept a broader range of values and delimiters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Available fields in form editor are now split-up by category."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>User-Agent</code> header to all API requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Previously unsubscribed subscribers can now be re-added without errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The plugin now communicates with the latest &amp; greatest MailChimp API."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New form tag: <code>{cookie name=\"mycookie\"}</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New filter: <code>mc4wp_integration_subscriber_data</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New filter: <code>mc4wp_form_subscriber_data</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Value delimiter in hidden fields is now a pipe <code>|</code> character."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New format for GROUPING fields in forms &amp; filter hooks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter <code>mc4wp_integration_merge_vars</code> is now called <code>mc4wp_integration_data</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter <code>mc4wp_form_merge_vars</code> is now called <code>mc4wp_form_data</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Send welcome email\" is now handled from your list settings in MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure value of MC_LANGUAGE field is limited to 2 characters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add plugin name + version to User-Agent header for all MailChimp API requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add MailChimp API error code to debug log lines."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now use <code>&lt;img&gt;</code> in your form messages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Format output of <code>{subscriber_count}</code> tag."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Smarter scrolling after submitting form &amp; reloading page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add \"placeholder\" option for dropdown fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Test debug log &amp; show notice when it's not writable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update JavaScript dependencies for admin screens."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure admin notifications are always shown exactly one time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvements to form previewer logic."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't show position option for WooCommerce integration when sign-up is implicit."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Styles Builder in Premium not building because of incorrect flag in core plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link to <a href=\"https://boxzillaplugin.com/\">Boxzilla plugin</a> from admin sidebar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add \"is required field\" option for dropdown &amp; radio fields in Field Helper."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not unnecessarily register styles which are then immediately enqueued."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reset some CSS properties for commonly used class names in Form Editor &amp; Debug Log."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't write to debug log if it is not writable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Placeholder polyfill wasn't loaded (only in IE8 and below)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>form.reset()</code> method to JS API."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Friendlier error message for re-subscribe failures."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show empty API key errors in plugin log."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show dismissible notice when API key is not set."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API class fix for <a href=\"https://mc4wp.com/kb/what-is-ecommerce360/\">eCommerce360 functionality</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Form Preview mode replaced all titles on that page with \"Form Preview\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If plugin is installed using Composer, autoloader won't be loaded (again)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Nested fields will now be properly validated when they're marked as required."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Take array style fields into account when checking if a form contains a given field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Shortcode wasn't accepting <code>element_id</code> as a valid attribute."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New checkbox position for WooCommerce checkout integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved logic for rendering form response."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Consistent hook parameters for <code>mc4wp_form_subscribed</code> action."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some preparations for the upcoming migration to the new MailChimp API (version 3)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Form event for starting a form was named <code>start</code> where it should have been <code>started</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>{post}</code> tag whch can be used in form mark-up to fetch properties of the current page or post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add position option for WooCommerce integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Contact Form 7 integration now uses an early hook priority to ensure we run before any page redirects."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The MailChimp API key is now obfuscated on the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various improvements for right-to-left (RTL) sites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Scroll to form after form submission now uses native browser method <code>scrollIntoView()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Response message was shown for unsubmitted forms when using <code>{response}</code> in the form mark-up with multiple forms on the same page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Interest Category ID to list overview table for easier debugging."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Perform type checks on global variables to prevent issues with poorly coded plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Forms with address fields never passing validation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Dutch, Portugese, Spanish and Italian translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with API array responses (for the <a href=\"https://wordpress.org/plugins/mc4wp-activity/\">MailChimp Activity add-on</a>, for example)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Error message for when no list is selected can now be customized from the form message settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for <a href=\"https://wordpress.org/plugins/shortcode-ui/\">Shortcake</a> plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Failsafed JavaScript for when any other script loads RequireJS globally."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use all MailChimp lists for Lists Choice field, instead of just the selected ones."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show accepted choice values for dropdown and radio fields in lists overview."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No sign-up request firing for lists with only an <code>EMAIL</code> field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deselecting all MailChimp lists wouldn't persist after saving form settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internal fields marked as required not passing form validation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "[ENTER] not submitting form settings or creating new-line."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Form JavaScript not working when another plugins loads Dojo framework."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Field Helper now always shows both placeholder and value fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add link to article on how to enable debug logging."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add sourcemaps to minified JavaScript files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Field Helper not setting the correct <code>value</code> attribute for Hidden Groups."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Field Helper not adding <code>type</code> attribute when building forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>MC4WP_Queue</code> class for better background processing of expensive operations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>get_lists_for_email( $email )</code> method to API class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <a href=\"https://mc4wp.com/kb/how-to-enable-log-debugging/\">debug logging</a>, which shows all warnings &amp; errors the plugin encountered in communicating with MailChimp."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Miscellaneous overall performance improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow including a <code>_mc4wp_email_type</code> field in forms to set an explicit email type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When a field is required in MailChimp, it has to be required in forms as well now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Move less important settings to \"Other\" page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure integrations have a MailChimp list selected before trying to subscribe."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show Akamai firewall reference number when site's IP address is blocked"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Certain actions like \"renew lists\" not working for users other than admin (if they have explicit access to settings pages)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>&lt;input&gt;</code> fields being stripped from form when saving as a role other than \"superadmin\" on MultiSite installations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Incorrect hooks being fired for successful and unsuccessful form sign-ups (which also broke the success redirect)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>add_ecommerce_order()</code> and <code>delete_ecommerce_order()</code> methods to API class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ninja Forms integration can now use <code>mc4wp-</code> prefixed admin labels."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ninja Forms integration can now automatically find name-fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved algorithm for finding fields when integrating with Contact Form 7 or other custom forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow splitting up \"birthday\" and \"date\" fields into separate fields with <code>day</code>, <code>month</code> and <code>year</code> index."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove invalid <code>autofill</code> attribute from honeypot field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify <code>pattern</code> attribute for <code>date</code> fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stop logging \"already subscribed\" errors to PHP's error log."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Duplicate sign-up request when using CF7 integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Incorrect HTML being generated for hidden fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "500 server error for \"already subscribed\" on Windows servers."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Not being able to select a list when creating a new form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various minor code improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>position</code> key to <code>mc4wp_admin_menu_items</code> filter to set a menu position."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not print inline JavaScript for forms until it's surely needed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove UI for bulk-enabling integrations, as every integration needs specific settings anyway."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure <code>mc4wp_show_form()</code> works without passing a form ID."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Added <code>mc4wp_use_sslverify</code> filter to disable or explicitly enable SSL certificate verification."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Workaround for <a href=\"https://core.trac.wordpress.org/ticket/34935\">SSL certification bug in WordPress 4.4</a>, affecting servers with an older versions of OpenSSL installed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add filter: <code>mc4wp_form_data</code>, filters form data before it is processed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reintroduce support for automatically sending <code>OPTIN_IP</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Never load enabled integrations which are not installed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now using group ID's for interest grouping fields, so changing the group in MailChimp does not require updating your form code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes compatibility issues with add-on plugins performing validation, like Goodbye Captcha and BWS Captcha."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing translation calls for Form Editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pre-select MailChimp list if there's just one list in the connected account."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Errors returned by MailChimp are now logged for Forms as well."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove nonces from forms as they're not really useful for publicly available features."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>autofill=\"off\"</code> to honeypot field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevented notice when saving Form widget settings for the first time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added backwards compatibility for <a href=\"https://wordpress.org/plugins/goodbye-captcha/\">Goodbye Captcha</a> integration."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Breaking Changes</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Before upgrading, please go through the <a href=\"https://mc4wp.com/kb/upgrading-to-3-0/\">upgrade guide</a> as some things have changed."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Version 3.0 is a total revamp of the plugin. For a quick overview of the changes, please <a href=\"https://mc4wp.com/blog/whats-new-in-mailchimp-for-wordpress-the-big-three-o/\">read this post on our blog</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduced various new filter &amp; action hooks, please see the new <a href=\"http://developer.mc4wp.com/\">code reference for developers</a> for more information."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ninja Forms integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New JavaScript API, replacing jQuery event hooks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integrations can now be \"implicit\", thus no longer showing a checkbox option to visitors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New \"Preview Form\" option, showing unsaved form changes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The <a href=\"https://mc4wp.com/\">premium plugin</a> is now an add-on of this plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tons of code improvements: improved memory usage, 100+ new unit tests &amp; better usage of various best practices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tons of usability &amp; accessibility improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Events Manager: checkbox is now automatically added to booking forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All integrations have their own settings page now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All fields marked as <code>required</code> are now validated server-side as well (instead of just MailChimp required fields)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better support for choice fields (eg groupings, list choice &amp; country fields)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better support for MailChimp <code>address</code> fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New form editor with syntax highlighting, more advanced field options &amp; better visual feedback."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed integrations: MultiSite &amp; bbPress."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Event binding: <code>jQuery(document).on('subscribe.mc4wp','.mc4wp-form', function(){ ... })</code> is now <code>mc4wp.forms.on('subscribed', function(form) { ... })</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New dynamic content tags syntax: <code>{data_NAME}</code> is now <code>{data key=\"NAME\"}</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Captcha fields: <code>{captcha}</code> field is now handled by the <a href=\"https://wordpress.org/plugins/mc4wp-captcha/\">Captcha add-on plugin</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reset background-color in Form Themes stylesheets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Form events are now triggered <em>after</em> the page has finished loading, so all scripts are loaded &amp; ready to use."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add form-specific classes to preview form element. This allows the <a href=\"https://mc4wp.com/premium-features/\">Styles Builder</a> to work with the Form Preview."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Safari was always showing the leave-page confirmation dialog."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Forms overview page redirected to main WP Admin page (edge case)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Redirect on success not working."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested compatibility with WordPress 4.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Preparations for <a href=\"https://mc4wp.com/blog/breaking-backwards-compatibility-in-version-3-0/\">the upcoming MailChimp for WordPress version 3.0 release</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Usage tracking is now scheduled once a week (instead of daily)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Incorrect number of parameters for <code>error_log</code> statement in integrations class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Portugese translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Honeypot field being autofilled in Chrome, causing a form error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renewing MailChimp lists will now also update the output of the <code>{subscriber_count}</code> tag."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Connectivity issues with MailChimp will now <em>always</em> show an error message."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Textual improvements to MailChimp settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Error in Russian translation, causing a broken link on the MailChimp settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added opt-in usage tracking to help us make the plugin better. No sensitive data is tracked."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor other defensive coding improvements to prevent clashes with other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>_mc4wp_lists</code> can now be a comma-separated string of MailChimp list ID's to subscribe to (or an array)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Position honeypot field to the right for Right-To-Left sites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix <code>mc4wp_form_before_fields</code> being applied twice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Spanish &amp; Catalan translations, thanks to <a href=\"http://www.xaviergimeno.net/\">Xavier Gimeno Torrent</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only prefix <code>url</code> fields with <code>http://</code> if it is filled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes JS error when form contains no submit button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use of undefined constant in previous update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Auto-prefix fields of type <code>url</code> with <code>http://</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "MailChimp list fields of type \"website\" will now become HTML5 <code>url</code> type fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor styling improvements for RTL sites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "List choice fields not showing when using one of the default form themes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Honeypot causing horizontal scrollbar on RTL sites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with interest groupings not being fetched after updating to version 2.3.11"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now use shortcodes in the form content."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integration errors are now logged to PHP's error log for easier debugging."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not query MailChimp API for interest groupings if list has none."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Empty response from MailChimp API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Styling issue for submit buttons in Mobile Safari."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Honeypot field being filled by browser's autocomplete."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Minor improvements and additions for compatibility with the <a href=\"https://wordpress.org/plugins/mailchimp-sync/\">MailChimp Sync plugin</a>."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "A huge thank you to <a href=\"http://metaodi.ch/\">Stefan Oderbolz</a> for various fixed and improvements related to translations in this release."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Fixed</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Additions</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Improvements</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Fixes</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Russian translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The entered email will now be appended to the URL when redirecting to another page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added sign-up checkbox integration for <a href=\"https://wordpress.org/plugins/easy-digital-downloads/\">Easy Digital Downloads</a> checkout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added sign-up checkbox integration for <a href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a> checkout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Dutch, French, Portugese and Spanish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor code &amp; documentation improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the way form submissions are handled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If an error occurs, textareas will no longer lose their value"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Select at least one list\" notice appearing when unselecting any MailChimp list in Form settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The submit button now has a default value when generating HTML for it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now set <code>MC_LOCATION</code>, <code>MC_NOTES</code> and <code>MC_LANGUAGE</code> from your form HTML"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Danish, German, Spanish, French, Italian and Portugese (Brazil) translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor code &amp; code style improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>is_spam</code> method to checkbox integration to battle spam sign-ups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Field Wizard strings are now translatable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use JS object to transfer lists data to Field Wizard."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin wasn't connecting to MailChimp for users on MailChimp server <code>us10</code> (API keys ending in <code>-us10</code>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter <code>mc4wp_menu_items</code> for adding &amp; removing menu items from add-ons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>wpml-config.xml</code> file for better WPML compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now showing a heads up when at limit of 100 MailChimp lists. (<a href=\"https://github.com/ibericode/mailchimp-for-wordpress/issues/71\">#71</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated <a href=\"https://www.transifex.com/projects/p/mailchimp-for-wordpress/\">Dutch, German, Spanish, Hungarian, French, Italian and Turkish translations</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All code is now adhering to the WP Code Standards"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved third-party scripts to their own directory for easier exclusion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Textual fix as entering \"0\" for no redirection does not work."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now specify whether you want to send a welcome email (only with double opt-in disabled)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for <a href=\"https://github.com/afragen/github-updater\">GitHub Updater Plugin</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various other code improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure there is only one plugin instance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated all translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Number fields will now repopulate if an error occurred."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The presence of required list fields in form mark-up is now checked as you type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translation were loaded too late to properly translate some strings, like the admin menu items."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue where WooCommerce checkout sign-up was not working for cheque payments."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom fallback for browsers not supporting <code>input[type=\"date\"]</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Smarter email detection when integrating with third-party forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reset <code>background-image</code> on submit buttons when using CSS themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Anti-SPAM improvements: a better honeypot field and a timestamp field to prevent instant form submissions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Incorrect <code>action</code> attribute on form element for some server configurations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>mc4wp-submitted</code> class was not added in IE8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS reset wasn't working for WooCommerce checkout sign-up checkbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <a href=\"https://github.com/ibericode/mailchimp-for-wordpress/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L138-L142\">mc4wp_form_data</a> filter hook to modify all form data before processing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <a href=\"https://github.com/ibericode/mailchimp-for-wordpress/blob/06f0c833027f347a288d2cb9805e0614767409b6/includes/class-form-request.php#L292-L301\">mc4wp_form_success</a> action hook to hook into successful sign-ups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated German, Spanish, Brazilian, French, Hungarian and Russian translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various minor code improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Honeypot field was visible for themes or templates not calling <code>wp_head()</code> and <code>wp_footer()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow setting custom MailChimp lists to subscribe to using <code>lists</code> attribute on shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added some helper methods related to interest groupings to <code>MC4WP_MailChimp</code> class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>mc4wp_before_checkbox</code> and <code>mc4wp_after_checkbox</code> filters to easily add more fields to sign-up checkbox integrations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated all translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better sanitising of all settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Background images were stripped from submit buttons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API key field value was not properly escaped."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Italian, Russian &amp; Turkish translations. <a href=\"https://www.transifex.com/projects/p/mailchimp-for-wordpress/\">Want to help translate the plugin? Full translations get a free Pro license</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Menu item for settings page not appearing on Google App Engine (<a href=\"https://github.com/ibericode/mailchimp-for-wordpress/issues/88\">#88</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Portugese, Indonesian, German (CH) and Spanish (PR) translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now handle unsubscribe calls with our forms too."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now use <a href=\"https://mc4wp.com/kb/using-variables-in-your-form-or-messages/\">form variables in both forms, messages as checkbox label texts</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use Composer for autoloading all plugin classes (PHP 5.2 compatible)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Major code refactoring for easier unit testing and improved code readability."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>role</code> attribute to form elements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API class <code>subscribe</code> method now always returns a boolean."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "JavaScript error in IE8 because of <code>setAttribute</code> call on honeypot field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Registration type integrations were not correctly picking up on first- and last names."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The email address is no longer automatically added to the Redirect URL as this is against Google Analytics policy. To add it again, use <code>?email={email}</code> in your Redirect URL setting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP notice in <code>includes/class-tools.php</code>, introduced by version 2.3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "IE8 compatibility for honeypot fallback script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue when using more than one <code>{data_xx}</code> replacement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Groupings not being sent to MailChimp"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-enable <code>sslverify</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>contactemail</code> and <code>contactname</code> to field name guesses when integrating with third-party form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use strict type check for printing inline CSS that hides honeypot field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Get correct IP address when using proxy like Cloudflare or Sucuri WAF."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code preview in Field Builder is now read-only"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with GROUPINGS not being sent to MailChimp"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now passing the form as a parameter to <code>mc4wp_form_css_classes</code> filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated language files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Faulty update for v3.0 appearing for people running GitHub updater plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated HTML5 placeholder polyfill"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better CSS for form reset"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Relayed the browser's Accept-Language header to MailChimp for auto-detecting a subscriber's language."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Undefined index notice when visitor's USER_AGENT is not set."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>default</code> attribute to <code>{data_name}</code> variables, usage: <code>{data_something default=\"The default value\"}</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>{current_path}</code> variable to use in form templates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter: <code>mc4wp_form_animate_scroll</code> to disable animated scroll-to after submitting a form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use <code>/* ... */</code> for inline JavaScript comments to prevent errors with minified HTML - props <a href=\"https://github.com/egifford\">Ed Gifford</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use the same order as MailChimp.com, which is useful when you have over 100 MailChimp lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>mc4wp_form_is_submitted()</code> and <code>mc4wp_form_get_response_html()</code> functions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated German &amp; Greek translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Revamped UI for MailChimp lists overview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter <code>mc4wp_form_animate_scroll</code> now disables just the scroll animation, not the scroll itself."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "role=\"form\" is no longer needed, thanks <a href=\"https://github.com/XhmikosR\">XhmikosR</a>!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better way to hide the honeypot field, which stops bots from subscribing to your lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default form was not automatically translated for languages other than English."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sign-up checkbox was showing twice in the Easy Digital Downloads checkout when showing registration fields, thanks <a href=\"https://github.com/growdev\">Daniel Espinoza</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Using <code>0</code> as a Redirect URL resulted in a blank page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevented JS error when outputting forms with no submit button."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>mc4wp_form_action</code> filter to set a custom <code>action</code> attribute on the form element."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better error message when connected to MailChimp but account has no lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "URL-encode variables in \"Redirect URL\" setting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sign-up checkbox in comment form is now shown before the \"submit comment\" button."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add form mark-up to WPML configuration file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translate options when installing plugin from a language other than English."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More helpful error message when no list is selected."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better field population after submitting a form with errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "MailChimp lists cache is now automatically flushed after changing your API key setting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Placeholders will now work in older version of IE as well."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add default CSS styles for <code>number</code> fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not flush MailChimp cache on every settings save."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Comment form checkbox not outputted for some older themes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with <code>address</code> fields when <code>addr1</code> was not given."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Showing \"not connected\" when the plugin was actually connected to MailChimp."
+msgstr ""

@@ -1,0 +1,280 @@
+# Translation of Plugins - Contact Form 7 - Development Readme (trunk) in Azerbaijani
+# This file is distributed under the same license as the Plugins - Contact Form 7 - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-27 00:56:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: az\n"
+"Project-Id-Version: Plugins - Contact Form 7 - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr "Başqa bir əlaqə forması qoşması. Sadə amma çevik."
+
+#. Plugin name.
+msgid "Contact Form 7"
+msgstr "Əlaqə Forması 7"
+
+#. Found in changelog list item.
+msgid "Acceptance Checkbox – unsets the form-tag's do-not-store feature."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug in the JavaScript fallback function for legacy browsers that do not support the HTML5 placeholder attribute."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Config Validator – adds a test item to detect invalid file attachment settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Local File Attachment – disallows the specifying of absolute file paths referring to files outside the wp-content directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Specifies the capability_type argument explicitly in the register_post_type() call to fix the privilege escalation vulnerability issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduces the consent_for:storage option for all types of form-tags."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduces wpcf7_anonymize_ip_addr() function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Acceptance Checkbox: Revises the tag-generator UI to encourage the use of better options in terms of personal data protection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS: Applies the \"not-allowed\" cursor style to submit buttons in the \"disabled\" state."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Acceptance Checkbox: Reset submit buttons’ disabled status after a successful submission."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use get_user_locale() instead of get_locale() where it is more appropriate."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the Information meta-box content."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the Privacy Notices section to the readme.txt file."
+msgstr ""
+
+#. Found in description list item.
+msgid "Akismet (<a href=\"https://automattic.com/privacy/\">Automattic</a>)"
+msgstr ""
+
+#. Found in description list item.
+msgid "reCAPTCHA (<a href=\"https://policies.google.com/?hl=en\">Google</a>)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you activate certain features in this plugin, the contact form submitter's personal data, including their IP address, may be sent to the service provider. Thus, confirming the provider's privacy policy is recommended. These features include:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With the default configuration, this plugin, in itself, does not:"
+msgstr ""
+
+#. Found in description list item.
+msgid "use cookies."
+msgstr ""
+
+#. Found in description list item.
+msgid "send any data to external servers;"
+msgstr ""
+
+#. Found in description list item.
+msgid "write any user personal data to the database;"
+msgstr ""
+
+#. Found in description list item.
+msgid "track users by stealth;"
+msgstr ""
+
+#. Found in description header.
+msgid "Privacy Notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check if the target directory is empty before removing the directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Explicitly specify the fourth parameter of add_action() to avoid passing unintended parameter values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Config validation: When there is an additional mail header for mailboxes like Cc or Reply-To, but it has a possible empty value, “Invalid mailbox syntax is used” error will be returned."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Acceptance checkbox: The class and id attributes specified were applied to the wrong HTML element."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Config validation: Fixed improper treatment for the [_site_admin_email] special mail-tag in the From mail header field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Config validation: Fixed incorrect count of alerts in the Additional Settings tab panel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incorrect uses of _n()."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New form-tag features: zero-controls-container and not-for-mail"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New filter hooks: wpcf7_upload_file_name, wpcf7_autop_or_not, wpcf7_posted_data_{$type}, and wpcf7_mail_tag_replaced_{$type}"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New special mail tags: [_site_title], [_site_description], [_site_url], [_site_admin_email], [_invalid_fields], [_user_login], [_user_email], [_user_url], [_user_first_name], [_user_last_name], [_user_nickname], and [_user_display_name]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Acceptance checkbox: Supports the optional option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Acceptance checkbox: Allows the specifying of a statement of conditions in the form-tag’s content part."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allows aborting a mail-sending attempt using the wpcf7_before_send_mail action hook. Also, you can set a custom status and a message through the action hook."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduces the WPCF7_MailTag class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "File upload: Sets the accept attribute to an uploading field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "HTML mail: Adds language-related attributes to the HTML header."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "DOM events: Make an entire API response object accessible through the event.detail.apiResponse property."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Flamingo: Inbound channel title changes in conjunction with a change in the title of the corresponding contact form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New additional setting: skip_mail"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional settings: on_sent_ok and on_submit have been removed."
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can <a href=\"https://contactform7.com/translating-contact-form-7/\">translate Contact Form 7</a> on <a href=\"https://translate.wordpress.org/projects/wp-plugins/contact-form-7\"><strong>translate.wordpress.org</strong></a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The following plugins are recommended for Contact Form 7 users:"
+msgstr "Aşağıdakı qoşmalar Əlaqə Forması 7 istifadəçiləri üçün məsləhət bilinir:"
+
+#. Found in faq paragraph.
+msgid "<a href=\"https://contactform7.com/support/\">Support</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Do you have questions or issues with Contact Form 7? Use these support channels appropriately."
+msgstr "Əlaqə Forması 7 barəsində suallarınız və ya problemləriniz varmı? Bu dəstək kanallarından uyğun şəkildə istifadə edə bilərsiniz."
+
+#. Found in faq list item.
+msgid "<a href=\"https://wordpress.org/support/plugin/contact-form-7/\">Support Forum</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://contactform7.com/faq/\">FAQ</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://contactform7.com/docs/\">Docs</a>"
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "For basic usage, you can also have a look at the <a href=\"https://contactform7.com/\">plugin web site</a>."
+msgstr ""
+
+#. Found in installation paragraph, faq paragraph.
+msgid "You will find 'Contact' menu in your WordPress admin panel."
+msgstr "WordPress nəzarətçi lövhəsindən 'Əlaqə' menyusunu tapa bilərsiniz."
+
+#. Found in installation list item, faq list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr "Wordpress 'Qoşmalar' menyusundan qoşmanı aktivləşdirin."
+
+#. Found in installation list item, faq list item.
+msgid "Upload the entire <code>contact-form-7</code> folder to the <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "It is hard to continue development and support for this free plugin without contributions from users like you. If you enjoy using Contact Form 7 and find it useful, please consider <a href=\"https://contactform7.com/donate/\"><strong>making a donation</strong></a>. Your donation will help encourage and support the plugin's continued development and better user support."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can find <a href=\"https://contactform7.com/docs/\">docs</a>, <a href=\"https://contactform7.com/faq/\">FAQ</a> and more detailed information about Contact Form 7 on <a href=\"https://contactform7.com/\">contactform7.com</a>. If you were unable to find the answer to your question on the FAQ or in any of the documentation, you should check the <a href=\"https://wordpress.org/support/plugin/contact-form-7/\">support forum</a> on WordPress.org. If you can't locate any topics that pertain to your particular issue, post a new topic for it."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Contact Form 7 can manage multiple contact forms, plus you can customize the form and the mail contents flexibly with simple markup. The form supports Ajax-powered submitting, CAPTCHA, Akismet spam filtering and so on."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/bogo/\">Bogo</a> by Takayuki Miyoshi - Bogo is a straight-forward multilingual plugin that doesn't cause headaches."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/flamingo/\">Flamingo</a> by Takayuki Miyoshi - With Flamingo, you can save submitted messages via contact forms in the database."
+msgstr ""
+
+#. Found in description header.
+msgid "Translations"
+msgstr ""
+
+#. Found in description header.
+msgid "Recommended Plugins"
+msgstr "Məsləhətli Qoşmalar"
+
+#. Found in description header.
+msgid "Contact Form 7 Needs Your Support"
+msgstr "Əlaqə Forması 7-nin Dəstəyinizə ehtiyacı Var"
+
+#. Found in description header.
+msgid "Docs &amp; Support"
+msgstr "Sənədlər &amp; Dəstək"
+
+#. Screenshot description.
+msgid "screenshot-1.png"
+msgstr "screenshot-1.png"
+
+#. Found in changelog paragraph.
+msgid "For more information, see <a href=\"https://contactform7.com/category/releases/\">Releases</a>."
+msgstr ""

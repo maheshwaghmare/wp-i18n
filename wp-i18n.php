@@ -1352,6 +1352,137 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 
 		/**
 		 *
+		 * # Generate PO files for Theme:
+		 *
+		 * Syntax Command:  wp wpi18n generate_blank_lang_po {language}
+		 *
+		 * Example Command: wp wpi18n generate_blank_lang_po mr
+		 * 
+		 * E.g.
+		 * 
+		 * ## EXAMPLES
+		 *
+		 * wp wpi18n generate_blank_lang_po {mr}
+		 */
+		function generate_blank_lang_po( $args, $assoc_args ) {
+			
+			include_once "lib/Gettext/src/autoloader.php";
+			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
+
+			$langs = array(  'mr'  , 'ru', 'af_ZA', 'ar', 'ar_MA', 'az', 'en_CA', 'en_ZA', 'oc_FR' );
+
+			foreach ($langs as $lang_key => $lang) {
+				$file_name = 'lang-po/language-'.$lang . '.po';
+
+				// Empty log file.
+				file_put_contents( $file_name, '' );
+
+				$args = array(
+					'post_type'      => 'wpi18n',
+					// Query performance optimization.
+					'fields'         => 'ids',
+					'no_found_rows'  => true,
+					'post_status'    => 'any',
+					'posts_per_page' => -1,
+					// 'post__in'       => array( '3165' ),
+				);
+				$query = new WP_Query( $args );
+				if ( $query->posts ) {
+
+					foreach ($query->posts as $key => $post_id) {
+						$post_title       = get_the_title( $post_id );
+						$small_post_title = substr($post_title, 0, 30);
+						$languages        = get_repeat_string_mapping( $post_id );
+
+						if( isset( $languages[ $lang ]['top'] ) && ! empty( $languages[ $lang ]['top'] ) ) {
+							$all_found_strings++;
+							$line++;
+
+							// Track all translate strings.
+							$log_data = file_get_contents( $file_name );
+							if( empty( $log_data ) ) {
+								file_put_contents( $file_name, 'msgid "'.$post_title.'"' . "\nmsgstr \"\""  );
+							} else {
+								file_put_contents( $file_name, $log_data . "\n\n" . 'msgid "'.$post_title.'"' . "\nmsgstr \"\""  );
+							}
+
+							WP_CLI::line( $lang . ' | ' . $count . ' | ' . $line . ' | ' . $file_name . ' FOUND' );
+
+						} else {
+							WP_CLI::line( $lang . ' | ' . $count . ' | ' . $line . ' | ' . $file_name . ' FOUND' );
+						}
+
+						$count--;
+					}
+				}
+			}
+		}
+
+		/**
+		 *
+		 * # Generate PO files for Theme:
+		 *
+		 * Syntax Command:  wp wpi18n generate_filled_lang_po {language}
+		 *
+		 * Example Command: wp wpi18n generate_filled_lang_po mr
+		 * 
+		 * E.g.
+		 * 
+		 * ## EXAMPLES
+		 *
+		 * wp wpi18n generate_filled_lang_po {mr}
+		 */
+		function generate_filled_lang_po( $args, $assoc_args ) {
+			
+			include_once "lib/Gettext/src/autoloader.php";
+			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
+
+			$langs = array(  'mr'  , 'ru', 'af_ZA', 'ar', 'ar_MA', 'az', 'en_CA', 'en_ZA', 'oc_FR' );
+
+			foreach ($langs as $lang_key => $lang) {
+				$file_name = 'lang-po/language-'.$lang . '.po';
+
+				$translations = Translations::fromPoFile( $file_name );
+
+				$count = count( $translations );
+
+				foreach ($translations as $key => $translation) {
+
+					$post_title         = $translation->getOriginal();
+					$translation_string = $translation->getTranslation();
+
+					// Empty the translation text.
+					// And the post exist.
+					if( empty( $translation_string ) && ! empty( $post_title ) ) {
+
+						$post_id = post_exists( $post_title );
+						if( $post_id ) {
+
+							$stored_string = get_post_meta( $post_id, 'language_' . $lang, true );
+							
+							if( ! empty( $stored_string ) ) {
+								//edit some translations:
+								$translation = $translations->find(null, $post_title);
+
+								if ($translation) {
+									$translation->setTranslation( $stored_string );
+
+									WP_CLI::line( $plugin_slug . ' | ' . $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $post_title . ' | WITH ' . $stored_string );
+									$all_translations_count++;
+								}
+							}
+						}
+					}
+				}
+
+				//Now save a po file with the result
+				$translations->toPoFile($file_name );
+
+			}
+		}
+
+		/**
+		 *
 		 * # Generate PO files for Plugin:
 		 *
 		 * Syntax Command:  wp wpi18n generate_plugin_po {plugin-slug} --lang={language}
@@ -1387,6 +1518,8 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			file_put_contents( $local_translated_log, '' );
 
 			$files = $this->getDirContents( $dir );
+
+			$all_translated_count = get_option('all_translated_count', 0);
 
 			$all_translations_count = 0;
 
@@ -1441,6 +1574,8 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 									WP_CLI::line( $plugin_slug . ' | ' . $files_count . ' | ' . $count . ' | ' . $post_id . ' UPDATED ' . $post_title . ' | WITH ' . $stored_string );
 									$all_translations_count++;
 
+									$all_translated_count++;
+
 									// Track all translate strings.
 									$log_data = file_get_contents( $local_translated_log );
 									if( empty( $log_data ) ) {
@@ -1459,7 +1594,6 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 					$count--;
 				}
 
-
 				WP_CLI::line( $plugin_slug . ' | ' . $files_count . ' | ' . 'COMPLETE - TRANSLATED ' . $all_translations_count . ' STRINGS!' );
 
 				//Now save a po file with the result
@@ -1470,6 +1604,9 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 			}
 
 			WP_CLI::line( $plugin_slug . ' | ' . 'TOTAL TRANSLATED ' . $all_translations_count );
+
+			update_option('all_translated_count', $all_translated_count);
+			WP_CLI::line( 'ALL TRANSLATED STRINGS COUNT: ' . $all_translated_count );
 
 		}
 
@@ -1760,7 +1897,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				'post_status'    => 'any',
 				'posts_per_page' => -1,
 
-				// 'post__in' => array( '5007' ),
+				// 'post__in' => array( '1290' ),
 			);
 
 			$query = new WP_Query( $args );
@@ -1825,6 +1962,66 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 					$count--;
 				}
 			}
+		}
+
+
+		/**
+		 * Set Most Repeated String as Top.
+		 *
+		 * # Example:
+		 *
+		 * wp wpi18n submit
+		 */
+		function submit() {
+
+			// WP_CLI::line('ok');
+
+			// $request = array(
+			// 	'import-file'      => plugin_dir_path( __FILE__ ) . 'po-files/plugins/really-simple-ssl/mr/wp-plugins-really-simple-ssl-dev-mr-translated.po',
+			// 	'format'           => 'auto',
+			// 	'status'           => 'waiting',
+			// 	'_gp_route_nonce'  => 'e4a205b98f',
+			// 	'_wp_http_referer' => '/projects/wp-plugins/really-simple-ssl/dev/mr/default/import-translations',
+			// );
+
+			// $params = array(
+			// 	'sslverify' => false,
+			// 	'timeout'   => 30000,
+			// 	'headers' => array(
+			//         'Content-Type' => "multipart/form-data;"
+			//     ),
+			// 	'body'      => $request,
+			// );
+
+			// $request = wp_remote_post( 'https://translate.wordpress.org/projects/wp-plugins/really-simple-ssl/dev/mr/default/import-translations/', $params );
+
+			// // Is WP Error?
+			// if ( is_wp_error( $request ) ) {
+			// 	// WP_CLI::line( print_r( $request ) );
+			// 	WP_CLI::line( $plugin_slug . ' | ' . $request->get_error_message() );
+			// }
+
+			// // Invalid response code.
+			// if ( wp_remote_retrieve_response_code( $request ) != 200 ) {
+			// 	WP_CLI::line( $plugin_slug . ' | ' . 'ERROR URL: ' . $remote_file_url );
+			// 	WP_CLI::line( $plugin_slug . ' | ' . print_r( $request->response ) );
+			// }
+
+			if( ! is_wp_error( $request ) && wp_remote_retrieve_response_code( $request ) == 200 ) {
+				// Get body data.
+				$body = wp_remote_retrieve_body( $request );
+				WP_CLI::line( print_r($body) );
+			}
+
+			WP_CLI::line( print_r($request) );
+
+			// 
+
+			// name ="import-file"
+			// name ="format" = "auto"
+			// name ="status" "waiting"
+			// name="_gp_route_nonce" value="e4a205b98f">
+			// name="_wp_http_referer" value="/projects/wp-plugins/really-simple-ssl/dev/mr/default/import-translations">
 		}
 
 		/**

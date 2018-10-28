@@ -1,0 +1,1454 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Page Builder by SiteOrigin - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-28T16:12:55+00:00\n"
+"PO-Revision-Date: 2015-10-31 09:20:20+0000\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Build responsive page layouts using the widgets you know and love using this simple drag and drop page builder."
+msgstr ""
+
+#. Plugin name.
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent notices when style field is using 'label' instead of 'name' e.g. for checkbox field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Layout builder: Prevent initializing multiple instances of widget dialog."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Layout builder: Fix 'undefined index' when saving before having added any widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix auto-excerpt output."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Jetpack compat: Fix for Jetpack widgets using the <code>is_active_widget</code> check."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Yoast compat: Custom widget content handler for WB Accordion and Tabs widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fallback to checking for global <code>$post</code> when attempting to disable Gutenberg for existing posts with Page Builder layout data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only allow moving widgets and rows between Page Builder instances when in Gutenberg editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow media queries with only <code>min-width</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Automatically extract excerpts from text type widgets found in the first two Page Builder layout rows."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix after breaking change in gutenberg API."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Process raw widgets when importing a layout file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Include row labels and colors when copy/pasting rows."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent adding duplicate <code>panels_data</code> metadata to posts for revisions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use post ID in content, not revision ID, when saving revisions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for PHP5.2 :("
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SiteOrigin Layouts Gutenberg block!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Yoast compat: Properly create rather than select an image."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Page Builder button from widgets when not in admin context."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dashboard Assets: Check if $screen exists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Post Loop: Add filter to allow for custom template directories."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Skip Yoast compat for non PB content."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check for yoast metabox before enqueuing compat JS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New setting to automatically open widget forms when they're added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New row layout option to make provision for row style padding in full width stretched rows."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure prebuilt layouts path is a real path."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Row Cell options: Prevent Yoast from resizing fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better compatibility with Yoast SEO."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>panels_data</code> filter to <code>generate_css</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don’t hide the upload UI before initializing it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix collapse order in legacy layout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clear SO widgets' id and timestamp metadata when cloning a PB Page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Apply bottom margin custom styles to main wrapper where PB adds it's bottom margin, to allow users to override."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix layout imports in Edge."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use https for layouts directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed dashboard feed URL to use cloudfront for caching."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added SiteOrigin news dashboard widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove learn dialogs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent debug notice when background fallback image hasn't been set."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Background fallback URL notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only filter WooCommerce content when on the shop page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow setting margins around specific widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove loading indicator and display message when loading widget and style forms fail."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Temporarily remove Jetpack widgets requiring scripts for admin form, until we can reliably enqueue their scripts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added image fallback url field for background images in row, cell and widget styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Get correct ID for WooCommerce shop page to allow PB to render correctly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't use <code>mime_content_type</code> for external layouts if it's not available. Just check file extensions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only call widget <code>enqueue_admin_scripts</code> function for WP core JS widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use minified CSS files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show correct preview for current editor when another editor has created an autosave."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed special handling for retrieving data from TinyMCE editor fields. Just use the field value directly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use <code>delete_post_meta_by_key</code> instead of direct DB query to clear old cache renders."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove PB metaboxes from Gutenberg editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent Gutenberg from taking over existing PB pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed prebuilt layout directory items."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Column width CSS output correctly for locales which use ',' as decimal separator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adapt PB welcome message when some features not supported."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide individual action links when features disabled and prevent editing by clicking directly on spanner when edit row disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure 'SiteOrigin_Panels_Widgets_Layout' exists before setting icon for widgets lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent custom post types from showing in the settings list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switch off output buffering when enqueueing admin scripts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a filter for inline styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow post types with numeric slugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load prebuilt layout JSON files found in themes!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled the Content Cache feature until we've resolved all issues and conflicts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add compatibility for new WP core Custom HTML and Media Gallery widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent error with invalid plugin action links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed some duplicated jQuery selectors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix switching between standard editor and Page Builder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Immediately switch to Page Builder if <code>revertToEditor</code> feature isn't supported."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't use deprecated <code>load</code> event jQuery function shortcut."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add rel=\"noopener noreferrer\" for all 3rd party/unknown links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Save ratio and ratio_direction as row attributes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added raw_panels_data flag for layout imports."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Content Cache: Add Enqueue hook to allow 3rd parties to enqueue cache friendly assets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cast post types as string when adding meta boxes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Skip saving post meta for revisions in previews."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Always enqueue parallax when in cache mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide Cell Vertical Alignment options if Legacy Layout is set to always."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabling DFW mode no longer hides PB."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent JS error when PB active alongside Elementor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Learn: fixed broken image."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Import custom widget class from HTML."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avoid using relative asset URLs which may break caching plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent creating multiple new entries in post meta every time a post is previewed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed WP widget wrappers broken by WP4.8.1 changes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Learn dialog fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed tutorials view."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Previews work without saving panels data to parent post meta."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Reset\" fixed background image display setting on mobile."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reset <code>widget_id</code> when cloning widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Post Loop widget: Set default width of post loop widget control."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Post Loop widget: Use correct base widget properties for post loop helper on Widgets page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced themes link with tutorials."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Skip cache rendering for password protected posts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switched toolbar links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Get post from DB before saving for 'copy content' to avoid overwriting changes by other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unnecessary output of JS widget templates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pass empty post id to 'siteorigin_panels_data' filter to avoid potential fatal errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent display of unimplemented preview button for Post Loop widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensure form fields name attributes are correct when using the Widgets Bundle post loop helper."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensure custom CSS added in element styles is properly formed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility with Widgets Bundle 1.9 posts selector."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactored core widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility with WordPress 4.8 widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added screenshot argument to preview URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Handle translation of Learn submodule strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more cache render checks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added legacy function wrapper for siteorigin_panels_generate_css"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder works with standard WordPress widgets, so you'll always find the widget you need. We've created the <a href=\"https://wordpress.org/plugins/so-widgets-bundle/\">SiteOrigin Widgets Bundle</a> to give you all the most common widgets, and with a world of plugins out there, you'll always find the widget you need."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://siteorigin.com/page-builder/documentation/\">Documentation</a> is available on SiteOrigin."
+msgstr ""
+
+#. Found in description header.
+msgid "Documentation"
+msgstr "Sənədlər"
+
+#. Found in faq paragraph.
+msgid "We've tried to ensure that Page Builder is compatible with most plugin widgets. It's best to just download Page Builder and test for yourself."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Page Builder is actively developed and updated, so generally I'd recommend that you have your users install the original plugin so they can receive updates. You can try <a href=\"http://tgmpluginactivation.com/\">TGM Plugin Activation</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, provided your theme is licensed under GPL or a compatible license. If you're publishing your theme on ThemeForest, you must select the GPL license instead of their regular license."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We recommend the <a href=\"https://wordpress.org/plugins/duplicator/\">duplicator plugin</a>. We've tested it in several instances and it always works well with Page Builder data."
+msgstr ""
+
+#. Found in faq header.
+msgid "Will plugin X work with Page Builder?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I bundle Page Builder with my theme?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I move a site created with Page Builder from one server to another?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Read the <a href=\"http://siteorigin.com/page-builder/documentation/\">usage documentation</a> on SiteOrigin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload and install Page Builder in the same way you'd install any other plugin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Through the efforts of both professional translators and our community, Page Builder is available in the following languages:  Afrikaans, Bulgarian, Chinese (simplified), Danish, Dutch, English, Finnish, French, German, Hindi, Italian, Japanese, Polish, Portuguese (BR), Russian, Spanish and Swedish."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Read the <a href=\"https://siteorigin.com/docs/page-builder/\">Page Builder developer docs</a> if you'd like to develop for Page Builder."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder is actively developed with new features and exciting enhancements all the time. Keep track on the <a href=\"https://github.com/siteorigin/siteorigin-panels\">Page Builder GitHub repository</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We offer free support on the <a href=\"https://siteorigin.com/thread/\">SiteOrigin support forums</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder is our commitment to the democratization of content creation. Like WordPress, Page Builder is, and always will be free. We'll continue supporting and developing it for many years to come. It'll only get better from here."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Row and widget styles give you all the control you need to make your content uniquely your own. Change attributes like paddings, background colours and column spacing. You can also enter custom CSS and CSS classes if you need even finer grained control."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This tool lets you roll forward and back through your changes. It gives you the freedom to experiment with different layouts and content without the fear of breaking your content."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder supports live editing. This tool lets you see your content and edit widgets in real-time. It's the fastest way to adjust your content quickly and easily."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We don't limit you with a set of pre-defined row layouts. Page Builder gives you complete flexibility. You can choose the exact number of columns for each row and the precise weight of each column - down to the decimal point. This flexibility is all possible using our convenient row builder. And, if you're not sure what you like, the Row Builder will guide you towards beautifully proportioned content using advanced ratios."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder's simple drag and drop interface means you'll never need to write a single line of code. Page Builder generates all the highly efficient code for you."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We've also made some fantastic <a href=\"https://siteorigin.com/theme/\">free themes</a> that work well with Page Builder."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Page Builder gives you complete freedom to choose any WordPress theme you like. It's not a commitment to a single theme or theme developer. The advantage is that you're free to change themes as often as you like. Your content will always come along with you."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We've created an intuitive interface that looks just like WordPress itself. It's easy to learn, so you'll be building beautiful, responsive content in no time."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "SiteOrigin Page Builder is the most popular page creation plugin for WordPress. It makes it easy to create responsive column based content, using the widgets you know and love. Your content will accurately adapt to all mobile devices, ensuring your site is mobile-ready. Read more on <a href=\"https://siteorigin.com/page-builder/\">SiteOrigin</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[vimeo https://vimeo.com/114529361]"
+msgstr ""
+
+#. Found in description header.
+msgid "Available in 17 Languages"
+msgstr ""
+
+#. Found in description header.
+msgid "Actively Developed"
+msgstr ""
+
+#. Found in description header.
+msgid "It's free, and always will be."
+msgstr ""
+
+#. Found in description header.
+msgid "Row and widget styles."
+msgstr ""
+
+#. Found in description header.
+msgid "History Browser."
+msgstr ""
+
+#. Found in description header.
+msgid "Live Editing."
+msgstr ""
+
+#. Found in description header.
+msgid "No coding required."
+msgstr ""
+
+#. Found in description header.
+msgid "It works with your theme."
+msgstr ""
+
+#. Screenshot description.
+msgid "Row Builder that gives unlimited flexibility."
+msgstr ""
+
+#. Screenshot description.
+msgid "Undo changes with the History Browser."
+msgstr ""
+
+#. Screenshot description.
+msgid "Live Editor that lets you change your content in real time."
+msgstr ""
+
+#. Screenshot description.
+msgid "Powerful widget insert dialog with groups and search."
+msgstr ""
+
+#. Screenshot description.
+msgid "The page builder interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed namespaced widget escaping."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use HTTPS for layout directory screenshots."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow cache with auto legacy layout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed front.css to ensure cache busting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed RTL layouts for new flexbox layout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switched to using calc for cell sizing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added legacy layout rendering for old browsers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warning coming from legacy widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed positioning of edit row dropdown."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Firefox layout issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added fix for old Vantage PB layout compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added method for including additional external layout directories."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added null function for Sydney theme compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various small UX tweaks and improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various minor bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various filters added for theme/plugin developers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget update function is properly passed old widget instance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed translation files. These will be pulled from Glotpress instead."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added buttons for free courses. Removed all references to premium addon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a mechanism for including theme layouts as JSON files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added mobile CSS style settings for rows, cells and widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Live Editor conflict with Layout Widgets in footer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accept negative values in measurement style fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added prominent legacy widgets notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increased maximum cell count to 12."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed namespace widgets in Live Editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to cache generated CSS in post_content. Allows page rendering without Page Builder active."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to cache generated content. Can improve compatibility with shortcode based plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed visual jump before making rows full width."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow row and cell styles to be edited in add row dialog."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added row and widget copy/paste. Currently only within a single site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Page Builder can now more easily go to and from the WordPress editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add loop check to prevent rendering from running too soon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added various cell vertical alignment settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed layouts to flexbox to remove need for negative margins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed performance issues with larger pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Redesign of main interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added cell specific styling."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added row and widget labelling, and color labels for rows."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Large code refactoring for improved performance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed how widget wrapper IDs are generated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use more specific selectors for padding CSS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add row ID to style wrapper instead of actual row."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed padding issue introduced by new mobile padding setting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made all learning links/buttons removable in Page Builder settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added mobile padding settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Include and check post ID in Live Editor. Fixes some issues with widgets using the_excerpt in Live Editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add WP Color Picker as a dependency for admin script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace TinyMCE _.isUndefined() check with a typeof to prevent JS errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter for post loop query."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed course toolbar links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added course links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed Premium and contribution links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small type and translation fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cycle addon and contribution link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added fixed background support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected post__not_in issue for query builder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed CSS and JS URLs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly provide post ID on custom home page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes for PHP 7 checker."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added tips signup link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added way to add affiliate ID."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added parallax setup after small timeout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed old Stellar JS library."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added disableable upgrade notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed legacy widgets check."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to completely disable sidebar emulator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes to sidebar emulator to prevent early rewrite rule building."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: layout directory imports in WordPress 4.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed layout directory requests for WordPress 4.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide empty columns after mobile collapse."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved measurement style field to handle multiple values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added esc_url to all add_query_arg calls."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Skip empty attributes in CSS generator class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reverted sidebars emulator change."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed Prebuilt to Layouts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed settings help link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to specify parallax motion."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made Live Editor quick link optional from Page Builder settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow negative values in measurement fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved parallax library to upscale images to ensure enough of a parallax."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reverted Wordfence fix from 2.4.7 - it raised other issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small interface improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue that resulted in Wordfence blocking some Page Builder requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Developer support for read-only widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent double filtering of $panels_data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added fallback previewer for Live Editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added unique IDs (UUID) to all widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow other plugins to enable/disable certain builder functionality."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more filters and actions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced parallax with custom implementation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Javascript errors with layout builder widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Live Editor link in the admin menu bar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved design of Live Editor preview."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only trigger contextual menu for topmost dialog."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Layout Builder widget sanitization error. Was causing fatal error on older versions of PHP."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed ordering of new rows, widgets and cells in builder interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove empty widgets from raw widget processing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly process raw widgets in Live Editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed measurement style fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't add widget class for TwentySixteen theme."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved error handling and reporting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Plugin conflict with Jetpack Widget Visibility and other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Copying content from standard editor to Page Builder"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom home page now saves revisions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>in_widget_form</code> action when rendering widget forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved window scroll locking for dialogs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed cell bottom margins with reverse collapse order."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Full JS code refactoring."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various background performance enhancements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refreshPanelsData function is called more consistently."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clarified functionality of \"Switch to Editor\" button by renaming to \"Revert to Editor\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added row/widget actions to contextual menu."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed contextual menu in Layout Builder widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now possible to append, prepend and replace layouts in prebuilt dialog."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New layout for prebuilt dialog."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes to Page Builder admin HTML structure for Live Editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Created new Live Editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed compatibility with WordPress 4.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made setting to enable tablet layout. Disabled by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fatal error on RTL sites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added version numbers to some JS files to ensure cache busting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Merged all separate JS files into a single Browserify compiled file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor performance enhancements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added panelsStretchRows event after frontend row stretch event."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed use of filter_input for HHVM issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for Yoast SEO compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix to ensure live editor works with HTTPs admin requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed admin templates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added tablet responsive level."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed copy content setting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added custom row ID field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a collapse order field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delete preview panels data if there are no widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix to ensure siteorigin-panels class is added to Page Builder pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix tab name for WordPress 4.4. Was displaying undefined."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "List privately published posts and pages under the prebuilt layout dialog Clone options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed parallax library to improve theme compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve check for the homepage in sidebars simulator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for defaults in widget and row styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added action to saving home page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to remove default <code>widget</code> class from Page Builder widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various fixes to widget class names."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various performance enhancements and bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Grid Engine rewrite for more efficient CSS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete UI redesign."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete rewrite of Page Builder Javascript using Backbone."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed templating tags in js-templates.php to prevent fatal errors with some server configurations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with Black Studio TinyMCE"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with preview causing content loss in standard editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fatal error in validation for PHP &lt; 5.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fetching content from TinyMCE in text mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with double calling sidebar_admin_setup that was breaking some widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional hooks and filters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed translation domains."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added layout widget notification (doesn't work in customizer)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed import/export."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed how data is json encoded to prevent malformed Page Builder data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added proper escaping in widget form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with encoding of panels_data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of multi-line row/widget custom CSS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed live editor for missing widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added nonce to all admin requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue that prevented prebuilt layouts from showing up."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Custom home page encoding."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Page URL for home page in custom home page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Custom home page interface now properly uses page_on_front."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Layout Builder widget now works in the Customizer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Handling of namespaced widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added setting to control full width container."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added widget title setting to change widget title HTML."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Layout file based import/export feature."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added legacy widget migration for gallery widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small usability improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed jPlayer. Self hosted widget (legacy) now uses MediaElement."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added sidebar emulation, which makes a Page Builder page appear to be a sidebar. Improves compatibility with other widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Page Builder settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevented double rendering issue with Yoast SEO."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bundled widgets conflict with Yoast SEO."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed call to filter_input from global space."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed import/export on custom home page interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small fixes to sidebars emulator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabling Page Builder on a page now properly creates history entry."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unnecessary action triggers from customizer that was breaking some themes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "panels_info array now passed into widget rendering function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made panels javascript object globally accessible."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Orphaned widgets in edited rows are now moved into remaining cell."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New rows now added below row of currently selected cell."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Row and Widget style measurement fields now allow multiple values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified strings to improve translatability."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added translations for 16 additional languages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed rendered content cache introduced in 2.1.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a builder \"type\" to allow more targetted instances."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved checking for home page in sidebars emulator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added optional $widget_id parameter to siteorigin_panels_render_form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use implicit check for whether editor is undefined or null."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More generic handling of builder instances to allow them to be used in different places."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unnecessary sprintf calls to lower chance of translations causing issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed checkbox handling in forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed use of filter_input for compatibility with HHVM"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of raw forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly position Page Builder tab in WordPress 4.3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of checkboxes and array fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various minor bug fixes and improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't revert to default page template when using custom home page interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly handle missing widgets when saving forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added parallax background images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added contextual menu for quick actions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added prebuilt layout directory."
+msgstr ""

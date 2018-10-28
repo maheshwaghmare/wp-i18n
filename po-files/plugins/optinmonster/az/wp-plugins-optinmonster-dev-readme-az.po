@@ -1,0 +1,894 @@
+# Translation of Plugins - Popups by OptinMonster &#8211; Best WordPress Lead Generation Plugin - Development Readme (trunk) in Azerbaijani
+# This file is distributed under the same license as the Plugins - Popups by OptinMonster &#8211; Best WordPress Lead Generation Plugin - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-03 17:40:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: az\n"
+"Project-Id-Version: Plugins - Popups by OptinMonster &#8211; Best WordPress Lead Generation Plugin - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "OptinMonster helps you grow your email list by converting visitors into subscribers and customers. Get more email subscribers now!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated outdated URLs in the admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a possible security issue with admin notices."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can sign up for an OptinMonster account by <a href=\"https://optinmonster.com/wp/?utm_source=orgplugin&amp;utm_medium=link&amp;utm_campaign=wpreadme\" rel=\"friend\" title=\"Click here to learn more about OptinMonster\">visiting our overview page</a> and following the instructions on the screen."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>OptinMonster App</strong><br />\n"
+"  OptinMonster is a standalone application that integrates with all web platforms including WordPress. You must have an OptinMonster account in order to take advantage of this plugin. <a href=\"https://optinmonster.com/wp/?utm_source=orgplugin&amp;utm_medium=link&amp;utm_campaign=wpreadme\" rel=\"friend\" title=\"Click here to learn more about OptinMonster\">Click here to learn more about OptinMonster.</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactored WordPress rules system, and a new <code>[optin-monster]</code> shortcode parameter, <code>followrules=true</code>. This means if you have specific WordPress display rules (e.g. which categories/posts/pages to display the campaign), and use the shortcode to output the campaign, you can have the shortcode follow the rules you have setup. Example shortcode usage: <code>[optin-monster slug=\"XXXXXXXXXXXXXXXXXXXX\" followrules=true]</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug that caused issues with PHP versions under 5.6."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Include a file that was missing in 1.4.0. Sorry!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated to work with OptinMonster 5.0 campaigns."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue where shortcodes in campaigns would not be parsed until the campaigns were refreshed a second time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the API url to reflect the new endpoint."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated notifications."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All URLs updated to use HTTPS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Performance improvements when retrieving, and determining when to display, campaigns."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue that prevented campaigns from showing on some custom taxonomy terms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing files in WordPress.org repository."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue where campaigns of an \"advanced age\" may not work in the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We're feeling a little lighter after removing some deprecated code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "OptinMonster now works with the shiny new MailPoet 3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Is it \"campaign\"? Or \"optin\"? No, it's definitely \"campaign\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated error responses from the OptinMonster API to be more informative."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated API calls to always be done over HTTPS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added additional checks during save routines for user capabilities."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a multisite activation issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated language for legacy migrations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added additional support for WooCommerce display settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated version numbers to prevent possible asset caching errors."
+msgstr ""
+
+#. Plugin name.
+msgid "Popups by OptinMonster - Best WordPress Lead Generation Plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed possible undefined errors for API credentials."
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "OptinMonster® and Exit-Intent® are registered trademarks of Retyp, LLC."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please avoid using any variations like: Optinmonster, optinmonster, or worst Optin monster."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "When mentioning OptinMonster please know that OptinMonster is one word with a Capital O and M."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you are interested in writing about OptinMonster, then we have have prepared a <a href=\"https://optinmonster.com/press/\" rel=\"friend\" title=\"OptinMonster Press Page\">Press &amp; Brand Assets page</a> where you can download our logo, screenshots, and other relevant assets."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.monsterinsights.com/\" rel=\"friend\" title=\"MonsterInsights\">MonsterInsights</a> - Best Google Analytics Plugin for WordPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wpforms.com/\" rel=\"friend\" title=\"WPForms\">WPForms</a> - Best WordPress Contact Form Plugin"
+msgstr ""
+
+#. Found in description header.
+msgid "Press &amp; Brand Assets"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"OptinMonster is unlike most plugins. Most plugins cost you money. OptinMonster makes you money. Most barely get updated - OptinMonster just keeps getting better.<br />\n"
+"  Chris Lema - VP of Product at Liquid Web"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Using OptinMonster <strong>we got a 300% improvement on our email conversion rates</strong> which translated into significant revenue. We have tried many similar lead generation plugins and nothing can compete with OptinMonster.<br />\n"
+"  Ian Cleary - Founder of RazorSocial"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"OptinMonster played a critical role in increasing my email optin conversion rate by 469%. In real numbers, <strong>that is the difference between $7,765 and $47,748 per month</strong> in revenue.<br />\n"
+"  Matthew Woodward - Professional Blogger and SEO Expert"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"In only 7 months, <strong>we added more than 95,000 names to our email list</strong> using OptinMonster's Exit Intent™ technology. We strongly recommend it!<br />\n"
+"  Michael Stelzner - Founder of Social Media Examiner"
+msgstr ""
+
+#. Found in description header.
+msgid "WordPress Popup Plugin"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "OptinMonster is the <a href=\"https://optinmonster.com\" rel=\"friend\" title=\"OptinMonster\">best WordPress lead generation and WordPress popup plugin solution</a> on the market. No other WordPress popup plugin or WordPress optin form solution compares to OptinMonster and the features it offers."
+msgstr ""
+
+#. Found in description header.
+msgid "Testimonial"
+msgstr ""
+
+#. Found in description header.
+msgid "Notes"
+msgstr ""
+
+#. Found in faq header.
+msgid "I downloaded this plugin but don't have an OptinMonster account. How can I get one?"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Click on the Campaigns tab and configure the output settings for each campaign you have created in your OptinMonster account."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Navigate to the OptinMonster tab at the bottom of your admin menu and enter your OptinMonster API Username and API Key to connect your OptinMonster account to your WordPress site."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Activate OptinMonster."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Install OptinMonster either via the WordPress.org plugin repository or by uploading the files to your server."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Visit WPBeginner to learn from our <a href=\"http://www.wpbeginner.com/category/wp-tutorials/\" rel=\"friend\" title=\"WordPress Tutorials\">WordPress Tutorials</a> and find out about other <a href=\"http://www.wpbeginner.com/category/plugins/\" rel=\"friend\" title=\"Best WordPress Plugins\">best WordPress plugins</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you like this plugin, then consider checking out our other projects:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is created by <a href=\"https://thomasgriffin.io\" rel=\"friend\" title=\"Thomas Griffin\">Thomas Griffin</a> and <a href=\"https://syedbalkhi.com\" rel=\"friend\" title=\"Syed Balkhi\">Syed Balkhi</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://optinmonster.com/features/monsterlinks/\" rel=\"friend\" title=\"MonsterLinks\">MonsterLinks</a> allow you to turn any link or image into a 2-step opt-in process which is proven to boost conversions by as much as 785%. Marketers use it to offer content upgrades and then use OptinMonster's success redirect feature for lead-magnet delivery."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Most people don't know what to do with analytics because they don't understand them. OptinMonster's <a href=\"https://optinmonster.com/features/conversion-analytics/\" rel=\"friend\" title=\"conversion analytics\">conversion analytics</a> is easy to understand and give you the stats that matter, so you can take action to improve your lead-generation strategy."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can try different content, headlines, layouts, styles, and opt-in triggers, to see what converts best."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "OptinMonster's easy <a href=\"https://optinmonster.com/features/easy-ab-split-testing/\" rel=\"friend\" title=\"A/B split testing\">A/B split testing</a> module helps you eliminate the guess work and make data-driven decisions on what works best."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "A/B testing is one of the most desired features, but normally it is extremely hard to setup for beginners. Well, we changed that."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Read how this helped one of our users:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This allows you to segment your email list and group your subscribers based on their interest and interaction with your website. Segmentation allows you to send relevant emails to your subscribers which results in higher open rates, higher click through rate, increased sales, greater revenue, greater customer retention, and lower unsubscribe rate."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "OptinMonster's <a href=\"https://optinmonster.com/features/page-level-targeting/\" rel=\"friend\" title=\"Page Level Targeting\">page level targeting module</a> allows you to display unique offers and campaigns based on visitor's location and interaction on your website."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Well, we have tested it, and it works wonders. We liked the results so much that we built-it into OptinMonster."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Have you ever wondered what if you created a highly targeted message based on the specific page, traffic referral source, category or tag of your site? How would that impact your conversions?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "But don't just take our word. See what one of the experts are saying:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We used it on our site, <a href=\"http://www.wpbeginner.com/\" rel=\"friend\" title=\"WPBeginner - Beginners Guide to WordPress\">WPBeginner</a>, and increased conversions by over 600%."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This allows you to re-engage the visitor and encourage them to subscribe. Exit-intent is proven to increase conversions."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "OptinMonster is among the pioneers of <a href=\"https://optinmonster.com/features/exit-intent/\" rel=\"friend\" title=\"Exit-Intent Technology\">exit-intent technology</a>. It helps you track user's mouse behavior and prompt them with a targeted message at the precise moment they are about to leave."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can also use custom HTML forms as well as use shortcodes to add other form plugins such as Gravity Forms, Ninja Forms, etc."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MailChimp, AWeber, Infusionsoft, GetResponse, ConstantContact, CampaignMonitor, Hubspot, Marketo, ActiveCampaign, Pardot, TotalSend, Emma, iContact, MailerLite, Customer.io, MailPoet, and FeedBlitz."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We started with the goal to make the most beginner friendly lead generation plugin. That's why OptinMonster works out of the box with all popular email marketing service providers including but not limited to:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All of our templates are 100% responsive and mobile friendly."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can choose from 8 different type of campaigns including: popup forms, floating bars, slide-ins, sidebar forms, after-post forms, in-line forms, mobile-only popup forms, and Canvas."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "OptinMonster allows you to build high converting opt-in forms in minutes, not hours!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Let's take a look at how OptinMonster can help you get more email subscribers."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Using OptinMonster forms combined with our exit-intent technology, page-level targeting, and behavior automation, users have seen an instant boost in conversion rate, <em>even upwards of 785%!</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "OptinMonster comes with an easy to use form builder that allows you to create beautiful optin forms that are proven to convert. You can create various type of campaigns including WordPress popup forms, floating header and footer bars, slide-ins also known as scroll triggered boxes, sidebar forms, after post forms, in-line forms, mobile-specific forms, welcome gates and more."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Did you know that over 70% of website visitors who leave your website will never return? Why? Because most people find your blog, read, and leave (that's just a natural pattern). Wouldn't it be nice if you can convert some of those people to subscribe to your blog? That's where <a href=\"https://optinmonster.com\" rel=\"friend\" title=\"OptinMonster\">OptinMonster</a> can help. OptinMonster helps you grow your email list and get more subscribers with popup and other types of high converting optin forms."
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy integration with over 25 different email marketing service providers"
+msgstr ""
+
+#. Found in description list item.
+msgid "Success messages and redirects"
+msgstr ""
+
+#. Found in description list item.
+msgid "MonsterEffects&trade; technology for eye-catching popup animations."
+msgstr ""
+
+#. Found in description list item.
+msgid "Canvas popup forms - use Canvas to add facebook like box, WooCommerce products, or anything else that you like."
+msgstr ""
+
+#. Found in description list item.
+msgid "Timed popup forms - display opt-ins after a certain time or on second pageview."
+msgstr ""
+
+#. Found in description list item.
+msgid "Scroll triggered popup and optin forms for enhanced conversion rates."
+msgstr ""
+
+#. Found in description list item.
+msgid "Mobile specific popup forms that are specifically targeted towards mobile visitors."
+msgstr ""
+
+#. Found in description list item.
+msgid "MonsterLinks&trade; 2-step optin technology <strong>which is proven to boost conversions by as much as 785%!</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Powerful A/B testing that helps you eliminate guess work and make data driven decisions on what works best."
+msgstr ""
+
+#. Found in description list item.
+msgid "Our signature Exit Intent&trade; technology to convert abandoning website visitors into subscribers and customers."
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom analytics with Google Analytics to tell you which campaigns are converting the best."
+msgstr ""
+
+#. Found in description list item.
+msgid "Category, tag and custom taxonomy output controls for robust campaign segmenting."
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom user-centric output settings to target visitors, logged-in users or a mixture of both."
+msgstr ""
+
+#. Found in description list item.
+msgid "Powerful page level targeting to build a hyper-segmented email list."
+msgstr ""
+
+#. Found in description list item.
+msgid "8 different types of optin forms."
+msgstr ""
+
+#. Found in description list item.
+msgid "High converting template library (100% responsive mobile-friendly)."
+msgstr ""
+
+#. Found in description header.
+msgid "What's Next"
+msgstr ""
+
+#. Found in description header.
+msgid "Credits"
+msgstr ""
+
+#. Found in description header.
+msgid "Full Features List"
+msgstr ""
+
+#. Found in description header.
+msgid "MonsterLinks&trade; - 2 Step Opt-in Technology"
+msgstr ""
+
+#. Found in description header.
+msgid "Detailed Conversion Analytics"
+msgstr ""
+
+#. Found in description header.
+msgid "Easy to Use A/B Split Testing"
+msgstr ""
+
+#. Found in description header.
+msgid "Advanced Page Level Targeting and Behavior Personalization"
+msgstr ""
+
+#. Found in description header.
+msgid "Powerful Exit-Intent&reg; Technology"
+msgstr ""
+
+#. Found in description header.
+msgid "Easy Integration with All Email Marketing Services"
+msgstr ""
+
+#. Found in description header.
+msgid "OptinMonster Builder + Optin Forms Templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new authentication method for the new OptinMonster REST API."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the API script domain for adblock."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed undefined index errors when API responses returned an error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "General plugin enhancements and bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility updates for WordPress 4.7."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added helper to remove faulty admin scripts from the OptinMonster settings area that would cause things to fail in some cases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug that caused the debugging report to not properly grab shortcodes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the async attribute to the OptinMonster API script output for improved performance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug that caused the MailPoet integration to fail in some scenarios."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved checks for when to output and localize the OptinMonster API script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug that caused people to have to define two constants to set the OptinMonster license key in config files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug that redirected people already using the plugin to the Welcome screen on update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug that caused issues with viewing the Welcome screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated support video."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with notices appearing oddly on OM screens."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with post category selections causing campaigns to load globally."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes and enhancements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved welcome screen for new installs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved individual campaign action links by always making them visible."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved shortcode processing - it is now automated (no longer need to enter in a setting) and supports non self-closing shortcodes!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added an inline shortcode \"copy to clipboard\" button for after post campaigns."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the confusing Delete button - campaigns should be deleted from the app."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the clear local cookies function (it actually works now!)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved all advanced output rules into a toggle field to make working with output settings easier."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added helpful tooltips in various areas of the admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Migration tab is now only shown if the old plugin exists on the site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a new \"Support\" tab with a helpful video, links to documentation and ability to send support details when submitting a ticket."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Automatically adding an after post optin after a post is now checked on by default for new after post campaigns."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When going live, campaigns will load globally by default unless other advanced output settings are specified."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the test mode setting in favor of using the \"show only to logged-in users\" setting for testing campaign output."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed after post optins from RSS feeds."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clarified language regarding how the \"load exclusively on\" and \"never load optin on\" settings work."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Campaigns will now load on the archive pages of individual taxonomies (if selected) by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated compatibility for WordPress 4.6."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new feature to allow reviews to be given for OptinMonster."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed shortcode ajax method that could possibly be exploited by other plugins to run malicious shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow API credentials to be force resaved to clean out stale messages about accounts being expired or invalid."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Readme so OptinMonster App and account requirement is clearly stated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed pre 4.1 installs getting incorrect API ID."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed omhide=true conflicting with MonsterLinks in some cases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed API script getting cached by CloudFlare Rocket Loader."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added No-Cache headers on API requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated debug code for better error handling."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated error messages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Welcome page on first install."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new API script with easier updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with adblock."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release."
+msgstr "İlik versiya."
+
+#. Found in changelog list item.
+msgid "Fix error with loading old API script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unused updater class reference and code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with API script and loading social services for specific popup types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with exclusive/never settings not showing previously selected pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added version number beside plugin header title for easy version checking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added extra XSS security checks with <code>esc_url_raw</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with not being able to uncheck clearing local cookies on optin save."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The \"Go Live\" link now enables an optin and sets the global/automatic loading setting as well."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with API script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed error with deploy."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed another error with plugin update deploy."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added improved UX by being able to create and edit optins from the plugin itself."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with passing lead data to redirect URLs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a dedicated edit output settings link for each optin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added enhanced conversion tracking with GA."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with possible duplicate submissions in some configurations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with GA clashes when using multiple tracking scripts on a page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with placeholder shims not working in IE7-9."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with not loading in IE7-9."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clear out global cookie when clearing local cookies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added focus effect for input fields when an optin is loaded."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed \"powered by\" link placement when using display effects."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed analytics bug that caused bounce rates to go whacky in GA."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed focus bug."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fixed bug with bounce rate in GA."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added unique optin slug on Overview screen to make life easier."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for assigning multiple domains to a single optin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug that caused site verification to fail."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to submit lightbox optin forms with the enter button."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with passing optin data to a redirect URL with query args."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug that caused paused split tests to continue to run."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to pause parent campaigns from the app."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Shortcode parsing now available for all optin types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to exclude by page slug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option for a privacy statement below optin form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to move floating bar to top of the page. No custom CSS needed!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added selection of scheduled posts in optin output settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed display error when multiple taxonomy terms were selected for an optin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue for defining API url with function before filters can be applied to it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with API script not grabbing checkbox and radio fields properly inside an optin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where dropdown options would not show on Safari for post targeting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug with embedded HubSpot forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for a new optin type - fullscreen optins!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with allowing split tests to be made primary."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with cookies and split tests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 13 new mobile themes!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with GA not tracking data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with lightbox and mobile optins in API script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed erroneous alert on screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with freezing and not working in IE10/11."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issues revolving around split tests not loading properly for mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where Mailpoet helper would not output for optins inserted via widget, shortcode or template tag."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where shortcode would not parse for optins inserted via widget, shortcode or template tag."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with clearing local cookies not working in some instances."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with analytics not tracking if multiple spaces were contained in a campaign name."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where fullscreen wouldn't work on mobile if exit intent setting was checked."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various bug fixes and improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Mobile optins now work for both mobile and tablet devices. Desktop optins work exclusively for desktop."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with fullscreen optins and mobile optins conflicting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with analytics tracking causing user sessions to be skewed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed JS error with analytics if GA was not yet defined."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed possible issue with sending empty names that caused bugs with provider integrations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with contact forms not displaying properly in optins. <a href=\"https://optinmonster.com/docs/how-to-use-wordpress-shortcodes-with-optinmonster/\" rel=\"friend\" title=\"How to use WordPress shortcodes with OptinMonster\">See this doc on how to update shortcode support in your optins.</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with canvas slide-in not being able to be closed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed conflict with jQuery and Modernizr when the optin object was not set properly."
+msgstr ""

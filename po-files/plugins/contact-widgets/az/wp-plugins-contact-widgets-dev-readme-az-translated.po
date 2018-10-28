@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Contact Widgets - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-28T16:48:47+00:00\n"
+"PO-Revision-Date: 2016-02-24 15:46:31+0000\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Beautifully display social media and contact information on your website with these simple widgets."
+msgstr ""
+
+#. Plugin name.
+msgid "Contact Widgets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Revert back to Font Awesome 4.7.0 with the option to force load Font Awesome v5.0.13 via filter <em>(see above)</em>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Introduce filter <code>wpcw_social_icons_cdn_url</code> to alter the default Font Awesome CDN URL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Introduce filter <code>wpcw_social_icons_use_cdn</code> (default: <code>false</code>) to load Font Awesome v4.7.0 files from MaxCDN."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Introduce filter <code>wpcw_social_icons_fontawesome_5</code> (default: <code>false</code>) to use Font Awesome 5 in Contact Widgets."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To force the plugin to load the files from MaxCDN you can return a <code>true</code> value in the filter <code>wpcw_social_icons_use_cdn</code>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Out of the box the Font Awesome files are bundled in Contact Widgets and served locally. However, we have included a filter to allow Font Awesome files to be loaded from MaxCDN."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where are the Font Awesome files served from?"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Props <a href=\"https://github.com/evanherman\">@EvanHerman</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Filter the social profile fields array before localizing into <code>admin.js</code>, fixing custom social profile icons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a Font Awesome 5 config file with <code>showMissingIcons</code> set to <code>false</code>, to prevent conflicts with plugins and themes using Font Awesome v4."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Here is an example of adding a 'fas' (Solid) icon to the social profiles."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If using Font Awesome v5, 'solid' &amp; 'regular' icons require a 'prefix' value when defining the custom icon. If excluded, the default prefix added to icons is 'fab', for the Font Awesome brand icons. If you are adding an icon that is not a brand icon, you will need to add a prefix. For example, if you wanted to add a <a href=\"https://fontawesome.com/icons/graduation-cap?style=solid\">graduation cap icon</a> you would need to add <code>'prefix' =&gt; 'fas'</code> to the attributes array."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Props <a href=\"https://github.com/evanherman\">@EvanHerman</a>, <a href=\"https://github.com/fjarrett\">@fjarrett</a>, <a href=\"https://github.com/salvoventura\">@salvoventura</a>, <a href=\"https://github.com/garrett-eclipse\">@garrett-eclipse</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Fix typo in widget descriptions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Update FontAwesome to 5.0.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Add support for \"Unsplash\" (https://unsplash.com/)"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I add additional fields to the Social Media Profiles widget?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I add additional fields to the Contact Information widget?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Development of this plugin is done <a href=\"https://github.com/godaddy/wp-contact-widgets\">on GitHub</a>. If you believe you have found a bug, or have a killer feature idea, please <a href=\"https://github.com/godaddy/wp-contact-widgets/issues\">open a new issue</a> there. Pull requests on existing issues are also welcome!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Contributing</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you run into a problem, post your question in the <a href=\"https://wordpress.org/support/plugin/contact-widgets\">plugin support forum</a> and we would be happy to help. Remember, the more information you can provide up-front, the easier it is for us to verify the problem and the faster we can help!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Support</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "English - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-da_DK.po\">Dansk</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-de_DE.po\">Deutsch</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-el.po\">Ελληνικά</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-es_ES.po\">Español</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-es_MX.po\">Español de México</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-fi.po\">Suomi</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-fr_FR.po\">Français</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-hi_IN.po\">हिन्दी</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-id_ID.po\">Bahasa Indonesia</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-it_IT.po\">Italiano</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-ja.po\">日本語</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-ko_KR.po\">한국어</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-mr.po\">मराठी</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-ms_MY.po\">Bahasa Melayu</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-nb_NO.po\">Norsk bokmål</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-nl_NL.po\">Nederlands</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-pl_PL.po\">Polski</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-pt_BR.po\">Português do Brasil</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-pt_PT.po\">Português</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-ru_RU.po\">Русский</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-sv_SE.po\">Svenska</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-th.po\">ไทย</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-tl.po\">Tagalog</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-tr_TR.po\">Türkçe</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-uk.po\">Українська</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-vi.po\">Tiếng Việt</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-zh_CN.po\">简体中文</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-zh_HK.po\">香港中文版</a> - <a href=\"https://github.com/godaddy/wp-contact-widgets/blob/master/languages/contact-widgets-zh_TW.po\">繁體中文</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Display your social media profiles in an attractive, intuitive way."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Social Media Profiles</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Contact Information</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube https://youtu.be/Y3NsrWHd_us]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Beautifully display social media and contact information on your website with simple, easy-to-use widgets."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Note: This plugin requires PHP 5.4 or higher</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Steps taken or details we should know to reproduce and verify the problem"
+msgstr ""
+
+#. Found in description list item.
+msgid "List of all active plugins on your site - <a href=\"https://youtu.be/g3TDziHl7zQ?t=1m51s\">Video tutorial</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Name and version of your theme - <a href=\"https://youtu.be/xUVRgorHSyA\">Video tutorial</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Screenshot(s) - <a href=\"https://www.take-a-screenshot.org/\">How-to guide</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Display your contact information including email address, phone number, fax and physical address (including a map)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Social Media Profiles widget requires a different set of options but follows the same principle as above."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Here is an example:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Adding additional fields to the Contact Information widget is as simple as adding a WordPress filter."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>30 Languages Supported</strong>"
+msgstr ""
+
+#. Screenshot description.
+msgid "Twenty Sixteen theme showing both widgets"
+msgstr ""
+
+#. Screenshot description.
+msgid "Social widget"
+msgstr ""
+
+#. Screenshot description.
+msgid "Contact widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WordPress 4.7 compatibility"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Props <a href=\"https://github.com/fjarrett\">@fjarrett</a>, <a href=\"https://github.com/jonathanbardo\">@jonathanbardo</a>, <a href=\"https://github.com/EvanHerman\">@EvanHerman</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Language support for Marathi"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Edit button not working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Update translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Plugin icon update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Minor bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Remove edit button during Customize preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Remove frameborder from map iframes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Compatibility issues when other plugins add widget form fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Use FontAwesome 4.7.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Defer map iframe loading by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Deprecate YouTube link while maintaining backward compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Add filter to change zoom level of map"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Add RSS to social networks"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Props <a href=\"https://github.com/jonathanbardo\">@jonathanbardo</a>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Props <a href=\"https://github.com/jonathanbardo\">@jonathanbardo</a>, <a href=\"https://github.com/fjarrett\">@fjarrett</a>, <a href=\"https://github.com/salvoventura\">@salvoventura</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Language support for 27 locales"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Language updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Support localization on Google Maps"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improve widget names"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WordPress 4.5 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Use WP-CLI nightlies in tests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Add 500px to social networks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Add front-end \"Edit\" link to quickly edit widgets in the Customizer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WordPress 4.6 compatibility"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Props <a href=\"https://github.com/jonathanbardo\">@jonathanbardo</a>, <a href=\"https://github.com/fjarrett\">@fjarrett</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added possibility to add custom fields to contact and social widget"
+msgstr ""

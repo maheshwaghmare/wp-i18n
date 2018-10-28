@@ -1,0 +1,950 @@
+# Translation of Plugins - WP Mail SMTP by WPForms - Development Readme (trunk) in Azerbaijani
+# This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-27 00:39:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: az\n"
+"Project-Id-Version: Plugins - WP Mail SMTP by WPForms - Development Readme (trunk)\n"
+
+#. Found in description list item.
+msgid "Changed: Optimize code loading."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Compatibility with other plugins, that are using Google Service or Google Client classes."
+msgstr ""
+
+#. Found in description header.
+msgid "0.1"
+msgstr ""
+
+#. Found in description header.
+msgid "0.2"
+msgstr ""
+
+#. Found in description header.
+msgid "0.3"
+msgstr ""
+
+#. Found in description header.
+msgid "0.3.1"
+msgstr ""
+
+#. Found in description header.
+msgid "0.3.2"
+msgstr ""
+
+#. Found in description header.
+msgid "0.4"
+msgstr ""
+
+#. Found in description header.
+msgid "0.4.1"
+msgstr ""
+
+#. Found in description header.
+msgid "0.4.2"
+msgstr ""
+
+#. Found in description header.
+msgid "0.5.0"
+msgstr ""
+
+#. Found in description header.
+msgid "0.5.1"
+msgstr ""
+
+#. Found in description header.
+msgid "0.5.2"
+msgstr ""
+
+#. Found in description header.
+msgid "0.6"
+msgstr ""
+
+#. Found in description header.
+msgid "0.7"
+msgstr ""
+
+#. Found in description header.
+msgid "0.8"
+msgstr ""
+
+#. Found in description header.
+msgid "0.8.1"
+msgstr ""
+
+#. Found in description header.
+msgid "0.8.2"
+msgstr ""
+
+#. Found in description header.
+msgid "0.8.3"
+msgstr ""
+
+#. Found in description header.
+msgid "0.8.4"
+msgstr ""
+
+#. Found in description header.
+msgid "0.8.5"
+msgstr ""
+
+#. Found in description header.
+msgid "0.8.6"
+msgstr ""
+
+#. Found in description header.
+msgid "0.8.7"
+msgstr ""
+
+#. Found in description header.
+msgid "0.9.0"
+msgstr ""
+
+#. Found in description header.
+msgid "0.9.1"
+msgstr ""
+
+#. Found in description header.
+msgid "0.9.2"
+msgstr ""
+
+#. Found in description header.
+msgid "0.9.3"
+msgstr ""
+
+#. Found in description header.
+msgid "0.9.4"
+msgstr ""
+
+#. Found in description header.
+msgid "0.9.5"
+msgstr ""
+
+#. Found in description header.
+msgid "0.9.6"
+msgstr ""
+
+#. Found in description header.
+msgid "0.10.0"
+msgstr ""
+
+#. Found in description header.
+msgid "0.10.1"
+msgstr ""
+
+#. Found in description header.
+msgid "0.11 - 2017-10-30"
+msgstr ""
+
+#. Found in description header.
+msgid "0.11.1 - 2017-10-30"
+msgstr ""
+
+#. Found in description header.
+msgid "0.11.2 - 2017-11-28"
+msgstr ""
+
+#. Found in description header.
+msgid "1.0.0 - 2017-12-12"
+msgstr ""
+
+#. Found in description header.
+msgid "1.0.1 - 2017-12-12"
+msgstr ""
+
+#. Found in description header.
+msgid "1.0.2 - 2017-12-12"
+msgstr ""
+
+#. Found in description header.
+msgid "1.1.0 - 2017-12-18"
+msgstr ""
+
+#. Found in description header.
+msgid "1.2.0 - 2017-12-21"
+msgstr ""
+
+#. Found in description header.
+msgid "1.2.1 - 2017-12-21"
+msgstr ""
+
+#. Found in description header.
+msgid "1.2.2 - 2017-12-27"
+msgstr ""
+
+#. Found in description header.
+msgid "1.2.3 - 2017-01-22"
+msgstr ""
+
+#. Found in description header.
+msgid "1.2.4 - 2017-01-28"
+msgstr ""
+
+#. Found in description header.
+msgid "1.2.5 - 2017-02-05"
+msgstr ""
+
+#. Found in description header.
+msgid "1.3.0 - 2018-06-28"
+msgstr ""
+
+#. Found in description header.
+msgid "1.3.1 - 2018-06-29"
+msgstr ""
+
+#. Found in description header.
+msgid "1.3.2 - 2018-06-29"
+msgstr ""
+
+#. Found in description header.
+msgid "[1.3.3] - 2018-07-05"
+msgstr ""
+
+#. Found in description list item.
+msgid "Make sure that other plugins/themes are not conflicting with our TGMPA library."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Introduce conditional autoloader to workaround Gmail PHP 5.5 requirement and its library compatibility issues vs PHP 5.3+ minimum viable plugin version."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Other SMTP: Clear new Debug messages about failed email delivery on next successful email sending."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Improved plugin autoloading functionality."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Improved helpful description tests of various options."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Remove whitespaces start/end of keys, secrets etc."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Gmail: switch to a wider scope to prevent possible issues in certain circumstances."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: For SendGrid and Mailgun allow using custom defined attachments names if present. Fallback to file name."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: \"client_id is empty\" is no more a problem, should be fixed."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Compatibility with lots of other plugins that use Google Analytics library of different versions."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: SMTP Debug output was empty in some cases."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: SendGrid and Mailgun: improperly sending plain text emails in html format."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: SendGrid: required text/plain part of email being the first one - fixes plain text emails not having links."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Support plugin installation into /mu-plugins/ directory."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Gmail: new button to remove connection and to connect a new Google account."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: SendGrid/Mailgun: provide support for multipart/alternative types of emails."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: New users: Recommend free WPForms Lite plugin for those who don't have it."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: New users: notify about not configured plugin settings."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: New users: provide default SMTP Port value for new users based on Encryption selection."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Improve User Debug Experience when doing Email Test - display helpful description and steps to fix the issue."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Notify site admins in wp-admin area with a notice about possible compatibility issues with other SMTP and email delivery plugins."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Notify site admins in wp-admin area with a notice about last failed email delivery. Cleans up on successful delivery."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: New option: remove all plugin data on plugin uninstall (when user deletes it)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: New option: force From Name rewrite regardless of the current value."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: New option: force From Email rewrite regardless of the current value."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Do not autoload Pepipost classes unless it's saved as active mailer in settings."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Do not autoload on each page request plugin settings from WordPress options table."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Use the proper path to load translations from plugin's <code>/languages</code> directory."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Providers autoloading improved for certain Windows-based installs."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Properly set <code>Auto TLS</code> option on plugin activation."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Plugin activation will not overwrite settings back to defaults."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Change the way sanitization is done to prevent accidental removal of useful data."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Strip slashes from plugin settings (useful for <code>From Name</code> option)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Debug output improved to handle SELinux and grsecurity."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: BCC support for Gmail was broken."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: <code>Auto TLS</code> sometimes can't be turned off."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: <code>Authentication</code> sometimes can't be turned off."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: <code>Return path</code> can't be turned off."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Improved escaping in debug reporting."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Slight typo in Gmail success message."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Gmail tokens were reset after clicking Save Settings."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Update X-Mailer emails header to show the real sender with a mailer and plugin version."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Fatal error for Gmail and SMTP mailers with Nginx web-server (without Apache at all)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Correctly handle Mailgun debug message for an incorrect api key."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Failed SMTP connections generate fatal errors."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Improve debug output for all mail providers."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Decrease the factual minimum WordPress version from 3.9 to 3.6."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Notice for default mailer."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Constants usage is working now, to define the SMTP password, for example."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Do not include certain files in dependency libraries that are not used by Google mailer. This should stop flagging plugin by Wordfence and VaultPress."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Improve wording of some helpful texts inside plugin admin area."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Do not sanitize passwords, api keys etc - as they may contain special characters in certain order and sanitization will break those values."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Better exceptions handling for Google authentication process."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Improve debug output - clear styles and context-aware content."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: New option \"Auto TLS\" for SMTP mailer. Default is enabled. Migration routine for all sites."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: PHPMailer using incorrect SMTPSecure value."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Global POST processing conflict."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please read <a href=\"https://wordpress.org/support/topic/wp-mail-smtp-support-policy/\">our support policy</a> for more information."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<a href=\"https://wpforms.com/docs/how-to-set-up-smtp-using-the-wp-mail-smtp-plugin/\" rel=\"friend\">Read our docs</a> to see the correct SMTP settings for each service."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: More helpful test email content (with a mailer name)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Escape properly all translations."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: SMTP password field does not display real password at all when using constants in <code>wp-config.php</code> to define it."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: SMTP password field now has \"password\" type."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: The new look of the admin area."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: New compatibility mode - for PHP 5.2 old plugin will be loaded, for PHP 5.3 and higher - new version of admin area and new functionality."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Added Mailgun email provider integration - using the API key and configured domain only."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Added SendGrid email provider integration - using the API key only."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Added Gmail &amp; G Suite email provider integration - without your email and password."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Automatic migration tool to move options from older storage format to a new one."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you've stumbled upon a bug, the best place to report it is in the <a href=\"https://github.com/awesomemotive/wp-mail-smtp\">WP Mail SMTP GitHub repository</a>. GitHub is where the plugin is actively developed, and posting there will get your issue quickly seen by our developers (myself and Slava). Once posted, we'll review your bug report and triage the bug. When creating an issue, the more details you can add to your report, the faster the bug can be solved."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! We have extensive documentation that covers setting up SMTP most popular email services."
+msgstr ""
+
+#. Found in faq header.
+msgid "I found a bug, now what?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Help! I need support or have an issue."
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I use this plugin to send email via Gmail, G Suite, Outlook.com, Office 365, Hotmail, Yahoo, or AOL SMTP?"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Choose your SMTP option (Mailgun SMTP, SendGrid SMTP, Gmail SMTP, or Other SMTP) and follow the instructions to set it up."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you like this plugin, then please consider checking out our other popular plugins:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We hope that you find WP Mail SMTP plugin helpful."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To see recommended settings for the popular services as well as troubleshooting tips, check out our <a href=\"https://wpforms.com/docs/how-to-set-up-smtp-using-the-wp-mail-smtp-plugin/\" rel=\"friend\">SMTP documentation</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Mail SMTP also gives you the option to insert your password in your wp-config.php file, so it's not visible in your WordPress settings."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Read our <a href=\"https://wpforms.com/fix-wordpress-email-notifications-with-sendgrid/\" rel=\"friend\">SendGrid documentation</a> for more details."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "SendGrid has a free SMTP plan that you can use to send up to 100 emails per day. With our native SendGrid SMTP integration, you can easily and securely set up SendGrid SMTP on your WordPress site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Read our <a href=\"https://wpforms.com/how-to-securely-send-wordpress-emails-using-gmail-smtp/\" rel=\"friend\">Gmail documentation</a> for more details."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Unlike other Gmail SMTP plugins, our Gmail SMTP option uses OAuth to authenticate your Google account, keeping your login information 100% secure."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This allows you to use your <a href=\"http://www.wpbeginner.com/beginners-guide/how-to-setup-a-professional-email-address-with-gmail-and-google-apps/\" rel=\"friend\">professional email address</a> and improve email deliverability."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Often bloggers and small business owners don't want to use third-party SMTP services. Well you can use your Gmail or G Suite account for SMTP emails."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Read our <a href=\"https://wpforms.com/how-to-send-wordpress-emails-with-mailgun/\" rel=\"friend\">Mailgun documentation</a> for more details."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Mail SMTP plugin offers a native integration with MailGun. All you have to do is connect your Mailgun account, and you will improve your email deliverability."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Mailgun SMTP is a popular SMTP service provider that allows you to send large quantities of emails. They allow you to send your first 10,000 emails for free every month."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Instead of having users use different SMTP plugins and workflows for different SMTP providers, we decided to bring it all in one. This is what makes WP Mail SMTP, the best SMTP solution for WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For all options, you can specify the \"from name\" and \"email address\" for outgoing emails."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Mail SMTP plugin includes four different SMTP setup options:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This helps you fix all WordPress not sending email issues."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Mail SMTP plugin allows you to easily reconfigure the wp_mail() function to use a trusted SMTP provider."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The combination of two causes your WordPress emails to not get delivered."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The issue is that most <a rel=\"friend\">WordPress hosting companies</a> don't have their servers properly configured for sending PHP emails."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This is a problem for a lot of WordPress sites because by default, WordPress uses the PHP mail function to send emails generated by WordPress or any contact form plugin like <a href=\"https://wpforms.com/\" rel=\"friend\">WPForms</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If the proper authentication isn't there, then the emails either go in your SPAM folder or worst not get delivered at all."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Popular email clients like Gmail, Yahoo, Outlook, etc are constantly improving their services to reduce email spam. One of the things their spam tools look for is whether an email is originating from the location it claims to be originating from."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "SMTP (Simple Mail Transfer Protocol) is an industry standard for sending emails. SMTP helps increase email deliverability by using proper authentication."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Mail SMTP fixes your email deliverability by reconfiguring the wp_mail() PHP function to use a proper SMTP provider."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Having problems with your WordPress site not sending emails? You're not alone. Over 900,000 websites use WP Mail SMTP to fix their email deliverability issues."
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose to use SMTP authentication or not."
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose SSL / TLS encryption."
+msgstr ""
+
+#. Found in description list item.
+msgid "Specify an SMTP port."
+msgstr ""
+
+#. Found in description list item.
+msgid "Specify an SMTP host."
+msgstr ""
+
+#. Found in description list item.
+msgid "All Other SMTP"
+msgstr ""
+
+#. Found in description header.
+msgid "Other SMTP"
+msgstr ""
+
+#. Found in description header, description list item.
+msgid "SendGrid SMTP"
+msgstr ""
+
+#. Found in description header, description list item.
+msgid "Gmail SMTP"
+msgstr ""
+
+#. Found in description header, description list item.
+msgid "Mailgun SMTP"
+msgstr ""
+
+#. Found in description header.
+msgid "How does WP Mail SMTP work?"
+msgstr ""
+
+#. Found in description header.
+msgid "What is SMTP?"
+msgstr ""
+
+#. Found in description header.
+msgid "WordPress Mail SMTP Plugin"
+msgstr ""
+
+#. Screenshot description.
+msgid "SMTP settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "SendGrid settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Mailgun settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Gmail / G Suite settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "WP Mail SMTP Settings page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed: Older PHP compatibility fix."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Announcement feed data."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Setting to hide announcement feed."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Announcement feed."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: WP CLI support improved."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Hide Pepipost for those who are not using it."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Turn off <code>$phpmailer-&gt;SMTPAutoTLS</code> when <code>No encryption</code> option is set to prevent error while sending emails."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Inputs for emails now have a proper type <code>email</code>, instead of a generic <code>text</code>."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Code style improvements and optimizations for both HTML and PHP."
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed: Localization fixes, proper locale name."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: PHP 5.2 notice."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Filter <code>wp_mail_smtp_admin_test_email_smtp_debug</code> to increase the debug message verbosity."
+msgstr ""
+
+#. Found in description list item.
+msgid "Added: Helper description to Return Path option."
+msgstr ""
+
+#. Short description.
+msgid "The most popular WordPress SMTP and PHP Mailer plugin. Trusted by over 900k sites."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"By all means please contact us to discuss features or options you'd like to see added to the plugin. We can't guarantee to add all of them, but we will consider all sensible requests. We can be contacted here:\n"
+"<a href=\"https://wpforms.com/contact/\" rel=\"friend\">https://wpforms.com/contact/</a>"
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Want to support us? Consider trying <a href=\"https://wpforms.com/?utm_source=wprepo&amp;utm_medium=link&amp;utm_campaign=liteversion\" rel=\"friend\" title=\"WPForms\">WPForms Pro</a> - the best WordPress contact form plugin!"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Navigate to the Settings area of WP Mail SMTP in the WordPress admin."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Activate WP Mail SMTP by WPForms."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Install WP Mail SMTP by WPForms either via the WordPress.org plugin repository or by uploading the files to your server. (See instructions on <a href=\"http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/\" rel=\"friend\">how to install a WordPress plugin</a>)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Visit <a href=\"http://www.wpbeginner.com/\" rel=\"friend\" title=\"WPBeginner\">WPBeginner</a> to learn from our <a href=\"http://www.wpbeginner.com/category/wp-tutorials/\" rel=\"friend\" title=\"WordPress Tutorials\">WordPress Tutorials</a> and find out about other <a href=\"http://www.wpbeginner.com/category/plugins/\" rel=\"friend\" title=\"Best WordPress Plugins\">best WordPress plugins</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can try the <a href=\"https://wordpress.org/plugins/wpforms-lite/\" rel=\"friend\">free version of WPForms plugin</a> to see why it's the best in the market."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Mail SMTP plugin was originally created by Callum Macdonald. It is now owned and maintained by the team behind <a href=\"https://wpforms.com/\" rel=\"friend\">WPForms</a> - the best drag &amp; drop form builder for WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Mail SMTP plugin also works with all major email services such as Gmail, Yahoo, Outlook, Microsoft Live, and any other email sending service that offers SMTP."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.monsterinsights.com/\" rel=\"friend\" title=\"MonsterInsights\">MonsterInsights</a> - Best Google Analytics Plugin for WordPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://optinmonster.com/\" rel=\"friend\" title=\"OptinMonster\">OptinMonster</a> - Get More Email Subscribers"
+msgstr ""
+
+#. Found in description header.
+msgid "What's Next"
+msgstr ""
+
+#. Found in description header.
+msgid "Credits"
+msgstr ""
+
+#. Plugin name.
+msgid "WP Mail SMTP by WPForms"
+msgstr ""
+
+#. Screenshot description.
+msgid "Send a Test Email"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Short answer: maybe."
+msgstr ""
+
+#. Found in faq header.
+msgid "Can you add feature x, y or z to the plugin?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can set the following options:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Specify an SMTP username and password."
+msgstr ""
+
+#. Found in description list item.
+msgid "Minor security fix, sanitize test email address."
+msgstr ""
+
+#. Found in description list item.
+msgid "Addition of Pepipost and cleanup of admin page."
+msgstr ""
+
+#. Found in description list item.
+msgid "Initial approach, copying the wp_mail function and replacing it"
+msgstr ""
+
+#. Found in description list item.
+msgid "Reworked approach as suggested by westi, added options page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Various bugfixes and added From options"
+msgstr ""
+
+#. Found in description list item.
+msgid "Added readme for WP-Plugins.org compatability"
+msgstr ""
+
+#. Found in description list item.
+msgid "Changed to use register_activation_hook for greater compatability"
+msgstr ""
+
+#. Found in description list item.
+msgid "Added the test email feature and cleaned up some other bits and pieces"
+msgstr ""
+
+#. Found in description list item.
+msgid "Added $phpmailer-&gt;ErroInfo to the test mail output"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed a bug in 0.4.1 and added more debugging output"
+msgstr ""
+
+#. Found in description list item.
+msgid "Upgraded to match 2.3 filters which add a second filter for from name"
+msgstr ""
+
+#. Found in description list item.
+msgid "Added a check to display a warning on versions prior to 2.3"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixed a pre 2.3 bug to do with mail from"
+msgstr ""
+
+#. Found in description list item.
+msgid "Added additional SMTP debugging output"
+msgstr ""
+
+#. Found in description list item.
+msgid "Added checks to only override the default from name / email"
+msgstr ""
+
+#. Found in description list item.
+msgid "Added port, SSL/TLS, option whitelisting, validate_email(), and constant options."
+msgstr ""
+
+#. Found in description list item.
+msgid "Internationalisation improvements."
+msgstr ""
+
+#. Found in description list item.
+msgid "Bugfix, call phpmailer_init_smtp() correctly, props Sinklar."
+msgstr ""
+
+#. Found in description list item.
+msgid "Add Settings link, props Mike Challis http://profiles.wordpress.org/MikeChallis/"
+msgstr ""
+
+#. Found in description list item.
+msgid "Bugfix, return WPMS_MAIL_FROM_NAME, props nacin."
+msgstr ""
+
+#. Found in description list item.
+msgid "Removed second options page menu props ovidiu."
+msgstr ""
+
+#. Found in description list item.
+msgid "Minor bugfix, remove use of esc_html() to improve backwards compatibility."
+msgstr ""
+
+#. Found in description list item.
+msgid "Bugfix, the settings link on the Plugin page was broken by 0.8.4."
+msgstr ""
+
+#. Found in description list item.
+msgid "The Settings link really does work this time, promise. Apologies for the unnecessary updates."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fix for a long standing bug that caused an error during plugin activation."
+msgstr ""
+
+#. Found in description list item.
+msgid "Optionally set $phpmailer-&gt;Sender from from email, helps with sendmail / mail()."
+msgstr ""
+
+#. Found in description list item.
+msgid "Removed changelog from plugin file, no need to duplicate it."
+msgstr ""
+
+#. Found in description list item.
+msgid "Typo in the From email description."
+msgstr ""
+
+#. Found in description list item.
+msgid "$phpmailer-&gt;language became protected in WP 3.2, no longer unset on debug output."
+msgstr ""
+
+#. Found in description list item.
+msgid "Removing the deprecation notice."
+msgstr ""
+
+#. Found in description list item.
+msgid "Fixing reported issue with passing by reference. props Adam Conway"
+msgstr ""
+
+#. Found in description list item.
+msgid "Improvement to the test email function, very low priority update."
+msgstr ""
+
+#. Found in description list item.
+msgid "Minor security fix, hat tip JD Grimes."
+msgstr ""

@@ -1,0 +1,1582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - W3 Total Cache - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-28T16:17:52+00:00\n"
+"PO-Revision-Date: 2016-01-14 07:28:44+0000\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Search Engine (SEO) &amp; Performance Optimization (WPO) via caching. Integrated caching: CDN, Minify, Page, Object, Fragment, Database support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added additional security headers (via amiga-500)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added JSON caching support for Pro subscribers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added compatibility for AMPforWP plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter support before (w3tc_process_content) and after (w3tc_processed_content) a cache object is created"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter support for managing database cache settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added purge support for JSON cache e.g. cached REST API requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added API for flushing individual cache groups via flush_group function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter support for managing cache groups"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for page cache priming via WP-CLI via prime function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added StackPath CDN integration (including full site delivery)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved New Relic requirements in compatibility test"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved reliabilty of CSS embed options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved HSTS support (via Dave Welsh)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Imporved garbage collection for basic disk caching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling for /<em>&lt;![CDATA[</em>/ in HTML minify engine"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved FAQ, they're now hosted in the GitHub public repository"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Limelight Networks CDN integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved database caching, frequent wp_options no longer flush posts or comments data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved minify's handling of query strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved nginx.conf to support HSTS for static files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved nginx.conf to support xml caching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of errors when full site delivery isn't set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed purging of feeds when cache feeds option is enabeld"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed MaxCDN test button failure when debug mode is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed undefined offset error in fragment cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warning thrown when purge all was selected (via nigrosimone)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed minified files not being hosted by CDN when enabled if \"host minified files\" is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enterprise features are now available to Pro subscribers! Including reading from multiple databases concurrently and purging caches across multiple hosts via a Message Bus"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added object caching of AJAX calls (via andyexeter)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for CDN hosted media to media library (inspired by amiga-500)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added toggle for CORS header to improve inter-operatbility with various CDN providers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added page caching by cookie name or value (sponsored by SQweb)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added multiple CDN support i.e. static file objects and pages, posts, feeds, API responses etc to use different respective CDN providers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added X-Forwarded-Proto header for use cases like HTTPS recognition behind proxies or load balancers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added HTTP/2 push headers for disk enhanced page caching (via nigrosimone)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of timeouts to origin push CDN proviers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved page cache's accepted query string handling to handle optional values and add support for disk enhanced mode (via amiga-500, nigrosimone)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved MaxCDN set up wizard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved configuration file management"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved visual langage of the compatibility test (via Furniel)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved minify file locking logic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved content type matching and cache hits as a result"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Full Site Delivery configuration user flow on the General and CDN settings screens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of UTF-8 encoded files by writing them in binary (via jikamens)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed reliability of Google Drive (via jikamens)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incorrect reuse of redis connections when persistent connections option enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed typo in object cache engine (via Furniel)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing commas in CSS (via nigrosimone)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed empty minify cache file written when file locking enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incorrect minify cache data written if target directory missing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed anonymous usage tracking, default to disabled"
+msgstr ""
+
+#. Found in faq header.
+msgid "Installation Instructions"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>KEY FEATURES</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The <strong>only</strong> web host agnostic WordPress Performance Optimization (WPO) framework recommended by countless web developers and web hosts. Trusted by numerous companies like: AT&amp;T, stevesouders.com, mattcutts.com, mashable.com, smashingmagazine.com, makeuseof.com, kiss925.com, pearsonified.com, lockergnome.com, johnchow.com, ilovetypography.com, webdesignerdepot.com, css-tricks.com and tens of thousands of others."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>BENEFITS</em>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Reverse proxy integration via Nginx or Varnish"
+msgstr ""
+
+#. Found in description list item.
+msgid "Extension framework for customization or extensibility e.g. New Relic, Cloudflare, WPML and more"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching statistics for performance insights"
+msgstr ""
+
+#. Found in description list item.
+msgid "Various security features"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching of fragments in memory or on disk"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching of (minified and compressed) pages and posts in memory or on disk or on (FSD) CDN (by user agent group)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Secure Socket Layer (SSL) support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Accelerated Mobile Pages (AMP) support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Optimized progressive render: pages start rendering quickly and can be interacted with more quickly"
+msgstr ""
+
+#. Found in description list item.
+msgid "Improvements in search engine result page rankings, especially for mobile-friendly websites and sites that use SSL"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We are aware of no incompatibilities with <a href=\"http://httpd.apache.org/\">apache</a> 1.3+, <a href=\"https://www.nginx.com/solutions/web-server/\">nginx</a> 0.7+, <a href=\"http://www.iis.net/\">IIS</a> 5+ or <a href=\"https://www.litespeedtech.com/products/litespeed-web-server/overview\">litespeed</a> 4.0.2+. If there's a web server you feel we should be actively testing (e.g. <a href=\"https://www.lighttpd.net/\">lighttpd</a>), we're <a href=\"https://www.w3-edge.com/contact/\">interested in hearing</a>."
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://www.dynatrace.com/en_us/application-performance-management/products/performance-center.html\">DynaTrace (formerly Gomez) Performance Test</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://developers.google.com/speed/pagespeed/\">Google Page Speed</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://www.akamai.com/\">Akamai / Cotendo</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://mediatemple.net/services/truespeed-cdn/\">MediaTemple TrueSpeed (formerly ProCDN)</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://www.verizondigitalmedia.com/\">Verizon Digital Media Services (formerly EdgeCast)</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://www.cloudflare.com/features-cdn/\">CloudFlare</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please reach out to all of these people and support their projects if you're so inclined."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "It's quite difficult to recall all of the innovators that have shared their thoughts, code and experiences in the blogosphere over the years, but here are some names to get you started:"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://xcache.lighttpd.net/\">mOo</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://eaccelerator.net/\">Bart Vanbraban</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://notmysock.org/\">Gopal Vijayaraghavan</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://toys.lerdorf.com/\">Rasmus Lerdorf</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Daniel Cowgill"
+msgstr ""
+
+#. Found in description list item.
+msgid "George Schlossnagle"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://gravitonic.com/\">Andrei Zmievski</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://rtdean.livejournal.com/\">Ryan Dean</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.nczonline.net/blog/2009/06/23/loading-javascript-without-blocking/\">Nicholas Zakas</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://wonko.com/\">Ryan Grove</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://mrclay.org/\">Steve Clay</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://stevesouders.com/\">Steve Souders</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Read <a href=\"https://twitter.com/w3edge/favorites\">testimonials</a> from W3TC users."
+msgstr ""
+
+#. Found in description header.
+msgid "Who do I thank for all of this?"
+msgstr ""
+
+#. Found in description header.
+msgid "What users have to say:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Install the plugin to read the full FAQ on the plugins FAQ tab."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! Please <a href=\"https://www.w3-edge.com/contact/\">reach out to us</a> and we'll get you acclimated so you can \"set it and forget it.\""
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You will be able to see it instantly on each page load, but for tangible metrics, consider the following tools:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can however try adding <em>define('FS_METHOD', 'direct');</em> to wp-config.php to circumvent the file and folder checks."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Typically, you should tell your web host about the permission issue and they should be able to resolve it."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin uses WordPress FileSystem functionality to write to files. It checks if the file owner, file owner group of created files match process owner. If this is not the case it cannot write or modify files."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "First, make sure the plugin is not active (disabled) network-wide. Then make sure it's deactivated network-wide. Now you should be able to successful upgrade without breaking your site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Add <code>/.+</code> to page cache \"Never cache the following pages\" option on the page cache settings tab."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If a theme or it's files use the call <code>php_flush()</code> or function <code>flush()</code> that will interfere with the plugins normal operation; making the plugin send cached files before essential operations have finished. The <code>flush()</code> call is no longer necessary and should be removed."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. Follow these steps:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Captcha and recaptcha will work fine, however you will need to prevent any pages with forms from being cached. Add the page's URI to the \"Never cache the following pages\" box on the Page Cache Settings tab."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "As always, it never hurts to back up your database first."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If the domain name of your site has changed, this tool is useful in updating your posts and pages to use the current addresses. For example, if your site used to be www.domain.com, and you decided to change it to domain.com, the result would either be many \"broken\" images or many unnecessary redirects (which slow down the visitor's browsing experience). You can use this tool to correct this and similar cases. Correcting the URLs of your images also allows the plugin to do a better job of determining which images are actually hosted with the CDN."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Now go to the General tab and click the \"Enable\" checkbox and save the settings to enable CDN functionality and empty the cache for the changes to take effect.  If preview mode is active you will need to \"deploy\" your changes for them to take effect."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You may optionally, specify up to 10 hostnames to use rather than the default hostname, doing so will improve the render performance of your site's pages."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "First <a href=\"http://www.rackspacecloud.com/cloud_hosting_products/files\">create an account</a>. Next, in the \"Content Delivery Network\" section of the \"General Settings\" tab, select Rackspace Cloud Files as the \"CDN Type.\" Now, in the \"Configuration\" section of the \"Content Delivery Network\" tab, enter the \"Username\" and \"API key\" associated with your account (found in the API Access section of the <a href=\"https://manage.rackspacecloud.com/APIAccess.do\">rackspace cloud control panel</a>) in the respective fields. Next enter a name for the container to use (avoid special characters and spaces). If the operation is successful, the container's ID will automatically appear in the \"Replace site's hostname with\" field. You may optionally, specify the container name and container ID of an <a href=\"https://manage.rackspacecloud.com/CloudFiles.do\">existing container</a> if you wish. Click the \"Test Cloud Files Upload\" button and make sure that the test is successful, if not check your settings and try again. Save your settings. You're now ready to export your media library, theme and any other files to the CDN."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Now go to the General tab and click the \"Enable\" checkbox and save the settings to enable CDN functionality and empty the cache for the changes to take effect. If preview mode is active you will need to \"deploy\" your changes for them to take effect."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You may optionally, specify up to 10 hostnames to use rather than the default hostname, doing so will improve the render performance of your site's pages. Additional hostnames should also be specified in the settings for the distribution you're using in the AWS Management Console."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To use CloudFront, perform all of the steps above, except select the \"Amazon CloudFront\" \"CDN type\" in the \"Content Delivery Network\" section of the \"General Settings\" tab. When creating a new bucket, the distribution ID will automatically be populated. Otherwise, proceed to the <a href=\"https://console.aws.amazon.com/cloudfront/\">AWS Management Console</a> and create a new distribution: select the S3 Bucket you created earlier as the \"Origin,\" enter a <a href=\"http://docs.amazonwebservices.com/AmazonCloudFront/latest/DeveloperGuide/index.html?CNAMEs.html\">CNAME</a> if you wish to add one or more to your DNS Zone. Make sure that \"Distribution Status\" is enabled and \"State\" is deployed. Now on \"Content Delivery Network\" tab of the plugin, copy the subdomain found in the AWS Management Console and enter the CNAME used for the distribution in the \"CNAME\" field."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Unless you wish to use CloudFront, you're almost done, skip to the next paragraph if you're using CloudFront. Go to the \"General Settings\" tab and click the \"Enable\" checkbox and save the settings to enable CDN functionality. Empty the cache for the changes to take effect. If preview mode is active you will need to \"deploy\" your changes for them to take effect."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "First <a href=\"http://aws.amazon.com/\">create an S3 account</a> (unless using origin pull); it may take several hours for your account credentials to be functional. Next, you need to obtain your \"Access key ID\" and \"Secret key\" from the \"Access Credentials\" section of the \"<a href=\"http://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key\">Security Credentials</a>\" page of \"My Account.\" Make sure the status is \"active.\" Next, make sure that \"Amazon Simple Storage Service (Amazon S3)\" is the selected \"CDN type\" on the \"General Settings\" tab, then save the changes. Now on the \"Content Delivery Network Settings\" tab enter your \"Access key,\" \"Secret key\" and enter a name (avoid special characters and spaces) for your bucket in the \"Create a bucket\" field by clicking the button of the same name. If using an existing bucket simply specify the bucket name in the \"Bucket\" field. Click the \"Test S3 Upload\" button and make sure that the test is successful, if not check your settings and try again. Save your settings."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Now go to the General tab and click the checkbox and save the settings to enable CDN functionality and empty the cache for the changes to take effect."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Login to your CDN providers control panel or account management area. Following any set up steps they provide, create a new \"pull zone\" or \"bucket\" for your site's domain name. If there's a set up wizard or any troubleshooting tips your provider offers, be sure to review them. In the CDN tab of the plugin, enter the hostname your CDN provider provided in the \"replace site's hostname with\" field. You should always do a quick check by opening a test file from the CDN hostname, e.g. http://cdn.domain.com/favicon.ico. Troubleshoot with your CDN provider until this test is successful."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Technically no, a CDN is a high performance cache that stores static assets (your theme files, media library etc) in various locations throughout the world in order to provide low latency access to them by readers in those regions."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use the \"Help\" button available on the Minify settings tab. Once open, the tool will look for and populate the CSS and JS files used in each template of the site for the active theme. To then add a file to the minify settings, click the checkbox next to that file. The embed location of JS files can also be specified to improve page render performance. Minify settings for all installed themes can be managed from the tool as well by selecting the theme from the drop down menu. Once done configuring minify settings, click the apply and close button, then save settings in the Minify settings tab."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You should backup your database before performing this operation."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The tool will scan your posts and pages for the cases above and copy them to your media library, update your posts to use the link addresses and produce a .htaccess file containing the list of of permanent redirects, so search engines can find the files in their new location."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The media library import tool is for old or \"messy\" WordPress installations that have attachments (images etc in posts or pages) scattered about the web server or \"hot linked\" to 3rd party sites instead of properly using the media library."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, built from the ground up with scale and current hosting paradigms in mind."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, indirectly - if you have a lot of bloggers working with you, you will find that it feels like you have a server dedicated only to WP Admin once this plugin is enabled; the result, increased productivity."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Indeed it does."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, on the contrary if you use the minify settings you will improve their performance by several times."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "On the contrary, as with any other action a user can perform on a site, faster performance will encourage more of it. The cache is so quickly rebuilt in memory that it's no trouble to show visitors the most current version of a post that's experiencing Digg, Slashdot, Drudge Report, Yahoo Buzz or Twitter effect."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "That depends on how you use your site and where most of your readers read your site (regionally). Here's a short list:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We're always working to make this more simple and straight forward in future releases, but this is not an undertaking we can realize on our own. When you find a plugin, theme or file that is not compatible with minification reach out to the developer and ask them either to provide a minified version with their distribution or otherwise make sure their code is minification-friendly."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "A good rule of thumb is to try auto mode, work with a developer to identify the code that is not compatible and start with combine only mode (the safest optimization) and increase the optimization to the point just before functionality (JavaScript) or user interface / layout (CSS) breaks in your site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Great question. W3 Total Cache uses several open source tools to attempt to combine and optimize CSS, JavaScript and HTML etc. Unfortunately some trial and error is required on the part of developers is required to make sure that their code can be successfully minified with the various libraries W3 Total Cache supports. Even still, if developers do test their code thoroughly, they cannot be sure that interoperability with other code your site may have. This fault does not lie with any single party here, because there are thousands of plugins and theme combinations that a given site can have, there are millions of possible combinations of CSS, JavaScript etc."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To use all features in the suite, a minimum of version WordPress 2.8 with PHP 5.3 is required. Earlier versions will benefit from our Media Library Importer to get them back on the upgrade path and into a CDN of their choosing."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It's in every web site owner's best interest is to make sure that the performance of your site is not hindering its success."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Rarely do readers take the time to complain. They typically just stop browsing earlier than you'd prefer and may not return altogether. This is the only plugin specifically designed to make sure that all aspects of your site are as fast as possible. Google is placing more emphasis on the <a href=\"http://searchengineland.com/site-speed-googles-next-ranking-factor-29793\">speed of a site as a factor in rankings</a>; this plugin helps with that too."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<strong>It's a complete framework.</strong> Most cache plugins available do a great job at achieving a couple of performance aims. Our plugin remedies numerous performance reducing aspects of any web site going far beyond merely reducing CPU usage (load) and bandwidth consumption for HTML pages alone. Equally important, the plugin requires no theme modifications, modifications to your .htaccess (mod_rewrite rules) or programming compromises to get started. Most importantly, it's the only plugin designed to optimize all practical hosting environments small or large. The options are many and setup is easy."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There are a number of <a href=\"http://www.websiteoptimization.com/speed/tweak/psychology-web-performance/\">resources</a> that have been documenting the role of performance in success on the web, W3 Total Cache exists to give you a framework to tune your application or site without having to do years of research."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Many of the other consequences of poor performance were discovered more than a decade ago:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Search engines like Google, measure and factor in the speed of web sites in their ranking algorithm. When they recommend a site they want to make sure users find what they're looking for quickly. So in effect you and Google should have the same objective."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "A thousandth of a second is not a long time, yet the impact is quite significant. Even if you're not a large company (or just hope to become one), a loss is still a loss. However, there is a solution to this problem, take advantage."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Speed is among the most significant success factors web sites face. In fact, your site's speed directly affects your income (revenue) &mdash; it's a fact. Some high traffic sites conducted research and uncovered the following:"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://www.webpagetest.org/test\">WebPagetest</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://tools.pingdom.com/\">Pingdom</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Empty all caches"
+msgstr ""
+
+#. Found in faq list item.
+msgid "If Database cache enabled in W3 Total Cache add <code>wp_gdsr</code> to \"Ignored query stems\" field in the Database Cache settings tab, otherwise ratings will not updated after voting"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Enable dynamic loading of ratings by checking GD Star Rating -&gt; Settings -&gt; Features \"Cache support option\""
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://www.limelight.com/\">Limelight Networks</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://www.rackspace.com/cloud/files\">Rackspace Cloud Files</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://aws.amazon.com/cloudfront/\">Amazon Cloudfront</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://www.maxcdn.com/\">MaxCDN</a>, <a href=\"http://tracking.maxcdn.com/c/15753/3982/378?u=https%3A%2F%2Fsecure.maxcdn.com%2F%3Fpackage%3Dstarter%26coupon%3Dw3tc\">Discount Coupon Code</a>"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Are perceived as less attractive (Skadberg and Kimmel 2004)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Are perceived as less interesting (Ramsay, Barbesi, and Preece 1998)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Increased exit rates (Nielsen 2000)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Reduced conversion rates (Akamai 2007)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Reduced flow rates (Novak, Hoffman, and Yung 200)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Increased blood pressure (Scheirer et al. 2002)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Increased user frustration (Ceaparu et al. 2004)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Lower perceived quality (Bouch, Kuchinsky, and Bhatti 2000)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Lower perceived credibility (Fogg et al. 2001)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Amazon.com: <strong>+100 ms</strong> (speed decrease) -&gt; <strong>-1% sales loss</strong> [<a href=\"http://home.blarg.net/~glinden/StanfordDataMining.2006-11-29.ppt\">1</a>]"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Yahoo.com: <strong>+400 ms</strong> (speed decrease) -&gt; <strong>-5-9% full-page traffic loss</strong> (visitor left before the page finished loading) [<a href=\"http://www.slideshare.net/stoyan/yslow-20-presentation\">2</a>]"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Google.com: <strong>+500 ms</strong> (speed decrease) -&gt; <strong>-20% traffic loss</strong> [<a href=\"http://home.blarg.net/~glinden/StanfordDataMining.2006-11-29.ppt\">1</a>]"
+msgstr ""
+
+#. Found in faq header.
+msgid "I don't have time to deal with this, but I know I need it. Will you help me?"
+msgstr ""
+
+#. Found in faq header.
+msgid "This is too good to be true, how can I test the results?"
+msgstr ""
+
+#. Found in faq header.
+msgid "A notification about file owner appears along with an FTP form, how can I resolve this?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm getting blank pages or 500 error codes when trying to upgrade on WordPress in network mode"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I cache only the home page?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I see garbage characters instead of the normal web site, what's going on here?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is this plugin comptatible with GD Star Rating?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is this plugin comptatible with TDO Mini Forms?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the purpose of the \"modify attachment URLs\" button?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I configure Rackspace Cloud Files as my CDN?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I configure Amazon Simple Storage Service (Amazon S3) or Amazon CloudFront as my CDN?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I use an Origin Pull (Mirror) CDN?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I don't understand what a CDN has to do with caching, that's completely different, no?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I find the JS and CSS to optimize (minify) them with this plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the purpose of the \"Media Library Import\" tool and how do I use it?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is this plugin server cluster and load balancer friendly?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Which web servers do you support?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will this plugin speed up WP Admin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does this plugin work with BuddyPress (bbPress)?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does this plugin work with WordPress in network mode?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will the plugin interfere with other plugins or widgets?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What about comments? Does the plugin slow down the rate at which comments appear?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Who do you recommend as a CDN (Content Delivery Network) provider?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why doesn't minify work for me?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Which WordPress versions are supported?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I've never heard of any of this stuff; my site is fine, no one complains about the speed. Why should I install this?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why is W3 Total Cache better than other caching solutions?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why does speed matter?"
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<em>Optional:</em> On the \"User Agent Groups\" tab, specify any user agents, like mobile phones if a mobile theme is used."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<em>Optional:</em> On the \"Object Cache\" tab, all of the recommended settings are preset. If using a shared hosting account use the \"disk\" method with caution, the response time of the disk may not be fast enough, so this option is disabled by default. Test this option with and without database cache to ensure that it provides a performance increase."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<em>Optional:</em> On the \"Database Cache\" tab, the recommended settings are preset. If using a shared hosting account use the \"disk\" method with caution, the response time of the disk may not be fast enough, so this option is disabled by default. Try object caching instead for shared hosting."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<em>Recommended:</em> If you already have a content delivery network (CDN) provider, proceed to the \"Content Delivery Network\" tab and populate the fields and set your preferences. If you do not use the Media Library, you will need to import your images etc into the default locations. Use the Media Library Import Tool on the \"Content Delivery Network\" tab to perform this task. If you do not have a CDN provider, you can still improve your site's performance using the \"Self-hosted\" method. On your own server, create a subdomain and matching DNS Zone record; e.g. static.domain.com and configure FTP options on the \"Content Delivery Network\" tab accordingly. Be sure to FTP upload the appropriate files, using the available upload buttons."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<em>Recommended:</em> On the \"Browser Cache\" tab, HTTP compression is enabled by default. Make sure to enable other options to suit your goals."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "<em>Recommended:</em> On the \"Minify Settings\" tab, all of the recommended settings are preset. If auto mode causes issues with your web site's layout, switch to manual mode and use the help button to simplify discovery of your CSS and JS files and groups. Pay close attention to the method and location of your JS group embeddings. See the plugin's FAQ for more information on usage."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "The \"Compatibility mode\" option found in the advanced section of the \"Page Cache Settings\" tab will enable functionality that optimizes the interoperablity of caching with WordPress, is disabled by default, but highly recommended. Years of testing in hundreds of thousands of installations have helped us learn how to make caching behave well with WordPress. The tradeoff is that disk enhanced page cache performance under load tests will be decreased by ~20% at scale."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Now click the \"Settings\" link to proceed to the \"General Settings\" tab; in most cases, \"disk enhanced\" mode for page cache is a \"good\" starting point."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Locate and activate the plugin on the \"Plugins\" page. Page caching will <strong>automatically be running</strong> in basic mode. Set the permissions of wp-content and wp-content/uploads back to 755, e.g. in the terminal: <code># chmod 755 /var/www/vhosts/domain.com/httpdocs/wp-content/</code>."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Login as an administrator to your WordPress Admin account. Using the \"Add New\" menu option under the \"Plugins\" section of the navigation, you can either search for: w3 total cache or if you've downloaded the plugin already, click the \"Upload\" link, find the .zip file you download and then click \"Install Now\". Or you can unzip and FTP upload the plugin to your plugins directory (wp-content/plugins/). In either case, when done wp-content/plugins/w3-total-cache/ should exist."
+msgstr ""
+
+#. Found in installation list item, faq list item.
+msgid "Deactivate and uninstall any other caching plugin you may be using. Pay special attention if you have customized the rewrite rules for fancy permalinks, have previously installed a caching plugin or have any browser caching rules as W3TC will automate management of all best practices. Also make sure wp-content/ and wp-content/uploads/ (temporarily) have 777 permissions before proceeding, e.g. in the terminal: <code># chmod 777 /var/www/vhosts/domain.com/httpdocs/wp-content/</code> using your web hosting control panel or your FTP / SSH account."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Improve the user experience for your readers without having to change WordPress, your theme, your plugins or how you produce your content."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "http://www.youtube.com/watch?v=rkmrQP8S5KY"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "An inside look:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "W3 Total Cache improves the SEO and user experience of your site by increasing website performance, reducing download times via features like content delivery network (CDN) integration."
+msgstr ""
+
+#. Found in description list item.
+msgid "WP-CLI support for cache purging, query string updating and more"
+msgstr ""
+
+#. Found in description list item.
+msgid "Import post attachments directly into the Media Library (and CDN)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Non-blocking JavaScript embedding"
+msgstr ""
+
+#. Found in description list item.
+msgid "JavaScript grouping by template (home page, post page etc) with embed location control"
+msgstr ""
+
+#. Found in description list item.
+msgid "Browser caching using cache-control, future expire headers and entity tags (ETag) with \"cache-busting\""
+msgstr ""
+
+#. Found in description list item.
+msgid "Minification of inline, embedded or 3rd party CSS (with automated updates)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Minification of inline, embedded or 3rd party JavaScript (with automated updates)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Minification of posts and pages and feeds"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching of objects in memory or on disk"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching of database objects in memory or on disk"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching of search results pages (i.e. URIs with query string variables) in memory or on disk"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching of feeds (site, categories, tags, comments, search results) in memory or on disk or on CDN"
+msgstr ""
+
+#. Found in description list item.
+msgid "Caching of (minified and compressed) CSS and JavaScript in memory, on disk or on CDN"
+msgstr ""
+
+#. Found in description list item.
+msgid "Mobile support: respective caching of pages by referrer or groups of user agents including theme switching for groups of referrers or user agents"
+msgstr ""
+
+#. Found in description list item.
+msgid "Transparent content delivery network (CDN) management with Media Library, theme files and WordPress itself"
+msgstr ""
+
+#. Found in description list item.
+msgid "Compatible with shared hosting, virtual private / dedicated servers and dedicated servers / clusters"
+msgstr ""
+
+#. Found in description list item.
+msgid "Up to 80% bandwidth savings via minify and HTTP compression of HTML, CSS, JavaScript and feeds"
+msgstr ""
+
+#. Found in description list item.
+msgid "Improved web server performance; sustain high traffic periods"
+msgstr ""
+
+#. Found in description list item.
+msgid "Reduced page load time: increased visitor time on site; visitors view more pages"
+msgstr ""
+
+#. Found in description list item.
+msgid "\"Instant\" repeat page views: browser caching"
+msgstr ""
+
+#. Found in description list item.
+msgid "Improved conversion rates and \"<a href=\"http://googlewebmastercentral.blogspot.com/2009/12/your-sites-performance-in-webmaster.html\">site performance</a>\" which <a href=\"http://googlewebmastercentral.blogspot.com/2010/04/using-site-speed-in-web-search-ranking.html\">affect your site's rank</a> on Google.com"
+msgstr ""
+
+#. Found in description list item.
+msgid "At least 10x improvement in overall site performance (Grade A in <a href=\"https://www.webpagetest.org/\">WebPagetest</a> or significant <a href=\"http://code.google.com/speed/page-speed/\">Google Page Speed</a> improvements) <strong>when fully configured</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed regression with browser caching and query strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added flushing of AMP pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Swarmify Video Optimization Extension [Hat tip the Swarmify Team]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated CSSTidy library (via nigrosimone and amiga-500)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of custom files with CDN (via amiga-500)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of URLs that omit the protocol"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved minify debug logging"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved functionality with existing Cloudfront Distributions when configuring Full Site Delivery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of headers for Microsoft Azure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of exclusions for e-commerce in Genesis Framework"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of # in URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved file name generation on Windows for IIS servers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved JavaScript interoperability with CDATA use cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved reliability of minify in manual mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug with accelerated mobile pages (via nigrosimone)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of HTTP compressed documents in PHP v5.3 (via amiga-500)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of cached http compressed objects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved reliability of object cache, transients now fallback to database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved CSS embed handling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved HTTP/2 support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved PHP 4.3 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved PHP 7.0 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved reliability of object caching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved initial CDN configuration reliability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with Rackspace Cloud Files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of purging of modified pages / posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of uncompressed minified files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option management support for wp-cli"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added HTTP/2 Push support for minified files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to cache WP Admin. Recommended setting, is off. (Improved WP Admin performance with object caching enabled)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Microsoft Azure’s latest API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added expiration headers to webP images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of .svgz files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling HTTP compression for uncached pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed security issue with the creation of dot folders that could be abused"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed security issue by protecting configuration data by adding .php to relevant files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved backwards compatibility for 3rd party implementations against legacy W3TC functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved directory handling on IIS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatability with Jetpack"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with Yoast SEO sitemap caching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved default settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added notification for users that are still using PHP 5.2 (end of life in 2011)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added extension to support Accelerated Mobile Pages (AMP)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling Cloudflare zone list being incomplete for users with many zones"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing namespace, which caused issues with other implementations of Google APIs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Cloudflare compatibility (now using latest APIs), Cloudflare must be re-authorized"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added use of <a href=\"http://php.net/manual/en/language.namespaces.rationale.php\">namespace</a> which creates mininum dependency on version PHP 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved minify's ability to match script tags without type attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Amazon SNS security (validation)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved detail of debug messages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved security throughout the codebase"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved security with nonces and form elements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved moble user agents detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved notifications, warnings and errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved template fragment caching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility of headers like ETag and content encoding"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved extension framework functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved page cache purge for extensions like cloudflare and other reverse proxy use cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Rackspace Cloud Files compatibility (now using latest APIs)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved AWS API compatibility (now using latest APIs)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved WP CLI support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved nginx compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved nomenclature of caching files for higher cache hit rates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved reliablity of test buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved SSL interoperability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved performance menu in admin bar, including purging of specific cache engines and more"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved PHP 7 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved PHP 5.6 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WPML Performance Extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more optionality to minifiers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more support for exclusions to database cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Rackspace Cloud Files Multi-Region Support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a sample extension for developers to reference"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added HTTP Strict Transport Security (HSTS) support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Full Site Delivery for Pro subscribers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"Validate Timestamps\" option for compatible opcode caches functions like apc.stat are enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Highwinds CDN provider"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added purge of parent page when attachments are added or updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Narcissus' JS minifier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added YUI Compressor's PHP Port of the CSS minifier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for FTPS (FTP-SSL, S-FTP)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for WOFF2 font format"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for minification of external fonts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Rackspace CDN Origin Pull"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for srcset elements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for PECL memcached"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Amazon S3-compatible stroage services"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Google Drive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Redis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for APCu Opcode Cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed caching of query strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed rare issue of caching empty document when some PHP errors occur in themes or plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed cache ID issue with minify in network mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with HTTP compression header when using mfunc calls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handling of tilde in URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issues with dismissing overlays"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed XSS vulnerability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated EDGE MODE: Full site mirroring support for MaxCDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved license key saving and Pro mode activation on Pro license purchases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved MaxCDN automatic zone creation process"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved blogmap url sanitation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved CDN queue performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved default settings for MaxCDN zone creation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved empty minify/pgcache cache notification when using CDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved FAQ structure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved preview mode, removed query string requirement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Fragment Caching debug information"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved reliability of NetDNA / MaxCDN API calls by using WP HTTP and not cURL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved wrapper functions in plugins.php for plugin / theme authors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added EDGE MODE functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added DEV mode support to PRO version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added nofollow to blogroll links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added CloudFlare as an extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for separate domains for frontend and admin backend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new mime types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for use of existing zones without refresh"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added whitelist IPs notification for MaxCDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added MaxCDN authorization validation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added one button default pull zone creation to MaxCDN without refresh"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added call to change MaxCDN canonical header setting to match plugin setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added default settings for MaxCDN Pull Zone creation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added *.less to CDN theme uploads and MIME"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WordPress SEO by Yoast extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for WordPress defined charset and collate in CDN queue table creation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added new CloudFlare IPs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added woff support to Browser Cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added FeedBurner extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added capability check for save options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added typecasting on expiration time in object cache drop-in"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added caching of list of posts pages (tags, categories etc) to Genesis extension a long with flush it checkbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with malformed config files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with plugin interferring with preview theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with exporting of settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with Purge All button action"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with widget styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with wp in subdirectory and relative minimal manual urls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed trailing slash issue in filename to url conversion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed NewRelic related notice in compatibility popup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed CDN being enabled when creating NetDNA / MaxCDN pull zone"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Genesis and Fragment Caching (caching categories etc)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Genesis settings and Suhosin field name limit error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed nginx configuration and Referrer, User Groups setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed notice with undefined constant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed settings link in Minify Auto notification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed duplicate bb10 agents"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Database Cache description text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed notice on failed upgrade licencing check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed adding empty Vary header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed user roles property not begin an array"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing param in APC cache method declaration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed \"Use late init\" being shown as enabled with Disc:Enhanced"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed \"Prevent caching of objects after settings change\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed backwards compatibility and flushing and added doing it wrong notification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed debug information not printed on cached pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed false positives for license key verification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed readfile errors on servers with the functionality disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed cached configs causing 500 error on interrupted file writes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Fragment Caching and APC anomalies"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed deprecated wpdb escape"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed false positive check for legacy code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed remove / replace drop in file on plugins page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Minify Auto and restructuring of JS code placement on page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed WP_PLUGIN_DIR not being available when object-cache.php is loaded and W3TC constant not set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed trailing slashes in custom wp content path and Minify"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Test CDN errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed extension enabled key error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed support and other form submissions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed undefined w3tc_button_link"
+msgstr ""

@@ -1,0 +1,1102 @@
+# Translation of Plugins - Really Simple SSL - Stable Readme (latest release) in Azerbaijani
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: az\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable Readme (latest release)\n"
+
+#. Short description.
+msgid "No setup required! You only need an SSL certificate, and this plugin will do the rest."
+msgstr ""
+
+#. Plugin name.
+msgid "Really Simple SSL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Multisite network wide activation/deactivation cron not saving settings because user capability not set this early in the process."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: a 'leave review' notice for new free users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Multisite bulk SSL activation now chunked in 200 site blocks, to prevent time out issues on large multisite networks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: improved certificate detection by stripping domains of subfolders."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: split HTTP_X_FORWARDED_SSL into a variation which can be either '1' or 'on'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: fixed a bug in certificate detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: added HTTP_X_PROTO as supported header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: flush rewrite rules upon activation is delayed by one minute to reduce server load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: network menu on subsites now always shows to Super Admins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: mixed content fixer will no longer fire on XML content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: removed anonymous function to maintain PHP 5.2 compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: untranslatable string made translatable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: fixed an image containing uppercase characters, which can lead to the image not showing on some servers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: fixed an issue where the 'data-rsssl=1' marker wasn't inserted when the  tag was empty."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a sidebar with recommended plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a filter for the Javascript redirect."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added an option to deactivate the plugin while keeping SSL in the SSL settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The .htaccess redirect now uses $1 instead of {REQUEST_URI}."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a built-in certificate check in the class-certificate.php file that checks if the domain is present in the common names and/or the alternative names section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Hide SSL notice on multisite for all subsites, and show only for \"activate_plugins\" cap users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Set javascript redirect to false by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Add privacy notice"
+msgstr ""
+
+#. Screenshot description.
+msgid "Mixed content scan."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested the plugin with Gutenberg."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: added comment to encourage backing up to activation notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: the admin_url and site_url filter get an empty blog_id when checking the URL for the current blog."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: multisite menu not showing when main site is not SSL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: several typo's and uppercasing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: \"switch mixed content fixer hook\" option not visible on the multisites settings page"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://www.really-simple-ssl.com/contact/\">contact</a> me if you have any questions, issues, or suggestions. Really Simple SSL is developed by <a href=\"https://www.really-simple-plugins.com\">Really Simple Plugins</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Always backup before you go! If you do not have a sound backup policy, start having one! See <a href=\"https://really-simple-ssl.com/knowledge-base/backing-up-your-site/\">our recommendations</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: On multisite, admin_url forced current blog URL's over http even when the current blog was loaded over https. This will now only force http for other blog_urls than the current one, when they are on http and not https."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added secure cookie notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to WP 4.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed mixed content fixer hook back from wp_print_footer_scripts to shutdown"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: prevent forcing admin_url to http when FORCE_SSL_ADMIN is defined"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: added option to not flush the rewrite rules"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed typo in activation notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed double slash in paths to files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added constant RSSSL_CONTENT_FIXER_ON_INIT so users can keep on using the init hook for the mixed content fixer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: nag in multisite didn't dismiss properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: setting to switch the mixed content fixer hook from template_redirect to init."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: constant RSSSL_DISMISS_ACTIVATE_SSL_NOTICE to allow users to hide notices."
+msgstr ""
+
+#. Found in description list item.
+msgid "All incoming requests are redirected to https. Default with an internal WordPress redirect, but you can also enable a .htaccess redirect."
+msgstr ""
+
+#. Found in description list item.
+msgid "The plugin handles most issues that WordPress has with SSL, like when you're behind a reverse proxy/loadbalancer, or when no headers are passed which WordPress can use to detect SSL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multisite fix: due to a merge admin_url and site_url filters were dropped, re-added them"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Explicitly excluded json and xmlrpc requests from the mixed content fixer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multisite fix: Changed function which checks if admin_url and site_url should return http or https to check for https in home_url."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Changed flush rewrite rules hook from admin_init to shutdown, on activation of SSL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Moved mixed content fixer hook to template_redirect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Removed JetPack fix, as it is now incorporated in JetPack."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No functional changes, version change because WordPress was not processing the version update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reverted wp_safe_redirect to wp_redirect, as wp_safe_redirect causes a redirect to wp-login.php even when the primary url is domain.com and request url www.domain.com"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: dismissal of SSL activated notice on multisite did not work properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: created a dedicated rest api redirect constant in case users want to prevent the rest api from redirecting to https."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: limited the JetPack listen on port 80 tweak to reverse proxy servers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added hook for new multisite site so a new site will be activated as SSL when network wide is activated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a notice that there will be no network menu when Really Simple SSL is activated per site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a function where the home_url and site_url on multisite check if it should be http or https when SSL is enabled on a per site basis."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. There is a dedicated network settings page where you can switch between network activated SSL and per page SSL. In the dedicated pro for multisite plugin, you can override all site settings for SSL on the network level, and can activate and deactivate SSL in the network menu for each site.* Really Simple SSL maintains an extensive knowledge-base at https://www.really-simple-ssl.com."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added force SSL on wp_rest_api"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "replaced wp_redirect with wp_safe_redirect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: fixed issue in the mixed content fixer where on optimized html the match would match across elements."
+msgstr ""
+
+#. Found in faq header.
+msgid "Is the plugin multisite compatible?"
+msgstr ""
+
+#. Found in description list item.
+msgid "Certificate expiration check: get an email when your SSL certificate is about to expire."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Hopefully this plugin save you some hours of work. If you want to support the continuing development of this plugin, you might consider buying the <a href=\"https://www.really-simple-ssl.com/pro/\">premium</a>, which includes\n"
+"some cool features."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Really Simple SSL is on <a href=\"https://github.com/rlankhorst/really-simple-ssl\">GitHub</a> as well!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Premium support"
+msgstr ""
+
+#. Found in description list item.
+msgid "More detailed feedback on the configuration page."
+msgstr ""
+
+#. Found in description list item.
+msgid "Mixed Content Fixer for the back-end"
+msgstr ""
+
+#. Found in description list item.
+msgid "The option to configure your site for the HSTS preload list"
+msgstr ""
+
+#. Found in description list item.
+msgid "The option to enable HTTP Strict Transport Security"
+msgstr ""
+
+#. Found in description list item.
+msgid "The mixed content scan, which shows you what you have to do if you don't have the green lock yet"
+msgstr ""
+
+#. Found in description header.
+msgid "Pro features"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you are experiencing redirect loops on your site, try these <a href=\"https://really-simple-ssl.com/knowledge-base/my-website-is-in-a-redirect-loop/\">instructions</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"The plugin checks your certificate before enabling, but if, for example, you migrated the site to a non-ssl environment, you might get locked out of the back-end.\n"
+"If you can't deactivate, do not just remove the plugin folder to uninstall! Follow these <a href=\"https://really-simple-ssl.com/knowledge-base/uninstall-websitebackend-not-accessible/\">instructions</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Uninstalling Really Simple SSL"
+msgstr ""
+
+#. Found in installation list item.
+msgid "You will now see a notice asking you to enable SSL. Click it and log in again."
+msgstr ""
+
+#. Screenshot description.
+msgid "After activation, if SSL was detected, you can enable SSL."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Translations can be added very easily <a href=\"https://translate.wordpress.org/projects/wp-plugins/really-simple-ssl\">here</a>. If you do, I can get you added as translation editor to approve the translations."
+msgstr ""
+
+#. Found in description list item.
+msgid "Enable SSL with one click"
+msgstr ""
+
+#. Found in description list item.
+msgid "Get an SSL certificate (can't do that for you, sorry)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Make a backup!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Really Simple SSL automatically detects your settings and configures your website to run over https.\n"
+"To keep it lightweight, the options are kept to a minimum. The entire site will move to SSL."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For more detailed explanations and documentation on redirect loops, deactivating, mixed content, errors, and so on, please search the <a href=\"https://www.really-simple-ssl.com/knowledge-base/\">documentation</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "On a site where the source consists of about 60.000 characters, the delay caused by the mixed content fixer is about 0.00188 seconds. If this is too much for you, fix the mixed content manually and deactivate it in the settings."
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the mixed content fixer make my site slower?"
+msgstr ""
+
+#. Found in description header.
+msgid "Love Really Simple SSL?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Most mixed content issues are caused by urls in css or js files.\n"
+"For detailed instructions on how to find mixed content read this <a href=\"https://really-simple-ssl.com/knowledge-base/how-to-track-down-mixed-content-or-insecure-content/\">article</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Redirect loop issues"
+msgstr ""
+
+#. Found in faq header.
+msgid "Mixed content issues"
+msgstr ""
+
+#. Found in faq header.
+msgid "Knowledge base"
+msgstr ""
+
+#. Found in description list item.
+msgid "Your insecure content is fixed by replacing all http:// urls with https://, except hyperlinks to other domains. Dynamically, so no database changes are made (except for the siteurl and homeurl)."
+msgstr ""
+
+#. Found in description header.
+msgid "Like to have this plugin in your language?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To install this plugin:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to “plugins” in your WordPress admin, then click activate."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the plugin to the wp-content/plugins directory,"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install your SSL certificate"
+msgstr ""
+
+#. Found in description list item.
+msgid "The site url and home url are changed to https."
+msgstr ""
+
+#. Found in description list item.
+msgid "Activate this plugin"
+msgstr ""
+
+#. Found in description header.
+msgid "What does the plugin actually do"
+msgstr ""
+
+#. Found in description header.
+msgid "Three simple steps for setup:"
+msgstr ""
+
+#. Screenshot description.
+msgid "View your configuration on the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added SSL_FORWARDED_PROTO = 1 in addition to SSL_FORWARDED_PROTO = on as supported SSL recognition variable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increased user capability to \"activate_plugins\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter for .htaccess code output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added multisite settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: configuration more function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed curl in favor of wp_remote_get"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dropped cache flushing on activation, as this does not always work as expected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: RLRSSSL_DO_NOT_EDIT_HTACCESS constant did not override setting correctly when setting was used before."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added safe mode constant RSSSL_SAFE_MODE to enable activating in a minimized way"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to explicitly insert .htaccess redirect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed automatic insertion of .htaccess redirects. The .htaccess redirects work fine for most people, but can cause issues in some edge cases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multisite tweaks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fastest cache compatibility fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: changes testurl to the function test_url()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reverted some changes to 2.4.3, as it was causing issues for some users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "version nr fix"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "fix: Adjusted selection order of .htaccess rules, preventing redirect loops"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed .htaccess redirects to use only one condition"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "removed file_get_contents function from class_url.php, as in some cases this causes issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Mixed content fixing of escaped URLS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added htaccess redirect to use all available server vars for checking SSL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added test folder for CloudFlare"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detected server to debug Log"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: typos in explanations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added help tooltips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added support for when only the $_ENV[HTTPS] variable is present"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved NGINX support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added option for 301 internal wp redirect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Prevent writing of empty .htaccess redirect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added support for Cloudfront, thanks to Sharif Alexandre"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved support for cloudflare"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed banner in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Changed mixed content marker to variation without quotes, to prevent issues with scripting etc."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: bug where network options were not removed properly on deactivation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested for WP 4.7"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Removed Yoast notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: After reloading page when the .htaccess message shows, .htaccess is now rewritten."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added reload over https link for when SSL was not detected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved the mixed content marker on the front-end, so it's less noticeable, and won't get removed by minification code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Rebuilt the mixed content fixer, for better compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added button to settings page to enable SSL, for cases where another plugin is blocking admin notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: A bug in multisite where plugin_url returned a malformed url in case of main site containing a trailing slash, and subsite not. Thanks to @gahapati for reporting this bug."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: added a version check on wp_get_sites / get_sites to get rid of deprecated function notice, and keep backward compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: improved HSTS check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Clearing of W3TC after SSL activation did not function properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Clearing of WP Rocket cache after SSL activation causing an error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-inserted Jetpack fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Requires at least changed back to 4.2, as the function that this was meant for didn’t make it in current release yet."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made activation message more clear."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added check if .htaccess actually exists in htaccess_contains_redirect_rules()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved request method in url class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: htaccess files and wpconfig are rewritten when the settings page is loaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: added filter for get_admin_url in multisite situations, where WP always returns an https url, although the site might not be on SSL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: added safe domain list for domains that get found but are no threat."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: extended mixed content fixer to cover actions in forms, as those should also be http in case of external urls."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: htaccess not writable message not shown anymore when SSL not yet enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: changed check for htaccess redirect from checking the RSSSL comments to checking the redirect rule itself"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested for 4.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: improved url request method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: removed internal WordPress redirect as it causes issues for some users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Url request falls back to file_get_contents when curl does not give a result"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: When no .htaccess rules are detected, redirect option is enabled automatically"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Fallback redirect changed into internal wp redirect, which is faster"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated screenshots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: missing priority in template_include hook caused not activating mixed content fixer in some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: javascript redirect insertion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Start detection and configuration only for users with \"manage_options\" capability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: mixed content fixer triggered by is_ssl(), which prevents fixing content on http."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: load css stylesheet only on options page and before enabling ssl"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug in force-deactivate script"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some minor bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed SSL detection so test page is only needed when not currently on SSL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a notice if .htaccess is not writable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gave more control over activation process by explicitly asking to enable SSL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some bugs in deactivation and activation of multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimized emptying of cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed \"activate ssl\" option when no ssl is detected."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed a bug in SSL detection"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Changed followlocation in curl to an alternative method, as this gives issues when safemode or open_basedir is enabled.\n"
+"Added dismissable message when redirects cannot be inserted in the .htaccess"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Security fixes in ssl-test-page.php"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed bug in logging of curl detection"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Added a check if the mixed content fixer is functioning on the front end\n"
+"Fixed a bug where multisite per_site_activation variable wasn't stored networkwide\n"
+"Added clearing of wp_rocket cache thans to Greg for suggesting this\n"
+"Added filter so you can remove the really simple ssl comment\n"
+"Fixed a bug in the output buffer usage, which resolves several issues.\n"
+"Added code so JetPack will run smoothly on SSL as well, thanks to Konstantin for suggesting this"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Bugfix with of insecure content fixer."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Brand new content fixer, which fixes all links on in the source of your website."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added an option to disable the fallback javascript redirection to https."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved redirect above the WordPress rewrite rules in the htaccess file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "To prevent lockouts, it is no longer possible to activate plugin when wp-config.php is not writable. In case of loadbalancers, activating ssl without adding the necessary fix in the wp-config would cause a redirect loop which would lock you out of the admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Roll back of mixed content fixer."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Improved the mixed content fixer. Faster and more effective."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Edited the wpconfig define check to prevent warnings when none are needed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 404 detection to SSL detection function, so subdomains can get checked properly on subdomain multisite installs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed text domain to make this plugin language packs ready"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Extended detection of homeurl and siteurl constants in wp-config.php with regex to allow  for spaces in code."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "documentation update"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Added slash in redirect rule\n"
+"small bugfixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where insecure content scan would not scan custom post types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where multisite would not deactivate correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option te disable the plugin from editing the .htaccess in the settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved redirect rules in the .htaccess"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Russian translation, thanks to xsascha"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed warning on WooCommerce force SSL after checkout, as only unforce SSL seems to be causing problems"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for a situation where no server variables are given which can indicate SSL, which can cause WordPress to generate errors and redirect loops."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added script to easily deactivate the plugin when you are locked out of the WordPress admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added per site activation for multisite, but excluded this option for subfolder installs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added French translation thanks to Cedric"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved curl connection script"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added multisite support for the missing https server variable issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved installation instructions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added googleapis.com/ajax cdn to standard replacement script, as it is often used without https."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter so you can add cdn urls to the replacement script"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue where url was not replaced on front end, when used url in content is different from home url (e.g. http://www.domain.com as homeurl and http://domain.com in content)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where siteurl was used as url to fix instead of homeurl"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added caching flush support for WP fastest cache, Zen Cache and W3TC"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added automatic change of siteurl and homeurl to https, to make backend ssl proof."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added warnings and messages to improve user experience"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added https redirection in .htaccess, when possible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added SSL detection by opening a page in the plugin directory over https"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed a bug where on deactivation the https wasn't removed from siturl and homeurl"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added screenshots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some typos in readme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 301 redirect to .htaccess for seo purposes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Thanks to Peter Tak, <a href=\"http://www.pta-security.nl/\">PTA security</a> for mentioning the owasp security best practice https://www.owasp.org/index.php/HTTP_Strict_Transport_Security in .htaccess,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dropped the force ssl option (used when not ssl detected)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection of in wp-config.php defined siteurl and homeurl, which could prevent from successful url change."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a scan to scan the website for insecure links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the possibility to disable the auto replace of insecure links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added detection of loadbalancer and cdn so .htaccess rules can be adapted accordingly. Fixes some redirect loop issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added version control to the .htaccess rules, so the .htaccess gets updated as well."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "limited the number of files, posts and options that can be show at once in the mixed content scan."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where number of options with mixed content was not displayed correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default javascript redirect when .htaccess redirect does not succeed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplified filter use to add your own urls to replace, see f.a.q."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now plugin only changes .htaccess when one of three preprogrammed ssl types was recognized."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved redirect rules for .htaccess"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an SSL detection issue which could lead to redirect loop"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix on deactivation of plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refined SSL detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the possibility to prevent htaccess from being edited, in case of redirect loop."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed HSTS headers, because it is difficult to roll back."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved instructions regarding uninstalling when locked out of back-end"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Readded HSTS to the htaccess rules, but now as an option. Adding this should be done only when you are sure you do not want to revert back to http."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a test to check if the proposed .htaccess rules will work in the current environment."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the force SSL option, in cases where SSL could not be detected for some reason."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue where in some configurations the replace url filter did not fire"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where the rlrsssl_replace_url_args filter was not applied correctly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added debugging option, so a trace log can be viewed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for loadbalancer and is_ssl() returning false: in that case a wp-config fix is needed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added an error message in case of force rewrite titles in Yoast SEO plugin is used, as this prevents the plugin from fixing mixed content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Extended the mixed content fixer to replace src=\"http:// links, as these should always be https on an SSL site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed function to test SSL test page from file_get_contents to curl, as this improves response time, which might prevent \"no SSL messages\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved user interface with tabs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced screenshots"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved FAQ, removed typos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added debug messages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where script would fail because curl function was not installed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Excluded transients from mixed content scan results"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WooCommerce to the plugin conflicts handler, as some settings conflict with this plugin, and are superfluous when you force your site to SSL anyway."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where example .htaccess rewrite rules weren't generated correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug caused by WP native plugin_dir_url() returning relative path, resulting in no SSL messages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made WooCommerce warning dismissable, as it does not seem to cause issues"
+msgstr ""

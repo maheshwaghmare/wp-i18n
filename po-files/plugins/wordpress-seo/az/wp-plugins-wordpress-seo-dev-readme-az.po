@@ -1,0 +1,436 @@
+# Translation of Plugins - Yoast SEO - Development Readme (trunk) in Azerbaijani
+# This file is distributed under the same license as the Plugins - Yoast SEO - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-14 07:28:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: az\n"
+"Project-Id-Version: Plugins - Yoast SEO - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Improve your WordPress SEO: Write better content and have a fully optimized WordPress site using the Yoast SEO plugin."
+msgstr ""
+
+#. Plugin name.
+msgid "Yoast SEO"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where the primary taxonomy picker was not shown in Gutenberg (v4.1)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where it was impossible to change the profile in the Search Console integration step in the configuration wizard."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes error with using <code>$</code> in wp-seo-admin-media.js. Now we use <code>jQuery</code> instead."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Keyphrase in meta description: checks how often all words from the keyphrase are matched within the meta description."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves performance by no longer using images from the content as a fallback for the OpenGraph and Twitter images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes OpenGraph image handling to always use an image from the media library. This makes the performance of the OpenGraph image handling much better."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds an assessment that checks whether your keyword consists only of function words."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds <code>target=\"_blank\"</code> to the \"How to connect to GSC\" link to open a new tab when clicked."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves sitemap performance by disabling the caching by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves the tab order within the structured data blocks in Gutenberg and make it consistent between the FAQ and How-To block."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link focus keyphrase: the assessment that checks whether you’re using your keyphrase to link to a different article doesn't require an exact match anymore."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Keyphrase in subheading: now checks whether at least one subheading contains more than half of the words from the keyphrase. An exact match isn’t required anymore."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Keyphrase length: has new boundaries to check whether the keyphrase is not too long. For languages that have support for function word stripping (see above), only content words are taken into account."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where a fatal error on Yoast settings pages was thrown because they did not have a dedicated option class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where author sitemap caches would be attempted to be invalidated despite not all conditions being met."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where the home description can contain HTML, resulting in unexpected characters on the Facebook social settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where the buttons to change the How-to steps and FAQ questions order would be only partially visible in mobile view."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecates the assessment that checks if stopwords are used within the keyphrase."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecates the WPSEO_Cornerstone class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduces a Features tab in the network admin, which allows disabling all site-specific features for the entire network."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimizes and caches WPSEO_Option_Titles::enrich_defaults(). Props to <a href=\"https://github.com/soulseekah\">@soulseekah</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes all mentions of 'keyword' to 'keyphrase'. Read more about <a href=\"https://yoa.st/keyword-to-keyphrase\">the transition from 'keyword' to 'keyphrase'</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves the consistency of the SEO and readability results by showing them in a fixed order."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds target=\"_blank\" to the \"How to connect to GSC\" link to open the link a new tab. Props to <a href=\"https://github.com/zkan\">@zkan</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves the feedback texts for all SEO and readability assessments."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Keyphrase density: checks whether there are enough keyphrase matches; a match is defined as a sentence that contains all words from the keyphrase."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Keyphrase in slug: checks whether a sufficient number of words from the keyphrase is used in the slug. The number of words required depends on the length of the keyphrase."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Keyphrase in title: still checks whether an exact match of the keyphrase is found in (the beginning of) the title, but now also recommends improvement if all words from the keyphrase are found in the title."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Keyphrase in introduction: checks whether words from the keyphrase are matched within one sentence in the introduction or, if not, whether they are present in the first paragraph at all. An exact match isn’t required anymore."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"The analysis of the following assessments incorporates the new keyword recognition principles:\n"
+"\n"
+"<ul>\n"
+"<li>Image alt attributes: checks whether there’s at least one image with an alt tag that contains words from the keyphrase. An exact match isn’t required anymore."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When matching keyphrases for the various assessments, the analysis only targets content words and ignores function words (e.g., <code>the</code> or <code>and</code>). This functionality is available in English, German, Dutch, French, Spanish, Italian, Portuguese, Russian and Polish."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Introduces two new principles for keyword recognition:\n"
+"\n"
+"<ul>\n"
+"<li>Makes keyphrase recognition flexible with regards to word order. This means that the keyphrase <code>SEO WordPress plugin</code> will be found in the sentence <code>This is the most popular SEO plugin for WordPress.</code> In order to use exact matches, the keyphrase can be enclosed in quotation marks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where an 'undefined index' notice would be given when an OpenGraph image URL didn't have a correct path. Props to <a href=\"https://github.com/Julian-B90\">@Julian-B90</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where the keyword would not be found in the slug when containing punctuation, for example the keyphrase <code>apples &amp; pears</code> in the slug <code>apples-pears</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds a margin below select fields so there's space between taxonomy settings for breadcrumbs. Props to <a href=\"https://github.com/emilyatmobtown\">@emilyatmobtown</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduces the <code>wpseo_taxonomy_content_fields</code> filter to add additional fields to the taxonomy metabox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where the Search Console page displayed 'first detected' and 'last crawled' dates that were in the future."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where the cornerstone content toggle was available for attachment pages."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For more info on search engine optimization, check out the following:"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "For the changelog of earlier versions, please refer to https://yoa.st/yoast-seo-changelog"
+msgstr ""
+
+#. Screenshot description.
+msgid "Control over which features you want to use."
+msgstr ""
+
+#. Screenshot description.
+msgid "Overview of site-wide SEO problems and possible improvements."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Other:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Bug reports for Yoast SEO are <a href=\"https://github.com/Yoast/wordpress-seo\">welcomed on GitHub</a>. Please note GitHub is not a support forum, and issues that aren’t properly qualified as bugs will be closed."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You should also check out the <a href=\"https://yoa.st/1uu\">Yoast Local SEO</a>, <a href=\"https://yoa.st/1uv\">Yoast News SEO</a> and <a href=\"https://yoa.st/1uw\">Yoast Video SEO</a> extensions to Yoast SEO. They work with the free version of Yoast SEO already, and these premium extensions of course come with support too."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Note that the <a href=\"https://yoa.st/1v8\">Yoast SEO Premium</a> also has several extra features too, including the option to have synonyms and related keyphrases, internal linking suggestions, cornerstone content checks and a redirect manager, so it is well worth your investment!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Yoast team does not always provide active support for the Yoast SEO plugin on the WordPress.org forums, as we prioritize our email support. One-on-one email support is available to people who <a href=\"https://yoa.st/1v8\">bought Yoast SEO Premium</a> only."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Note: some features are Premium. Which means you need Yoast SEO Premium to unlock those features. You can <a href=\"https://yoa.st/1v8\">get Yoast SEO Premium here</a>!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Yoast SEO does everything in its power to please both visitors and search engine spiders. How? Below you’ll find a small sampling of the powers of Yoast SEO:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Need some help with your search engine optimization? Need an SEO plugin that helps you reach for the stars? Yoast SEO is the original WordPress SEO plugin since 2008. It is the favorite tool of millions of users, ranging from the bakery around the corner to some of the most popular sites on the planet. With Yoast SEO, you get a solid toolset that helps you aim for that number one spot in the search results. Yoast: SEO for everyone."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>[Premium]</strong> Redirect manager: It keeps your site healthy by easily redirecting errors from Google Search Console, deleted pages and changed URLs."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>[Premium]</strong> Social previews to manage the way your page is shared on social networks like Facebook and Twitter."
+msgstr ""
+
+#. Found in description list item.
+msgid "Bulk editor: Make large-scale edits to your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "Manage SEO roles: Give your colleagues access to specific sections of the Yoast SEO plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "Integrates with Google Search Console: See how your site performs in the search engines and fix crawl errors."
+msgstr ""
+
+#. Found in description list item.
+msgid "Our cornerstone content and internal linking features help you optimize your site structure in a breeze."
+msgstr ""
+
+#. Found in description list item.
+msgid "Yoast SEO tunes the engine of your site so you can work on creating great content."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>[Premium]</strong> Automatic internal linking suggestions: write your article and get automatic suggested posts to link to."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>[Premium]</strong> Synonyms &amp; related keyphrases: Optimize your article for synonyms and related keyphrases."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>[Premium]</strong> The Insights tool shows you what your text focuses on so you can keep your article in line with your keyphrases."
+msgstr ""
+
+#. Found in description list item.
+msgid "The snippet preview shows you how your post or page will look in the search results - even on mobile. Yoast SEO Premium even has social media previews!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Content &amp; SEO analysis: Invaluable tools to write SEO-friendly texts."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>[Premium]</strong> Need help? Yoast SEO Premium users get 1 year free access to our awesome support team."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>[Premium]</strong> Expand Yoast SEO with the News SEO, Video SEO, Local SEO and WooCommerce SEO extensions."
+msgstr ""
+
+#. Found in description list item.
+msgid "Title and meta description templating for better branding and consistent snippets in the search results."
+msgstr ""
+
+#. Found in description list item.
+msgid "Set canonical URLs to avoid duplicate content. Never have to worry about Google penalties again."
+msgstr ""
+
+#. Found in description list item.
+msgid "Full control over site breadcrumbs: add a piece of code and you’re good to go."
+msgstr ""
+
+#. Found in description list item.
+msgid "The most advanced XML Sitemaps functionality at the push of a button."
+msgstr ""
+
+#. Found in description header.
+msgid "Bug reports"
+msgstr ""
+
+#. Found in description header.
+msgid "Premium support"
+msgstr ""
+
+#. Found in description header.
+msgid "Keep your site in perfect shape"
+msgstr ""
+
+#. Found in description header.
+msgid "Taking care of your WordPress SEO"
+msgstr ""
+
+#. Found in description header.
+msgid "Yoast SEO: the #1 WordPress SEO plugin"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You'll find answers to many of your questions on <a href=\"https://yoa.st/1va\">kb.yoast.com</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "Other <a href=\"https://yoa.st/1v9\">WordPress Plugins</a> by the same team."
+msgstr ""
+
+#. Found in description list item.
+msgid "The <a href=\"https://yoa.st/1v8\">Yoast SEO Plugin</a> official homepage."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://yoa.st/1v6\">WordPress SEO - The definitive Guide by Yoast</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "The <a href=\"https://yoa.st/1va\">Yoast SEO Knowledgebase</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "You're done!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Go through the configuration wizard and set up the plugin for your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "You should see (a notice to start) the Yoast SEO configuration wizard."
+msgstr ""
+
+#. Found in description list item.
+msgid "Go to \"after activation\" below."
+msgstr ""
+
+#. Found in description list item.
+msgid "Activate Yoast SEO from your Plugins page."
+msgstr ""
+
+#. Found in description list item.
+msgid "Search for 'Yoast SEO'"
+msgstr ""
+
+#. Found in description list item.
+msgid "Visit 'Plugins &gt; Add New'"
+msgstr ""
+
+#. Found in description header.
+msgid "Manually"
+msgstr ""
+
+#. Found in description header.
+msgid "After activation"
+msgstr ""
+
+#. Found in description header.
+msgid "From within WordPress"
+msgstr ""
+
+#. Screenshot description.
+msgid "Easily import SEO data from other SEO plugins like All In One SEO pack, HeadSpace2 SEO and wpSEO.de."
+msgstr ""
+
+#. Screenshot description.
+msgid "Example of the readability analysis functionality."
+msgstr ""
+
+#. Found in description list item.
+msgid "Activate the Yoast SEO plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "Upload the <code>wordpress-seo</code> folder to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in description list item.
+msgid "Follow Yoast on <a href=\"https://facebook.com/yoast\">Facebook</a> &amp; <a href=\"https://twitter.com/yoast\">Twitter</a>."
+msgstr ""
+
+#. Found in description header.
+msgid "Further Reading"
+msgstr ""
+
+#. Found in description header.
+msgid "Write killer content with Yoast SEO"
+msgstr ""
+
+#. Screenshot description.
+msgid "Example of the SEO analysis functionality."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Yoast SEO plugin general meta box. You'll see this on edit post pages, for posts, pages and custom post types."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: October 24th, 2018"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: October 23rd, 2018"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: October 9th, 2018"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Bugfixes:"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Enhancements:"
+msgstr ""

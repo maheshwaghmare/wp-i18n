@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Limit Login Attempts - Development (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-10-28T16:05:16+00:00\n"
+"PO-Revision-Date: 2016-01-11 17:57:05+0000\n"
+"Language: az\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Author URI of the plugin/theme
+msgid "http://devel.kostdoktorn.se"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Johan Eenfeldt"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Limit rate of login attempts, including by way of cookies, for each IP."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://devel.kostdoktorn.se/limit-login-attempts"
+msgstr ""
+
+#: limit-login-attempts.php:673
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr ""
+
+#: limit-login-attempts.php:610
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] ""
+msgstr[1] ""
+
+#: limit-login-attempts.php:586
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] ""
+msgstr[1] ""
+
+#: limit-login-attempts.php:584
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] ""
+msgstr[1] ""
+
+#: limit-login-attempts.php:577
+msgid "Please try again later."
+msgstr ""
+
+#: limit-login-attempts.php:573
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr ""
+
+#: limit-login-attempts.php:512
+msgid "IP was blocked for %s"
+msgstr ""
+
+#: limit-login-attempts.php:509
+msgid "Last user attempted: %s"
+msgstr ""
+
+#: limit-login-attempts.php:505
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr ""
+
+#: limit-login-attempts.php:503
+msgid "[%s] Too many failed login attempts"
+msgstr ""
+
+#: limit-login-attempts.php:498
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: limit-login-attempts.php:492
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: limit-login-attempts.php:460
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>XƏTA</strong>: Keçərsiz istifadəçi adı ya da e-poçt"
+
+#: limit-login-attempts-registrations.php:174
+msgid "<strong>ERROR</strong>: Too many new user registrations."
+msgstr ""
+
+#: limit-login-attempts-admin.php:436
+msgid "Clear Log"
+msgstr ""
+
+#: limit-login-attempts-admin.php:426
+msgid "Lockout log"
+msgstr ""
+
+#: limit-login-attempts-admin.php:418
+msgid "Change Options"
+msgstr ""
+
+#: limit-login-attempts-admin.php:413
+msgid "new user registrations every"
+msgstr ""
+
+#: limit-login-attempts-admin.php:413
+msgid "Only allow"
+msgstr ""
+
+#: limit-login-attempts-admin.php:411
+msgid "New user registration"
+msgstr ""
+
+#: limit-login-attempts-admin.php:407
+msgid "Disable password reset for users this level or higher"
+msgstr ""
+
+#: limit-login-attempts-admin.php:405
+msgid "Disable password reset using login name for user this level or higher"
+msgstr ""
+
+#: limit-login-attempts-admin.php:403
+msgid "Password reset"
+msgstr "Parolu sıfırla"
+
+#: limit-login-attempts-admin.php:399
+msgid "lockouts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:399
+msgid "Email to admin after"
+msgstr ""
+
+#: limit-login-attempts-admin.php:398
+msgid "Log IP"
+msgstr ""
+
+#: limit-login-attempts-admin.php:396
+msgid "Notify on lockout"
+msgstr ""
+
+#: limit-login-attempts-admin.php:392
+msgid "Handle cookie login"
+msgstr ""
+
+#: limit-login-attempts-admin.php:384
+msgid "From behind a reversy proxy"
+msgstr ""
+
+#: limit-login-attempts-admin.php:379
+msgid "Direct connection"
+msgstr ""
+
+#: limit-login-attempts-admin.php:373
+msgid "Site connection"
+msgstr ""
+
+#: limit-login-attempts-admin.php:369
+msgid "hours until retries are reset"
+msgstr ""
+
+#: limit-login-attempts-admin.php:368
+#: limit-login-attempts-admin.php:413
+msgid "hours"
+msgstr "Saat"
+
+#: limit-login-attempts-admin.php:368
+msgid "lockouts increase lockout time to"
+msgstr ""
+
+#: limit-login-attempts-admin.php:367
+msgid "minutes lockout"
+msgstr ""
+
+#: limit-login-attempts-admin.php:366
+msgid "allowed retries"
+msgstr ""
+
+#: limit-login-attempts-admin.php:364
+msgid "Lockout"
+msgstr ""
+
+#: limit-login-attempts-admin.php:359
+msgid "Options"
+msgstr "Parametrlər"
+
+#: limit-login-attempts-admin.php:353
+msgid "%d IP is currently blocked from registering new users"
+msgstr ""
+
+#: limit-login-attempts-admin.php:350
+msgid "Active registration lockouts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:341
+msgid "Total registration lockouts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:335
+msgid "%d IP is currently blocked from trying to log in"
+msgstr ""
+
+#: limit-login-attempts-admin.php:334
+#: limit-login-attempts-admin.php:352
+msgid "Restore Lockouts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:332
+msgid "Active lockouts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:327
+msgid "No lockouts yet"
+msgstr ""
+
+#: limit-login-attempts-admin.php:325
+#: limit-login-attempts-admin.php:343
+msgid "Reset Counter"
+msgstr ""
+
+#: limit-login-attempts-admin.php:322
+msgid "Total lockouts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:317
+msgid "Statistics"
+msgstr ""
+
+#: limit-login-attempts-admin.php:316
+msgid "Limit Login Attempts Settings"
+msgstr ""
+
+#: limit-login-attempts-admin.php:276
+msgid "<strong>Current setting appears to be invalid</strong>. Please make sure it is correct. Further information can be found <a href=\"%s\" title=\"FAQ\">here</a>"
+msgstr ""
+
+#: limit-login-attempts-admin.php:268
+msgid "It appears the site is reached through a proxy server (proxy IP: %s, your IP: %s)"
+msgstr ""
+
+#: limit-login-attempts-admin.php:266
+msgid "It appears the site is reached directly (from your IP: %s)"
+msgstr ""
+
+#: limit-login-attempts-admin.php:245
+msgid "Options changed"
+msgstr ""
+
+#: limit-login-attempts-admin.php:239
+msgid "Cleared current registration lockouts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:232
+msgid "Reset registration lockout count"
+msgstr ""
+
+#: limit-login-attempts-admin.php:226
+msgid "Cleared current lockouts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:220
+msgid "Reset lockout count"
+msgstr ""
+
+#: limit-login-attempts-admin.php:214
+msgid "Cleared IP log"
+msgstr ""
+
+#: limit-login-attempts-admin.php:187
+msgid "%d since %s"
+msgstr ""
+
+#: limit-login-attempts-admin.php:183
+msgid "%d since %s (latest %s)"
+msgstr ""
+
+#: limit-login-attempts-admin.php:137
+msgid "%d lockout"
+msgid_plural "%d lockouts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: limit-login-attempts-admin.php:124
+msgid "Tried to log in as"
+msgstr ""
+
+#: limit-login-attempts-admin.php:123
+msgid "Last lockout"
+msgstr ""
+
+#: limit-login-attempts-admin.php:122
+msgctxt "Internet address"
+msgid "IP"
+msgstr ""
+
+#: limit-login-attempts-admin.php:84
+msgid "%s lockouts:"
+msgstr ""
+
+#. #-#-#-#-#  tmp-limit-login-attempts.pot (Limit Login Attempts 2.0beta4)
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: limit-login-attempts-admin.php:82
+msgid "Limit Login Attempts"
+msgstr ""
+
+#: limit-login-attempts-admin.php:69
+msgid "Settings"
+msgstr "Parametrlər"
+
+#: limit-login-attempts-admin.php:46
+msgid "Administrator"
+msgstr "Nəzarətçi"
+
+#: limit-login-attempts-admin.php:45
+msgid "Editor"
+msgstr "Redaktor"
+
+#: limit-login-attempts-admin.php:44
+msgid "Author"
+msgstr "Müəllif"
+
+#: limit-login-attempts-admin.php:43
+msgid "Contributor"
+msgstr "Əməkdaş"
+
+#: limit-login-attempts-admin.php:42
+msgid "Subscriber"
+msgstr "Abonent"

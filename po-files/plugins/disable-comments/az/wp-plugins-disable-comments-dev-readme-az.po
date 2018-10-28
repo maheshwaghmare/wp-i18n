@@ -1,0 +1,368 @@
+# Translation of Plugins - Disable Comments - Development Readme (trunk) in Azerbaijani
+# This file is distributed under the same license as the Plugins - Disable Comments - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-01 12:57:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: az\n"
+"Project-Id-Version: Plugins - Disable Comments - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Allows administrators to globally disable comments on their site. Comments can be disabled according to post type. Multisite friendly."
+msgstr ""
+
+#. Plugin name.
+msgid "Disable Comments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>DISABLE_COMMENTS_ALLOW_DISCUSSION_SETTINGS</code> configuration."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Define <code>DISABLE_COMMENTS_ALLOW_DISCUSSION_SETTINGS</code> and set it to <code>true</code> to prevent the plugin from hiding the Discussion settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small enhancements to hiding comment-related functionality in the admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the <code>disable_comments_allow_persistent_mode</code> filter. Define <code>DISABLE_COMMENTS_ALLOW_PERSISTENT_MODE</code> instead."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dropped logic to try and hide the comments link from the Meta widget. Administrators should manually add styling to hide this link, or replace the Meta widget with an alternative."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Please delete any existing comments on your site before applying this setting, otherwise (depending on your theme) those comments may still be displayed to visitors. You can use the Delete Comments tool to delete any existing comments on your site.</strong>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Go to the settings page for the disable comments plugin and utlize the Delete Comments tool to delete all comments or according to the specified post types from your database."
+msgstr ""
+
+#. Found in faq header.
+msgid "I want to delete comments from my database. What do I do?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is because your theme is not checking the comment status of posts in the correct way."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "These definitions can be made either in your main <code>wp-config.php</code> or in your theme's <code>functions.php</code> file."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Some of the plugin's behaviour can be modified by site administrators and plugin/theme developers through code:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin provides the option to <strong>completely disable the commenting feature in WordPress</strong>. When this option is selected, the following changes are made:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Define <code>DISABLE_COMMENTS_REMOVE_COMMENTS_TEMPLATE</code> and set it to <code>false</code> to prevent the plugin from replacing the theme's comment template with an empty one."
+msgstr ""
+
+#. Found in description list item.
+msgid "Outgoing pingbacks are disabled."
+msgstr ""
+
+#. Found in description list item.
+msgid "The X-Pingback HTTP header is removed from all pages;"
+msgstr ""
+
+#. Found in description list item.
+msgid "All comment RSS/Atom feeds are disabled (and requests for these will be redirected to the parent post);"
+msgstr ""
+
+#. Found in description list item.
+msgid "The \"Discussion\" settings page is hidden;"
+msgstr ""
+
+#. Found in description list item.
+msgid "All comment-related widgets are disabled (so your theme cannot use them);"
+msgstr ""
+
+#. Found in description list item.
+msgid "All comment-related sections (\"Recent Comments\", \"Discussion\" etc.) are hidden from the WordPress Dashboard;"
+msgstr ""
+
+#. Found in description list item.
+msgid "All \"Comments\" links are hidden from the Admin Menu and Admin Bar;"
+msgstr ""
+
+#. Found in description header.
+msgid "Advanced Configuration"
+msgstr ""
+
+#. Found in description header.
+msgid "Details"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can also bulk-edit the comment status of multiple posts from the <a href=\"https://codex.wordpress.org/Posts_Screen\">posts screen</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Go to the edit page for the post you want to disable comments on. Scroll down to the \"Discussion\" box, where you will find the comment options for that post. If you don't see a \"Discussion\" box, then click on \"Screen Options\" at the top of your screen, and make sure the \"Discussion\" checkbox is checked."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Don't install this plugin!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you still see the message, then it means your theme is overriding this behaviour, and you will have to edit its files manually to remove it. Two common approaches are to either delete or comment out the relevant lines in <code>wp-content/your-theme/comments.php</code>, or to add a declaration to <code>wp-content/your-theme/style.css</code> that hides the message from your visitors. In either case, make you you know what you are doing!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin tries its very best to hide this (and any other comment-related) messages."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You may like to point your theme's author to <a href=\"http://www.rayofsolaris.net/blog/2012/how-to-check-if-comments-are-allowed-in-wordpress/\">this explanation</a> of what they are doing wrong, and how to fix it."
+msgstr ""
+
+#. Found in faq header.
+msgid "I only want to disable comments on certain posts, not globally. What do I do?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I remove the text that says \"comments are closed\" at the bottom of articles where comments are disabled?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Nothing happens after I disable comments on all posts - comment forms still appear when I view my posts."
+msgstr ""
+
+#. Found in installation list item.
+msgid "The plugin settings can be accessed via the 'Settings' menu in the administration area (either your site administration for single-site installs, or your network administration for network installs)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr "WordPress 'Qoşmalar' menyusundan qoşmanı aktivləşdir "
+
+#. Found in installation list item.
+msgid "Upload the plugin folder to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "A <a href=\"https://github.com/solarissmoke/disable-comments-mu\">must-use version</a> of the plugin is also available."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Want to contribute? Here's the <a href=\"https://github.com/solarissmoke/disable-comments\">GitHub development repository</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you come across any bugs or have suggestions, please use the plugin support forum. I can't fix it if I don't know it's broken! Please check the <a href=\"https://wordpress.org/plugins/disable-comments/faq/\">FAQ</a> for common issues."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Important note</strong>: Use this plugin if you don't want comments at all on your site (or on certain post types). Don't use it if you want to selectively disable comments on individual posts - WordPress lets you do that anyway. If you don't know how to disable comments on individual posts, there are instructions in <a href=\"https://wordpress.org/plugins/disable-comments/faq/\">the FAQ</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Additionally, comment-related items can be removed from the Dashboard, Widgets, the Admin Menu and the Admin Bar."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin allows administrators to globally disable comments on any post type (posts, pages, attachments, etc.) so that these settings cannot be overridden for individual posts. It also removes all comment-related fields from edit and quick-edit screens. On multisite installations, it can be used to disable comments on the entire network."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a tool for deleting comments in bulk."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide comments link from the Welcome panel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Javascript errors when the Meta widget is enabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter the comments link in the Meta widget if it is enabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide existing comments if there are any."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the comments feed link from the head in WP 4.4 and higher."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delay loading of translation text domain until all plugins are loaded. This allows plugins to modify translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide the troublesome \"persistent mode\" option for all sites where it is not in use. This option will be removed in a future release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Make sure pingbacks are also prevented when comments are disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Usability improvements to help first-time users configure the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the ability to remove links to comment admin pages from the Dashboard, Admin Bar and Admin Menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility fix for WordPress 3.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Some dashboard items were incorrectly hidden in multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add warning notice to Discussion settings when comments are disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Custom post types which don't support comments shouldn't appear on the settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: A typo on the settings page meant that the submit button went missing on some browsers. Thanks to Wojtek for reporting this."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: Other admin menu items could inadvertently be hidden when 'Remove the \"Comments\" link from the Admin Menu' was selected."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix: don't show admin messages to users who don't can't do anything about them."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the option to disable the Recent Comments template widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow temporary disabling of comments site-wide by ensuring that original comment statuses are not overwritten when a post is edited."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add \"persistent mode\" to deal with themes that don't use filterable comment status checking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now supports Network Activation - disable comments on your entire multi-site network."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplified settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable comment feeds when comment are completely disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove X-Pingback header when comments are completely disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow network administrators to prevent the use of persistent mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added links to GitHub development repo."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added gettext support and German translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Short life in the wild."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix admin bar filtering in WP 3.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix redirection for feed requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make persistent mode option filter available all the time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent direct access to comment admin pages when comments are disabled everywhere."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent theme comments template from being displayed when comments are disabled everywhere."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue with settings persistence in single-site installations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add French translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable comment-reply script for themes that don't check comment status properly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility fix for WordPress 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix CSRF vulnerability in the admin. Thanks to dxw for responsible disclosure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Attempt to hide the comments template (\"Comments are closed\") whenever comments are disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP warning when active_sitewide_plugins option doesn't contain expected data type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow network administrators to disable comments on custom post types across the whole network."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add an advanced option to show the theme's comment template even when comments are disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Move persistent mode filter into a define."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change the behaviour for comment feed requests. This removes a potential security issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding a few new translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility updates and code refactoring for WordPress 4.3"
+msgstr ""

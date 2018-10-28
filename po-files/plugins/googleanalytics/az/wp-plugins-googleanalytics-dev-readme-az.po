@@ -1,0 +1,342 @@
+# Translation of Plugins - Google Analytics - Development Readme (trunk) in Azerbaijani
+# This file is distributed under the same license as the Plugins - Google Analytics - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-15 18:13:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: az\n"
+"Project-Id-Version: Plugins - Google Analytics - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Use Google Analytics on your Wordpress site without touching any code, and view visitor reports right in your Wordpress admin dashboard!"
+msgstr ""
+
+#. Plugin name.
+msgid "Google Analytics"
+msgstr "Google Analitik"
+
+#. Found in changelog list item.
+msgid "Updated GA code posting method."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Google Optimization field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added IP Anonymization Option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed auto sending function from debug / added copy function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated copy for better user understanding."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Trending Content connection issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated SSL cert reference."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If you have any questions please let us know directly at support@sharethis.com or create a new ticket within our WP support portal.\n"
+"We are always happy to help."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Since the plugin accesses your Google Analytics account your login information is transerfered from our plugin to google.  This needs to be secure so SSL is required to keep your information safe."
+msgstr ""
+
+#. Found in faq header.
+msgid "Why do I need an SSL certificate to use this plugin?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you have any questions please let us know directly at support@sharethis.com or create a new WP support ticket here."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It learns about your traffic patterns to spot \"spikes\" of visitors and then sends an alert. If your website doesn't have good amount of visitors you might not see any Trending Content Alerts because the algorithm needs more data to see \"trends\"."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is likely caused by AdBlocker that is blocking anything related to \"google analytics\". Please disable AdBlocker for your own website or add it to exceptions if you are using Opera."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you signed it with google and selected your website (or manually added the property ID) the Google Analytics javascript will be added to all pages. To check what UA code it is adding, just open any page of your website in Chrome, right click to select Inspect, navigate to Network tab, reload the page and search for googleanalytics, you will see the google code with your UA ID. <a href=\"//cl.ly/1q3o2q26261V/[e5b08a5ae1c09684a56ba14c36e6fa5c]_Screen%2520Shot%25202017-02-06%2520at%25201.57.34%2520PM.png”\" title=\"”Google\">See example here.</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Nope, just sign in with google, choose your website, and our plugin will automatically add Google analytics code to all pages."
+msgstr ""
+
+#. Found in faq header.
+msgid "I have other questions, where I can get support or provide feedback?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How does that cool \"Trending Content\" feature work?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I see broken formatting inside the plugin, for example some buttons are not aligned?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I make sure Google Analytics is properly installed on all pages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do I need to touch any code to add Google Analytics?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "When any of your content takes off you will see the URLs inside the Trending Content section"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to Google Analytics in the WordPress sidebar"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "One more thing - unlike other plugins, Google Analytics for WordPress has no monthly fees, and no paid upgrades. All the features are totally free."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This Google Analytics plugin has a unique feature called Trending Content. It learns about your traffic patterns and shows you a list of content that is performing significantly better than average, so that you know what resonates with your audience the most. You can even sign up to receive alerts via email or Slack when content is taking off!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Only track real visitors - Allows you to disable tracking for any role like Admins, or Editors so your analytics represent real visitors"
+msgstr ""
+
+#. Found in description list item.
+msgid "Alerts - Sign up for alerts via email or Slack when your content is taking off"
+msgstr ""
+
+#. Found in description list item.
+msgid "Trending Content - Shows a history of content that is performing better than average, so at any given time you know what content resonates with your audience the most"
+msgstr ""
+
+#. Found in description header.
+msgid "Support"
+msgstr ""
+
+#. Screenshot description.
+msgid "Trending Content shows a list of alerts, article URLs, pageviews and time notified"
+msgstr ""
+
+#. Found in description header.
+msgid "Features:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Also, you will be able to see Google Analytics reports in the same interface you already use every day to write and manage your posts - in your WordPress dashboard. Now you can stay informed on how your website is doing without having to log into a separate tool."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Google Analytics plugin from ShareThis is the best way to add GA tracking code to your website without modifying any files. Just log in with Google right from your WP admin dashboard and choose which website you want to link. Then you can disable GA tracking of specific users, so that when you are browsing your own site it won't affect your analytics."
+msgstr ""
+
+#. Found in description list item.
+msgid "Mobile - Fully optimized for mobile, so you can view your dashboards on any device"
+msgstr ""
+
+#. Found in description list item.
+msgid "Traffic sources - Shows top 5 traffic sources so you know where your visitors are coming from"
+msgstr ""
+
+#. Found in description list item.
+msgid "Visitor trends - Shows a summary dashboard with page views, users, pages per session and bounce rate for the past 7 days as compared to the previous 7 days"
+msgstr ""
+
+#. Found in description list item.
+msgid "Account linking - no need to copy and paste any code or know your GA ID, just log in with Google, select the required website and it will automatically include the appropriate code"
+msgstr ""
+
+#. Found in description list item.
+msgid "Simple setup - Adds latest version of Google Analytics javascript to every page"
+msgstr ""
+
+#. Found in description list item.
+msgid "More updates coming - Continually updated and supported by a team of top Wordpress developers"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Authenticate via Google, copy and paste the access code and choose your property from the dropdown. You can also add the web property ID from Google Analytics manually but dashboards won't show up in this case."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install Google Analytics either via WordPress.org plugin repository or directly by uploading the files to your server"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "By downloading and installing this plugin you are agreeing to the <a href=\"http://www.sharethis.com/privacy/\">Privacy Policy</a> and <a href=\"http://www.sharethis.com/publisher-terms-of-use/\">Terms of Service</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you don't have a Google Analytics account, you can sign up for free here: https://www.google.com/analytics/"
+msgstr ""
+
+#. Screenshot description.
+msgid "View different time ranges and key metrics in the Wordpress Google Analytics widget"
+msgstr ""
+
+#. Screenshot description.
+msgid "Just click to authenticate, then copy the API key and add it to the plugin"
+msgstr ""
+
+#. Screenshot description.
+msgid "Directly authenticate Google Analytics, and exclude sets of logged in users"
+msgstr ""
+
+#. Screenshot description.
+msgid "The top 5 traffic sources for the past 7 days"
+msgstr ""
+
+#. Screenshot description.
+msgid "Overall site performance - the past 7 days vs previous 7 days"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the Plugins menu in your WordPress dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Included new alert for unsupported PHP version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Included new alert for missing Google Analytics account."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added refresh button for Google Analytics within dashboard."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added “Send Debug” button for faster technical troubleshooting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added re-authentication button for easier changing or relinking of Google Analytics accounts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed authentication error issue experienced by some users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reduced requests to Google API to help with Google Analytics quotas"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced Bootstrap with own scripts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "User interface improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional caching to always show Google Analytics dashboards"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Alerts - option to sign up for alerts via email or Slack when your content is taking off"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "NEW: Trending Content - trending content shows you a list of content that is performing better than average"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Undefined variable fix, thanks to charlesstpierre"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better compatibility with the Google API quotas"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the save settings issue, thanks @biologix @tanshaydar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better connection to Google Analytics API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reliability improvements for Google Analytics access"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for old versions of PHP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for PHP version 5.2.17"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added better support when WP_PLUGIN_DIR are already set, thanks @heiglandreas for the tip"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added better support for HTTP proxy, thanks @usrlocaldick for the suggestion"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed terms of service notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issues related to older versions of PHP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to include Google Analytics tracking code on every WordPress page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable tracking for logged in users like admins or editors for more reliable analytics"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wordpress Dashboard widget for 7, 30 or 90 days graph and top site usage stats"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Shows pageviews, users, pages per session and bounce rate + top 5 traffic referrals"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "See analytics right inside the plugin, the past 7 days vs your previous 7 days"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No need to find your GA property ID and copy it over, just sign in with Google and choose your site"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated with the latest Google Analytics code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Completely redesigned with new features!"
+msgstr ""
