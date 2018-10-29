@@ -1619,7 +1619,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 *
 		 * # Example
 		 * 
-		 * wp wpi18n import_translated_strings en-ca
+		 * wp wpi18n import_translated_strings br
 		 * 
 		 * @return [type] [description]
 		 */
@@ -1667,8 +1667,9 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 					// $file_name  = 'bbpress-2.4.x-ru.po';
 					$file_name  = basename($file);
 
-					$language   = $lang; // $translations->getHeader( 'Language' );
-					$project_id = $translations->getHeader( 'Project-Id-Version' );
+					$language_project = $translations->getHeader( 'Language' );
+					$language         = $lang; // $translations->getHeader( 'Language' );
+					$project_id       = $translations->getHeader( 'Project-Id-Version' );
 
 					$line = count( $translations );
 
@@ -1720,8 +1721,11 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 									// Original String.
 									update_post_meta( $post_id, 'original', $post_title );
 
-									// // Translated String.
-									// update_post_meta( $post_id, 'language_'.$language, $translation_string );
+									// Translated String.
+									// update_post_meta( $post_id, 'language_'.$language_project, $translation_string );
+
+									// Translated String.
+									update_post_meta( $post_id, 'language_'.$language, $translation_string );
 
 									// Uniq key should be: "language_{}_project_{}"
 									$translation_key = 'language_'.$language.'_project_'.sanitize_title( $project_id );

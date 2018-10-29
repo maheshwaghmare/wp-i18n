@@ -6,6 +6,24 @@ Translate the WordPress by by re-using existing translated strings with the help
 
 ## WP CLI Commands
 
+
+wp wpi18n import_translated_strings en-au
+
+
+br - DONE
+en_AU - en-au - WIP
+en_CA
+en_GB
+en_NZ
+es_ES
+ro_RO
+sv_SE 
+fr_FR
+it_IT
+de_DE
+
+
+
 All Files Log here - https://docs.google.com/spreadsheets/d/1s2RMLE1qslIwdEOqsKPrRbUPRyermiA0qC8Z7TjxIJ8/edit#gid=878822179
 
 1.  info
