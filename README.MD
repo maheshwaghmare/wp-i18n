@@ -1,3 +1,22 @@
+https://make.wordpress.org/polyglots/teams/?locale=
+
+af    | af    | @semblance_er, @kokkieh, @snapalot, @hugmin42, @rianbotha
+ar    | ar    | @alex-ye, @mansour, @adil-hl, @alaanassef, @hoanganhfametheme
+bn    | bn    | @wzislam, @sekander, @tareq, @myselfkhayer, @goutam
+bn    | bn_BD | @tyxla, @petya, @nofearinc, @nb, @kaladan
+zh-cn | zh_CN | @jiehan, @jimmyxu, @cainchang, @ptguy
+zh-tw | zh_TW | @pseric, @Alex Lion, @mrmu, @esofthard
+hr    | hr    | @juricaz, @borkolivic, @vlinicx, @lanche1990 
+cs    | cs_CZ | @kalich5, @davidbinovec, @davidulus, @jakubsuchybio, @ladislavsulc 
+
+// Lot of contributors
+it    | it_IT | @aliceorru, @francina, @giuliatosato, @jubstuff, @lasacco
+nl    | nl_NL | @chantalc, @rubenwoudsma, @mbootsman, @remkus, @jeroenrotty
+ru    | ru_RU | @yui, @atrax, @denisco, @sergey
+pt-br | pt_BR | @claudiosanches, @deblynprado, @felipeelia, @rafaelfunchal, @valeriosza
+es    | es_ES | @fernandot, @ibonazkoitia, @boren, @rocio, @bi0xid
+
+
 ## WP I18N
 
 Translate the WordPress by by re-using existing translated strings with the help of WP CLI.
@@ -6,11 +25,19 @@ Translate the WordPress by by re-using existing translated strings with the help
 
 ## WP CLI Commands
 
+// START
+wp wpi18n import_translated_strings ary
+wp wpi18n temp_ids ary
+wp wpi18n set_most_repeated_string_as_top ary ----- en_AU
+wp wpi18n generate_blank_lang_po ary
+wp wpi18n generate_filled_lang_po ary
+// END
 
-wp wpi18n import_translated_strings en-au
+wp wpi18n detect_all_repeated_string hi
 
-
+az - DONE
 br - DONE
+hi - DONE (Created the lang PO)
 en_AU - en-au - WIP
 en_CA
 en_GB
@@ -150,3 +177,5 @@ It import all the strings from downlaoded .po files. E.g. It visit all the .po f
 
 - etc.
 ```
+
+

@@ -1362,14 +1362,20 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 * 
 		 * ## EXAMPLES
 		 *
-		 * wp wpi18n generate_blank_lang_po {mr}
+		 * wp wpi18n generate_blank_lang_po hi
 		 */
 		function generate_blank_lang_po( $args, $assoc_args ) {
+
+			$lang = isset( $args[0] ) ? $args[0] : '';
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
 			
 			include_once "lib/Gettext/src/autoloader.php";
 			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
 
-			$langs = array(  'mr'  , 'ru', 'af_ZA', 'ar', 'ar_MA', 'az', 'en_CA', 'en_ZA', 'oc_FR' );
+			$langs = array( $lang );
 
 			foreach ($langs as $lang_key => $lang) {
 				$file_name = 'lang-po/language-'.$lang . '.po';
@@ -1430,14 +1436,20 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 * 
 		 * ## EXAMPLES
 		 *
-		 * wp wpi18n generate_filled_lang_po {mr}
+		 * wp wpi18n generate_filled_lang_po hi
 		 */
 		function generate_filled_lang_po( $args, $assoc_args ) {
+
+			$lang = isset( $args[0] ) ? $args[0] : '';
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
 			
 			include_once "lib/Gettext/src/autoloader.php";
 			include_once "lib/cldr-to-gettext-plural-rules-master/src/autoloader.php";
 
-			$langs = array(  'mr'  , 'ru', 'af_ZA', 'ar', 'ar_MA', 'az', 'en_CA', 'en_ZA', 'oc_FR' );
+			$langs = array( $lang );
 
 			foreach ($langs as $lang_key => $lang) {
 				$file_name = 'lang-po/language-'.$lang . '.po';
@@ -1624,7 +1636,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 * @return [type] [description]
 		 */
 		public function import_translated_strings( $args, $assoc_args ) {
-			
+
 			$lang = isset( $args[0] ) ? $args[0] : '';
 			
 			if( empty( $lang ) ) {
@@ -1685,11 +1697,8 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 							if( $post_id ) {
 								if( ! empty( $translation_string ) ) {
 
-									// $lang_exist = metadata_exists( 'wpi18n', $post_id, 'language_'.$language );
-									// if( ! $lang_exist ) {
-									// 	update_post_meta( $post_id, 'language_'.$language, $translation_string );
-									// 	WP_CLI::line( $files_count . ' | ' . $language . ' | ' . $file_name . ' | ' . $line . ' | ' . $post_id . ' | UPDATED ' . 'language_'.$language );
-									// }
+									// Translated String.
+									// update_post_meta( $post_id, 'language_'.$language, $translation_string );
 
 									// SAME Translated String from all other projects.
 									// Unique key should be: "language_{}_project_{}"
@@ -1725,7 +1734,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 									// update_post_meta( $post_id, 'language_'.$language_project, $translation_string );
 
 									// Translated String.
-									update_post_meta( $post_id, 'language_'.$language, $translation_string );
+									// update_post_meta( $post_id, 'language_'.$language, $translation_string );
 
 									// Uniq key should be: "language_{}_project_{}"
 									$translation_key = 'language_'.$language.'_project_'.sanitize_title( $project_id );
@@ -1930,10 +1939,16 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		}
 
 		/**
-		 * wp wpi18n temp_ids
+		 * wp wpi18n temp_ids hi
 		 * @return [type] [description]
 		 */
-		function temp_ids() {
+		function temp_ids( $args, $assoc_args ) {
+
+			$lang = isset( $args[0] ) ? $args[0] : '';
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
 
 			$args = array(
 				'post_type'      => 'wpi18n',
@@ -1955,12 +1970,13 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 				$count = count( $query->posts );
 
 				foreach ($query->posts as $key => $post_id) {
-					update_post_meta( $post_id, 'ast_ES', '' );
-					update_post_meta( $post_id, 'az_IR', '' );
-					update_post_meta( $post_id, 'az', '' );
-					update_post_meta( $post_id, 'en_CA', '' );
-					update_post_meta( $post_id, 'en_ZA', '' );
-					update_post_meta( $post_id, 'oc_FR', '' );
+					update_post_meta( $post_id, $lang, '' );
+					// update_post_meta( $post_id, 'ast_ES', '' );
+					// update_post_meta( $post_id, 'az_IR', '' );
+					// update_post_meta( $post_id, 'az', '' );
+					// update_post_meta( $post_id, 'en_CA', '' );
+					// update_post_meta( $post_id, 'en_ZA', '' );
+					// update_post_meta( $post_id, 'oc_FR', '' );
 					WP_CLI::line( $count . ' updated ' . $post_id );
 
 					$count--;
@@ -2033,11 +2049,23 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 *
 		 * # Example:
 		 *
-		 * wp wpi18n set_most_repeated_string_as_top
+		 * wp wpi18n set_most_repeated_string_as_top en-au en_AU
 		 */
-		function set_most_repeated_string_as_top() {
+		function set_most_repeated_string_as_top( $args, $assoc_args ) {
 
-			$langs = array( 'ast_ES', 'az_IR', 'az', 'en_CA', 'en_ZA', 'oc_FR' );
+			$lang              = isset( $args[0] ) ? $args[0] : '';
+			$project_meta_lang = isset( $assoc_args ) && array_key_exists( 'slug', $assoc_args ) ? $assoc_args['slug'] : '';
+
+			// Set lang as a default project slug.
+			if( empty( $project_meta_lang ) ) {
+				$project_meta_lang = $lang;
+			}
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
+
+			$langs = array( $lang );
 
 			$all_found_strings = 0;			
 			foreach ($langs as $key => $lang) {
@@ -2068,11 +2096,11 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 						$small_post_title = substr($post_title, 0, 30);
 						$languages = get_repeat_string_mapping( $post_id );
 
-						if( isset( $languages[ $lang ]['top'] ) && ! empty( $languages[ $lang ]['top'] ) ) {
+						if( isset( $languages[ $project_meta_lang ]['top'] ) && ! empty( $languages[ $project_meta_lang ]['top'] ) ) {
 							$all_found_strings++;
 							$line++;
-							$newly_translated = $languages[ $lang ]['top'];
-							
+							$newly_translated = $languages[ $project_meta_lang ]['top'];
+
 							update_post_meta( $post_id, 'language_' . $lang, $newly_translated );
 							WP_CLI::line( $all_found_strings . ' | ' . $lang . ' | ' . $count . ' | ' . $line . ' | ' . $newly_translated . ' | ' . $small_post_title );
 
@@ -2083,6 +2111,98 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 							} else {
 								file_put_contents( $local_translated_log, $log_data . "\n" . $line . ' | ' . $newly_translated . ' | ' . $post_title );
 							}
+						} else {
+							WP_CLI::line( $all_found_strings . ' | ' . $lang . ' | ' . $count . ' | ' . $line . ' | NOT FOUND | ' . $small_post_title );
+						}
+
+						$count--;
+					}
+				}
+			}
+		}
+
+		/**
+		 * Create repeate string log file for each language.
+		 *
+		 * # Example:
+		 *
+		 * wp wpi18n detect_all_repeated_string mr
+		 */
+		function detect_all_repeated_string( $args, $assoc_args ) {
+
+			$lang              = isset( $args[0] ) ? $args[0] : '';
+			$project_meta_lang = isset( $assoc_args ) && array_key_exists( 'slug', $assoc_args ) ? $assoc_args['slug'] : '';
+
+			// Set lang as a default project slug.
+			if( empty( $project_meta_lang ) ) {
+				$project_meta_lang = $lang;
+			}
+
+			if( empty( $lang ) ) {
+				WP_CLI::error( "Language not set." );
+			}
+
+			$langs = array( $lang );
+
+			$all_found_strings = 0;			
+			foreach ($langs as $key => $lang) {
+				$args = array(
+					'post_type'      => 'wpi18n',
+
+					// Query performance optimization.
+					'fields'         => 'ids',
+					'no_found_rows'  => true,
+					'post_status'    => 'any',
+					'posts_per_page' => -1,
+					// 'post__in'       => array( '7270' ),
+					// 'post__in'       => array( '3165' ),
+				);
+
+				$query = new WP_Query( $args );
+
+				// Have posts?
+				if ( $query->posts ) {
+
+					$count                = count( $query->posts );
+					$line                 = 0;
+					$local_translated_log = 'repeated/'.$lang.'.txt';
+
+					// Empty log file.
+					file_put_contents( $local_translated_log, '' );
+
+					foreach ($query->posts as $key => $post_id) {
+						$post_title = get_the_title( $post_id );
+						$small_post_title = substr($post_title, 0, 30);
+						$languages = get_repeat_string_mapping( $post_id );
+
+						$repeat = isset( $languages[$project_meta_lang]['repeat'] ) ? $languages[$project_meta_lang]['repeat'] : array();
+
+						// WP_CLI::line( print_r( $languages[$project_meta_lang] ));
+						// WP_CLI::error( count( $languages ) );
+
+						if( count( $repeat ) >= 2 && isset( $languages[ $project_meta_lang ]['top'] ) && ! empty( $languages[ $project_meta_lang ]['top'] ) ) {
+							$all_found_strings++;
+							$line++;
+
+							$data  = $line . '. ' . $post_title;
+							$data .= "\n\t(Most Repeat) " . $languages[ $project_meta_lang ]['top'];
+							foreach ($repeat as $repeat_string => $repeat_string_count) {
+								$data .= "\n\t" . '('.$repeat_string_count.' times) ' . $repeat_string;
+							}
+							$data .= "\n\t--------- FROM PROJECTS ---------";
+							$all = isset( $languages[$project_meta_lang]['all'] ) ? $languages[$project_meta_lang]['all'] : array();
+							foreach ($all as $project_id => $project_string) {
+								$data .= "\n\t" . '('.$project_id.') ' . $project_string;
+							}
+							if( $all ) {
+							}
+							$data .= "\n\n";
+
+							// Track all translate strings.
+							$log_data = file_get_contents( $local_translated_log );
+							file_put_contents( $local_translated_log, $log_data . $data );
+
+							WP_CLI::line( $all_found_strings . ' | ' . $lang . ' | ' . $count . ' | ' . $line . ' | ' . $small_post_title );
 						} else {
 							WP_CLI::line( $all_found_strings . ' | ' . $lang . ' | ' . $count . ' | ' . $line . ' | NOT FOUND | ' . $small_post_title );
 						}
