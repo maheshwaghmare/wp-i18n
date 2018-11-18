@@ -2126,7 +2126,7 @@ if( ! class_exists( 'WPI18N' ) && class_exists( 'WP_CLI_Command' ) ) :
 		 *
 		 * # Example:
 		 *
-		 * wp wpi18n detect_all_repeated_string mr
+		 * wp wpi18n detect_all_repeated_string ary
 		 */
 		function detect_all_repeated_string( $args, $assoc_args ) {
 
