@@ -8,11 +8,11 @@ Translate the WordPress by by re-using existing translated strings with the help
 ## WP CLI Commands
 
 // START
-wp wpi18n import_translated_strings it
-wp wpi18n temp_ids it
-wp wpi18n set_most_repeated_string_as_top it ----- en_AU
-wp wpi18n generate_blank_lang_po it
-wp wpi18n generate_filled_lang_po it
+wp wpi18n import_translated_strings en_AU
+wp wpi18n temp_ids en_AU
+wp wpi18n set_most_repeated_string_as_top en_AU ----- en_AU
+wp wpi18n generate_blank_lang_po en_AU
+wp wpi18n generate_filled_lang_po en_AU
 // END
 
 wp wpi18n detect_all_repeated_string hi
