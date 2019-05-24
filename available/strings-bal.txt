@@ -1,0 +1,39 @@
+1 | 
+
+ | <h1>Error establishing a database connection</h1>
+<p>This either means that the username and password information in your <code>wp-config.php</code> file is incorrect or we can&#8217;t contact the database server at <code>%s</code>. This could mean your host&#8217;s database server is down.</p>
+<ul>
+	<li>Are you sure you have the correct username and password?</li>
+	<li>Are you sure that you have typed the correct hostname?</li>
+	<li>Are you sure that the database server is running?</li>
+</ul>
+<p>If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href='https://wordpress.org/support/'>WordPress Support Forums</a>.</p>
+2 | 
+ | BETA TESTING?
+=============
+
+This debugging email is sent when you are using a development version of WordPress.
+
+If you think these failures might be due to a bug in WordPress, could you report it?
+ * Open a thread in the support forums: https://wordpress.org/support/forum/alphabeta
+ * Or, if you&#8217;re comfortable writing a bug report: https://core.trac.wordpress.org/
+
+Thanks! &#8212; The WordPress Team
+3 | 
+ | UPDATE LOG
+==========
+4 | 
+ | Your new WordPress site has been successfully set up at:
+
+%1$s
+
+You can log in to the administrator account with the following information:
+
+Username: %2$s
+Password: %3$s
+Log in here: %4$s
+
+We hope you enjoy your new site. Thanks!
+
+&#8211;The WordPress Team
+https://wordpress.org/

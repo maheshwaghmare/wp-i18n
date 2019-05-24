@@ -1,0 +1,642 @@
+1 | قْرا الصفحة نتاع <a target="_blank" href="https://codex.wordpress.org/Debugging_a_WordPress_Network">جورنان المشاكل</a>. كاين شي عفايس يعاونوك تفهم واش ما راهم يمشي كيما يلزم. | Read the <a target="_blank" href="https://codex.wordpress.org/Debugging_a_WordPress_Network" rel="noopener noreferrer">bug report</a> page. Some of the guidelines there may help you figure out what went wrong.
+2 | https://codex.wordpress.org/ | https://codex.wordpress.org/
+3 | <span>راه خدّام:</span> %s | <span>Active:</span> %s
+4 | الفصالة نتاعك تحمل غير مونو واحد. خيّر وين هو المونو اللي راك باغي تخدم بيه. | Your theme supports one menu. Select which menu you would like to use.
+5 | <span>الفصالة اللي راهي راكبة ضروك</span> %s | <span>Active theme</span> %s
+6 | <span>ضرب طلّة على الفصالة</span> %s | <span>Previewing theme</span> %s
+7 | خيّر العام | Select Year
+8 | خيّر المقالة | Select Post
+9 | خيّر السيمانة | Select Week
+10 | خيّر النهار | Select Day
+11 | ضْرَب طلّة على <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> باش تستخبر كتر. | Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information.
+12 | ناس الماكينتوش يخدموا بـ Ctrl + Alt + letter. | Macintosh uses Ctrl + Alt + letter.
+13 | <strong>ما نجمناش نلقاو السيت %1$s.</strong> رانا ضوّرنا ف الجدول %2$s ف قاعدة البيانات %3$s. زعما كولشي راه سْواسْوا؟ | <strong>Could not find site %1$s.</strong> Searched for table %2$s in database %3$s. Is that right?
+14 | <strong>جداول قاعدة البيانات ما كايناش.</strong> هادا معناته باللي MySQL ما راهش يخدم، الأنسطالاسيون نتاع ووردبريس ما ندارتش كيما يلزم الحال، وللا كاش واحد محى %s. لازم لك تضرب طلّة ضروك على قاعدة البيانات نتاعك. | <strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted %s. You really should look at your database now.
+15 | وصلة مْبَّدْلة | Custom Link
+16 | السيت: %1$s (IP: %2$s, %3$s) | Website: %1$s (IP: %2$s, %3$s)
+17 | الكتاتبي: %1$s (IP: %2$s, %3$s) | Author: %1$s (IP: %2$s, %3$s)
+18 | F j, Y @ H:i:s | F j, Y @ H:i:s
+19 | الآسم نتاع نوع المحتوى لازم يكون ب طول حرف ل 20 حرف. | Post type names must be between 1 and 20 characters in length.
+20 | https://codex.wordpress.org/Function_Reference/is_main_query | https://codex.wordpress.org/Function_Reference/is_main_query
+21 | بلا ما تخبرني. | Dismiss this notice.
+22 | لقطة على السيت | Site Preview
+23 | التصويرة المقتارحة #%d | Suggested image #%d
+24 | التضمين المقتارح #%d | Suggested embed #%d
+25 | وصلة تالفة وللا السرفور راه لاهي. حمبوك، عاود سيي من بعد. | Connection lost or the server is busy. Please try again later.
+26 | ما نجحتش الميزاجور | Update Failed
+27 | كملت الميزاجور! | Updated!
+28 | الميزاجور راهي تندار... | Updating&#8230;
+29 | الميزاجور راهي تندار... حمبوك صبر شوية. | Updating&#8230; please wait.
+30 | %s م الميزاجور ما ندارتش | %s update failed
+31 | %s م الميزاجور ندارت! | %s updated!
+32 | %s... ميزاجور | Updating %s&#8230;
+33 | الميزاجور نتاع الزيادات تقدر تحبس لوكان تخرج م هاد الصفحة. | Plugin updates may not complete if you navigate away from this page.
+34 | الميزاجور حبست. | Update canceled.
+35 | الميزاجور ندارت كيما يلزم الحال. | Update completed successfully.
+36 | الأسماوات نتاع الكاتيجوري لازم يكونوا طوال من 1 ل 32 حرف. | Taxonomy names must be between 1 and 32 characters in length.
+37 | ما لقينا حتى كاتيجوري | No categories found.
+38 | ما نجمناش نطّرفو الكلمة المتقاسمة. | Could not split shared term.
+39 | راهي ديجا كاينة هاد كلمة ف الليستة. | A term with the name already exists in this taxonomy.
+40 | كاين كلمة بهاد الآسم راهي ديجا كاينة وتابعة ل هاد الساس. | A term with the name already exists with this parent.
+41 | %1$s جواب لـ %2$s | %1$s Response to %2$s
+42 | دوزان الفصالة | Customizer
+43 | <strong>غلطة</strong>: كلمة السر اللي دخلتها مع إسم المستخدم <strong>%1$s</strong> ما تركبش. <a href="%2$s">نسيت كلمة السر نتاعك؟</a> | <strong>ERROR</strong>: The password you entered for the username <strong>%1$s</strong> is incorrect. <a href="%2$s">Lost your password?</a>
+44 | <strong>غلطة</strong>: إسم مستخدم ما يصلحش. <a href="%s">نسيت كلمة السر نتاعك؟</a> | <strong>ERROR</strong>: Invalid username. <a href="%s">Lost your password?</a>
+45 | ما نجمناش نفيكسيوا الـ %1$s فمجموعة المتغيرات نتاع القايمة الطرفانية "%2$s". رانا درناها "%3$s". فيكسي الـ %1$s وحدك ب القيمة نتاع "%3$s" غير باش تسكّت الإشغار وتخّلي المضمون نتاع البارة الطرفانية. | No %1$s was set in the arguments array for the &#8220;%2$s&#8221; sidebar. Defaulting to &#8220;%3$s&#8221;. Manually set the %1$s to &#8220;%3$s&#8221; to silence this notice and keep existing sidebar content.
+46 | راك محتاج معاونة؟ <a href='https://codex.wordpress.org/Editing_wp-config.php'>رانا فهمناك</a>. | Need more help? <a href='https://codex.wordpress.org/Editing_wp-config.php'>We got it</a>.
+47 | https://codex.wordpress.org/Cookies | https://codex.wordpress.org/Cookies
+48 | الحساب نتاعك عاد كاين ضروك! | Your account is now active!
+49 | كلمة السر: | Password:
+50 | الآسم نتاع المستخدم: | Username:
+51 | غير سمَّحلنا، لازم تكون بادي جلسة باش تنجَّم تدير كاش تعليق. | Sorry, you must be logged in to post a comment.
+52 | https://wordpress.org/ | https://wordpress.org/
+53 | واشنو هو WordPress؟ | About WordPress
+54 | واش رايك؟ | Feedback
+55 | https://wordpress.org/support/ | https://wordpress.org/support/
+56 | http://codex.wordpress.org/ | http://codex.wordpress.org/
+57 | التوثيق | Documentation
+58 | الحساب نتاعي | My Account
+59 | https://wordpress.org/support/forum/requests-and-feedback | https://wordpress.org/support/forum/requests-and-feedback
+60 | بدَّل واش بغيت ف السيت | Edit Site
+61 | ڨاع واش عندي من سيت | My Sites
+62 | مقالة جديدة | New Post
+63 | بدَّل على حساب ما تبغي | Customize
+64 | الخلفية | Background
+65 | عفايس | Widgets
+66 | المقالات نتاع %s | Posts by %s
+67 | وصلات مسَّجلين | Bookmarks
+68 | التبديلة التالية: %s | Last updated: %s
+69 | بلا تصنيفات | No categories
+70 | بدّل الملف | Change File
+71 | خيَّر الملف | Select File
+72 | خيَّر كاش تصويرة | Select Image
+73 | خيَّر كاش ملف | Choose File
+74 | راك عاد ما خيَّرت حتى ملف | No file selected
+75 | بدَّل التصويرة | Change Image
+76 | حتى تصويرة ما تخَّيرت | No image selected
+77 | خيَّر كاش تصويرة | Choose Image
+78 | التصويرة نتاع الترويسة | Header Image
+79 | التصويرة نتاع الخلفية | Background Image
+80 | الترويسة نتاع ضروك | Current header
+81 | زيد كاش عفسيس | Add a Widget
+82 | زيد تصويرة جديدة | Add new image
+83 | درَّڨ التصويرة | Hide image
+84 | العنوان نتاع السيت | Site Title
+85 | عاوَد ستَّف من جديد | Reorder
+86 | لون نص الترويسة | Header Text Color
+87 | اللوان | Colors
+88 | عاود الخلفية | Background Repeat
+89 | الليسرة | Left
+90 | وين نحَّط الخلفية؟ | Background Position
+91 | مرفق الخلفية | Background Attachment
+92 | الليمنة | Right
+93 | مْسَڨَّم | Fixed
+94 | كيفاش تبان الصفحة اللولانية | Front page displays
+95 | صفحة المقالات | Posts page
+96 | الصفحة اللولانية | Front page
+97 | راك تبدّل ف %s | You are customizing %s
+98 | طلَّع | Move up
+99 | هوَّد | Move down
+100 | سجَّل وضرب طلَّة على واش بدَّلت قبل ما تنشرهم. | Save and preview changes before publishing them.
+101 | نبدَّل | Apply
+102 | راك هوّدت العفسيس | Widget moved down
+103 | راك طلّعت العفسيس | Widget moved up
+104 | مستند جديد | New document
+105 | لقطة | Visual
+106 | حوَّس بين العفسيس | Search Widgets
+107 | الترويسة 1 | Heading 1
+108 | الترويسات | Headings
+109 | الترويسة 4 | Heading 4
+110 | الترويسة 3 | Heading 3
+111 | الترويسة 2 | Heading 2
+112 | فقرة | Paragraph
+113 | الترويسة 6 | Heading 6
+114 | الترويسة 5 | Heading 5
+115 | Blockquote | Blockquote
+116 | العنوان | Address
+117 | غليظ | Bold
+118 | مْحِي الزواق | Clear formatting
+119 | الكود | Code
+120 | كتيبة مايلة | Italic
+121 | عايلة خط الكتيبة | Font Family
+122 | الكبُر نتاع خط الكتيبة | Font Sizes
+123 | ڨص | Cut
+124 | ستَّف م الطرايف | Justify
+125 | نعاودوها | Redo
+126 | ما نبدّلش | Undo
+127 | نسخ | Copy
+128 | بلَّع | Close
+129 | بطَّلنا | Cancel
+130 | صحّ | OK
+131 | مربَّع | Square
+132 | ليستة ب النقاطي | Bulleted list
+133 | ديسك | Disc
+134 | دَوِّيرة | Circle
+135 | خصائص المستند | Document properties
+136 | التشفير | Encoding
+137 | الحواف | Border
+138 | المصدر | Source
+139 | عفايس واحد شيخ | Advanced
+140 | الوصف نتاع التصويرة | Image description
+141 | الكبُر | Dimensions
+142 | م الليسرة ل اللمينة | Left to right
+143 | م الليمنة ل الليسرة | Right to left
+144 | ضرب طلَّة | Preview
+145 | خطّ ب الطول | Horizontal line
+146 | سجَّل | Save
+147 | طْبَع | Print
+148 | لون | Color
+149 | مبدّل على حساب ما تبغي... | Custom&#8230;
+150 | اللون اللي تبغي | Custom color
+151 | اللي من قبل | Prev
+152 | بال تلوين | No color
+153 | حوَّس | Find
+154 | بدّل ب | Replace with
+155 | لْقى و بدَّل | Find and replace
+156 | كلمات كاملين | Whole words
+157 | تفقَّد الكتيبة | Check Spelling
+158 | بدَّل كولشي | Replace all
+159 | زيد ف المكلم! | Add to Dictionary
+160 | سمح | Ignore
+161 | سمح في كولشي | Ignore all
+162 | كمّل | Finish
+163 | مْحِي الجدول | Delete table
+164 | لون الحواف | Border color
+165 | الخلية | Cell
+166 | العرصات | Cols
+167 | العرصة | Column
+168 | الفريسة | Body
+169 | الترويسة | Header
+170 | الخلية نتاع الترويسة | Header cell
+171 | ڨص الصف نتاع الجدول | Cut table row
+172 | مْحِي العرصة | Delete column
+173 | مْحِي الصف | Delete row
+174 | العُرض | Width
+175 | الطول | Height
+176 | قسَّم الخلية نتاع الجدول | Split table cell
+177 | ستَّف ب الطول! | H Align
+178 | التستاف | Alignment
+179 | وسطاني | Middle
+180 | ستَّف على حساب العرصة! | V Align
+181 | المجموعة نتاع العرصات | Column group
+182 | الطحطاحة | Bottom
+183 | دخَّل الفصالة | Insert template
+184 | اللون نتاع الخلفية | Background color
+185 | الكلمات: %s | Words: %s
+186 | دخَّل | Insert
+187 | كتب بلا ما تلهّيك كاش حيّة! | Distraction-free writing mode
+188 | زيد قرا... | Read more&#8230;
+189 | غليظ (Ctrl + B) | Bold (Ctrl + B)
+190 | بيَّن واش تبدَّل | Update
+191 | المكتبة نتاع الميديا (Alt + Shift + M) | Media library (Alt + Shift + M)
+192 | Blockquote (Alt + Shift + Q) | Blockquote (Alt + Shift + Q)
+193 | كتيبة مايلة (Ctrl + I) | Italic (Ctrl + I)
+194 | المعاونة (Alt + Shift + H) | Help (Alt + Shift + H)
+195 | غير كتَب. | Just write.
+196 | شحال كاين من كلمة: %s | Word count: %s
+197 | ما قدرش يتسجَّل | Save failed.
+198 | مْسَجَّل | Saved.
+199 | الوصلة | URL
+200 | العام/الشهر/النهار | Y/m/d
+201 | زيد وصلة | Add Link
+202 | ما نَجَّمناش نَزَّبْرو التصويرة. | Image crop failed.
+203 | زاير سكيمي | Anonymous
+204 | النسخة نتاع البرنامج | Software Version
+205 | الآسم نتاع البرنامج | Software Name
+206 | الآسم نتاع المستخدم وللا كلمة السر غالطين | Incorrect username or password.
+207 | الشكل نتاع الوقت | Time Format
+208 | الشكل نتاع التاريخ | Date Format
+209 | سمَح ل الناس باش يبعتوا تعليقات على المقالات الجدُد | Allow people to post comments on new articles
+210 | غير سمَّحلنا، ما قدرناش ننشرو واش كتبت. كاش حيّة ما راهيش تمشي كيما يلزم. | Sorry, your entry could not be posted. Something wrong happened.
+211 | غير سمَّحلنا، ما تنجَّمش تبدَّل ف هاد المقالة. | Sorry, you cannot edit this post.
+212 | غير سمَّحلنا، ما تنجَّمش تشوف الليستة نتاع المستخدمين. | Sorry, you cannot list users.
+213 | غير سمَّحلنا، ما تنجَّمش تبدَّل البيانات نتاع المستخدمين. | Sorry, you cannot edit users.
+214 | غير سمَّحلنا، ما تنجَّمش تبدَّل ف هاد الصفحة. | Sorry, you cannot edit this page.
+215 | غير سمَّحلنا، ما تنجَّمش تبدَّل ف البروفايل نتاعك. | Sorry, you cannot edit your profile.
+216 | غيرسمَّحلنا، ما عندش الحق باش تمحي هاد الصفحة. | Sorry, you do not have the right to delete this page.
+217 | غير سمَّحلنا، ما تنجَّمش تبدَّل ف الصفحات. | Sorry, you cannot edit pages.
+218 | غير سمَّحلنا، ما تنجَّمش تبدَّل ف المقالات نتاع هاد السيت. | Sorry, you cannot edit posts on this site.
+219 | غير سمَّحلنا، ما عندكش الحق باش تبدَّل ف هاد الصفحة. | Sorry, you do not have the right to edit this page.
+220 | غير سمَّحلنا، ما عندكش الحق باش تزيد كاش تصنيف. | Sorry, you do not have the right to add a category.
+221 | غير سمَّحلنا، ما عندكش الحق باش تمحي كاش تصنيف. | Sorry, you do not have the right to delete a category.
+222 | لازم لنا الآسم والإيمايل نتاع مول التعليق | Comment author name and email are required
+223 | مشي مسموح لك تبعت ملفات. | You do not have permission to upload files.
+224 | غير سمَّحلنا، ما تنجَّمش تدخل ل بيانات المستخدم ف هاد السيت. | Sorry, you do not have access to user data on this site.
+225 | غير سمَّحلنا، ما عندش الحق باش تبدَّل هاد المقالة. | Sorry, you do not have the right to edit this post.
+226 | غير سمَّحلنا، ما عندش الحق باش تمحي هاد المقالة. | Sorry, you do not have the right to delete this post.
+227 | غير سمَّحلنا، ما عندكش الحق باش تنشر هاد الصفحة. | Sorry, you do not have the right to publish this page.
+228 | غير سمَّحلنا، ما تنجَّمش تنشر هاد المقالة. | Sorry, you cannot publish this post.
+229 | % تعليق | % Comments
+230 | 1 تعليق | 1 Comment
+231 | ما كاين جتى تعليق | No Comments
+232 | تعليق على %s | Comment on %s
+233 | دخَّل كلمة السر نتاعك باش تشوف التعليقات. | Enter your password to view comments.
+234 | حبَّسنا التعليقات | Comments Off
+235 | بْدا الجلسة نتاعك باش تعلَّق | Log in to leave a Comment
+236 | بْدا الجلسة نتاعك باش تجاوب | Log in to Reply
+237 | واجَبْ %s | Reply to %s
+238 | جواب | Reply
+239 | خلِّي جواب ل %s | Leave a Reply to %s
+240 | خلِّيلي الجواب نتاعك | Leave a Reply
+241 | عبَّز هنايا باش تمحي الجواب. | Click here to cancel reply.
+242 | (بدّل واش بغيت) | (Edit)
+243 | التعليق نتاعك لازم يفوت قبل على مول الشي. | Your comment is awaiting moderation.
+244 | الإيمايل | Email
+245 | لازم <a href="%s">تكون بادي جلسة</a> باش تنشر تعليق. | You must be <a href="%s">logged in</a> to post a comment.
+246 | سيت انترنت | Website
+247 | نحِّي واش جاوبنا | Cancel reply
+248 | التستاف نتاع الصفحة | Page order
+249 | العنوان نتاع الصفحة | Page title
+250 | ستَّف على حساب: | Sort by:
+251 | العنوان | Title:
+252 | المعرِّفات نتاع الصفحة، مفصولين ب فاصلات. | Page IDs, separated by commas.
+253 | المعرِّف نتاع الصفحة | Page ID
+254 | عنوان الوصلة | Link title
+255 | خيَّر التصنيف نتاع الوصلات: | Select Link Category:
+256 | خيَّر الشهر | Select Month
+257 | WordPress.org | WordPress.org
+258 | التعليقات <abbr title="Really Simple Syndication">RSS</abbr> | Comments <abbr title="Really Simple Syndication">RSS</abbr>
+259 | الكالوندريي | Calendar
+260 | زيد فقرات بلا ما تسقسيني | Automatically add paragraphs
+261 | النص | Text
+262 | خيَّر التصنيف | Select Category
+263 | تعليقات جدُد | Recent Comments
+264 | RSS | RSS
+265 | شحال من ردّ يبان: | Number of comments to show:
+266 | <strong>غلطة ف الـRSS</strong>: %s | <strong>RSS Error</strong>: %s
+267 | القائمة اللي تبغي | Custom Menu
+268 | خيَّر القائمة: | Select Menu:
+269 | المقالة اللولة | First Post
+270 | الملف المرفق راه مخصوص | Missing Attachment
+271 | راك متيقَّن باللي هادي اللي راك باغي تديره؟ | Are you sure you want to do this?
+272 | تعليقات على %s | Comments on %s
+273 | تعليق على  %1$s من عند %2$s | Comment on %1$s by %2$s
+274 | تعليقات على %s | Comments for %s
+275 | من عند: %s | By: %s
+276 | التعليقات على: %s | Comments on: %s
+277 | &#8221; | &#8221;
+278 | &#8220; | &#8220;
+279 | &#8217; | &#8217;
+280 | &#8243; | &#8243;
+281 | &#8242; | &#8242;
+282 | كلمة | words
+283 | &hellip; | &hellip;
+284 | %s و %s | %s and %s
+285 | نوع نتاع ملف ما يصلحش | Invalid file type
+286 | مْحِيها: %s | Delete it: %s
+287 | تعليق جديد على المقالة نتاعك "%s" | New comment on your post &#8220;%s&#8221;
+288 | الكتاتبي: %1$s (IP: %2$s , %3$s) | Author: %1$s (IP: %2$s , %3$s)
+289 | الإيمايل: %s | E-mail: %s
+290 | التعليق: %s | Comment: %s
+291 | الوصلة: %s | URL: %s
+292 | #%d (بلا عنوان) | #%d (no title)
+293 | هاد السيت ما عادش كاين. | This site is no longer available.
+294 | زيد عناوين تحتانية | Add Subtitles
+295 | التفاصيل نتاع الأوديو | Audio Details
+296 | نحِّي واش بدَّلنا | Cancel Edit
+297 | زْبَر التصويرة | Crop Image
+298 | التفاصيل نتاع التصويرة | Image Details
+299 | ما كاين حتى ميديا مرفوقة. | No media attachments found.
+300 | فرَّز على حساب التواريخ | Filter by date
+301 | فرَّز على حساب النوع | Filter by type
+302 | نحِّي واش خيَّرنا | Cancel Selection
+303 | ڨاع التواريخ | All dates
+304 | المكتبة نتاع الميديا | Media Library
+305 | نولِّي ل اللور | Back
+306 | (بلا عنوان) | (no title)
+307 | زيد كاش ميديا | Add Media
+308 | خيَّر | Select
+309 | واش من بيترايت | Bitrate Mode
+310 | النوع | Genre
+311 | العام | Year
+312 | شحال يدّي وقت | Length
+313 | البيترايت | Bitrate
+314 | أوتوماتيك | Auto
+315 | الحلقة | Loop
+316 | CSS Class نتاع التصويرة | Image CSS Class
+317 | الكبر اللي تبغي | Custom Size
+318 | عفايس واحد شيخ | Advanced Options
+319 | ستَّف | Align
+320 | بدّل النسخة الحقانية | Edit Original
+321 | بدّل بيه | Replace
+322 | العرصات | Columns
+323 | تستاف على الزهر | Random Order
+324 | صفحة الملفات المرفوقة | Attachment Page
+325 | الكبر | Size
+326 | الكبر الحقاني | Full Size
+327 | ملف ميديا | Media File
+328 | بدّل واش خيّرت! | Edit Selection
+329 | مْحِيها م الجدرة | Delete Permanently
+330 | مبعوت من عند: | Uploaded By
+331 | البيترايت: | Bitrate:
+332 | الفنّان | Artist
+333 | الألبوم | Album
+334 | الكبُر: | Dimensions:
+335 | الطول | Length:
+336 | تنبعت نهار: | Uploaded on:
+337 | الكبُر نتاع الملف: | File size:
+338 | النوع نتاع الملف | File type:
+339 | بدّل واش باغي ف التصويرة | Edit Image
+340 | الآسم نتاع الملف | File name:
+341 | غلطة | Error
+342 | كاين غلطة ف القاعدة نتاع البيانات | Database Error
+343 | خيَّر مدينة | Select a city
+344 | الجلسة تبَّلعت | Session expired
+345 | فتَّش | Search
+346 | بدا الجلسة نتاعك | Log In
+347 | بلّع الجلسة | Log out
+348 | التصنيف: %s | Category: %s
+349 | الصفحة %s | Page %s
+350 | ما صبناش الصفحة | Page not found
+351 | الوسمة: %s | Tag: %s
+352 | العام: %s | Year: %s
+353 | الكتاتبي: %s | Author: %s
+354 | النهار: %s | Day: %s
+355 | الشهر: %s | Month: %s
+356 | فيديويات | Videos
+357 | ڨصرات | Chats
+358 | وصلات | Links
+359 | متالات | Quotes
+360 | %1$s %2$s سنسلة | %1$s %2$s Feed
+361 | %1$s %2$d | %1$s %2$d
+362 | %1$s: %2$s | %1$s: %2$s
+363 | الأرشيف: %s | Archives: %s
+364 | %1$s %2$s %3$s سنسلة نتاع الوسمات | %1$s %2$s %3$s Tag Feed
+365 | %1$s %2$s %3$s سنسلة نتاع التصنيفات | %1$s %2$s %3$s Category Feed
+366 | %1$s %2$s %3$s سنسلة نتاع التعليقات | %1$s %2$s %3$s Comments Feed
+367 | %1$s %2$s سنسلة نتاع التعليقات | %1$s %2$s Comments Feed
+368 | اللي من بعد &raquo; | Next &raquo;
+369 | &laquo; اللي من قبل | &laquo; Previous
+370 | %1$s %2$s %3$s سنسلة | %1$s %2$s %3$s Feed
+371 | وسط الليل | Midnight
+372 | نتاع منوالي | Default
+373 | ستَّف م الليسرة | Align Left
+374 | ستَّف م الليمنة | Align Right
+375 | ستَّف م الوسط | Align Center
+376 | ستَّف النص م الطرايف | Justify Text
+377 | دخَّل تصويرة | Insert Image
+378 | زيد وصلة | Insert link
+379 | المعاونة | Help
+380 | بدَّل هادا | Edit This
+381 | السنسلة نتاع التعليقات | Comments Feed
+382 | كاين | Available
+383 | الصفحة اللي من بعد &raquo; | Next Page &raquo;
+384 | المقالة اللي من بعد | Next Post
+385 | المقالة اللي من قبل | Previous Post
+386 | المقالات القْدُم | Older posts
+387 | &laquo; الصفحة اللي من قبل | &laquo; Previous Page
+388 | &laquo; تعليقات قْدام | &laquo; Older Comments
+389 | حوّس بين المقالات | Posts navigation
+390 | المقالات الجدد | Newer posts
+391 | التْنين | Monday
+392 | الحدّ | Sunday
+393 | التْلاتا | Tuesday
+394 | S_Sunday_initial | S_Sunday_initial
+395 | الجمعة | Friday
+396 | M_Monday_initial | M_Monday_initial
+397 | T_Tuesday_initial | T_Tuesday_initial
+398 | T_Thursday_initial | T_Thursday_initial
+399 | W_Wednesday_initial | W_Wednesday_initial
+400 | الشميسة | Sun
+401 | S_Saturday_initial | S_Saturday_initial
+402 | F_Friday_initial | F_Friday_initial
+403 | مارس | March
+404 | فيڥري | February
+405 | جونڥي | January
+406 | أوت | August
+407 | جويي | July
+408 | جوان | June
+409 | ماي | May
+410 | أڥريل | April
+411 | نوفمبر | November
+412 | سبتمبر | September
+413 | Feb_February_abbreviation | Feb_February_abbreviation
+414 | Jan_January_abbreviation | Jan_January_abbreviation
+415 | ديسومبر | December
+416 | Jun_June_abbreviation | Jun_June_abbreviation
+417 | May_May_abbreviation | May_May_abbreviation
+418 | Apr_April_abbreviation | Apr_April_abbreviation
+419 | Mar_March_abbreviation | Mar_March_abbreviation
+420 | Aug_August_abbreviation | Aug_August_abbreviation
+421 | Jul_July_abbreviation | Jul_July_abbreviation
+422 | Nov_November_abbreviation | Nov_November_abbreviation
+423 | Dec_December_abbreviation | Dec_December_abbreviation
+424 | F j, Y | F j, Y
+425 | rtl | ltr
+426 | خيَّر الملفات | Select Files
+427 | Whois: %s | Whois: %s
+428 | على حساب ما تبغي | Custom
+429 | الآسم نتاع السيت لازم له على الأقل 4 حروف. | Site name must be at least 4 characters.
+430 | زْبَر التصويرة نتاعك | Crop your image
+431 | الوصلة نتاع التصويرة | Image URL
+432 | الوصلة اللي تبغي | Custom URL
+433 | التفاصيل نتاع الملفات المرفوقة | Attachment Details
+434 | سجَّل عندك الملف | Download File
+435 | سجَّل عندك الفيديو | Download Video
+436 | غلطة ف الـHTTP. | HTTP error.
+437 | اللي من بعد &gt; | Next &gt;
+438 | جيهة الكتيبة نتاع النص | text direction
+439 | بطَّلنا | Dismiss
+440 | بلَّع الوسمات | close tags
+441 | بلَّع ڨاع الوسمات المفتوحين | Close all open tags
+442 | دخَّل كاش وصف ل التصويرة | Enter a description of the image
+443 | المضمون | Content
+444 | مقطع | Excerpt
+445 | http://codex.wordpress.org/Function_Reference/is_main_query | http://codex.wordpress.org/Function_Reference/is_main_query
+446 | ,  | ,
+447 | المضمون، العنوان و المقطع راهم خاويين. | Content, title, and excerpt are empty.
+448 | ڨاع الصفحات | All Pages
+449 | ڨاع المقالات | All Posts
+450 | ما كاين حتى مقالة. | No posts found.
+451 | تصاوير | Images
+452 | شوف الصفحة | View Page
+453 | صفحة جديدة | New Page
+454 | زيد مقالة جديدة | Add New Post
+455 | بدَّل ف المقالة | Edit Post
+456 | الصفحات | Pages
+457 | زيد صفحة جديدة | Add New Page
+458 | مسوّدة | Draft
+459 | منشور | Published
+460 | مراجعات | Revisions
+461 | شوف الصفحة نتاع واش اللي جا معاه | View Attachment Page
+462 | مقالة | Post
+463 | j F, Y @ G:i:s | j F, Y @ G:i:s
+464 | صفحة | Page
+465 | j F, Y @ G:i | j F, Y @ G:i
+466 | %1$s %2$s, %3$s من قبل (%4$s) | %1$s %2$s, %3$s ago (%4$s)
+467 | الصفحة اللي من قبل | Previous page
+468 | بعت | Submit
+469 | الصفحة اللي من بعد | Next page
+470 | صفحات: | Pages:
+471 | أوديو | Audio
+472 | الوصلة | Link
+473 | مْتَل | Quote
+474 | فيديو | Video
+475 | رواح تڨصر معانا | Chat
+476 | التصويرة | Image
+477 | الآسم نتاع المستخدم: %s | Username: %s
+478 | مقبول: %s | Approve it: %s
+479 | الإيمايل : %s | E-mail : %s
+480 | التعليق: | Comment:
+481 | الكتاتبي : %1$s (IP: %2$s , %3$s) | Author : %1$s (IP: %2$s , %3$s)
+482 | مدوِّنة | blog
+483 | المستخدم | user
+484 | رانا عاد نستناو ف الإيمايل نتاعك؟ | Still waiting for your email?
+485 | سجَّل روحك | Signup
+486 | كولشي ب البركة! السيت الجديد نتاعك، %s، قريب يوجد. | Congratulations! Your new site, %s, is almost ready.
+487 | حمبوك، مادابيك تدخَّل آسم المستخدم نتاعك. | Just a username, please.
+488 | %s هو آسم المستخدم نتاعك | %s is your new username
+489 | خدم سيت <em>واحداخر</em> %s ف شي ثواني | Get <em>another</em> %s site in seconds
+490 | واه | Yes
+491 | للا | No
+492 | العنوان نتاع السيت: | Site Title:
+493 | الخصوصية: | Privacy:
+494 | يا حوجي: %s | Oops: %s
+495 | الآسم نتاع السيت: | Site Name:
+496 | الكتاتبي هو  %s | Author is %s
+497 | <strong>الكتاتبي:</strong> %s | <strong>Author:</strong> %s
+498 | <strong>العنوان المنشور:</strong> %s | <strong>Posted title:</strong> %s
+499 | فْقَد الإيمايل نتاعك على جال وصلة التأكيد. | Check your e-mail for the confirmation link.
+500 | فْقَد الإيمايل نتاعك على جال كلمة السر الجديدة نتاعك. | Check your e-mail for your new password.
+501 | http://codex.wordpress.org/Cookies | http://codex.wordpress.org/Cookies
+502 | ودَّرت كلمة السر نتاعك؟ | Lost your password?
+503 | أكَّد كلمة السر الجديدة | Confirm new password
+504 | ودَّرت كلمة السر | Lost Password
+505 | الآسم نتاع المستخدم وللا الإيمايل: | Username or E-mail:
+506 | دير كلمة سر جديدة | Get New Password
+507 | راهي تالفتلك؟ | Are you lost?
+508 | 
+
+ | <h1>Error establishing a database connection</h1>
+<p>This either means that the username and password information in your <code>wp-config.php</code> file is incorrect or we can&#8217;t contact the database server at <code>%s</code>. This could mean your host&#8217;s database server is down.</p>
+<ul>
+	<li>Are you sure you have the correct username and password?</li>
+	<li>Are you sure that you have typed the correct hostname?</li>
+	<li>Are you sure that the database server is running?</li>
+</ul>
+<p>If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href='https://wordpress.org/support/'>WordPress Support Forums</a>.</p>
+509 | Yahoo IM | Yahoo IM
+510 | AIM | AIM
+511 | Jabber / Google Talk | Jabber / Google Talk
+512 | %1$s %2$s | %1$s %2$s
+513 | التعليقات (RSS) | Comments (RSS)
+514 | بعت تعليق | Submit Comment
+515 | %1$s و %2$s. | %1$s and %2$s.
+516 | خرج من هاد الحساب | Log out of this account
+517 | خْرُج &raquo; | Log out &raquo;
+518 | (لازم) | (required)
+519 | إيمايل (ما يتنشرش) | Mail (will not be published)
+520 | حبَّسنا التعليقات. | Comments are closed.
+521 | التعليق نتاعك | Your Comment
+522 | أيّا ڨولها! | Say It!
+523 | بلَّع هاد التاقة. | Close this window.
+524 | غير سمَّحلنا، حتى مقالة ما توالم واش راك تحوَّس. | Sorry, no posts matched your criteria.
+525 | الإيمايل | E-mail
+526 | عاد ما كاين حتى تعليق. | No comments yet.
+527 | خلِّي تعليق | Leave a comment
+528 | من عند %1$s &#8212; %2$s @ <a href="#comment-%3$s">%4$s</a> | by %1$s &#8212; %2$s @ <a href="#comment-%3$s">%4$s</a>
+529 | %1$s - تعليقات على %2$s | %1$s &#8211; Comments on %2$s
+530 | %s: %l. | %s: %l.
+531 | خيَّر بين الوسمات اللي مستعملين كتر | Choose from the most used tags
+532 | زيد وللا ڨْلَع الوسمات | Add or remove tags
+533 | زيد وسمة جديدة | Add New Tag
+534 | فْصَل بين الوسمات ب فاصلات | Separate tags with commas
+535 | بدَّل واش تبغي ف التصنيف | Edit Category
+536 | بدَّل واش تبدَّل ف التصنيفات | Update Category
+537 | التصنيف | Category
+538 | ڨاع الوسمات | All Tags
+539 | بدَّل ف الوسمة | Edit Tag
+540 | فتَّش ف التصنيفات | Search Categories
+541 | التصنيفات | Categories
+542 | الوسمات | Tags
+543 | زيد تصنيف للوصلة الجديدة | Add New Link Category
+544 | التصنيف نتاع الوصلة | Link Category
+545 | ڨاع تصنيفات الوصلات | All Link Categories
+546 | التصنيفات نتاع الوصلات | Link Categories
+547 | كمَّلت | Done
+548 | راه يَتْسَجَّل... | Saving&#8230;
+549 | اللون نتاع ضروك | Current Color
+550 | خيَّر اللون | Select Color
+551 | نشر | Publish
+552 | %1$s %2$s, %3$s @ %4$s : %5$s | %1$s %2$s, %3$s @ %4$s : %5$s
+553 | قْبَل و جاوب | Approve and Reply
+554 | ملفات مسموح بيها | Allowed Files
+555 | كْمَل التسجال | Saved
+556 | ما لقينا حتى نتيجة. | No results found.
+557 | رهيف ب البزّاف | Very weak
+558 | مَجْهَد | Strong
+559 | بكَّم | Mute
+560 | رهيف | Weak
+561 | الوسط | Center
+562 | المجال | Domain
+563 | الجلاخ | Trash
+564 | مبعوت ل: | Uploaded to
+565 | خيَّر كولشي | Select All
+566 | ڨاع التصنيفات | All categories
+567 | هضرة زيادة | Spam
+568 | تعليق | Comment
+569 | مقبول | Approved
+570 | ڨاع | All
+571 | زيارة ل السيت | visit site
+572 | التعليقات | Comments
+573 | لون الكتيبة | Text Color
+574 | الصفحة اللولانية | Home
+575 | النص نتاع الوصلة | Link Text
+576 | نقَّل | Move
+577 | حتى واحد | none
+578 | الآسم نتاع التصنيف الجديد | New category name
+579 | ميديا | Media
+580 | مْحِي | Clear
+581 | الطحطاحة | Footer
+582 | بدّل | Change
+583 | 
+ | BETA TESTING?
+=============
+
+This debugging email is sent when you are using a development version of WordPress.
+
+If you think these failures might be due to a bug in WordPress, could you report it?
+ * Open a thread in the support forums: https://wordpress.org/support/forum/alphabeta
+ * Or, if you&#8217;re comfortable writing a bug report: https://core.trac.wordpress.org/
+
+Thanks! &#8212; The WordPress Team
+584 | 
+ | UPDATE LOG
+==========
+585 | العنوان | Title
+586 | الأرشيف | archives
+587 | عام | General
+588 | ڨاع الوصلات | All Links
+589 | بدّل واش بغيت | Edit
+590 | 
+ | Your new WordPress site has been successfully set up at:
+
+%1$s
+
+You can log in to the administrator account with the following information:
+
+Username: %2$s
+Password: %3$s
+Log in here: %4$s
+
+We hope you enjoy your new site. Thanks!
+
+&#8211;The WordPress Team
+https://wordpress.org/
+591 | بلا تصنيف | Uncategorized
+592 | زرڨ | Blue
+593 | الكتاتبي | Author
+594 | الوصف | Description
+595 | المستخدمين | Users
+596 | كلمة سر جديدة | New Password
+597 | وسمات: | Tags:
+598 | الآسم | Name
+599 | اللي من بعد | Next
+600 | اللي من قبل | Previous
+601 | الفْصالات | Templates
+602 | كلمة السر | password
+603 | الآسم نتاع المستخدم | username
+604 | شوف المقالة | View post
+605 | مقالات | posts
+606 | عندي شحال من سيت | Sites
+607 | زيد واحد جديد | Add New
