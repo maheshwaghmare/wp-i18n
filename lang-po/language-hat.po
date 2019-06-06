@@ -1,0 +1,967 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-04T07:07:13+00:00\n"
+"PO-Revision-Date: 2019-06-04T07:07:13+00:00\n"
+"Language: \n"
+
+msgid "Send the network admin an email notification every time someone registers a site or user account"
+msgstr "Voye yon mel bay admin rezo a chak fwa yon moun anrejistre yon sit oswa kont itilizatè"
+
+msgid "Both sites and user accounts can be registered"
+msgstr "Tou de sit ak kont itilizatè yo ka anrejistre"
+
+msgid "Logged in users may register new sites"
+msgstr "Itilizatè ki konekte yo ka anrejistre nouvo sit"
+
+msgid "Registration is disabled"
+msgstr "Anrejistreman dezaktive"
+
+msgid "User accounts may be registered"
+msgstr "Kont itilizatè ka anrejistre"
+
+msgid "Sub-domain Installation"
+msgstr "Enstalasyon Sou-domèn"
+
+msgid "Sub-directory Installation"
+msgstr "Enstalasyon Sou-repètwa"
+
+msgid "Active Child Theme"
+msgstr "Tèm Pitit Aktif"
+
+msgid "User could not be added to this site."
+msgstr "Itilizatè pa ka ajoute sou sit sa a."
+
+msgid "The username and a link to set the password will be mailed to this email address."
+msgstr "Non itilizatè ak lyen pou asiye mopas la pral rive nan adrès mel sa a."
+
+msgid "There is a pending change of the network admin email to %s."
+msgstr "Gen yon chanjman ankou nan mel admin rezo a nan %s."
+
+msgid "You are about to delete the following sites:"
+msgstr "Ou sou wout pou ou efase sit sa yo:"
+
+msgid "The constant %s cannot be defined when creating a network."
+msgstr "Konstant %s pa ka defini lè w ap kreye yon rezo."
+
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin\">Documentation on the Network Admin</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin\">Dokimantasyon sou Admin Rezo a</a>"
+
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Documentation on Network Settings</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Settings_Screen\">Dokimantasyon sou Konfig Rezo yo</a>"
+
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Documentation on Network Themes</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Themes_Screen\">Dokimantasyon sou Tèm Rezo yo</a>"
+
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\">Documentation on Upgrade Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Updates_Screen\">Dokimatasyon sou Rezo Amelyore</a>"
+
+msgid "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Documentation on Network Users</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Network_Admin_Users_Screen\">Dokimantasyon sou Itilizatè Rezo</a>"
+
+msgid "<a href=\"https://codex.wordpress.org/Create_A_Network\">Documentation on Creating a Network</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Create_A_Network\">Dokimantasyon sou Kreyasyon yon Rezo</a>"
+
+msgid "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\">Documentation on the Network Screen</a>"
+msgstr "<a href=\"https://codex.wordpress.org/Tools_Network_Screen\">Dokimantasyon sou Ekran Rezo a</a>"
+
+msgid "Khandyga"
+msgstr "Khandyga"
+
+msgid "Novokuznetsk"
+msgstr "Novokuznetsk"
+
+msgid "Tomsk"
+msgstr "Tomsk"
+
+msgid "Srednekolymsk"
+msgstr "Srednekolymsk"
+
+msgid "Ust-Nera"
+msgstr "Ust-Nera"
+
+msgid "Astrakhan"
+msgstr "Astrakàn"
+
+msgid "Busingen"
+msgstr "Busingen"
+
+msgid "Kirov"
+msgstr "Kiwov"
+
+msgid "Ulyanovsk"
+msgstr "Ulyanovsk"
+
+msgid "Chuuk"
+msgstr "Tchouk"
+
+msgid "Bougainville"
+msgstr "Bougenvil"
+
+msgid "Pohnpei"
+msgstr "Ponnpey"
+
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+msgstr "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:"
+
+msgid "That&#8217;s all, stop editing! Happy blogging."
+msgstr "Se kont, sispann modifye! Bon redaksyon."
+
+msgid "The email address of the first comment author on a new site."
+msgstr "Adrès mel premye otè kòmantè sou yon nouvo sit."
+
+msgid "First Comment Email"
+msgstr "Premye mel kòmantè"
+
+msgid "Sorry, you are not allowed to edit this site."
+msgstr "Padon, ou pa gen pèmisyon modifye sit sa a."
+
+msgid "Sorry, you are not allowed to add sites to this network."
+msgstr "Padon, ou pa gen pèmisyon ajoute sit nan rezo sa a."
+
+msgid "Sorry, you are not allowed to manage themes for this site."
+msgstr "Padon, ou pa gen pèmisyon jere tèm yo pou sit sa a."
+
+msgid "Sorry, you are not allowed to delete that site."
+msgstr "Padon, ou pa gen pèmisyon efase sit sa a."
+
+msgid "Sorry, you are not allowed to change the current site."
+msgstr "Dezole, ou pa gen pèmisyon chanje sit aktyèl sa a."
+
+msgid "Sorry, you are not allowed to manage network themes."
+msgstr "Padon, ou pa gen pèmisyon jere tèm rezo yo."
+
+msgid "Sorry, you are not allowed to delete themes for this site."
+msgstr "Padon, ou pa gen pèmisyon efase tèm pou sit sa a."
+
+msgid "%1$s &#8211; %2$s"
+msgstr "%1$s &#8211; %2$s"
+
+msgid "Network Disable %s"
+msgstr "Rezo Dezaktive %s"
+
+msgid "Disable %s"
+msgstr "Dezaktive %s"
+
+msgid "Network Enable %s"
+msgstr "Rezo Aktive %s"
+
+msgid "Enable %s"
+msgstr "Aktive %s"
+
+msgid "Visit %s homepage"
+msgstr "Vizite paj akèy %s"
+
+msgid "Open %s in the Theme Editor"
+msgstr "Louvri %s nan Editè Tèm nan"
+
+msgid "We recommend you back up your existing %s file."
+msgstr "Nou rekòmande pou w bakòp fichye %s ou gen deja a."
+
+msgid "We recommend you back up your existing %1$s and %2$s files."
+msgstr "Nou rekòmande pou w bakòp fichye %1$s ak %2$s ou gen deja yo."
+
+msgid "The following words are reserved for use by WordPress functions and cannot be used as blog names: %s"
+msgstr "Mo sa yo rezève pou fonskyon WordPress yo itilize, yo pa ka itilize pou non blog: %s"
+
+msgid "Only lowercase letters (a-z), numbers, and hyphens are allowed."
+msgstr "Sèlman lèt miniskil (a-z), chif, ak tirè ki admèt."
+
+msgid "You are about to deactivate the site %s."
+msgstr "Ou sou wout pou w dezaktive %s sit la."
+
+msgid "You are about to activate the site %s."
+msgstr "Ou sou wout pou w active %s sit la."
+
+msgid "User added. <a href=\"%s\">Edit user</a>"
+msgstr "Itilizatè ajoute. <a href=\"%s\">Modifye itilizatè</a>"
+
+msgid "Thank you for updating! WordPress %s streamlines your workflow, whether you&#8217;re writing or building your site."
+msgstr "Mèsi pou mizajou a! Wordpress %s rasyonalize flo travay ou, kit w ap ekri oswa bati sit ou."
+
+msgid "Inline Linking"
+msgstr "Lyezon Aliye"
+
+msgid "Editing Improvements"
+msgstr "Amelyorasyon Modifikasyon yo"
+
+msgid "Customization Improvements"
+msgstr "Amelyorasyon Pèsonalizasyon"
+
+msgid "Do you enjoy using formatting shortcuts for lists and headings? Now they&#8217;re even more useful, with horizontal lines and <code>&lt;code&gt;</code>."
+msgstr "Ou renmen itilize fòmataj rakousi pou lis ak antèt yo? Kounye a yo vin pi ilil toujou, avèk liy orizontal ak <code>&lt;code&gt;</code>."
+
+msgid "Stay focused on your writing with a less distracting interface that keeps you in place and allows you to easily link to your content."
+msgstr "Rete konsantre sou redaksyon ou avèk yon entèfas mwen distreyan k ap kenbe w sou plas ak pèmèt ou konekte fasilman ak kontni ou."
+
+msgid "Make sure your site looks great on all screens!"
+msgstr "Fè si ke sit ou a parèt byen sou tout ekran!"
+
+msgid "Live Responsive Previews"
+msgstr "Apèsi Reyaktif an Dirèk"
+
+msgid "Preview mobile, tablet, and desktop views directly in the <a href=\"%s\" class=\"load-customize\">customizer</a>."
+msgstr "Prevwa aparans mobil, tablèt, ak dèkstòp dirèkteman nan <a href=\"%s\" class=\"load-customize\">pèsonalizatè a</a>."
+
+msgid "Preview mobile, tablet, and desktop views directly in the customizer."
+msgstr "Prevwa aparans mobil. tablèt, ak dèkstòp dirèkteman nan pèsonalizatè a."
+
+msgid "Custom Logos"
+msgstr "Logo Pèsonalize"
+
+msgid "Your theme supports custom logos! Try it out right now in the <a href=\"%s\" class=\"load-customize\">Site Identity</a> section of the customizer."
+msgstr "Tèm ou sipòte logo pèsonalize! Eseye l kounye a nan seksyon <a href=\"%s\" class=\"load-customize\">Idantite Sit</a> pèsonalizatè a."
+
+msgid "Themes can now support logos for your business or brand."
+msgstr "Tèm yo ka sipote logo pou biznis oswa mak ou kounye a."
+
+msgid "Selective Refresh"
+msgstr "Rafrechisman Selektif"
+
+msgid "The Twenty Fifteen and Twenty Sixteen themes have been updated to support custom logos, which can be found in the Site Identity section of the customizer."
+msgstr "Tèm Twennty Fifteen ak Twenty Sixteen fenk ajou pou sipòte logo pèsonèl, ki lokalize nan seksyon Idantite Sit nan pèsonalizatè a."
+
+msgid "The customizer now supports a <a href=\"%s\">comprehensive framework</a> for rendering parts of the preview without rewriting your PHP code in JavaScript."
+msgstr "Pèsonalizatè a sipòte <a href=\"%s\">kad global</a> kounye a pou randi pati previzyalizasyon yo san reyekri kòd PHP ou yo nan JavaScript. "
+
+msgid "See it in action with <a href=\"%1$s\" class=\"load-customize\">Menus</a> or <a href=\"%2$s\" class=\"load-customize\">Widgets</a>."
+msgstr "Wè li an aksyon avèk <a href=\"%1$s\" class=\"load-customize\">Meni</a> oswa <a href=\"%2$s\" class=\"load-customize\">Widjè</a>."
+
+msgid "See it in action with <a href=\"%s\" class=\"load-customize\">Menus</a>."
+msgstr "Gade li an aksyon avèk <a href=\"%s\" class=\"load-customize\">Meni</a>."
+
+msgid "Smart Image Resizing"
+msgstr "Rekadreman Imaj Entèlijan"
+
+msgid "Generated images now load up to 50&#37; faster with no noticeable quality loss. <a href=\"%s\">It&#8217;s really cool</a>."
+msgstr "Imaj jenere yo chaje jiska 50&#37; pi vit avèk kenn pèt kalite remakab. <a href=\"%s\">Sa vreman koul</a>."
+
+msgid "JavaScript Library Updates"
+msgstr "Mizajou Bibliyotèk JavaScript"
+
+msgid "jQuery 1.12.3, jQuery Migrate 1.4.0, Backbone 1.2.3, and Underscore 1.8.3 are bundled."
+msgstr "jQuery 1.12.3, jQuery Migrate 1.4.0, Backbone 1.2.3, ak Underscore 1.8.3 fè yon sèl."
+
+msgid "Better support has been added for script header/footer dependencies. New %s enables adding extra code to registered scripts."
+msgstr "Nou ajoute pi bon sipò pou depandans eskrip antèt/pyepaj yo. Nouvo %s pèmèt ou ajoute kòd siplemantè nan eskrip ki anrejistre yo."
+
+msgid "Script Loader Improvements"
+msgstr "Amelyorasyon Chajman Eskrip"
+
+msgid "Embed templates have been split into parts and can be <a href=\"%s\">directly overridden by themes</a> via the template hierarchy."
+msgstr "Modèl entegre gaye an plizyè pati e <a href=\"%s\">tèm yo ka siplante yo dirèkteman</a> pa mwayen yerachi modèl la."
+
+msgid "Better Embed Templates"
+msgstr "Meyè Modèl Entegre"
+
+msgid "Release Design Lead"
+msgstr "Liberasyon Premye Konsepsyon"
+
+msgid "Release Deputy"
+msgstr "Liberasyon Depite"
+
+msgid "%1$s by %2$s"
+msgstr "%1$s pa %2$s"
+
+msgid "You cannot use port numbers such as %s."
+msgstr "Ou pa ka itilize nimewo pò tankou %s."
+
+msgid "Please make sure the Apache %s module is installed as it will be used at the end of this installation."
+msgstr "Tanpri fè si ke modil Apache %s la enstale paske li pral itilize nan fen enstalasyon an."
+
+msgid "If %1$s is disabled, ask your administrator to enable that module, or look at the <a href=\"%2$s\">Apache documentation</a> or <a href=\"%3$s\">elsewhere</a> for help setting it up."
+msgstr "Si %1$s dezaktive, mande administratè ou aktivite modil sa a oswa gade nan <a href=\"%2$s\">Dokimantadyon Apach la</a> oswa <a href=\"%3$s\">lòt kote</a> pou ede w enstale li."
+
+msgid "It looks like the Apache %s module is not installed."
+msgstr "Sanble modil Apache %s la pa enstale."
+
+msgid "You cannot change this later."
+msgstr "Ou p ap ka chanje sa pita."
+
+msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories."
+msgstr "Tanpri chwazi si w pi pito sit nan rezo Wordpress ou yo itilize sou-domèn oswa sou-repètwa."
+
+msgid "Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains."
+msgstr "Paske w ap itilize %1$s, sit ki nan rezo Wordpress ou yo dwe itilize sou-repètwa. Konsidere itilize %2$s si w vle itilize sou-domèn."
+
+msgid "The internet address of your network will be %s."
+msgstr "Adrès entènèt rezo ou pral vin %s."
+
+msgid "We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix."
+msgstr "Nou rekòmande w chanje url sit ou vin %1$s avan ou aktive fonksyon rezo a. L ap toujou posib pou w vizite sit ou a lè w itilize prefiks %3$s la avèk yon adrès tankou %2$s men nenpòt lyen p ap gen prefiks %3$s la."
+
+msgid "Add the following to your %1$s file in %2$s <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:"
+msgstr "Ajoute sa yo pou fichye  %1$s ou a nan %2$s <strong>anwo</strong> liy k ap li a <code>/* Sèlman sa, sispann modifye! Bon blogin. */</code>:"
+
+msgid "This unique authentication key is also missing from your %s file."
+msgstr "Kle otantifikasyon inik sa a manke tou nan fichye %s ou a."
+
+msgid "These unique authentication keys are also missing from your %s file."
+msgstr "Kle otantifikasyon inik sa yo manke tou nan fichye %s ou a."
+
+msgid "If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site."
+msgstr "Si anrejistreman an dezaktive, tanpri mete %1$s nan %2$s ak yon URL ou pral redirije vizitè yo si yo vizite yon sit ki pa egziste."
+
+msgid "The domain or path entered conflicts with an existing username."
+msgstr "Domèn oswa santye ou rantre a nan konfli ak yon non itilizatè ki deja la."
+
+msgid "Filter site themes list"
+msgstr "Flitre lis tèm sit la"
+
+msgid "Site themes list"
+msgstr "Lis tèm sit la"
+
+msgid "Site themes list navigation"
+msgstr "Navigasyon lis tèm sit la"
+
+msgid "Site users list"
+msgstr "Lis itilizatè sit la"
+
+msgid "Site users list navigation"
+msgstr "Navigasyon lis itilizatè sit la"
+
+msgid "Filter site users list"
+msgstr "Filtre lis itilizatè sit la"
+
+msgid "Sites list"
+msgstr "Lis sit yo"
+
+msgid "Sites list navigation"
+msgstr "Navigasyon lis sit yo"
+
+msgid "Themes list navigation"
+msgstr "Navigasyon lis tèm"
+
+msgid "You must define the %1$s constant as true in your %2$s file to allow creation of a Network."
+msgstr "Ou dwe define konstan %1$s an antanke vrè nan fichye %2$s ou a pou pèmèt kreyasyon yon Rezo."
+
+msgid "Active theme"
+msgstr "Tèm Aktif"
+
+msgid "Delete %s"
+msgstr "Efase %s"
+
+msgid "A password reset link will be sent to the user via email."
+msgstr "N ap voye yon lyen modifikasyon mo pas bay itilizatè a via imel."
+
+msgid "The requested site does not exist."
+msgstr "Sit ou mande a pa egziste."
+
+msgid "The requested action is not valid."
+msgstr "Aksyon ou mande a pa valid."
+
+msgid "You are about to mark the site %s as not mature."
+msgstr "Ou sou pwen pou make sit la %s antanke non konplè."
+
+msgid "You are about to mark the site %s as mature."
+msgstr "Ou sou pwen pou make sit la %s antanke konplè."
+
+msgid "New registrations settings"
+msgstr "Konfigirasyon nouvo anrejistreman yo"
+
+msgid "Size in kilobytes"
+msgstr "Tay an kilobayt"
+
+msgid "Allowed file types. Separate types by spaces."
+msgstr "Tip fichye ki pèmi yo. Separe tip yo ak espas."
+
+msgid "Enable menus"
+msgstr "Aktive meni yo"
+
+msgid "Set site attributes"
+msgstr "Mete atribi sit yo"
+
+msgid "%s theme enabled."
+msgstr "%s tèm aktive."
+
+msgid "%s theme disabled."
+msgstr "%s tèm dezaktive."
+
+msgid "Delete Themes"
+msgstr "Efase Tèm yo"
+
+msgid "Yes, Delete these themes"
+msgstr "Wi, efase tèm sa yo"
+
+msgid "Are you sure you wish to delete this theme?"
+msgstr "Eske w si ou vle efase tèm sa a vre?"
+
+msgid "You are about to remove the following themes:"
+msgstr "Ou sou wout pou w retire tèm sa yo:"
+
+msgid "These themes may be active on other sites in the network."
+msgstr "Tèm sa yo ka petèt aktif sou lòt sit nan rezo a."
+
+msgid "%s theme deleted."
+msgstr "%s tèm efase."
+
+msgid "Activation Key:"
+msgstr "Kle Aktivasyon:"
+
+msgid "Activation Key Required"
+msgstr "Kle Aktivasyon Obligatwa"
+
+msgid "Your account is now active!"
+msgstr "Kont ou a aktive kounye a!"
+
+msgid "Activate"
+msgstr "Aktive"
+
+msgid "Password:"
+msgstr "Mopas:"
+
+msgid "Username:"
+msgstr "Non itilizatè:"
+
+msgid "An error occurred during the activation"
+msgstr "Yon erè pase pandan aktivayon an"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+msgid "Your comment is awaiting moderation."
+msgstr "Kòmantè ou a ap tann moderasyon."
+
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+msgid "Meta"
+msgstr "Meta"
+
+msgid "Are you sure you want to do this?"
+msgstr "Ou si se sa w vle fè?"
+
+msgid "Last Post"
+msgstr "Dènye Biyè"
+
+msgid "By: %s"
+msgstr "Pa: %s"
+
+msgid "%s hour"
+msgstr "%s è"
+
+msgid "%s min"
+msgstr "%s min"
+
+msgid "%s day"
+msgstr "%s jou"
+
+msgid "Log out"
+msgstr "Dekonekte"
+
+msgid "Site Admin"
+msgstr "Admin Sit la"
+
+msgid "%1$s %2$s Posts by %3$s Feed"
+msgstr "%1$s %2$s Biyè pa %3$s Fid"
+
+msgid "Next &raquo;"
+msgstr "Pwochen &raquo;"
+
+msgid "&laquo; Previous"
+msgstr "&laquo; Avan"
+
+msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
+msgstr "%1$s %2$s Rezilta Rechèch pou &#8220;%3$s&#8221; Fid"
+
+msgid "Next Page &raquo;"
+msgstr "Paj Apre &raquo;"
+
+msgid "Next Post"
+msgstr "Pwochen Biyè"
+
+msgid "Previous Post"
+msgstr "Biyè Avan"
+
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Paj Avan"
+
+msgid "Monday"
+msgstr "Lendi"
+
+msgid "Sunday"
+msgstr "Dimanch"
+
+msgid "Thursday"
+msgstr "Jedi"
+
+msgid "Wednesday"
+msgstr "Mèkredi"
+
+msgid "Tuesday"
+msgstr "Madi"
+
+msgid "Saturday"
+msgstr "Sam"
+
+msgid "Friday"
+msgstr "Samdi"
+
+msgid "Mon"
+msgstr "Len"
+
+msgid "Sun"
+msgstr "Dim"
+
+msgid "Fri"
+msgstr "Van"
+
+msgid "Thu"
+msgstr "Jed"
+
+msgid "Wed"
+msgstr "Mèk"
+
+msgid "Tue"
+msgstr "Mad"
+
+msgid "March"
+msgstr "Mas"
+
+msgid "February"
+msgstr "fevriye"
+
+msgid "January"
+msgstr "Janvye"
+
+msgid "Sat"
+msgstr "Sam"
+
+msgid "August"
+msgstr "Dawout"
+
+msgid "July"
+msgstr "Jiyè"
+
+msgid "June"
+msgstr "Jen"
+
+msgid "May"
+msgstr "Me"
+
+msgid "April"
+msgstr "Avril"
+
+msgid "November"
+msgstr "Novanm"
+
+msgid "October"
+msgstr "Oktòb"
+
+msgid "September"
+msgstr "Septanm"
+
+msgid "December"
+msgstr "Desanm"
+
+msgid "&lt; Prev"
+msgstr "&lt; Avan"
+
+msgid "Next &gt;"
+msgstr "Pwochen &gt;"
+
+msgid "Content"
+msgstr "Kontni"
+
+msgid "No posts found."
+msgstr "Pa jwenn kenn biyè."
+
+msgid "Pending Review"
+msgstr "Revizyon an Atant"
+
+msgid "Draft"
+msgstr "Bouyon"
+
+msgid "Published"
+msgstr "Pibliye"
+
+msgid "Previous page"
+msgstr "Paj avan"
+
+msgid "Next page"
+msgstr "Paj apre"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Tags"
+msgstr "Tag"
+
+msgid "Medium"
+msgstr "Mwayen"
+
+msgid "Visit Theme Site"
+msgstr "Vizite Sit Tèm nan"
+
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgstr "Admin Siperyè <span class=\"count\">(%s)</span>"
+
+msgid "Broken Theme:"
+msgstr "Tèm ki Kraze:"
+
+msgid "Disable"
+msgstr "Dezaktive"
+
+msgid "Network Disable"
+msgstr "Rezo Dezaktive"
+
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgstr "<span class=\"count\">(%s)</span> dezaktive"
+
+msgid "Broken <span class=\"count\">(%s)</span>"
+msgstr "<span class=\"count\">(%s)</span> kraze."
+
+msgid "Enable"
+msgstr "Aktive"
+
+msgid "No themes found."
+msgstr "Nou pa jwenn kenn tèm."
+
+msgid "You do not appear to have any themes available at this time."
+msgstr "Ou pa parèt gen kenn tèm ki disponib pou moman an la."
+
+msgid "Theme"
+msgstr "Tèm"
+
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgstr "<span class=\"count\">(%s)</span> aktive"
+
+msgid "You are about to delete the site %s."
+msgstr "Ou wout pou efase %s sit la."
+
+msgid "Never"
+msgstr "Janmen"
+
+msgid "Archive"
+msgstr "Achiv"
+
+msgid "You are about to unspam the site %s."
+msgstr "Ou sou wout pou dezespame %s sit la."
+
+msgid "You are about to mark the site %s as spam."
+msgstr "Ou sou wout pou make %s sit la pou espam."
+
+msgid "You are about to unarchive the site %s."
+msgstr "Ou sou pou w deyachive %s sit la."
+
+msgid "Unarchive"
+msgstr "Non-achive"
+
+msgid "You are about to archive the site %s."
+msgstr "Ou sou wout pou w achive %s sit la."
+
+msgid "Mature"
+msgstr "Matrite"
+
+msgid "Archived"
+msgstr "Achive"
+
+msgid "Deleted"
+msgstr "Efase"
+
+msgid "Last Updated"
+msgstr "Dènye Mizajou"
+
+msgid "Registered"
+msgstr "Anrejistre"
+
+msgid "No sites found."
+msgstr "Nou pa jwenn kenn sit."
+
+msgid "Spam"
+msgstr "Espam"
+
+msgid "Comment"
+msgstr "Kòmantè"
+
+msgid "Mark as Spam"
+msgstr "Make pou Espam."
+
+msgid "Not Spam"
+msgstr "Se pa Espam."
+
+msgid "visit site"
+msgstr "Vizite Sit"
+
+msgid "Attributes"
+msgstr "Atribi"
+
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Rezilta rechèch pou &#8220;%s&#8221;"
+
+msgid "Home"
+msgstr "Akèy"
+
+msgid "Title"
+msgstr "Tit"
+
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "All <span class=\"count\">(%s)</span>"
+
+msgid "Edit"
+msgstr "Modifye"
+
+msgid "Your new WordPress site has been successfully set up at"
+msgstr ""
+
+msgid ""
+"\n"
+""
+msgstr ""
+
+msgid ""
+"\n"
+"can log in to the administrator account with the following information:"
+msgstr ""
+
+msgid ""
+"\n"
+"%2$s\n"
+"%3$s\n"
+"in here: %4$s"
+msgstr ""
+
+msgid ""
+"\n"
+"hope you enjoy your new site. Thanks!"
+msgstr ""
+
+msgid ""
+"\n"
+"WordPress Team\n"
+""
+msgstr ""
+
+msgid "Author"
+msgstr "Otè"
+
+msgid "1"
+msgstr "1"
+
+msgid "Tags:"
+msgstr "Tag"
+
+msgid "Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:"
+msgstr "Ajoute sa nan fichye %1$s ou a nan %2$s, <strong>ranplasman</strong> lòt règ WordPress:"
+
+msgid "Once you complete these steps, your network is enabled and configured. You will have to log in again."
+msgstr "Yon fwa ou fin konplete etap sa yo, rezo ou aktive ak konfigire. Ou pral oblige rekonekte ankò."
+
+msgid "Network Details"
+msgstr "Detay Rezo yo"
+
+msgid "Welcome to the Network installation process!"
+msgstr "Byenvini nan pwosesis enstalasyon Rezo a!"
+
+msgid "%s Sites"
+msgstr "%s Sit"
+
+msgid "Once the network is created, you may reactivate your plugins."
+msgstr "Yon fwa rezo a fin kreye, ou ka reyaktive plogin ou yo ankò."
+
+msgid "Users deleted."
+msgstr "Itilizatè yo efase."
+
+msgid "Users marked as spam."
+msgstr "Itilizatè ki make pou espam."
+
+msgid "Users removed from spam."
+msgstr "Itilizatè yo soti nan lis espam."
+
+msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
+msgstr "Sivole nenpòt itilizatè nan lis la pou w ka fè lyen modifikasyon yo parèt. Lyen Modifikasyon a goch la ap mennen w nan paj pwofil Modifikasyon Itilizatè yo a; lyen Modifikasyon a dwat la pa nenpòt non sit mennen nan yon ekran Modifikasyon Sit pou sit sa a."
+
+msgid "Cannot create an empty user."
+msgstr "Ou pa ka kreye itilizatè vid."
+
+msgid "Next Sites"
+msgstr "Pwochen Sit yo"
+
+msgid "All done!"
+msgstr "Misyon akonpli!"
+
+msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
+msgstr "Si navigatè w pa tanmen monte pwochen paj la otomatikman, klike sou lyen sa a:"
+
+msgid "Site deactivated."
+msgstr "Sit la dezaktive."
+
+msgid "Site removed from spam."
+msgstr "Sit la soti nan lis espam."
+
+msgid "Site marked as spam."
+msgstr "Sit ki make pou espam."
+
+msgid "Site activated."
+msgstr "Sit la active."
+
+msgid "Site unarchived."
+msgstr "Sit la pa achive."
+
+msgid "Site deleted."
+msgstr "Sit ki efase a."
+
+msgid "Site archived."
+msgstr "Sit la achive."
+
+msgid "Sites removed from spam."
+msgstr "Sit yo soti nan lis espam."
+
+msgid "Sites marked as spam."
+msgstr "Sit ki make pou espam."
+
+msgid "Sites deleted."
+msgstr "Sit ki efase yo."
+
+msgid "Confirm"
+msgstr "Konfime"
+
+msgid "Confirm your action"
+msgstr "Konfime aksyon ou a"
+
+msgid "Duplicated username or email address."
+msgstr "Non itilizatè oswa adrès mel diplike."
+
+msgid "Add Site"
+msgstr "Ajoute Sit"
+
+msgid "Admin Email"
+msgstr "Mel Admin"
+
+msgid "A new user will be created if the above email address is not in the database."
+msgstr "Yon nouvo itilizatè pral kreye si adrès mel pi wo a la pa nan baz done a."
+
+msgid "There was an error creating the user."
+msgstr "Te gen yon erè nan kreyasyon nouvo itiizatè a."
+
+msgid "[%s] New Site Created"
+msgstr "[%s] Nouvo Sit Fin Kreye"
+
+msgid "Missing email address."
+msgstr "Adrès mel manke."
+
+msgid "Missing or invalid site address."
+msgstr "Adrès sit manke oswa pa valid."
+
+msgid "Can&#8217;t create an empty site."
+msgstr "Ou pa ka kreye yon sit vid."
+
+msgid "Default Language"
+msgstr "Langaj pa Defo"
+
+msgid "Enable administration menus"
+msgstr "Aktive meni administrasyon yo"
+
+msgid "Max upload file size"
+msgstr "Tay montaj fichye maksimòm"
+
+msgid "%s KB"
+msgstr "%s KB"
+
+msgid "Site upload space"
+msgstr "Espas montaj sit la"
+
+msgid "Limit total size of files uploaded to %s MB"
+msgstr "Limite tay total fichye telechaje yo a %s MB"
+
+msgid "Upload file types"
+msgstr "Monte tip fichye yo"
+
+msgid "The URL for the first comment on a new site."
+msgstr "URL premye kòmantè sou yon nouvo sit."
+
+msgid "First Comment URL"
+msgstr "URL Premye Kòmantè"
+
+msgid "Upload Settings"
+msgstr "Konfigirasyon Telechajman "
+
+msgid "The author of the first comment on a new site."
+msgstr "Otè premye kòmantè yon nouvo sit la."
+
+msgid "First Comment Author"
+msgstr "Premye Kòmantè Otè a"
+
+msgid "First Page"
+msgstr "Premye Paj"
+
+msgid "The first page on a new site."
+msgstr "Premye paj nan yon nouvo sit."
+
+msgid "The first comment on a new site."
+msgstr "Premye kòmantè sou yon nouvo sit."
+
+msgid "First Comment"
+msgstr "Premye Kòmantè"
+
+msgid "Welcome User Email"
+msgstr "Mel Akèy Itilizatè"
+
+msgid "The welcome email sent to new users."
+msgstr "Mel akèy ki voye bay nouvo itilizatè yo."
+
+msgid "The first post on a new site."
+msgstr "Premye biyè sou yon nouvo sit."
+
+msgid "If you want to ban domains from site registrations. One domain per line."
+msgstr "Si w vle bani domèn pou yo pa ka anrejistre sou sit la. Yon domèn pa liy."
+
+msgid "New Site Settings"
+msgstr "Konfigirasyon Nouvo Sit"
+
+msgid "Welcome Email"
+msgstr "Mel Akèy"
+
+msgid "The welcome email sent to new site owners."
+msgstr "Mel akèy ki voye bay nouvo pwopriyetè sit yo."
+
+msgid "Limited Email Registrations"
+msgstr "Anrejistreman Mel Limite"
+
+msgid "If you want to limit site registrations to certain domains. One domain per line."
+msgstr "Si w vle limite anrejistreman yo pou sit la pou kèk domèn. Yon domèn pa liy."
+
+msgid "Banned Email Domains"
+msgstr "Domèn Mel Bani"
+
+msgid "Banned Names"
+msgstr "Non Bani"
+
+msgid "Users are not allowed to register these sites. Separate names by spaces."
+msgstr "Itilizatè yo pa gen pèmisyon anrejistre sit sa yo. Separe non yo ak espas."
+
+msgid "Registration notification"
+msgstr "Notifikasyon anrejistreman"
+
+msgid "Add New Users"
+msgstr "Ajoute Nouvo Itilizatè"
+
+msgid "Registration Settings"
+msgstr "Konfigirasyon Anrejistreman"
+
+msgid "Allow new registrations"
+msgstr "Pèmèt nouvo enskripsyon"
+
+msgid "Network Admin Email"
+msgstr "Mel Admin Rezo a"
+
+msgid "Operational Settings"
+msgstr "Konfigirasyon Operasyonèl"
+
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr "Pou ajoute yon nouvo sit, <strong>klike Kreye yon Nouvo Sit</strong>."
+
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr "Pou chache yon sit, <strong>antre chemen oswa domèn nan</strong>."
+
+msgid "To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;."
+msgstr "Pou chache yon itilizatè, <strong>antre yon adrès imel oswa non itilizatè a</strong>. Itilize yon ranplasman pou chache yon non itilizatè pasyèl, tankou itilizatè&#42;."

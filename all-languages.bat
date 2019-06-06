@@ -201,13 +201,6 @@ wp wpi18n set_most_repeated_string_as_top dzo ----- dzo
 wp wpi18n generate_blank_lang_po dzo
 wp wpi18n generate_filled_lang_po dzo
 
-
-
-
-
-
-
-
 wp wpi18n download_all_core_files art-xemoji
 wp wpi18n import_translated_strings art-xemoji
 wp wpi18n temp_ids art-xemoji
@@ -362,6 +355,9 @@ wp wpi18n set_most_repeated_string_as_top gu ----- gu
 wp wpi18n generate_blank_lang_po gu
 wp wpi18n generate_filled_lang_po gu
 
+
+
+
 wp wpi18n download_all_core_files hat
 wp wpi18n import_translated_strings hat
 wp wpi18n temp_ids hat
@@ -389,6 +385,10 @@ wp wpi18n temp_ids haz
 wp wpi18n set_most_repeated_string_as_top haz ----- haz
 wp wpi18n generate_blank_lang_po haz
 wp wpi18n generate_filled_lang_po haz
+
+
+
+
 
 wp wpi18n download_all_core_files he
 wp wpi18n import_translated_strings he

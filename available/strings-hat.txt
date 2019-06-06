@@ -1,0 +1,323 @@
+1 | Voye yon mel bay admin rezo a chak fwa yon moun anrejistre yon sit oswa kont itilizatè | Send the network admin an email notification every time someone registers a site or user account
+2 | Tou de sit ak kont itilizatè yo ka anrejistre | Both sites and user accounts can be registered
+3 | Itilizatè ki konekte yo ka anrejistre nouvo sit | Logged in users may register new sites
+4 | Anrejistreman dezaktive | Registration is disabled
+5 | Kont itilizatè ka anrejistre | User accounts may be registered
+6 | Enstalasyon Sou-domèn | Sub-domain Installation
+7 | Enstalasyon Sou-repètwa | Sub-directory Installation
+8 | Tèm Pitit Aktif | Active Child Theme
+9 | Itilizatè pa ka ajoute sou sit sa a. | User could not be added to this site.
+10 | Non itilizatè ak lyen pou asiye mopas la pral rive nan adrès mel sa a. | The username and a link to set the password will be mailed to this email address.
+11 | Gen yon chanjman ankou nan mel admin rezo a nan %s. | There is a pending change of the network admin email to %s.
+12 | Ou sou wout pou ou efase sit sa yo: | You are about to delete the following sites:
+13 | Konstant %s pa ka defini lè w ap kreye yon rezo. | The constant %s cannot be defined when creating a network.
+14 | <a href="https://codex.wordpress.org/Network_Admin">Dokimantasyon sou Admin Rezo a</a> | <a href="https://codex.wordpress.org/Network_Admin">Documentation on the Network Admin</a>
+15 | <a href="https://codex.wordpress.org/Network_Admin_Settings_Screen">Dokimantasyon sou Konfig Rezo yo</a> | <a href="https://codex.wordpress.org/Network_Admin_Settings_Screen">Documentation on Network Settings</a>
+16 | <a href="https://codex.wordpress.org/Network_Admin_Themes_Screen">Dokimantasyon sou Tèm Rezo yo</a> | <a href="https://codex.wordpress.org/Network_Admin_Themes_Screen">Documentation on Network Themes</a>
+17 | <a href="https://codex.wordpress.org/Network_Admin_Updates_Screen">Dokimatasyon sou Rezo Amelyore</a> | <a href="https://codex.wordpress.org/Network_Admin_Updates_Screen">Documentation on Upgrade Network</a>
+18 | <a href="https://codex.wordpress.org/Network_Admin_Users_Screen">Dokimantasyon sou Itilizatè Rezo</a> | <a href="https://codex.wordpress.org/Network_Admin_Users_Screen">Documentation on Network Users</a>
+19 | <a href="https://codex.wordpress.org/Create_A_Network">Dokimantasyon sou Kreyasyon yon Rezo</a> | <a href="https://codex.wordpress.org/Create_A_Network">Documentation on Creating a Network</a>
+20 | <a href="https://codex.wordpress.org/Tools_Network_Screen">Dokimantasyon sou Ekran Rezo a</a> | <a href="https://codex.wordpress.org/Tools_Network_Screen">Documentation on the Network Screen</a>
+21 | Khandyga | Khandyga
+22 | Novokuznetsk | Novokuznetsk
+23 | Tomsk | Tomsk
+24 | Srednekolymsk | Srednekolymsk
+25 | Ust-Nera | Ust-Nera
+26 | Astrakàn | Astrakhan
+27 | Busingen | Busingen
+28 | Kiwov | Kirov
+29 | Ulyanovsk | Ulyanovsk
+30 | Tchouk | Chuuk
+31 | Bougenvil | Bougainville
+32 | Ponnpey | Pohnpei
+33 | Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s: | Add the following to your %1$s file in %2$s <strong>above</strong> the line reading %3$s:
+34 | Se kont, sispann modifye! Bon redaksyon. | That&#8217;s all, stop editing! Happy blogging.
+35 | Adrès mel premye otè kòmantè sou yon nouvo sit. | The email address of the first comment author on a new site.
+36 | Premye mel kòmantè | First Comment Email
+37 | Padon, ou pa gen pèmisyon modifye sit sa a. | Sorry, you are not allowed to edit this site.
+38 | Padon, ou pa gen pèmisyon ajoute sit nan rezo sa a. | Sorry, you are not allowed to add sites to this network.
+39 | Padon, ou pa gen pèmisyon jere tèm yo pou sit sa a. | Sorry, you are not allowed to manage themes for this site.
+40 | Padon, ou pa gen pèmisyon efase sit sa a. | Sorry, you are not allowed to delete that site.
+41 | Dezole, ou pa gen pèmisyon chanje sit aktyèl sa a. | Sorry, you are not allowed to change the current site.
+42 | Padon, ou pa gen pèmisyon jere tèm rezo yo. | Sorry, you are not allowed to manage network themes.
+43 | Padon, ou pa gen pèmisyon efase tèm pou sit sa a. | Sorry, you are not allowed to delete themes for this site.
+44 | %1$s &#8211; %2$s | %1$s &#8211; %2$s
+45 | Rezo Dezaktive %s | Network Disable %s
+46 | Dezaktive %s | Disable %s
+47 | Rezo Aktive %s | Network Enable %s
+48 | Aktive %s | Enable %s
+49 | Vizite paj akèy %s | Visit %s homepage
+50 | Louvri %s nan Editè Tèm nan | Open %s in the Theme Editor
+51 | Nou rekòmande pou w bakòp fichye %s ou gen deja a. | We recommend you back up your existing %s file.
+52 | Nou rekòmande pou w bakòp fichye %1$s ak %2$s ou gen deja yo. | We recommend you back up your existing %1$s and %2$s files.
+53 | Mo sa yo rezève pou fonskyon WordPress yo itilize, yo pa ka itilize pou non blog: %s | The following words are reserved for use by WordPress functions and cannot be used as blog names: %s
+54 | Sèlman lèt miniskil (a-z), chif, ak tirè ki admèt. | Only lowercase letters (a-z), numbers, and hyphens are allowed.
+55 | Ou sou wout pou w dezaktive %s sit la. | You are about to deactivate the site %s.
+56 | Ou sou wout pou w active %s sit la. | You are about to activate the site %s.
+57 | Itilizatè ajoute. <a href="%s">Modifye itilizatè</a> | User added. <a href="%s">Edit user</a>
+58 | Mèsi pou mizajou a! Wordpress %s rasyonalize flo travay ou, kit w ap ekri oswa bati sit ou. | Thank you for updating! WordPress %s streamlines your workflow, whether you&#8217;re writing or building your site.
+59 | Lyezon Aliye | Inline Linking
+60 | Amelyorasyon Modifikasyon yo | Editing Improvements
+61 | Amelyorasyon Pèsonalizasyon | Customization Improvements
+62 | Ou renmen itilize fòmataj rakousi pou lis ak antèt yo? Kounye a yo vin pi ilil toujou, avèk liy orizontal ak <code>&lt;code&gt;</code>. | Do you enjoy using formatting shortcuts for lists and headings? Now they&#8217;re even more useful, with horizontal lines and <code>&lt;code&gt;</code>.
+63 | Rete konsantre sou redaksyon ou avèk yon entèfas mwen distreyan k ap kenbe w sou plas ak pèmèt ou konekte fasilman ak kontni ou. | Stay focused on your writing with a less distracting interface that keeps you in place and allows you to easily link to your content.
+64 | Fè si ke sit ou a parèt byen sou tout ekran! | Make sure your site looks great on all screens!
+65 | Apèsi Reyaktif an Dirèk | Live Responsive Previews
+66 | Prevwa aparans mobil, tablèt, ak dèkstòp dirèkteman nan <a href="%s" class="load-customize">pèsonalizatè a</a>. | Preview mobile, tablet, and desktop views directly in the <a href="%s" class="load-customize">customizer</a>.
+67 | Prevwa aparans mobil. tablèt, ak dèkstòp dirèkteman nan pèsonalizatè a. | Preview mobile, tablet, and desktop views directly in the customizer.
+68 | Logo Pèsonalize | Custom Logos
+69 | Tèm ou sipòte logo pèsonalize! Eseye l kounye a nan seksyon <a href="%s" class="load-customize">Idantite Sit</a> pèsonalizatè a. | Your theme supports custom logos! Try it out right now in the <a href="%s" class="load-customize">Site Identity</a> section of the customizer.
+70 | Tèm yo ka sipote logo pou biznis oswa mak ou kounye a. | Themes can now support logos for your business or brand.
+71 | Rafrechisman Selektif | Selective Refresh
+72 | Tèm Twennty Fifteen ak Twenty Sixteen fenk ajou pou sipòte logo pèsonèl, ki lokalize nan seksyon Idantite Sit nan pèsonalizatè a. | The Twenty Fifteen and Twenty Sixteen themes have been updated to support custom logos, which can be found in the Site Identity section of the customizer.
+73 | Pèsonalizatè a sipòte <a href="%s">kad global</a> kounye a pou randi pati previzyalizasyon yo san reyekri kòd PHP ou yo nan JavaScript.  | The customizer now supports a <a href="%s">comprehensive framework</a> for rendering parts of the preview without rewriting your PHP code in JavaScript.
+74 | Wè li an aksyon avèk <a href="%1$s" class="load-customize">Meni</a> oswa <a href="%2$s" class="load-customize">Widjè</a>. | See it in action with <a href="%1$s" class="load-customize">Menus</a> or <a href="%2$s" class="load-customize">Widgets</a>.
+75 | Gade li an aksyon avèk <a href="%s" class="load-customize">Meni</a>. | See it in action with <a href="%s" class="load-customize">Menus</a>.
+76 | Rekadreman Imaj Entèlijan | Smart Image Resizing
+77 | Imaj jenere yo chaje jiska 50&#37; pi vit avèk kenn pèt kalite remakab. <a href="%s">Sa vreman koul</a>. | Generated images now load up to 50&#37; faster with no noticeable quality loss. <a href="%s">It&#8217;s really cool</a>.
+78 | Mizajou Bibliyotèk JavaScript | JavaScript Library Updates
+79 | jQuery 1.12.3, jQuery Migrate 1.4.0, Backbone 1.2.3, ak Underscore 1.8.3 fè yon sèl. | jQuery 1.12.3, jQuery Migrate 1.4.0, Backbone 1.2.3, and Underscore 1.8.3 are bundled.
+80 | Nou ajoute pi bon sipò pou depandans eskrip antèt/pyepaj yo. Nouvo %s pèmèt ou ajoute kòd siplemantè nan eskrip ki anrejistre yo. | Better support has been added for script header/footer dependencies. New %s enables adding extra code to registered scripts.
+81 | Amelyorasyon Chajman Eskrip | Script Loader Improvements
+82 | Modèl entegre gaye an plizyè pati e <a href="%s">tèm yo ka siplante yo dirèkteman</a> pa mwayen yerachi modèl la. | Embed templates have been split into parts and can be <a href="%s">directly overridden by themes</a> via the template hierarchy.
+83 | Meyè Modèl Entegre | Better Embed Templates
+84 | Liberasyon Premye Konsepsyon | Release Design Lead
+85 | Liberasyon Depite | Release Deputy
+86 | %1$s pa %2$s | %1$s by %2$s
+87 | Ou pa ka itilize nimewo pò tankou %s. | You cannot use port numbers such as %s.
+88 | Tanpri fè si ke modil Apache %s la enstale paske li pral itilize nan fen enstalasyon an. | Please make sure the Apache %s module is installed as it will be used at the end of this installation.
+89 | Si %1$s dezaktive, mande administratè ou aktivite modil sa a oswa gade nan <a href="%2$s">Dokimantadyon Apach la</a> oswa <a href="%3$s">lòt kote</a> pou ede w enstale li. | If %1$s is disabled, ask your administrator to enable that module, or look at the <a href="%2$s">Apache documentation</a> or <a href="%3$s">elsewhere</a> for help setting it up.
+90 | Sanble modil Apache %s la pa enstale. | It looks like the Apache %s module is not installed.
+91 | Ou p ap ka chanje sa pita. | You cannot change this later.
+92 | Tanpri chwazi si w pi pito sit nan rezo Wordpress ou yo itilize sou-domèn oswa sou-repètwa. | Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories.
+93 | Paske w ap itilize %1$s, sit ki nan rezo Wordpress ou yo dwe itilize sou-repètwa. Konsidere itilize %2$s si w vle itilize sou-domèn. | Because you are using %1$s, the sites in your WordPress network must use sub-directories. Consider using %2$s if you wish to use sub-domains.
+94 | Adrès entènèt rezo ou pral vin %s. | The internet address of your network will be %s.
+95 | Nou rekòmande w chanje url sit ou vin %1$s avan ou aktive fonksyon rezo a. L ap toujou posib pou w vizite sit ou a lè w itilize prefiks %3$s la avèk yon adrès tankou %2$s men nenpòt lyen p ap gen prefiks %3$s la. | We recommend you change your siteurl to %1$s before enabling the network feature. It will still be possible to visit your site using the %3$s prefix with an address like %2$s but any links will not have the %3$s prefix.
+96 | Ajoute sa yo pou fichye  %1$s ou a nan %2$s <strong>anwo</strong> liy k ap li a <code>/* Sèlman sa, sispann modifye! Bon blogin. */</code>: | Add the following to your %1$s file in %2$s <strong>above</strong> the line reading <code>/* That&#8217;s all, stop editing! Happy blogging. */</code>:
+97 | Kle otantifikasyon inik sa a manke tou nan fichye %s ou a. | This unique authentication key is also missing from your %s file.
+98 | Kle otantifikasyon inik sa yo manke tou nan fichye %s ou a. | These unique authentication keys are also missing from your %s file.
+99 | Si anrejistreman an dezaktive, tanpri mete %1$s nan %2$s ak yon URL ou pral redirije vizitè yo si yo vizite yon sit ki pa egziste. | If registration is disabled, please set %1$s in %2$s to a URL you will redirect visitors to if they visit a non-existent site.
+100 | Domèn oswa santye ou rantre a nan konfli ak yon non itilizatè ki deja la. | The domain or path entered conflicts with an existing username.
+101 | Flitre lis tèm sit la | Filter site themes list
+102 | Lis tèm sit la | Site themes list
+103 | Navigasyon lis tèm sit la | Site themes list navigation
+104 | Lis itilizatè sit la | Site users list
+105 | Navigasyon lis itilizatè sit la | Site users list navigation
+106 | Filtre lis itilizatè sit la | Filter site users list
+107 | Lis sit yo | Sites list
+108 | Navigasyon lis sit yo | Sites list navigation
+109 | Navigasyon lis tèm | Themes list navigation
+110 | Ou dwe define konstan %1$s an antanke vrè nan fichye %2$s ou a pou pèmèt kreyasyon yon Rezo. | You must define the %1$s constant as true in your %2$s file to allow creation of a Network.
+111 | Tèm Aktif | Active theme
+112 | Efase %s | Delete %s
+113 | N ap voye yon lyen modifikasyon mo pas bay itilizatè a via imel. | A password reset link will be sent to the user via email.
+114 | Sit ou mande a pa egziste. | The requested site does not exist.
+115 | Aksyon ou mande a pa valid. | The requested action is not valid.
+116 | Ou sou pwen pou make sit la %s antanke non konplè. | You are about to mark the site %s as not mature.
+117 | Ou sou pwen pou make sit la %s antanke konplè. | You are about to mark the site %s as mature.
+118 | Konfigirasyon nouvo anrejistreman yo | New registrations settings
+119 | Tay an kilobayt | Size in kilobytes
+120 | Tip fichye ki pèmi yo. Separe tip yo ak espas. | Allowed file types. Separate types by spaces.
+121 | Aktive meni yo | Enable menus
+122 | Mete atribi sit yo | Set site attributes
+123 | %s tèm aktive. | %s theme enabled.
+124 | %s tèm dezaktive. | %s theme disabled.
+125 | Efase Tèm yo | Delete Themes
+126 | Wi, efase tèm sa yo | Yes, Delete these themes
+127 | Eske w si ou vle efase tèm sa a vre? | Are you sure you wish to delete this theme?
+128 | Ou sou wout pou w retire tèm sa yo: | You are about to remove the following themes:
+129 | Tèm sa yo ka petèt aktif sou lòt sit nan rezo a. | These themes may be active on other sites in the network.
+130 | %s tèm efase. | %s theme deleted.
+131 | Kle Aktivasyon: | Activation Key:
+132 | Kle Aktivasyon Obligatwa | Activation Key Required
+133 | Kont ou a aktive kounye a! | Your account is now active!
+134 | Aktive | Activate
+135 | Mopas: | Password:
+136 | Non itilizatè: | Username:
+137 | Yon erè pase pandan aktivayon an | An error occurred during the activation
+138 | URL | URL
+139 | d/m/Y | Y/m/d
+140 | Kòmantè ou a ap tann moderasyon. | Your comment is awaiting moderation.
+141 | %1$s a %2$s | %1$s at %2$s
+142 | Meta | Meta
+143 | Ou si se sa w vle fè? | Are you sure you want to do this?
+144 | Dènye Biyè | Last Post
+145 | Pa: %s | By: %s
+146 | %s è | %s hour
+147 | %s min | %s min
+148 | %s jou | %s day
+149 | Dekonekte | Log out
+150 | Admin Sit la | Site Admin
+151 | %1$s %2$s Biyè pa %3$s Fid | %1$s %2$s Posts by %3$s Feed
+152 | Pwochen &raquo; | Next &raquo;
+153 | &laquo; Avan | &laquo; Previous
+154 | %1$s %2$s Rezilta Rechèch pou &#8220;%3$s&#8221; Fid | %1$s %2$s Search Results for &#8220;%3$s&#8221; Feed
+155 | Paj Apre &raquo; | Next Page &raquo;
+156 | Pwochen Biyè | Next Post
+157 | Biyè Avan | Previous Post
+158 | &laquo; Paj Avan | &laquo; Previous Page
+159 | Lendi | Monday
+160 | Dimanch | Sunday
+161 | Jedi | Thursday
+162 | Mèkredi | Wednesday
+163 | Madi | Tuesday
+164 | Sam | Saturday
+165 | Samdi | Friday
+166 | Len | Mon
+167 | Dim | Sun
+168 | Van | Fri
+169 | Jed | Thu
+170 | Mèk | Wed
+171 | Mad | Tue
+172 | Mas | March
+173 | fevriye | February
+174 | Janvye | January
+175 | Sam | Sat
+176 | Dawout | August
+177 | Jiyè | July
+178 | Jen | June
+179 | Me | May
+180 | Avril | April
+181 | Novanm | November
+182 | Oktòb | October
+183 | Septanm | September
+184 | Desanm | December
+185 | &lt; Avan | &lt; Prev
+186 | Pwochen &gt; | Next &gt;
+187 | Kontni | Content
+188 | Pa jwenn kenn biyè. | No posts found.
+189 | Revizyon an Atant | Pending Review
+190 | Bouyon | Draft
+191 | Pibliye | Published
+192 | Paj avan | Previous page
+193 | Paj apre | Next page
+194 | Non | No
+195 | Tag | Tags
+196 | Mwayen | Medium
+197 | Vizite Sit Tèm nan | Visit Theme Site
+198 | Admin Siperyè <span class="count">(%s)</span> | Super Admin <span class="count">(%s)</span>
+199 | Tèm ki Kraze: | Broken Theme:
+200 | Dezaktive | Disable
+201 | Rezo Dezaktive | Network Disable
+202 | <span class="count">(%s)</span> dezaktive | Disabled <span class="count">(%s)</span>
+203 | <span class="count">(%s)</span> kraze. | Broken <span class="count">(%s)</span>
+204 | Aktive | Enable
+205 | Nou pa jwenn kenn tèm. | No themes found.
+206 | Ou pa parèt gen kenn tèm ki disponib pou moman an la. | You do not appear to have any themes available at this time.
+207 | Tèm | Theme
+208 | <span class="count">(%s)</span> aktive | Enabled <span class="count">(%s)</span>
+209 | Ou wout pou efase %s sit la. | You are about to delete the site %s.
+210 | Janmen | Never
+211 | Achiv | Archive
+212 | Ou sou wout pou dezespame %s sit la. | You are about to unspam the site %s.
+213 | Ou sou wout pou make %s sit la pou espam. | You are about to mark the site %s as spam.
+214 | Ou sou pou w deyachive %s sit la. | You are about to unarchive the site %s.
+215 | Non-achive | Unarchive
+216 | Ou sou wout pou w achive %s sit la. | You are about to archive the site %s.
+217 | Matrite | Mature
+218 | Achive | Archived
+219 | Efase | Deleted
+220 | Dènye Mizajou | Last Updated
+221 | Anrejistre | Registered
+222 | Nou pa jwenn kenn sit. | No sites found.
+223 | Espam | Spam
+224 | Kòmantè | Comment
+225 | Make pou Espam. | Mark as Spam
+226 | Se pa Espam. | Not Spam
+227 | Vizite Sit | visit site
+228 | Atribi | Attributes
+229 | Rezilta rechèch pou &#8220;%s&#8221; | Search results for &#8220;%s&#8221;
+230 | Akèy | Home
+231 | Tit | Title
+232 | All <span class="count">(%s)</span> | All <span class="count">(%s)</span>
+233 | Modifye | Edit
+234 | 
+ | Your new WordPress site has been successfully set up at:
+
+%1$s
+
+You can log in to the administrator account with the following information:
+
+Username: %2$s
+Password: %3$s
+Log in here: %4$s
+
+We hope you enjoy your new site. Thanks!
+
+&#8211;The WordPress Team
+https://wordpress.org/
+235 | Otè | Author
+236 | 1 | 1
+237 | Tag | Tags:
+238 | Ajoute sa nan fichye %1$s ou a nan %2$s, <strong>ranplasman</strong> lòt règ WordPress: | Add the following to your %1$s file in %2$s, <strong>replacing</strong> other WordPress rules:
+239 | Yon fwa ou fin konplete etap sa yo, rezo ou aktive ak konfigire. Ou pral oblige rekonekte ankò. | Once you complete these steps, your network is enabled and configured. You will have to log in again.
+240 | Detay Rezo yo | Network Details
+241 | Byenvini nan pwosesis enstalasyon Rezo a! | Welcome to the Network installation process!
+242 | %s Sit | %s Sites
+243 | Yon fwa rezo a fin kreye, ou ka reyaktive plogin ou yo ankò. | Once the network is created, you may reactivate your plugins.
+244 | Itilizatè yo efase. | Users deleted.
+245 | Itilizatè ki make pou espam. | Users marked as spam.
+246 | Itilizatè yo soti nan lis espam. | Users removed from spam.
+247 | Sivole nenpòt itilizatè nan lis la pou w ka fè lyen modifikasyon yo parèt. Lyen Modifikasyon a goch la ap mennen w nan paj pwofil Modifikasyon Itilizatè yo a; lyen Modifikasyon a dwat la pa nenpòt non sit mennen nan yon ekran Modifikasyon Sit pou sit sa a. | Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to their Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site.
+248 | Ou pa ka kreye itilizatè vid. | Cannot create an empty user.
+249 | Pwochen Sit yo | Next Sites
+250 | Misyon akonpli! | All done!
+251 | Si navigatè w pa tanmen monte pwochen paj la otomatikman, klike sou lyen sa a: | If your browser doesn&#8217;t start loading the next page automatically, click this link:
+252 | Sit la dezaktive. | Site deactivated.
+253 | Sit la soti nan lis espam. | Site removed from spam.
+254 | Sit ki make pou espam. | Site marked as spam.
+255 | Sit la active. | Site activated.
+256 | Sit la pa achive. | Site unarchived.
+257 | Sit ki efase a. | Site deleted.
+258 | Sit la achive. | Site archived.
+259 | Sit yo soti nan lis espam. | Sites removed from spam.
+260 | Sit ki make pou espam. | Sites marked as spam.
+261 | Sit ki efase yo. | Sites deleted.
+262 | Konfime | Confirm
+263 | Konfime aksyon ou a | Confirm your action
+264 | Non itilizatè oswa adrès mel diplike. | Duplicated username or email address.
+265 | Ajoute Sit | Add Site
+266 | Mel Admin | Admin Email
+267 | Yon nouvo itilizatè pral kreye si adrès mel pi wo a la pa nan baz done a. | A new user will be created if the above email address is not in the database.
+268 | Te gen yon erè nan kreyasyon nouvo itiizatè a. | There was an error creating the user.
+269 | [%s] Nouvo Sit Fin Kreye | [%s] New Site Created
+270 | Adrès mel manke. | Missing email address.
+271 | Adrès sit manke oswa pa valid. | Missing or invalid site address.
+272 | Ou pa ka kreye yon sit vid. | Can&#8217;t create an empty site.
+273 | Langaj pa Defo | Default Language
+274 | Aktive meni administrasyon yo | Enable administration menus
+275 | Tay montaj fichye maksimòm | Max upload file size
+276 | %s KB | %s KB
+277 | Espas montaj sit la | Site upload space
+278 | Limite tay total fichye telechaje yo a %s MB | Limit total size of files uploaded to %s MB
+279 | Monte tip fichye yo | Upload file types
+280 | URL premye kòmantè sou yon nouvo sit. | The URL for the first comment on a new site.
+281 | URL Premye Kòmantè | First Comment URL
+282 | Konfigirasyon Telechajman  | Upload Settings
+283 | Otè premye kòmantè yon nouvo sit la. | The author of the first comment on a new site.
+284 | Premye Kòmantè Otè a | First Comment Author
+285 | Premye Paj | First Page
+286 | Premye paj nan yon nouvo sit. | The first page on a new site.
+287 | Premye kòmantè sou yon nouvo sit. | The first comment on a new site.
+288 | Premye Kòmantè | First Comment
+289 | Mel Akèy Itilizatè | Welcome User Email
+290 | Mel akèy ki voye bay nouvo itilizatè yo. | The welcome email sent to new users.
+291 | Premye biyè sou yon nouvo sit. | The first post on a new site.
+292 | Si w vle bani domèn pou yo pa ka anrejistre sou sit la. Yon domèn pa liy. | If you want to ban domains from site registrations. One domain per line.
+293 | Konfigirasyon Nouvo Sit | New Site Settings
+294 | Mel Akèy | Welcome Email
+295 | Mel akèy ki voye bay nouvo pwopriyetè sit yo. | The welcome email sent to new site owners.
+296 | Anrejistreman Mel Limite | Limited Email Registrations
+297 | Si w vle limite anrejistreman yo pou sit la pou kèk domèn. Yon domèn pa liy. | If you want to limit site registrations to certain domains. One domain per line.
+298 | Domèn Mel Bani | Banned Email Domains
+299 | Non Bani | Banned Names
+300 | Itilizatè yo pa gen pèmisyon anrejistre sit sa yo. Separe non yo ak espas. | Users are not allowed to register these sites. Separate names by spaces.
+301 | Notifikasyon anrejistreman | Registration notification
+302 | Ajoute Nouvo Itilizatè | Add New Users
+303 | Konfigirasyon Anrejistreman | Registration Settings
+304 | Pèmèt nouvo enskripsyon | Allow new registrations
+305 | Mel Admin Rezo a | Network Admin Email
+306 | Konfigirasyon Operasyonèl | Operational Settings
+307 | Pou ajoute yon nouvo sit, <strong>klike Kreye yon Nouvo Sit</strong>. | To add a new site, <strong>click Create a New Site</strong>.
+308 | Pou chache yon sit, <strong>antre chemen oswa domèn nan</strong>. | To search for a site, <strong>enter the path or domain</strong>.
+309 | Pou chache yon itilizatè, <strong>antre yon adrès imel oswa non itilizatè a</strong>. Itilize yon ranplasman pou chache yon non itilizatè pasyèl, tankou itilizatè&#42;. | To search for a user, <strong>enter an email address or username</strong>. Use a wildcard to search for a partial username, such as user&#42;.

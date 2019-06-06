@@ -1,0 +1,86 @@
+1 | Ceŋiiɗo e innde <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Seŋto</a> | Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>
+2 | Doggol Kelle lowre maa. | A list of your site&#8217;s Pages.
+3 | Formere yiilorde e lowre maa. | A search form for your site.
+4 | Puɗal | Sunrise
+5 | Kafe | Coffee
+6 | Haaɗngo | Ocean
+7 | Aaɓnde | Monday
+8 | Dewo | Sunday
+9 | Naasaande | Thursday
+10 | Njeslaare | Wednesday
+11 | Mawbaare | Tuesday
+12 | Hoore-Biir | Saturday
+13 | Mawnde | Friday
+14 | Aaɓ | Mon
+15 | Dew | Sun
+16 | Mde | Fri
+17 | Naa | Thu
+18 | Nje | Wed
+19 | Maw | Tue
+20 | MBooy | March
+21 | Colte | February
+22 | Siilo | January
+23 | Hoo | Sat
+24 | Juko | August
+25 | Morso | July
+26 | Korse | June
+27 | Duujal | May
+28 | Seeɗto | April
+29 | Jolal | November
+30 | Yarkomaa | October
+31 | Siilto | September
+32 | Col_February_abbreviation | Feb_February_abbreviation
+33 | Sii_January_abbreviation | Jan_January_abbreviation
+34 | Bowte | December
+35 | Kor_June_abbreviation | Jun_June_abbreviation
+36 | Duu_May_abbreviation | May_May_abbreviation
+37 | See_April_abbreviation | Apr_April_abbreviation
+38 | MBo_March_abbreviation | Mar_March_abbreviation
+39 | Sto_September_abbreviation | Sep_September_abbreviation
+40 | Juk_August_abbreviation | Aug_August_abbreviation
+41 | Mor_July_abbreviation | Jul_July_abbreviation
+42 | Jol_November_abbreviation | Nov_November_abbreviation
+43 | Yar_October_abbreviation | Oct_October_abbreviation
+44 | Bow_December_abbreviation | Dec_December_abbreviation
+45 | nfñ | ltr
+46 | 
+
+ | <h1>Error establishing a database connection</h1>
+<p>This either means that the username and password information in your <code>wp-config.php</code> file is incorrect or we can&#8217;t contact the database server at <code>%s</code>. This could mean your host&#8217;s database server is down.</p>
+<ul>
+	<li>Are you sure you have the correct username and password?</li>
+	<li>Are you sure that you have typed the correct hostname?</li>
+	<li>Are you sure that the database server is running?</li>
+</ul>
+<p>If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href='https://wordpress.org/support/'>WordPress Support Forums</a>.</p>
+47 | Ceŋiiɗo e innde <a href="%1$s">%2$s</a>. | Logged in as <a href="%1$s">%2$s</a>.
+48 | Ceŋiiɗo e innde <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Seŋto &raquo;</a> | Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out &raquo;</a>
+49 | 
+ | BETA TESTING?
+=============
+
+This debugging email is sent when you are using a development version of WordPress.
+
+If you think these failures might be due to a bug in WordPress, could you report it?
+ * Open a thread in the support forums: https://wordpress.org/support/forum/alphabeta
+ * Or, if you&#8217;re comfortable writing a bug report: https://core.trac.wordpress.org/
+
+Thanks! &#8212; The WordPress Team
+50 | 
+ | UPDATE LOG
+==========
+51 | 
+ | Your new WordPress site has been successfully set up at:
+
+%1$s
+
+You can log in to the administrator account with the following information:
+
+Username: %2$s
+Password: %3$s
+Log in here: %4$s
+
+We hope you enjoy your new site. Thanks!
+
+&#8211;The WordPress Team
+https://wordpress.org/
