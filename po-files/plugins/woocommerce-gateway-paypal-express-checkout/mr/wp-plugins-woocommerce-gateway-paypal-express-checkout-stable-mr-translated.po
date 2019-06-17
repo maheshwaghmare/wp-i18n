@@ -7,13 +7,37 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:26:19+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:44:02+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
-#. Plugin Name of the plugin/theme
+#: includes/class-wc-gateway-ppec-with-paypal-addons.php:62
+msgid "Maybe"
+msgstr ""
+
+#: includes/class-wc-gateway-ppec-with-paypal-addons.php:61
+msgid "You must enable the \"Require billing address\" option to support this gateway's features for virtual subscriptions."
+msgstr ""
+
+#: includes/class-wc-gateway-ppec-admin-handler.php:340
+msgid "PayPal Payout:"
+msgstr ""
+
+#: includes/class-wc-gateway-ppec-admin-handler.php:339
+msgid "This represents the net total that will be credited to your PayPal account. This may be in a different currency than is set in your PayPal account."
+msgstr ""
+
+#: includes/class-wc-gateway-ppec-admin-handler.php:330
+msgid "PayPal Fee:"
+msgstr ""
+
+#: includes/class-wc-gateway-ppec-admin-handler.php:329
+msgid "This represents the fee PayPal collects for the transaction."
+msgstr ""
+
+#. Plugin Name of the plugin
 msgid "WooCommerce PayPal Checkout Gateway"
 msgstr ""
 
@@ -33,8 +57,8 @@ msgstr ""
 msgid "PayPal Checkout Order Data Erased."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:18
 #: includes/class-wc-gateway-ppec-privacy.php:12
+#: includes/abstracts/abstract-wc-gateway-ppec.php:18
 msgid "PayPal Checkout"
 msgstr ""
 
@@ -178,7 +202,7 @@ msgstr ""
 msgid "This option is disabled. Currently PayPal Credit only available for U.S. merchants using USD currency."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-plugin.php:240
+#: includes/class-wc-gateway-ppec-plugin.php:238
 msgid "<p>PayPal&nbsp;Checkout with new <strong>Smart&nbsp;Payment&nbsp;Buttons™</strong> gives your customers the power to pay the way they want without leaving your site.</p><p>The <strong>existing buttons will be deprecated and removed</strong> in future releases. Upgrade to Smart&nbsp;Payment&nbsp;Buttons in the <a href=\"%s\">PayPal&nbsp;Checkout settings</a>.</p>"
 msgstr ""
 
@@ -224,24 +248,24 @@ msgstr ""
 msgid "WooCommerce PPEC Order Data"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:565
+#: includes/abstracts/abstract-wc-gateway-ppec.php:564
 msgid "Remove image"
 msgstr "इमेज काढा"
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:554
-#: includes/abstracts/abstract-wc-gateway-ppec.php:557
+#: includes/abstracts/abstract-wc-gateway-ppec.php:553
+#: includes/abstracts/abstract-wc-gateway-ppec.php:556
 msgid "Add image"
 msgstr "इमेज जोडा"
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:553
+#: includes/abstracts/abstract-wc-gateway-ppec.php:552
 msgid "Use this image"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:552
+#: includes/abstracts/abstract-wc-gateway-ppec.php:551
 msgid "Select a image to upload"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:544
+#: includes/abstracts/abstract-wc-gateway-ppec.php:543
 msgid "Already using URL as image: %s"
 msgstr ""
 
@@ -283,13 +307,13 @@ msgstr ""
 msgid "Checkout on cart page"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-cart-handler.php:63
-#: includes/class-wc-gateway-ppec-cart-handler.php:114
-#: includes/class-wc-gateway-ppec-cart-handler.php:135
+#: includes/class-wc-gateway-ppec-cart-handler.php:65
+#: includes/class-wc-gateway-ppec-cart-handler.php:117
+#: includes/class-wc-gateway-ppec-cart-handler.php:138
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "WooCommerce"
 msgstr ""
 
@@ -386,32 +410,32 @@ msgstr ""
 msgid "An error occurred while calling the PayPal API."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-with-paypal-addons.php:180
+#: includes/class-wc-gateway-ppec-with-paypal-addons.php:247
 msgid "PayPal payment declined"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-with-paypal-addons.php:176
+#: includes/class-wc-gateway-ppec-with-paypal-addons.php:243
 msgid "PayPal payment approved (ID: %s)"
 msgstr ""
 
 #. translators: placeholder is pending reason from PayPal API.
-#: includes/class-wc-gateway-ppec-with-paypal-addons.php:165
+#: includes/class-wc-gateway-ppec-with-paypal-addons.php:232
 msgid "PayPal transaction held: %s"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-with-paypal-addons.php:157
+#: includes/class-wc-gateway-ppec-with-paypal-addons.php:224
 msgid "PayPal API error"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-plugin.php:456
+#: includes/class-wc-gateway-ppec-plugin.php:454
 msgid "Docs"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-plugin.php:453
+#: includes/class-wc-gateway-ppec-plugin.php:451
 msgid "Settings"
 msgstr "सेटिंग्स"
 
-#: includes/class-wc-gateway-ppec-plugin.php:331
+#: includes/class-wc-gateway-ppec-plugin.php:329
 msgid "PayPal Checkout is almost ready. To get started, <a href=\"%s\">connect your PayPal account</a>."
 msgstr ""
 
@@ -425,7 +449,7 @@ msgstr ""
 msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-cart-handler.php:316
+#: includes/class-wc-gateway-ppec-cart-handler.php:332
 msgid "Pay with PayPal Credit"
 msgstr ""
 
@@ -433,15 +457,15 @@ msgstr ""
 msgid "Create an account?"
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "https://woocommerce.com"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "A payment gateway for PayPal Checkout (https://www.paypal.com/us/webapps/mpp/paypal-checkout)."
 msgstr ""
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "https://woocommerce.com/products/woocommerce-gateway-paypal-express-checkout/"
 msgstr ""
 
@@ -684,24 +708,24 @@ msgstr ""
 msgid "Setup or link an existing PayPal account"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-with-paypal-credit.php:15
 #: includes/settings/settings-ppec.php:574
+#: includes/class-wc-gateway-ppec-with-paypal-credit.php:15
 msgid "PayPal Credit"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-plugin.php:304
+#: includes/class-wc-gateway-ppec-plugin.php:302
 msgid "WooCommerce Gateway PayPal Checkout requires OpenSSL >= 1.0.1 to be installed on your server"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-plugin.php:301
+#: includes/class-wc-gateway-ppec-plugin.php:299
 msgid "WooCommerce Gateway PayPal Checkout requires cURL to be installed on your server"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-plugin.php:297
+#: includes/class-wc-gateway-ppec-plugin.php:295
 msgid "WooCommerce Gateway PayPal Checkout requires WooCommerce version 2.5 or greater"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-plugin.php:293
+#: includes/class-wc-gateway-ppec-plugin.php:291
 msgid "WooCommerce Gateway PayPal Checkout requires WooCommerce to be activated"
 msgstr ""
 
@@ -760,7 +784,7 @@ msgstr ""
 msgid "Payment %s via IPN."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-ipn-handler.php:182
+#: includes/class-wc-gateway-ppec-ipn-handler.php:183
 msgid "IPN payment completed"
 msgstr ""
 
@@ -825,21 +849,21 @@ msgstr ""
 msgid "Unable to accept certificate during cURL configuration"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-checkout-handler.php:946
+#: includes/class-wc-gateway-ppec-checkout-handler.php:951
 #: includes/class-wc-gateway-ppec-ipn-handler.php:192
 msgid "Payment pending (%s)."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-checkout-handler.php:944
+#: includes/class-wc-gateway-ppec-checkout-handler.php:949
 #: includes/class-wc-gateway-ppec-ipn-handler.php:190
 msgid "Payment authorized. Change payment status to processing or complete to capture funds."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-checkout-handler.php:588
+#: includes/class-wc-gateway-ppec-checkout-handler.php:590
 msgid "You have cancelled Checkout with PayPal. Please try to process your order again."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-checkout-handler.php:574
+#: includes/class-wc-gateway-ppec-checkout-handler.php:576
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -876,13 +900,13 @@ msgstr ""
 msgid "Confirm your PayPal order"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-cart-handler.php:275
-#: includes/class-wc-gateway-ppec-cart-handler.php:311
-#: includes/class-wc-gateway-ppec-cart-handler.php:346
+#: includes/class-wc-gateway-ppec-cart-handler.php:290
+#: includes/class-wc-gateway-ppec-cart-handler.php:327
+#: includes/class-wc-gateway-ppec-cart-handler.php:362
 msgid "Check out with PayPal"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-cart-handler.php:302
+#: includes/class-wc-gateway-ppec-cart-handler.php:317
 msgid "&mdash; or &mdash;"
 msgstr ""
 
@@ -979,104 +1003,104 @@ msgstr ""
 msgid "Unable to communicate with PayPal.  Please try your payment again."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-admin-handler.php:220
+#: includes/class-wc-gateway-ppec-admin-handler.php:222
 msgid "PayPal Checkout charge voided (Charge ID: %s)"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-admin-handler.php:218
+#: includes/class-wc-gateway-ppec-admin-handler.php:220
 msgid "Unable to void charge!"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-admin-handler.php:176
+#: includes/class-wc-gateway-ppec-admin-handler.php:178
 msgid "PayPal Checkout charge complete (Charge ID: %s)"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-admin-handler.php:168
+#: includes/class-wc-gateway-ppec-admin-handler.php:170
 msgid "Unable to capture charge!"
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-admin-handler.php:79
+#: includes/class-wc-gateway-ppec-admin-handler.php:81
 msgid "NOTE: PayPal does not accept decimal places for the currency in which you are transacting.  The \"Number of Decimals\" option in WooCommerce has automatically been set to 0 for you."
 msgstr ""
 
-#: includes/class-wc-gateway-ppec-admin-handler.php:55
+#: includes/class-wc-gateway-ppec-admin-handler.php:57
 msgid "Capture Charge"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:429
+#: includes/abstracts/abstract-wc-gateway-ppec.php:428
 msgid "Refund Error: The requested refund amount is too large. The refund amount must be less than or equal to %s."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:427
+#: includes/abstracts/abstract-wc-gateway-ppec.php:426
 msgid "Refund Error: All transactions have been fully refunded. There is no amount left to refund"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:380
-#: includes/abstracts/abstract-wc-gateway-ppec.php:403
-#: includes/abstracts/abstract-wc-gateway-ppec.php:453
+#: includes/abstracts/abstract-wc-gateway-ppec.php:379
+#: includes/abstracts/abstract-wc-gateway-ppec.php:402
+#: includes/abstracts/abstract-wc-gateway-ppec.php:452
 msgid "PayPal refund completed; transaction ID = %s"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:360
+#: includes/abstracts/abstract-wc-gateway-ppec.php:359
 msgid "Refund Error: You need to specify a refund amount."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:341
+#: includes/abstracts/abstract-wc-gateway-ppec.php:340
 msgid "The \"require billing address\" option is not enabled by your account and has been disabled."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:323
+#: includes/abstracts/abstract-wc-gateway-ppec.php:322
 msgid "Error: You must provide API signature or certificate."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:305
+#: includes/abstracts/abstract-wc-gateway-ppec.php:304
 msgid "Error: The API username does not match the name in the API certificate.  Make sure that you have the correct API certificate."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:300
+#: includes/abstracts/abstract-wc-gateway-ppec.php:299
 msgid "Error: The API certificate has expired."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:292
+#: includes/abstracts/abstract-wc-gateway-ppec.php:291
 msgid "Error: The API certificate is not valid."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:285
-#: includes/abstracts/abstract-wc-gateway-ppec.php:318
+#: includes/abstracts/abstract-wc-gateway-ppec.php:284
+#: includes/abstracts/abstract-wc-gateway-ppec.php:317
 msgid "An error occurred while trying to validate your API credentials.  Unable to verify that your API credentials are correct."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:280
-#: includes/abstracts/abstract-wc-gateway-ppec.php:314
+#: includes/abstracts/abstract-wc-gateway-ppec.php:279
+#: includes/abstracts/abstract-wc-gateway-ppec.php:313
 msgid "Error: The API credentials you provided are not valid.  Please double-check that you entered them correctly and try again."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:269
+#: includes/abstracts/abstract-wc-gateway-ppec.php:268
 msgid "Error: You must enter API password."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:214
+#: includes/abstracts/abstract-wc-gateway-ppec.php:213
 msgid "The certificate on file is not valid."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:212
+#: includes/abstracts/abstract-wc-gateway-ppec.php:211
 msgid "Certificate belongs to API username %1$s; %2$s"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:205
-#: includes/abstracts/abstract-wc-gateway-ppec.php:208
+#: includes/abstracts/abstract-wc-gateway-ppec.php:204
+#: includes/abstracts/abstract-wc-gateway-ppec.php:207
 msgid "expires on %s"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:202
+#: includes/abstracts/abstract-wc-gateway-ppec.php:201
 msgid "expired on %s"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:190
+#: includes/abstracts/abstract-wc-gateway-ppec.php:189
 msgid "No API certificate on file."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-gateway-ppec.php:158
+#: includes/abstracts/abstract-wc-gateway-ppec.php:157
 msgid "Sorry, an error occurred while trying to process your payment. Please try again."
 msgstr ""
 

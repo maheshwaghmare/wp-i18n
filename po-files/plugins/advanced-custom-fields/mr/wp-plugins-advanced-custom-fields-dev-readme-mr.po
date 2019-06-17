@@ -19,948 +19,6 @@ msgstr ""
 msgid "Advanced Custom Fields"
 msgstr ""
 
-#. Found in changelog paragraph.
-msgid "<em>Release Date - 1 October 2018</em>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Persian translation - thanks to Majix"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated German translation - thanks to Ralf Koller"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "i18n - Updated Portuguese language thanks to Pedro Mendonça"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added action 'acf/options_page/submitbox_major_actions'."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added action 'acf/options_page/submitbox_before_major_actions'."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added JS action 'check_screen_complete'."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added JS filter 'check_screen_args'."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Major improvements to the <code>acf.models.Postbox</code> model."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak - Added 'language' to Google Maps API url."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed various plugin update issues."
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "View full changelog: https://www.advancedcustomfields.com/changelog/"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid ""
-"form&gt; element\n"
-"* Options page: Fixed incorrect redirect URL from a sub options page\n"
-"* Field group: Added new 'post_template' location rule (requires WP 4.7)\n"
-"* Core: Added support for the wp_termmeta table (includes DB upgrade)\n"
-"* Core: Added new 'select_2_version' setting which can be changed between 3 and 4\n"
-"* Core: Added new 'enqueue_select2' setting which can be used to prevent the library from being enqueued\n"
-"* Core: Added new 'enqueue_google_maps' setting which can be used to prevent the library from being enqueued\n"
-"* Core: Minor fixes and improvements\n"
-"* Language: Updated Portuguese translation - thanks to Pedro Mendonça\n"
-"* Language: Updated Norwegian translation - thanks to Havard Grimelid\n"
-"* Language: Updated Swedish translation - thanks to Jonathan de Jong\n"
-"* Language: Updated German translation - thanks to Ralf Koller\n"
-"* Language: Updated Italian translation - thanks to Davide Pantè\n"
-"* Language: Updated Swiss German translation - thanks to Raphael Hüni"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "&lt;"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<em>Release Date - 6 August 2018</em>"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<em>Release Date - 20 August 2018</em>"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<em>Release Date - 30 August 2018</em>"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<em>Release Date - 6 September 2018</em>"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<em>Release Date - 12 September 2018</em>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Brazilian Portuguese translation - thanks to Augusto Simão"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Improved speed and fixed bugs when creating and restoring revisions"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug when editing field settings in Chrome causing required setting to self toggle"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed plugin update bug delaying updates"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Page link field: Added new 'Allow Archives URLs' setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Checkbox field: Added new 'Return Format' setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Radio field: Added new 'Return Format' setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Select field: Added new 'Return Format' setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Taxonomy field: Added compatibility to save/load terms to user object"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Gallery field: Removed 'Preview Size' setting and improved UI"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Clone field: Added new field type (https://www.advancedcustomfields.com/resources/clone/)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing 'Preview Post' to load empty field values"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing <code>get_current_screen()</code> to throw PHP error"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Fixed bug causing <code>get_fields('options')</code> to return false"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Fixed bug preventing post_title and post_content values saving in <code>acf_form()</code>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed <code>wp_get_sites()</code> deprecated error (since WP 4.6) shown in network admin"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Radio field: Fixed bug (Chrome only) ignoring default values in cloned sub fields"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Google Maps field: Fixed JS error conflict with Divi theme"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WYSIWYG field: Fixed JS bug (since WP 4.6) causing conflicts with editor plugins"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WYSIWYG field: Fixed JS error when 'Disable the visual editor when writing' is checked"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added search input &amp; toggle to admin field groups list"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Improved <code>update_field()</code> when saving a new value (when reference value does not yet exist)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Fixed bug in <code>acf_form()</code> where AJAX validation ignored 'post_title'"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug where conditional logic would incorrectly enable select elements"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added notice when PRO license fails to validate URL"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug where preview values did not load for a draft post"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Fixed bug causing <code>get_row(true)</code> to return incorrect values"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Flexible Content field: Fixed bug during 'duplicate layout' where radio input values were lost"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Flexible Content field: Fixed bug causing Google map render issue within collapsed layout"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Gallery field: Fixed bug where open sidebar fields were saved to post"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing 'sync' issues with sub clone fields"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Added new <code>delete_sub_row()</code> function"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Added new <code>update_sub_row()</code> function"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Added new <code>add_sub_row()</code> function"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Select field: Fixed bug incorrectly allowing a disabled field (hidden by conditional logic) to save values"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "File field: Fixed validation bugs when used as a sub field (multiple selection)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Date Picker field: Improved compatibility with unix timestamp values"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Time Picker field: Fixed bug preventing default time from being selected"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Flexible Content field: Fixed bug in 'layout_title' filter preventing values being loaded correctly"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: acf_form() 'id' setting is now used as 'id' attribute in "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Date picker field: Added better compatibility logic for custom 'date_format' setting found in version &lt; 5.0.0"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Google Map field: Prevent scroll zoom"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Flexible Content field: Improved popup style and validation messages"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Clone field: Fixed bug causing save/load issues found when 2 sub fields clone in the same field/group."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Select field: Fixed bug where Select2 fields did not correctly use the ‘allow null’ setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Checkbox field: Added new 'allow_custom' and 'save_custom' settings allowing you to add custom choices"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WYSIWYG field: Added compatibility for WP 4.7 toolbar buttons order"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WYSIWYG field: Added new 'delay' setting which delays tinymce initialization until the field is clicked"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "True False field: Added new 'ui' setting which renders as a toggle switch"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new 'enqueue_datetimepicker' setting which can be used to prevent the library from being enqueued"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new 'enqueue_datepicker' setting which can be used to prevent the library from being enqueued"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Date picker field: Improved compatibility with customized values"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Select field: Fixed bug preventing some field settings from being selected"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Repeater field: Fixed bug in 'collapsed' setting where field key was shown instead of field label"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tab field: Fixed bug causing value loading issues for field's with the same name"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Improved efficiency of termmeta DB upgrade logic"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added support with new <code>get_user_locale()</code> setting in WP 4.7"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Options page: Fixed bug when using WPML in multiple tabs causing incorrect 'lang' to be used during save."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated French translation - thanks to Martial Parfait"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Removed 'ACF PRO invalid license nag' and will include fix for 'protocol change' in next release"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Allowed 'instruction_placement' setting on 'widget' forms (previously set always to 'below fields')"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Improved <code>get_posts()</code> query speeds by setting 'update_cache' settings to false"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Fixed <code>add_row()</code> and <code>add_sub_row()</code> return values (from true to new row index)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Gallery field: Fixed bug causing unsaved changes in sidebar to be lost when selecting another attachment"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "True false field: Improved usability by allowing 'tab' key to focus element (use space or arrow keys to toggle)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Image field: Added AJAX validation mentioned above"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Image field: Added 'connect' logic mentioned above"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "File field: Added AJAX validation to 'basic' uploader"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "File field: Removed <code>filesize()</code> call causing performance issues with externally hosted attachments"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "File field: Added logic to 'connect' selected attachment to post (only if attachment is not 'connected')"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Image field: Fixed bug mentioned above"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "File field: Fixed bug creating draft post when saving an empty value"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing value loading issues for a taxonomy term in WP &lt; 4.4"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new 'row_index_offset' setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new 'acf/validate_post_id' filter"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new 'acf/validate_field_group' filter"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new 'acf/validate_field' filter"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed Select2 (v4) bug where 'allow null' setting would not correctly save empty value"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing license key to be ignored after changing url from http to https"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing <code>get_field()</code> to return incorrect data for sub fields registered via PHP code."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new JS 'init' actions for wysiwyg, date, datetime, time and select2 fields"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug preventing 'min-height' style being applied to floating width fields"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing incorrect Select2 CSS version loading for WooCommerce 2.7"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "oEmbed field: Fixed bug causing incorrect width and height settings in embed HTML"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Flexible Content: Added logic to better 'clean up' data when re-ordering layouts"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing ACF4 PHP field groups to be ignored if missing ‘key’ setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug ignoring PHP field groups if exists in JSON"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed missing 'Bulk Actions' dropdown on sync screen when no field groups exist"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug preventing values being loaded on a new post/page preview"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"\n"
-"<ul>\n"
-"<li>added new <code>acf_register_form()</code> function"
-msgstr "\n"
-
-#. Found in changelog list item.
-msgid ""
-"\n"
-"<ul>\n"
-"<li>added new encryption logic to prevent $_POST exploits"
-msgstr "\n"
-
-#. Found in changelog list item.
-msgid ""
-"\n"
-"<ul>\n"
-"<li>added new '%post_id%' replace string to the 'return' setting"
-msgstr "\n"
-
-#. Found in changelog list item.
-msgid ""
-"\n"
-"<ul>\n"
-"<li>added new 'acf/submit_form' action run when form is successfully submit (after saving $_POST)"
-msgstr "\n"
-
-#. Found in changelog list item.
-msgid ""
-"\n"
-"<ul>\n"
-"<li>added new 'acf/pre_submit_form' filter run when form is successfully submit (before saving $_POST)"
-msgstr "\n"
-
-#. Found in changelog list item.
-msgid ""
-"\n"
-"<ul>\n"
-"<li>added new 'html_submit_spinner' setting"
-msgstr "\n"
-
-#. Found in changelog list item.
-msgid ""
-"\n"
-"<ul>\n"
-"<li>added new 'html_submit_button' setting"
-msgstr "\n"
-
-#. Found in changelog list item.
-msgid ""
-"\n"
-"<ul>\n"
-"<li>added new 'html_updated_message' setting"
-msgstr "\n"
-
-#. Found in changelog list item.
-msgid "API: Added new functionality to the <code>acf_form()</code> function:"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Google Map field: Added new 'google_map_init' JS action"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Improved plugin update class"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tab field: Allowed HTML within field label to show in tab"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Improved compatibility with Select2 v4 including sortable functionality"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added constants ACF, ACF_PRO, ACF_VERSION and ACF_PATH"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new 'remove_wp_meta_box' setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Datetime Picker field: Same as above"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Time Picker field: Same as above"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Date Picker field: Improved 'Display Format' and 'Return Format' settings UI"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WYSIWYG field: Fixed JS error when using CKEditor plugin"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Flexible Content field: Added missing 'translate_field' function"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Flexible Content field: Fixed bug causing 'layout_title' filter to fail when field is cloned"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Clone field: Improved 'Fields' setting to show all fields within a matching field group search"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Minor bug fixes"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Updated Select2 JS library to v4"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added \"Confirm Remove\" tooltips"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added types to Attachment location rule - thanks to Jan Thomas"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new location for Menu Items"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new location for Menus"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Improved <code>have_rows()</code> function to work with clone and group field values"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Group field: Added new field type"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Link field: Added new field type"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed an assortment of bugs found in 5.6.0"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated French translation - Thanks to Julie Arrigoni"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Many minor bug fixes"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug casing backslash character to break fields / field groups"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed PHP errors in customizer when editing non ACF panels"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Location: Fixed bug causing 'nav menu' location rule to fail during AJAX (add new item)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Location: Added parent theme's post templates to 'post template' location rule"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Clone field: Fixed bug causing value update issues for 'seamless' + widgets / nave menu items"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Range field: Added new field type"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Finnish translation - thanks to Sauli Rajala"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Fixed <code>get_fields()</code> bug ignoring fields starting with an underscore"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Basic fields: Removed empty attributes from inputs"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Basic fields: Added missing 'required' attribute to inputs"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Range field: Added width to number input based on max setting"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Range field: Added missing 'step' attribute to number input"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Button Group field: Added new field type"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Chinese translation - thanks to Wang Hao"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Update Turkish translation - thanks to Emre Erkan"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug preventing a draft to validate with required fields"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug in 'Post Taxonomy' location rule ignoring selected terms during AJAX callback"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Group field: Fixed bug causing incorrect export settings"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WYSIWYG field: Fixed minor z-index and drag/drop bugs"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Google Map field: Fixed bug causing invalid url to JavaScript library"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Update Russian translation - thanks to Andriy Toniyevych"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Update Ukrainian translation - thanks to Jurko Chervony"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added new 'Admin Tools' framework (includes design refresh)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Added new 'kses' setting to the <code>acf_form()</code> function"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Swiss German translation - thanks to Raphael Hüni"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Dutch translation - thanks to Derk Oosterveld"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Brazilian Portuguese translation - thanks to Rafael Ribeiro"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Allow whitespace in input value (previously trimmed)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed issue preventing JS initialization for newly added menu items."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed issue preventing conditional logic for menu item fields"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WYSIWYG field: Fixed JS error in quicktags initialization"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tab field: Added logic to remember active tabs"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Accordion field: Added new field type"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed an assortment of bugs found in 5.6.6"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Spanish translation - thanks to Luis Rull Muñoz"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug causing \"Add new term\" form to hide after submit"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Fixed bug causing have_rows() to fail with PHP 7.2"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated French translation - thanks to Maxime Bernard-Jacquet"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Removed private ('show_ui' =&gt; false) post types from the 'Post Type' location rule choices"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Fixed bug affecting the loading of fields on new Menu Items"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Added basic compatibility with Gutenberg - values now save"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "User field: Added new 'Return Format' setting (Array, Object, ID)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Arabic translation - thanks to Karim Ramadan"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Updated Romanian translation - thanks to Ionut Staicu"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Language: Added Croatian translation - Thanks to Vlado Bosnjak"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "API: Improved lookup to find fields without a reference value"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Repeater field: Added support to collapse multiple rows (hold shift)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Repeater field: Improved logic that remembers collapsed row states"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Improved localization and internationalization"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Improved conditional logic with new types and more supported fields"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Core: Major JavaScript updates"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added new ACF_Ajax class for upcoming features."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added 'multiple' to the allowed attributes for an email field."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added action 'wp_nav_menu_item_custom_fields' for compatibility with other plugins modifying the menu walker class."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Bumped minimum WP version requirement to 4.4."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed JS error thrown by localStorage if cookies are not enabled."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed bug where nested Group Fields did not delete their values."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Added missing $parent argument to term_exists() function when adding a new term via taxonomy field popup."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed bug preventing JS initialization when editing widgets in accessibility mode."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Improved logic to request and cache plugin update information."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed bug preventing the Google Maps Field address from being customized."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added action 'acf/enqueue_uploader' triggered after the hidden \"ACF Content\" editor is rendered."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed JS bug throwing \"preference\" error in console."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed bug preventing some tinymce customizations from working."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak - Removed user fields from the multisite \"Add New User\" page. "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak - Improved acf.screen model responsible for \"updating metaboxes\" when changing post data."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New - Added support for the WooCommerce product type dropdown to trigger \"update metaboxes\"."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New - Added \"Value Contains\" condition to the Select field type."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New - Added Dark Mode styles for the <a href=\"https://en-au.wordpress.org/plugins/dark-mode/\">Dark Mode Plugin</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added new location rules filters."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak - Improved the \"What's New\" admin page seen after DB Upgrade."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak - Improved DB upgrade prompt, functions and AJAX logic."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak - Added more Dark Mode styles."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed bug causing field groups to disappear when selecting a taxonomy term with WPML active."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Improved validation JS with new Validator model and logic."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Improved WPML compatibility by using <code>$sitepress-&gt;get_current_language()</code> instead of <code>ICL_LANGUAGE_CODE</code>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed bug causing duplicate Select2 instances when adding a widget via drag/drop."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed bug causing validation issues in older versions of Firefox."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed bug causing multisite login redirect issues."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "i18n - Updated Polish language thanks to Dariusz Zielonka"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Reordered various actions and filters for more usefulness."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Added 'nav_menu_item_id' and 'nav_menu_item_depth' to get_field_groups() query."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev - Reduced number of queries needed to populate the relationship field taxonomy filter."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix - Fixed unload prompt not working."
-msgstr ""
-
 #. Screenshot description.
 msgid "<p>All about fields</p>"
 msgstr ""
@@ -978,7 +36,7 @@ msgid "<strong>Support Forums.</strong> Our Community Forums provide a great res
 msgstr ""
 
 #. Found in faq paragraph.
-msgid "<strong>Help Desk.</strong> Support is currently provided via our email help desk. Questions are generally answered within 24 hours, with the exception of weekends and holidays. We answer questions related to ACF, it’s usage and provide minor customization guidance. We cannot guarantee support for questions which include custom theme code, or 3rd party plugin conflicts &amp; compatibility. <a href=\"https://www.advancedcustomfields.com/support/\">Open a Support Ticket</a>"
+msgid "<strong>Help Desk.</strong> Support is currently provided via our email help desk. Questions are generally answered within 24 hours, with the exception of weekends and holidays. We answer questions related to ACF, its usage and provide minor customization guidance. We cannot guarantee support for questions which include custom theme code, or 3rd party plugin conflicts &amp; compatibility. <a href=\"https://www.advancedcustomfields.com/support/\">Open a Support Ticket</a>"
 msgstr ""
 
 #. Found in faq header.
@@ -1077,30 +135,378 @@ msgstr ""
 msgid "<a href=\"https://www.advancedcustomfields.com/resources/\">Documentation</a>"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Language: Updated Italian translation - thanks to Davide Pantè"
+#. Found in changelog paragraph.
+msgid "<a href=\"https://www.advancedcustomfields.com/changelog/\">View the full changelog</a>"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Language: Updated Portuguese translation - thanks to Pedro Mendonça"
+msgid "Fix - Fixed bug causing incorrect order of imported/synced flexible content sub fields."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Language: Update Hebrew translation - thanks to Itamar Megged"
+msgid "Fix - Fixed bug where HTML choices were not visible in conditional logic dropdown."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Language: Updated Persian translation - thanks to Kamel Kimiaei"
+msgid "Fix - Fixed bug preventing the TinyMCE Advanced plugin from adding <code>&lt; p &gt;</code> tags."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Language: Updated Russian translation - Thanks to Алекс Яровиков"
+msgid "Fix - Fixed bug in media modal causing the primary button text to disappear after editing an image."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Language: Updated Persian translation - thanks to Kamel"
+msgid "Tweak - Changed default \"Preview Size\" to medium for the Image field."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Core: Minor fixes and improvements"
+msgid "Tweak - Improved metabox styling for Gutenberg."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New - Added \"Preview Size\" and \"Return Format\" settings to the Gallery field."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 11 February 2019</em>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 15 February 2019</em>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 6 March 2019</em>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 8 May 2019</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated Swiss German translation thanks to Raphael Hüni."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added new hook variation functions <code>acf_add_filter_variations()</code> and <code>acf_add_action_variations()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Refactored various core functions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Removed language fallback from \"zh_TW\" to \"zh_CN\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where tab fields did not render correctly within a dynamic metabox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug affecting dynamic metabox check when selecting \"default\" page template."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed PHP error in <code>determine_locale()</code> affecting AJAX requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New - Added support for persistent object caching."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated Persian translation thanks to Majix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing incorrect value retrieval after <code>switch_to_blog()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug showing incorrect choices for post_template location rule."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing incorrect character count when validating values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing reversed field group metabox order."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing draft and preview issues with serialized values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing incorrect results in <code>get_sub_field()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug preventing <code>get_field_object()</code> working with a field key."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where \"sync\" feature imported field groups without fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing wp_options values to be slashed incorrectly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed PHP 5.4 error \"Can't use function return value in write context\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added missing function <code>register_field_group()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added new 'pre' filters to get, update and delete meta functions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug preventing the AMP plugin preview from working."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing issues when importing/syncing multiple field groups which contain a clone field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug in Gutenberg where custom metabox location (acf_after_title) did not show on initial page load."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug corrupting field settings since WP 5.1 when instructions contain <code>&lt; a target=\"\" &gt;</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing the <code>get_sub_field()</code> function to fail if a tab field exists with the same name as the selected field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug preventing sub fields from being reused across multiple parents."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing issues with registered fields during <code>switch_to_blog()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated German translation thanks to Ralf Koller."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Bumped minimum supported WP version to 4.7.0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Bumped minimum supported PHP version to 5.4.0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added <code>$field_group</code> parameter to <code>'acf/location/match_rule'</code> filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added JS filter <code>'relationship_ajax_data'</code> to customize Relationship field AJAX data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing incorrect Repeater field value order in AJAX requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing duplicate \"save metabox\" AJAX requests in the Gutenberg editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New - Added ACF Blocks feature for ACF PRO."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 16 January 2019</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated Czech translation thanks to David Rychly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated French translation thanks to Maxime Bernard-Jacquet."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Moved from .less to .scss and minified all css."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added new data storage functions <code>acf_register_store()</code> and <code>acf_get_store()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added filter 'acf/allow_unfiltered_html' to customize if current user can save unfiltered HTML."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added filter 'acf/get_locale' to customize the locale used to load translations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved performance and accuracy when loading a user field value."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved punctuation throughout admin notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improved loading translations by adding fallback from region to country when .mo file does not exit."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing jQuery sortable issues within other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed JS error when selecting taxonomy terms within Gutenberg."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing unload prompt to show incorrectly within Gutenberg."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug preventing metaboxes from saving if validation fails within Gutenberg."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 17 December 2018</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added JS filter 'google_map_autocomplete_args' to customize Google Maps autocomplete settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added filter 'acf/connect_attachment_to_post' to prevent connecting attachments to posts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where breaking out of a sub <code>have_rows()</code> loop could produce undesired results."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where <code>acf_form()</code> redirects to an incorrect URL for sub-sites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug preventing multi-input values from saving correctly within media modals."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug causing required date picker fields to prevent form submit."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added dynamic metabox check compatibility with Gutenberg."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added custom metabox location (acf_after_title) compatibility with Gutenberg."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 7 December 2018</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated Portuguese language thanks to Pedro Mendonça."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Update Turkish translation thanks to Emre Erkan."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated Czech translation thanks to Veronika Hanzlíková."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated Polish translation thanks to Dariusz Zielonka."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed all metaboxes appearing when editing a post in WP 5.0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed vulnerability allowing author role to save unfiltered HTML values."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 1 October 2018</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated Portuguese language thanks to Pedro Mendonça"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added action 'acf/options_page/submitbox_major_actions'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added action 'acf/options_page/submitbox_before_major_actions'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added JS action 'check_screen_complete'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added JS filter 'check_screen_args'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Major improvements to the <code>acf.models.Postbox</code> model."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added 'language' to Google Maps API url."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed various plugin update issues."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 3 June 2019</em>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 12 September 2018</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "i18n - Updated Polish language thanks to Dariusz Zielonka"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Reordered various actions and filters for more usefulness."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Added 'nav_menu_item_id' and 'nav_menu_item_depth' to get_field_groups() query."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev - Reduced number of queries needed to populate the relationship field taxonomy filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed unload prompt not working."
 msgstr ""

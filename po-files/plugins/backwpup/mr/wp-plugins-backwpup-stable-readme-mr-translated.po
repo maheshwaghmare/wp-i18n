@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:34:01+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:52:11+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -21,68 +21,8 @@ msgstr ""
 msgid "BackWPup - WordPress Backup Plugin"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fixed: Ftp destination downloader repetitively open a new handler for the source file causing corrupted backup."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Backup archive file have dot folder contains all web root files"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Not recognized file extensions get an additional underscore in the file name in zip file"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "Release Date: Sep 25, 2018"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Incompatibility with php 5.3 in the restore process"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Cannot delete woocommerce_downloadable_product_permissions table"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Ensure extra files are not overwritten"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: fatal error on Amazon Glacier because of an undefined function"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Incompatibility with php 5.3 in destination folder downloader"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Some settings page and license api manager strings are missing translation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Function <code>owns_backup_archive</code> not exists, the one is <code>is_backup_archive</code>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Restore Folder backup won't download the backup file"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Backup don't override old database file in web root"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Class bryter/helpers/csrf/CSRF.php was not loaded"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Use of function that doesn't exists prior to 4.9"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Backup doesn't handle special characters correctly"
+#. Found in description list item.
+msgid "Store backup to RackSpaceCloud <em>(curl)</em>"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -93,80 +33,8 @@ msgstr ""
 msgid "<a href=\"https://backwpup.com/docs/install-backwpup-pro-activate-licence/\">You can find a detailed tutorial in the BackWPup documentation.</a>"
 msgstr ""
 
-#. Found in changelog paragraph.
-msgid "Release Date: June 14, 2018"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: openssl_encrypt compatibility with PHP 5.3"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Deleting FTP backup resulted in error"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Localized strings from restore"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Version constraints of composer dependencies"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improved: Delete pro-only scss files in free version"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Downloading of large files encountered PHP memory error"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Handling of special Amazon S3 regions such as Google Storage"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added: Pro Feature - Encrypt before sending backups to the cloud"
-msgstr ""
-
 #. Found in description list item.
 msgid "NEW - PRO: Encrypt backup archives and restore from encrypted backups."
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "Release Date: May 23, 2018"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Decreased size of plugin by purging unneeded files"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Compatibility with PHP 5.3"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Can't use function return value in write context"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Cannot use object of type WP_Error as array"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: call to a member function close() on null"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "Release Date: May 16, 2018"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: stylesheet was being included on frontend"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added: Restore for pro version"
 msgstr ""
 
 #. Found in description paragraph.
@@ -177,188 +45,8 @@ msgstr ""
 msgid "NEW - PRO: Restore your backups with only a few clicks from your WordPress backend. Also available as Standalone App."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fixed: Invalid argument supplied for foreach() error."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Disable use of mysqldump if it is not available."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added: Support for PclZip."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Security issue that created too many sessions."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Correct decryption of passwords when escaped."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added: Support for Amazon S3 signature V4."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added: Support for EU (London) S3 region."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improved: Changed the way hashes are generated."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Delete old-style archive names."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Compatibility with Sunrise."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: No longer show hashes on job edit page."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improved: German formal and chinese translation for PRO"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Dropbox fails when user uses proxy"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Dropbox sync sometimes deletes synced files"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Dropbox sync fails because of case sensitivity"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: open_basedir warning from looking for mysqldump"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: S3 parse URL issue"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Remove user roles on uninstall."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improved: Better support for large XML files."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Only one admin notice shown at a time."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Security issue to prevent backups from being seen by others."
-msgstr ""
-
 #. Found in description list item.
-msgid "WordPress 3.9 and PHP 5.3 required! (read more about <a href=\"https://inpsyde.com/en/wordpress-recommended-php-version-update-php\">recommended php version and why you should switch to modern php</a>)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Allow folders under wp-content to be excluded."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support empty folder name when syncing to Dropbox."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add Rate Us admin notice."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add support form for pro users."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Do not display notices for pro users."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Allow user to copy debug info for support."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "If archive name is not valid format, will still recognize and delete old files."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Allow symbolic links to be excluded."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix handling of storing backups in root Dropbox dir."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Only encode DB values to hex when binary flag is set."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix the way Dropbox API wrapper handles errors."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix PHP notice when running job via WP CLI."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Only display Dropbox upload progress in debug mode."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Check if file is dot to prevent open_basedir warning."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improved: accuracy of binary column export."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: opendir permission denied warning on some versions of IIS."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: error for some users when generating XML export."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added: Web.config is now included in list of special files to back up."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added: Ability to have backup file sent to multiple email addresses."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed: Call to get_users was previously incorrect."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added: Backup file tracking so backups from other jobs aren't accidentally deleted."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Changed: Removed Adminer link from backend."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improved: Migrated to Dropbox API V2."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Changed: Dropped support for PHP 5.2."
+msgid "WordPress 3.9 and PHP 5.3.3 required! (read more about <a href=\"https://inpsyde.com/en/wordpress-recommended-php-version-update-php\">recommended php version and why you should switch to modern php</a>)"
 msgstr ""
 
 #. Found in description paragraph.
@@ -367,10 +55,6 @@ msgstr ""
 
 #. Found in description list item.
 msgid "Pro version and support available - <a href=\"https://backwpup.com\">BackWPup Pro</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Store backup to S3 services <em>(needs PHP 5.3.3, needs curl)</em>"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -626,11 +310,11 @@ msgid "Send logs and backups by email"
 msgstr ""
 
 #. Found in description list item.
-msgid "PRO: Store backup to Google Drive <em>(needs PHP 5.3.3, curl)</em>"
+msgid "PRO: Store backup to Google Drive <em>(needs curl)</em>"
 msgstr ""
 
 #. Found in description list item.
-msgid "PRO: Store backup to Amazon Glacier <em>(needs PHP 5.3.3, curl)</em>"
+msgid "PRO: Store backup to Amazon Glacier <em>(needs curl)</em>"
 msgstr ""
 
 #. Found in description list item.
@@ -638,11 +322,11 @@ msgid "Store backup to SugarSync <em>(needs curl)</em>"
 msgstr ""
 
 #. Found in description list item.
-msgid "Store backup to RackSpaceCloud <em>(needs PHP 5.3.2, curl)</em>"
+msgid "Store backup to Microsoft Azure (Blob) <em>(needs curl)</em>"
 msgstr ""
 
 #. Found in description list item.
-msgid "Store backup to Microsoft Azure (Blob) <em>(needs PHP 5.3.2, curl)</em>"
+msgid "Store backup to S3 services <em>(needs curl)</em>"
 msgstr ""
 
 #. Found in description list item.
@@ -658,7 +342,7 @@ msgid "Store backup to directory"
 msgstr ""
 
 #. Found in description list item.
-msgid "Backups in zip, tar, tar.gz, tar.bz2 format <em>(needs gz, bz2, ZipArchive)</em>"
+msgid "Backups in zip, tar, tar.gz format <em>(needs gz, ZipArchive)</em>"
 msgstr ""
 
 #. Found in description list item.
@@ -707,6 +391,514 @@ msgstr ""
 
 #. Screenshot description.
 msgid "Working job and jobs overview"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: May 7, 2019"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: License changed to GPLv2+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve: Restore Log and produce report for user feedback"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: mime_content_type function may not exists prevent backup decryption"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Phone home client notice and php 5 issue with php short echo tag"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Decryption Key prompt when any error occur during the first step of a Restore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Wrong vendor include path for PEAR using MS Azure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Session already started could cause issues during ajax calls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: ZipArchive doesn't fallback to PclZip in Restore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Log files name are predictable because of weak hash"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Restore error: MIME returns html instead of event stream"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Update Dropbox Tokens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Do not expose destination data within the manifest file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Google Drive destination automatically remove old backup files"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: Feb 25, 2019"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Rest API admin note language doesn't change when changing user language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Typos in settings job page"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: Jan 22, 2019"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Lock server to execute same task multiple time when one is already in progress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: On restore error, include <code>restore.dat</code> file along with the log when user download the restore log file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Encryption Settings description and ui improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Increase PHP Version from 5.3.2 to 5.3.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: \"Do not delete files while syncing to destination!\" not working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Restore stuck on file restore step because of file permission issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Encryption option should not be displayed for syncing job"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: On folder sync destination folder is not created"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: More margin to dashboard footer to avoid save button unclickable"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: Nov 23, 2018"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: Nov 28, 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Files could be excluded from the backup because of incorrect string comparison"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Admin notice won’t update correctly"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: Nov 22, 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Remove languages files from the free version, the plugin will use translation.wordpress.org"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Minor translations issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Encryption Settings UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Unable to download backup file because of mime_content_type function missing in some environment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Open basedir, backup dir is not within the allowed path"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Standalone App has no encryption support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Exclude restore directories to be copied during a restore phase"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Random restore error about SQL syntax when restoring a database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Admin Notice in free version is sometimes empty"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Warning mime type when a backup is going to be downloaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Encrypted backup must force users to download the encryption keys"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: Nov 5, 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: All config.php files are not in backup archive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Restore progress stuck on \"restoring database\" with archive backup contains files only"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: \"Failed to restore file\": file restore progress stop working and jump directly to database restore step"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: Oct 17, 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Ftp destination downloader repetitively open a new handler for the source file causing corrupted backup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Backup archive file have dot folder contains all web root files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Not recognized file extensions get an additional underscore in the file name in zip file"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: Sep 25, 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Incompatibility with php 5.3 in the restore process"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Cannot delete woocommerce_downloadable_product_permissions table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Ensure extra files are not overwritten"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: fatal error on Amazon Glacier because of an undefined function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Incompatibility with php 5.3 in destination folder downloader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Some settings page and license api manager strings are missing translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Function <code>owns_backup_archive</code> not exists, the one is <code>is_backup_archive</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Restore Folder backup won't download the backup file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Backup don't override old database file in web root"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Class bryter/helpers/csrf/CSRF.php was not loaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Use of function that doesn't exists prior to 4.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Backup doesn't handle special characters correctly"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: June 14, 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: openssl_encrypt compatibility with PHP 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Deleting FTP backup resulted in error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Localized strings from restore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Version constraints of composer dependencies"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Delete pro-only scss files in free version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Downloading of large files encountered PHP memory error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Handling of special Amazon S3 regions such as Google Storage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Pro Feature - Encrypt before sending backups to the cloud"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: May 23, 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Decreased size of plugin by purging unneeded files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Compatibility with PHP 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Can't use function return value in write context"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Cannot use object of type WP_Error as array"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: call to a member function close() on null"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: May 16, 2018"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: stylesheet was being included on frontend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Restore for pro version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Invalid argument supplied for foreach() error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Disable use of mysqldump if it is not available."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for PclZip."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Security issue that created too many sessions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Correct decryption of passwords when escaped."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for Amazon S3 signature V4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for EU (London) S3 region."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Changed the way hashes are generated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Delete old-style archive names."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Compatibility with Sunrise."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: No longer show hashes on job edit page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: German formal and chinese translation for PRO"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Dropbox fails when user uses proxy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Dropbox sync sometimes deletes synced files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Dropbox sync fails because of case sensitivity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: open_basedir warning from looking for mysqldump"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: S3 parse URL issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Remove user roles on uninstall."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Better support for large XML files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Only one admin notice shown at a time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Security issue to prevent backups from being seen by others."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow folders under wp-content to be excluded."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support empty folder name when syncing to Dropbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Rate Us admin notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support form for pro users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not display notices for pro users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow user to copy debug info for support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If archive name is not valid format, will still recognize and delete old files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow symbolic links to be excluded."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix handling of storing backups in root Dropbox dir."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only encode DB values to hex when binary flag is set."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the way Dropbox API wrapper handles errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP notice when running job via WP CLI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only display Dropbox upload progress in debug mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check if file is dot to prevent open_basedir warning."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: accuracy of binary column export."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: opendir permission denied warning on some versions of IIS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: error for some users when generating XML export."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Web.config is now included in list of special files to back up."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Ability to have backup file sent to multiple email addresses."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Call to get_users was previously incorrect."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Backup file tracking so backups from other jobs aren't accidentally deleted."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Removed Adminer link from backend."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Migrated to Dropbox API V2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed: Dropped support for PHP 5.2."
 msgstr ""
 
 #. Found in changelog list item.

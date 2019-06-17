@@ -7,81 +7,41 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:00:52+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:31:45+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
+#. Short description.
+msgid "Regenerate the thumbnails for one or more of your image uploads. Useful when changing their sizes or your theme."
+msgstr ""
+
 #. Plugin name.
 msgid "Regenerate Thumbnails"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "If an image is used as the featured image on multiple posts, only regenerate it once instead of once per post."
+#. Found in description paragraph.
+msgid "In February 2019 Alex Mills, the author of this plugin, <a href=\"https://alex.blog/2019/02/27/from-alexs-family/\">passed away</a>. He leaves behind a number of plugins which will be maintained by Automattic and members of the WordPress community. If this plugin is useful to you please consider donating to the Oregon Health and Science University. You can find more information <a href=\"https://alex.blog/2019/03/13/in-memory-of-alex-donation-link-update/\">here</a>."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fix bug related to multibyte filenames."
+#. Found in description header.
+msgid "In Memory of Alex Mills"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fix JavaScript error that could occur if the REST API response was unexpected (empty or PHP error)."
+#. Found in faq paragraph.
+msgid "This plugin does not log nor transmit any user data. Infact it doesn't even do anything on the user-facing part of your website, only in the admin area. This means it should be compliant but I'm not a lawyer."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fix not being able to regenerate existing thumbnails for single images. Props @idofri."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix slowdown in certain cases in the media library."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "PHP notice fixes."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fetch 25 attachments at a time instead of 5. I was using 5 for testing."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Make the attachment ID clickable in error messages."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Accept GET requests for the regenerate REST API endpoint instead of just POSTs. For some reasons some people's sites are using GET despite the code saying use POST."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix a JavaScript error that would cause the whole regeneration process to stop if an individual image returned non-JSON, such as a 500 error code."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Wait until <code>init</code> to initialize the plugin so themes can filter the plugin's capability. <code>plugins_loaded</code> is too early."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Try to more gracefully handle cases where there's missing metadata for attachments."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Temporarily disable the delete old thumbnails functionality. It seems to work fine but without the update post functionality, it's not as useful."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Temporarily disable the update post functionality. I tested it a lot but it seems there's still some bugs."
+#. Found in faq header.
+msgid "Is this plugin [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) compliant?"
 msgstr ""
 
 #. Found in description paragraph.
-msgid "It also offers the ability to delete old, unused thumbnails as well as update the content of posts to use the new thumbnail sizes."
+msgid "It also offers the ability to delete old, unused thumbnails in order to free up server space."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Complete rewrite from scratch using Vue.js and the WordPress REST API."
-msgstr ""
-
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Navigate to Tools → Regenerate Thumbnails."
 msgstr ""
 
@@ -169,28 +129,96 @@ msgstr ""
 msgid "The main plugin interface."
 msgstr ""
 
-#. Short description.
-msgid "Regenerate the thumbnails for one or more of your image uploads. Useful when changing their sizes or your theme."
-msgstr ""
-
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Click activate."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Click install."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Search for \"Regenerate Thumbnails\"."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Go to your admin area and select Plugins → Add New from the menu."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Bugfix release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor fix to avoid a divide by zero error when displaying thumbnail filenames."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various code improvements including string localization disambiguation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bring back the ability to delete old, unregistered thumbnail sizes. Support for updating post contents is still disabled (too buggy)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If an image is used as the featured image on multiple posts, only regenerate it once instead of once per post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug related to multibyte filenames."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix JavaScript error that could occur if the REST API response was unexpected (empty or PHP error)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix not being able to regenerate existing thumbnails for single images. Props @idofri."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix slowdown in certain cases in the media library."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP notice fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fetch 25 attachments at a time instead of 5. I was using 5 for testing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make the attachment ID clickable in error messages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accept GET requests for the regenerate REST API endpoint instead of just POSTs. For some reasons some people's sites are using GET despite the code saying use POST."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a JavaScript error that would cause the whole regeneration process to stop if an individual image returned non-JSON, such as a 500 error code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wait until <code>init</code> to initialize the plugin so themes can filter the plugin's capability. <code>plugins_loaded</code> is too early."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Try to more gracefully handle cases where there's missing metadata for attachments."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Temporarily disable the delete old thumbnails functionality. It seems to work fine but without the update post functionality, it's not as useful."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Temporarily disable the update post functionality. I tested it a lot but it seems there's still some bugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete rewrite from scratch using Vue.js and the WordPress REST API."
 msgstr ""
 
 #. Found in changelog paragraph.

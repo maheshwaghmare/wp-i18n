@@ -7,14 +7,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:22:47+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:45:47+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
+#. Short description.
+msgid "A comprehensive collection of visual components for your site"
+msgstr ""
+
 #. Plugin name.
 msgid "Shortcodes Ultimate"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the plugin as a .zip file;"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://github.com/ForkAwesome/Fork-Awesome\">Fork Awesome &amp; Dave Gandy</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Gutenberg-ready"
 msgstr ""
 
 #. Found in installation paragraph.
@@ -22,15 +38,11 @@ msgid "<a href=\"https://www.youtube.com/watch?v=6xhplrZJD9c\">Watch video of th
 msgstr ""
 
 #. Found in installation list item.
-msgid "Navigate to <code>Dashboard</code> ▸ <code>Plugins</code> and active the plugin."
+msgid "Navigate to <code>Dashboard</code> ▸ <code>Plugins</code> and activate the plugin."
 msgstr ""
 
 #. Found in installation list item.
 msgid "Unzip downloaded archive and upload <code>shortcodes-ultimate</code> folder under your <code>/wp-content/plugins/</code> directory (resulted plugin path should be <code>/wp-content/plugins/shortcodes-ultimate/**</code>);"
-msgstr ""
-
-#. Found in installation list item.
-msgid "Download a .zip file with plugin;"
 msgstr ""
 
 #. Found in installation list item.
@@ -89,12 +101,302 @@ msgstr "लिंक्स"
 msgid "50+ beautiful shortcodes"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fixed <code>&lt;img&gt;</code> icon appearance of the <code>[su_service]</code> shortcode"
+#. Found in description header.
+msgid "Available Shortcodes"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://docs.getshortcodes.com/article/84-external-resources\">Reviews by advanced users</a>"
 msgstr ""
 
 #. Found in description header.
-msgid "Available Shortcodes"
+msgid "Check out premium add-ons!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcodes: spoiler, service, list, columns, note"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcodes: button, tabs, box, carousel"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcode settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Shortcode insertion window"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If you get stuck, you can ask for help in <a href=\"https://wordpress.org/support/plugin/shortcodes-ultimate\">official plugin forum</a>.\n"
+"For help with premium add-ons, please <a href=\"https://getshortcodes.com/contact/\">open new support ticket</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Plugin has comprehensive <a href=\"http://docs.getshortcodes.com/\">documentation</a>.\n"
+"Also, you can find more answers at <a href=\"https://getshortcodes.com/support/\">support page</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You should <a href=\"https://github.com/gndev/shortcodes-ultimate/\">create an issue at GitHub</a> or <a href=\"https://getshortcodes.com/contact/\">open new support ticket</a> (for premium add-ons only)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! Shortcodes Ultimate is designed to work with any theme, but your theme must include very basic things: 'wp_head' and 'wp_footer' template tags. Sometimes, the plugin may not work properly because of javascript errors caused by third-party plugins/themes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! <a href=\"http://docs.getshortcodes.com/article/52-using-of-shortcodes-in-template-files\">How to use shortcodes in template files</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Yes, you can create custom shortcodes using 'su/data/shortcodes' filter. Tutorial: <a href=\"http://docs.getshortcodes.com/article/45-how-to-add-custom-shortcodes\">How to add custom shortcodes</a>.\n"
+"Alternatively, you can use <a href=\"https://getshortcodes.com/add-ons/shortcode-creator/\">Shortcode Creator add-on</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, you can remove default shortcodes using 'su/data/shortcodes' filter. Tutorial: <a href=\"http://docs.getshortcodes.com/article/51-how-to-remove-default-shortcodes\">How to remove default shortcodes</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The most common reasons of this issue are listed <a href=\"http://docs.getshortcodes.com/article/42-insert-shortcode-button-do-not-work\">here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The most common reasons of this issue are listed <a href=\"http://docs.getshortcodes.com/article/41-shortcodes-do-not-work\">here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://docs.getshortcodes.com/article/36-shortcodes-ultimate\">How Shortcodes Ultimate plugin works</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I get support or talk to other users?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where to find additional information?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I report a bug?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will this plugin work with my theme?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I use shortcodes in template files?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I create custom shortcodes?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I remove default shortcodes?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Insert shortcode button do not work. Why?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Shortcodes do not work. Why?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How this plugin works"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<a href=\"http://docs.getshortcodes.com/article/13-plugin-installation\">Detailed installation guide</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://getshortcodes.com/\">Shortcodes Ultimate</a> is a comprehensive collection of various visual and functional elements, which you can use in the post editor, text widgets or even in template files. Using Shortcodes Ultimate you can easily create tabs, buttons, boxes, sliders and carousels, responsive videos and much, much more."
+msgstr ""
+
+#. Found in description list item.
+msgid "pt_br locale: <a href=\"http://www.ibidem-translations.com/\">Ibidem Translations</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong><a href=\"https://getshortcodes.com/add-ons/add-ons-bundle/\">Add-ons Bundle</a></strong> - All-in-one!"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/add-ons/shortcode-creator/\">Shortcode Creator</a> - create your own custom shortcodes"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/add-ons/additional-skins/\">Additional Skins</a> - 60+ additional skins"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/add-ons/extra-shortcodes/\">Extra Shortcodes</a> - 15+ additional shortcodes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Modern responsive design"
+msgstr ""
+
+#. Found in description list item.
+msgid "1-click shortcode insertion with live preview"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://getshortcodes.com/shortcodes/\">Available shortcodes</a>"
+msgstr ""
+
+#. Found in description header.
+msgid "Thanks to these great guys for contribution"
+msgstr ""
+
+#. Screenshot description.
+msgid "Insert Shortcode button added above the editor"
+msgstr ""
+
+#. Found in description list item.
+msgid "el_gr locale: <a href=\"mailto:&#097;&#107;&#105;&#115;&#x5f;&#x6d;&#x61;&#x6e;&#x6f;&#x6c;&#x6f;&#x70;&#x6f;u&#108;&#111;&#115;&#095;&#097;&#116;&#095;&#104;&#111;&#116;&#x6d;&#x61;&#x69;&#x6c;&#x5f;&#x64;&#x6f;&#x74;&#x5f;c&#111;&#109;\">Kleanthis Manolopoulos</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "James Smith - <a href=\"http://loopj.com/jquery-simple-slider/\">Simple Slider jQuery plugin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Vladimir Kharlampidi - <a href=\"http://www.idangero.us/sliders/swiper/\">Swiper jQuery plugin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Craig Thompson - <a href=\"http://qtip2.com/\">qTip jQuery plugin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dmitry Semenov - <a href=\"http://dimsemenov.com/plugins/magnific-popup/\">Magnific Popup jQuery plugin</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "sv_se locale: <a href=\"http://ninjaseo.es/\">Javier Marcilla</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "cs_cz locale: <a href=\"http://nuze.cz/\">Punc00</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "sk_sk locale: <a href=\"http://patwist.com/\">Patrik Žec (PATWIST)</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "fr_fr locale: <a href=\"http://etic-studio.fr/\">Nicolas Leclerc</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/support/plugin/shortcodes-ultimate\">Support forum</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Works with any theme"
+msgstr ""
+
+#. Found in description list item.
+msgid "RTL support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom widget"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom CSS editor"
+msgstr ""
+
+#. Found in description header.
+msgid "Features"
+msgstr "वैशिष्ट्ये"
+
+#. Found in changelog list item.
+msgid "Min-width for responsive tables is set to 100%"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed warning when non-numeric value is used for the button size attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with unwanted content inside single shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed close icon class name in the presets menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed inaccessible fields in media modal (while inserting Gallery/Slider/Carousel shortcodes)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option <code>indent</code> for the <code>[su_list]</code> shortcode, which allows adjusting of list indentation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New shortcode <code>[su_csv_table]</code> for displaying CSV tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Font Awesome replaced with <a href=\"https://github.com/ForkAwesome/Fork-Awesome\">Fork Awesome</a>. Font Awesome stylesheet (v 4.7.0) will be completely removed in the next update. All icons are now use CSS class <code>sui</code> instead of <code>fa</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "youtube_advanced showinfo parameter is deprecated and removed from the plugin. <a href=\"https://developers.google.com/youtube/player_parameters#release_notes_08_23_2018\">Why?</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New setting <code>Enable shortcodes in</code> which allows enabling shortcodes in text widgets and category descriptions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New setting <code>Required user capability</code> which allows enabling the <code>Insert Shortcode</code> button for non-admin users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "YouTube and YouTube Advanced settings descriptions are now more clear"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved stability of some responsive elements, such as Google Maps"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tabs are now working better with nested sliders/carousels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tabs and accordions/spoilers are now accessible from keyboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gutenberg compatibility enabled by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added compatibility with the Gutenberg editor. <a href=\"https://vanokhin.com/su-now-supports-gutenberg/\">Learn more</a>."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>What's new</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed <code>&lt;img&gt;</code> icon appearance of the <code>[su_service]</code> shortcode"
 msgstr ""
 
 #. Found in changelog paragraph.
@@ -285,30 +587,6 @@ msgstr ""
 msgid "Fixed: an issue where RTL stylesheet won't displayed if custom CSS field is empty"
 msgstr ""
 
-#. Found in description list item.
-msgid "<a href=\"http://docs.getshortcodes.com/article/84-external-resources\">Reviews by advanced users</a>"
-msgstr ""
-
-#. Found in description header.
-msgid "Check out premium add-ons!"
-msgstr ""
-
-#. Screenshot description.
-msgid "Shortcodes: spoiler, service, list, columns, note"
-msgstr ""
-
-#. Screenshot description.
-msgid "Shortcodes: button, tabs, box, carousel"
-msgstr ""
-
-#. Screenshot description.
-msgid "Shortcode settings"
-msgstr ""
-
-#. Screenshot description.
-msgid "Shortcode insertion window"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Added: new filter 'su/assets/custom_css/template' to filter custom css output"
 msgstr ""
@@ -385,144 +663,6 @@ msgstr ""
 msgid "Read <a href=\"https://vanokhin.com/whats-new-in-shortcodes-ultimate-5/\">this blog post</a> to learn more about update"
 msgstr ""
 
-#. Found in faq paragraph.
-msgid ""
-"If you get stuck, you can ask for help in <a href=\"https://wordpress.org/support/plugin/shortcodes-ultimate\">official plugin forum</a>.\n"
-"For help with premium add-ons, please <a href=\"https://getshortcodes.com/account/open-support-ticket/\">open new support ticket</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid ""
-"Plugin has comprehensive <a href=\"http://docs.getshortcodes.com/\">documentation</a>.\n"
-"Also, you can find more answers at <a href=\"https://getshortcodes.com/support/\">support page</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "You should <a href=\"https://github.com/gndev/shortcodes-ultimate/\">create an issue at GitHub</a> or <a href=\"https://getshortcodes.com/account/open-support-ticket/\">open new support ticket</a> (for premium add-ons only)."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Yes! Shortcodes Ultimate is designed to work with any theme, but your theme must include very basic things: 'wp_head' and 'wp_footer' template tags. Sometimes, the plugin may not work properly because of javascript errors caused by third-party plugins/themes."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Yes! <a href=\"http://docs.getshortcodes.com/article/52-using-of-shortcodes-in-template-files\">How to use shortcodes in template files</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid ""
-"Yes, you can create custom shortcodes using 'su/data/shortcodes' filter. Tutorial: <a href=\"http://docs.getshortcodes.com/article/45-how-to-add-custom-shortcodes\">How to add custom shortcodes</a>.\n"
-"Alternatively, you can use <a href=\"https://getshortcodes.com/add-ons/shortcode-creator/\">Shortcode Creator add-on</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Yes, you can remove default shortcodes using 'su/data/shortcodes' filter. Tutorial: <a href=\"http://docs.getshortcodes.com/article/51-how-to-remove-default-shortcodes\">How to remove default shortcodes</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "The most common reasons of this issue are listed <a href=\"http://docs.getshortcodes.com/article/42-insert-shortcode-button-do-not-work\">here</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "The most common reasons of this issue are listed <a href=\"http://docs.getshortcodes.com/article/41-shortcodes-do-not-work\">here</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "<a href=\"http://docs.getshortcodes.com/article/36-shortcodes-ultimate\">How Shortcodes Ultimate plugin works</a>."
-msgstr ""
-
-#. Found in faq header.
-msgid "Where can I get support or talk to other users?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Where to find additional information?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Where can I report a bug?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Will this plugin work with my theme?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Can I use shortcodes in template files?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Can I create custom shortcodes?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Can I remove default shortcodes?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Insert shortcode button do not work. Why?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Shortcodes do not work. Why?"
-msgstr ""
-
-#. Found in faq header.
-msgid "How this plugin works"
-msgstr ""
-
-#. Found in installation paragraph.
-msgid "<a href=\"http://docs.getshortcodes.com/article/13-plugin-installation\">Detailed installation guide</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<a href=\"https://getshortcodes.com/\">Shortcodes Ultimate</a> is a comprehensive collection of various visual and functional elements, which you can use in the post editor, text widgets or even in template files. Using Shortcodes Ultimate you can easily create tabs, buttons, boxes, sliders and carousels, responsive videos and much, much more."
-msgstr ""
-
-#. Found in description list item.
-msgid "pt_br locale: <a href=\"http://www.ibidem-translations.com/\">Ibidem Translations</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<strong><a href=\"https://getshortcodes.com/add-ons/add-ons-bundle/\">Add-ons Bundle</a></strong> - All-in-one!"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://getshortcodes.com/add-ons/shortcode-creator/\">Shortcode Creator</a> - create your own custom shortcodes"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://getshortcodes.com/add-ons/additional-skins/\">Additional Skins</a> - 60+ additional skins"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://getshortcodes.com/add-ons/extra-shortcodes/\">Extra Shortcodes</a> - 15+ additional shortcodes"
-msgstr ""
-
-#. Found in description list item.
-msgid "Modern responsive design"
-msgstr ""
-
-#. Found in description list item.
-msgid "1-click shortcode insertion with live preview"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://getshortcodes.com/shortcodes/\">Available shortcodes</a>"
-msgstr ""
-
-#. Found in description header.
-msgid "Thanks to these great guys for contribution"
-msgstr ""
-
-#. Screenshot description.
-msgid "Insert Shortcode button added above the editor"
-msgstr ""
-
-#. Short description.
-msgid "A comprehensive collection of visual components for your site"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Removed: user capability check in [permalink]"
 msgstr ""
@@ -558,70 +698,6 @@ msgstr ""
 #. Found in changelog list item.
 msgid "Fixed: security vulnerability at 'Examples' admin page (insecure call of file_get_contents() at inc/core/tools.php:774)"
 msgstr ""
-
-#. Found in description list item.
-msgid "el_gr locale: <a href=\"mailto:&#097;&#107;&#105;&#115;&#x5f;&#x6d;&#x61;&#x6e;&#x6f;&#x6c;&#x6f;&#x70;&#x6f;u&#108;&#111;&#115;&#095;&#097;&#116;&#095;&#104;&#111;&#116;&#x6d;&#x61;&#x69;&#x6c;&#x5f;&#x64;&#x6f;&#x74;&#x5f;c&#111;&#109;\">Kleanthis Manolopoulos</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "James Smith - <a href=\"http://loopj.com/jquery-simple-slider/\">Simple Slider jQuery plugin</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Dave Gandy - <a href=\"http://fortawesome.github.io/Font-Awesome/\">Font Awesome</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Vladimir Kharlampidi - <a href=\"http://www.idangero.us/sliders/swiper/\">Swiper jQuery plugin</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Craig Thompson - <a href=\"http://qtip2.com/\">qTip jQuery plugin</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Dmitry Semenov - <a href=\"http://dimsemenov.com/plugins/magnific-popup/\">Magnific Popup jQuery plugin</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "sv_se locale: <a href=\"http://ninjaseo.es/\">Javier Marcilla</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "cs_cz locale: <a href=\"http://nuze.cz/\">Punc00</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "sk_sk locale: <a href=\"http://patwist.com/\">Patrik Žec (PATWIST)</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "fr_fr locale: <a href=\"http://etic-studio.fr/\">Nicolas Leclerc</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://wordpress.org/support/plugin/shortcodes-ultimate\">Support forum</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Works with any theme"
-msgstr ""
-
-#. Found in description list item.
-msgid "RTL support"
-msgstr ""
-
-#. Found in description list item.
-msgid "Custom widget"
-msgstr ""
-
-#. Found in description list item.
-msgid "Custom CSS editor"
-msgstr ""
-
-#. Found in description header.
-msgid "Features"
-msgstr "वैशिष्ट्ये"
 
 #. Found in changelog list item.
 msgid "Minor improvements, fixes"

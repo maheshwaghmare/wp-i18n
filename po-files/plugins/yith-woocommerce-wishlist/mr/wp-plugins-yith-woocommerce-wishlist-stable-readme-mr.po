@@ -14,159 +14,11 @@ msgstr ""
 #. Short description.
 msgid ""
 "YITH WooCommerce Wishlist add all Wishlist features to your website. Needs WooCommerce to work.\n"
-"WooCommerce 3.5.x compatible."
+"WooCommerce 3.6.x compatible."
 msgstr ""
 
 #. Plugin name.
 msgid "YITH WooCommerce Wishlist"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev: added new filter yith_wcwl_remove_product_wishlist_message_title"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev: added new filter yith_wcwl_wishlist_param to change query-string param"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev: added new filter yith_wcwl_set_cookie to let third party code skip cookie saving"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev: added new filter yith_wcwl_share_conditions to display the share buttons for no logged users"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev: added new filter yith_wcwl_localize_script to let third party dev filter localization variables"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Update: Italian language"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Update: Spanish language"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak: type attribute from  tag"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: added method that returns localization variables"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: added support to WordPress 4.9.8"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: added support to WooCoommerce 3.5"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Update: Translation file."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Update: Plugin core."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: preventing warning \"Illegal string offset\" when get_availability() returns empty string instead of array"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: icon replacement not working on variable Add to Cart"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: preventing add_rewrite_rule when WPML is active, to avoid possible Internal Server Error (thanks to Adri &amp; Bruno)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: js error when switching from Premium version to Free"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak: replaced create_function with a proper class method, to improve compatibility with PHP 7.2 and avoid warnings"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: GDPR compliance"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: updated plugin framework"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: WordPress 4.9.6 compatibility"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: WooCommerce 3.4 compatibility"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: issue with Add to Wishlist shortcode when global $product not defined"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: tested with WooCommerce 3.3.0"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev: added params to main triggers in wishlist js code"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dev: added yith_wcwl_removing_from_wishlist / yith_wcwl_removed_from_wishlist hooks"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: fixed security vulnerability, causing possible SQL Injections (huge thanks to John C. and Sucuri Vulnerability Research team)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak: improved wishlist-view template checks and params"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak: wishlist now registers (and shows) \"date added\" param for unauthenticated users too"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak: added check over product object, to avoid Fatal when printing Add to Wishlist shortcode"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: plugin-fw 3.0"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: added js compatibility to Infinite Scrolling"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New: WooCommerce 3.2.6 compatibility"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: using current_product instead of global product when retrieving product type (prevents a Fatal error when placing Add to Wishlist outside the loop)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: problem with custom CSS inclusion, when not located in child theme"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: possible warning when empty rewrite rules"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak: updated FontAwesome to 4.7.0"
 msgstr ""
 
 #. Found in description paragraph.
@@ -416,6 +268,242 @@ msgstr ""
 
 #. Screenshot description.
 msgid "The page with \"Add to wishlist\" button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: New action yith_wcwl_default_user_wishlist"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Prevent undefined index user_id when user is logging"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: deprecated notice caused by product id attribute being accessed directly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: get the correct value for wishlist name"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: no longer adding empty style tag to the page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: using add_inline_style to include custom css code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added a WhatsApp share button on mobile"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WooCommerce 3.6.x support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: add filter yith_wcwl_email_share_subject"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: changed a wrong method in the enqueue style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: don't add custom classes to body if wishlist page is not set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: added explicit array casting on shortcode to avoid warning"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added support to WooCommerce 3.5.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: possible warning when Add to Wishlist shortcode is called with no params"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added Gutenberg blocks for plugin shortcodes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: internal plugin framework"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: italian language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: preventing sql error when hidden products list just contains 0 id"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: problem with sprintf on backend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: added product param to yith_free_text filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added support to WooCommerce 3.5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added support to WordPress 5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: added new filter yith_wcwl_remove_product_wishlist_message_title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: added new filter yith_wcwl_wishlist_param to change query-string param"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: added new filter yith_wcwl_set_cookie to let third party code skip cookie saving"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: added new filter yith_wcwl_share_conditions to display the share buttons for no logged users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: added new filter yith_wcwl_localize_script to let third party dev filter localization variables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Italian language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Spanish language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: type attribute from  tag"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added method that returns localization variables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added support to WordPress 4.9.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added support to WooCoommerce 3.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Translation file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update: Plugin core."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: preventing warning \"Illegal string offset\" when get_availability() returns empty string instead of array"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: icon replacement not working on variable Add to Cart"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: preventing add_rewrite_rule when WPML is active, to avoid possible Internal Server Error (thanks to Adri &amp; Bruno)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: js error when switching from Premium version to Free"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: replaced create_function with a proper class method, to improve compatibility with PHP 7.2 and avoid warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: GDPR compliance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: updated plugin framework"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WordPress 4.9.6 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WooCommerce 3.4 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: issue with Add to Wishlist shortcode when global $product not defined"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: tested with WooCommerce 3.3.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: added params to main triggers in wishlist js code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev: added yith_wcwl_removing_from_wishlist / yith_wcwl_removed_from_wishlist hooks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: fixed security vulnerability, causing possible SQL Injections (huge thanks to John C. and Sucuri Vulnerability Research team)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: improved wishlist-view template checks and params"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: wishlist now registers (and shows) \"date added\" param for unauthenticated users too"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: added check over product object, to avoid Fatal when printing Add to Wishlist shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: plugin-fw 3.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: added js compatibility to Infinite Scrolling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WooCommerce 3.2.6 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: using current_product instead of global product when retrieving product type (prevents a Fatal error when placing Add to Wishlist outside the loop)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: problem with custom CSS inclusion, when not located in child theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: possible warning when empty rewrite rules"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: updated FontAwesome to 4.7.0"
 msgstr ""
 
 #. Found in changelog list item.

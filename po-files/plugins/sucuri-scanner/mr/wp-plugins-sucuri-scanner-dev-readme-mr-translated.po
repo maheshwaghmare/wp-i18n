@@ -1,0 +1,1746 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Sucuri Security &#8211; Auditing, Malware Scanner and Security Hardening - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:54:18+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "The Sucuri WordPress Security plugin is a security toolset for security integrity monitoring, malware detection and security hardening."
+msgstr ""
+
+#. Plugin name.
+msgid "Sucuri Security - Auditing, Malware Scanner and Security Hardening"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We take your privacy seriously. For free plugin users without an API key, no information is collected by Sucuri. After activating an API key, Sucuri will store some information, such as logs. Please see our <a href=\"https://sucuri.net/terms\">Terms of Service</a> and <a href=\"https://sucuri.net/privacy\">Privacy Policy</a>. Please email gdpr@sucuri.net if you have other questions about your privacy."
+msgstr ""
+
+#. Found in faq header.
+msgid "What information does Sucuri collect?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, they do not."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Another very interesting feature of the Security Malware Scanner is that it checks various blacklist engines, including the following:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "More information on the Sucuri Security WordPress plugin can be found in our <a href=\"https://kb.sucuri.net/plugins/WordPress+Plugin\">Knowledge Base</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you are not a client, and you want to share what you have found please send it to <a href=\"mailto:&#x6c;&#x61;&#x62;&#115;&#064;&#115;&#117;&#099;&#x75;&#x72;&#x69;&#x2e;&#x6e;&#101;&#116;\">labs@sucuri.net</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The best place is to engage us via the <a href=\"https://wordpress.org/support/plugin/sucuri-scanner\">Support Forum</a>. If you are a client, you can submit a ticket <a href=\"https://support.sucuri.net/support/?new\">here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This feature is powered by our scanning engine, found on our free security scanner - <a href=\"https://sitecheck.sucuri.net/\">SiteCheck</a>. It’s important to take some time to <a href=\"https://blog.sucuri.net/2012/10/ask-sucuri-how-does-sitecheck-work.html\">understand how this scanner works</a>. There are limitations with the way this scanner works, you can find more information in the FAQ section."
+msgstr ""
+
+#. Found in faq header.
+msgid "Do I need this plugin to use the Website Firewall service?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What are the Remote Malware Scanner limitations?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the website firewall (premium)"
+msgstr ""
+
+#. Found in faq header.
+msgid "What are the security notifications"
+msgstr ""
+
+#. Found in faq header.
+msgid "What are the post-hack security actions"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is effective security hardening"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the blacklist monitoring?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the remote malware scanning?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the file integrity monitoring"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the security activity auditing?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Visit the <a href=\"https://wordpress.org/support/plugin/sucuri-scanner\">Support Forum</a> to ask questions, suggest new features, or report bugs. And recommend the plugin to your friends and colleagues if you think it can help them."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "The installation of the Sucuri WordPress Security plugin is very simple and straight forward. A detailed breakdown of the process is available <a href=\"https://sucuri.net/wordpress-security-plugin-installation\">here</a> (including images), however, below we outline the bare minimum steps."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Feel free to visit the plugin' settings page to configure other options including the security alerts, hardening options, file system scanner paths and API service communication."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once activated, you will find a new icon in the sidebar with the Sucuri logo. Go to the plugin's dashboard and click the button that says \"Generate API Key\" to activate the event monitoring, this will generate a unique key to authenticate your website against the remote Sucuri WordPress API service,"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install the option with the \"By Sucuri Inc.\" at the foot,"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Type \"sucuri\" or \"sucuri-scanner\" in the search box,"
+msgstr ""
+
+#. Found in installation list item.
+msgid "In the sidebar, choose \"Plugins\" and then \"Add New\","
+msgstr ""
+
+#. Found in installation list item.
+msgid "Log into your WordPress administration panel,"
+msgstr ""
+
+#. Found in description list item.
+msgid "Website Firewall (premium)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Settings - Offers multiple settings to configure the functionality of the plugin."
+msgstr ""
+
+#. Screenshot description.
+msgid "Post Hack Tools - Offers multiple tools to react after the suspiciousness of a hack."
+msgstr ""
+
+#. Screenshot description.
+msgid "Failed Logins - Shows failed login attempts, successful logins and online users."
+msgstr ""
+
+#. Screenshot description.
+msgid "Website Hardening - Offers multiple options to increase the security of the website."
+msgstr ""
+
+#. Screenshot description.
+msgid "Sucuri Firewall - Settings visibility, audit logs, IP blacklisting, and cache."
+msgstr ""
+
+#. Screenshot description.
+msgid "Audit Logs and Malware Scanner - Reports suspicious events and malicious code."
+msgstr ""
+
+#. Screenshot description.
+msgid "Integrity Diff Utility - Shows differences in the core WordPress files."
+msgstr ""
+
+#. Screenshot description.
+msgid "WordPress Integrity Tool - Detects added, modified, and removed files."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We improve the performance of the code with every release. However, due to differences between hosting providers there are cases where the plugin may affect the responsiveness of the website upon installation. Things like HTTP requests, SSL certificate verifications and DNS lookups are among the few things that, depending on how your web server is configured, will slow down your website."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Because the security malware scanner is remote, it is unable to see things that are on the server but that are not displaying on the browser. If you are interested in this, we encourage you to subscribe to our website security product. This issues includes things like Phishing pages, Backdoors, Mailer Scripts, etc."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin does not, but there might be issues with our scanners. If you get an “Unable to Properly Scan Your Site” error, it’s likely because the WordFence plugin is blocking our scanner as an invalid crawler. You would have to white list our IP address on the WordFence dashboard."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The premium plugin was deprecated back in 2014. All the major features were merged into the free plugin. If you are still using the (old) premium plugin please consider deleting it and installing the (new) free plugin from the WordPress plugin market. Notice that you will need to generate a new API key as the new API service does not supports the old one."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "These are some of the largest blacklisting entities, each having the ability to directly impact your brand's online reputation. By synchronizing with their environments we’re able to tell you, upon scan, whether any of them are negatively flagging your website with a security related issue. If they do, then via our website security product, we’re able to help you get off of the security blacklist."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, it is not required. The Website Firewall runs in the cloud without the need of anything installed. This plugin only helps see and manage the service from the WordPress dashboard."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Not that we are aware of."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, it is not. To enable you must subscribe to the <a href=\"https://sucuri.net/website-firewall-signup\">Website Firewall</a> service."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin is not performing application level malware / security scanning so this is not uncommon."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This happens, reference the remote scanner limitations above. This should not be confused with our website security product. If you have malware, and you are a client, submit a ticket so that <a href=\"https://support.sucuri.net/support/?new&amp;mremoval\">we can help you get clean</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. This plugin compliments your existing security toolsets. It is not designed to replace the Sucuri Website Security or Firewall products."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, this is a free plugin that we offer at no charge. It does not mean you get a free account."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This security plugin also takes a different approach to security plugins, stripping it of what we categorize as unnecessary features for a basic website end-user. We've narrowed the key features we felt were most pertinent to any website owner and integrated them into this plugin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "A few other security plugins provide activity monitoring features, but few do them well. The activity monitoring in this plugin is second to none, tying the activity into the Sucuri Security Operations Center (SOC) ensuring its safe keeping."
+msgstr ""
+
+#. Found in faq header.
+msgid "Are there any issues installing your plugin with any hosts?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do the logs get stored to my database?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will this plugin impact the performance of my website?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is it free to enable the Website Firewall option?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Your plugin didn’t detect this malware?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does your plugin conflict with WordFence?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where do I get support for this plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do I still need Sucuri’s products if I have this plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "If I have the premium plugin, do I need the free plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "If I install the Sucuri Security plugin do I get a Sucuri account?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What does this plugin do that other security plugins don't do?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To install Sucuri Security and complement your Security posture:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Sucuri WordPress Security plugin is built by the team that is known for their proactive approach to security. It is built using intelligence gathered from thousands upon thousands of remediation cases, millions of unique domain scans and 10’s of millions of website security attack blocks."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is <strong>not included as a free</strong> option of the plugin, but is integrated so that if purchased you are able to activate.  If you prefer to leverage the Sucuri Firewall product by itself, you have the option to operate the <a href=\"https://wordpress.org/plugins/sucuri-cloudproxy-waf/\">Website Firewall WordPress Security</a> plugin in standalone mode."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is coupled with a number of features like:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is by far the coolest security feature Sucuri has to offer everyday website owners. It’s an enterprise grade Website Firewall designed to give you the best security protection any website can hope for. It protects your website from a variety of website attacks, including:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Having all these security features would be useless unless you were notified of the issues. This is why we have made available security alerts. We have also expanded the various security related events, to provide website owners more flexibility in regards to what they want to know about. As a website owner, you have the option to make these security alerts as quiet or noisy as you would like."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Regardless of how good your security posture is, sometimes it’s impossible to prevent the inevitable. When this happens, we’ve included a section to help you walk through the three key things you should do after a compromise."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It’s easy to get lost in the world of security hardening. At Sucuri we clean hundreds of websites a day, many with the various security hardening configurations you find in various WordPress Security presentations. In this section, we add those that we feel to be most effective, and that complement the entire Sucuri suite of products."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It will create a known good the minute the plugin is installed. This will be of all the directories at the root of the install, this includes plugins, themes and core files."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Security File Integrity Monitoring has been fundamental to the world of security. It’s the act of comparing a known good with the current state. If the current state differs from the known good, you know you have a problem. This is the basis of a lot of host intrusion detection systems. It’s what we have built into the plugin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This feature is particularly important to website / system administrators and security experts looking to understand what is going on with their website and when it’s happening."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This feature is logging all activity to the Sucuri cloud, for safe keeping. This ensures that an attacker is not able to wipe your forensic data and prevent further security analysis after a compromise. If an attacker is able to bypass your security controls, your security logs will be kept safe within the Sucuri Security Operations Center (SOC)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is important because it gives you, the website owner, the ability to keep a good eye on the various changes occurring within your environment. Who is logging in? What changes are being made?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is perhaps the most underutilized security function. It’s the act of monitoring all security related events within your WordPress install. The challenge is, what makes up a security event. In the eyes of Sucuri, any change that occurs within the application could be categorized as a security event, and as such we try to record it."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Sucuri Security WordPress plugin is free to all WordPress users. It is a security suite meant to complement your existing security posture. It offers its users a set of security features for their website, each designed to have a positive effect on their security posture:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Sucuri Inc. is a globally recognized authority in all matters related to website security, with specialization in WordPress Security."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Failover and Redundancy"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Advanced Access Control Features"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Performance Optimization"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Brute Force Attacks against your Access Control Mechanisms"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Zero Day Disclosure Patches"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Exploitation of Software Vulnerabilities"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Denial of Service (DOS / DDOS) Attacks"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Bitdefender"
+msgstr ""
+
+#. Found in faq list item.
+msgid "SpamHaus"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Yandex"
+msgstr ""
+
+#. Found in faq list item.
+msgid "McAfee Site Advisor"
+msgstr ""
+
+#. Found in faq list item.
+msgid "ESET"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Phish Tank"
+msgstr ""
+
+#. Found in faq list item.
+msgid "AVG"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Norton"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Google Safe Browsing"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Sucuri Labs"
+msgstr ""
+
+#. Found in description list item.
+msgid "Blacklist Monitoring"
+msgstr ""
+
+#. Found in description list item.
+msgid "Remote Malware Scanning"
+msgstr ""
+
+#. Found in description list item.
+msgid "File Integrity Monitoring"
+msgstr ""
+
+#. Found in description list item.
+msgid "Security Activity Auditing"
+msgstr ""
+
+#. Found in description list item.
+msgid "Security Notifications"
+msgstr ""
+
+#. Found in description list item.
+msgid "Post-Hack Security Actions"
+msgstr ""
+
+#. Found in description list item.
+msgid "Effective Security Hardening"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove block button from failed logins page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make the menu icon use the menu color styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update translation file to include WordPress Security Recommendations section fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix regex in template string replacement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Audit Logs queue timezone issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix post_type pattern match to allow numbers and max of 20 chars"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix goo.gl links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add PHP version check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add WordPress Security Recommendations section in the dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Preparation for translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow hosting details display to be filterable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify scheduled tasks panel to load the table via Ajax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add dynamic core directories in the hardening whitelist options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for a CLI command to ignore files in the core integrity check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to refresh the SiteCheck malware scan results"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Keep settings when the plugin is deactivated, unless the plugin is uninstalled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update <a href=\"https://sucuri.net/terms\">Terms of Service</a> and <a href=\"https://sucuri.net/privacy\">Privacy Policy</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify resolution of the images to respect retina display"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unnecessary tags from README per WordPress guidelines"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix missing button to manually activate the advanced features"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make default plugin options filterable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add filter to allow automatic configuration of the settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove firewall API key deletion on re-authentication"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix open_basedir restriction was not considered on scans"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to include the hostname in the alert subject"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify wording of the API key panel in the settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify name of the base library file for consistency"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix multiple typos in the code found after a diff parse"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unused option to reduce number of failed logins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add new version of the GPL v2 license file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add additional notifications for changes on users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix relative file path when ABSPATH is point to root"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify order of the added, modified, removed core files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add button to toggle the visibility of the post-types table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix format and coding standard in CSS and JavaScript files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix missing documentation tags in the command line library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for wp-cli and command to generate an API key"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add ability to store the settings in the object cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify code to make default plugin options filterable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove API key from the settings that can be exported"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add reverse ip address in all email alerts from visitor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add link to the audit logs API endpoint for developers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support to export and import trusted IP addresses"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix unexpected exception when open_basedir is in place"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to force the firewall cache flush"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify internal response to the log file not found error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add language files to the list of ignored changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix invalid array when deselecting all security alerts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Version bump skipped"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify timing for the execution of the Ajax requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unnecessary data from the website info page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP notice for a string offset cast occurred"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unnecessary option queries to the database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix queries to the database in the last logins page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix post-type ignore tool to allow hyphens in the ID"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove trailing forward slash from asset URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove duplicated failed user authentication log"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix password visibility when the option is changed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix audit log parser for incompatible JSON data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix modification date for corrupt core files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add API key in admin notice when it is being deleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for the RTL reading direction"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove internationalization support for consistency"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix minor issues with the version detection code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify error message displaying for invalid CSRF validations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify miscellaneous changes in some alert messages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify form to monitor and ignore post-types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify option to force scanner to ignore directories"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify Sucuri firewall detection with regular expressions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support to run diff on deleted WordPress files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add maximum execution time avoidance in the integrity tool"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to configure the WordPress checksums API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to override the timezone for the datetime"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify output for the malware results to simplify links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unnecessary statistics panel for the audit logs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify default value for some of the alert settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to stop sending the failed login passwords"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify mechanism to ignore files from integrity checks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for other English and Spanish based languages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix error interception for Firewall API errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to customize the URL for the malware scans"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add more directories to ignore during the scans"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix order of the audit logs when the queue is merged"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to blacklist IP addresses with the Firewall API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify firewall settings page to load data via Ajax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify firewall clear cache button to execute via Ajax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify timing for the dashboard alerts after an update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify error message in audit logs when the API key is missing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify status of the directory hardening using the Firewall"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to enable the auto clear cache firewall function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to configure the malware scanner target URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix infinite loop with email alerts and SMTP plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to ignore events for post transitions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add smart limit to send logs from the queue to the API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add button to send the logs from the queue to the API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify location of the scanner options and scheduled tasks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove option to configure the maximum API timeout"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify frequency of the file system scans to run daily"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add cache for the audit logs to make dashboard responsive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add conditional to check for the availability of SPL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix performance of the audit log parser without regexp"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix non-dismissable newsletter invitation message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add queue system to fix website performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix multiple issues with the API calls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add default language for internationalization fallback"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add full support for internationalization with es_ES locale"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add full support for internationalization with en_US locale"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix minor bugs after post-testing of the new release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small bug fixes + forcing a re-scan on every scan attempt (not using the cache anymore)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed password with ampersands in email alert"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed goo.gl links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add ajax request to load malware scans for performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add message and button to reset the audit logs cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix handling of the actions in the core integrity checks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix overflow of HTTP requests to SiteCheck API on failures"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify error on non-processed files in the integrity checks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add code to delete legacy plugin options from database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add one-time newsletter invitation after plugin updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add event monitor for all supported post status transitions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix automatic deletion of conflicting plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix dynamic directory tree deletion with improved performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix event monitor for plugin activation and deactivation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add more details into the event that monitors post deletions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to ignore non-registered custom post-types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix static data storage path to allow server migrations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify the default and maximum timeout for the API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to display differences in core integrity checks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix incoherent failed login processor on pagination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add mechanism to display self-hosting logs as fallback"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to reset the content of some storage files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add message in the core integrity tool for false positives"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix website URL in the template for the email alerts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add audit log message fixer for the wpephpcompat_jobs event"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix lazy load of the CSS and Scripts on the correct pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify list of available scheduled task frequencies"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify mechanism to ignore irrelevant WordPress core files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix plugin reinstall procedure with backup and prechecks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add uninstall instructions during deactivation of the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add tool to import and export the plugin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix email alerts with non-existing site_url option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify minimum PHP version in hardening page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove plugin checksum dependency to avoid asset cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify failed logins logger with wrong passwords"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove deprecated tool to scan for error_log files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove deprecated functions from previous releases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unnecessary XHR event monitor and report"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove heartbeat settings after performance improvement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify entire code base to enforce HTTPS over HTTP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix deactivation of all the scheduled tasks from settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify structure of the failed logins data analyzer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add performance boost for the failed logins page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix length of the pagination helper with many pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix reset plugin tool with the new WordPress API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add HTTP request parameters to track some settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix file search by name when the directory is passed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add restriction to prevent direct access to PHP files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix loading sequence for additional PHP files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add warning message in the reset plugin tool page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove minified files to facilitate future contributions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify the structure of the project for maintainability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for internationalization via gettext"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify the entire interface to offer a fresh design"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed cache flush method used to delete datastore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added conditional to prevent redeclaration of class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added panel with information about the plugin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added development option to keep using the database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incompatibilities with foreign API service responses"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed undefined array and object keys in audit logs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified default value for the available updates alerts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified logic of the settings in database checker"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various code cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added SiteCheck for arbitrary domain"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incorrect selected value in settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fatal error when PHPMailer failed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed regression with clear cache in firewall page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed settings and audit logs for the firewall page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed admin notices after changing alert settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed support for custom data storage directory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more files to the core integrity ignore list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified default setting for the core integrity alerts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed option getter to migrate plugin settings if possible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added error message when storage is not writable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed htaccess standard rules checker with no WP_Rewrite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed base directory name without PHP <strong>DIR</strong> constant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed user authentication denial when no blocked users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified list of firewall features and promo video"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed mishandled JSON data in audit logs Ajax request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added method to rescue HTTP requests using sockets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various minor adjustments and fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added tool to debug HTTP requests to the API services"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added tool to block user accounts from attempting a login"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added scheduled task and email alert for available updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to reset the malware scanner cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to configure the API communication protocol"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to configure malware scanner timeout"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more options in the IP discoverer setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added link to open the form to insert the API key manually"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added explanation for invalid emails and no MX records"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added constant to stop execution of admin init hooks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unnecessary emails to reduce spam"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed whitelist hardening using the authz_core module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed pagination links in last and failed logins page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed core files marked as broken in a Windows server"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified API calls using custom HTTP request using Curl"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added options library using external file instead of the database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slight interface redesign"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added core integrity email on force scan"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added API service failback mechanism"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixing a low severity XSS (needs admin access to create it)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unnecessary ssl verification option processor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unnecessary monospace fonts in settings status"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed unnecessary dns lookups in infosys page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed ellipsis of long IPv6 addresses in last logins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified wording of post-types alert settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified hide update warning if versions are the same"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified fully redesign of general settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified do not load resources on hidden sidebar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified css and js files to reduce size"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed user identifier as integer on password reset"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed non-standard content location in core integrity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed handle boolean values in PHP config retrieval"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed display menus items single or network panels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow mark as fixed non-writable core files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added suggestion for new users to check plugin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added button to reset options with explanation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added alternative method to send email alerts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First public release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First release that is good to be used (debugging code removed)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 1-click hardening."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaning up the results."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed PHP warnings / code cleaning."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgrading for WP 3.3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested on WP 3.5-RC3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed old malware page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Restyled 1-click hardening page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sidebar area added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Header area added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default stylesheet added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Logo added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added /lib directory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added /inc directory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleared PHP warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Style changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested on WP 3.5-RC4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested on WP 3.5.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added plugin/theme/user checks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WordPress integrity checks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed some PHP warnings and code clean up."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more hardening and the option to revert any hardening done."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added last-login."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added post-hack options (reset all passwords)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding last IP to the last login page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixing a few PHP warnings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixing some issues on the last login and allowing the option to disable it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increasing last login table to the last 100 entries."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Storing the logs into a log file instead of the db."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only displaying last login messages to admin users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleaning up the code a bit."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding a web firewall check on our hardening page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New and clean design for the scan results."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Making the integrity check messages more clear."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixing last login and giving better warns on permission errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding additional information about .htaccess hacks and the server environment."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change the integrity checking to use WP API."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added system page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added list of logged in users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed links and messaging."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added IPv6 support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WordPress 3.9 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "IPv6 support in last logins statistics."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integrity check for outdated plugins/themes was optimized and merged."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integrity check for administrator accounts was optimized."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "System Info page were simplified with tabulation containers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SiteCheck scanner results markers when the site is infected/clean."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SiteCheck scanner results were filled with more information."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Overall design of the interface of all the pages were modified."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A new dashboard to welcome users to the new features of the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release with new auditing options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixing typos."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Setting a maximum number of emails per hour."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a list of failed login attempts inside the last login tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more description to the emails."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to restrict number of emails."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added proper brute force alerts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed API generation bug."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed integrity checking display."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional settings to customize some of the warnings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More white lists for the integrity checks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internal code cleanup and re-organization."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the setting change bug."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Support for integrity checks on i18n installations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixing interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code cleanup."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added heartbeat for the file scans."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multiple bug fixes (as reported on the support forums)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed format of the internal logs to json."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes on some new registrations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Hardening option to remove error log files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed remote scanning that was not loading automatically on some installs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Messaging and FAQ updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Error log panel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfixes for user reported issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option for keeping failed logins until the user removes them."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added better handling of API responses of remote scanner."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various bugfixes and improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for reverse proxies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved multisite support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for more actions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more settings for better control."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added audit log reporting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to remove API key from plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added better support for directory separators"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug on the secret keys hardening."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated sidebar banners"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved reinstallation process"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for audit log timezones"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added better checks for SSL issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reverted change for firewall detection to protect legacy users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various bugfixes and improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more logging events"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved hardening options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to configure the XHR monitor and logs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to configure comment monitor and logs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added configure DNS lookups for reverse proxy detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified report and block non-processable ajax actions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed clear hardening of previous versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue affecting site performance"
+msgstr ""

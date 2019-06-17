@@ -7,53 +7,198 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:26:33+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:46:19+00:00\n"
 "PO-Revision-Date: 2016-04-13 07:36:23+0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
-#: admin/wp-security-brute-force-menu.php:593
+#: classes/wp-security-general-init-tasks.php:595
+msgid "<strong>ERROR</strong>: Your IP address is currently locked please contact the administrator!"
+msgstr ""
+
+#: classes/grade-system/wp-security-feature-item-manager.php:47
+msgid "Woo Lost Password Captcha"
+msgstr ""
+
+#: admin/wp-security-brute-force-menu.php:681
+msgid "Check this if you want to insert captcha on a Woocommerce lost password form"
+msgstr ""
+
+#: admin/wp-security-brute-force-menu.php:678
+msgid "Enable Captcha On Woocommerce Lost Password Form"
+msgstr ""
+
+#: other-includes/wp-security-rename-login-feature.php:1037
+msgid "Recovery Mode Initialized. Please log in to continue."
+msgstr ""
+
+#: other-includes/wp-security-rename-login-feature.php:954
+msgid "https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+msgstr ""
+
+#: other-includes/wp-security-rename-login-feature.php:943
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr ""
+
+#: other-includes/wp-security-rename-login-feature.php:864
+msgid "Missing confirm key."
+msgstr ""
+
+#: other-includes/wp-security-rename-login-feature.php:860
+msgid "Missing request ID."
+msgstr ""
+
+#: other-includes/wp-security-rename-login-feature.php:342
+#: other-includes/wp-security-rename-login-feature.php:365
+msgid "<strong>ERROR</strong>: There is no account with that username or email address."
+msgstr ""
+
+#: other-includes/wp-security-rename-login-feature.php:146
+msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
+msgstr ""
+
+#. translators: %s: Login screen title.
+#: other-includes/wp-security-rename-login-feature.php:68
+msgid "Recovery Mode &#8212; %s"
+msgstr ""
+
+#: admin/general/wp-security-list-table.php:881
+msgid "Last page"
+msgstr "अंतिम पृष्ठ"
+
+#: admin/general/wp-security-list-table.php:870
+msgid "Next page"
+msgstr "पुढील"
+
+#: admin/general/wp-security-list-table.php:845
+msgid "Previous page"
+msgstr "मागील"
+
+#: admin/general/wp-security-list-table.php:834
+msgid "First page"
+msgstr "पहिले पान"
+
+#: admin/general/wp-security-list-table.php:797
+#: admin/general/wp-security-list-table.php:1378
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s आयटम"
+msgstr[1] ""
+
+#: admin/general/wp-security-list-table.php:721
+msgid "No pending comments"
+msgstr "कोणत्याही प्रलंबित टिप्पण्या नाहीत "
+
+#: admin/general/wp-security-list-table.php:698
+msgid "No approved comments"
+msgstr "कोणत्याही टिप्पण्या मंजूर नाहीत"
+
+#: admin/general/wp-security-list-table.php:676
+#: admin/general/wp-security-list-table.php:698
+#: admin/general/wp-security-list-table.php:721
+msgid "No comments"
+msgstr "कोणत्याही टिप्पण्या नाहीत"
+
+#: admin/general/wp-security-list-table.php:670
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] "%s प्रलंबित टिप्पणी"
+msgstr[1] ""
+
+#: admin/general/wp-security-list-table.php:669
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] "%s मंजूर टिप्पणी"
+msgstr[1] ""
+
+#: admin/general/wp-security-list-table.php:668
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s टिप्पणी"
+msgstr[1] ""
+
+#: admin/general/wp-security-list-table.php:602
+msgid "All dates"
+msgstr "सर्व तारखा"
+
+#: admin/general/wp-security-list-table.php:600
+msgid "Filter by date"
+msgstr "तारकेनुसार चाळणी करा"
+
+#: admin/general/wp-security-list-table.php:532
+#: admin/general/wp-security-list-table.php:1354
+msgid "Show more details"
+msgstr "अधिक तपशील दर्शवा"
+
+#: admin/general/wp-security-list-table.php:468
+msgid "Select bulk action"
+msgstr "निवडा क्रिया मोठ्या प्रमाणात "
+
+#: admin/wp-security-admin-menu.php:106
+msgid "The bulk action failed"
+msgstr ""
+
+#: admin/wp-security-admin-menu.php:102
+msgid "The bulk action was successful"
+msgstr ""
+
+#. translators: %s: site title
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:252
+#: other-includes/wp-security-rename-login-feature.php:270
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: admin/wp-security-settings-menu.php:600
+msgid "Import AIOWPS settings from "
+msgstr ""
+
+#: admin/wp-security-misc-options-menu.php:267
+msgid "Beware that if you are using other plugins which have registered REST endpoints (eg, Contact Form 7), then this feature will also block REST requests used by these plugins if the user is not logged in. It is recommended that you leave this feature disabled if you want uninterrupted functionality for such plugins."
+msgstr ""
+
+#: admin/wp-security-brute-force-menu.php:594
 msgid "Secret Key"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:588
+#: admin/wp-security-brute-force-menu.php:589
 msgid "Site Key"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:584
+#: admin/wp-security-brute-force-menu.php:585
 msgid "Check this if you want to default to Google reCAPTCHA for all settings below. (If this is left unchecked, all captcha forms will revert to the plain maths captcha)"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:581
+#: admin/wp-security-brute-force-menu.php:582
 msgid "Use Google reCAPTCHA as default"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:574
+#: admin/wp-security-brute-force-menu.php:575
 msgid "By enabling these settings the Google reCAPTCHA v2 widget will be applied by default for all forms in the captcha settings below."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:569
+#: admin/wp-security-brute-force-menu.php:570
 msgid "Google reCAPTCHA Settings"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:562
+#: admin/wp-security-brute-force-menu.php:563
 msgid "If Google reCAPTCHA is disabled the simple maths captcha form will apply and users will need to enter the answer to a simple mathematical question."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:561
+#: admin/wp-security-brute-force-menu.php:562
 msgid "If you enable Google reCAPTCHA the reCAPTCHA widget will be displayed for all forms the captcha settings below."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:560
+#: admin/wp-security-brute-force-menu.php:561
 msgid "You have the option of using either %s or a plain maths captcha form."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:558
+#: admin/wp-security-brute-force-menu.php:559
 msgid "This feature allows you to add a captcha form on various WordPress login pages and forms."
 msgstr ""
 
-#: classes/wp-security-general-init-tasks.php:601
+#: classes/wp-security-general-init-tasks.php:666
 msgid "You are not authorized to perform this action."
 msgstr ""
 
@@ -81,11 +226,11 @@ msgstr ""
 msgid "WP REST API"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:495
+#: admin/wp-security-dashboard-menu.php:496
 msgid "View all"
 msgstr "सर्व पहा"
 
-#: admin/wp-security-dashboard-menu.php:486
+#: admin/wp-security-dashboard-menu.php:487
 msgid "Brute Force Prevention Login Page"
 msgstr ""
 
@@ -93,34 +238,40 @@ msgstr ""
 msgid "It appears that your server is using an old PHP version which is missing the %s. The file scanner feature needs this class in order to work. If you would like to use this feature please upgrade your server PHP version to 5.3 or greater."
 msgstr ""
 
-#: other-includes/wp-security-rename-login-feature.php:877
+#: classes/wp-security-process-renamed-login-page.php:155
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:877
+#: other-includes/wp-security-rename-login-feature.php:892
 msgid "User action confirmed."
 msgstr "वापरकर्ताच्या क्रियेचि पुष्टी केली"
 
-#: other-includes/wp-security-rename-login-feature.php:855
+#: classes/wp-security-process-renamed-login-page.php:147
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:855
 msgid "Invalid key"
 msgstr "चुकीचं बटन"
 
-#: other-includes/wp-security-rename-login-feature.php:846
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:846
 msgid "Invalid request."
 msgstr "अवैध विनंती."
 
-#: other-includes/wp-security-rename-login-feature.php:708
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:708
+#: other-includes/wp-security-rename-login-feature.php:729
 msgid "Confirm use of weak password"
 msgstr "कमकुवत पासवर्ड वापरण्याची खात्री करा."
 
 #. translators: %s: site name
-#: other-includes/wp-security-rename-login-feature.php:366
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:366
+#: other-includes/wp-security-rename-login-feature.php:390
 msgid "Site Name: %s"
 msgstr "साईटच नाव: %s"
 
 #. translators: Login screen title. 1: Login screen name, 2: Network or site
 #. name
-#: other-includes/wp-security-rename-login-feature.php:59
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:59
+#: other-includes/wp-security-rename-login-feature.php:64
 msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
 msgstr "%1$s &lsaquo; %2$s &#8212; वर्डप्रेस"
 
-#: classes/grade-system/wp-security-feature-item-manager.php:110
+#: classes/grade-system/wp-security-feature-item-manager.php:111
 msgid "BBPress New Topic Captcha"
 msgstr ""
 
@@ -204,7 +355,7 @@ msgstr ""
 msgid "This plugin has detected that your site is running on a Windows server."
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Tips and Tricks HQ, Peter Petreski, Ruhul, Ivy"
 msgstr ""
 
@@ -216,15 +367,19 @@ msgstr ""
 msgid "Place custom rules at the top"
 msgstr ""
 
-#: other-includes/wp-security-rename-login-feature.php:982
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:982
+#: other-includes/wp-security-rename-login-feature.php:1020
 msgid "Your session has expired. Please log in to continue where you left off."
 msgstr "आपले सत्र कालबाह्य झाले आहे. आपण जेथे सोडले तेथून सुरू करण्यासाठी लॉग इन करा ."
 
-#: other-includes/wp-security-rename-login-feature.php:592
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:592
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1036
+#: other-includes/wp-security-rename-login-feature.php:614
+#: other-includes/wp-security-rename-login-feature.php:1081
 msgid "Username or Email Address"
 msgstr "वापरकर्त्याचे नाव किंवा ई-मेल अॅड्रेस"
 
-#: classes/grade-system/wp-security-feature-item-manager.php:47
+#: classes/grade-system/wp-security-feature-item-manager.php:48
 msgid "Woo Register Captcha"
 msgstr ""
 
@@ -232,23 +387,23 @@ msgstr ""
 msgid "Woo Login Captcha"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:661
+#: admin/wp-security-brute-force-menu.php:694
 msgid "Check this if you want to insert captcha on a Woocommerce registration form"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:658
+#: admin/wp-security-brute-force-menu.php:691
 msgid "Enable Captcha On Woocommerce Registration Form"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:648
+#: admin/wp-security-brute-force-menu.php:668
 msgid "Check this if you want to insert captcha on a Woocommerce login form"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:645
+#: admin/wp-security-brute-force-menu.php:665
 msgid "Enable Captcha On Woocommerce Login Form"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:636
+#: admin/wp-security-brute-force-menu.php:656
 msgid "Woocommerce Forms Captcha Settings"
 msgstr ""
 
@@ -267,10 +422,6 @@ msgstr ""
 #: other-includes/wp-security-unlock-request.php:81
 msgid "An email has been sent to you with the unlock instructions."
 msgstr ""
-
-#: other-includes/wp-security-rename-login-feature.php:1036
-msgid "Username or Email"
-msgstr "वापरकर्त्याचे नाव अथवा ईमेल:"
 
 #: classes/wp-security-user-login.php:410
 msgid "Unlock link: %s"
@@ -300,47 +451,47 @@ msgstr ""
 msgid "<strong>ERROR</strong>: Access from your IP address has been blocked for security reasons. Please contact the administrator."
 msgstr ""
 
-#: classes/wp-security-process-renamed-login-page.php:110
+#: classes/wp-security-process-renamed-login-page.php:133
 msgid "Not available."
 msgstr ""
 
-#: classes/wp-security-general-init-tasks.php:584
+#: classes/wp-security-general-init-tasks.php:649
 msgid "Your registration is pending approval."
 msgstr ""
 
-#: classes/wp-security-general-init-tasks.php:567
+#: classes/wp-security-general-init-tasks.php:632
 msgid "Would you like All In One WP Security & Firewall to re-insert the security rules in your .htaccess file which were cleared when you deactivated the plugin?"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:101
+#: classes/grade-system/wp-security-feature-item-manager.php:102
 msgid "5G/6G Blacklist"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:61
+#: classes/grade-system/wp-security-feature-item-manager.php:62
 msgid "Enable Registration Honeypot"
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:300
+#: admin/wp-security-user-registration-menu.php:307
 msgid "Check this if you want to enable the honeypot feature for the registration page"
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:297
+#: admin/wp-security-user-registration-menu.php:304
 msgid "Enable Honeypot On Registration Page"
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:286
+#: admin/wp-security-user-registration-menu.php:293
 msgid "Registration Form Honeypot Settings"
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:280
+#: admin/wp-security-user-registration-menu.php:287
 msgid "Therefore, if the plugin detects that this field has a value when the registration form is submitted, then the robot which is attempting to register on your site will be redirected to its localhost address - http://127.0.0.1."
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:278
+#: admin/wp-security-user-registration-menu.php:285
 msgid "Since robots usually fill in every input field from a registration form, they will also submit a value for the special hidden honeypot field."
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:277
+#: admin/wp-security-user-registration-menu.php:284
 msgid "This feature allows you to add a special hidden \"honeypot\" field on the WordPress registration page. This will only be visible to robots and not humans."
 msgstr ""
 
@@ -348,7 +499,7 @@ msgstr ""
 msgid "Registration Honeypot"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:561
+#: admin/wp-security-user-login-menu.php:566
 msgid "This tab displays the activity for accounts registered with your site that have logged in using the WordPress login form."
 msgstr ""
 
@@ -524,9 +675,9 @@ msgstr ""
 msgid "Nonce check failed for block IP operation of registered user!"
 msgstr ""
 
+#: admin/wp-security-spam-menu.php:325
 #: admin/wp-security-list-registered-users.php:274
 #: admin/wp-security-list-registered-users.php:291
-#: admin/wp-security-spam-menu.php:325
 msgid "View Blocked IPs"
 msgstr ""
 
@@ -538,7 +689,7 @@ msgstr ""
 msgid "blocked"
 msgstr ""
 
-#: admin/wp-security-list-permanent-blocked-ip.php:126
+#: admin/wp-security-list-permanent-blocked-ip.php:136
 msgid "Nonce check failed for unblock IP operation!"
 msgstr ""
 
@@ -547,17 +698,17 @@ msgid "The selected IP addresses are now permanently blocked!"
 msgstr ""
 
 #: admin/wp-security-firewall-menu.php:989
-#: admin/wp-security-user-login-menu.php:438
-#: admin/wp-security-user-login-menu.php:589
+#: admin/wp-security-user-login-menu.php:445
+#: admin/wp-security-user-login-menu.php:599
 msgid "Click this button if you wish to download this log in CSV format."
 msgstr ""
 
 #: admin/wp-security-firewall-menu.php:983
 #: admin/wp-security-firewall-menu.php:992
-#: admin/wp-security-user-login-menu.php:432
-#: admin/wp-security-user-login-menu.php:441
-#: admin/wp-security-user-login-menu.php:583
-#: admin/wp-security-user-login-menu.php:592
+#: admin/wp-security-user-login-menu.php:439
+#: admin/wp-security-user-login-menu.php:448
+#: admin/wp-security-user-login-menu.php:593
+#: admin/wp-security-user-login-menu.php:602
 msgid "Export to CSV"
 msgstr ""
 
@@ -649,32 +800,32 @@ msgstr ""
 msgid "The following address was removed because it is not a valid email address: "
 msgstr ""
 
-#: admin/wp-security-database-menu.php:602
+#: admin/wp-security-database-menu.php:603
 msgid "%s view definitions were updated successfully!"
 msgstr ""
 
-#: admin/wp-security-database-menu.php:595
+#: admin/wp-security-database-menu.php:596
 msgid "Update of the following MySQL view definition failed: %s"
 msgstr ""
 
-#: admin/wp-security-database-menu.php:578
+#: admin/wp-security-database-menu.php:579
 msgid "Checking for MySQL tables of type \"view\"....."
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:401
+#: admin/wp-security-dashboard-menu.php:402
 msgid "Error! The file you selected is not a permitted file. You can only view log files created by this plugin."
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:318
+#: admin/wp-security-dashboard-menu.php:319
 msgid "Permanently Blocked IP Addresses"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:312
+#: admin/wp-security-dashboard-menu.php:313
 #: admin/wp-security-spam-menu.php:297
 msgid "NOTE: This feature does NOT use the .htaccess file to permanently block the IP addresses so it should be compatible with all web servers running WordPress."
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:311
+#: admin/wp-security-dashboard-menu.php:312
 msgid "This tab displays the list of all permanently blocked IP addresses."
 msgstr ""
 
@@ -682,11 +833,11 @@ msgstr ""
 msgid "This tab displays the list of all IP addresses which are currently temporarily locked out due to the Login Lockdown feature:"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:604
+#: admin/wp-security-dashboard-menu.php:605
 msgid "Wanna know more about the developers behind this plugin?"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:480
+#: admin/wp-security-dashboard-menu.php:481
 msgid "Get To Know The Developers"
 msgstr ""
 
@@ -694,19 +845,19 @@ msgstr ""
 msgid "Permanent Block List"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:816
+#: admin/wp-security-brute-force-menu.php:830
 msgid "Example 5: 2205:0:1ca2:810d::"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:815
+#: admin/wp-security-brute-force-menu.php:829
 msgid "Example 4: 4102:0:3ea6:79fd:b:46f8:230f:bb05"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:814
+#: admin/wp-security-brute-force-menu.php:828
 msgid "Or you can enter an IPv6 address (NOTE: ranges/wildcards are currently not supported for ipv6)"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:810
+#: admin/wp-security-brute-force-menu.php:824
 msgid "To specify an IPv4 range use a wildcard \"*\" character. Acceptable ways to use wildcards is shown in the examples below:"
 msgstr ""
 
@@ -718,8 +869,8 @@ msgstr ""
 msgid "NOTE: If you are hosting your site on WPEngine or a provider which performs server caching, you will need to ask the host support people to NOT cache your renamed login page."
 msgstr ""
 
-#: admin/wp-security-blacklist-menu.php:181
 #: admin/wp-security-brute-force-menu.php:209
+#: admin/wp-security-blacklist-menu.php:181
 msgid "This feature can lock you out of admin if it doesn't work correctly on your site. You %s before activating this feature."
 msgstr ""
 
@@ -727,40 +878,40 @@ msgstr ""
 msgid "This addon allows you to automatically block IP addresses based on their country of origin."
 msgstr ""
 
-#: admin/wp-security-blacklist-menu.php:159
 #: admin/wp-security-firewall-menu.php:889
+#: admin/wp-security-blacklist-menu.php:159
 msgid "You may also be interested in our %s."
 msgstr ""
 
-#: admin/wp-security-admin-init.php:108
+#: admin/wp-security-admin-init.php:107
 msgid "Nonce check failed for export 404 event logs to CSV!"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:90
+#: admin/wp-security-admin-init.php:89
 msgid "Nonce check failed for export failed login records to CSV!"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:70
+#: admin/wp-security-admin-init.php:69
 msgid "Nonce check failed for export account activity logs to CSV!"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:360
+#: admin/wp-security-dashboard-menu.php:361
 msgid "Log File"
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "https://www.tipsandtricks-hq.com/"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "All round best WordPress security plugin!"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "https://www.tipsandtricks-hq.com/wordpress-security-and-firewall-plugin"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "All In One WP Security"
 msgstr ""
 
@@ -788,207 +939,256 @@ msgstr ""
 msgid "http://wordpress.org/"
 msgstr ""
 
-#: other-includes/wp-security-rename-login-feature.php:1051
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1051
+#: other-includes/wp-security-rename-login-feature.php:1096
 msgid "Remember Me"
 msgstr "माझी आठवण ठेवा"
 
-#: other-includes/wp-security-rename-login-feature.php:1013
-#: other-includes/wp-security-rename-login-feature.php:1053
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1013
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1053
+#: other-includes/wp-security-rename-login-feature.php:1056
+#: other-includes/wp-security-rename-login-feature.php:1098
 msgid "Log In"
 msgstr "लॉग ईन"
 
-#: other-includes/wp-security-rename-login-feature.php:996
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:996
+#: other-includes/wp-security-rename-login-feature.php:1035
 msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
 msgstr "<strong>आपण यशस्वीरित्या वर्डप्रेस सुधारीले आहे!</strong> नवीन काय आहे ते पाहण्यासाठी परत लॉग इन करा."
 
-#: other-includes/wp-security-rename-login-feature.php:994
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:994
+#: other-includes/wp-security-rename-login-feature.php:1033
 msgid "Registration complete. Please check your email."
 msgstr "नोंदणी पूर्ण. कृपया आपला ईमेल तपासा."
 
-#: other-includes/wp-security-rename-login-feature.php:992
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:992
+#: other-includes/wp-security-rename-login-feature.php:1031
 msgid "Check your email for your new password."
 msgstr "तुमच्या नवीन पासवर्ड साठी तुमचा ई-मेल तपासा"
 
-#: other-includes/wp-security-rename-login-feature.php:990
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:990
+#: other-includes/wp-security-rename-login-feature.php:1029
 msgid "Check your email for the confirmation link."
 msgstr "पुष्टीकरण लिंक साठी तुमचा ईमेल तपासा."
 
-#: other-includes/wp-security-rename-login-feature.php:988
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:988
+#: other-includes/wp-security-rename-login-feature.php:1027
 msgid "User registration is currently not allowed."
 msgstr "यूझर नोंदणी सध्या बंद आहे."
 
-#: other-includes/wp-security-rename-login-feature.php:986
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:986
+#: other-includes/wp-security-rename-login-feature.php:1025
 msgid "You are now logged out."
 msgstr "तुम्ही आता लॉग आउट झाला आहात."
 
-#: other-includes/wp-security-rename-login-feature.php:945
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:945
+#: other-includes/wp-security-rename-login-feature.php:974
 msgid "You have logged in successfully."
 msgstr "तुम्ही यशस्वीपणे लॉगइन केले आहे."
 
 #. translators: 1: Browser cookie documentation URL
-#: other-includes/wp-security-rename-login-feature.php:926
+#. translators: %s: Browser cookie documentation URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:926
+#: other-includes/wp-security-rename-login-feature.php:953
 msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
 msgstr "<strong>त्रुटी</strong>: कुकीज अवरोधित केल्या आहेत किंवा आपला ब्राउजर समर्थन करत नाही. वर्डप्रेस वापरण्यासाठी आपण <a href=\"%s\">कुकीज सक्षम</a> करणे आवश्यक आहे."
 
-#: other-includes/wp-security-rename-login-feature.php:922
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:922
+#: other-includes/wp-security-rename-login-feature.php:944
 msgid "https://wordpress.org/support/"
 msgstr "https://mr.wordpress.org/support/"
 
-#: other-includes/wp-security-rename-login-feature.php:922
-#: other-includes/wp-security-rename-login-feature.php:927
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:922
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:927
 msgid "https://codex.wordpress.org/Cookies"
 msgstr "https://codex.wordpress.org/Cookies"
 
 #. translators: 1: Browser cookie documentation URL, 2: Support forums URL
-#: other-includes/wp-security-rename-login-feature.php:921
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:921
+#: other-includes/wp-security-rename-login-feature.php:942
 msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
 msgstr "<strong>त्रुटी</strong>: अनपेक्षित उत्पादनामुळे कुकीज अवरोधित केलेली आहेत. मदतीसाठी कृपया <a href=\"%1$s\">हे दस्तऐवज</a> पहा किंवा <a href=\"%2$s\">समर्थन मंच</a> उपयोगात आणा."
 
-#: other-includes/wp-security-rename-login-feature.php:832
-#: other-includes/wp-security-rename-login-feature.php:1078
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:832
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1078
+#: other-includes/wp-security-rename-login-feature.php:850
+#: other-includes/wp-security-rename-login-feature.php:1124
 msgid "Lost your password?"
 msgstr "पासवर्ड विसरलात?"
 
-#: other-includes/wp-security-rename-login-feature.php:823
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:823
+#: other-includes/wp-security-rename-login-feature.php:841
 msgid "Registration confirmation will be emailed to you."
 msgstr "यशश्वी रेजिस्ट्रेशन झाल्याची पुष्टी ई - मेल द्वारा होईल."
 
-#: other-includes/wp-security-rename-login-feature.php:812
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:812
+#: other-includes/wp-security-rename-login-feature.php:830
 msgid "Email"
 msgstr "ईमेल"
 
-#: other-includes/wp-security-rename-login-feature.php:808
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:808
+#: other-includes/wp-security-rename-login-feature.php:826
 msgid "Username"
 msgstr "वापरकर्त्याचे नाव"
 
-#: other-includes/wp-security-rename-login-feature.php:803
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:803
+#: other-includes/wp-security-rename-login-feature.php:822
 msgid "Register For This Site"
 msgstr "या साइटसाठी नोंदणी"
 
-#: other-includes/wp-security-rename-login-feature.php:803
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:803
+#: other-includes/wp-security-rename-login-feature.php:822
 msgid "Registration Form"
 msgstr "नोंदणी फॉर्म"
 
-#: other-includes/wp-security-rename-login-feature.php:713
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:713
+#: other-includes/wp-security-rename-login-feature.php:735
 msgid "Confirm new password"
 msgstr "नवीन पासवर्डची खात्री करा"
 
-#: other-includes/wp-security-rename-login-feature.php:703
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:703
+#: other-includes/wp-security-rename-login-feature.php:724
 msgid "Strength indicator"
 msgstr "सामर्थ्य सूचक"
 
-#: other-includes/wp-security-rename-login-feature.php:693
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:693
+#: other-includes/wp-security-rename-login-feature.php:714
 msgid "New password"
 msgstr "नवीन पासवर्ड"
 
-#: other-includes/wp-security-rename-login-feature.php:685
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:685
+#: other-includes/wp-security-rename-login-feature.php:706
 msgid "Enter your new password below."
 msgstr "तुमचा नवीन पासवर्ड खाली प्रविष्ट करा."
 
-#: other-includes/wp-security-rename-login-feature.php:685
-#: other-includes/wp-security-rename-login-feature.php:731
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:685
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:731
+#: other-includes/wp-security-rename-login-feature.php:706
+#: other-includes/wp-security-rename-login-feature.php:753
 msgid "Reset Password"
 msgstr "पासवर्ड रीसेट करा"
 
-#: other-includes/wp-security-rename-login-feature.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature.php:698
 msgid "Your password has been reset."
 msgstr "आपला संकेतशब्द रीसेट केला गेला आहे."
 
-#: other-includes/wp-security-rename-login-feature.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature.php:698
 msgid "Password Reset"
 msgstr "पासवर्ड रीसेट करा"
 
-#: other-includes/wp-security-rename-login-feature.php:662
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:662
+#: other-includes/wp-security-rename-login-feature.php:682
 msgid "The passwords do not match."
 msgstr "पासवर्ड जुळत नाही."
 
-#: other-includes/wp-security-rename-login-feature.php:610
-#: other-includes/wp-security-rename-login-feature.php:738
-#: other-includes/wp-security-rename-login-feature.php:826
-#: other-includes/wp-security-rename-login-feature.php:1070
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:610
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:738
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:826
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1070
+#: other-includes/wp-security-rename-login-feature.php:633
+#: other-includes/wp-security-rename-login-feature.php:760
+#: other-includes/wp-security-rename-login-feature.php:844
+#: other-includes/wp-security-rename-login-feature.php:1116
 msgid "Register"
 msgstr "नोंदणी"
 
-#: other-includes/wp-security-rename-login-feature.php:607
-#: other-includes/wp-security-rename-login-feature.php:677
-#: other-includes/wp-security-rename-login-feature.php:735
-#: other-includes/wp-security-rename-login-feature.php:830
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:607
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:735
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:830
+#: other-includes/wp-security-rename-login-feature.php:630
+#: other-includes/wp-security-rename-login-feature.php:698
+#: other-includes/wp-security-rename-login-feature.php:757
+#: other-includes/wp-security-rename-login-feature.php:848
 msgid "Log in"
 msgstr "लॉग ईन"
 
-#: other-includes/wp-security-rename-login-feature.php:603
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:603
+#: other-includes/wp-security-rename-login-feature.php:626
 msgid "Get New Password"
 msgstr "नवीन पासवर्ड मिळवा"
 
-#: other-includes/wp-security-rename-login-feature.php:580
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:580
+#: other-includes/wp-security-rename-login-feature.php:602
 msgid "Please enter your username or email address. You will receive a link to create a new password via email."
 msgstr "कृपया आपले वापरकर्ता नाव आणि ईमेल प्रविष्ट करा. त्या नंतर तुम्हाला ईमेल द्वारे लिंक मिळेल जी उघडल्या नंतर तुम्ही नवीन पासवर्ड तयार करू शकाल. "
 
-#: other-includes/wp-security-rename-login-feature.php:580
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:580
+#: other-includes/wp-security-rename-login-feature.php:602
 msgid "Lost Password"
 msgstr "हरवलेलं पासवर्ड"
 
-#: other-includes/wp-security-rename-login-feature.php:559
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:559
+#: other-includes/wp-security-rename-login-feature.php:577
 msgid "Your password reset link has expired. Please request a new link below."
 msgstr "आपली पासवर्ड रीसेट लिंक कालबाह्य झाली आहे. खाली एक नवीन लिंक विनंती करा."
 
-#: other-includes/wp-security-rename-login-feature.php:557
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:557
+#: other-includes/wp-security-rename-login-feature.php:575
 msgid "Your password reset link appears to be invalid. Please request a new link below."
 msgstr "आपली पासवर्ड रीसेत लिंक अमान्य असल्याचे दिसते. कृपया खाली दिलेल्या लिंक वरून नवीन मागवा. "
 
-#: other-includes/wp-security-rename-login-feature.php:404
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:404
+#: other-includes/wp-security-rename-login-feature.php:428
 msgid "Possible reason: your host may have disabled the mail() function."
 msgstr "शक्यता - तुमच्या होस्टने mail() फंक्शन अकार्यान्वित केले असेल"
 
-#: other-includes/wp-security-rename-login-feature.php:404
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:404
+#: other-includes/wp-security-rename-login-feature.php:428
 msgid "The email could not be sent."
 msgstr "ई-मेल पोहचू शकला नाही."
 
 #. translators: Password reset email subject. %s: Site name
-#: other-includes/wp-security-rename-login-feature.php:374
+#. translators: Password reset notification email subject. %s: Site title
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:374
+#: other-includes/wp-security-rename-login-feature.php:398
 msgid "[%s] Password Reset"
 msgstr "[%s] पासवर्ड बदल"
 
-#: other-includes/wp-security-rename-login-feature.php:370
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:370
+#: other-includes/wp-security-rename-login-feature.php:394
 msgid "To reset your password, visit the following address:"
 msgstr "आपला पासवर्ड रीसेट करण्यासाठी, खालील पत्त्यावर भेट द्या:"
 
-#: other-includes/wp-security-rename-login-feature.php:369
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:369
+#: other-includes/wp-security-rename-login-feature.php:393
 msgid "If this was a mistake, just ignore this email and nothing will happen."
 msgstr "जर चूक झाली असेल तर या इमेल कडे दुर्लक्षित करा किवा काहीच झाले नाही असे समजा"
 
 #. translators: %s: user login
-#: other-includes/wp-security-rename-login-feature.php:368
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:368
+#: other-includes/wp-security-rename-login-feature.php:392
 msgid "Username: %s"
 msgstr "वापरकर्ता चे नाव %s"
 
-#: other-includes/wp-security-rename-login-feature.php:364
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:364
+#: other-includes/wp-security-rename-login-feature.php:388
 msgid "Someone has requested a password reset for the following account:"
 msgstr "कोणीतरी खालील खात्या साठी पासवर्ड रिसेट करण्याची विनंती केली आहे"
 
-#: other-includes/wp-security-rename-login-feature.php:341
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:341
 msgid "<strong>ERROR</strong>: Invalid username or email."
 msgstr "<strong> चुक </strong>: अमान्य वापरकर्ता नाव किंवा ईमेल."
 
-#: other-includes/wp-security-rename-login-feature.php:320
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:320
 msgid "<strong>ERROR</strong>: There is no user registered with that email address."
 msgstr "<strong> चुक </strong>: या ईमेल चा कोणतेही वापरकर्ता नाव नोंदणी केलेले नाही. "
 
-#: other-includes/wp-security-rename-login-feature.php:316
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:316
+#: other-includes/wp-security-rename-login-feature.php:338
 msgid "<strong>ERROR</strong>: Enter a username or email address."
 msgstr "<strong>चूक</strong>: युजरनेम आणि इमेल टाका"
 
-#. translators: %s: site title
-#: other-includes/wp-security-rename-login-feature.php:252
-msgid "&larr; Back to %s"
-msgstr "&larr; परत %s ला"
-
-#: other-includes/wp-security-rename-login-feature.php:115
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:115
 #: other-includes/wp-security-unlock-request.php:14
+#: other-includes/wp-security-rename-login-feature.php:149
 msgid "Powered by WordPress"
 msgstr "वर्डप्रेस द्वारा समर्पित"
 
-#: other-includes/wp-security-rename-login-feature.php:114
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:114
+#: other-includes/wp-security-rename-login-feature.php:120
 msgid "https://wordpress.org/"
 msgstr "https://mr.wordpress.org/"
 
@@ -1008,7 +1208,6 @@ msgstr ""
 msgid " is not a valid ip address format."
 msgstr ""
 
-#: classes/wp-security-general-init-tasks.php:547
 #: classes/wp-security-user-registration.php:69
 #: classes/wp-security-user-registration.php:90
 msgid "<strong>ERROR</strong>: You are not allowed to register because your IP address is currently locked!"
@@ -1059,24 +1258,24 @@ msgstr ""
 msgid "<strong>ERROR</strong>: Invalid login credentials."
 msgstr ""
 
-#: classes/wp-security-general-init-tasks.php:535
+#: classes/wp-security-general-init-tasks.php:586
 msgid "Your CAPTCHA answer was incorrect - please try again."
 msgstr ""
 
-#: classes/wp-security-general-init-tasks.php:497
+#: classes/wp-security-general-init-tasks.php:540
 msgid "Error: You entered an incorrect CAPTCHA answer. Please go back and try again."
 msgstr ""
 
-#: classes/wp-security-general-init-tasks.php:471
+#: classes/wp-security-general-init-tasks.php:514
 msgid "Enter something special:"
 msgstr ""
 
-#: classes/wp-security-general-init-tasks.php:436
-#: classes/wp-security-general-init-tasks.php:516
-#: classes/wp-security-general-init-tasks.php:554
 #: classes/wp-security-user-login.php:81
 #: classes/wp-security-user-registration.php:76
 #: classes/wp-security-user-registration.php:97
+#: classes/wp-security-general-init-tasks.php:479
+#: classes/wp-security-general-init-tasks.php:567
+#: classes/wp-security-general-init-tasks.php:602
 msgid "<strong>ERROR</strong>: Your answer was incorrect - please try again."
 msgstr ""
 
@@ -1199,7 +1398,7 @@ msgid "one"
 msgstr ""
 
 #: classes/wp-security-captcha.php:42
-#: classes/wp-security-general-init-tasks.php:414
+#: classes/wp-security-general-init-tasks.php:456
 msgid "Please enter an answer in digits:"
 msgstr ""
 
@@ -1227,63 +1426,63 @@ msgstr ""
 msgid "Basic"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:108
+#: classes/grade-system/wp-security-feature-item-manager.php:109
 msgid "BuddyPress Registration Captcha"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:106
+#: classes/grade-system/wp-security-feature-item-manager.php:107
 msgid "Comment Captcha"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:104
+#: classes/grade-system/wp-security-feature-item-manager.php:105
 msgid "Block Spambots"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:99
+#: classes/grade-system/wp-security-feature-item-manager.php:100
 msgid "Deny Bad Queries"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:98
+#: classes/grade-system/wp-security-feature-item-manager.php:99
 msgid "Forbid Proxy Comments"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:92
+#: classes/grade-system/wp-security-feature-item-manager.php:93
 msgid "Enable Login Honeypot"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:90
+#: classes/grade-system/wp-security-feature-item-manager.php:91
 msgid "Enable Rename Login Page"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:86
+#: classes/grade-system/wp-security-feature-item-manager.php:87
 msgid "Enable IP blocking for 404 detection"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:84
+#: classes/grade-system/wp-security-feature-item-manager.php:85
 msgid "Enable Pingback Vulnerability Protection"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:83
+#: classes/grade-system/wp-security-feature-item-manager.php:84
 msgid "Enable Basic Firewall"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:79
+#: classes/grade-system/wp-security-feature-item-manager.php:80
 msgid "IP and User Agent Blacklisting"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:75
+#: classes/grade-system/wp-security-feature-item-manager.php:76
 msgid "WordPress Files Access"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:57
+#: classes/grade-system/wp-security-feature-item-manager.php:58
 msgid "Registration Approval"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:51
+#: classes/grade-system/wp-security-feature-item-manager.php:52
 msgid "Login IP Whitelisting"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:49
+#: classes/grade-system/wp-security-feature-item-manager.php:50
 msgid "Lost Password Captcha"
 msgstr ""
 
@@ -1299,71 +1498,35 @@ msgstr ""
 msgid "Remove WP Generator Meta Tag"
 msgstr ""
 
-#: admin/wp-security-whois-menu.php:132
-msgid "You have entered an incorrectly formatted IP address or domain name. Please try again."
-msgstr ""
-
-#: admin/wp-security-whois-menu.php:120
-msgid "WHOIS lookup successfully completed. Please see the results below:"
-msgstr ""
-
-#: admin/wp-security-whois-menu.php:99
-msgid "Perform IP or Domain Lookup"
-msgstr ""
-
-#: admin/wp-security-whois-menu.php:95
-msgid "Enter an IP address or domain name. Example: 111.11.12.13 OR some-domain-name.com"
-msgstr ""
-
-#: admin/wp-security-whois-menu.php:93
-msgid "Enter IP Address or Domain Name"
-msgstr ""
-
-#: admin/wp-security-whois-menu.php:87
-msgid "Perform a WHOIS Lookup for an IP or Domain Name"
-msgstr ""
-
-#: admin/wp-security-whois-menu.php:81
-msgid "This feature allows you to look up more detailed information about an IP address or domain name by querying the WHOIS API."
-msgstr ""
-
-#: admin/wp-security-whois-menu.php:78
-msgid "WHOIS Lookup Information"
-msgstr ""
-
-#: admin/wp-security-whois-menu.php:25
-msgid "WhoIS Lookup"
-msgstr ""
-
-#: admin/wp-security-user-registration-menu.php:239
+#: admin/wp-security-user-registration-menu.php:246
 msgid "Check this if you want to insert a captcha form on the WordPress user registration page (if you allow user registration)."
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:236
+#: admin/wp-security-user-registration-menu.php:243
 msgid "Enable Captcha On Registration Page"
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:221
+#: admin/wp-security-user-registration-menu.php:228
 msgid "Therefore, if you would like to add a captcha form to the registration page for a Multi Site, please go to \"Registration Captcha\" settings on the main site."
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:220
+#: admin/wp-security-user-registration-menu.php:227
 msgid "The core default behaviour for WordPress Multi Site regarding user registration is that all users are registered via the main site."
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:213
+#: admin/wp-security-user-registration-menu.php:220
 msgid "Registration Page Captcha Settings"
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:208
+#: admin/wp-security-user-registration-menu.php:215
 msgid "Therefore, adding a captcha form on the registration page is another effective yet simple SPAM registration prevention technique."
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:207
+#: admin/wp-security-user-registration-menu.php:214
 msgid "Users who attempt to register will also need to enter the answer to a simple mathematical question - if they enter the wrong answer, the plugin will not allow them to register."
 msgstr ""
 
-#: admin/wp-security-user-registration-menu.php:206
+#: admin/wp-security-user-registration-menu.php:213
 msgid "This feature allows you to add a captcha form on the WordPress registration page."
 msgstr ""
 
@@ -1399,8 +1562,8 @@ msgstr ""
 msgid "User Registration Settings"
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:60
 #: admin/wp-security-user-registration-menu.php:28
-#: classes/grade-system/wp-security-feature-item-manager.php:59
 msgid "Registration Captcha"
 msgstr ""
 
@@ -1408,84 +1571,84 @@ msgstr ""
 msgid "Manual Approval"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:643
+#: admin/wp-security-user-login-menu.php:653
 msgid "Currently Logged In Users"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:638
+#: admin/wp-security-user-login-menu.php:648
 msgid "You can also instantly log them out by clicking on the \"Force Logout\" link when you hover over the row in the User Id column."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:637
+#: admin/wp-security-user-login-menu.php:647
 msgid "If you suspect there is a user or users who are logged in which should not be, you can block them by inspecting the IP addresses from the data below and adding them to your blacklist."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:636
+#: admin/wp-security-user-login-menu.php:646
 msgid "This tab displays all users who are currently logged into your site."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:630
+#: admin/wp-security-user-login-menu.php:640
 msgid "Refresh Data"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:626
+#: admin/wp-security-user-login-menu.php:636
 msgid "Refresh Logged In User Data"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:618
+#: admin/wp-security-user-login-menu.php:628
 msgid "Nonce check failed for users logged in list!"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:562
+#: admin/wp-security-user-login-menu.php:567
 msgid "The information below can be handy if you need to do security investigations because it will show you the last 50 recent login events by username, IP address and time/date."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:534
+#: admin/wp-security-user-login-menu.php:541
 msgid "(Minutes) The user will be forced to log back in after this time period has elapased."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:532
+#: admin/wp-security-user-login-menu.php:539
 msgid "Logout the WP User After XX Minutes"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:528
+#: admin/wp-security-user-login-menu.php:535
 msgid "Check this if you want to force a wp user to be logged out after a configured amount of time"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:525
+#: admin/wp-security-user-login-menu.php:532
 msgid "Enable Force WP User Logout"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:513
+#: admin/wp-security-user-login-menu.php:520
 msgid "Force User Logout Options"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:508
+#: admin/wp-security-user-login-menu.php:515
 msgid "This feature allows you to specify a time period in minutes after which the admin session will expire and the user will be forced to log back in."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:507
+#: admin/wp-security-user-login-menu.php:514
 msgid "Setting an expiry period for your WP administration session is a simple way to protect against unauthorized access to your site from your computer."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:479
+#: admin/wp-security-user-login-menu.php:486
 msgid "You entered a non numeric value for the logout time period field. It has been set to the default value."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:451
+#: admin/wp-security-user-login-menu.php:458
 msgid "Click this button if you wish to delete all failed login records in one go."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:445
-#: admin/wp-security-user-login-menu.php:454
+#: admin/wp-security-user-login-menu.php:452
+#: admin/wp-security-user-login-menu.php:461
 msgid "Delete All Failed Login Records"
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:411
+#: admin/wp-security-user-login-menu.php:413
 msgid "The information below can be handy if you need to do security investigations because it will show you the IP range, username and ID (if applicable) and the time/date of the failed login attempt."
 msgstr ""
 
-#: admin/wp-security-user-login-menu.php:410
+#: admin/wp-security-user-login-menu.php:412
 msgid "This tab displays the failed login attempts for your site."
 msgstr ""
 
@@ -1610,173 +1773,170 @@ msgid "You entered a non numeric value for the max login attempts field. It has 
 msgstr ""
 
 #: admin/wp-security-user-login-menu.php:31
-#: admin/wp-security-user-login-menu.php:567
+#: admin/wp-security-user-login-menu.php:572
 msgid "Account Activity Logs"
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:54
 #: admin/wp-security-user-login-menu.php:30
-#: classes/grade-system/wp-security-feature-item-manager.php:53
 msgid "Force Logout"
 msgstr ""
 
 #: admin/wp-security-user-login-menu.php:29
-#: admin/wp-security-user-login-menu.php:416
+#: admin/wp-security-user-login-menu.php:418
 msgid "Failed Login Records"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:331
+#: admin/wp-security-user-accounts-menu.php:329
 msgid "Account Login Name"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:311
+#: admin/wp-security-user-accounts-menu.php:309
 msgid "Username Successfully Changed!"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:304
+#: admin/wp-security-user-accounts-menu.php:302
 msgid "Please enter a value for your username. "
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:300
+#: admin/wp-security-user-accounts-menu.php:298
 msgid "You entered an invalid username. Please enter another value. "
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:271
+#: admin/wp-security-user-accounts-menu.php:269
 msgid "The database update operation of the user account failed!"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:254
+#: admin/wp-security-user-accounts-menu.php:252
 msgid " already exists. Please enter another value. "
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:254
+#: admin/wp-security-user-accounts-menu.php:252
 msgid "Username "
 msgstr "वापरकर्त्याचे नाव"
 
-#: admin/wp-security-user-accounts-menu.php:247
+#: admin/wp-security-user-accounts-menu.php:245
 msgid "Nonce check failed on admin username change operation!"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:231
+#: admin/wp-security-user-accounts-menu.php:229
 msgid "Password Strength"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:226
+#: admin/wp-security-user-accounts-menu.php:224
 msgid "to crack your password!"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:226
+#: admin/wp-security-user-accounts-menu.php:224
 msgid "1 sec"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:225
+#: admin/wp-security-user-accounts-menu.php:223
 msgid "It would take a desktop PC approximately"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:222
+#: admin/wp-security-user-accounts-menu.php:220
 msgid "Start typing a password."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:217
+#: admin/wp-security-user-accounts-menu.php:215
 msgid "Password Strength Tool"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:212
+#: admin/wp-security-user-accounts-menu.php:210
 msgid "This section contains a useful password strength tool which you can use to check whether your password is sufficiently strong enough."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:211
+#: admin/wp-security-user-accounts-menu.php:209
 msgid "The longer and more complex your password is the harder it is for hackers to \"crack\" because more complex passwords require much greater computing power and time."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:210
+#: admin/wp-security-user-accounts-menu.php:208
 msgid "Many people fall into the trap of using a simple word or series of numbers as their password. Such a predictable and simple password would take a competent hacker merely minutes to guess your password by using a simple script which cycles through the easy and most common combinations."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:209
+#: admin/wp-security-user-accounts-menu.php:207
 msgid "Poor password selection is one of the most common weak points of many sites and is usually the first thing a hacker will try to exploit when attempting to break into your site."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:206
+#: admin/wp-security-user-accounts-menu.php:204
 msgid "Password Tool"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:195
+#: admin/wp-security-user-accounts-menu.php:193
 msgid "Your site does not have a user account where the display name is identical to the username."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:194
+#: admin/wp-security-user-accounts-menu.php:192
 msgid "No action required."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:179
+#: admin/wp-security-user-accounts-menu.php:177
 msgid "Click on the link to edit the settings of that particular user account"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:178
+#: admin/wp-security-user-accounts-menu.php:176
 msgid "Your site currently has the following accounts which have an identical login name and display name."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:169
+#: admin/wp-security-user-accounts-menu.php:167
 msgid "Modify Accounts With Identical Login Name & Display Name"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:163
+#: admin/wp-security-user-accounts-menu.php:161
 msgid "Therefore to further tighten your site's security you are advised to change your <strong>nickname</strong> and <strong>Display name</strong> to be different from your <strong>Username</strong>."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:162
+#: admin/wp-security-user-accounts-menu.php:160
 msgid "From a security perspective, leaving your nickname the same as your user name is bad practice because it gives a hacker at least half of your account's login credentials."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:161
+#: admin/wp-security-user-accounts-menu.php:159
 msgid "By default the nickname is set to the login (or user) name of your account."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:160
+#: admin/wp-security-user-accounts-menu.php:158
 msgid "When you submit a post or answer a comment, WordPress will usually display your \"nickname\"."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:157
+#: admin/wp-security-user-accounts-menu.php:155
 msgid "Display Name Security"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:145
+#: admin/wp-security-user-accounts-menu.php:143
 msgid "This is good security practice."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:144
+#: admin/wp-security-user-accounts-menu.php:142
 msgid "Your site does not have any account which uses the default \"admin\" username. "
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:142
+#: admin/wp-security-user-accounts-menu.php:140
 msgid "No action required! "
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:135
+#: admin/wp-security-user-accounts-menu.php:133
 msgid "NOTE: If you are currently logged in as \"admin\" you will be automatically logged out after changing your username and will be required to log back in."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:133
+#: admin/wp-security-user-accounts-menu.php:131
 msgid "Change Username"
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:129
+#: admin/wp-security-user-accounts-menu.php:127
 msgid "Choose a new username for admin."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:127
+#: admin/wp-security-user-accounts-menu.php:125
 msgid "New Admin Username"
 msgstr ""
 
 #: admin/wp-security-user-accounts-menu.php:119
-msgid ""
-"Your site currently has an account which uses the default \"admin\" username. \n"
-"                It is highly recommended that you change this name to something else. \n"
-"                Use the following field to change the admin username."
+msgid "Your site currently has an account which uses the default \"admin\" username. It is highly recommended that you change this name to something else. Use the following field to change the admin username."
 msgstr ""
 
-#: admin/wp-security-user-accounts-menu.php:111
 #: classes/grade-system/wp-security-feature-item-manager.php:36
+#: admin/wp-security-user-accounts-menu.php:111
 msgid "Change Admin Username"
 msgstr ""
 
@@ -1805,7 +1965,8 @@ msgid "Admin User Security"
 msgstr ""
 
 #: admin/wp-security-user-accounts-menu.php:34
-#: other-includes/wp-security-rename-login-feature.php:1040
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1040
+#: other-includes/wp-security-rename-login-feature.php:1085
 msgid "Password"
 msgstr "पासवर्ड"
 
@@ -1853,8 +2014,8 @@ msgstr ""
 msgid "Only the \"superadmin\" can block IP addresses from the main site."
 msgstr ""
 
-#: admin/wp-security-spam-menu.php:411
 #: classes/wp-security-utility.php:228
+#: admin/wp-security-spam-menu.php:411
 msgid "The plugin has detected that you are using a Multi-Site WordPress installation."
 msgstr ""
 
@@ -2436,7 +2597,7 @@ msgstr ""
 msgid "Your account is now active"
 msgstr ""
 
-#: admin/wp-security-list-login-fails.php:130
+#: admin/wp-security-list-login-fails.php:135
 msgid "Nonce check failed for delete failed login record operation!"
 msgstr ""
 
@@ -2485,18 +2646,13 @@ msgstr ""
 msgid "Nonce check failed for delete selected blocked IP operation!"
 msgstr ""
 
-#: admin/wp-security-list-acct-activity.php:138
-#: admin/wp-security-list-login-fails.php:138
+#: admin/wp-security-list-login-fails.php:143
+#: admin/wp-security-list-acct-activity.php:144
 msgid "The selected entry was deleted successfully!"
 msgstr ""
 
-#: admin/wp-security-list-acct-activity.php:130
+#: admin/wp-security-list-acct-activity.php:136
 msgid "Nonce check failed for delete selected account activity logs operation!"
-msgstr ""
-
-#: admin/wp-security-list-acct-activity.php:118
-#: admin/wp-security-list-login-fails.php:118
-msgid "The selected entries were deleted successfully!"
 msgstr ""
 
 #: admin/wp-security-list-404.php:259
@@ -2524,18 +2680,18 @@ msgstr ""
 msgid "Could not process the request because the IP addresses for the selected entries could not be found!"
 msgstr ""
 
+#: admin/wp-security-list-comment-spammer-ip.php:95
+#: admin/wp-security-list-permanent-blocked-ip.php:96
+#: admin/wp-security-list-login-fails.php:86
 #: admin/wp-security-list-404.php:121
 #: admin/wp-security-list-404.php:129
 #: admin/wp-security-list-404.php:136
 #: admin/wp-security-list-acct-activity.php:87
-#: admin/wp-security-list-comment-spammer-ip.php:95
-#: admin/wp-security-list-locked-ip.php:94
-#: admin/wp-security-list-locked-ip.php:105
-#: admin/wp-security-list-login-fails.php:86
-#: admin/wp-security-list-permanent-blocked-ip.php:96
 #: admin/wp-security-list-registered-users.php:104
 #: admin/wp-security-list-registered-users.php:115
 #: admin/wp-security-list-registered-users.php:126
+#: admin/wp-security-list-locked-ip.php:94
+#: admin/wp-security-list-locked-ip.php:105
 msgid "Please select some records using the checkboxes"
 msgstr ""
 
@@ -2717,9 +2873,9 @@ msgstr ""
 msgid "A Hotlink is where someone displays an image on their site which is actually located on your site by using a direct link to the source of the image on your server."
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:32
 #: admin/wp-security-firewall-menu.php:750
 #: admin/wp-security-firewall-menu.php:772
-#: classes/grade-system/wp-security-feature-item-manager.php:32
 msgid "Prevent Image Hotlinking"
 msgstr ""
 
@@ -2743,9 +2899,9 @@ msgstr ""
 msgid "Check this if you want to block all fake Googlebots."
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:103
 #: admin/wp-security-firewall-menu.php:687
 #: admin/wp-security-firewall-menu.php:697
-#: classes/grade-system/wp-security-feature-item-manager.php:102
 msgid "Block Fake Googlebots"
 msgstr ""
 
@@ -2882,8 +3038,8 @@ msgstr ""
 msgid "Enable Advanced Character String Filter"
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:101
 #: admin/wp-security-firewall-menu.php:480
-#: classes/grade-system/wp-security-feature-item-manager.php:100
 msgid "Advanced Character String Filter"
 msgstr ""
 
@@ -2948,8 +3104,8 @@ msgstr ""
 msgid "Check this if you want to disable trace and track."
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:98
 #: admin/wp-security-firewall-menu.php:402
-#: classes/grade-system/wp-security-feature-item-manager.php:97
 msgid "Disable Trace and Track"
 msgstr ""
 
@@ -2973,8 +3129,8 @@ msgstr ""
 msgid "Check this if you want to disable directory and file listing."
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:97
 #: admin/wp-security-firewall-menu.php:372
-#: classes/grade-system/wp-security-feature-item-manager.php:96
 msgid "Disable Index Views"
 msgstr ""
 
@@ -3022,7 +3178,7 @@ msgstr ""
 msgid "Block Access to debug.log File"
 msgstr ""
 
-#: classes/grade-system/wp-security-feature-item-manager.php:85
+#: classes/grade-system/wp-security-feature-item-manager.php:86
 msgid "Block Accesss to Debug Log File"
 msgstr ""
 
@@ -3115,12 +3271,12 @@ msgstr ""
 msgid "Firewall Settings"
 msgstr ""
 
+#: admin/wp-security-user-registration-menu.php:102
 #: admin/wp-security-firewall-menu.php:120
 #: admin/wp-security-firewall-menu.php:742
 #: admin/wp-security-spam-menu.php:110
 #: admin/wp-security-spam-menu.php:454
 #: admin/wp-security-spam-menu.php:516
-#: admin/wp-security-user-registration-menu.php:102
 msgid "Settings were successfully saved"
 msgstr ""
 
@@ -3260,8 +3416,8 @@ msgstr ""
 msgid "The Wordpress Dashboard by default allows administrators to edit PHP files, such as plugin and theme files."
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:74
 #: admin/wp-security-filesystem-menu.php:219
-#: classes/grade-system/wp-security-feature-item-manager.php:73
 msgid "File Editing"
 msgstr ""
 
@@ -3337,8 +3493,8 @@ msgstr ""
 msgid "PHP File Editing"
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:72
 #: admin/wp-security-filesystem-menu.php:26
-#: classes/grade-system/wp-security-feature-item-manager.php:71
 msgid "File Permissions"
 msgstr ""
 
@@ -3600,8 +3756,8 @@ msgstr ""
 msgid "Malware Scan"
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:115
 #: admin/wp-security-filescan-menu.php:26
-#: classes/grade-system/wp-security-feature-item-manager.php:114
 msgid "File Change Detection"
 msgstr ""
 
@@ -3656,8 +3812,8 @@ msgstr ""
 msgid "A backup copy of your wp-config.php file was created successfully!"
 msgstr ""
 
-#: admin/wp-security-database-menu.php:397
 #: classes/wp-security-utility.php:282
+#: admin/wp-security-database-menu.php:397
 msgid "Failed to make a backup of the wp-config.php file. This operation will not go ahead."
 msgstr ""
 
@@ -3698,18 +3854,18 @@ msgstr ""
 msgid "Set the value for how often you would like an automated backup to occur"
 msgstr ""
 
-#: admin/wp-security-database-menu.php:337
 #: admin/wp-security-filescan-menu.php:304
+#: admin/wp-security-database-menu.php:337
 msgid "Weeks"
 msgstr ""
 
-#: admin/wp-security-database-menu.php:336
 #: admin/wp-security-filescan-menu.php:303
+#: admin/wp-security-database-menu.php:336
 msgid "Days"
 msgstr ""
 
-#: admin/wp-security-database-menu.php:335
 #: admin/wp-security-filescan-menu.php:302
+#: admin/wp-security-database-menu.php:335
 msgid "Hours"
 msgstr "तास"
 
@@ -3746,8 +3902,8 @@ msgstr ""
 msgid "You entered a non numeric value for the \"number of backup files to keep\" field. It has been set to the default value."
 msgstr ""
 
-#: admin/wp-security-database-menu.php:255
 #: admin/wp-security-filescan-menu.php:136
+#: admin/wp-security-database-menu.php:255
 msgid "You entered a non numeric value for the \"backup time interval\" field. It has been set to the default value."
 msgstr ""
 
@@ -3763,8 +3919,8 @@ msgstr ""
 msgid "DB Backup was successfully completed! You will receive the backup file via email if you have enabled \"Send Backup File Via Email\", otherwise you can retrieve it via FTP from the following directory:"
 msgstr ""
 
-#: admin/wp-security-database-menu.php:212
 #: admin/wp-security-filesystem-menu.php:87
+#: admin/wp-security-database-menu.php:212
 msgid "Nonce check failed for manual DB backup operation!"
 msgstr ""
 
@@ -3842,34 +3998,34 @@ msgstr ""
 msgid "Nonce check failed for DB prefix change operation!"
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:66
 #: admin/wp-security-database-menu.php:33
-#: classes/grade-system/wp-security-feature-item-manager.php:65
 msgid "DB Prefix"
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:68
 #: admin/wp-security-database-menu.php:29
 #: admin/wp-security-database-menu.php:34
-#: classes/grade-system/wp-security-feature-item-manager.php:67
 msgid "DB Backup"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:422
+#: admin/wp-security-dashboard-menu.php:423
 msgid "Log file is empty!"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:408
+#: admin/wp-security-dashboard-menu.php:409
 msgid "Log File Contents For"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:380
+#: admin/wp-security-dashboard-menu.php:381
 msgid "View Logs"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:375
+#: admin/wp-security-dashboard-menu.php:376
 msgid "Select one of the log files to view the contents"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:364
+#: admin/wp-security-dashboard-menu.php:365
 msgid "--Select a file--"
 msgstr ""
 
@@ -3877,7 +4033,7 @@ msgstr ""
 msgid "Backup Time Interval"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:352
+#: admin/wp-security-dashboard-menu.php:353
 msgid "View Logs for All In WP Security & Firewall Plugin"
 msgstr ""
 
@@ -3889,9 +4045,9 @@ msgstr ""
 msgid "Plugin URL"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:221
 #: admin/wp-security-filesystem-menu.php:140
 #: admin/wp-security-filesystem-menu.php:159
+#: admin/wp-security-dashboard-menu.php:221
 msgid "Name"
 msgstr "नाव"
 
@@ -4008,142 +4164,142 @@ msgstr ""
 msgid "Site Info"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:817
+#: admin/wp-security-dashboard-menu.php:818
 msgid "Number of temporarily locked out IP addresses: "
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:814
+#: admin/wp-security-dashboard-menu.php:815
 msgid "There are no IP addresses currently locked out."
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:804
+#: admin/wp-security-dashboard-menu.php:805
 msgid "There are no other users currently logged in."
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:800
+#: admin/wp-security-dashboard-menu.php:801
 msgid "Number of users currently logged into your site (including you) is:"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:790
+#: admin/wp-security-dashboard-menu.php:791
 msgid "There are no other site-wide users currently logged in."
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:787
-#: admin/wp-security-dashboard-menu.php:801
-#: admin/wp-security-dashboard-menu.php:818
+#: admin/wp-security-dashboard-menu.php:788
+#: admin/wp-security-dashboard-menu.php:802
+#: admin/wp-security-dashboard-menu.php:819
 msgid "Go to the %s menu to see more details"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:786
+#: admin/wp-security-dashboard-menu.php:787
 msgid "Number of users currently logged in site-wide is:"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:488
+#: admin/wp-security-dashboard-menu.php:489
 #: admin/wp-security-user-login-menu.php:32
 msgid "Logged In Users"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:754
-#: admin/wp-security-dashboard-menu.php:772
+#: admin/wp-security-dashboard-menu.php:755
+#: admin/wp-security-dashboard-menu.php:773
 msgid "Your new WordPress login URL is now:"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:753
-#: admin/wp-security-dashboard-menu.php:771
+#: admin/wp-security-dashboard-menu.php:754
+#: admin/wp-security-dashboard-menu.php:772
 msgid "The %s feature is currently active."
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:749
+#: admin/wp-security-dashboard-menu.php:750
 msgid "Cookie-Based Brute Force"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:731
+#: admin/wp-security-dashboard-menu.php:732
 msgid "Maintenance Mode"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:727
+#: admin/wp-security-dashboard-menu.php:728
 msgid "Maintenance mode is currently off."
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:725
+#: admin/wp-security-dashboard-menu.php:726
 msgid "Maintenance mode is currently enabled. Remember to turn it off when you are done"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:483
+#: admin/wp-security-dashboard-menu.php:484
 msgid "Maintenance Mode Status"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:704
+#: admin/wp-security-dashboard-menu.php:705
 msgid "IP"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:703
+#: admin/wp-security-dashboard-menu.php:704
 msgid "Date"
 msgstr "दिनांक"
 
-#: admin/wp-security-dashboard-menu.php:702
+#: admin/wp-security-dashboard-menu.php:703
 msgid "User"
 msgstr "वापरकर्ता"
 
-#: admin/wp-security-dashboard-menu.php:698
+#: admin/wp-security-dashboard-menu.php:699
 msgid "Last 5 logins summary:"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:694
+#: admin/wp-security-dashboard-menu.php:695
 msgid "No data found!"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:482
+#: admin/wp-security-dashboard-menu.php:483
 msgid "Last 5 Logins"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:665
+#: admin/wp-security-dashboard-menu.php:666
 msgid "Basic Firewall"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:650
+#: admin/wp-security-dashboard-menu.php:651
 msgid "File Permission"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:635
-#: admin/wp-security-user-login-menu.php:28
 #: classes/grade-system/wp-security-feature-item-manager.php:42
+#: admin/wp-security-dashboard-menu.php:636
+#: admin/wp-security-user-login-menu.php:28
 msgid "Login Lockdown"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:620
+#: admin/wp-security-dashboard-menu.php:621
 msgid "Admin Username"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:616
+#: admin/wp-security-dashboard-menu.php:617
 msgid "Below is the current status of the critical features that you should activate on your site to achieve a minimum level of recommended security"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:481
+#: admin/wp-security-dashboard-menu.php:482
 msgid "Critical Feature Status"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:587
+#: admin/wp-security-dashboard-menu.php:588
 msgid "We are working hard to make your WordPress site more secure. Please support us, here is how:"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:479
+#: admin/wp-security-dashboard-menu.php:480
 msgid "Spread the Word"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:478
+#: admin/wp-security-dashboard-menu.php:479
 msgid "Security Points Breakdown"
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:534
+#: admin/wp-security-dashboard-menu.php:535
 msgid "Current Score of Your Site: "
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:532
+#: admin/wp-security-dashboard-menu.php:533
 msgid "Total Achievable Points: "
 msgstr ""
 
-#: admin/wp-security-dashboard-menu.php:477
+#: admin/wp-security-dashboard-menu.php:478
 msgid "Security Strength Meter"
 msgstr ""
 
@@ -4152,7 +4308,7 @@ msgid "AIOWPS Logs"
 msgstr ""
 
 #: admin/wp-security-dashboard-menu.php:30
-#: admin/wp-security-dashboard-menu.php:489
+#: admin/wp-security-dashboard-menu.php:490
 msgid "Locked IP Addresses"
 msgstr ""
 
@@ -4160,130 +4316,130 @@ msgstr ""
 msgid "System Info"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:879
+#: admin/wp-security-brute-force-menu.php:893
 msgid "Check this if you want to enable the honeypot feature for the login page"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:876
+#: admin/wp-security-brute-force-menu.php:890
 msgid "Enable Honeypot On Login Page"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:865
+#: admin/wp-security-brute-force-menu.php:879
 msgid "Login Form Honeypot Settings"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:859
+#: admin/wp-security-brute-force-menu.php:873
 msgid "Therefore, if the plugin detects that this field has a value when the login form is submitted, then the robot which is attempting to login to your site will be redirected to its localhost address - http://127.0.0.1."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:858
-#: admin/wp-security-user-registration-menu.php:279
+#: admin/wp-security-brute-force-menu.php:872
+#: admin/wp-security-user-registration-menu.php:286
 msgid "The way honeypots work is that a hidden field is placed somewhere inside a form which only robots will submit. If that field contains a value when the form is submitted then a robot has most likely submitted the form and it is consequently dealt with."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:857
+#: admin/wp-security-brute-force-menu.php:871
 msgid "Since robots usually fill in every input field from a login form, they will also submit a value for the special hidden honeypot field."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:856
+#: admin/wp-security-brute-force-menu.php:870
 msgid "This feature allows you to add a special hidden \"honeypot\" field on the WordPress login page. This will only be visible to robots and not humans."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:805
+#: admin/wp-security-brute-force-menu.php:819
 msgid "Enter one or more IP addresses or IP ranges you wish to include in your whitelist. Only the addresses specified here will have access to the WordPress login page."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:801
+#: admin/wp-security-brute-force-menu.php:815
 #: admin/wp-security-user-login-menu.php:347
 msgid "Enter Whitelisted IP Addresses:"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:797
+#: admin/wp-security-brute-force-menu.php:811
 msgid "You can copy and paste this address in the text box below if you want to include it in your login whitelist."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:794
+#: admin/wp-security-brute-force-menu.php:808
 msgid "Your Current IP Address"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:790
+#: admin/wp-security-brute-force-menu.php:804
 #: admin/wp-security-user-login-menu.php:343
 msgid "Check this if you want to enable the whitelisting of selected IP addresses specified in the settings below"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:787
+#: admin/wp-security-brute-force-menu.php:801
 msgid "Enable IP Whitelisting"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:776
+#: admin/wp-security-brute-force-menu.php:790
 msgid "Login IP Whitelist Settings"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:771
+#: admin/wp-security-brute-force-menu.php:785
 msgid "These features are NOT functionally related. Having both of them enabled on your site means you are creating 2 layers of security."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:770
+#: admin/wp-security-brute-force-menu.php:784
 msgid "Attention: If in addition to enabling the white list feature, you also have one of the %s or %s features enabled, <strong>you will still need to use your secret word or special slug in the URL when trying to access your WordPress login page</strong>."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:762
+#: admin/wp-security-brute-force-menu.php:776
 msgid "By allowing/blocking IP addresses via the .htaccess file your are using the most secure first line of defence because login access will only be granted to whitelisted IP addresses and other addresses will be blocked as soon as they try to access your login page."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:761
+#: admin/wp-security-brute-force-menu.php:775
 msgid "The plugin achieves this by writing the appropriate directives to your .htaccess file."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:760
+#: admin/wp-security-brute-force-menu.php:774
 msgid "This feature will deny login access for all IP addresses which are not in your whitelist as configured in the settings below."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:759
+#: admin/wp-security-brute-force-menu.php:773
 msgid "The All In One WP Security Whitelist feature gives you the option of only allowing certain IP addresses or ranges to have access to your WordPress login page."
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:702
+#: admin/wp-security-brute-force-menu.php:716
 msgid "Nonce check failed for save whitelist settings!"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:680
+#: admin/wp-security-brute-force-menu.php:632
 msgid "Check this if you want to insert a captcha form on the lost password page"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:677
+#: admin/wp-security-brute-force-menu.php:629
 msgid "Enable Captcha On Lost Password Page"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:667
+#: admin/wp-security-brute-force-menu.php:619
 msgid "Lost Password Form Captcha Settings"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:630
+#: admin/wp-security-brute-force-menu.php:650
 msgid "Check this if you want to insert captcha on a custom login form generated by the following WP function: wp_login_form()"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:627
+#: admin/wp-security-brute-force-menu.php:647
 msgid "Enable Captcha On Custom Login Form"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:618
+#: admin/wp-security-brute-force-menu.php:638
 msgid "Custom Login Form Captcha Settings"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:612
+#: admin/wp-security-brute-force-menu.php:613
 msgid "Check this if you want to insert a captcha form on the login page"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:609
+#: admin/wp-security-brute-force-menu.php:610
 msgid "Enable Captcha On Login Page"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:600
+#: admin/wp-security-brute-force-menu.php:601
 msgid "Login Form Captcha Settings"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:559
+#: admin/wp-security-brute-force-menu.php:560
 msgid "Adding a captcha form on a login page or form is another effective yet simple \"Brute Force\" prevention technique."
 msgstr ""
 
@@ -4411,8 +4567,8 @@ msgstr ""
 msgid "Check this if you want to protect your login page from Brute Force Attack."
 msgstr ""
 
+#: classes/grade-system/wp-security-feature-item-manager.php:96
 #: admin/wp-security-brute-force-menu.php:384
-#: classes/grade-system/wp-security-feature-item-manager.php:95
 msgid "Enable Brute Force Attack Prevention"
 msgstr ""
 
@@ -4458,8 +4614,8 @@ msgstr ""
 #: admin/wp-security-firewall-menu.php:337
 #: admin/wp-security-firewall-menu.php:558
 #: admin/wp-security-firewall-menu.php:746
-#: admin/wp-security-settings-menu.php:636
 #: admin/wp-security-spam-menu.php:114
+#: admin/wp-security-settings-menu.php:636
 msgid "Could not write to the .htaccess file. Please check the file permissions."
 msgstr ""
 
@@ -4544,13 +4700,13 @@ msgid "Could not delete the Cookie-based directives from the .htaccess file. Ple
 msgstr ""
 
 #: admin/wp-security-brute-force-menu.php:121
-#: admin/wp-security-database-menu.php:275
-#: admin/wp-security-filescan-menu.php:178
 #: admin/wp-security-firewall-menu.php:846
 #: admin/wp-security-spam-menu.php:226
 #: admin/wp-security-spam-menu.php:260
+#: admin/wp-security-filescan-menu.php:178
+#: admin/wp-security-database-menu.php:275
 #: admin/wp-security-user-login-menu.php:142
-#: admin/wp-security-user-login-menu.php:491
+#: admin/wp-security-user-login-menu.php:498
 msgid "Attention!"
 msgstr ""
 
@@ -4571,12 +4727,12 @@ msgid "Honeypot"
 msgstr ""
 
 #: admin/wp-security-brute-force-menu.php:32
-#: admin/wp-security-brute-force-menu.php:756
+#: admin/wp-security-brute-force-menu.php:770
 msgid "Login Whitelist"
 msgstr ""
 
-#: admin/wp-security-brute-force-menu.php:31
 #: classes/grade-system/wp-security-feature-item-manager.php:44
+#: admin/wp-security-brute-force-menu.php:31
 msgid "Login Captcha"
 msgstr ""
 
@@ -4585,35 +4741,35 @@ msgid "Cookie Based Brute Force Prevention"
 msgstr ""
 
 #: admin/wp-security-brute-force-menu.php:29
-#: admin/wp-security-dashboard-menu.php:768
+#: admin/wp-security-dashboard-menu.php:769
 msgid "Rename Login Page"
 msgstr ""
 
-#: admin/wp-security-blacklist-menu.php:233
 #: admin/wp-security-brute-force-menu.php:228
-#: admin/wp-security-brute-force-menu.php:685
-#: admin/wp-security-brute-force-menu.php:823
-#: admin/wp-security-brute-force-menu.php:885
-#: admin/wp-security-database-menu.php:358
-#: admin/wp-security-filescan-menu.php:354
-#: admin/wp-security-filesystem-menu.php:249
-#: admin/wp-security-firewall-menu.php:779
-#: admin/wp-security-firewall-menu.php:956
+#: admin/wp-security-brute-force-menu.php:699
+#: admin/wp-security-brute-force-menu.php:837
+#: admin/wp-security-brute-force-menu.php:899
+#: admin/wp-security-user-registration-menu.php:157
+#: admin/wp-security-user-registration-menu.php:250
+#: admin/wp-security-user-registration-menu.php:313
 #: admin/wp-security-misc-options-menu.php:174
 #: admin/wp-security-misc-options-menu.php:225
 #: admin/wp-security-misc-options-menu.php:285
-#: admin/wp-security-settings-menu.php:542
-#: admin/wp-security-settings-menu.php:782
+#: admin/wp-security-filesystem-menu.php:249
+#: admin/wp-security-firewall-menu.php:779
+#: admin/wp-security-firewall-menu.php:956
+#: admin/wp-security-blacklist-menu.php:233
 #: admin/wp-security-spam-menu.php:190
 #: admin/wp-security-spam-menu.php:365
 #: admin/wp-security-spam-menu.php:486
 #: admin/wp-security-spam-menu.php:548
+#: admin/wp-security-filescan-menu.php:354
+#: admin/wp-security-database-menu.php:358
 #: admin/wp-security-user-login-menu.php:320
 #: admin/wp-security-user-login-menu.php:366
-#: admin/wp-security-user-login-menu.php:538
-#: admin/wp-security-user-registration-menu.php:157
-#: admin/wp-security-user-registration-menu.php:243
-#: admin/wp-security-user-registration-menu.php:306
+#: admin/wp-security-user-login-menu.php:545
+#: admin/wp-security-settings-menu.php:542
+#: admin/wp-security-settings-menu.php:782
 msgid "Save Settings"
 msgstr ""
 
@@ -4637,20 +4793,20 @@ msgstr ""
 msgid "Enter User Agents:"
 msgstr ""
 
+#: admin/wp-security-brute-force-menu.php:827
 #: admin/wp-security-blacklist-menu.php:206
-#: admin/wp-security-brute-force-menu.php:813
 #: admin/wp-security-user-login-menu.php:359
 msgid "Example 3: 195.*.*.*"
 msgstr ""
 
+#: admin/wp-security-brute-force-menu.php:826
 #: admin/wp-security-blacklist-menu.php:205
-#: admin/wp-security-brute-force-menu.php:812
 #: admin/wp-security-user-login-menu.php:358
 msgid "Example 2: 195.47.*.*"
 msgstr ""
 
+#: admin/wp-security-brute-force-menu.php:825
 #: admin/wp-security-blacklist-menu.php:204
-#: admin/wp-security-brute-force-menu.php:811
 #: admin/wp-security-user-login-menu.php:357
 msgid "Example 1: 195.47.89.*"
 msgstr ""
@@ -4660,21 +4816,17 @@ msgstr ""
 msgid "To specify an IP range use a wildcard \"*\" character. Acceptable ways to use wildcards is shown in the examples below:"
 msgstr ""
 
+#: admin/wp-security-brute-force-menu.php:823
 #: admin/wp-security-blacklist-menu.php:202
-#: admin/wp-security-brute-force-menu.php:809
 #: admin/wp-security-user-login-menu.php:355
 msgid "Each IP address must be on a new line."
 msgstr ""
 
-#: admin/wp-security-blacklist-menu.php:199
-#: admin/wp-security-blacklist-menu.php:219
 #: admin/wp-security-brute-force-menu.php:388
 #: admin/wp-security-brute-force-menu.php:422
 #: admin/wp-security-brute-force-menu.php:445
 #: admin/wp-security-brute-force-menu.php:466
-#: admin/wp-security-brute-force-menu.php:806
-#: admin/wp-security-filescan-menu.php:314
-#: admin/wp-security-filescan-menu.php:331
+#: admin/wp-security-brute-force-menu.php:820
 #: admin/wp-security-firewall-menu.php:173
 #: admin/wp-security-firewall-menu.php:203
 #: admin/wp-security-firewall-menu.php:223
@@ -4689,11 +4841,15 @@ msgstr ""
 #: admin/wp-security-firewall-menu.php:701
 #: admin/wp-security-firewall-menu.php:914
 #: admin/wp-security-firewall-menu.php:937
-#: admin/wp-security-settings-menu.php:771
+#: admin/wp-security-blacklist-menu.php:199
+#: admin/wp-security-blacklist-menu.php:219
 #: admin/wp-security-spam-menu.php:175
 #: admin/wp-security-spam-menu.php:348
 #: admin/wp-security-spam-menu.php:390
+#: admin/wp-security-filescan-menu.php:314
+#: admin/wp-security-filescan-menu.php:331
 #: admin/wp-security-user-login-menu.php:352
+#: admin/wp-security-settings-menu.php:771
 msgid "More Info"
 msgstr ""
 
@@ -4737,12 +4893,12 @@ msgstr ""
 msgid "Ban IPs or User Agents"
 msgstr ""
 
-#: admin/wp-security-blacklist-menu.php:139
-#: admin/wp-security-brute-force-menu.php:749
-#: admin/wp-security-firewall-menu.php:1053
-#: admin/wp-security-list-404.php:221
+#: classes/wp-security-general-init-tasks.php:301
+#: admin/wp-security-brute-force-menu.php:763
 #: admin/wp-security-list-comment-spammer-ip.php:205
-#: classes/wp-security-general-init-tasks.php:272
+#: admin/wp-security-firewall-menu.php:1053
+#: admin/wp-security-blacklist-menu.php:139
+#: admin/wp-security-list-404.php:221
 msgid "The plugin was unable to write to the .htaccess file. Please edit file manually."
 msgstr ""
 
@@ -4762,151 +4918,116 @@ msgstr ""
 msgid "Settings successfully updated."
 msgstr ""
 
-#: admin/wp-security-admin-init.php:322
 #: admin/wp-security-misc-options-menu.php:64
+#: admin/wp-security-admin-init.php:320
 msgid "Miscellaneous"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:321
 #: admin/wp-security-maintenance-menu.php:58
+#: admin/wp-security-admin-init.php:319
 msgid "Maintenance"
 msgstr "मेन्टेनन्स"
 
-#: admin/wp-security-admin-init.php:319
+#: admin/wp-security-admin-init.php:317
 #: admin/wp-security-filescan-menu.php:60
 msgid "Scanner"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:315
 #: admin/wp-security-spam-menu.php:64
+#: admin/wp-security-admin-init.php:313
 msgid "SPAM Prevention"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:314
 #: admin/wp-security-brute-force-menu.php:72
+#: admin/wp-security-admin-init.php:312
 msgid "Brute Force"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:312
 #: admin/wp-security-firewall-menu.php:67
+#: admin/wp-security-admin-init.php:310
 msgid "Firewall"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:307
 #: admin/wp-security-blacklist-menu.php:58
+#: admin/wp-security-admin-init.php:305
 msgid "Blacklist Manager"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:303
-#: admin/wp-security-whois-menu.php:58
-msgid "WHOIS Lookup"
-msgstr ""
-
-#: admin/wp-security-admin-init.php:301
 #: admin/wp-security-filesystem-menu.php:62
+#: admin/wp-security-admin-init.php:300
 msgid "Filesystem Security"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:297
+#: admin/wp-security-admin-init.php:296
 #: admin/wp-security-database-menu.php:69
 msgid "Database Security"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:296
 #: admin/wp-security-user-registration-menu.php:62
+#: admin/wp-security-admin-init.php:295
 msgid "User Registration"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:295
+#: admin/wp-security-admin-init.php:294
 #: admin/wp-security-user-login-menu.php:65
 msgid "User Login"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:294
+#: admin/wp-security-admin-init.php:293
 #: admin/wp-security-user-accounts-menu.php:67
 msgid "User Accounts"
 msgstr ""
 
-#: admin/wp-security-admin-init.php:293
+#: admin/wp-security-admin-init.php:292
 #: admin/wp-security-settings-menu.php:68
 msgid "Settings"
 msgstr "सेटिंग्स"
 
-#: admin/wp-security-admin-init.php:292
 #: admin/wp-security-dashboard-menu.php:28
 #: admin/wp-security-dashboard-menu.php:64
+#: admin/wp-security-admin-init.php:291
 msgid "Dashboard"
 msgstr "डॅशबोर्ड"
 
-#: admin/wp-security-admin-init.php:291
+#: admin/wp-security-admin-init.php:290
 msgid "WP Security"
 msgstr ""
 
-#: admin/general/wp-security-list-table.php:657
+#: admin/general/wp-security-list-table.php:1103
 msgid "Select All"
 msgstr "सर्व निवडा"
 
-#: admin/general/wp-security-list-table.php:532
-msgid "Go to the last page"
-msgstr ""
-
-#: admin/general/wp-security-list-table.php:525
-msgid "Go to the next page"
-msgstr ""
-
-#: admin/general/wp-security-list-table.php:521
+#: admin/general/wp-security-list-table.php:862
 msgctxt "paging"
 msgid "%1$s of %2$s"
 msgstr ""
 
-#: admin/general/wp-security-list-table.php:515
-msgid "Current page"
+#: admin/general/wp-security-list-table.php:852
+#: admin/general/wp-security-list-table.php:856
+msgid "Current Page"
 msgstr "सध्याचे पेज"
 
-#: admin/general/wp-security-list-table.php:506
-msgid "Go to the previous page"
-msgstr ""
-
-#: admin/general/wp-security-list-table.php:499
-msgid "Go to the first page"
-msgstr ""
-
-#: admin/general/wp-security-list-table.php:481
-#: admin/general/wp-security-list-table.php:885
-msgid "1 item"
-msgid_plural "%s items"
-msgstr[0] ""
-msgstr[1] ""
-
-#: admin/general/wp-security-list-table.php:425
-msgid "%s pending"
-msgstr ""
-
-#: admin/general/wp-security-list-table.php:399
+#: admin/general/wp-security-list-table.php:174
 msgid "Excerpt View"
 msgstr "उतारा पहा"
 
-#: admin/general/wp-security-list-table.php:398
+#: admin/general/wp-security-list-table.php:173
 msgid "List View"
 msgstr "सूची पहा"
 
 #. translators: 1: month name, 2: 4-digit year
-#: admin/general/wp-security-list-table.php:382
+#: admin/general/wp-security-list-table.php:617
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
-#: admin/general/wp-security-list-table.php:369
-msgid "Show all dates"
-msgstr ""
-
-#: admin/general/wp-security-list-table.php:295
+#: admin/general/wp-security-list-table.php:480
 msgid "Apply"
 msgstr "लागू करा"
 
-#: admin/general/wp-security-list-table.php:285
+#: admin/general/wp-security-list-table.php:470
 msgid "Bulk Actions"
 msgstr "मोठ्या प्रमाणात क्रिया"
 
-#: admin/general/wp-security-list-table.php:182
+#: admin/general/wp-security-list-table.php:339
 msgid "No items found."
 msgstr "कोणतेही आयटम आढळले नाहीत."

@@ -1,0 +1,280 @@
+# Translation of Plugins - Easy WP SMTP - Stable Readme (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - Easy WP SMTP - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - Easy WP SMTP - Stable Readme (latest release)\n"
+
+#. Short description.
+msgid "Easily send emails from your WordPress blog using your preferred SMTP server"
+msgstr ""
+
+#. Name.
+msgid "Easy WP SMTP"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Inspired by <a href=\"http://wordpress.org/plugins/wp-mail-smtp/\">WP Mail SMTP</a> plugin"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Other Notes"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes."
+msgstr ""
+
+#. Found in faq header.
+msgid "Can this plugin be used to send emails via SMTP?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Now, go to the settings menu of the plugin and follow the instructions"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click Install Now and then activate the plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Browse for the plugin file (easy-wp-smtp.zip)"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click the upload tab"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the Add New plugins screen in your WordPress admin area"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Once you click the \"Send Test Email\" button the plugin will try to send an email to the recipient specified in the \"To\" field."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This section allows you to perform some email testing to make sure that your WordPress site is ready to relay all outgoing emails to your configured SMTP server. It consists of the following options:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>b)</strong> Easy WP SMTP Testing &amp; Debugging Settings"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For detailed documentation on how you can configure these options please visit the <a href=\"https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197\">Easy WordPress SMTP</a> plugin page"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The general settings section consists of the following options"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>a)</strong> Easy WP SMTP General Settings"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Once you have installed the plugin there are some options that you need to configure in the plugin setttings (go to <code>Settings-&gt;Easy WP SMTP</code> from your WordPress Dashboard)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Easy WP SMTP allows you to configure and send all outgoing emails via a SMTP server. This will prevent your emails from going into the junk/spam folder of the recipients."
+msgstr ""
+
+#. Found in description list item.
+msgid "Message: A textarea to write your test message."
+msgstr ""
+
+#. Found in description list item.
+msgid "Subject: The subject of your message"
+msgstr ""
+
+#. Found in description list item.
+msgid "To: The email address that will be used to send emails to your recipients"
+msgstr ""
+
+#. Found in description list item.
+msgid "Password: The password that you use to login to your mail server"
+msgstr ""
+
+#. Found in description list item.
+msgid "Username: The username that you use to login to your mail server"
+msgstr ""
+
+#. Found in description list item.
+msgid "SMTP Authentication: No/Yes (This option should always be checked \"Yes\")"
+msgstr ""
+
+#. Found in description list item.
+msgid "SMTP Port: The port that will be used to relay outbound mail to your mail server (example: 465)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Type of Encryption: none/SSL/TLS"
+msgstr ""
+
+#. Found in description list item.
+msgid "SMTP Host: Your outgoing mail server (example: smtp.gmail.com)"
+msgstr ""
+
+#. Found in description list item.
+msgid "From Name: The name your recipients will see as part of the \"from\" or \"sender\" value when they receive your message"
+msgstr ""
+
+#. Found in description list item.
+msgid "From Email Address: The email address that will be used to send emails to your recipients"
+msgstr ""
+
+#. Found in description list item.
+msgid "Securely deliver emails to your recipients."
+msgstr ""
+
+#. Found in description list item.
+msgid "Seamlessly connect your WordPress blog with a mail server to handle all outgoing emails (it's as if the email has been composed inside your mail account)."
+msgstr ""
+
+#. Found in description list item.
+msgid "You can use Gmail, Yahoo, Hotmail's SMTP server if you have an account with them."
+msgstr ""
+
+#. Found in description list item.
+msgid "Send email using a SMTP sever."
+msgstr ""
+
+#. Found in description header.
+msgid "Easy WP SMTP Plugin Usage"
+msgstr ""
+
+#. Found in description header.
+msgid "Easy WP SMTP Features"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The test email details now gets saved after you use it. So you don't need to type it every single time you want to send a test email."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the admin interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Easy WP SMTP is now compatible with WordPress 4.4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Easy WP SMTP is now compatible with WordPress 4.5."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Display an error message near the top of admin pages if SMTP credentials are not configured."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set SMTPAutoTLS to false by default as it might cause issues if the server is advertising TLS with an invalid certificate."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First commit of the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where the debug output was being displayed on the front end"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a new option to the settings which allows a user to enable/disable SMTP debug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin is now compatible with WordPress 3.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "From Name field can now contain quotes. It will no longer be converted to '\\'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Reply-To\" text will no longer be added to the email header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin is now compatible with WordPress 3.7"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin now works with WordPress 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin now works with WordPress 3.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some bugs in the SMTP configuration and mail functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"The settings have been changed\" notice will only be displayed if a input field is changed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed an issue where the plugin CSS was affecting other input fields on the admin side."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The plugin will only override \"From Email Address\" and \"Name\" if they are not present"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"ReplyTo\" attribute will now be set when sending an email"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed \"ReplyTo\" attribute since it was causing compatibility issues with some form plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin will now also override the default from name and email (WordPress)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SMTP Password is now encoded before saving it to the wp_options table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a typo in the plugin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin will now force the from name and email address saved in the settings (just like version 1.1.1)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some character encoding issues of test email functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made some improvements to the encoding option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Easy SMTP now removes slashes from the \"From Name\" field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Easy SMTP is now compatible with WordPress 4.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Run additional checks on the password only if mbstring is enabled on the server. This should fix the issue with password input field not appearing on some servers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set email charset to utf-8 for test email functionality."
+msgstr ""

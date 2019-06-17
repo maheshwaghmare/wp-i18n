@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:20:44+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:39:20+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -21,456 +21,20 @@ msgstr ""
 msgid "WP Fastest Cache"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "to add \"event\" and \"artist\" custom post types for preload"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix vulnerability"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear the cache of a post which includes /%postname%/%post_id% permalink after the post is deleted"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to replace urls on data-cvpsrc and data-cvpset attribute with cdn-url"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to disabe lazy load for the amp pages"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to show warning if wp cron is disabled when a cache timeout rule is added"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to show single clear cache button for the pages"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to replace urls on data-large_image attribute with cdn-url"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to exclude LinkedInBot user-agent"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear cache of cloudflare afer restart preload"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix \"removing dollar sign with number\" on fixing pre tag"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to support non-latin characters for toolbar clear current page cache"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to support non-latin characters for exclude"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to add woff2 extensions for cdn"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix pre tag problem after minify html"
+#. Found in description paragraph.
+msgid "Wpfc supports Wordpress Multisite [<a href=\"https://www.wpfastestcache.com/blog/multi-site/\">Details</a>]"
 msgstr ""
 
 #. Found in faq paragraph.
 msgid "Yes, it works with IIS properly."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "to add webm, ogg and mp4 extensions for browser cache"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Clear Cache via URL [<a href=\"https://www.wpfastestcache.com/features/clear-cache-via-url/\">Details</a>]"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "refactoring of cdn_replace_urls()"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix Uncaught SyntaxError on cdn.js [<a href=\"https://wordpress.org/support/topic/uncaught-syntaxerror-cdn-js/\">Details</a>]"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to show warning if there is no zone on Cloudflare"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to show language option via php instead of javascript"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to define preload number manually [<a href=\"https://www.wpfastestcache.com/features/preload-settings/#preload-number\">Details</a>]"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to move the rules of Gtranslate at the top of WP Fastest Cache on .htaccess"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to replace urls on data-thumb attribute with cdn-url"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix error replace cdn-url"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix error on js combine feature"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to make Cloudflare CDN integration work with sub-domains"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix Revolution Slider Error"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to check wptouch-pro-view cookie "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to exclude woocommerce_items_in_cart cookie automatically "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to serve the sources of Rev Slider if the cdn integration is enabled"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Microsoft IIS support"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Compatible with Fast Velocity Minify"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix removing the escaped slashes of Cloudflare Integration [<a href=\"https://wordpress.org/support/topic/wpfc-cf-is-stripping-important-code/\">Details</a>]"
-msgstr ""
-
 #. Found in description list item.
 msgid "Cloudflare support"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "to fix SyntaxError: Unexpected token M in JSON at position 0 error"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "not to load the css and js sources of clear cache button when toolar is not visible"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to set browser caching for Cloudflare"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to update russian translation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> to add Cloudflare integration"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "check if settings are indexed by multilang locales for WeePie Cookie Allow"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to move cdn functions to speed up wp fastest cache"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to rename the text on admin bar"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Compatible with WeePie Cookie Allow"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to create cache for mobile user-agents when mobile option is disabled"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix excluding googleanalytics problem"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to shorten the url of the minified and combined sources"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to add do_action() for deleteCache()"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to delete cache of pagination after new post"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> exclude archives"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "refactoring of delete_cache_of_term()"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix height problem of lightbox"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix 403 cdn template error"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to add WPFC_DISABLE_WEBP [<a href=\"http://www.wpfastestcache.com/premium/image-optimization/#disable-webp\">Details</a>]"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> exclude Google Analytics Parameters [<a href=\"http://www.wpfastestcache.com/features/cache-url-with-google-analytics-parameters-querystring/#disable-cache-google-analytics-parameters\">Details</a>]"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to convert the uninstall method to uninstall.php"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to disable including powerfulhtml class for ajax request"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix excluding attachment pages problem"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to stop loading the admin functions if DOING_AJAX is set"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "refactoring of ignored()"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear all the cache if the visibility is converted to private"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to check  for 404 if the header return 200"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to show the cache of main content without query string if google analytics parameters are set [<a href=\"http://www.wpfastestcache.com/features/cache-url-with-google-analytics-parameters-querystring/\">Details</a>]"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to speed up getting db optimization statistics()"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix php notice trying to get property of non-object in delete_cache_of_term()"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix the problem of selecting chinese language automatically"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Restart Preload [<a href=\"http://www.wpfastestcache.com/features/restart-preload-after-completed/\">Details</a>]"
-msgstr ""
-
 #. Found in description list item.
 msgid "Disable Emoji - You can remove the emoji inline css and wp-emoji-release.min.js"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> to remove wordpress emojis [<a href=\"http://www.wpfastestcache.com/optimization/disableremove-wordpress-emojis/\">Details</a>]"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix the problem which show the same cache for every language on Polylang"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to remove \"via php\" text if WPFC_REMOVE_VIA_FOOTER_COMMENT is defined as true"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear of the post when WPML is active"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Compatible with Easy HTTPS (SSL) Redirection"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> exclude attachments"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix the errors of Undefined property: stdClass::$post, stdClass::$page, stdClass::$category"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to add AddType x-font/ttf for gzip"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to exclude the renamed my-account page of woocommerce"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Compatible with Cloudinary"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Compatible with WPML Multilingual Plugin"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Compatible with All In One Schema.org Rich Snippets"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear the pages cache of the categories and tags"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear cache after new Woocommerce orders"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to espace empty spaces for webp rules"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear widget cache after publishing a new post"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix problem on activation and deactivation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to decode path if it is not utf-8"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to exclude /sitemap_index.xml automatically for Yoast SEO"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to exclude /cart and /checkout automatically for Easy Digital Downloads"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to exclude /cart automatically for eCommerce Shopping Cart by WP EasyCart"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "refactoring of insertWebp()"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear the cache of category and tag after update"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to exclude the admins cookies for the cache automatically"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to add WPFC_HIDE_CLEAR_CACHE_BUTTON"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix Cannot modify header error"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix cache path for gtranslate"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to optimize the panel of wp fastest cache"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix image error on Structured Data Testing Tool when cdn is used"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> exclude categories, tags, posts and pages"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Preload for attachments"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Preload for tags"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to check that SG Optimizer is active or not"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to clear cache of tag and cat after product update"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "preload for woocommorce product category"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> to clear cache of post via post list"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to prevent to empty origin-url on cdn wizard"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to avoid removing www prefix from photon cdn-url"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Preload for woocommerce products"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> Preload for category"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix more than one cdn work concurrently"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "to fix BlogPosting error on Structured Data Testing Tool when cdn is used"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> WebP [<a href=\"http://www.wpfastestcache.com/premium/image-optimization/\">Details</a>]"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "<strong>[FEATURE]</strong> to clear cache of the post tags and the post categories after new post"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -486,7 +50,7 @@ msgid "Yes, it is compatible with WP-PostViews. The current post views appear on
 msgstr ""
 
 #. Found in faq paragraph.
-msgid "No, it is NOT compatible with WP Hide &amp; Security Enhancer."
+msgid "Yes, it is compatible with WP Hide &amp; Security Enhancer."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -659,10 +223,6 @@ msgstr ""
 
 #. Found in installation list item.
 msgid "Upload <code>wp-fastest-cache</code> to the <code>/wp-content/plugins/</code> directory"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Wpfc does not support Wordpress Multisite yet."
 msgstr ""
 
 #. Found in description paragraph.
@@ -910,6 +470,638 @@ msgstr ""
 
 #. Screenshot description.
 msgid "Performance Comparison"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix 403 forbidden error when the cdn-url is checking"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Widget Cache is compatible with WPML Multilingual Plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add application/x-font-opentype and application/x-font-truetype for browser caching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> to add Buffer Callback Filter [<a href=\"https://www.wpfastestcache.com/tutorial/buffer-callback-filter/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix Preload visiting page urls without end slashes problem [<a href=\"https://wordpress.org/support/topic/preload-visiting-page-urls-without-end-slashes/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to show cloudflare integration warning if it has not been added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix PHP Notice:  Undefined variable: preg_match_rule in preload.php on line 418"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear cache of parent categories after clearing category cache [<a href=\"https://wordpress.org/support/topic/cache-of-mother-categories-not-auto-deleting/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refactoring of read_file()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix \"Database Syntax Error\" [<a href=\"https://wordpress.org/support/topic/database-syntax-error-2/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix replacing origin-url with cdn-url for data-product_variations attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to prevent replace urls with cdn-url if the url has already been replaced with Jetpack"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add exclude rule for admin cookie as default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude urls on preload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to prevent replace urls with cdn-url if the url has already been replaced with cdn.shortpixel.ai"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to enable gzip for x-font/ttf"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to support MultiSite (Beta) [<a href=\"https://www.wpfastestcache.com/blog/multi-site/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix PHP Fatal error: Function name must be a string in /public_html/wp-content/plugins/wp-fastest-cache/inc/preload.php on line 316"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix PHP Notice: Undefined offset: -1 in  wp-fastest-cache/inc/js-utilities.php  on line 47."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear cache of author page after update/insert post"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> exclude woocommerce_items_in_cart cookie [<a href=\"https://www.wpfastestcache.com/tutorial/woocommerce-settings/#cart-widget\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add do_action(\"wpfc_is_cacheable_action\") the plugins to be able to detect that a page has been cached or not"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix cache deletion security issue of WP-PostRatings (CVE-2019-6726 by Sebastian Neef)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to disable webp image extension if cloudflare subscription is free"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refactoring of current_url()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add webm extension for cdn"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refactoring of is_amp()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude wishlist url of YITH WooCommerce Wishlist"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to replace lazy load blank.gif with cdn-url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix PHP Warning: file_exists(): open_basedir restriction in effect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude Twitterbot user-agent"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to increase the value of Cloudflare Browser Cache Expiration to 6 months"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix bug on language dropdown [<a href=\"https://wordpress.org/support/topic/bug-with-language-setting/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to increase browser cache time from 3 months to 4 months"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix url with replacing cdn-url on data-product_variations attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix PHP Fatal error: Call to undefined function add_settings_error()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Preload for custom post types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to prevent clearing cache after Ninja Form is submitted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to move \"cache timeout\" to under \"delete cache\" tab [<a href=\"https://www.wpfastestcache.com/features/cache-timeout-page/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to show cache if the url contains “gclid” (Google Click Identifier)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to show cache if the url contains “fbclid” (Facebook Click Identifier)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to support non-latin characters for clearing category cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add add_action('wp') for detection current page type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix url() problem for data:font/opentype"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to replace image urls of woocommerce variable with cdn-url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to change saving options and notice system"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to prevent running preload when cache is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix error which is Undefined index: SERVER_PORT"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add \"event\" and \"artist\" custom post types for preload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix vulnerability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear the cache of a post which includes /%postname%/%post_id% permalink after the post is deleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to replace urls on data-cvpsrc and data-cvpset attribute with cdn-url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to disabe lazy load for the amp pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to show warning if wp cron is disabled when a cache timeout rule is added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to show single clear cache button for the pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to replace urls on data-large_image attribute with cdn-url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude LinkedInBot user-agent"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear cache of cloudflare afer restart preload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix \"removing dollar sign with number\" on fixing pre tag"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to support non-latin characters for toolbar clear current page cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to support non-latin characters for exclude"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add woff2 extensions for cdn"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix pre tag problem after minify html"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add webm, ogg and mp4 extensions for browser cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Clear Cache via URL [<a href=\"https://www.wpfastestcache.com/features/clear-cache-via-url/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refactoring of cdn_replace_urls()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix Uncaught SyntaxError on cdn.js [<a href=\"https://wordpress.org/support/topic/uncaught-syntaxerror-cdn-js/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to show warning if there is no zone on Cloudflare"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to show language option via php instead of javascript"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to define preload number manually [<a href=\"https://www.wpfastestcache.com/features/preload-settings/#preload-number\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to move the rules of Gtranslate at the top of WP Fastest Cache on .htaccess"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to replace urls on data-thumb attribute with cdn-url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix error replace cdn-url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix error on js combine feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to make Cloudflare CDN integration work with sub-domains"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix Revolution Slider Error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to check wptouch-pro-view cookie "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude woocommerce_items_in_cart cookie automatically "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to serve the sources of Rev Slider if the cdn integration is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Microsoft IIS support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Compatible with Fast Velocity Minify"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix removing the escaped slashes of Cloudflare Integration [<a href=\"https://wordpress.org/support/topic/wpfc-cf-is-stripping-important-code/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix SyntaxError: Unexpected token M in JSON at position 0 error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "not to load the css and js sources of clear cache button when toolar is not visible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to set browser caching for Cloudflare"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to update russian translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> to add Cloudflare integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "check if settings are indexed by multilang locales for WeePie Cookie Allow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to move cdn functions to speed up wp fastest cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to rename the text on admin bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Compatible with WeePie Cookie Allow"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to create cache for mobile user-agents when mobile option is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix excluding googleanalytics problem"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to shorten the url of the minified and combined sources"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add do_action() for deleteCache()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to delete cache of pagination after new post"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> exclude archives"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refactoring of delete_cache_of_term()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix height problem of lightbox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix 403 cdn template error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add WPFC_DISABLE_WEBP [<a href=\"http://www.wpfastestcache.com/premium/image-optimization/#disable-webp\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> exclude Google Analytics Parameters [<a href=\"http://www.wpfastestcache.com/features/cache-url-with-google-analytics-parameters-querystring/#disable-cache-google-analytics-parameters\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to convert the uninstall method to uninstall.php"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to disable including powerfulhtml class for ajax request"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix excluding attachment pages problem"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to stop loading the admin functions if DOING_AJAX is set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refactoring of ignored()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear all the cache if the visibility is converted to private"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to check  for 404 if the header return 200"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to show the cache of main content without query string if google analytics parameters are set [<a href=\"http://www.wpfastestcache.com/features/cache-url-with-google-analytics-parameters-querystring/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to speed up getting db optimization statistics()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix php notice trying to get property of non-object in delete_cache_of_term()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix the problem of selecting chinese language automatically"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Restart Preload [<a href=\"http://www.wpfastestcache.com/features/restart-preload-after-completed/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> to remove wordpress emojis [<a href=\"http://www.wpfastestcache.com/optimization/disableremove-wordpress-emojis/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix the problem which show the same cache for every language on Polylang"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to remove \"via php\" text if WPFC_REMOVE_VIA_FOOTER_COMMENT is defined as true"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear of the post when WPML is active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Compatible with Easy HTTPS (SSL) Redirection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> exclude attachments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix the errors of Undefined property: stdClass::$post, stdClass::$page, stdClass::$category"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add AddType x-font/ttf for gzip"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude the renamed my-account page of woocommerce"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Compatible with Cloudinary"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Compatible with WPML Multilingual Plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Compatible with All In One Schema.org Rich Snippets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear the pages cache of the categories and tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear cache after new Woocommerce orders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to espace empty spaces for webp rules"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear widget cache after publishing a new post"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix problem on activation and deactivation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to decode path if it is not utf-8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude /sitemap_index.xml automatically for Yoast SEO"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude /cart and /checkout automatically for Easy Digital Downloads"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude /cart automatically for eCommerce Shopping Cart by WP EasyCart"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refactoring of insertWebp()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear the cache of category and tag after update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to exclude the admins cookies for the cache automatically"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to add WPFC_HIDE_CLEAR_CACHE_BUTTON"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix Cannot modify header error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix cache path for gtranslate"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to optimize the panel of wp fastest cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix image error on Structured Data Testing Tool when cdn is used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> exclude categories, tags, posts and pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Preload for attachments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Preload for tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to check that SG Optimizer is active or not"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to clear cache of tag and cat after product update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "preload for woocommorce product category"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> to clear cache of post via post list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to prevent to empty origin-url on cdn wizard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to avoid removing www prefix from photon cdn-url"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Preload for woocommerce products"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> Preload for category"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix more than one cdn work concurrently"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "to fix BlogPosting error on Structured Data Testing Tool when cdn is used"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> WebP [<a href=\"http://www.wpfastestcache.com/premium/image-optimization/\">Details</a>]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>[FEATURE]</strong> to clear cache of the post tags and the post categories after new post"
 msgstr ""
 
 #. Found in changelog list item.

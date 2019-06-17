@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:17:47+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:47:22+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -21,23 +21,23 @@ msgstr ""
 
 #. translators: warning message shown when when visual editor is disabled in
 #. current user's profile settings
-#: includes/class-admin.php:460
+#: includes/class-admin.php:468
 msgid "Visual Editor is disabled in your Profile settings. You need to enable it in order to use the Visual Editor widget at its full potential."
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "https://www.blackstudio.it"
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Black Studio"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "Adds a new \"Visual Editor\" widget type based on the native WordPress TinyMCE editor."
 msgstr ""
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "https://wordpress.org/plugins/black-studio-tinymce-widget/"
 msgstr ""
 
@@ -68,37 +68,37 @@ msgid "HTML"
 msgstr ""
 
 #. translators: text used for the icon that shows the plugin links
-#: includes/class-admin.php:368
+#: includes/class-admin.php:376
 msgid "About Black Studio TinyMCE Widget plugin"
 msgstr ""
 
 #. translators: text used for donation link
-#: includes/class-admin.php:348
+#: includes/class-admin.php:356
 msgid "Donate"
 msgstr ""
 
 #. translators: text used for follow on twitter link
-#: includes/class-admin.php:346
+#: includes/class-admin.php:354
 msgid "Follow"
 msgstr ""
 
 #. translators: text used for reviews link
-#: includes/class-admin.php:344
+#: includes/class-admin.php:352
 msgid "Rate"
 msgstr ""
 
 #. translators: text used for support forum link
-#: includes/class-admin.php:342
+#: includes/class-admin.php:350
 msgid "Support"
 msgstr ""
 
 #. translators: text used for support faq link
-#: includes/class-admin.php:340
+#: includes/class-admin.php:348
 msgid "FAQ"
 msgstr "नेहमी विचारले जाणारे प्रश्न"
 
 #. translators: text used for plugin home link
-#: includes/class-admin.php:338
+#: includes/class-admin.php:346
 msgid "Home"
 msgstr "घर"
 
@@ -112,11 +112,9 @@ msgstr ""
 msgid "The Visual Editor widget allows you to insert rich text and media objects in your sidebars"
 msgstr ""
 
-#. #-#-#-#-#  black-studio-tinymce-widget-code.pot (Black Studio TinyMCE Widget
-#. 2.6.2)  #-#-#-#-#
+#. Plugin Name of the plugin
 #. translators: title for the dismissable admin pointer tooltip (same as plugin
 #. name)
-#. Plugin Name of the plugin/theme
 #: includes/class-admin-pointer.php:165
 msgid "Black Studio TinyMCE Widget"
 msgstr ""
@@ -129,10 +127,10 @@ msgstr ""
 
 #: black-studio-tinymce-widget.php:193
 #: includes/class-admin-pointer.php:63
-#: includes/class-admin.php:72
 #: includes/class-compatibility-plugins.php:81
-#: includes/class-compatibility-wordpress.php:65
+#: includes/class-admin.php:72
 #: includes/class-compatibility.php:95
 #: includes/class-text-filters.php:71
+#: includes/class-compatibility-wordpress.php:65
 msgid "Cheatin&#8217; uh?"
 msgstr "मस्करी करता काय राव?"

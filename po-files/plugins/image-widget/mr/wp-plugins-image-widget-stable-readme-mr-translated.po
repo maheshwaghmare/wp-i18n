@@ -1,0 +1,906 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Image Widget - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T14:02:38+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "A simple image widget that uses the native WordPress media manager to add image widgets to your site."
+msgstr ""
+
+#. Plugin name.
+msgid "Image Widget"
+msgstr "इमेज विजेट"
+
+#. Found in description header.
+msgid "Image Widget Plus!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "These features are part of our Image Widget Plus plugin. You can learn more about <a href=\"http://m.tri.be/19mh\">Image Widget Plus</a> on our website."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Need to add slideshows, lightboxes, or random images?\n"
+"<strong>Check out <a href=\"http://m.tri.be/19mc\">Image Widget Plus</a>!</strong>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Though we do not have a demo available, we do have <a href=\"https://wordpress.org/plugins/image-widget/screenshots/\">screenshots available here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There are several solutions available to accomplish this. A quick search for “WordPress page-specific sidebar display” can help you find the best option for your site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes you can, however, this is not controlled through the Image Widget plugin directly - it is usually managed through a page-specific sidebar display."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Visit <a href=\"https://codex.wordpress.org/Login_Trouble\">the WordPress codex</a> for help with login troubles."
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I add lightbox, slider, or random image capabilities?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is there a demo available?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I display Image Widget on only one page?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I log into my site to install this plugin?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "If you run into any questions or have suggestions, please visit the forum to post questions or comments."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Getting started with Image Widget is a breeze!"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the Image Widget plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "From your WordPress admin screen, select Plugins from the menu"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download and install the Image Widget plugin"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Translations can be submitted <a href=\"https://translate.wordpress.org/projects/wp-plugins/image-widget\">here on WordPress.org</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://github.com/moderntribe/image-widget\">Check us out on GitHub</a> to pull request changes."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://m.tri.be/19mg\">Check out Image Widget Plus now!</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Image Widget Plus features include:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is actively supported by our team and contributions from community members. If you see a question in the forum you can help with or have a great idea and want to code it up or submit a patch, that would be awesome! Not only will we shower you with praise and thanks, it’s also a good way to get to know us and lead into options for paid work if you freelance."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Image Widget is developed and maintained by <a href=\"http://m.tri.be/19md\">Modern Tribe</a>, the same folks behind <a href=\"http://m.tri.be/19me\">The Events Calendar, Event Tickets, and a full suite of premium plugins</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Image Widget is a simple plugin that uses the native WordPress media manager to add image widgets to your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "Lightbox"
+msgstr ""
+
+#. Found in description list item.
+msgid "Slideshow"
+msgstr ""
+
+#. Found in description list item.
+msgid "Random image"
+msgstr ""
+
+#. Found in description list item.
+msgid "Multiple image support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Additional features available with <a href=\"http://m.tri.be/19mc\">Image Widget Plus</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Customize the look &amp; feel with filter hooks or theme overrides"
+msgstr ""
+
+#. Found in description list item.
+msgid "Upload, link to external image, or select an image from your media collection"
+msgstr ""
+
+#. Found in description list item.
+msgid "Versatile - all fields are optional"
+msgstr ""
+
+#. Found in description list item.
+msgid "Add title and description"
+msgstr ""
+
+#. Found in description header.
+msgid "Pull Requests &amp; Translations"
+msgstr ""
+
+#. Found in description header.
+msgid "Quality You Can Trust"
+msgstr ""
+
+#. Found in description header.
+msgid "Image Widget Features"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please <a href=\"https://wordpress.org/support/plugin/image-widget/\">visit the forum to post questions or comments</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For more info on the philosophy here, check out our <a href=\"http://tri.be/define-i-have-donated-true/\">blog post</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters a list of attributes used in the image link. Similar to 'wp_get_attachment_image_attributes'\n"
+"Accepts $instance arguments"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters a list of image attributes used in the image output. Similar to 'wp_get_attachment_image_attributes'\n"
+"Accepts $instance arguments"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the link target of the image link.\n"
+"Accepts additional $args and $instance arguments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the url that the image links to.\n"
+"Accepts additional $args and $instance arguments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the alt text of the image.\n"
+"Accepts additional $args and $instance arguments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the display alignment of the image.\n"
+"Accepts additional $args and $instance arguments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the selected image 'size' corresponding to WordPress registered sizes.\n"
+"If this is set to 'tribe_image_widget_custom' then the width and height are used instead.\n"
+"Accepts additional $args and $instance arguments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the inline max-height style of the image.\n"
+"Accepts additional $args and $instance arguments.\n"
+"Return null to remove this css from the image output (defaults to null)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the inline max-width style of the image. Hint: override this to use this in responsive designs :)\n"
+"Accepts additional $args and $instance arguments.\n"
+"Return null to remove this css from the image output (defaults to '100%')."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the display height of the image.\n"
+"Accepts additional $args and $instance arguments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the display width of the image.\n"
+"Accepts additional $args and $instance arguments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the url of the image displayed in the widget.\n"
+"Accepts additional $args and $instance arguments.\n"
+"THIS IS DEPRECATED AND WILL EVENTUALLY BE DELETED"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Filters the attachment id of the image.\n"
+"Accepts additional $args and $instance arguments."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "define( 'I_HAVE_SUPPORTED_THE_IMAGE_WIDGET', true );"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If so, then THANK YOU! Also, feel free to add this line to your wp-config.php file to prevent the image widget from displaying a message after upgrades."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_link_attributes</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_attributes</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_link_target</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_link</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_alt</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_align</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_size</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_maxheight</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_maxwidth</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_height</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_width</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_url</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>image_widget_image_attachment_id</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Another very typical widget filter that is applied to the description body text. This filter also takes 2 additional arguments for $args and $instance so that you can learn more about the specific widget instance in the process of filtering the content."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>widget_text</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This is actually a pretty typical filter in widgets and is applied to the widget title."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>widget_title</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There are a number of filters in the code that will allow you to override data as you see fit. The best way to learn what filters are available is always by simply searching the code for 'apply_filters'. But all the same, here are a few of the more essential filters:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "New in 3.2: You may now also use the \"sp_template_image-widget_widget.php\" filter to override the default template behavior for .php template files. Eg: if you wanted widget.php to reside in a folder called my-custom-templates/ and wanted it to be called my-custom-name.php:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Edit the new file to your hearts content. Please do not edit the one in the plugin folder as that will cause conflicts when you update the plugin to the latest release."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Image Widget comes with a default template for the widget output. If you would like to alter the widget display code, create a new folder called \"image-widget\" in your template directory and copy over the \"views/widget.php\" file."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The built-in template can be overridden by files within your template."
+msgstr ""
+
+#. Found in description header.
+msgid "Have You Supported the Image Widget?"
+msgstr ""
+
+#. Found in description header.
+msgid "Filters"
+msgstr ""
+
+#. Found in description header.
+msgid "Default vs. Custom Templates"
+msgstr ""
+
+#. Found in description header.
+msgid "Documentation"
+msgstr "डोक्युमेंटशन"
+
+#. Found in faq header.
+msgid "Where do I go to file a bug or ask a question?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "WordPress 3.5 or above"
+msgstr ""
+
+#. Found in installation list item.
+msgid "PHP 5.2 or above"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Appearance &gt; Widget to place the widget in your sidebar in the Design"
+msgstr ""
+
+#. Found in installation header.
+msgid "Requirements"
+msgstr ""
+
+#. Found in installation header.
+msgid "Install"
+msgstr "स्थापित करा"
+
+#. Found in description list item.
+msgid "Responsive"
+msgstr ""
+
+#. Found in description list item.
+msgid "Link the image"
+msgstr ""
+
+#. Found in description list item.
+msgid "Handles image resizing and alignment"
+msgstr ""
+
+#. Found in description list item.
+msgid "MU Compatible"
+msgstr ""
+
+#. Screenshot description.
+msgid "Image Widget on the front of a plain WordPress install."
+msgstr ""
+
+#. Screenshot description.
+msgid "Media manager integration."
+msgstr ""
+
+#. Screenshot description.
+msgid "Image Widget admin screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added new <code>image_widget_option_defaults</code> hook to improve customizability (props @svandragt) [#91225]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Added new Link Title field and filter to improve tooltip (previously used alt text) (thanks @marklcm) [89993]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Prevent broken HTML in the \"description\" field that sometimes arose with certain user roles. Props to users @bridgetashley and @JoshRoy spotting this one!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New - Added new filter <code>tribe_image_widget_instance_description</code> for more control over how the description field is handled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue with image URLs in the widget admin interface [80659]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - fix validation by avoiding empty attributes and only specifying sizes with srcset (thanks Zodiak1978)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - proportional scaling of image within the widget editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - fixed compatibility with WordPress versions prior to 4.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Roll-back to sidebar_admin_setup to enqueue resources for optimal plugin compatibility (props to megamenu for the heads up)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Fixed bug where selecting an image failed to trigger a Save &amp; Publish in the Customizer (props to dsaric-dev for the fix)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Improve upsell notices display logic [78676]"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - fixed some broken links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Upgrade admin notice code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Additional refinements to notice code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Readme adjustments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add srcset and size attribute support (props @philwp)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Minor code cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - fixed a typo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations - restored the pot file for easier community translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations - fixed compatibility with translate.wordpress.org"
+msgstr ""
+
+#. Found in changelog list item.
+msgid " to be $before_widget and $after_widget (Thanks again to Lois Turley)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update "
+msgstr "अपडेट"
+
+#. Found in changelog list item.
+msgid ""
+"Updated Translations\n"
+"** Swedish (Tomas Lindhoff <a href=\"mailto:&#x74;&#x6f;&#109;&#097;&#x73;&#x40;&#120;&#104;&#x6f;&#x73;&#116;&#046;&#x73;&#x65;\">&#x74;&#x6f;&#109;&#097;&#x73;&#x40;&#120;&#104;&#x6f;&#x73;&#116;&#046;&#x73;&#x65;</a>)\n"
+"** Dutch (Presis <a href=\"mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#112;&#114;&#101;&#x73;&#x69;&#x73;&#x2e;&#x6e;&#x6c;\">&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#112;&#114;&#101;&#x73;&#x69;&#x73;&#x2e;&#x6e;&#x6c;</a>)\n"
+"** Italian (@maxgx)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Include registered image sizes in the list of selectable items (props to aaemnnosttv for the pull request!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Removing Freemius.  Interesting experiment, but ultimately, not our cup of tea.  Thanks for sticking with us!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Adding an opt-in integration with Freemius"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add support for the rel attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations - Remove po/mo files, migrate to translate.wordpress.org language packs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security - Prevent direct access to directories (thank you @ramiy)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Thank you @smurkas, @squigie and @laurie!!!  Special thanks to Cameron Clark from http://prolifique.com a.k.a @capnhairdo for contributing invaluable javascript debugging skills and throwing together some great code."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed PHP 5 bug.  Removed 'public' declaration. http://wordpress.org/support/topic/362167  Thanks @mpwalsh8, @jleuze, @PoLaR5, @NancyA and @phoney36"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Language updates:"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fix oversized screenshot."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed javascript bug caused by log message."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Super minor fix to enable saving of a blank caption. (thanks @crdunst)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Class encapsulation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP 2.7.1 Compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multi widget support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Link Target"
+msgstr "लिंकचे लक्ष"
+
+#. Found in changelog list item.
+msgid "Updated all short tags to proper php tags (Thank you Jonathan Volks from Mannix Marketing)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing DIV close tag (Thank you Jesper Goos)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update <code>&lt;div&gt;</code> to be <code>&lt;li&gt;</code> (Thanks to Lois Turley)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed externalized widget admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Completely remodeled the plugin to use the native WordPress uploader and be compatible with Wordpress 2.8 plugin architecture."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 'sp_image_widget' domain for language support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Temporarily fixed install bug where no image is saved if resize is not working. (thank you Paul Kaiser from Champaign, Il for your helpful QA support)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added PHPDoc comments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the broken \"Add Image\" link (THANK YOU @SMURKAS!!!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor description changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Image link becomes \"Change Image\" once image has been added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tighter image resize preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tighter integration with the thickbok uploader attributes including caption, description, alignment, and link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP4 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix crash on insert into post."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update functions and enqueued scripts to only trigger on widget page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix IE8 bug (Remove extra comma from line 66 of js - thanks for the report @reface)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Dean's Fcuk editor conflict. (Thanks for the report Laurie @L_T_G)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace \"Insert into Post\" with \"Insert into Widget\" in thickbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the \"From URL\" tab since it isn't supported."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug: update tabs filter to not kill tabs if upload window is for non widget uses."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug: improve tab filters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug: php4 reported error: PHP Parse error:  syntax error, unexpected T_STRING, expecting T_OLD_FUNCTION or T_FUNCTION or T_VAR or '}' (thanks @natashaelaine and @massimopaolini)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced <code>&lt;p&gt;</code> with <code>&lt;div&gt;</code> in description to also improve XHTML compliance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug: XHTML Compliance (thanks HGU for offering a patch and thanks @webmasterlistingarts for filing the bug)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added German language support (Thank you Rüdiger Weiß!!!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for ALT tags.  If no alt tag is entered the title is used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Wordpress 3.0 bugs. (Thanks @kenvunz)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to override template call."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support theme override of the widget output!  Now you can layout the widget however you'd like."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Abstract views for widget output and widget admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix image widget public declaration bug."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Portuguese translation courtesy of Gustavo Machado"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added French translation courtesy of Dominique Corbex (@Domcox)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added javascript conflict prevention code thanks to @rcain."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Swedish translation courtesy of Tomas Lindhoff (@Tomas)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add HTTPS support courtesy of David Paul Ellenwood (DPE@SGS)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Japanese translation courtesy of Takayuki Miyauchi (@miya0001)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update javascript to work with the new version of WordPress (thanks Matt Wiebe!!! @mattwiebe)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Polish translation courtesy of Łukasz Kliś"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor bugfix courtesy of Takayuki Miyauchi (@miya0001)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use new the new <a href=\"http://api.jquery.com/on/\">jQuery.fn.on</a> method for forward compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor JS fix to hopefully address issues of lightbox not working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix JS typo."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Yet another minor JS fix to hopefully address issues of lightbox not working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix to allow the widget to work in the non-async (browser) uploader. Props Bjorn Wijers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update readme, thumbnails and other minor descriptors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add minor security updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove extra esc_attr() from the $title display. (Thank you @romaspit)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Romanian translation courtesy of Alexander Ovsov at Web Geek Science (http://webhostinggeeks.com)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed localization and renamed key to 'image-widget'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add widget description filter $args and $instance ( thanks @jeffreyzinn )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix notices in php error log."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix javascript bugs in the widget admin UI. ( thanks for filing this @joo-joo )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rename all language files to lowercase image_widget to match the localization string."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Dutch language translation ( thank you Carsten Alsemgeest - presis.nl )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a filter for the image url: 'image_widget_image_url'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjusted HTTPS/SSL handling so that it's only applied in the view. ( thanks @TheFluffyDoneky and @aerobrent )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix filtered media library inserts thanks to @miraclemaker as well as @oxyc, @BjornW and innumerable others in the support forum (http://wordpress.org/support/topic/plugin-image-widget-add-image-upload-an-image-select-insert-into-widget-no-image-is-shown)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Czech translation courtesy of Vladislav Musilek at blogísek (http://blog.musilda.cz)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add filters so that people can more easily adjust the output of the widget as per @TCBarrett's request."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added italian translations courtesy of @maxgx"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added 'image_widget_link_attributes' filter to easily process link attributes and to default to having the link 'title' be the 'alt' or 'title' content. (Thank you @ZeroGravity, @pixelyzed, and @javiandgo)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Abstracted support for older versions of WordPress so that that we don't break old versions with this upgrade (Though there's no reason you should up grade this widget and NOT your WP install! You should always keep WordPress core up to date!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Significant improvements the administrative user interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Significant upgrades to support the new WordPress media manager (Thank you @kyleunzicker, @dancameron, @dudekpj, @JakePT)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Spanish (Thank you @javiandgo)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Brazilian Portuguese (Thank you @guhemama)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Arabic (thank you @modmenpc)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Japanese (and fixed a minor language string bug - thank you @understandard)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for the constant 'I_HAVE_SUPPORTED_THE_IMAGE_WIDGET' to turn off the message that appears after upgrading.  (@crienoloog, i hope this puts a smile on your face.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rename all language files and implement a couple more minor language bug fixes a la @understandard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Spanish translation (thank you @mzaweb)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Responsive support in honor of Josh Broton's WordCamp SF talk about responsive design. max-width now defaults to 100%;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix \"Alt\" text in the widget source to use actual \"Alt\" text (thanks @adoliver and @Degas)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add german translation (thank you Daniel Schmidt)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add hebrew translation (thank you Ariel Klikstein)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add polish translation (thank you @difreo)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix image stretching bug in admin (Thanks @kyleunzicker)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove accidentally deployed image size update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Retiring the use of PHP 4 style constructors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak - Added support for an id attribute on links (Props to amyh for the work on this!)"
+msgstr ""

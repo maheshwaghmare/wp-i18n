@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:38:46+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:48:55+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -19,26 +19,6 @@ msgstr ""
 
 #. Plugin name.
 msgid "Better Search Replace"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tweak: Update text in sidebar"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix: Only one table searched on some environments (props @Ov3rfly)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improvement: Increased size of table select"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Security: Check if data is serialized before unserializing it"
-msgstr ""
-
-#. Found in faq header.
-msgid "Installation Instructions"
 msgstr ""
 
 #. Found in description paragraph.
@@ -109,35 +89,35 @@ msgstr ""
 msgid "Using Better Search Replace"
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "Upload Method:"
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "Dashboard Method:"
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "Install Better Search Replace like you would install any other WordPress plugin."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Activate the plugin through the Plugins menu in WordPress"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Unzip the plugin and upload the \"better-search-replace\" folder to your 'wp-content/plugins' directory"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Click \"Install\", and then \"Activate Plugin\""
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Type \"Better Search Replace\" in the search bar and select this plugin"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Login to your WordPress admin and go to Plugins -&gt; Add New"
 msgstr ""
 
@@ -227,6 +207,34 @@ msgstr ""
 
 #. Screenshot description.
 msgid "The Better Search Replace page added to the \"Tools\" menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security: Verify nonce when downloading diagnostic info"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security: Pass template filenames through <code>sanitize_file_name()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Some special characters interfering with search/replace"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Update text in sidebar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Only one table searched on some environments (props @Ov3rfly)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Increased size of table select"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security: Check if data is serialized before unserializing it"
 msgstr ""
 
 #. Found in changelog list item.

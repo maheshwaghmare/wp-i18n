@@ -19,30 +19,6 @@ msgstr ""
 msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Add <code>wp_import_existing_post</code> filter, see <a href=\"https://core.trac.wordpress.org/ticket/33721\">Trac ticket #33721</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix for importing export files with multiline term meta data."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix for various deprecation notices including <code>wp_get_http()</code> and <code>screen_icon()</code>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix bug that caused slashes to be stripped from imported comments."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improve PHP7 compatibility."
-msgstr ""
-
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
 #. Found in description header.
 msgid "Filters"
 msgstr ""
@@ -103,39 +79,39 @@ msgstr ""
 msgid "For further information and instructions please see the <a href=\"https://codex.wordpress.org/Importing_Content#WordPress\">Codex page on Importing Content</a>"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Visit Tools -&gt; Import in the WordPress dashboard"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Click on the WordPress link in the list of importers"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Click \"Install Now\""
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Finally click \"Activate Plugin &amp; Run Importer\""
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Upload the <code>wordpress-importer</code> folder to the <code>/wp-content/plugins/</code> directory"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Activate the plugin through the 'Plugins' menu in WordPress"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Go to the Tools -&gt; Import screen, click on WordPress"
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "The quickest method for installing the importer is:"
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "If you would prefer to do things manually then follow these instructions:"
 msgstr ""
 
@@ -157,6 +133,26 @@ msgstr ""
 
 #. Found in faq paragraph.
 msgid "-- <a href=\"https://codex.wordpress.org/Importing_Content#Before_Importing\">WordPress Codex: Importing Content</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>wp_import_existing_post</code> filter, see <a href=\"https://core.trac.wordpress.org/ticket/33721\">Trac ticket #33721</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for importing export files with multiline term meta data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for various deprecation notices including <code>wp_get_http()</code> and <code>screen_icon()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug that caused slashes to be stripped from imported comments."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve PHP7 compatibility."
 msgstr ""
 
 #. Found in changelog list item.

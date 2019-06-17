@@ -1,0 +1,538 @@
+# Translation of Plugins - Antispam Bee - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - Antispam Bee - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - Antispam Bee - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Antispam plugin with a sophisticated tool set for effective day to day comment and trackback spam-fighting. Build with data protection and privacy in  &hellip;"
+msgstr ""
+
+#. Plugin name.
+msgid "Antispam Bee"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"if (req.restarts == 0) {\n"
+"    set req.http.X-Forwarded-For = client.ip;\n"
+"}\n"
+"    `"
+msgstr ""
+
+#. Found in description list item.
+msgid "Read <a href=\"https://github.com/pluginkollektiv/antispam-bee/wiki/en-Documentation\">the documentation</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Antispam Bee is developed in Europe. You might have heard we can be a bit nitpicky over here when it comes to privacy. The plugin does not save private user data and is 100% compliant with GDPR."
+msgstr ""
+
+#. Found in faq header.
+msgid "Does Antispam Bee store any private user data, and is it compliant with GDPR?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Say Goodbye to comment spam on your WordPress blog or website. <em>Antispam Bee</em> blocks spam comments and trackbacks effectively, without captchas and without sending personal information to third party services. It is free of charge, ad-free and 100% GDPR compliant."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "A complete documentation is available in the <a href=\"https://github.com/pluginkollektiv/antispam-bee/wiki\">GitHub repository Wiki</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, Antispam Bee is free forever, for both private and commercial projects. You can use it on as many sites as you want. There is no limitation to the number of sites you use the plugin on."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If WordPress is operated with Apache + Varnish, the actual IP address of the visitors does not appear in WordPress. Accordingly the Antispam-Plugin lacks the base for the correct functionality. An adaptation in the Varnish configuration file /etc/varnish/default.vcl provides a remedy and forwards the original (not from Apache) IP address in the HTTP header X-Forwarded-For:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If the antispam plugin has passed some spam comments, these comments can be reported for analysis. A <a href=\"http://goo.gl/forms/ITzVHXkLVL\">Google table</a> was created for this purpose."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Generally yes. However, commissioning the Antispam Bee plugin for canceled or shortened IP addresses in comment metadata is not recommended. Because the name and the e-mail address of the comments are not unique, an IP address is the only reliable measure. The more complete the stored IP addresses, the more reliable the assignment or detection of spam."
+msgstr ""
+
+#. Found in faq header.
+msgid "Are there some paid services or limitations?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Antispam Bee with Varnish?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I submit undetected spam?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does Antispam Bee work with shortened IPs?"
+msgstr ""
+
+#. Found in description list item.
+msgid "If you want to help us translate this plugin you can do so <a href=\"https://translate.wordpress.org/projects/wp-plugins/antispam-bee\">on WordPress Translate</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "If you think you’ve found a bug (e.g. you’re experiencing unexpected behavior), please post at the <a href=\"https://wordpress.org/support/plugin/antispam-bee\">support forums</a> first."
+msgstr ""
+
+#. Found in description list item.
+msgid "Pull requests for documented bugs are highly appreciated."
+msgstr ""
+
+#. Found in description list item.
+msgid "Active development of this plugin is handled <a href=\"https://github.com/pluginkollektiv/antispam-bee\">on GitHub</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "We don’t handle support via e-mail, Twitter, GitHub issues etc."
+msgstr ""
+
+#. Found in description list item.
+msgid "Community support via the <a href=\"https://wordpress.org/support/plugin/antispam-bee\">support forums on wordpress.org</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Block or allow commenters from certain countries."
+msgstr ""
+
+#. Found in description list item.
+msgid "Allow comments only in a certain language."
+msgstr ""
+
+#. Found in description header.
+msgid "Contribute"
+msgstr ""
+
+#. Found in description header.
+msgid "Support"
+msgstr ""
+
+#. Screenshot description.
+msgid "Antispam Bee settings"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Antispam Bee works best with default WordPress comments. It is not compatible with Jetpack or Disqus Comments as those plugins load the comment form within an iframe. Thus Antispam Bee can not access the comment form directly.\n"
+"It also won’t work with any AJAX-powered comment forms."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, the plugin works as is. You may want to configure your favorite settings, though."
+msgstr ""
+
+#. Found in faq header.
+msgid "Will I have to edit any theme templates to get Antispam Bee to work?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does Antispam Bee work with Jetpack, Disqus Comments and other comment plugins?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "After you have activated <em>Antispam Bee</em> the plugin will block spam comments out of the box. However, you may want to visit <em>Settings → Antispam Bee</em> to configure your custom set of anti-spam options that works best for your site."
+msgstr ""
+
+#. Found in installation list item.
+msgid "WordPress 3.8 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "PHP 5.2.4 or greater"
+msgstr ""
+
+#. Found in installation list item.
+msgid "If you don’t know how to install a plugin for WordPress, <a href=\"http://codex.wordpress.org/Managing_Plugins#Installing_Plugins\">here’s how</a>."
+msgstr ""
+
+#. Found in installation header.
+msgid "Settings"
+msgstr ""
+
+#. Found in installation header.
+msgid "Requirements"
+msgstr ""
+
+#. Found in description list item.
+msgid "Maintainers: <a href=\"https://pluginkollektiv.org\">pluginkollektiv</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Author: <a href=\"https://sergejmueller.github.io/\">Sergej Müller</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display spam statistics on the dashboard, including daily updates of spam detection rate and a total of blocked spam comments."
+msgstr ""
+
+#. Found in description list item.
+msgid "Optionally spam-check comment forms on archive pages."
+msgstr ""
+
+#. Found in description list item.
+msgid "Optionally exclude trackbacks and pingbacks from spam detection."
+msgstr ""
+
+#. Found in description list item.
+msgid "Select spam indicators to send comments to deletion directly."
+msgstr ""
+
+#. Found in description list item.
+msgid "Limit approval to comments/pings (will delete other comment types)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Delete existing spam after n days."
+msgstr ""
+
+#. Found in description list item.
+msgid "Notify admins by e-mail about incoming spam."
+msgstr ""
+
+#. Found in description list item.
+msgid "Search local spam database for commenters previously marked as spammers."
+msgstr ""
+
+#. Found in description list item.
+msgid "Use regular expressions."
+msgstr ""
+
+#. Found in description list item.
+msgid "Validate the IP address of commenters."
+msgstr ""
+
+#. Found in description list item.
+msgid "Treat BBCode as spam."
+msgstr ""
+
+#. Found in description list item.
+msgid "Consider the comment time."
+msgstr ""
+
+#. Found in description list item.
+msgid "Trust commenters with a Gravatar."
+msgstr ""
+
+#. Found in description list item.
+msgid "Trust approved commenters."
+msgstr ""
+
+#. Found in description header.
+msgid "Credits"
+msgstr ""
+
+#. Found in description header.
+msgid "Feature/Settings Overview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Scalable IP look up for local spam database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvements for the language detection API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved dashboard tooltips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AMP compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prefilled comment textareas do now work with the honeypot"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved backend accessibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix in the \"Comment form used outside of posts\" option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updates the used JavaScript library for the statistics widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduction of behat tests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New check for incoming trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Save a hashed + salted IP for every comment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to delete Antispam Bee related data when plugin gets deleted via the admin interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use the regular expressions check also for trackbacks."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes some wrong usages of the translation functions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Skip the checks, when I ping myself."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not show \"Trust commenters with a Gravatar\" if the \"Show Gravatar\" option is not set."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not longer overwrite the IP address WordPress saves with the comment by using <code>pre_comment_user_ip</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switch to franc language detection API for the language check."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduction of coding standards."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For more details see https://github.com/pluginkollektiv/antispam-bee/milestone/8?closed=1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bugfix where a spam trackback produced a fatal error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP 5.3 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For more details see https://github.com/pluginkollektiv/antispam-bee/milestone/4?closed=1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove old russian and Dutch translation files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor interface improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow more than one language in language check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes small bug on mobile views"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves PHP7.2 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves IP handling to comply with GDPR"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed stopforumspam.com to avoid potential GDPR violation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For more details see https://github.com/pluginkollektiv/antispam-bee/milestone/3?closed=1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some bugfixes - Among other things for WPML compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "An <a href=\"https://github.com/pluginkollektiv/antispam-bee/wiki\">english documentation</a> is now available, too. Some corrections in the german documentation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accessibility and GUI improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Unit Test Framework"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More default Regexes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language check through Google Translate API is back again (thanks to Simon Kraft of https://moenus.net/ for offering to cover the costs)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Honeypot"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Country check is back again (thanks to Sergej Müller for his amazing work and the service page)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For more details see https://github.com/pluginkollektiv/antispam-bee/milestone/6?closed=1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A new filter to add languages to the language check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Solve some translation/language issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for RTL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes some incompatibilities with other plugins/themes where the comment field was left empty"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes an incompatibility with Chrome autofill"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "For the complete changelog, check out our <a href=\"https://github.com/pluginkollektiv/antispam-bee\">GitHub repository</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Consideration of the comment time (Spam if a comment was written in less than 5 seconds) - <a href=\"https://plus.google.com/+SergejMüller/posts/73EbP6F1BgC\">more information on Google+</a> (only german)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switch to the official Google Translation API - <a href=\"https://plus.google.com/u/0/+SergejMüller/posts/ZyquhoYjUyF\">more information</a> (only german)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removal of functions <em>Block comments from specific countries</em> and <em>Allow comments only in certain language</em> for financial reasons - <a href=\"https://plus.google.com/u/0/+SergejMüller/posts/ZyquhoYjUyF\">more information</a> (only german)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensures compatibility with the latest WordPress version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes an error were JavaScript on the dashboard was erroneously being enqueued"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updates donation links throughout the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Spam reason as a column in the table with spam comments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clear invalid UTF-8 characters in comment fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimizations for WordPress 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<em>Release time investment (Development &amp; QA): 8.5 h</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for <code>HTTP_FORWARDED_FOR</code> header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code refactoring of options management"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<em>Release time investment (Development &amp; QA): 11 h</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improving detection of fake IPs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<em>Release time investment (Development &amp; QA): 2.75 h</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code refactoring around the use of REQUEST_URI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sorting for the Antispam Bee column in the spam comments overview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<em>Release time investment (Development &amp; QA): 6.25 h</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<em>Release time investment (Development &amp; QA): 12 h</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional plausibility checks and filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New function: Trust commenters with a Gravatar / thx <a href=\"https://twitter.com/glueckpress\">@glueckpress</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Return parameters on <code>dashboard_glance_items</code> callback / thx <a href=\"https://twitter.com/toscho\">@toscho</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<em>Release time investment (Development &amp; QA): 2.5 h</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated <a href=\"https://gist.github.com/glueckpress/f058c0ab973d45a72720\">plugin authors</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated expired link URLs in plugin and languages files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated, translated + formatted README.md"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated plugin text domain to include a dash instead of an underscore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated German translation, added formal version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added a POT file"
+msgstr ""

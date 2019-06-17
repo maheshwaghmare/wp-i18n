@@ -1,0 +1,606 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Post Types Order - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:54:50+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Post Order and custom Post Type Objects (custom post types) using a Drag and Drop Sortable JavaScript AJAX interface or default WordPress dashboard."
+msgstr ""
+
+#. Plugin name.
+msgid "Post Types Order"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This was built considering everyone to be able to use the sorting, no matter the WordPress experience:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Using the <strong>AutoSort option as ON</strong> you don't need to worry about any code changes, the <strong>plugin will apply the customized post order</strong> on fly. "
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "A filter can be used to achieve that pto/posts_orderby. An example can be found at <a href=\"http://www.nsp-code.com/ignore-sort-apply-for-certain-query-on-post-types-order/\">http://www.nsp-code.com/ignore-sort-apply-for-certain-query-on-post-types-order/</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This can be done by including the ignore_custom_sort within custom query arguments. An example can be found at <a href=\"http://www.nsp-code.com/advanced-post-types-order-api/sample-usage/\">http://www.nsp-code.com/advanced-post-types-order-api/sample-usage/</a>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Use Re-Order link which appear into each post type section or use default WordPress interface to make your sorting."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<br />Need More? Check out the advanced version of this plugin at <a href=\"http://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-post-types-order/\">Advanced Post Types Order</a> which include Hierarchically post types order, Manual / Automatic Sorting, Individual Categories Order, Conditionals to apply, Paginations for large list, Mobile ready, Enhanced Interface, Plugins compatibility (MultiSite Network Support, WPML, Polylang, WooCommerce, WP E-Commerce, Platform Pro, Genesis etc), font side re-order interface,  ... and many more !!"
+msgstr ""
+
+#. Found in description list item.
+msgid "If prefer sort apply through the code, include 'orderby' =&gt;'menu_order' within custom query arguments, more details at http://www.nsp-code.com/sample-code-on-how-to-apply-the-sort-for-post-types-order-plugin/"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>Sort can be managed within default WordPress post type interface.</p>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"The order can be customized within <strong>default WordPress post type archive list page</strong> or <strong>a separate Re-Order interface</strong> which display all objects.\n"
+"It allows to reorder the posts for any custom post types you defined, including the default Posts. Also you can display the posts within admin interface sorted per your new sort. Post Order has never been easier."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Over 3.2 MILLIONS DOWNLOADS and near PERFECT rating out of 200 REVIEWS</strong>. <br />\n"
+"A powerful plugin, Order Posts and Post Types Objects using a Drag and Drop Sortable JavaScript capability."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Want to contribute with a translation to your language? Please check at https://translate.wordpress.org/projects/wp-plugins/post-types-order\n"
+"http://www.nsp-code.com"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Include a 'orderby' =&gt; 'menu_order' property within your custom query arguments."
+msgstr ""
+
+#. Found in faq header.
+msgid "How to manually apply the sort on queries"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can i force sort apply for certain queries when Autosort is turned On?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Consider upgrading to our advanced version of this plugin at a very resonable price <a href=\"http://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-post-types-order/\">Advanced Post Types Order</a>"
+msgstr ""
+
+#. Found in faq header.
+msgid "I still need more features like front sorting interface, shortcodes, filters, conditionals, advanced queries, taxonomy/ category sorting etc"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<br />\n"
+"<br />This plugin is developed by <a href=\"http://www.nsp-code.com\">Nsp-Code</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"As you can see just a matter of drag and drop and post ordering will change on front side right away.\n"
+"If for some reason the post order does not update on your front side, you either do something wrong or the theme code you are using does not use a standard query per WordPress Codex rules and regulations. But we can still help, use the forum to report your issue as there are many peoples who gladly help or get in touch with us."
+msgstr ""
+
+#. Found in description header.
+msgid "Localization"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "All ideas are welcome and i put them on my list to be implemented into the new versions. Anyway this may take time, but if you are in a rush, please consider a small donation and we can arrange something."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There's a option you can trigger, to see the post types order as you defined in the sort list, right into the main admin post list interface."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can sort ALL post types that you have defined into your wordpress as long they are not <strong>hierarhically</strong> defined: Posts (default WordPress custom post type), Movies, Reviews, Data etc.."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Absolutely, you can! \n"
+"Unlike many other plugins, you don't have to do any code changes to make your post order to change accordingly to custom defined post order. There is an option to autoupdate the WordPress queries so the posts order will be returned in the required order. Anyway this can be turned off (Autosort) to allow customized code usage."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Feel free to contact us at electronice_delphi@yahoo.com"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can i make certain queries to ignore the custom sort when Autosort is turned On?"
+msgstr ""
+
+#. Found in faq header.
+msgid "There is a feature that i want it implemented, can you do something about it?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Ok, i understand about the template post types order, how about the admin interface?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What kind of posts/pages this plugin allow me to sort?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I have no PHP knowledge at all, i will still be able to use this plugin?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once activated you should check with Settings &gt; Post Types Order "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin from Admin &gt; Plugins menu."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload <code>post-types-order</code> folder to your <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<br />Something is wrong with this plugin on your site? Just use the forum or get in touch with us at <a href=\"http://www.nsp-code.com\">Contact</a> and we'll check it out."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube http://www.youtube.com/watch?v=VEbNKFSfhCc]"
+msgstr ""
+
+#. Found in description list item.
+msgid "Use the Re-Order interface which appear to every custom post type (non-hierarchical) to change the post order to a new one."
+msgstr ""
+
+#. Found in description list item.
+msgid "A new setting page will be created within Settings &gt; Post Types Order, you should check with that, and make a first options save. "
+msgstr ""
+
+#. Found in description list item.
+msgid "Activate the Post Order plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "Install the plugin through the Install Plugins interface or by uploading the <code>post-types-order</code> folder to your <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in description header.
+msgid "Example of Usage"
+msgstr ""
+
+#. Found in description header.
+msgid "Usage"
+msgstr ""
+
+#. Screenshot description.
+msgid "<p>The ReOrder interface through which the sort can be created.</p>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter typo fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ignore the Events Calendar posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WordPress 4.9.7 tag update "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed Google Social as it produced some JavaScript errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ignore sorting when doing Search within admin dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ignore sorting when doing Search and there's a search key-phrase specified."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WordPress 4.9.1 tag update "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clear LiteSpeed Cache on order update to reflect on front side"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prepare plugin for Composer package"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default admin capability changed from install_plugins to manage_options to prevent DISALLOW_FILE_MODS issue. https://wordpress.org/support/topic/plugin-breaks-when-disallow_file_mods-is-set-to-true/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: updated capability from switch_theme to manage_options within 'Minimum Level to use this plugin' option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin option to include query argument ASC / DESC"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avada fix 'product_orderby' ignore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Include ASC / DESC if there is a query order argument"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated assets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated po translation file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slight code changes, remove unused activate / deactivate hooks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WordPress 4.8 compatibility notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security improvements for AJAX order updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with other plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin code redo and re-structure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for custom post type objects per page when using default archive interface drag &amp; drop sort"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Filter pto/admin/plugin_options/capability to allow custom capability option to be inserted within html"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Filter pto/get_options to allow to change default options; Custom capability can be set for 'capability'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wp Hide plugin availability notification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove link for donate"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove translations from the package"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "User preferance objects per page set to default if empty"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WPDB Prepare argument fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set time limit for ajax calls to attempt a code execution extend"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Drag &amp; Drop Sortable within Post Type archive interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update queries to use prepare"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Nonce for admin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New filter pto/posts_orderby  to ignore sort apply"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin Post / Page Gallery items order fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced Socialize FB like page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slight style updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New filter cpto/interface_itme_data to append additional data for items within sortable interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: $_REQUEST['action'] comparison evaluate as Identical instead equal"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP 7 deprecated nottice fix Deprecated: Methods with the same name as their class will not be constructors in a future version of PHP;  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial Release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First stable version (thanks for support Andrew - PageLines.com)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Post order support implemented"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default order used if no sort occour"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin will set the roles which can use the plugins (thanks for support Nick - peerpressurecreative.com)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Localisation Update (thanks Gabriel Reguly - ppgr.com.br/wordpress/)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multiple Improvments (thanks for support Video Geek - bestpocketvideocams.com)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Another Plugin conflict fix (thanks Steve Reed)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-Order Menu Item Appearance fix   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved post order code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-Order Menu Item Appearance fix for update versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Get Previous / Next Posts Update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set default order as seccondary query order param"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updating certain code for WordPress 3.5 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Using Capabilities instead levels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Spanish translation - Marcelo Cannobbio"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Italian translation - Black Studio http://www.blackstudio.it "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Text Instances translatable fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ignore Search queries when Autosort is ON"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dutch translation - Denver Sessink"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hebrew translation - Lunasite Team http://www.lunasite.co.il"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Turkish - T?rk?e translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Menu Walker nottices Fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "DISALLOW_FILE_MODS fix, change the administrator capability to switch_themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Norwegian (norsk) translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "German translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updates/Fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor admin style improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hungarian translation - Adam Laki - http://codeguide.hu/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"re-order\" menu item allow translation "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Edit Gallery - image order fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AJAX save filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Portuguese translation - Pedro Mendon?a - http://www.pedromendonca.pt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Swedish translation - Onlinebyran - http://onlinebyran.se"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Chinese translation - Coolwp coolwp.com@gmail.com"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Portuguese translation update - Pedro Mendon?a - http://www.pedromendonca.pt "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Japanese translation - Git6 Sosuke Watanabe  - http://git6.com/  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Czech translation - dUDLAJ; Martin Kucera - http://jsemweb.cz/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Norvegian translation update - Bjorn Johansen bjornjohansen.no"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code improvements  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Next / Previous post link functionality update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media re-order"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin columns sort fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Appearance /css updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Help updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter for Next / Previous sorting applpy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Next / Previous sorting apply option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Options - phrase translation fix  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Next / Previous sorting apply bug fix for custom taxonomies"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media Uploaded To after sort fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug - Thumbnails test code remove"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Media Sort interface objects order fix, when query-attachments REQUEST"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show / Hide Re_order inderface for certain menus. Option available within Settings area."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Advanced Custom Fields Page Rule fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Text doamin fix for few texts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Portuguese translation update - Pedro Mendonca - http://www.pedromendonca.pt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sortable interface styling improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New query argument ignore_custom_sort , to be used with Autosort. Ignore any customised sort and return posts in default order."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Text domain change to post-types-order to allow translations at https://translate.wordpress.org/projects/wp-plugins/post-types-order  "
+msgstr ""

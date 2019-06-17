@@ -1,0 +1,2725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - WP Google Maps - Development (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:58:05+00:00\n"
+"PO-Revision-Date: 2016-04-13 07:40:58+0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: legacy-core.php:4455
+msgid "Flush Geocode Cache"
+msgstr ""
+
+#: includes/class.strings.php:46
+msgid "You must check the GDPR consent box to continue"
+msgstr ""
+
+#: includes/class.auto-loader.php:193
+msgid "The plugins autoloader failed to register one or more modules. This is usually due to missing files. Please re-install the plugin and any relevant add-ons. Technical details are as follows: "
+msgstr ""
+
+#: includes/class.plugin.php:369
+msgid "The plugin cannot initialise due to a fatal error. This is usually due to missing files or incompatible software. Please re-install the plugin and any relevant add-ons. We recommend that you use at least PHP 5.6. Technical details are as follows: "
+msgstr ""
+
+#: wpGoogleMaps.php:1082
+msgid "The plugin failed to load due to a fatal error. This is usually due to missing files, or incompatible software. Please re-install the plugin. We recommend you use PHP 5.6 or above. Technical details are as follows: "
+msgstr ""
+
+#: legacy-core.php:5068
+msgid "Enable Auto Night Mode"
+msgstr ""
+
+#: includes/class.plugin.php:107
+msgid "<strong>WP Google Maps:</strong> Cannot find the specified XML folder. This has been switched back to the Database method in Maps -> Settings -> Advanced"
+msgstr ""
+
+#: includes/class.strings.php:44
+msgid "Geocode failed due to technical reasons"
+msgstr ""
+
+#: includes/class.strings.php:43
+msgid "Zero results found"
+msgstr ""
+
+#: includes/class.strings.php:42
+msgid "Please Wait..."
+msgstr ""
+
+#: includes/class.strings.php:39
+msgid "No address specified"
+msgstr ""
+
+#: includes/class.script-loader.php:418
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>WP Google Maps:</strong> Failed to build combined script file, the resulting file would be blank.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Developers:</strong> Please check that the file is writable and that all script dependencies are resolved.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<strong>Users:</strong> Please disable \"Developer Mode\" in Maps &rarr; Settings &rarr; Advanced.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+""
+
+#: html/gdpr-compliance-settings.html.php:11
+msgid "Some caching and optimization plugins will continue to serve your map page with the GDPR agreement, disregarding this cookie. In this instance, clicking \"I Agree\" will reload the page and appear to have no effect. To solve this issue, we recommend you exclude your map page from caching and optimization."
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:6
+msgid "Our GDPR notice will be displayed whenever the agreement cookie is not set. Agreeing to the notice will set this cookie."
+msgstr ""
+
+#: includes/class.strings.php:37
+msgid "Importing, this may take a moment..."
+msgstr ""
+
+#: includes/class.strings.php:36
+msgid "Import completed."
+msgstr ""
+
+#: includes/class.strings.php:31
+msgid "My Location"
+msgstr ""
+
+#: includes/class.strings.php:29
+msgid "Failed to create marker %d - this marker cannot be placed on the map."
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:36
+msgid "“You have exceeded your request quota for this API”"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:122
+msgid "Caltopo"
+msgstr ""
+
+#: legacy-core.php:5013
+#: legacy-core.php:5022
+msgid "Themes can only be used with the Roadmap and Terrain map types."
+msgstr ""
+
+#: includes/class.strings.php:22
+msgid "You have not entered a Google Maps API Key. Please see our documentation on obtaining an API key."
+msgstr ""
+
+#: includes/tables/class.admin-marker-datatable.php:23
+msgid "Bulk Delete"
+msgstr ""
+
+#: includes/tables/class.admin-marker-datatable.php:22
+msgid "Select All"
+msgstr "सर्व निवडा"
+
+#: wpGoogleMaps.php:1025
+#: legacy-core.php:24
+msgid "<strong>WP Google Maps:</strong> This plugin requires the WordPress REST API, which does not appear to be present on this installation. Please update WordPress to version 4.7 or above."
+msgstr ""
+
+#: wpGoogleMaps.php:1009
+msgid "<strong>WP Google Maps:</strong> This plugin uses the DOMDocument class, which is unavailable on this server. Please contact your host to request they enable this library."
+msgstr ""
+
+#: html/gdpr-default-notice.html.php:2
+msgid ""
+"I agree for my personal data to be processed by {COMPANY_NAME}.\n"
+"\t\t\n"
+"I agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and generating directions.\n"
+"\n"
+"Some visual components of WP Google Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\n"
+"\n"
+"WP Google Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is help in local storage and retained until this is cleared manually. No libraries used by WP Google Maps transmit this information.\n"
+"\n"
+"Please <a href=\"https://developers.google.com/maps/terms\">see here</a> and <a href=\"https://maps.google.com/help/terms_maps.html\">here</a> for Google's terms. Please also see <a href=\"https://policies.google.com/privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy</a>. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\n"
+"\n"
+"Where this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again."
+msgstr ""
+
+#: includes/class.strings.php:19
+msgid "Use my location"
+msgstr ""
+
+#: includes/class.strings.php:28
+msgid "Failed to get address"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:116
+msgid "Klokantech 3d"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:110
+msgid "Carto Dark (Dark Matter)"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:103
+msgid "Carto Light (Positron)"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:97
+msgid "OpenPtMap"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:90
+msgid "Öpnvkarte"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:83
+msgid "Thunderforest Outdoors"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:76
+msgid "Thunderforest Landscape"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:69
+msgid "Transport Map"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:62
+msgid "Stamen Watercolor"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:55
+msgid "Stamen Toner"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:48
+msgid "Mapnik OSM No Labels"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:41
+msgid "Mapnik OSM B&amp;W"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:34
+msgid "Humanitarian"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:27
+msgid "OpenCycleMap"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:11
+msgid "OpenStreetMap"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:20
+msgid "Wikimedia Maps"
+msgstr ""
+
+#: html/tile-server-fieldset.html.php:2
+msgid "Tile Server URL:"
+msgstr ""
+
+#. translators: %s: WP Google Maps Pro Link
+#: legacy-core.php:5363
+msgid "Get the rest of these advanced features with the Pro version for only <a href=\"%s\" target=\"_BLANK\">$39.99 once off</a>. Support and updates included forever."
+msgstr ""
+
+#. translators: %s: WP Google Maps Settings Link
+#: legacy-core.php:4561
+#: legacy-core.php:4583
+msgid "We have detected a conflict between your current theme's version and our plugin. Should you be experiencing issues with your maps displaying, please update Avada to version 3.9.4 or go to <a href='%s'>settings page</a> and check the highlighted checkbox."
+msgstr ""
+
+#: js/v8/wp-google-maps.combined.js:5685
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:155
+msgid "Your map will appear here on your websites front end"
+msgstr ""
+
+#: js/v8/wp-google-maps.combined.js:5654
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:124
+msgid "View Documentation"
+msgstr ""
+
+#: js/v8/wp-google-maps.combined.js:5642
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:112
+msgid "Go to Map Editor"
+msgstr ""
+
+#: js/v8/wp-google-maps.combined.js:5674
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:144
+msgid "Google"
+msgstr ""
+
+#: js/v8/wp-google-maps.combined.js:5674
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:144
+msgid "Map"
+msgstr ""
+
+#: legacy-core.php:5856
+msgid "WP Google Maps is a product of <img src='"
+msgstr ""
+
+#: legacy-core.php:5409
+msgid "Enable Marker Listing with the <a href=\""
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:57
+msgid "“API Not Activated Map Error”"
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:50
+msgid "“This API project is not authorized to use this API”"
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:43
+msgid "“This page can’t load Google Maps correctly”"
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:28
+msgid "See our documentation for solutions to common Google API issues:"
+msgstr ""
+
+#: includes/class.strings.php:21
+msgid "The map cannot be initialized because the Maps API has not been loaded. Please check your settings."
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:84
+msgid "Dismiss"
+msgstr "घालवा"
+
+#: html/google-maps-api-error-dialog.html.php:78
+msgid "This dialog is only visible to administrators"
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:71
+msgid "Please open your Developer Tools (F12 for most browsers) and see your JavaScript console for the full error message."
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:65
+msgid "Please see the <a href=\"https://www.wpgmaps.com/documentation/creating-a-google-maps-api-key/\">WP Google Maps Documentation</a> for a step by step guide on setting up your Google Maps API key."
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:9
+msgid "One or more error(s) have occured attempting to initialize the Maps API:"
+msgstr ""
+
+#: html/google-maps-api-error-dialog.html.php:3
+msgid "Maps API Error"
+msgstr ""
+
+#: includes/class.strings.php:26
+msgid "Verify Project"
+msgstr ""
+
+#: includes/class.strings.php:25
+msgid "API Dashboard"
+msgstr ""
+
+#: legacy-core.php:5858
+msgid "Please refer to our <a href='https://www.wpgmaps.com/privacy-policy' target='_blank'>Privacy Policy</a> for information on Data Processing"
+msgstr ""
+
+#: legacy-core.php:5854
+msgid "Thank you for using <a href='https://www.wpgmaps.com'>WP Google Maps</a>! Please <a href='https://wordpress.org/support/plugin/wp-google-maps/reviews/'>rate us on WordPress.org</a>"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:112
+msgid "For more information about WPGM and GDPR compliance, please refer to our <a href=\"https://www.wpgmaps.com/gdpr/\">GDPR information page</a> and our <a href=\"https://www.wpgmaps.com/privacy-policy/\">Privacy Policy</a>"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:101
+msgid "Override Text"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:92
+msgid "By checking this box, you agree to take sole responsibility for GDPR Compliance with regards to this plugin."
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:84
+msgid "Override GDPR Notice"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:75
+msgid "The GDPR regulates that you need to state why you are processing data."
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:39
+msgid "GDPR Consent Notice"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:29
+msgid "The GDPR views IP Addresses as Personal Data, which requires consent before being processed. Loading the Google Maps API stores some user information, such as IP Addresses. WP Google Maps endeavours to uphold the spirit of data protection as per the GDPR. Enable this to option to prevent the Maps API from loading, until a user has consented to it."
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:26
+msgid "Require consent before loading Maps API"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:19
+msgid "General Complicance"
+msgstr ""
+
+#: includes/class.gdpr-compliance.php:42
+msgid ""
+"<p>\n"
+"\tI agree for my personal data to be processed by <span name=\"wpgmza_gdpr_company_name\"></span>, for the purpose(s) of <span name=\"wpgmza_gdpr_retention_purpose\"></span>.\n"
+"</p>\n"
+"\n"
+"<p>\t\n"
+"\tI agree for my personal data, provided via map API calls, to be processed by the API provider, for the purposes of geocoding (converting addresses to coordinates), reverse geocoding and\tgenerating directions.\n"
+"</p>\n"
+"<p>\n"
+"\tSome visual components of WP Google Maps use 3rd party libraries which are loaded over the network. At present the libraries are Google Maps, Open Street Map, jQuery DataTables and FontAwesome. When loading resources over a network, the 3rd party server will receive your IP address and User Agent string amongst other details. Please refer to the Privacy Policy of the respective libraries for details on how they use data and the process to exercise your rights under the GDPR regulations.\n"
+"</p>\n"
+"<p>\n"
+"\tWP Google Maps uses jQuery DataTables to display sortable, searchable tables, such as that seen in the Advanced Marker Listing and on the Map Edit Page. jQuery DataTables in certain circumstances uses a cookie to save and later recall the \"state\" of a given table - that is, the search term, sort column and order and current page. This data is held in local storage and retained until this is cleared manually. No libraries used by WP Google Maps transmit this information.\n"
+"</p>\n"
+"<p>\n"
+"\tPlease <a href=\"https://developers.google.com/maps/terms\">see here</a> and <a href=\"https://maps.google.com/help/terms_maps.html\">here</a> for Google's terms. Please also see <a href=\"https://policies.google.com/privacy?hl=en-GB&amp;gl=uk\">Google's Privacy Policy</a>. We do not send the API provider any personally identifying information, or information that could uniquely identify your device.\n"
+"</p>\n"
+"<p>\n"
+"\tWhere this notice is displayed in place of a map, agreeing to this notice will store a cookie recording your agreement so you are not prompted again.\n"
+"</p>"
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:53
+msgid "Prevent other plugins and theme loading API:"
+msgstr ""
+
+#: includes/class.gdpr-compliance.php:178
+msgid "I agree"
+msgstr ""
+
+#: legacy-core.php:7063
+msgid "<strong>Alternatively, please switch to the OpenLayers map engine</strong> on the maps settings page"
+msgstr ""
+
+#: legacy-core.php:7052
+msgid "Create an API key now"
+msgstr ""
+
+#: legacy-core.php:4475
+msgid "Always rebuilds combined script files, does not load combined and minified scripts"
+msgstr ""
+
+#: legacy-core.php:4473
+msgid "Developer Mode"
+msgstr ""
+
+#: legacy-core.php:4231
+msgid "Maps Engine:"
+msgstr ""
+
+#: wpGoogleMaps.php:993
+msgid "<strong>WP Google Maps:</strong> This plugin does not support PHP version 5.2 or below. Please use your cPanel or contact your host to switch version."
+msgstr ""
+
+#: includes/class.strings.php:18
+msgid "Many browsers are no longer allowing geolocation from unsecured origins. You will need to secure your site with an SSL certificate (HTTPS) or this feature may not work for your visitors"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:139
+msgid "Select Engine"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:121
+msgid "Use Google Maps"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:113
+msgid "API Key required"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:107
+msgid "Full functionality"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:99
+msgid "Google Maps"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:74
+msgid "Use OpenLayers"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:66
+msgid "Limited functionality"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:60
+msgid "No API keys required"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:52
+msgid "OpenLayers"
+msgstr ""
+
+#: includes/class.maps-engine-dialog.php:37
+msgid "Choose a maps engine"
+msgstr ""
+
+#: html/ol-feature-unavailable.html.php:4
+msgid "This feature is not available when using the OpenLayers engine. Please go to settings then select and configure Google Maps to enable this feature."
+msgstr ""
+
+#: html/ol-feature-coming-soon.html.php:4
+msgid "<strong>Coming soon</strong> to OpenLayers. If you need to use this feature, please go to settings then select and configure Google Maps to enable it."
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:45
+msgid "Always exclude engine API on pages:"
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:40
+#: html/google-maps-api-settings.html.php:48
+msgid "Page IDs"
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:37
+msgid "Always include engine API on pages:"
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:29
+msgid "Never"
+msgstr "कधीही नाही"
+
+#: html/google-maps-api-settings.html.php:24
+msgid "Only Back End"
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:19
+msgid "Only Front End"
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:14
+msgid "Always"
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:9
+msgid "Where required"
+msgstr ""
+
+#: html/google-maps-api-settings.html.php:3
+msgid "Load Maps Engine API:"
+msgstr ""
+
+#: includes/class.gdpr-compliance.php:188
+msgid "GDPR Compliance"
+msgstr ""
+
+#: includes/class.gdpr-compliance.php:167
+msgid "In light of recent EU GDPR regulation, we strongly recommend reviewing the <a target=\"_blank\" href=\"https://www.wpgmaps.com/privacy-policy\">WP Google Maps Privacy Policy</a>"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:48
+msgid "Users will be asked to accept the notice shown here, in the form of a check box."
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:45
+msgid "GDPR Notice"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:67
+msgid "Retention Purpose(s)"
+msgstr ""
+
+#: html/gdpr-compliance-settings.html.php:57
+msgid "Company Name"
+msgstr ""
+
+#: legacy-core.php:4211
+msgid "Use FontAwesome:"
+msgstr ""
+
+#: legacy-core.php:8162
+msgid "Show Rectangle"
+msgstr ""
+
+#: base/includes/wp-google-maps-polylines.php:165
+msgid "Show Polyline"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:165
+#: base/includes/wp-google-maps-polylines.php:171
+#: legacy-core.php:7804
+#: legacy-core.php:8168
+msgid "Fit map bounds to shape"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:160
+msgid "Show Polygon"
+msgstr ""
+
+#: legacy-core.php:8128
+msgid "Edit rectangle"
+msgstr ""
+
+#: legacy-core.php:8109
+msgid "Invalid rectangle ID"
+msgstr ""
+
+#: legacy-core.php:8077
+#: legacy-core.php:8184
+msgid "Save rectangle"
+msgstr ""
+
+#: legacy-core.php:8072
+#: legacy-core.php:8179
+msgid "Click or drag the rectangle to move it."
+msgstr ""
+
+#: legacy-core.php:8071
+msgid "Click on the map to insert a rectangle."
+msgstr ""
+
+#: legacy-core.php:8034
+msgid "Add rectangle"
+msgstr ""
+
+#: legacy-core.php:7779
+msgid "Edit circle"
+msgstr ""
+
+#: legacy-core.php:7765
+msgid "Invalid circle ID"
+msgstr ""
+
+#: legacy-core.php:7731
+#: legacy-core.php:7852
+msgid "Save Circle"
+msgstr ""
+
+#: legacy-core.php:7726
+#: legacy-core.php:7847
+msgid "Click or drag the circle to move it."
+msgstr ""
+
+#: legacy-core.php:7725
+msgid "Click on the map to insert a circle."
+msgstr ""
+
+#: legacy-core.php:7716
+#: legacy-core.php:7838
+msgid "Please note your circle may be too small to be visible at this zoom level"
+msgstr ""
+
+#: legacy-core.php:7690
+#: legacy-core.php:7812
+#: legacy-core.php:8051
+#: legacy-core.php:8146
+msgid "Color"
+msgstr "रंग"
+
+#: legacy-core.php:7673
+msgid "Add circle"
+msgstr ""
+
+#: legacy-core.php:7429
+msgid "Delete this rectangle"
+msgstr ""
+
+#: legacy-core.php:7378
+msgid "Delete this circle"
+msgstr ""
+
+#: legacy-core.php:5860
+msgid "WP Google Maps encourages you to make use of the amazing icons at "
+msgstr ""
+
+#: legacy-core.php:5746
+msgid "My custom field:"
+msgstr ""
+
+#: legacy-core.php:5170
+msgid "Radius Style"
+msgstr ""
+
+#: legacy-core.php:5163
+#: legacy-core.php:5188
+msgid "Modern"
+msgstr ""
+
+#: legacy-core.php:5154
+#: legacy-core.php:5179
+msgid "Legacy"
+msgstr ""
+
+#: legacy-core.php:5145
+msgid "Store Locator Style"
+msgstr ""
+
+#: legacy-core.php:4465
+msgid "Custom JS"
+msgstr ""
+
+#: legacy-core.php:4456
+msgid "Custom Scripts"
+msgstr ""
+
+#: legacy-core.php:4396
+msgid "Use a comma to separate values, eg: 1, 5, 10, 50, 100"
+msgstr ""
+
+#: legacy-core.php:4393
+msgid "Store Locator Radii"
+msgstr ""
+
+#: legacy-core.php:2629
+#: legacy-core.php:5229
+msgid "km"
+msgstr ""
+
+#: legacy-core.php:2629
+#: legacy-core.php:5229
+msgid "mi"
+msgstr ""
+
+#: includes/compat/backwards_compat_v6.php:66
+#: includes/compat/backwards_compat_v6.php:68
+#: legacy-core.php:5793
+#: legacy-core.php:5795
+msgid "Add a Rectangle"
+msgstr ""
+
+#: includes/compat/backwards_compat_v6.php:58
+#: includes/compat/backwards_compat_v6.php:60
+#: legacy-core.php:5785
+#: legacy-core.php:5787
+msgid "Add a Circle"
+msgstr ""
+
+#: includes/compat/backwards_compat_v6.php:54
+#: legacy-core.php:5642
+msgid "Rectangles"
+msgstr ""
+
+#: base/includes/welcome.php:46
+msgid "Add custom shapes such as polygons, polylines, circles and squares!"
+msgstr ""
+
+#: base/includes/welcome.php:45
+msgid "and Squares"
+msgstr ""
+
+#: base/includes/welcome.php:45
+#: includes/compat/backwards_compat_v6.php:53
+#: legacy-core.php:5641
+msgid "Circles"
+msgstr ""
+
+#: base/includes/credits.php:6
+#: base/includes/welcome.php:8
+msgid "Welcome to WP Google Maps version %s"
+msgstr ""
+
+#: base/includes/credits.php:41
+#: base/includes/credits.php:47
+#: base/includes/credits.php:60
+#: base/includes/credits.php:65
+msgid "Support &amp; Developer"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:60
+msgid "It's a temporary deactivation, I'm troubleshooting"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:59
+msgid "I found a better plugin"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:58
+msgid "I don't need this plugin any more"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:57
+msgid "The plugin broke my site"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:56
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:48
+msgid "Thank you!"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:47
+msgid "Please wait"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:46
+msgid "Submit &amp; Deactivate"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:45
+msgid "Skip &amp; Deactivate"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:42
+msgid "Please give us any feedback that could help us improve"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:40
+msgid "Do not send my e-mail address with this feedback"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:39
+msgid "Please tell us the reason so we can improve the plugin"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:38
+msgid "Please tell us which plugin?"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:37
+msgid "If you would be kind enough, please tell us why you're deactivating?"
+msgstr ""
+
+#: lib/codecabin/deactivate-feedback-form.php:36
+msgid "Quick Feedback"
+msgstr ""
+
+#: includes/tables/class.admin-marker-datatable.php:30
+#: legacy-core.php:6248
+msgid "Mark"
+msgstr ""
+
+#: legacy-core.php:5340
+msgid "Show Points of Interest?"
+msgstr ""
+
+#: legacy-core.php:5258
+msgid "Not found message"
+msgstr ""
+
+#: legacy-core.php:5223
+msgid "Default radius"
+msgstr ""
+
+#: legacy-core.php:4310
+msgid "Disable InfoWindows"
+msgstr ""
+
+#: legacy-core.php:2611
+#: legacy-core.php:4740
+msgid "No results found in this location. Please try again."
+msgstr ""
+
+#: legacy-core.php:504
+msgid "Get Pro Version"
+msgstr ""
+
+#: legacy-core.php:500
+msgid "Map Editor"
+msgstr ""
+
+#: legacy-core.php:7126
+msgid "We have detected that you are using %s on your website. Please <a href='%s' class='button'>clear your cache</a> to ensure that your map is updated."
+msgstr ""
+
+#: legacy-core.php:7124
+msgid "One or more markers have been added or changed, please <a href='%s' class='button'>clear your cache.</a>"
+msgstr ""
+
+#: legacy-core.php:5253
+msgid "Default address"
+msgstr ""
+
+#: legacy-core.php:4292
+msgid "Removes the need to use two fingers to move the map on mobile devices"
+msgstr ""
+
+#: legacy-core.php:4290
+msgid "Disable Two-Finger Pan"
+msgstr ""
+
+#: legacy-core.php:4114
+msgid "Disable Full Screen Control"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:92
+#: base/includes/wp-google-maps-polygons.php:188
+#: base/includes/wp-google-maps-polylines.php:86
+#: base/includes/wp-google-maps-polylines.php:193
+#: lib/codecabin/deactivate-feedback-form.php:44
+#: legacy-core.php:7731
+#: legacy-core.php:7852
+#: legacy-core.php:8077
+#: legacy-core.php:8184
+msgid "Cancel"
+msgstr "रद्द करा"
+
+#: base/includes/full-screen-module.php:50
+msgid "Close Full Screen String"
+msgstr ""
+
+#: base/includes/full-screen-module.php:44
+msgid "Open Full Screen String"
+msgstr ""
+
+#: base/includes/full-screen-module.php:38
+msgid "Enable Full Screen Option"
+msgstr ""
+
+#: base/includes/full-screen-module.php:34
+#: base/includes/full-screen-module.php:67
+#: base/includes/full-screen-module.php:91
+msgid "Close full screen"
+msgstr ""
+
+#: base/includes/full-screen-module.php:33
+#: base/includes/full-screen-module.php:66
+#: base/includes/full-screen-module.php:90
+msgid "Full screen"
+msgstr ""
+
+#: base/includes/welcome.php:89
+msgid "Submit and create a map"
+msgstr ""
+
+#: base/includes/welcome.php:16
+msgid "Skip intro and create a map"
+msgstr ""
+
+#: legacy-core.php:7056
+msgid "paste your Google Maps JavaScript API Key here"
+msgstr ""
+
+#: legacy-core.php:7055
+msgid "Paste your API key here and press save:"
+msgstr ""
+
+#: legacy-core.php:7049
+msgid "Before creating a map please follow these steps:"
+msgstr ""
+
+#: legacy-core.php:7047
+msgid "*ALL* Google Maps now require an API key to function."
+msgstr ""
+
+#: base/includes/welcome.php:12
+msgid "Build amazing maps through a simple interface and powerful functionality along with world class support."
+msgstr ""
+
+#: base/includes/welcome.php:110
+msgid "Support Desk"
+msgstr ""
+
+#: base/includes/welcome.php:41
+msgid "Select from various <a href='http://wpgmaps.com/map-themes/' target='_BLANK'>map themes</a>, or make your own."
+msgstr ""
+
+#: base/includes/welcome.php:29
+msgid "Create as many markers as you like"
+msgstr ""
+
+#: base/includes/welcome.php:28
+msgid "Unlimited Markers"
+msgstr ""
+
+#: base/includes/credits.php:92
+msgid "Get involved on GitHub."
+msgstr ""
+
+#: base/includes/credits.php:92
+msgid "Want to see your name on this page?"
+msgstr ""
+
+#: base/includes/credits.php:88
+msgid "Security suggestions"
+msgstr ""
+
+#: base/includes/credits.php:55
+msgid "Marketing"
+msgstr ""
+
+#: base/includes/credits.php:32
+msgid "Lead Developer &amp; Support"
+msgstr ""
+
+#: base/includes/credits.php:35
+msgid "Contributors"
+msgstr "योगदानकर्ते"
+
+#: base/includes/credits.php:27
+msgid "Founder &amp; Lead Developer"
+msgstr ""
+
+#: base/includes/credits.php:21
+msgid "Project Leaders"
+msgstr "प्रकल्पाचे नेते"
+
+#: base/includes/credits.php:20
+msgid "WP Google Maps is created by an international team of developers."
+msgstr ""
+
+#: base/includes/credits.php:16
+#: base/includes/welcome.php:22
+msgid "Credits"
+msgstr "क्रेडिट"
+
+#: base/includes/credits.php:15
+#: base/includes/welcome.php:21
+msgid "Welcome"
+msgstr "आपले स्वागत आहे"
+
+#: base/includes/credits.php:10
+msgid "Thank you for updating! WP Google Maps version 7 helps you build amazing maps through a simple interface and powerful functionality along with world class support."
+msgstr ""
+
+#: legacy-core.php:4194
+msgid "Do not load the Google Maps API (Only check this if your theme loads the Google Maps API by default)"
+msgstr ""
+
+#: legacy-core.php:7065
+msgid "Need help? %s or %s."
+msgstr ""
+
+#: legacy-core.php:7046
+msgid "You can read more about that here."
+msgstr ""
+
+#: legacy-core.php:7045
+msgid "Important Notification"
+msgstr ""
+
+#: legacy-core.php:7044
+msgid "Read the documentation"
+msgstr ""
+
+#: legacy-core.php:7043
+msgid "View the instruction video"
+msgstr ""
+
+#: legacy-core.php:5802
+msgid "View a demo."
+msgstr ""
+
+#: legacy-core.php:5801
+msgid "with the Pro version."
+msgstr ""
+
+#: legacy-core.php:5801
+msgid "Add dynamic heatmap data"
+msgstr ""
+
+#: legacy-core.php:5640
+#: legacy-core.php:5800
+msgid "Heatmaps"
+msgstr ""
+
+#: legacy-core.php:7056
+msgid "Save"
+msgstr "जतन करा"
+
+#: legacy-core.php:7027
+msgid "United States of America"
+msgstr ""
+
+#: includes/tables/class.admin-marker-datatable.php:53
+#: legacy-core.php:6225
+msgid "Edit this marker location"
+msgstr ""
+
+#: legacy-core.php:5953
+msgid "Copied to clipboard"
+msgstr ""
+
+#: legacy-core.php:5201
+msgid "No country selected"
+msgstr ""
+
+#: legacy-core.php:4915
+msgid "Create your Map"
+msgstr ""
+
+#: legacy-core.php:4617
+msgid "Shortcode"
+msgstr ""
+
+#: legacy-core.php:4549
+msgid "Wizard"
+msgstr ""
+
+#: legacy-core.php:4413
+msgid "Google Maps API Key (required)"
+msgstr ""
+
+#: legacy-core.php:4284
+msgid "Allow us to anonymously track how you use your maps and we will send you a 15% Sola Plugins coupon as a token of our gratitude (Coupon will be sent to the administrator's email address)"
+msgstr ""
+
+#: legacy-core.php:4282
+msgid "Enable Usage Tracking"
+msgstr ""
+
+#: legacy-core.php:869
+msgid "Your Google Maps API key has been successfully saved. This API key can be changed in the %s page"
+msgstr ""
+
+#: legacy-core.php:868
+msgid "settings"
+msgstr "सेटिंग्स"
+
+#: legacy-core.php:4173
+msgid "Over-ride current jQuery with version 1.11.3 (Tick this box if you are receiving jQuery related errors after updating to WordPress 4.5)"
+msgstr ""
+
+#: legacy-core.php:4418
+msgid "This API key can be obtained from the <a href='https://console.developers.google.com' target='_BLANK'>Google Developers Console</a>. Our <a href='http://www.wpgmaps.com/documentation/creating-a-google-maps-api-key/' target='_BLANK'>documentation</a> provides a full guide on how to obtain this. "
+msgstr ""
+
+#: legacy-core.php:4409
+msgid "Google Maps API Key"
+msgstr ""
+
+#: legacy-core.php:5063
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: legacy-core.php:5061
+msgid "Paste your custom theme data here:"
+msgstr ""
+
+#: legacy-core.php:5060
+msgid "Browse the theme directory"
+msgstr ""
+
+#: legacy-core.php:5059
+msgid "Or use a custom theme"
+msgstr ""
+
+#: legacy-core.php:4524
+msgid "<h3>We need your love!</h3><p>If you are enjoying our plugin, please consider <a href=\"%1$s\" target=\"_blank\" class=\"button button-primary\">reviewing WP Google Maps</a>. It would mean the world to us! If you are experiencing issues with the plugin, please <a href=\"%2$s\" target=\"_blank\"  class=\"button button-secondary\">contact us</a> and we will help you as soon as humanly possible!</p>"
+msgstr ""
+
+#: legacy-core.php:4529
+msgid "We will not nag you again, promise!"
+msgstr ""
+
+#: legacy-core.php:4529
+msgid "Close"
+msgstr "बंद"
+
+#. Description of the plugin
+#: js/v8/wp-google-maps.combined.js:5671
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:141
+msgid "The easiest to use Google Maps plugin! Create custom Google Maps with high quality markers containing locations, descriptions, images and links. Add your customized map to your WordPress posts and/or pages quickly and easily with the supplied shortcode. No fuss."
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.wpgmaps.com"
+msgstr ""
+
+#: legacy-core.php:6932
+msgid "Contact us"
+msgstr ""
+
+#: legacy-core.php:6931
+msgid "Support forum"
+msgstr ""
+
+#: legacy-core.php:6929
+msgid "Still need help? Use one of these links below."
+msgstr ""
+
+#: legacy-core.php:6923
+msgid "I'm getting jQuery errors showing on my website"
+msgstr ""
+
+#: legacy-core.php:6922
+msgid "My markers are not showing on my map in the front-end"
+msgstr ""
+
+#: legacy-core.php:6921
+msgid "My map is not showing on my website"
+msgstr ""
+
+#: legacy-core.php:6919
+msgid "Common issues:"
+msgstr ""
+
+#: legacy-core.php:6918
+msgid "WP Google Maps has a diverse and wide range of features which may, from time to time, run into conflicts with the thousands of themes and other plugins on the market."
+msgstr ""
+
+#: legacy-core.php:6916
+msgid "Troubleshooting"
+msgstr "समस्यानिवारण"
+
+#: legacy-core.php:6912
+msgid "View all documentation."
+msgstr ""
+
+#: legacy-core.php:6912
+msgid "WP Google Maps Documentation"
+msgstr ""
+
+#: legacy-core.php:6911
+msgid "Changing the Google Maps language"
+msgstr ""
+
+#: legacy-core.php:6910
+msgid "Using your map as a Widget"
+msgstr ""
+
+#: legacy-core.php:6909
+msgid "Creating your first map"
+msgstr ""
+
+#: legacy-core.php:6907
+msgid "Documentation:"
+msgstr "दस्तऐवजीकरण:"
+
+#: legacy-core.php:6906
+msgid "Getting started? Read through some of these articles to help you along your way."
+msgstr ""
+
+#: base/includes/credits.php:77
+#: includes/class.strings.php:24
+#: legacy-core.php:6904
+msgid "Documentation"
+msgstr "डोक्युमेंटशन"
+
+#: legacy-core.php:6901
+msgid "WP Google Maps Support"
+msgstr ""
+
+#: legacy-core.php:6890
+msgid " to 755 or 777, or change the directory in the Maps->Settings page. (Current file permissions are "
+msgstr ""
+
+#: legacy-core.php:6890
+msgid "WP Google Maps does not have write permission to the marker location directory. This is required to store marker data. Please CHMOD the folder "
+msgstr ""
+
+#: legacy-core.php:6438
+msgid "for help on how to do it."
+msgstr ""
+
+#: legacy-core.php:6434
+msgid "in order for this plugin to work! Please see "
+msgstr ""
+
+#: legacy-core.php:6432
+msgid "The plugin directory does not have 'write' permissions. Please enable 'write' permissions (755) for "
+msgstr ""
+
+#: includes/tables/class.admin-marker-datatable.php:37
+#: legacy-core.php:6255
+msgid "Image"
+msgstr "इमेज"
+
+#: includes/tables/class.admin-marker-datatable.php:58
+#: legacy-core.php:6229
+msgid "Delete this marker"
+msgstr ""
+
+#: legacy-core.php:6227
+msgid "Approve this marker"
+msgstr ""
+
+#: legacy-core.php:6224
+msgid "Edit this marker"
+msgstr ""
+
+#: legacy-core.php:6196
+msgid "View this link"
+msgstr ""
+
+#: legacy-core.php:5915
+msgid "This is normally caused by a conflict with another plugin or a JavaScript error that is preventing our plugin's Javascript from executing. Please try disable all plugins one by one and see if this problem persists. If it persists, please contact nick@wpgmaps.com for support."
+msgstr ""
+
+#: legacy-core.php:5909
+msgid "Tip: Use your mouse to change the location of the marker. Simply click and drag it to your desired location."
+msgstr ""
+
+#: legacy-core.php:5908
+msgid "Save Marker Location"
+msgstr ""
+
+#: legacy-core.php:5903
+msgid "Marker Longitude"
+msgstr ""
+
+#: legacy-core.php:5899
+msgid "Marker Latitude"
+msgstr ""
+
+#: legacy-core.php:5890
+msgid "Edit Marker Location"
+msgstr ""
+
+#: legacy-core.php:5847
+msgid "Allow your visitors to get directions to your markers!"
+msgstr ""
+
+#: legacy-core.php:5843
+msgid "Add different marker icons, or your own icons to make your map really stand out!"
+msgstr ""
+
+#: legacy-core.php:5839
+#: legacy-core.php:5843
+#: legacy-core.php:5847
+msgid "here"
+msgstr ""
+
+#: legacy-core.php:5839
+#: legacy-core.php:5843
+#: legacy-core.php:5847
+msgid "Click"
+msgstr ""
+
+#: legacy-core.php:5839
+msgid "Add detailed information to your markers for only"
+msgstr ""
+
+#: legacy-core.php:5838
+#: legacy-core.php:5842
+#: legacy-core.php:5846
+msgid "Add custom markers to your map!"
+msgstr ""
+
+#: legacy-core.php:5838
+msgid "Add detailed information to your markers!"
+msgstr ""
+
+#: legacy-core.php:5831
+msgid "Your Markers"
+msgstr ""
+
+#: legacy-core.php:5817
+msgid "Remember to save your map!"
+msgstr ""
+
+#: legacy-core.php:5811
+msgid "This is normally caused by a conflict with another plugin or a JavaScript error that is preventing our plugin's Javascript from executing. Please try disable all plugins one by one and see if this problem persists."
+msgstr ""
+
+#: legacy-core.php:5811
+#: legacy-core.php:5915
+msgid "The map could not load."
+msgstr ""
+
+#: legacy-core.php:5779
+msgid "Add a New Polyline"
+msgstr ""
+
+#: legacy-core.php:5774
+msgid "Add a New Polygon"
+msgstr ""
+
+#: legacy-core.php:5756
+msgid "Select"
+msgstr "निवडा"
+
+#: legacy-core.php:5742
+msgid "Custom Marker"
+msgstr ""
+
+#: legacy-core.php:5740
+msgid "Link URL"
+msgstr "लिंक URL"
+
+#: legacy-core.php:5738
+msgid "Pic URL"
+msgstr ""
+
+#: legacy-core.php:5702
+msgid "with the Pro version"
+msgstr ""
+
+#: legacy-core.php:5702
+msgid "Add advanced markers"
+msgstr ""
+
+#: legacy-core.php:5688
+msgid "Please add the current marker before trying to add another marker"
+msgstr ""
+
+#: legacy-core.php:5682
+msgid "Remember to save your marker"
+msgstr ""
+
+#: legacy-core.php:5679
+msgid "Saving"
+msgstr ""
+
+#: includes/class.strings.php:41
+#: legacy-core.php:5679
+msgid "Save Marker"
+msgstr ""
+
+#: legacy-core.php:5678
+msgid "Adding"
+msgstr ""
+
+#: includes/class.strings.php:40
+#: legacy-core.php:5678
+#: legacy-core.php:5762
+msgid "Add Marker"
+msgstr ""
+
+#: legacy-core.php:5668
+#: legacy-core.php:5723
+msgid "InfoWindow open by default"
+msgstr ""
+
+#: legacy-core.php:5662
+#: legacy-core.php:5717
+msgid "Drop"
+msgstr ""
+
+#: legacy-core.php:5661
+#: legacy-core.php:5716
+msgid "Bounce"
+msgstr ""
+
+#: legacy-core.php:5657
+#: legacy-core.php:5712
+msgid "Animation"
+msgstr ""
+
+#: legacy-core.php:5652
+msgid "Or right click on the map"
+msgstr ""
+
+#: legacy-core.php:5651
+#: legacy-core.php:5706
+msgid "Address/GPS"
+msgstr ""
+
+#: legacy-core.php:5638
+msgid "Polygon"
+msgstr ""
+
+#: legacy-core.php:5637
+#: legacy-core.php:5700
+msgid "Advanced markers"
+msgstr ""
+
+#: legacy-core.php:5636
+#: legacy-core.php:5647
+msgid "Markers"
+msgstr ""
+
+#: legacy-core.php:5629
+msgid "Tip: Use your mouse to change the layout of your map. When you have positioned the map to your desired location, press \"Save Map\" to keep your settings."
+msgstr ""
+
+#: legacy-core.php:5626
+msgid "Save Map"
+msgstr ""
+
+#: legacy-core.php:5511
+msgid "Advanced, tabular marker listing functionality with real time filtering"
+msgstr ""
+
+#: legacy-core.php:5510
+msgid "Tabular"
+msgstr ""
+
+#: legacy-core.php:5502
+msgid "Beautiful, responsive, mobile-friendly carousel marker listing"
+msgstr ""
+
+#: legacy-core.php:5493
+msgid "Show a basic list of your markers"
+msgstr ""
+
+#: legacy-core.php:5492
+msgid "Basic"
+msgstr ""
+
+#: legacy-core.php:5476
+msgid "Bottom Right"
+msgstr "खालून उजवी बाजू"
+
+#: legacy-core.php:5475
+msgid "Bottom Left"
+msgstr "खालून डावी बाजू"
+
+#: legacy-core.php:5474
+msgid "Bottom Center"
+msgstr ""
+
+#: legacy-core.php:5473
+msgid "Right Bottom"
+msgstr ""
+
+#: legacy-core.php:5472
+msgid "Left Bottom"
+msgstr ""
+
+#: legacy-core.php:5471
+msgid "Right Center"
+msgstr ""
+
+#: legacy-core.php:5470
+msgid "Left Center"
+msgstr ""
+
+#: legacy-core.php:5469
+msgid "Right Top"
+msgstr ""
+
+#: legacy-core.php:5468
+msgid "Left Top "
+msgstr ""
+
+#: legacy-core.php:5467
+msgid "Top Right"
+msgstr "वरून उजवी बाजू"
+
+#: legacy-core.php:5466
+msgid "Top Left"
+msgstr "वरून डावी बाजू"
+
+#: legacy-core.php:5465
+msgid "Top Center"
+msgstr ""
+
+#: legacy-core.php:5463
+msgid "Placement: "
+msgstr ""
+
+#: legacy-core.php:5461
+msgid "Move your marker list inside the map area"
+msgstr ""
+
+#: legacy-core.php:5458
+msgid "Move list inside map"
+msgstr ""
+
+#: legacy-core.php:5446
+msgid "Descending"
+msgstr "उतरत्या क्रमाने"
+
+#: legacy-core.php:5445
+msgid "Ascending"
+msgstr "चढत्या क्रमाने"
+
+#: includes/tables/class.admin-marker-datatable.php:36
+#: includes/tables/class.marker-datatable.php:20
+#: legacy-core.php:5441
+#: legacy-core.php:5736
+#: legacy-core.php:6254
+#: legacy-core.php:6273
+msgid "Description"
+msgstr "वर्णन"
+
+#: legacy-core.php:5435
+msgid "Order markers by"
+msgstr ""
+
+#: legacy-core.php:5430
+msgid "Allow users to filter by category?"
+msgstr ""
+
+#: legacy-core.php:5427
+msgid "Filter by Category"
+msgstr "कॅटेगरीजनुसार फिल्टर"
+
+#: legacy-core.php:5421
+msgid "beta"
+msgstr ""
+
+#: legacy-core.php:5421
+#: legacy-core.php:5501
+msgid "Carousel"
+msgstr ""
+
+#: legacy-core.php:5420
+msgid "Advanced table with real time search and filtering"
+msgstr ""
+
+#: legacy-core.php:5419
+msgid "Basic table"
+msgstr ""
+
+#: legacy-core.php:5415
+msgid "List Markers"
+msgstr ""
+
+#: legacy-core.php:5401
+msgid "Read data directly from your Fusion Table."
+msgstr ""
+
+#: legacy-core.php:5399
+msgid "Fusion table ID"
+msgstr ""
+
+#: legacy-core.php:5395
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr ""
+
+#: legacy-core.php:5393
+msgid "KML/GeoRSS URL"
+msgstr ""
+
+#: legacy-core.php:5379
+msgid "Show User's Location?"
+msgstr ""
+
+#: legacy-core.php:5375
+#: legacy-core.php:5739
+#: legacy-core.php:5743
+msgid "Upload Image"
+msgstr ""
+
+#: legacy-core.php:5374
+msgid "Default Marker Image"
+msgstr ""
+
+#: legacy-core.php:5311
+msgid "Maximum Zoom Level"
+msgstr ""
+
+#: legacy-core.php:5300
+msgid "Enable Public Transport Layer?"
+msgstr ""
+
+#: legacy-core.php:5289
+msgid "Enable Traffic Layer?"
+msgstr ""
+
+#: legacy-core.php:5280
+msgid "Enable Bicycle Layer?"
+msgstr ""
+
+#: legacy-core.php:5273
+msgid "Store Locator Documentation"
+msgstr ""
+
+#: legacy-core.php:5273
+msgid "View"
+msgstr "पहा"
+
+#: legacy-core.php:5263
+msgid "Show bouncing icon"
+msgstr ""
+
+#: legacy-core.php:5248
+msgid "Query string"
+msgstr ""
+
+#: legacy-core.php:5218
+msgid "Kilometers"
+msgstr ""
+
+#: legacy-core.php:5218
+msgid "Miles"
+msgstr ""
+
+#: legacy-core.php:5215
+msgid "Show distance in"
+msgstr ""
+
+#: legacy-core.php:5195
+msgid "Restrict to country"
+msgstr ""
+
+#: legacy-core.php:5137
+msgid "Enable Store Locator"
+msgstr ""
+
+#: legacy-core.php:5123
+msgid "Directions Box Width"
+msgstr ""
+
+#: legacy-core.php:5117
+msgid "Yes, below"
+msgstr ""
+
+#: legacy-core.php:5116
+msgid "Yes, above"
+msgstr ""
+
+#: legacy-core.php:5115
+msgid "Yes, on the right"
+msgstr ""
+
+#: legacy-core.php:5114
+msgid "Yes, on the left"
+msgstr ""
+
+#: legacy-core.php:5109
+msgid "Directions Box Open by Default?"
+msgstr ""
+
+#: legacy-core.php:5097
+msgid "Enable Directions?"
+msgstr ""
+
+#: legacy-core.php:5020
+msgid "Select a theme for your map"
+msgstr ""
+
+#: legacy-core.php:5005
+msgid "Map type"
+msgstr ""
+
+#: legacy-core.php:4217
+#: legacy-core.php:5000
+#: legacy-core.php:5418
+#: legacy-core.php:5660
+#: legacy-core.php:5715
+msgid "None"
+msgstr "काहीही नाही"
+
+#: legacy-core.php:4999
+msgid "Right"
+msgstr "उजवा"
+
+#: legacy-core.php:4998
+#: legacy-core.php:7797
+msgid "Center"
+msgstr "मध्यभागी"
+
+#: legacy-core.php:4997
+msgid "Left"
+msgstr "डावं"
+
+#: legacy-core.php:4995
+msgid "Map Alignment"
+msgstr ""
+
+#: legacy-core.php:4989
+msgid "Zoom Level"
+msgstr ""
+
+#: legacy-core.php:4984
+msgid "We recommend that you leave your height in PX. Depending on your theme, using % for the height may break your map."
+msgstr ""
+
+#: legacy-core.php:4974
+msgid "Set to 100% for a responsive map"
+msgstr ""
+
+#: legacy-core.php:4963
+msgid "Map Name"
+msgstr ""
+
+#: legacy-core.php:4960
+msgid "copy this into your post or page to display the map"
+msgstr ""
+
+#: legacy-core.php:4959
+msgid "Short code"
+msgstr ""
+
+#: legacy-core.php:4927
+msgid "Pro Upgrade"
+msgstr ""
+
+#: legacy-core.php:4926
+msgid "Marker Listing Options"
+msgstr ""
+
+#: legacy-core.php:4923
+msgid "Directions"
+msgstr ""
+
+#: base/includes/welcome.php:40
+#: legacy-core.php:4922
+msgid "Themes"
+msgstr "थीम्स"
+
+#: legacy-core.php:4921
+msgid "General Settings"
+msgstr "सामान्य सेटिंग्ज"
+
+#: legacy-core.php:4856
+msgid "We've noticed that you are using W3 Total Cache and that you have CDN enabled.<br /><br />In order for the markers to show up on your map, you need to add '<strong><em>{uploads_dir}/wp-google-maps*</strong></em>' to the '<strong>rejected files</strong>' list in the <a href='admin.php?page=w3tc_cdn#advanced'>CDN settings page</a> of W3 Total Cache"
+msgstr ""
+
+#: legacy-core.php:4856
+msgid "Please note"
+msgstr ""
+
+#: legacy-core.php:4831
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr ""
+
+#: legacy-core.php:4831
+msgid "Purchase the Pro Edition"
+msgstr ""
+
+#: legacy-core.php:4830
+msgid "of this plugin for just"
+msgstr ""
+
+#: legacy-core.php:4830
+#: legacy-core.php:4831
+#: legacy-core.php:5843
+#: legacy-core.php:5847
+msgid "Pro Edition"
+msgstr ""
+
+#: legacy-core.php:4830
+msgid "Add custom icons, titles, descriptions, pictures and links to your markers with the"
+msgstr ""
+
+#: legacy-core.php:4675
+msgid "Pic"
+msgstr ""
+
+#: legacy-core.php:4674
+msgid "GPS"
+msgstr ""
+
+#: includes/tables/class.admin-marker-datatable.php:35
+#: includes/tables/class.marker-datatable.php:19
+#: legacy-core.php:4673
+#: legacy-core.php:5440
+#: legacy-core.php:6253
+#: legacy-core.php:6272
+msgid "Address"
+msgstr "अॅड्रेस (Address)"
+
+#: legacy-core.php:4671
+msgid "Linked to"
+msgstr ""
+
+#: includes/tables/class.admin-marker-datatable.php:32
+#: legacy-core.php:4670
+#: legacy-core.php:6250
+msgid "Icon"
+msgstr ""
+
+#: legacy-core.php:4650
+msgid "My Markers"
+msgstr ""
+
+#: legacy-core.php:4628
+msgid "Trash"
+msgstr "⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ट्रॅश"
+
+#: legacy-core.php:4626
+#: legacy-core.php:5010
+msgid "Terrain"
+msgstr ""
+
+#: legacy-core.php:4625
+#: legacy-core.php:5009
+msgid "Hybrid"
+msgstr ""
+
+#: legacy-core.php:4624
+#: legacy-core.php:5008
+msgid "Satellite"
+msgstr ""
+
+#: legacy-core.php:4623
+#: legacy-core.php:5007
+msgid "Roadmap"
+msgstr ""
+
+#: legacy-core.php:4616
+msgid "Type"
+msgstr "टाईप"
+
+#: legacy-core.php:4615
+#: legacy-core.php:4979
+msgid "Height"
+msgstr "उंची"
+
+#: legacy-core.php:4614
+#: legacy-core.php:4967
+msgid "Width"
+msgstr "रुंदी"
+
+#: legacy-core.php:4593
+#: legacy-core.php:4653
+msgid "Problems with the plugin? See the troubleshooting manual."
+msgstr ""
+
+#: legacy-core.php:4571
+msgid "of WP Google Maps for only"
+msgstr ""
+
+#: legacy-core.php:4571
+msgid "with the"
+msgstr ""
+
+#: legacy-core.php:4571
+msgid "Create unlimited maps"
+msgstr ""
+
+#: legacy-core.php:4549
+#: legacy-core.php:4650
+msgid "Add New"
+msgstr "नवीन लिंक"
+
+#: legacy-core.php:4549
+#: legacy-core.php:4570
+msgid "My Maps"
+msgstr ""
+
+#: legacy-core.php:4483
+msgid "Save Settings"
+msgstr ""
+
+#: legacy-core.php:4459
+msgid "Custom CSS"
+msgstr "फेरफार करण्यासाठीची सीएसएस (CSS)"
+
+#: legacy-core.php:4445
+msgid "Marker data XML URL"
+msgstr ""
+
+#: legacy-core.php:4441
+#: legacy-core.php:4451
+msgid "Currently using"
+msgstr ""
+
+#: legacy-core.php:4440
+#: legacy-core.php:4450
+msgid "You can use the following"
+msgstr ""
+
+#: legacy-core.php:4436
+msgid "Marker data XML directory"
+msgstr ""
+
+#: legacy-core.php:4434
+msgid "We suggest that you change the two fields below ONLY if you are experiencing issues when trying to save the marker XML files."
+msgstr ""
+
+#: legacy-core.php:4431
+msgid "XML File  (Great for large amounts of markers)"
+msgstr ""
+
+#: legacy-core.php:4430
+msgid "Database (Great for small amounts of markers)"
+msgstr ""
+
+#: legacy-core.php:4428
+msgid "Pull marker data from"
+msgstr ""
+
+#: legacy-core.php:4425
+msgid "Marker Data Location"
+msgstr ""
+
+#: legacy-core.php:4403
+#: legacy-core.php:4925
+msgid "Advanced Settings"
+msgstr ""
+
+#: legacy-core.php:4383
+msgid "Autoplay after x milliseconds (1000 = 1 second)"
+msgstr ""
+
+#: legacy-core.php:4382
+msgid "Items"
+msgstr "आयटमस्"
+
+#: legacy-core.php:4381
+msgid "Enable navigation"
+msgstr ""
+
+#: legacy-core.php:4380
+msgid "Enable pagination"
+msgstr ""
+
+#: legacy-core.php:4379
+msgid "Enable autoheight"
+msgstr ""
+
+#: legacy-core.php:4378
+msgid "Enable lazyload of images"
+msgstr ""
+
+#: legacy-core.php:4377
+msgid "Hide the Directions Link"
+msgstr ""
+
+#: legacy-core.php:4376
+msgid "Hide the Marker Link"
+msgstr ""
+
+#: legacy-core.php:4375
+msgid "Hide the Description"
+msgstr ""
+
+#: legacy-core.php:4374
+msgid "Hide the Address"
+msgstr ""
+
+#: legacy-core.php:4373
+msgid "Hide the Marker Icon"
+msgstr ""
+
+#: legacy-core.php:4372
+msgid "Hide the Title"
+msgstr ""
+
+#: legacy-core.php:4371
+msgid "Hide the Image"
+msgstr ""
+
+#: legacy-core.php:4369
+msgid "Carousel settings"
+msgstr ""
+
+#: legacy-core.php:4364
+msgid "Black"
+msgstr "काळा"
+
+#: legacy-core.php:4363
+msgid "White"
+msgstr "पांढरा"
+
+#: legacy-core.php:4362
+msgid "PinkPurple"
+msgstr ""
+
+#: legacy-core.php:4361
+msgid "Monotone"
+msgstr ""
+
+#: legacy-core.php:4360
+msgid "Earth"
+msgstr ""
+
+#: legacy-core.php:4359
+msgid "Sun"
+msgstr "रवि"
+
+#: legacy-core.php:4358
+msgid "Sky"
+msgstr ""
+
+#: legacy-core.php:4355
+msgid "Theme selection"
+msgstr ""
+
+#: legacy-core.php:4352
+msgid "Carousel Marker Listing"
+msgstr ""
+
+#: legacy-core.php:4346
+msgid "Hide the Description column"
+msgstr ""
+
+#: legacy-core.php:4345
+msgid "Hide the Category column"
+msgstr ""
+
+#: legacy-core.php:4344
+msgid "Hide the Address column"
+msgstr ""
+
+#: legacy-core.php:4343
+msgid "Hide the Title column"
+msgstr ""
+
+#: legacy-core.php:4342
+msgid "Hide the Icon column"
+msgstr ""
+
+#: legacy-core.php:4340
+msgid "Column settings"
+msgstr ""
+
+#: legacy-core.php:4337
+msgid "Advanced Marker Listing"
+msgstr ""
+
+#: legacy-core.php:4331
+msgid "Changing these settings will alter the way the marker list appears on your website."
+msgstr ""
+
+#: legacy-core.php:4330
+msgid "Marker Listing Settings"
+msgstr ""
+
+#: legacy-core.php:4304
+msgid "Open Marker InfoWindows by"
+msgstr ""
+
+#: legacy-core.php:4301
+msgid "Marker InfoWindow Settings"
+msgstr ""
+
+#: legacy-core.php:4269
+msgid "Lowest level of access to the map editor"
+msgstr ""
+
+#: legacy-core.php:4171
+msgid "Troubleshooting Options"
+msgstr ""
+
+#: legacy-core.php:4166
+msgid "Disable Mouse Double Click Zooming"
+msgstr ""
+
+#: legacy-core.php:4165
+msgid "Disable Mouse Dragging"
+msgstr ""
+
+#: legacy-core.php:4164
+msgid "Disable Mouse Wheel Zoom"
+msgstr ""
+
+#: legacy-core.php:4159
+msgid "Disable Map Type Controls"
+msgstr ""
+
+#: legacy-core.php:4141
+msgid "Disable Pan Controls"
+msgstr ""
+
+#: legacy-core.php:4134
+msgid "Disable Zoom Controls"
+msgstr ""
+
+#: legacy-core.php:4128
+msgid "Disable StreetView"
+msgstr ""
+
+#: legacy-core.php:4112
+msgid "General Map Settings"
+msgstr ""
+
+#: legacy-core.php:4109
+#: js/v8/wp-google-maps.combined.js:5632
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:102
+msgid "Map Settings"
+msgstr ""
+
+#: legacy-core.php:4101
+msgid "Marker Listing"
+msgstr ""
+
+#: legacy-core.php:4100
+msgid "InfoWindows"
+msgstr ""
+
+#: legacy-core.php:4068
+msgid " - The plugin does not have write access to this folder. Please CHMOD this folder to 755 or 777, or change the location"
+msgstr ""
+
+#: legacy-core.php:4068
+msgid "File Permissions:"
+msgstr ""
+
+#: legacy-core.php:4065
+#: legacy-core.php:6887
+msgid "This folder does not exist. Please create it."
+msgstr ""
+
+#: legacy-core.php:3955
+msgid "WP Google Map Settings"
+msgstr ""
+
+#: legacy-core.php:3914
+msgid "Are you sure you want to delete this marker:"
+msgstr ""
+
+#: legacy-core.php:3914
+msgid "Delete Marker"
+msgstr ""
+
+#: legacy-core.php:3910
+msgid "There was a problem deleting the marker."
+msgstr ""
+
+#: legacy-core.php:3793
+msgid "There was a problem duplicating the map."
+msgstr ""
+
+#: base/includes/full-screen-module.php:40
+#: legacy-core.php:3783
+#: legacy-core.php:3914
+#: legacy-core.php:4173
+#: legacy-core.php:4192
+#: legacy-core.php:4284
+#: legacy-core.php:4292
+#: legacy-core.php:4315
+#: legacy-core.php:5070
+#: legacy-core.php:5099
+#: legacy-core.php:5103
+#: legacy-core.php:5113
+#: legacy-core.php:5140
+#: legacy-core.php:5266
+#: legacy-core.php:5284
+#: legacy-core.php:5293
+#: legacy-core.php:5304
+#: legacy-core.php:5353
+#: legacy-core.php:5381
+#: legacy-core.php:5386
+#: legacy-core.php:5671
+#: legacy-core.php:5726
+msgid "No"
+msgstr "नाही"
+
+#: base/includes/full-screen-module.php:40
+#: legacy-core.php:3783
+#: legacy-core.php:3914
+#: legacy-core.php:4173
+#: legacy-core.php:4191
+#: legacy-core.php:4284
+#: legacy-core.php:4292
+#: legacy-core.php:4315
+#: legacy-core.php:5070
+#: legacy-core.php:5100
+#: legacy-core.php:5140
+#: legacy-core.php:5266
+#: legacy-core.php:5284
+#: legacy-core.php:5293
+#: legacy-core.php:5304
+#: legacy-core.php:5353
+#: legacy-core.php:5382
+#: legacy-core.php:5386
+#: legacy-core.php:5672
+#: legacy-core.php:5727
+msgid "Yes"
+msgstr "होय"
+
+#: legacy-core.php:3783
+msgid "Are you sure you want to delete the map"
+msgstr ""
+
+#: legacy-core.php:3783
+msgid "Delete your map"
+msgstr ""
+
+#: legacy-core.php:3779
+msgid "There was a problem deleting the map."
+msgstr ""
+
+#: legacy-core.php:3772
+msgid "Support forum."
+msgstr ""
+
+#: legacy-core.php:3772
+msgid "Or ask a question on our "
+msgstr ""
+
+#: legacy-core.php:3772
+#: legacy-core.php:3901
+msgid "See the troubleshooting manual."
+msgstr ""
+
+#: legacy-core.php:3772
+#: legacy-core.php:3901
+msgid "Experiencing problems with the plugin?"
+msgstr ""
+
+#: base/includes/credits.php:71
+#: base/includes/credits.php:82
+#: legacy-core.php:3750
+#: legacy-core.php:6927
+msgid "Support"
+msgstr ""
+
+#: legacy-core.php:502
+#: legacy-core.php:3749
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: legacy-core.php:3733
+#: legacy-core.php:4103
+msgid "Advanced"
+msgstr "प्रगत"
+
+#: legacy-core.php:3726
+msgid "Categories"
+msgstr "कॅटेगरी"
+
+#: legacy-core.php:3724
+#: legacy-core.php:4099
+#: js/v8/wp-google-maps.combined.js:5674
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:144
+msgid "Maps"
+msgstr ""
+
+#: legacy-core.php:3359
+#: legacy-core.php:3363
+msgid "Thank you for your feedback!"
+msgstr ""
+
+#: legacy-core.php:3185
+#: legacy-core.php:3673
+msgid "Your polyline has been saved."
+msgstr ""
+
+#: legacy-core.php:3142
+#: legacy-core.php:3641
+msgid "Your polyline has been created."
+msgstr ""
+
+#: legacy-core.php:3110
+#: legacy-core.php:3156
+msgid "You cannot save a blank polyline"
+msgstr ""
+
+#: legacy-core.php:3097
+#: legacy-core.php:3610
+msgid "Your polygon has been saved."
+msgstr ""
+
+#: legacy-core.php:3036
+#: legacy-core.php:3574
+msgid "Your polygon has been created."
+msgstr ""
+
+#: legacy-core.php:2989
+#: legacy-core.php:3050
+msgid "You cannot save a blank polygon"
+msgstr ""
+
+#: legacy-core.php:2978
+#: legacy-core.php:3540
+msgid "Your marker location has been saved."
+msgstr ""
+
+#: legacy-core.php:2948
+#: legacy-core.php:3509
+#: legacy-core.php:3705
+msgid "Your settings have been saved."
+msgstr ""
+
+#: legacy-core.php:2655
+msgid "Search"
+msgstr "शोधा"
+
+#: includes/tables/class.admin-marker-datatable.php:34
+#: includes/tables/class.marker-datatable.php:18
+#: legacy-core.php:2647
+#: legacy-core.php:5442
+#: legacy-core.php:5753
+#: legacy-core.php:6252
+#: legacy-core.php:6271
+msgid "Category"
+msgstr "कॅटेगरी"
+
+#: legacy-core.php:2623
+#: legacy-core.php:7706
+#: legacy-core.php:7828
+msgid "Radius"
+msgstr ""
+
+#: legacy-core.php:2605
+#: legacy-core.php:4738
+msgid "ZIP / Address:"
+msgstr ""
+
+#: legacy-core.php:2263
+msgid "does not exist"
+msgstr ""
+
+#: legacy-core.php:2263
+msgid "Error: The map ID"
+msgstr ""
+
+#: legacy-core.php:1754
+msgid "Could not save XML file"
+msgstr ""
+
+#: legacy-core.php:1646
+msgid "DOMDocument is not enabled"
+msgstr ""
+
+#: includes/class.strings.php:33
+#: legacy-core.php:1027
+#: legacy-core.php:1607
+#: legacy-core.php:2549
+msgid "km away"
+msgstr ""
+
+#: includes/class.strings.php:34
+#: legacy-core.php:1028
+#: legacy-core.php:1608
+#: legacy-core.php:2550
+msgid "miles away"
+msgstr ""
+
+#: legacy-core.php:613
+msgid "for help on how to do it. Alternatively, you can disable the use of Timthumb in Maps->Settings"
+msgstr ""
+
+#: legacy-core.php:611
+#: legacy-core.php:6436
+msgid "this page"
+msgstr ""
+
+#: legacy-core.php:609
+msgid "in order for images to show up while using Timthumb. Please see "
+msgstr ""
+
+#: legacy-core.php:607
+msgid "Timthumb does not have 'write' permission for the cache directory. Please enable 'write' permissions (755 or 777) for "
+msgstr ""
+
+#: legacy-core.php:593
+msgid "</em>exists. Please also ensure that you assign file permissions of 755 (or 777) to this directory."
+msgstr ""
+
+#: legacy-core.php:593
+msgid "<strong>WP Google Maps cannot find the directory it uses to save marker data to. Please confirm that <em>"
+msgstr ""
+
+#: legacy-core.php:224
+msgid "My first map"
+msgstr ""
+
+#: base/includes/wp-google-maps-polylines.php:753
+msgid "Delete this polyline"
+msgstr ""
+
+#: base/includes/wp-google-maps-polylines.php:124
+msgid "Edit Polyline"
+msgstr ""
+
+#: base/includes/wp-google-maps-polylines.php:86
+#: base/includes/wp-google-maps-polylines.php:193
+msgid "Save Polyline"
+msgstr ""
+
+#: base/includes/wp-google-maps-polylines.php:60
+#: base/includes/wp-google-maps-polylines.php:155
+msgid "Line Thickness"
+msgstr ""
+
+#: base/includes/wp-google-maps-polylines.php:30
+msgid "Add a Polyline"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:754
+msgid "Delete this polygon"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:753
+#: base/includes/wp-google-maps-polylines.php:752
+#: legacy-core.php:4634
+#: legacy-core.php:7372
+#: legacy-core.php:7423
+msgid "Edit"
+msgstr "संपादन"
+
+#: base/includes/wp-google-maps-polygons.php:727
+#: base/includes/wp-google-maps-polylines.php:726
+#: includes/tables/class.admin-marker-datatable.php:39
+#: legacy-core.php:6257
+#: legacy-core.php:7356
+#: legacy-core.php:7407
+msgid "Action"
+msgstr "क्रिया"
+
+#: base/includes/wp-google-maps-polygons.php:725
+#: base/includes/wp-google-maps-polylines.php:724
+#: includes/tables/class.admin-marker-datatable.php:31
+#: legacy-core.php:4612
+#: legacy-core.php:4669
+#: legacy-core.php:5438
+#: legacy-core.php:5890
+#: legacy-core.php:6249
+#: legacy-core.php:7354
+#: legacy-core.php:7405
+msgid "ID"
+msgstr "आयडी"
+
+#: base/includes/wp-google-maps-polygons.php:123
+msgid "Edit Polygon"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:92
+#: base/includes/wp-google-maps-polygons.php:188
+msgid "Save Polygon"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:85
+msgid "Drag a vertex to move it."
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:84
+msgid "Click on a vertex to remove it."
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:83
+msgid "Click on the map to insert a vertex."
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:71
+#: base/includes/wp-google-maps-polygons.php:157
+msgid "On Hover Opacity"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:68
+#: base/includes/wp-google-maps-polygons.php:154
+msgid "On Hover Fill Color"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:65
+#: base/includes/wp-google-maps-polygons.php:151
+msgid "On Hover Line Color"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:62
+#: base/includes/wp-google-maps-polygons.php:148
+#: base/includes/wp-google-maps-polylines.php:52
+#: base/includes/wp-google-maps-polylines.php:147
+#: legacy-core.php:7698
+#: legacy-core.php:7820
+#: legacy-core.php:8059
+#: legacy-core.php:8154
+msgid "Opacity"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:59
+#: base/includes/wp-google-maps-polygons.php:145
+msgid "Fill Color"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:56
+#: base/includes/wp-google-maps-polygons.php:142
+msgid "Line Opacity"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:53
+#: base/includes/wp-google-maps-polygons.php:139
+#: base/includes/wp-google-maps-polylines.php:44
+#: base/includes/wp-google-maps-polylines.php:139
+msgid "Line Color"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:50
+#: base/includes/wp-google-maps-polygons.php:136
+#: includes/tables/class.admin-marker-datatable.php:38
+#: legacy-core.php:4676
+#: legacy-core.php:6256
+msgid "Link"
+msgstr "लिंक"
+
+#: base/includes/wp-google-maps-polygons.php:47
+#: base/includes/wp-google-maps-polygons.php:133
+msgid "Get the Pro add-on"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:47
+#: base/includes/wp-google-maps-polygons.php:133
+#: legacy-core.php:4571
+msgid "Pro Version"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:47
+#: base/includes/wp-google-maps-polygons.php:65
+#: base/includes/wp-google-maps-polygons.php:68
+#: base/includes/wp-google-maps-polygons.php:71
+#: base/includes/wp-google-maps-polygons.php:133
+#: base/includes/wp-google-maps-polygons.php:151
+#: base/includes/wp-google-maps-polygons.php:154
+#: base/includes/wp-google-maps-polygons.php:157
+msgid "Pro version only"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:44
+#: base/includes/wp-google-maps-polygons.php:130
+#: base/includes/wp-google-maps-polygons.php:726
+#: base/includes/wp-google-maps-polylines.php:36
+#: base/includes/wp-google-maps-polylines.php:131
+#: base/includes/wp-google-maps-polylines.php:725
+#: legacy-core.php:7355
+#: legacy-core.php:7406
+#: legacy-core.php:7682
+#: legacy-core.php:7789
+#: legacy-core.php:8043
+#: legacy-core.php:8138
+msgid "Name"
+msgstr "नाव"
+
+#: base/includes/wp-google-maps-polygons.php:38
+msgid "Add a Polygon"
+msgstr ""
+
+#: base/classes/widget_module.class.php:78
+msgid "Select your map:"
+msgstr ""
+
+#: base/includes/wp-google-maps-polygons.php:47
+#: base/includes/wp-google-maps-polygons.php:133
+#: base/classes/widget_module.class.php:73
+#: includes/tables/class.admin-marker-datatable.php:33
+#: includes/tables/class.marker-datatable.php:17
+#: legacy-core.php:4613
+#: legacy-core.php:4672
+#: legacy-core.php:5439
+#: legacy-core.php:5731
+#: legacy-core.php:6251
+#: legacy-core.php:6270
+msgid "Title"
+msgstr "शीर्षक"
+
+#: base/classes/widget_module.class.php:16
+msgid "Add your map as a widget"
+msgstr ""
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: wpGoogleMaps.php:1079
+#: base/classes/widget_module.class.php:14
+#: includes/class.plugin.php:366
+#: includes/class.maps-engine-dialog.php:146
+#: includes/class.auto-loader.php:190
+#: js/v8/wp-google-maps.combined.js:5573
+#: js/v8/wp-google-maps.combined.js:5670
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:43
+#: js/v8/3rd-party-integration/gutenberg/dist/gutenberg.js:140
+msgid "WP Google Maps"
+msgstr ""
+
+#: base/includes/credits.php:94
+#: base/includes/welcome.php:118
+#: base/classes/WPGM_templates.php:127
+msgid "OK! Let's start"
+msgstr ""
+
+#: base/includes/welcome.php:114
+#: base/classes/WPGM_templates.php:123
+msgid "and we'll act on it as soon as humanly possible."
+msgstr ""
+
+#: base/includes/welcome.php:114
+#: base/classes/WPGM_templates.php:123
+msgid "Send us your feedback"
+msgstr ""
+
+#: base/includes/welcome.php:114
+#: base/classes/WPGM_templates.php:123
+msgid "We need you to help us make this plugin better."
+msgstr ""
+
+#: base/includes/welcome.php:113
+#: base/classes/WPGM_templates.php:122
+msgid "Feedback"
+msgstr "अभिप्राय"
+
+#: base/includes/welcome.php:110
+#: base/classes/WPGM_templates.php:119
+msgid "for quick and friendly help. We'll answer your request within 24hours."
+msgstr ""
+
+#: base/classes/WPGM_templates.php:119
+msgid "Support Forum"
+msgstr ""
+
+#: base/includes/welcome.php:110
+#: base/classes/WPGM_templates.php:119
+msgid "Visit our"
+msgstr ""
+
+#: base/includes/welcome.php:109
+#: base/classes/WPGM_templates.php:118
+msgid "Help me!"
+msgstr ""
+
+#: base/includes/welcome.php:106
+#: base/classes/WPGM_templates.php:115
+msgid "before you get started. If you're a tech-savvy individual, you may skip this step."
+msgstr ""
+
+#: base/includes/welcome.php:106
+#: base/classes/WPGM_templates.php:115
+msgid "review our documentation"
+msgstr ""
+
+#: base/includes/welcome.php:106
+#: base/classes/WPGM_templates.php:115
+msgid "You may want to"
+msgstr ""
+
+#: base/includes/welcome.php:105
+#: base/classes/WPGM_templates.php:114
+msgid "New to WP Google Maps?"
+msgstr ""
+
+#: base/includes/welcome.php:83
+#: base/classes/WPGM_templates.php:92
+msgid "Please explain"
+msgstr ""
+
+#: base/includes/welcome.php:82
+#: base/classes/WPGM_templates.php:91
+#: lib/codecabin/deactivate-feedback-form.php:61
+msgid "Other"
+msgstr ""
+
+#: base/includes/welcome.php:78
+#: base/classes/WPGM_templates.php:87
+msgid "Friend recommendation"
+msgstr ""
+
+#: base/includes/welcome.php:74
+#: base/classes/WPGM_templates.php:83
+msgid "Google or other search engine"
+msgstr ""
+
+#: base/includes/welcome.php:70
+#: base/classes/WPGM_templates.php:79
+msgid "What search term did you use?"
+msgstr ""
+
+#: base/includes/welcome.php:69
+#: base/classes/WPGM_templates.php:78
+msgid "WordPress.org plugin repository"
+msgstr ""
+
+#: base/includes/welcome.php:62
+#: base/classes/WPGM_templates.php:71
+msgid "How did you find out about us?"
+msgstr ""
+
+#: base/classes/WPGM_templates.php:56
+msgid "Create custom routes or outlines using polylines"
+msgstr ""
+
+#: base/includes/welcome.php:45
+#: base/classes/WPGM_templates.php:55
+#: legacy-core.php:5639
+#: legacy-core.php:5778
+msgid "Polylines"
+msgstr ""
+
+#: base/classes/WPGM_templates.php:51
+msgid "Create service areas or coverage maps with polygons"
+msgstr ""
+
+#: base/includes/welcome.php:45
+#: base/classes/WPGM_templates.php:50
+#: legacy-core.php:5773
+msgid "Polygons"
+msgstr ""
+
+#: base/includes/welcome.php:34
+#: base/classes/WPGM_templates.php:46
+msgid "Let users search for products, branches and stores near them"
+msgstr ""
+
+#: base/includes/welcome.php:33
+#: base/classes/WPGM_templates.php:45
+#: legacy-core.php:4102
+#: legacy-core.php:4390
+#: legacy-core.php:4924
+msgid "Store Locator"
+msgstr ""
+
+#: base/classes/WPGM_templates.php:41
+msgid "What's new?"
+msgstr ""
+
+#: base/classes/WPGM_templates.php:39
+msgid "Amazing maps. Simple interface. Powerful functionality. World Class Support."
+msgstr ""
+
+#: base/classes/WPGM_templates.php:37
+msgid "Welcome to"
+msgstr ""

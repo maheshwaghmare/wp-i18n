@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:12:59+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:37:27+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -21,24 +21,8 @@ msgstr ""
 msgid "Disable Comments"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Added <code>DISABLE_COMMENTS_ALLOW_DISCUSSION_SETTINGS</code> configuration."
-msgstr ""
-
 #. Found in description paragraph.
 msgid "Define <code>DISABLE_COMMENTS_ALLOW_DISCUSSION_SETTINGS</code> and set it to <code>true</code> to prevent the plugin from hiding the Discussion settings page."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Small enhancements to hiding comment-related functionality in the admin."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Removed the <code>disable_comments_allow_persistent_mode</code> filter. Define <code>DISABLE_COMMENTS_ALLOW_PERSISTENT_MODE</code> instead."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dropped logic to try and hide the comments link from the Meta widget. Administrators should manually add styling to hide this link, or replace the Meta widget with an alternative."
 msgstr ""
 
 #. Found in description paragraph.
@@ -179,6 +163,30 @@ msgstr ""
 
 #. Found in description paragraph.
 msgid "This plugin allows administrators to globally disable comments on any post type (posts, pages, attachments, etc.) so that these settings cannot be overridden for individual posts. It also removes all comment-related fields from edit and quick-edit screens. On multisite installations, it can be used to disable comments on the entire network."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove deprecated \"persistent mode\" feature."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix compatibility with WordPress 5.0 and above."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>DISABLE_COMMENTS_ALLOW_DISCUSSION_SETTINGS</code> configuration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small enhancements to hiding comment-related functionality in the admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the <code>disable_comments_allow_persistent_mode</code> filter. Define <code>DISABLE_COMMENTS_ALLOW_PERSISTENT_MODE</code> instead."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dropped logic to try and hide the comments link from the Meta widget. Administrators should manually add styling to hide this link, or replace the Meta widget with an alternative."
 msgstr ""
 
 #. Found in changelog list item.

@@ -1,0 +1,2200 @@
+# Translation of Plugins - AddToAny Share Buttons - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - AddToAny Share Buttons - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - AddToAny Share Buttons - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Share buttons for WordPress including the AddToAny sharing button, Facebook, Twitter, WhatsApp, Pinterest, Reddit, many more, and follow icons too."
+msgstr ""
+
+#. Plugin name.
+msgid "AddToAny Share Buttons"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why does the Facebook Like Button or Pinterest Pin It Button have so much whitespace to the right of it?"
+msgstr ""
+
+#. Found in description list item.
+msgid "Official buttons including the Facebook Like Button, Twitter Tweet Button, Pinterest Save Button, and LinkedIn Share Button"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, AddToAny is <a href=\"https://www.addtoany.com/buttons/faq/#gdpr\">GDPR compatible by default</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Is AddToAny GDPR compatible?"
+msgstr ""
+
+#. Found in description list item.
+msgid "AddToAny is free — no signup, no login, no accounts to manage"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Custom</strong> share icons — use your own if you prefer"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Vector</strong> share buttons &amp; follow buttons — <a href=\"https://www.addtoany.com/buttons/customize/wordpress/icon_color\">custom color</a> SVG icons"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Image</strong> sharing buttons - share buttons for <a href=\"https://www.addtoany.com/buttons/customize/wordpress/image_sharing\">sharing images</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Follow</strong> buttons** — <a href=\"https://www.addtoany.com/buttons/customize/wordpress/follow_buttons\">social media links</a> to your Instagram, YouTube, Snapchat"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Counters</strong> — fast &amp; official <a href=\"https://www.addtoany.com/buttons/customize/wordpress/share_counters\">share counts</a> in the same style"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.addtoany.com/buttons/customize/wordpress/floating_share_buttons\"><strong>Floating</strong></a> share buttons — responsive &amp; customizable, vertical &amp; horizontal"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.addtoany.com/buttons/customize/wordpress/standalone_services\"><strong>Standard</strong></a> share buttons — share each piece of content"
+msgstr ""
+
+#. Found in description header.
+msgid "Share Buttons"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Go to Settings &gt; AddToAny &gt; Floating &gt; select \"Attach to content\" then input the CSS selector(s) that match the HTML element you want to attach to."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can disable AddToAny sharing using a <a href=\"https://developer.wordpress.org/plugins/hooks/filters/\">filter</a> (PHP code) that you can add to a \"functionality\" plugin such as the <a href=\"https://wordpress.org/plugins/code-snippets/\">Code Snippets</a> plugin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Go to Settings &gt; AddToAny &gt; uncheck \"Display at the top or bottom of posts on archive pages\". Archive pages include Category, Tag, Author, Date, and also Search pages."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can customize the following example PHP code and add it to a \"functionality\" plugin such as the <a href=\"https://wordpress.org/plugins/code-snippets/\">Code Snippets</a> plugin:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can add the following example PHP code using a \"functionality\" plugin such as the <a href=\"https://wordpress.org/plugins/code-snippets/\">Code Snippets</a> plugin:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Setup Follow buttons (like Instagram, YouTube, etc.) using the AddToAny Follow widget in Appearance &gt; Widgets (or Appearance &gt; Customize)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In WordPress, go to Settings &gt; AddToAny."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Press \"Activate Plugin\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Press \"Install Now\" for the AddToAny plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Plugins &gt; Add New &gt; search for <code>addtoany</code>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Configure your social media profile links by adding the \"AddToAny Follow\" widget in Appearance &gt; Customize or Appearance &gt; Widgets."
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I add a custom share button?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where are buttons such as Instagram, YouTube, Snapchat?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The AddToAny Share Buttons plugin for WordPress increases traffic &amp; engagement by helping people share your posts and pages to any service. Services include Facebook, Twitter, Pinterest, WhatsApp, LinkedIn, Tumblr, Reddit, WeChat, and over 100 more sharing and social media sites &amp; apps."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/add-to-any/#faq\">Highly extensible</a> for developers and designers"
+msgstr ""
+
+#. Found in description list item.
+msgid "AddToAny gives users the choice in sharing from a service's native app or from a web app"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports WooCommerce, multilingual sites, multisite networks, and accessibility standards"
+msgstr ""
+
+#. Found in description header.
+msgid "Custom Placement &amp; Appearance"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "WP-CLI installation:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Manual installation:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<code>wp plugin install add-to-any --activate</code>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Try temporarily switching themes and deactivating other plugins to identify a potential conflict. If you find a conflict, try contacting that theme or plugin author. If an issue persists on a default theme with all other plugins deactivated, search the WordPress plugin's <a href=\"https://wordpress.org/support/plugin/add-to-any/\">support forum</a>."
+msgstr ""
+
+#. Screenshot description.
+msgid "Settings for Floating Share Bars"
+msgstr ""
+
+#. Screenshot description.
+msgid "Settings for Standard Share Buttons"
+msgstr ""
+
+#. Screenshot description.
+msgid "AddToAny vector share buttons (SVG icons) are pixel-perfect and customizable"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use the following line to dispatch the <code>post-load</code> event for AddToAny and other plugins:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Ajax and infinite scroll plugins/themes should always fire the <code>post-load</code> event after content insertion, so request <a href=\"https://codex.wordpress.org/AJAX_in_Plugins#The_post-load_JavaScript_Event\">standard <code>post-load</code> support</a> from plugin &amp; theme authors as needed."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "AddToAny supports the <a href=\"https://codex.wordpress.org/AJAX_in_Plugins#The_post-load_JavaScript_Event\">standard <code>post-load</code> event</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can place your share buttons exactly where you want them by inserting the following shortcode:"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the shortcode for sharing?"
+msgstr ""
+
+#. Found in description list item.
+msgid "Over 10 years of development"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "See the <a href=\"https://www.addtoany.com/buttons/customize/follow_buttons\">supported follow services</a> for service code names, then place this example code in your theme's file(s) where you want the follow buttons to appear:"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I place the follow buttons in a specific area of my site?"
+msgstr ""
+
+#. Found in description list item.
+msgid "The <a href=\"https://www.addtoany.com/buttons/\">share buttons</a> for all platforms"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To share a specific image or video to certain services that accept arbitrary media (Pinterest, Yummly):"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To hardcode the shared current URL and modify the title (server-side):"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To share the current URL and title (detected on the client-side):"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To customize the shared URL and title:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can specify <a href=\"https://www.addtoany.com/services/\">AddToAny service code(s)</a> to show specific share buttons, for example:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use Facebook's <a href=\"https://developers.facebook.com/tools/debug/sharing/\">Sharing Debugger</a> on your pages to see how Facebook reads your site. \"Scrape Again\" to test site changes and clear Facebook's cache of a page, or use the <a href=\"https://developers.facebook.com/tools/debug/sharing/batch/\">Batch Invalidator</a> to purge Facebook's cache of multiple URLs."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Share a specific image or video to certain services that accept arbitrary media (Pinterest, Yummly, Houzz):"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Customize the shared URL like so:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://www.addtoany.com/share#url=https%3A%2F%2Fwordpress.org%2Fplugins%2Fadd-to-any%2F&amp;title=AddToAny%20Sharing%20Plugin%20for%20WordPress\" title=\"Share\">Share</a> this plugin"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Facebook expects the Title, Description, and preview image of a shared page to be defined in the Open Graph <a href=\"https://www.addtoany.com/ext/meta-tags/\">meta tags</a> of a shared page."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Upload (or move) the <code>add-to-any</code> plugin directory into the <code>/wp-content/mu-plugins/</code> directory. Then create a proxy PHP loader file (such as <code>load.php</code>) in your <code>mu-plugins</code> directory, for example:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It depends on your theme, but you can try adding the following CSS code to your Additional CSS box in Settings &gt; AddToAny."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Display specific share buttons by specifying comma-separated <a href=\"https://www.addtoany.com/services/\">service codes</a>:"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I set the plugin as a \"Must-Use\" plugin that is autoloaded and activated for all sites?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "AddToAny is the home of universal sharing, and the AddToAny plugin is the most popular share plugin for WordPress, making sites social media ready since 2006."
+msgstr ""
+
+#. Found in description list item.
+msgid "The <a href=\"https://www.addtoany.com/buttons/for/wordpress_com\">share buttons for WordPress.com</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatic <a href=\"https://wordpress.org/plugins/amp/\">AMP</a> (Accelerated Mobile Pages) support for social share buttons on AMP pages"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, this plugin outputs 100% W3C valid HTML5 and W3C valid CSS 3 by default."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Pinterest Pin It Button with 'show count' enabled is 76 pixels. You can change the width using CSS code, for instance: <code>.a2a_button_pinterest_pin { width:90px !important; }</code>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It's not recommended, but you can change the width of the Facebook Like Button using CSS code, for instance: <code>.a2a_button_facebook_like { width:50px !important; }</code>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The minimum width for the Facebook Like Button is 90 pixels. This is required to display the total number of Likes to the right of the button.  See Facebook's <a href=\"https://developers.facebook.com/docs/plugins/like-button\">Like Button documentation</a> for details"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Disable AddToAny sharing on a custom post type, for example:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Disable AddToAny sharing in specific categories, for example:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "An older method was to insert the following tag into the page or post (HTML tab) that you want the button(s) to appear in: <code>&lt;!--sharesave--&gt;</code>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When editing a post or page, check the \"Show sharing buttons\" checkbox, which is located next to the WordPress editor. Be sure to update or publish to save your changes. Note that, by default, AddToAny is setup to display on all posts and pages."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "An older method was to insert the following tag into the page or post (HTML tab) that you do not want the button(s) to appear in: <code>&lt;!--nosharesave--&gt;</code>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When editing a post or page, uncheck \"Show sharing buttons\", which is located next to the WordPress editor. Be sure to update or publish to save your changes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To align center:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To align right:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In the Theme Editor (or another code editor), place this code block where you want the button and individual icons to appear in your theme:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Upload sharing icons in a single directory to a public location, and make sure the icon filenames match the icon filenames packaged in the AddToAny plugin. In WordPress, go to Settings &gt; AddToAny &gt; Advanced Options &gt; check the \"Use custom icons\" checkbox and specify the URL to your custom icons directory (including the trailing <code>/</code>). For AddToAny's universal button, go to Universal Button, select \"Image URL\" and specify the exact location of your AddToAny universal share icon (including the filename)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "AddToAny routing enables publisher customization, visitor personalization, and keeps the AddToAny plugin remarkably lightweight without the need for constant plugin updates. In AddToAny menus, visitors see the services they actually use. On mobile, AddToAny presents the choice of sharing to a service's native app or mobile site and the preference is used on the next share. Publishers take advantage of AddToAny services such as <a href=\"https://www.addtoany.com/buttons/customize/wordpress/email_template\">email templates</a>, <a href=\"https://www.addtoany.com/buttons/customize/wordpress/twitter_message\">Twitter templates</a>, <a href=\"https://www.addtoany.com/buttons/customize/wordpress/templates\">custom parameters</a>, <a href=\"https://www.addtoany.com/buttons/customize/wordpress/link_tracking\">URL shorteners</a>, localization, and more. Just as service icons change, service endpoints change too, and AddToAny is updated daily to reflect service endpoint and API changes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For more technical information on setting your pages up for Facebook sharing, see \"Sharing Best Practices for Websites\" in <a href=\"https://developers.facebook.com/docs/sharing/best-practices\">Facebook's documentation</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To change the title, description and/or image on Facebook, your theme's header file should be modified according to <a href=\"https://developers.facebook.com/docs/sharing/opengraph\">Facebook's OpenGraph specification</a>. With WordPress, this can be accomplished with plugins such as <a href=\"https://wordpress.org/plugins/wordpress-seo/\">Yoast SEO</a> or the Social Meta feature of the <a href=\"https://wordpress.org/plugins/all-in-one-seo-pack/\">All in One SEO Pack</a>. Please see those plugins for details, and post in the WordPress or plugin author's forums for more support."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Try another web browser, device, and/or Internet connection to see if the buttons appear. Tools like browserling.com or browserstack.com will give you an idea of what other people are seeing. The usual cause for this uncommon issue is 3rd party browser add-on software that blocks ads and optionally filters out major social buttons. Some security apps and Internet connections have an option to filter social buttons. Usually a social filter option is disabled by default, but if you find that some software is inappropriately filtering AddToAny buttons, <a href=\"https://www.addtoany.com/contact/\">let AddToAny know</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Something on your own device/browser/connection is likely filtering out major social buttons."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Feel free to <a href=\"https://wordpress.org/support/plugin/add-to-any\">post here</a>, where the community can hopefully help you. Describe the issue, what troubleshooting you have already done, provide a link to your site, and any other potentially relevant information."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To further customize AddToAny, see the <a href=\"https://www.addtoany.com/buttons/customize/wordpress\">WordPress sharing documentation</a> for the AddToAny plugin. Many customizations will have you copy &amp; paste one or more lines of code into your \"Additional JavaScript\" or \"Additional CSS\" box. Those boxes are in Settings &gt; AddToAny."
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I load the buttons after content insertion with Ajax and infinite scroll?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the plugin output W3C valid code?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I position a vertical floating share buttons bar relative to content?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I programmatically remove the button(s)?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I remove the button(s) from category pages, or tag/author/date/search pages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I force the button(s) to appear in individual posts and pages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I remove the button(s) from individual posts and pages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I align the standard sharing buttons to the center or to the right side of posts?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I add a custom follow button?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I place the share buttons in a specific area of my site?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I use custom icons?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why do share links route through AddToAny?"
+msgstr ""
+
+#. Found in faq header.
+msgid "For Facebook sharing, how can I set the thumbnail image and description Facebook uses?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The share buttons are not displaying for me. Why, and what should I try?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Something is wrong. What should I try first?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where are the options, and how can I customize the sharing plugin?"
+msgstr ""
+
+#. Screenshot description.
+msgid "Mini share menu that drops down when visitors use the universal share button"
+msgstr ""
+
+#. Screenshot description.
+msgid "Full universal share menu modal that includes all services"
+msgstr ""
+
+#. Found in description header.
+msgid "Customizable &amp; Extensible"
+msgstr ""
+
+#. Found in description header.
+msgid "Mobile Optimized &amp; Retina Ready"
+msgstr ""
+
+#. Found in description header.
+msgid "WordPress Optimized"
+msgstr ""
+
+#. Found in description header.
+msgid "Analytics Integration"
+msgstr ""
+
+#. Found in description header.
+msgid "Wide Support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Universal email sharing makes it easy to share via Gmail, Yahoo Mail, Outlook.com (Hotmail), AOL Mail, and any other web or native apps"
+msgstr ""
+
+#. Found in description list item.
+msgid "As a shortcode, or a widget within a theme's layout"
+msgstr ""
+
+#. Found in description list item.
+msgid "Vertical Floating Share Bar, and Horizontal Floating Share Bar"
+msgstr ""
+
+#. Found in description list item.
+msgid "Before content, after content, or before &amp; after content"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Analytics integration (<a href=\"https://www.addtoany.com/ext/google_analytics/\">access guide</a>) for sharing analytics"
+msgstr ""
+
+#. Found in description list item.
+msgid "Programmatically with template tags"
+msgstr ""
+
+#. Found in description list item.
+msgid "Track shared links with Bitly and custom URL shorteners"
+msgstr ""
+
+#. Found in description list item.
+msgid "Display share counts on posts and pages"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports theme features such as HTML5, widgets, infinite scroll, post formats"
+msgstr ""
+
+#. Found in description list item.
+msgid "Loads asynchronously so your content always loads before or in parallel with AddToAny"
+msgstr ""
+
+#. Found in description list item.
+msgid "Responsive Floating Share Buttons are mobile ready by default, and configurable breakpoints make floating buttons work with any theme"
+msgstr ""
+
+#. Found in description list item.
+msgid "AddToAny's SVG icons are super-lightweight and pixel-perfect at any size, and AddToAny's responsive share menu fits on all displays"
+msgstr ""
+
+#. Found in description list item.
+msgid "Choose exactly where you want AddToAny to appear"
+msgstr ""
+
+#. Found in description list item.
+msgid "Easily <a href=\"https://www.addtoany.com/buttons/customize/wordpress\">customize sharing</a> on your WordPress site"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom icons let you use any icons from any location (media uploads directory, CDN, etc.)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Many more publisher and user features"
+msgstr ""
+
+#. Found in description list item.
+msgid "Over 10 million downloads"
+msgstr ""
+
+#. Found in description list item.
+msgid "Translated into dozens of languages"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ongoing support from the community"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin always strives to be the best WordPress plugin for sharing. Development is fueled by your kind words and feedback."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "See also:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://www.addtoany.com/blog/\">AddToAny Blog</a> | <a href=\"https://www.addtoany.com/privacy\">Privacy Policy</a>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>add-to-any</code> directory to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the \"Plugins\" menu in WordPress"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "In WordPress:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Apply the \"Show sharing buttons\" option to the floating vertical bar when Placement is set to \"Attach to content\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Google+ because Google is <a href=\"https://support.google.com/plus/answer/9195133\">shut down Google+</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace Google+ with Email as a default share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Evernote icon color"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add MeWe"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue where an extra floating vertical bar could appear when Placement is set to \"Attach to content\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Move the \"Show sharing buttons\" meta box to the side of the WordPress editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can <a href=\"https://www.addtoany.com/buttons/customize/wordpress/thanks\">configure</a> the new post-share \"Thanks for sharing!\" modal and ad unit, rolling out soon for WordPress sites. By default, the modal only displays on pages that have an existing ad tag. You can <a href=\"https://www.addtoany.com/buttons/customize/wordpress/thanks#enable\">enable</a> and <a href=\"https://www.addtoany.com/buttons/customize/wordpress/thanks#disable\">disable</a> the modal and the ad, or <a href=\"https://www.addtoany.com/buttons/customize/wordpress/thanks#add-ad\">add</a> your own ad unit to be rotated along with AddToAny's"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Thanks for following!\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"New translatable strings for the optional <a href=\"https://www.addtoany.com/buttons/customize/wordpress/thanks\">post-share modal</a>\n"
+"\n"
+"<ul>\n"
+"<li>\"Thanks for sharing!\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify some variable assignments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add some supplementary escaping"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unnecessary data attributes from AddToAny Follow widgets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix placeholders and add a description for translating a string in admin (thanks Andreas)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the option to hide a floating bar when scrolled to a footer region"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove StumbleUpon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update language template file and extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue where the \"Show count\" checkbox was unavailable for some services in settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update official button options in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Harden the local cache option to keep caches updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initialize AddToAny Follow buttons on the <code>post-load</code> event"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New \"Center docked\" option for the horizontal floating bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option to hide a floating bar when scrolled to a footer region"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New option to hide a floating bar until scrolled past a header region"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Yahoo Messenger"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Yahoo Bookmarks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Polyvore"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Delicious"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Mix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New \"Attach to content\" option for the vertical floating bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Oknotizie"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the LinkedIn share count option because LinkedIn no longer provides share counts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Mastodon share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load JS for the customizer only when the customizer is used (thanks Neil)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix service count options in settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify file paths &amp; URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Move JS into a single block to prevent issues caused by some site optimization plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Google+ share count options because Google+ no longer provides counters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent Cloudflare's experimental Rocket Loader from causing script issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove AIM, BuddyMarks, diHITT, Jamespot, Netlog, NewsVine, NUjij, Segnalo, Stumpedia, YouMob"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Webnews"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Klipfolio"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Blogger service code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Medium follow button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reference <code>.addtoany_share</code> instead of <code>.addtoany_share_save</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Add <code>addtoany_share</code> class name to universal share button\n"
+"\n"
+"<ul>\n"
+"<li>The button's <code>addtoany_share_save</code> class name will be removed in a future plugin update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reference <code>.addtoany_content</code> instead of <code>.addtoany_share_save_container</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Add <code>addtoany_content</code> class name to container in content\n"
+"\n"
+"<ul>\n"
+"<li>The container's <code>addtoany_share_save_container</code> class name will be removed in a future plugin update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use Spanish language pack (thanks Luis Rull, Juan Ramón Navas, Yan Arlex)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use Italian language pack (thanks truttle, blogforum)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove menu style button in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Remove \"Use default CSS\" option\n"
+"\n"
+"<ul>\n"
+"<li>If needed, you can disable the default stylesheet using <code>add_action( 'wp_enqueue_scripts', function() { wp_dequeue_style( 'addtoany' ); }, 21 );</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rename CSS handles to <code>addtoany</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use WordPress 4.9 code editor for Additional CSS and Additional JavaScript boxes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix simplified initial <code>a2a_config</code> JS so overlays are not enabled by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify initial <code>a2a_config</code> JS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Escape attributes in admin (thanks Ricardo Sanchez)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Harden the \"Show sharing buttons\" checkbox so it works when other plugins conflict"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show the optional sharing header for WooCommerce standard share buttons placement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolve issue in admin with <a href=\"https://secure.php.net/eol.php\">out-of-date PHP versions</a> below PHP 5.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update YouTube icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a tip for AddToAny Follow buttons (Instagram, YouTube, Snapchat, etc.) in Add/Remove Services"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The background for floating bars now defaults to <code>transparent</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New background color options for floating bars"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New icon color options in AddToAny settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Baidu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove App.net"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add StockTwits"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Houzz"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Threema"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Set the CSS enqueue priority to <code>20</code> to load after most theme stylesheets\n"
+"\n"
+"<ul>\n"
+"<li>Resolves lines under buttons (<code>box-shadow</code>) caused by CSS such as the default Twenty Seventeen theme's stylesheet"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use the <code>home_url()</code> instead of the <code>Host</code> header when generating the current URL to be shared (thanks Paul)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use the <code>wp_enqueue_scripts</code> action hook instead of <code>wp_print_styles</code> for the plugin's stylesheet"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the standard placement option for WooCommerce Product types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use Japanese language pack (thanks miccweb)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Update standard placement for <a href=\"https://woocommerce.com/\">WooCommerce</a> to display share buttons after the product meta block instead of the product description\n"
+"\n"
+"<ul>\n"
+"<li>In WooCommerce, you can customize where share buttons display by <a href=\"https://docs.woocommerce.com/document/editing-projects-templates-safely/\">editing</a> your <code>share.php</code> Single Product Share template."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use <code>rel=\"noopener\"</code> on links that open in a new tab/window for site JavaScript performance in some browsers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the <code>[addtoany]</code> shortcode's <code>buttons</code> attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Always use HTTPS script and endpoints"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update CSS to apply style to custom icon sizes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace old universal buttons with custom button URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace \"Large\" and \"Small\" icon size options with single field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add icon size option to Follow buttons widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix vertical floating bar's class name and media query from the previous release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accept <code>kit_additional_classes</code> argument in Floating and Follow button output functions (thanks Rocco Marco)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable the <code>shortcode_atts_addtoany</code> hook to filter the default attributes of the <code>[addtoany]</code> shortcode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show optional meta box (\"Show sharing buttons\") below the WordPress editor by default, without having to save AddToAny settings first"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Refind"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Papaly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AddToAny Follow widgets will now use full URLs when specified for a service ID"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolve syntax issue with <a href=\"https://secure.php.net/eol.php\">out-of-date PHP versions</a> below PHP 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Skip background colors on AMP icons for <a href=\"https://secure.php.net/eol.php\">out-of-date PHP versions</a> below PHP 5.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use packaged AddToAny icon in admin (thanks xaviernieto)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove <code>in_the_loop</code> context check because AMP doesn't use the loop"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix AMP issue from <code>in_the_loop</code> check in 1.7.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add background colors to share buttons on <a href=\"https://wordpress.org/plugins/amp/\">AMP</a> (Accelerated Mobile Pages) to support new AddToAny SVG icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update services in AddToAny settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix custom/secondary contexts check when the WP query object is unavailable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ukrainian translation (by Michael Yunat)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set feed URL &amp; title in AddToAny Follow widgets using HTML5 data attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update standard placement to prevent the share buttons from automatically appearing in custom/secondary contexts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace packaged PNG icons with SVG icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add icon size options for the floating share buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Override box shadow on buttons in some themes such as the new Twenty Seventeen default theme in WordPress 4.7"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accept arguments in universal button template tag for additional classes and HTML contents"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Draugiem share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Douban share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove deprecated option that displayed the title in the mini menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show meta box (\"Show sharing buttons\") below the WordPress editor when a floating share bar is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix floating share buttons fallback so that the current page is shared by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update a few packaged icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Trello share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Facebook Messenger share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Copy Link button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Handle \"Show sharing buttons\" option for media when updating from the WordPress editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add placement option for media pages in AddToAny settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AddToAny readiness check in AddToAny settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increase support for AJAX loading by listening for the <code>post-load</code> event on non-AJAX requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove old script block in footer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use HTML5 data attributes for AddToAny instances"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify AddToAny asynchronous loading method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix default icon size"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Update <code>[addtoany]</code> shortcode to accept specific <code>media</code> URL\n"
+"\n"
+"<ul>\n"
+"<li>Specify a direct media URL in the <code>media</code> attribute like <code>[addtoany buttons=\"pinterest,yummly\" media=\"https://www.example.com/media/picture.jpg\"]</code> to have Pinterest pin that image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New <code>media</code> attribute for sharing a specific image or video to the few services that accept arbitrary media (Pinterest, Yummly)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix customizer preview check for WordPress versions older than 4.0 (thanks Jessica)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Load advanced 3rd party buttons faster (Facebook Like, Twitter Tweet, Google +1)\n"
+"\n"
+"<ul>\n"
+"<li>Use A2A Kit for speed, extensibility, measurability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Fix settings page conflict with certain features of the Jetpack plugin and other plugins &amp; themes\n"
+"\n"
+"<ul>\n"
+"<li>Fix saving of 3rd party button options (for Facebook Like, Twitter Tweet, Google +1)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Large sharing buttons (major new feature!)\n"
+"\n"
+"<ul>\n"
+"<li>Scalable vector icons (SVG icons)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Harden option to disable sharing buttons on each post and page\n"
+"\n"
+"<ul>\n"
+"<li>Extend option to custom post types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Fix backwards compatibility with WordPress 2.8\n"
+"\n"
+"<ul>\n"
+"<li>Checkbox option to disable sharing buttons on each post and page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Add option to disable universal sharing button\n"
+"\n"
+"<ul>\n"
+"<li>Disables the universal sharing button in automatic placement and ADDTOANY_SHARE_SAVE_KIT"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"New Custom Icons option in the Advanced Options section\n"
+"\n"
+"<ul>\n"
+"<li>Use any icons at any location (media uploads directory, CDN, etc.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Floating share buttons code can be placed manually in theme files\n"
+"\n"
+"<ul>\n"
+"<li>Ideal for positioning the vertical share bar relative to site content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"New: Share counters in the same style for Facebook, Twitter, Pinterest, Linkedin and Reddit!\n"
+"\n"
+"<ul>\n"
+"<li>In Settings &gt; AddToAny &gt; Standalone Buttons, click the down arrow and toggle the \"Show count\" checkbox for any supported service"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"This means you can track and modify the share with some JavaScripting\n"
+"\n"
+"<ul>\n"
+"<li>Track shares with Adobe Analytics, Clicky, KISSmetrics, Mixpanel, Piwik, Webtrends, Woopra, custom analytics, etc."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"New optional sharing header to easily place a label above the default share buttons\n"
+"\n"
+"<ul>\n"
+"<li>Accepts HTML"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Toggle share buttons on custom post types in AddToAny settings\n"
+"\n"
+"<ul>\n"
+"<li>Supports WooCommerce Product post types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Titles with special characters are sanitized differently\n"
+"\n"
+"<ul>\n"
+"<li>Using <code>wp_json_encode</code> (or <code>json_encode</code>) instead of <code>esc_js</code> for sanitizing JavaScript strings (thanks Nigel Fish)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Fix Google+ follow button URL by removing the hardcoded <code>+</code> (thanks foxtucker)\n"
+"\n"
+"<ul>\n"
+"<li>Be sure to add the <code>+</code> to your <code>ID</code> if you have a Google+ custom URL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Update <code>[addtoany]</code> shortcode to accept specific share buttons\n"
+"\n"
+"<ul>\n"
+"<li>Specify <a href=\"https://www.addtoany.com/services/\">AddToAny service codes</a> in the <code>buttons</code> attribute like: <code>[addtoany buttons=\"facebook,twitter,email\"]</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Snapchat follow button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add WeChat share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Viber share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Skype share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Kik share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The meta box (\"Show sharing buttons\") below the WordPress editor will no longer show when standard placement is disabled for the current post type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Permit changing the target attribute for custom services (thanks Jasper)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AddToAny share endpoints default to HTTPS on HTTPS sites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AddToAny widgets support new selective refresh in the WordPress 4.5 Customizer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For all prior versions, see 1.6.12 or earlier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lithuanian translation (by Vincent G.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update FAQ for resizing advanced 3rd party buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add FAQ for removing sharing button(s) from Archive pages (including Category, Tag, Author, Date, and Search pages)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bulgarian translation (by Artem Delik)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjust gettext calls by switching to single quotes for the text domain argument"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove old warning message when template tags seem to be missing (thanks Tenebral, and theme authors everywhere)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Harden local caching option (thanks pineappleclock)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove support for old method of moving <code>add-to-any.php</code> into <code>mu-plugins</code> for auto-loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support must-use plugin usage via a proxy PHP loader so <code>add-to-any.php</code> can remain in the <code>add-to-any</code> directory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use SSL for local cache updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update universal button to canonical endpoint"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify sections in settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix quotes and other special characters in shared titles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rename Additional Options box to Additional JavaScript box"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Additional CSS box for AddToAny CSS customizations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for other script loading methods"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support bootstrapped WordPress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support WP-CLI v0.21.0+ (thanks Compute and Daniel Bachhuber)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Official buttons (Facebook Like, etc.) have been moved to the bottom of the available services list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweet counters have been removed because <a href=\"https://www.addtoany.com/blog/twitter-share-count/\">Twitter no longer provides counts</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Universal share counter is now available"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use Swedish language pack (thanks Piani)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use Romanian language pack (thanks Adrian Pop)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update packaged languages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix decoding of HTML entities in shared titles when the default character encoding is not UTF-8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace deprecated WP function used for the local cache option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Override box shadow on buttons caused by CSS such as the default Twenty Sixteen theme's"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable simpler syntax when using multiple share message templates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Instagram URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add GitHub follow button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Google Classroom share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Telegram share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add SMS share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update admin slug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add width &amp; height fields for custom icons in the Advanced Options section"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If needed, you can uncheck the \"Display at the bottom of excerpts\" placement option in AddToAny settings to disable button placement in a post's excerpt/snippet/intro"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Automatic placement logic for <a href=\"https://codex.wordpress.org/Excerpt\">WordPress excerpts</a> has changed (\"excerpt\" usage &amp; presentation varies widely among WordPress themes &amp; plugins)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify internal methods that automatically place standard share buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix settings link for Multisite administrators (thanks Jan)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable counters on floating share buttons when enabled for standard share buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix automatic placement in post excerpts for certain themes &amp; plugins that display post content on a page (thanks Agis)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP template code now accepts the <code>icon_size</code> argument"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://wordpress.org/plugins/amp/\">AMP</a> (Accelerated Mobile Pages) support for share buttons in posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update FAQ on hardcoding just the icons (both large and small icons)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Flipboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wrap addtoany shortcode with .addtoany_shortcode to enable specific styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Checkbox option to disable sharing buttons on each post and page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Mendeley"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Baidu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update VK (Vkontakte)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Springpad"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Large SVG icons are the default sharing format"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Note: If your sharing button suddenly changes (because you haven't saved AddToAny settings yet), you can go back to the traditional sharing button in Settings &gt; AddToAny. Choose \"Small\" for the Icon Size to see the traditional buttons, and in Standalone Buttons, click \"Add/Remove Services\" to deselect Facebook, Twitter, and Google Plus. Then click Save Changes to save your AddToAny Share Settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default standalone services are Facebook, Twitter, Google Plus"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Popular services have been moved to the top of the Standalone Buttons list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Pinterest Pin It Button and options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjust CSS to improve icon and text alignment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix code formatting (indents, newlines)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Retina and high-PPI ready"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Mobile ready"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Customizable through CSS code (effects, height &amp; width, border-radius, and much more)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for older browsers (reverts gracefully to PNG)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Large icons are available for the most popular services right now. More services will roll out soon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjust CSS for large icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove old Internet Explorer stylesheet for rollover opacity effect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Icon Size options to settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplify labels in settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Defaults and settings adjustments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Outlook.com (formerly Hotmail)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add App.net"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Pinterest icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Instapaper icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Evernote icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Digg icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Box icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix debug mode notices when manually placed in a theme file that does not display a post/page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unused icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Vkontakte (VK) icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Yahoo! icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sanitize active services output in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix debug mode notices in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix admin panel display of 3rd party button options after saving changes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix validation and semantics of script tag placement, particularly when button is contained in a list element"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix service sorting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Read It Later (now Pocket)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Pocket (formerly Read It Later)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove HelloTxt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Buffer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Pinboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Slashdot icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Odnoklassniki"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Mail.Ru"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Kindle It"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Diaspora"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Google Reader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Sphere"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Posterous"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Vodpod"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Tipd"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix settings page conflict with certain features of the Jetpack plugin and other plugins &amp; themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix settings page's down arrow icon for advanced 3rd party buttons (Like, Tweet, etc.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update branding"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add new Google+ Share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Twitter logo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix markup output for advanced 3rd party buttons when displayed as WordPress widget"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "After 5 years of development: Version One Point Oh!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjust CSS to accommodate external resources for advanced 3rd party buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Google icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Google+ icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Tumblr logo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove NewsTrust"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix placement option for custom post types to not inherit the placement option for regular posts (thanks Air)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update widget docblocks so they are not mistaken for PHP 4 constructors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Permit custom AddToAny button in floating share bars (thanks billsmithem)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom follow services can be added to the Follow widget using the <code>A2A_FOLLOW_services</code> filter hook (see the FAQ)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Harden CSS vertical alignment of custom icon images and Tweet button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change admin heading to <code>&lt;h1&gt;</code> for improved accessibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support AJAX loading from <code>admin-ajax.php</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update CSS to fix alignment issues in some themes with button images and the Facebook Like button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove obsoleted detection of page.js versus feed.js"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Known"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add small follow icons (Instagram, YouTube, Vimeo, Flickr, Foursquare, Behance, and RSS PNGs)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolve notices in debug mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolve Follow widget notice when widget is empty in debug mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue where the new feed button pointed to an example URL instead of the saved URL (thanks debij)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://www.addtoany.com/buttons/customize/wordpress/follow_buttons\">Follow buttons</a> have arrived for WordPress!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Go to <code>Appearance</code> &gt; <code>Customize</code> or <code>Appearance</code> &gt; <code>Widgets</code> to setup your follow buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Includes Instagram, YouTube, Vimeo, Flickr, Foursquare, Behance, and RSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accept custom icons of all file types such as png, svg, gif, jpg, webp, etc."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove empty width and height attributes on custom icons for W3C validation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AddToAny is certified as multilingual-ready by <a href=\"https://wpml.org/\">WPML</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Supports bbPress Forum, Topic, Reply post types"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove QQ (use Qzone)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Bookmark/Favorites (low browser support)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://www.addtoany.com/buttons/customize/wordpress/icon_color\">Custom color share buttons</a> have arrived!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove border from buttons that some themes add to links in posts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove FriendFeed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove duplicate Print service (old and redundant)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Springpad"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update French translation to resolve missing placement options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support multilingual sites using WPML, including Polylang"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix text width of counters where long numbers would break to a newline (thanks Chris)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove old Additional Options note in settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://www.addtoany.com/buttons/customize/wordpress/events\" title=\"Track shares, or change the shared URL\">Share event handling</a> comes to the WordPress plugin!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify the shared URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Analytics integration is automatic as always"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modify the shared Title for services that accept a Title directly (i.e. Twitter, but not Facebook)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Renren"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update asynchronous loading to use new callbacks property"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve interoperability among feed readers by removing official service buttons from feeds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Localize More button string"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove blip, iwiw"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Print icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update YouMob icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Symbaloo icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Qzone (QQ) icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove allvoices, arto, bebo, funp, jumptags, khabbr, linkagogo, linkatopia, nowpublic, orkut, phonefavs, startaid, technotizie, wists, xerpi"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom icon sizes (applied to AddToAny vector icons)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Kakao"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix custom standalone service icons when used with large icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Qzone"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update CSS to fix Facebook Like button verical aligment caused by Facebook's inline styling change"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Wykop icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Yummly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue with shared titles containing unwanted HTML tags caused by some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Floating buttons do not display share counts in this release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update CSS to support AddToAny share counters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add LINE icon (thanks tokyodev)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Mixi icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Hacker News icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Floating share buttons are now disabled when \"Show sharing buttons\" is unchecked for a post/page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Twitter icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "French translation (by Jacques Soulé)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New <a href=\"https://www.addtoany.com/blog/new-universal-sharing-menu-design/\">share menu</a> design for the universal share button!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix JS console \"undefined\" notices during site previews (thanks Georgi Yankov)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "See the FAQ \"How can I position a vertical floating share buttons bar relative to content?\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update universal sharing fallback to use HTTPS/SSL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Hacker News"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Mixi"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add LINE"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix 'small icon + text' double-icon issue where the AddToAny Kit icon would appear in addition to packaged icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adjust default placement options for better control over the excerpts option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix large text-only icon where the AddToAny universal icon was appearing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove !important style declaration for small universal icon (thanks Tom Bryan)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Yigg "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Mister Wong"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Append trailing slash to custom icons location as necessary"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Point to additional placement options and information"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove old placement instructions for hardcoding"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove old error reporting suppression in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add addtoany_script_disabled hook to programmatically disable JavaScript"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avoid loading button script in admin, especially for visual editor plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Floating share buttons are now responsive by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Responsive breakpoints configurable in Floating options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Use default CSS\" must be enabled in Advanced Options for responsiveness"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Apply universal sharing button toggle to floating buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Floating share buttons (major new feature!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AddToAny Vertical Share Bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AddToAny Horizontal Share Bar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update admin interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent script output in feeds on some sites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove constants for old WP versions (below 2.6)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix transparency on AddToAny's universal share icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add addtoany_sharing_disabled hook to programmatically disable sharing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Menu Options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix button return notice for certain use cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Advanced Options description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update template code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "This new method for using custom icons permits plugin updates that do not overwrite custom icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve descriptions in settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix advanced caching option (most sites should not use this option)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix code styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For CSS customization, delineate between top and bottom in default sharing placement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add .addtoany_content_top and .addtoany_content_top class names to .addtoany_share_save_container"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Wanelo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add WhatsApp"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set border to none on images for small icons and custom icons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add pointer to settings in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Favoriten"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Grono"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Customize documentation links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Hyves"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Google+ Share button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Print icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Delicious small icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Google +1 button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update email icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Perfect compatibility with WordPress 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Diaspora small icon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add confirm dialog to universal sharing toggle"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rename files and backend improvements for admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The universal sharing button is still available via ADDTOANY_SHARE_SAVE_BUTTON (see FAQ)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix fieldset focusing in admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update Facebook Like button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve vertical alignment consistency of 3rd party buttons across themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Harden AJAX detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support AJAX loading (on a <code>post-load</code> event)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support infinite scrolling of post content in themes"
+msgstr ""

@@ -1,0 +1,4770 @@
+# Translation of Plugins - WordPress Page Builder &#8211; Beaver Builder - Development (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - WordPress Page Builder &#8211; Beaver Builder - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-04-18 18:36:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - WordPress Page Builder &#8211; Beaver Builder - Development (trunk)\n"
+
+#: classes/class-fl-builder-admin-settings.php:56
+msgid "Error submitting."
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:49
+msgid "Thank you!"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:486
+msgid "Unable to find Themer, is it installed and activated?"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:272
+msgid "Not valid Themer layout."
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:269
+msgid "Hook updated"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:266
+msgid "Layout type updated"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:259
+msgid "Incorrect type."
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:207
+msgid "Post was not valid Themer layout."
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:205
+msgid "Layout status updated"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:195
+msgid "Status must be either draft or publish"
+msgstr ""
+
+#. translators: %1$s: license : %2$s: domain
+#: classes/class-fl-builder-wpcli-command.php:133
+msgid "Using license [ %1$s ] to register %2$s"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:130
+msgid "No license info found."
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:123
+msgid "Found license using FL_LICENSE_KEY global."
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:117
+msgid "Deactivated"
+msgstr ""
+
+#: includes/global-settings.php:230
+msgid "When typography unit is set to vh/vm this unit will be used to calculate the font size."
+msgstr ""
+
+#: includes/global-settings.php:224
+msgid "Base Font Size"
+msgstr ""
+
+#: classes/class-fl-builder.php:1359
+msgid "Beta Feedback"
+msgstr ""
+
+#: classes/class-fl-builder.php:1356
+msgid "Alpha Feedback"
+msgstr ""
+
+#: classes/class-fl-builder.php:1350
+msgid "Dev Feedback"
+msgstr ""
+
+#: classes/class-fl-builder.php:1212
+msgctxt "Keyboard action to toggle responsive editing"
+msgid "Toggle Responsive Editing Mode"
+msgstr ""
+
+#: classes/class-fl-builder.php:976
+msgid "Publish Layout"
+msgstr ""
+
+#: classes/class-fl-builder-settings-presets.php:55
+msgid "Select A Preset"
+msgstr ""
+
+#: classes/class-fl-builder-settings-presets.php:28
+msgid "Untitled Preset"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:545
+msgid "Clip Contents"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:544
+msgid "No Clip"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:542
+msgid "Clip Within Container"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:538
+msgid "Shape Container"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:474
+msgid "Gradient Fill"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:473
+msgid "Color Fill"
+msgstr ""
+
+#. translators: %s: position label
+#: classes/class-fl-builder-art.php:468
+msgid "%s Shape Style"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:453
+msgid "Bottom Right"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:452
+msgid "Bottom Center"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:451
+msgid "Bottom Left"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:450
+msgid "Center Right"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:448
+msgid "Center Left"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:447
+msgid "Top Right"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:446
+msgid "Top Center"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:445
+msgid "Top Left"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:431
+msgid "Y Offset"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:345
+msgid "Shape"
+msgstr ""
+
+#. translators: %s: position label
+#: classes/class-fl-builder-art.php:341
+msgid "%s Shape"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:251
+msgid "Bottom Shape Layer"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:243
+msgid "Top Shape Layer"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:126
+msgid "Untitled Shape"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:103
+msgid "Rectangle"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:96
+msgid "Topography"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:89
+msgid "Spots"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:82
+msgid "Concave"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:68
+msgid "Triangle"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:60
+msgid "Midpoint"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:52
+msgid "Waves"
+msgstr ""
+
+#: classes/class-fl-builder-art.php:44
+msgid "Slanted Edge"
+msgstr ""
+
+#: includes/ui-field-shape-transform.php:70
+msgid "Orientation"
+msgstr ""
+
+#: includes/ui-field-shape-transform.php:54
+msgid "Vertical Orientation"
+msgstr ""
+
+#: includes/ui-field-shape-transform.php:43
+msgid "Horizontal Orientation"
+msgstr ""
+
+#: includes/ui-field-shape-transform.php:33
+msgid "Rotate"
+msgstr ""
+
+#: includes/ui-field-shape-transform.php:27
+msgid "Scale X"
+msgstr ""
+
+#: includes/ui-field-shape-transform.php:22
+msgid "Skew Y"
+msgstr ""
+
+#: includes/ui-field-shape-transform.php:17
+msgid "Skew X"
+msgstr ""
+
+#: includes/ui-js-config.php:205
+msgid "All Structured Data fields are required."
+msgstr ""
+
+#: includes/ui-field-font.php:26
+msgid "Weight"
+msgstr ""
+
+#: includes/ui-field-font.php:18
+msgid "Family"
+msgstr ""
+
+#: includes/ui-field-shadow.php:40
+msgid "Spread"
+msgstr ""
+
+#: includes/ui-field-shadow.php:35
+msgid "Blur"
+msgstr ""
+
+#: includes/ui-field-gradient.php:47
+msgid "Center Center"
+msgstr ""
+
+#: includes/ui-field-gradient.php:20
+msgid "Radial"
+msgstr ""
+
+#: includes/ui-field-gradient.php:19
+msgid "Linear"
+msgstr ""
+
+#: includes/ui-field-typography.php:279
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/ui-field-typography.php:268
+msgid "Variant"
+msgstr ""
+
+#: includes/ui-field-typography.php:252
+msgid "Decoration"
+msgstr ""
+
+#: includes/ui-field-typography.php:242 classes/class-fl-builder-art.php:525
+msgid "Transform"
+msgstr ""
+
+#: includes/ui-field-typography.php:228
+msgid "Style &amp Spacing"
+msgstr ""
+
+#: includes/ui-field-typography.php:210
+msgid "Line Height"
+msgstr ""
+
+#: includes/ui-field-typography.php:202 classes/class-fl-builder-art.php:368
+msgid "Size"
+msgstr ""
+
+#: includes/ui-field-typography.php:187
+msgid "Font"
+msgstr ""
+
+#: includes/ui-field-typography.php:169
+msgid "Small Caps"
+msgstr ""
+
+#: includes/ui-field-typography.php:157
+msgid "Oblique"
+msgstr ""
+
+#: includes/ui-field-typography.php:144
+msgid "Line Through"
+msgstr ""
+
+#: includes/ui-field-typography.php:143
+msgid "Overline"
+msgstr ""
+
+#: includes/ui-field-typography.php:142
+msgid "Underline"
+msgstr ""
+
+#: includes/ui-field-link.php:25
+msgid "No Follow"
+msgstr ""
+
+#: includes/column-settings.php:480
+msgid "Optional. Choose an appropriate HTML5 content sectioning element to use for this column to improve accessibility and machine-readability."
+msgstr ""
+
+#: includes/column-settings.php:49
+msgid "Equalize Heights"
+msgstr ""
+
+#: includes/ui-js-templates.php:321
+msgid "Exit"
+msgstr ""
+
+#: includes/ui-js-templates.php:312 classes/class-fl-builder.php:1009
+msgid "Responsive Editing"
+msgstr ""
+
+#: includes/module-settings.php:114
+msgid "Optional. Choose an appropriate HTML5 content sectioning element to use for this module to improve accessibility and machine-readability."
+msgstr ""
+
+#: includes/ui-field-animation.php:138
+msgid "Duration"
+msgstr ""
+
+#: includes/ui-field-animation.php:86
+msgctxt "Animation style."
+msgid "Roll In"
+msgstr ""
+
+#: includes/ui-field-animation.php:85
+msgctxt "Animation style."
+msgid "Jack in the Box"
+msgstr ""
+
+#: includes/ui-field-animation.php:84
+msgctxt "Animation style."
+msgid "Light Speed"
+msgstr ""
+
+#: includes/ui-field-animation.php:83
+msgctxt "Animation style."
+msgid "Jello"
+msgstr ""
+
+#: includes/ui-field-animation.php:82
+msgctxt "Animation style."
+msgid "Wobble"
+msgstr ""
+
+#: includes/ui-field-animation.php:81
+msgctxt "Animation style."
+msgid "Tada"
+msgstr ""
+
+#: includes/ui-field-animation.php:80
+msgctxt "Animation style."
+msgid "Swing"
+msgstr ""
+
+#: includes/ui-field-animation.php:79
+msgctxt "Animation style."
+msgid "Shake"
+msgstr ""
+
+#: includes/ui-field-animation.php:78
+msgctxt "Animation style."
+msgid "Rubber Band"
+msgstr ""
+
+#: includes/ui-field-animation.php:77
+msgctxt "Animation style."
+msgid "Pulse"
+msgstr ""
+
+#: includes/ui-field-animation.php:76
+msgctxt "Animation style."
+msgid "Flash"
+msgstr ""
+
+#: includes/ui-field-animation.php:74
+msgctxt "Animation style."
+msgid "Fancy"
+msgstr ""
+
+#: includes/ui-field-animation.php:70
+msgctxt "Animation style."
+msgid "Flip Horizontal"
+msgstr ""
+
+#: includes/ui-field-animation.php:69
+msgctxt "Animation style."
+msgid "Flip Vertical"
+msgstr ""
+
+#: includes/ui-field-animation.php:67
+msgctxt "Animation style."
+msgid "Flip"
+msgstr ""
+
+#: includes/ui-field-animation.php:63
+msgctxt "Animation style."
+msgid "Rotate Up Right"
+msgstr ""
+
+#: includes/ui-field-animation.php:62
+msgctxt "Animation style."
+msgid "Rotate Up Left"
+msgstr ""
+
+#: includes/ui-field-animation.php:61
+msgctxt "Animation style."
+msgid "Rotate Down Right"
+msgstr ""
+
+#: includes/ui-field-animation.php:60
+msgctxt "Animation style."
+msgid "Rotate Down Left"
+msgstr ""
+
+#: includes/ui-field-animation.php:59
+msgctxt "Animation style."
+msgid "Rotate In"
+msgstr ""
+
+#: includes/ui-field-animation.php:57
+msgctxt "Animation style."
+msgid "Rotate"
+msgstr ""
+
+#: includes/ui-field-animation.php:53
+msgctxt "Animation style."
+msgid "Bounce Down"
+msgstr ""
+
+#: includes/ui-field-animation.php:52
+msgctxt "Animation style."
+msgid "Bounce Up"
+msgstr ""
+
+#: includes/ui-field-animation.php:51
+msgctxt "Animation style."
+msgid "Bounce Right"
+msgstr ""
+
+#: includes/ui-field-animation.php:50
+msgctxt "Animation style."
+msgid "Bounce Left"
+msgstr ""
+
+#: includes/ui-field-animation.php:49
+msgctxt "Animation style."
+msgid "Bounce In"
+msgstr ""
+
+#: includes/ui-field-animation.php:46 includes/ui-field-animation.php:48
+msgctxt "Animation style."
+msgid "Bounce"
+msgstr ""
+
+#: includes/ui-field-animation.php:42
+msgctxt "Animation style."
+msgid "Zoom Down"
+msgstr ""
+
+#: includes/ui-field-animation.php:41
+msgctxt "Animation style."
+msgid "Zoom Up"
+msgstr ""
+
+#: includes/ui-field-animation.php:40
+msgctxt "Animation style."
+msgid "Zoom Right"
+msgstr ""
+
+#: includes/ui-field-animation.php:39
+msgctxt "Animation style."
+msgid "Zoom Left"
+msgstr ""
+
+#: includes/ui-field-animation.php:38
+msgctxt "Animation style."
+msgid "Zoom In"
+msgstr ""
+
+#: includes/ui-field-animation.php:36
+msgctxt "Animation style."
+msgid "Zoom"
+msgstr ""
+
+#: includes/ui-field-animation.php:27
+msgctxt "Animation style."
+msgid "Slide"
+msgstr ""
+
+#: includes/ui-field-animation.php:23
+msgctxt "Animation style."
+msgid "Fade Down"
+msgstr ""
+
+#: includes/ui-field-animation.php:22
+msgctxt "Animation style."
+msgid "Fade Up"
+msgstr ""
+
+#: includes/ui-field-animation.php:21
+msgctxt "Animation style."
+msgid "Fade Right"
+msgstr ""
+
+#: includes/ui-field-animation.php:20
+msgctxt "Animation style."
+msgid "Fade Left"
+msgstr ""
+
+#: includes/ui-field-animation.php:17
+msgctxt "Animation style."
+msgid "Fade"
+msgstr ""
+
+#: includes/admin-settings-welcome.php:94
+msgid "<a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/690-beaver-builder-2-2-changes-to-specific-modules\">More module settings</a> and responsive capabilities give you more control with less code."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:93
+msgid "Break out of the box with <a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/678-row-shape-overlays\">row shapes</a> and <a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/669-color-gradients-for-row-and-column-backgrounds-and-overlays\">gradients</a>, plus new border and text shadow effects."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:92
+msgid "Mix and match over 80 new <a target=\"_blank\" href=\"https://kb.wpbeaverbuilder.com/article/666-beaver-builder-2-2-release-features#prebuilt-rows\">prebuilt row templates</a>."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:91
+msgid "Leverage percent, em, and viewport-based units."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:88
+msgid "We're thrilled to announce Beaver Builder 2.2 \"Falcon\". Beaver Builder 2.2 brings a number of design-focused enhancements and quality-of-life improvements."
+msgstr ""
+
+#: includes/ui-field-border.php:156
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/ui-field-border.php:148
+msgid "Radius"
+msgstr ""
+
+#: includes/ui-field-border.php:143
+msgid "Radius &amp; Shadow"
+msgstr ""
+
+#: includes/ui-field-border.php:39
+msgid "Double"
+msgstr ""
+
+#: includes/ui-field-border.php:38
+msgid "Dotted"
+msgstr ""
+
+#: includes/ui-field-border.php:37
+msgid "Dashed"
+msgstr ""
+
+#: includes/ui-field-border.php:36
+msgid "Solid"
+msgstr ""
+
+#: includes/row-settings.php:757
+msgid "Optional. Choose an appropriate HTML5 content sectioning element to use for this row to improve accessibility and machine-readability."
+msgstr ""
+
+#: includes/row-settings.php:747 includes/module-settings.php:104
+#: includes/column-settings.php:470
+msgid "Container Element"
+msgstr ""
+
+#: includes/row-settings.php:689 includes/column-settings.php:399
+msgid "All"
+msgstr ""
+
+#: includes/row-settings.php:687 includes/module-settings.php:44
+#: includes/column-settings.php:397
+msgid "Breakpoint"
+msgstr ""
+
+#: includes/row-settings.php:588 includes/column-settings.php:171
+msgid "Background Gradient"
+msgstr ""
+
+#: includes/row-settings.php:563 includes/column-settings.php:306
+msgid "Overlay Gradient"
+msgstr ""
+
+#: includes/row-settings.php:537 includes/row-settings.php:592
+#: includes/column-settings.php:175 includes/column-settings.php:281
+#: classes/class-fl-builder-art.php:513
+msgid "Gradient"
+msgstr ""
+
+#: includes/row-settings.php:535 includes/ui-field-border.php:35
+#: includes/column-settings.php:279 includes/ui-field-typography.php:141
+#: classes/class-fl-builder-art.php:187
+msgid "None"
+msgstr ""
+
+#: includes/row-settings.php:532 includes/column-settings.php:276
+msgid "Overlay Type"
+msgstr ""
+
+#: includes/row-settings.php:181 includes/column-settings.php:135
+msgctxt "Background type."
+msgid "Gradient"
+msgstr ""
+
+#: includes/row-settings.php:113 includes/column-settings.php:67
+msgid "Vertical Alignment"
+msgstr ""
+
+#: includes/row-settings.php:76
+msgid "Full height rows fill the height of the browser window. Minimum height rows are no taller than the value entered."
+msgstr ""
+
+#: includes/row-settings.php:74 includes/row-settings.php:91
+#: includes/column-settings.php:27
+msgid "Minimum Height"
+msgstr ""
+
+#: modules/rich-text/rich-text.php:68
+msgid "Typography"
+msgstr ""
+
+#: modules/video/video.php:262
+msgid "Upload Date"
+msgstr ""
+
+#: modules/video/video.php:254
+msgid "Video Thumbnail"
+msgstr ""
+
+#: modules/video/video.php:247
+msgid "Video Description"
+msgstr ""
+
+#: modules/video/video.php:240
+msgid "Video Name"
+msgstr ""
+
+#: modules/video/video.php:223
+msgid "Enable Structured Data?"
+msgstr ""
+
+#: modules/photo/photo.php:646
+msgid "Caption Typography"
+msgstr ""
+
+#: modules/photo/photo.php:624 includes/ui-field-typography.php:218
+#: classes/class-fl-builder-art.php:442
+msgid "Align"
+msgstr ""
+
+#: includes/updater/classes/class-fl-updater.php:269
+msgid "License Removed"
+msgstr ""
+
+#. translators: %d: number of selected
+#: includes/ui-js-config.php:141
+msgid "%d Photo Selected"
+msgstr ""
+
+#. translators: 1: create app url: 2: register url
+#: classes/class-fl-builder-service-icontact-pro.php:153
+msgid "You must <a%1$s>create an app</a> in iContact Pro to obtain an app ID and password. Please see <a%2$s>the iContact docs</a> for complete instructions."
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:112
+msgid "Your API key can be found in your ActiveCampaign account under My Settings > Developer > API."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.wpbeaverbuilder.com/?utm_medium=bb&utm_source=plugins-admin-page&utm_campaign=plugins-admin-author"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.wpbeaverbuilder.com/?utm_medium=bb&utm_source=plugins-admin-page&utm_campaign=plugins-admin-uri"
+msgstr ""
+
+#: modules/widget/includes/settings-text-widget.php:13
+msgid "Content:"
+msgstr ""
+
+#: modules/widget/includes/settings-text-widget.php:10
+msgid "Title:"
+msgstr ""
+
+#: modules/video/video.php:169
+msgid "A video in the WebM format to use as fallback. This format is required to support browsers such as FireFox and Opera."
+msgstr ""
+
+#: modules/video/video.php:162
+msgid "A video in the MP4 format. Most modern browsers support this format."
+msgstr ""
+
+#: modules/photo/photo.php:591
+msgctxt "Photo Crop."
+msgid "None"
+msgstr ""
+
+#: modules/audio/audio.php:190
+msgid "Show Artist Name"
+msgstr ""
+
+#: modules/audio/audio.php:181
+msgid "Show Thumbnail"
+msgstr ""
+
+#: modules/audio/audio.php:169
+msgid "Show Track Numbers"
+msgstr ""
+
+#: modules/audio/audio.php:155
+msgid "Show Playlist"
+msgstr ""
+
+#: modules/audio/audio.php:150
+msgid "Dark"
+msgstr ""
+
+#: modules/photo/photo.php:541 modules/audio/audio.php:84
+#: modules/audio/audio.php:109
+msgid "Link"
+msgstr ""
+
+#: modules/audio/audio.php:80
+msgid "Audio Type"
+msgstr ""
+
+#: modules/audio/audio.php:19
+msgid "Render a WordPress audio shortcode."
+msgstr ""
+
+#: modules/audio/audio.php:18 modules/audio/audio.php:97
+msgid "Audio"
+msgstr ""
+
+#: includes/updater/includes/subscriptions.php:3
+msgid "The following downloads are currently available for remote update with the subscription(s) associated with this license."
+msgstr ""
+
+#: includes/updater/includes/subscriptions.php:2
+msgid "Available Downloads"
+msgstr ""
+
+#: includes/updater/includes/form.php:65
+msgid "Save License Key"
+msgstr ""
+
+#: includes/updater/includes/form.php:42
+msgid "License key saved!"
+msgstr ""
+
+#: includes/updater/includes/form.php:34
+msgid "Deactivated!"
+msgstr ""
+
+#: includes/updater/includes/form.php:24
+msgid "Visit Account"
+msgstr ""
+
+#: includes/updater/includes/form.php:19
+msgid "UPDATES UNAVAILABLE! Your subscription is active but this domain has been deactivated. Please reactivate this domain in your account to enable automatic updates."
+msgstr ""
+
+#: includes/updater/includes/form.php:6
+msgid "ERROR! We were unable to connect to the update server. If the issue persists, please contact your host and let them know your website cannot connect to updates.wpbeaverbuilder.com."
+msgstr ""
+
+#. translators: %s: subscribe link
+#: includes/updater/classes/class-fl-updater.php:384
+msgid "Please subscribe to enable automatic updates for this plugin. %s"
+msgstr ""
+
+#. translators: %s: link to license tab
+#: includes/updater/classes/class-fl-updater.php:380
+msgid "Please enter a valid license key to enable automatic updates. %s"
+msgstr ""
+
+#: includes/updater/includes/form.php:72
+#: includes/updater/classes/class-fl-updater.php:378
+msgid "Enter License Key"
+msgstr ""
+
+#: includes/updater/classes/class-fl-updater.php:370
+msgid "Please enter a valid license key to enable automatic updates."
+msgstr ""
+
+#: includes/updater/classes/class-fl-updater.php:325
+msgid "You submitted an invalid license. Non alphanumeric characters found."
+msgstr ""
+
+#: includes/ui-loop-settings.php:177
+msgid "Enter a list of authors usernames."
+msgstr ""
+
+#. translators: %s: type label
+#. translators: %s: tax label
+#: includes/ui-loop-settings.php:146 includes/ui-loop-settings.php:161
+msgid "Enter a list of %1$s."
+msgstr ""
+
+#: includes/ui-loop-settings.php:121
+msgid "Exclude the current post from the query."
+msgstr ""
+
+#: includes/ui-loop-settings.php:119
+msgid "Exclude Current Post"
+msgstr ""
+
+#: includes/ui-loop-settings.php:105
+msgid "Meta Key"
+msgstr ""
+
+#: includes/ui-loop-settings.php:90
+msgid "Selection Order"
+msgstr ""
+
+#: includes/ui-loop-settings.php:87
+msgid "Meta Value (Numeric)"
+msgstr ""
+
+#: includes/ui-loop-settings.php:86
+msgid "Meta Value (Alphabetical)"
+msgstr ""
+
+#: includes/ui-loop-settings.php:39
+msgid "Main Query"
+msgstr ""
+
+#: includes/ui-loop-settings.php:38 includes/ui-loop-settings.php:54
+msgid "Custom Query"
+msgstr ""
+
+#: includes/ui-js-templates.php:1045
+msgid "Close"
+msgstr ""
+
+#: includes/ui-js-templates.php:1028
+msgid "You haven't saved any revisions yet. Each time you publish a new revision will be saved here."
+msgstr ""
+
+#: includes/ui-js-templates.php:1024
+msgid "Revisions are disabled for this site. Please contact your host if you aren't sure how to enable revisions."
+msgstr ""
+
+#: includes/ui-js-templates.php:1020
+msgid "No Revisions Found"
+msgstr ""
+
+#: includes/ui-js-templates.php:987
+msgctxt "Message that displays when there are no templates to display"
+msgid "Sorry, no templates were found!"
+msgstr ""
+
+#: includes/ui-js-templates.php:980
+msgctxt "Message that displays when a panel tab has no view to display"
+msgid "Sorry, no content was found!"
+msgstr ""
+
+#: includes/ui-js-templates.php:811 includes/ui-js-templates.php:995
+msgctxt "Link to learn more about premium page builder"
+msgid "Learn More"
+msgstr ""
+
+#: includes/ui-js-templates.php:810 includes/ui-js-templates.php:994
+msgctxt "Upgrade message that displays in the templates tab in lite installs."
+msgid "Save and reuse your layouts or kick-start your creativity with dozens of professionally designed templates."
+msgstr ""
+
+#: includes/ui-js-templates.php:768 includes/ui-js-templates.php:801
+msgid "Get more time-saving features, modules, and expert support."
+msgstr ""
+
+#: includes/ui-js-templates.php:605
+msgid "Group"
+msgstr ""
+
+#: includes/ui-js-templates.php:591
+msgid "No settings selected."
+msgstr ""
+
+#: includes/ui-js-templates.php:524
+msgid "Search Modules"
+msgstr ""
+
+#: includes/ui-js-templates.php:382
+msgctxt "No content panel search results found"
+msgid "No Results Found"
+msgstr ""
+
+#: includes/ui-js-templates.php:231
+msgid "More"
+msgstr ""
+
+#: includes/ui-js-templates.php:181
+msgid "This module has visibility rules."
+msgstr ""
+
+#: includes/ui-js-templates.php:155
+msgid "Delete Column"
+msgstr ""
+
+#: includes/ui-js-templates.php:153
+msgid "Duplicate Column"
+msgstr ""
+
+#: includes/ui-js-templates.php:151
+msgid "Move Column"
+msgstr ""
+
+#. translators: %s: module name
+#: includes/ui-js-templates.php:143
+msgid "%s Settings"
+msgstr ""
+
+#: includes/ui-js-templates.php:84 includes/ui-js-templates.php:179
+msgid "This column has visibility rules."
+msgstr ""
+
+#: includes/ui-js-templates.php:70 includes/ui-js-templates.php:167
+msgid "Parent Settings"
+msgstr ""
+
+#: includes/ui-js-templates.php:68 includes/ui-js-templates.php:165
+msgid "Move Parent"
+msgstr ""
+
+#: includes/ui-js-templates.php:55 includes/ui-js-templates.php:147
+msgid "Edit Column"
+msgstr ""
+
+#: includes/ui-js-templates.php:34
+msgid "This row has visibility rules."
+msgstr ""
+
+#: includes/ui-js-templates.php:21 includes/ui-js-templates.php:63
+#: includes/ui-js-templates.php:160
+msgid "Reset Row Width"
+msgstr ""
+
+#: includes/ui-js-templates.php:20 includes/ui-js-templates.php:60
+#: includes/ui-js-templates.php:157
+msgid "Reset Column Widths"
+msgstr ""
+
+#: includes/ui-js-templates.php:18
+msgid "Row Actions"
+msgstr ""
+
+#: includes/ui-js-templates.php:6 includes/ui-js-templates.php:45
+#: includes/ui-js-templates.php:137
+msgid "Locked"
+msgstr ""
+
+#: includes/ui-js-config.php:246
+msgid "No Notifications."
+msgstr ""
+
+#: includes/ui-js-config.php:245
+msgid "Loading..."
+msgstr ""
+
+#: includes/ui-js-config.php:244
+msgid "Notifications"
+msgstr ""
+
+#: includes/ui-js-config.php:232
+msgid "Column Group"
+msgstr ""
+
+#: includes/ui-js-config.php:229
+msgid "Template"
+msgstr ""
+
+#: includes/ui-js-config.php:224
+msgid "Your changes are saved"
+msgstr ""
+
+#: includes/ui-js-config.php:223
+msgid "No new changes to save"
+msgstr ""
+
+#: includes/ui-js-config.php:222
+msgid "Changes being published"
+msgstr ""
+
+#: includes/ui-js-config.php:221
+msgid "Publishing Changes"
+msgstr ""
+
+#: includes/ui-js-config.php:220
+msgid "Nothing new to publish"
+msgstr ""
+
+#: includes/ui-js-config.php:219
+msgid "Ok, got it!"
+msgstr ""
+
+#: includes/ui-js-config.php:218
+msgid "This layout has unpublished changes. If you discard this draft all of your previously unpublished changes will be lost."
+msgstr ""
+
+#: includes/ui-js-config.php:217
+msgid "This layout has unpublished changes"
+msgstr ""
+
+#: includes/ui-js-config.php:216
+msgid "Edited"
+msgstr ""
+
+#: includes/ui-js-config.php:215
+msgid "The layout is saved"
+msgstr ""
+
+#: includes/ui-js-config.php:214
+msgid "Saved"
+msgstr ""
+
+#: includes/ui-js-config.php:213
+msgid "The layout is currently being saved"
+msgstr ""
+
+#: includes/ui-js-config.php:212
+msgid "Saving..."
+msgstr ""
+
+#: includes/ui-js-config.php:204
+msgid "This field is required."
+msgstr ""
+
+#: includes/ui-js-config.php:197
+msgid "The Tools button lets you save a template, duplicate a layout, edit the settings for a layout or edit the global settings."
+msgstr ""
+
+#: includes/ui-js-config.php:175
+msgid "Please enter at least one tag before saving."
+msgstr ""
+
+#: includes/ui-js-config.php:170
+msgid "These settings have errors. Please correct them before continuing."
+msgstr ""
+
+#: includes/ui-js-config.php:164
+msgid "Save Row"
+msgstr ""
+
+#: includes/ui-js-config.php:163
+msgid "Save Module"
+msgstr ""
+
+#: includes/ui-js-config.php:162
+msgid "Save Column"
+msgstr ""
+
+#: includes/ui-js-config.php:161
+msgid "Save As..."
+msgstr ""
+
+#: includes/ui-js-config.php:158
+msgid "Row Saved!"
+msgstr ""
+
+#. translators: %s: author name
+#: includes/ui-js-config.php:155
+msgctxt "%s is the author name."
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: time diff - 1 day/2 weeks
+#: includes/ui-js-config.php:153
+msgctxt "%s is a time diff such as 1 day or 2 weeks."
+msgid "%s ago"
+msgstr ""
+
+#: includes/ui-js-config.php:151
+msgid "Are you sure?"
+msgstr ""
+
+#. translators: %s: preset color code
+#: includes/ui-js-config.php:148
+msgctxt "%s is the preset hex color code."
+msgid "%s added to presets!"
+msgstr ""
+
+#: includes/ui-js-config.php:145
+msgid "Paste color here..."
+msgstr ""
+
+#: includes/ui-js-config.php:136
+msgid "No saved modules found."
+msgstr ""
+
+#: includes/ui-js-config.php:135
+msgid "No saved rows found."
+msgstr ""
+
+#: includes/ui-js-config.php:133
+msgid "Add a color preset first."
+msgstr ""
+
+#: includes/ui-js-config.php:132
+msgid "Please enter a color first."
+msgstr ""
+
+#: includes/ui-js-config.php:128
+msgid "Module Saved!"
+msgstr ""
+
+#: includes/ui-js-config.php:121
+msgctxt "Indicator for global node templates."
+msgid "Global"
+msgstr ""
+
+#: includes/ui-js-config.php:118
+msgid "Field Loading..."
+msgstr ""
+
+#: includes/ui-js-config.php:116
+msgid "Error! Please enter a valid year."
+msgstr ""
+
+#: includes/ui-js-config.php:115
+msgid "Error! Please enter a valid month."
+msgstr ""
+
+#: includes/ui-js-config.php:114
+msgid "Error! Please enter a valid day."
+msgstr ""
+
+#: includes/ui-js-templates.php:13 includes/ui-js-templates.php:51
+#: includes/ui-js-templates.php:145 includes/ui-js-config.php:107
+msgid "Duplicate"
+msgstr ""
+
+#: includes/ui-js-config.php:106
+msgid "Save Changes and Exit"
+msgstr ""
+
+#: includes/ui-js-config.php:103
+msgid "Discard Changes and Exit"
+msgstr ""
+
+#: includes/ui-js-config.php:102
+msgid "WARNING! You are about to delete a global template that may be linked to other pages. Do you really want to delete this template and unlink it?"
+msgstr ""
+
+#: includes/ui-js-config.php:100
+msgid "Do you really want to delete this row?"
+msgstr ""
+
+#: includes/ui-js-config.php:99
+msgid "Do you really want to delete this module?"
+msgstr ""
+
+#: includes/ui-js-config.php:97
+msgid "Do you really want to delete this column?"
+msgstr ""
+
+#: includes/ui-js-config.php:94
+msgid "Error! Please enter a date that is in the future."
+msgstr ""
+
+#: includes/ui-js-config.php:91
+msgid "Save With Errors"
+msgstr ""
+
+#: includes/ui-js-config.php:90
+msgid "Fix Errors"
+msgstr ""
+
+#: includes/ui-js-config.php:89
+msgid "This code has errors. We recommend you fix them before saving."
+msgstr ""
+
+#: includes/ui-js-config.php:88
+msgid "Color Picker"
+msgstr ""
+
+#: includes/ui-js-config.php:87
+msgid "Color Presets"
+msgstr ""
+
+#: includes/ui-js-config.php:83
+msgid "Blank"
+msgstr ""
+
+#. translators: %d: number of files selected (plural)
+#: includes/ui-js-config.php:82
+msgid "%d Audio Files Selected"
+msgstr ""
+
+#: includes/ui-js-config.php:80
+msgid "Audio Files Selected"
+msgstr ""
+
+#. translators: %d: number of files selected
+#: includes/ui-js-config.php:79
+msgid "%d Audio File Selected"
+msgstr ""
+
+#: includes/ui-js-config.php:77
+msgid "Audio File Selected"
+msgstr ""
+
+#. translators: %s: preset color code
+#: includes/ui-js-config.php:76
+msgctxt "%s is the preset hex color code."
+msgid "%s is already a saved preset."
+msgstr ""
+
+#: includes/ui-field-video.php:39
+msgid "Remove Video"
+msgstr ""
+
+#: includes/ui-field-multiple-audios.php:36
+msgid "Add Audio Files"
+msgstr ""
+
+#: includes/ui-field-multiple-audios.php:35
+msgid "Edit Playlist"
+msgstr ""
+
+#: includes/ui-field-multiple-audios.php:34 includes/ui-js-config.php:166
+msgid "Select Audio"
+msgstr ""
+
+#: includes/ui-field-link.php:3
+msgctxt "Link placeholder"
+msgid "http://www.example.com"
+msgstr ""
+
+#: includes/ui-bar.php:32
+msgid "Apply"
+msgstr ""
+
+#: includes/ui-bar.php:27
+msgid "Continue Editing"
+msgstr ""
+
+#: includes/ui-bar.php:14
+msgid "Publish"
+msgstr ""
+
+#: includes/ui-bar.php:14
+msgid "Publish changes and exit"
+msgstr ""
+
+#: includes/ui-js-config.php:171 includes/ui-bar.php:12
+msgid "Submit for Review"
+msgstr ""
+
+#: includes/ui-bar.php:12
+msgid "Submit changes for review and exit"
+msgstr ""
+
+#: includes/ui-bar.php:10
+msgid "Keep changes drafted and exit"
+msgstr ""
+
+#: includes/ui-bar.php:9
+msgid "Discard"
+msgstr ""
+
+#: includes/ui-bar.php:9
+msgid "Discard changes and exit"
+msgstr ""
+
+#: includes/ui-bar-title-area.php:13
+msgid "Toggle Main Menu"
+msgstr ""
+
+#: includes/strings.php:14
+msgid "Launch Page Builder"
+msgstr ""
+
+#: includes/strings.php:12
+msgid "Use an easy drag-and-drop builder to edit content on this page."
+msgstr ""
+
+#. translators: %s: singular label
+#: includes/strings.php:10
+msgctxt "%s is the singular post type name (e.g. page)"
+msgid "Click here to edit content on this %s using an easy drag-and-drop builder."
+msgstr ""
+
+#: includes/strings.php:8
+msgid "The Beaver Builder Booster plugin is not compatible with your host."
+msgstr ""
+
+#. translators: %s: wporg docs link
+#: includes/row-settings.php:722
+msgid "Optional. Set the <a%s>capability</a> required for users to view this row."
+msgstr ""
+
+#: includes/row-settings.php:383
+msgid "Enable Audio"
+msgstr ""
+
+#: includes/row-settings.php:375
+msgid "A video from Youtube or Vimeo to use as the background of this row. Most modern browsers support this format."
+msgstr ""
+
+#: includes/row-settings.php:374
+msgid "Youtube Or Vimeo URL"
+msgstr ""
+
+#: includes/row-settings.php:365
+msgid "Video URL (WebM)"
+msgstr ""
+
+#: includes/row-settings.php:357
+msgid "A video in the MP4 to use as the background of this row. Most modern browsers support this format."
+msgstr ""
+
+#: includes/row-settings.php:356
+msgid "Video URL (MP4)"
+msgstr ""
+
+#: includes/row-settings.php:349 includes/row-settings.php:366
+msgid "A video in the WebM format to use as the background of this row. This format is required to support browsers such as FireFox and Opera."
+msgstr ""
+
+#: modules/video/video.php:168 includes/row-settings.php:348
+msgid "Video (WebM)"
+msgstr ""
+
+#: includes/row-settings.php:340
+msgid "A video in the MP4 format to use as the background of this row. Most modern browsers support this format."
+msgstr ""
+
+#: modules/video/video.php:161 includes/row-settings.php:339
+msgid "Video (MP4)"
+msgstr ""
+
+#: includes/row-settings.php:319
+msgid "YouTube or Vimeo"
+msgstr ""
+
+#: includes/row-settings.php:73
+msgid "Full Height"
+msgstr ""
+
+#: includes/row-settings.php:69 classes/class-fl-builder-art.php:430
+msgid "Height"
+msgstr ""
+
+#: includes/row-settings.php:48
+msgid "Fixed Width"
+msgstr ""
+
+#. translators: %s: wporg docs link
+#: includes/module-settings.php:79
+msgid "Optional. Set the <a%s>capability</a> required for users to view this module."
+msgstr ""
+
+#. translators: %s: an object like posts or taxonomie
+#: includes/loop-settings-matching.php:8
+msgctxt "%s is an object like posts or taxonomies."
+msgid "Match all related %s except..."
+msgstr ""
+
+#. translators: %s: an object like posts or taxonomie
+#: includes/loop-settings-matching.php:5
+msgctxt "%s is an object like posts or taxonomies."
+msgid "Match all %s except..."
+msgstr ""
+
+#. translators: %s: an object like posts or taxonomie
+#: includes/loop-settings-matching.php:3
+msgctxt "%s is an object like posts or taxonomies."
+msgid "Match these %s..."
+msgstr ""
+
+#: includes/ui-js-config.php:112 includes/layout-settings.php:4
+msgid "Layout CSS / Javascript"
+msgstr ""
+
+#: includes/global-settings.php:256 includes/layout-settings.php:26
+msgid "JavaScript"
+msgstr ""
+
+#: includes/global-settings.php:237 includes/layout-settings.php:7
+msgid "CSS"
+msgstr ""
+
+#: includes/global-settings.php:8
+msgid "<strong>Note</strong>: These settings apply to all posts and pages."
+msgstr ""
+
+#: includes/export-filters.php:4
+msgid "Export Selected"
+msgstr ""
+
+#: includes/export-filters.php:3
+msgid "Export All"
+msgstr ""
+
+#: includes/compatibility.php:210
+msgid "module"
+msgstr ""
+
+#: includes/compatibility.php:210
+msgid "SAFEMODE"
+msgstr ""
+
+#: includes/row-settings.php:743 includes/module-settings.php:100
+#: includes/column-settings.php:466
+msgid "HTML Element"
+msgstr ""
+
+#. translators: %s: wporg docs link
+#: includes/column-settings.php:445
+msgid "Optional. Set the <a%s>capability</a> required for users to view this column."
+msgstr ""
+
+#: includes/row-settings.php:720 includes/module-settings.php:77
+#: includes/column-settings.php:443
+msgid "User Capability"
+msgstr ""
+
+#: includes/row-settings.php:706 includes/module-settings.php:63
+#: includes/column-settings.php:429
+msgid "Logged In User"
+msgstr ""
+
+#: includes/row-settings.php:705 includes/module-settings.php:62
+#: includes/column-settings.php:428
+msgid "Logged Out User"
+msgstr ""
+
+#: includes/row-settings.php:683 includes/module-settings.php:40
+#: includes/column-settings.php:393
+msgid "Visibility"
+msgstr ""
+
+#: includes/column-settings.php:417
+msgid "Reversed"
+msgstr ""
+
+#: includes/column-settings.php:413
+msgid "The order of the columns in this group when they are stacked for small devices."
+msgstr ""
+
+#: includes/column-settings.php:412
+msgid "Stacking Order"
+msgstr ""
+
+#: includes/row-settings.php:621 includes/module-settings.php:9
+#: includes/column-settings.php:335 includes/ui-field-typography.php:234
+msgid "Spacing"
+msgstr ""
+
+#: includes/column-settings.php:50
+msgid "Setting this to yes will make all of the columns in this group the same height regardless of how much content is in each of them."
+msgstr ""
+
+#. translators: %s: support url
+#: includes/admin-settings-welcome.php:117
+msgid "If you can't find an answer, feel free to <a href=\"%s\" target=\"_blank\">send us a message with your question.</a>"
+msgstr ""
+
+#. translators: %s: upgrade url
+#: includes/admin-settings-welcome.php:114
+msgid "If you can't find an answer, consider upgrading to a premium version of Beaver Builder. Our expert support team is waiting to answer your questions and help you build your website. <a href=\"%s\" target=\"_blank\">Learn More</a>."
+msgstr ""
+
+#. translators: 1: docs url: 2: facebook url
+#: includes/admin-settings-welcome.php:110
+msgid "For that, check our <a href=\"%1$s\" target=\"_blank\">Knowledge Base</a> or try searching <a href=\"%2$s\" target=\"_blank\">the Beaver Builders Facebook group</a>."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:107
+msgid "The fastest way to find an answer to a question is to see if someone's already answered it!"
+msgstr ""
+
+#: includes/admin-settings-welcome.php:105
+msgid "We take pride in offering outstanding support."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:103
+msgid "Need Some Help?"
+msgstr ""
+
+#. translators: 1: blog post url: 2: changelog url
+#: includes/admin-settings-welcome.php:97
+msgid "There's a whole lot more, too! Read about everything else on our <a href=\"%1$s\" target=\"_blank\">update post</a> or <a href=\"%2$s\" target=\"_blank\">change logs</a>."
+msgstr ""
+
+#. translators: %s: builder version
+#: includes/admin-settings-welcome.php:86
+msgid "What's New in Beaver Builder %s"
+msgstr ""
+
+#: includes/admin-settings-welcome.php:56
+msgid "Come by and share a project, ask a question, or just say hi! For news about new features and updates, like our <a href=\"https://www.facebook.com/wpbeaverbuilder/\" target=\"_blank\">Facebook Page</a> or follow us <a href=\"https://twitter.com/beaverbuilder\" target=\"_blank\">on Twitter</a>."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:53
+msgid "<a href=\"https://www.wpbeaverbuilder.com/go/bb-slack\" target=\"_blank\">Join the Beaver Builder's Group on Slack</a>"
+msgstr ""
+
+#: includes/admin-settings-welcome.php:52
+msgid "<a href=\"https://www.wpbeaverbuilder.com/go/bb-facebook\" target=\"_blank\">Join the Beaver Builder's Group on Facebook</a>"
+msgstr ""
+
+#: includes/admin-settings-welcome.php:49
+msgid "There's a wonderful community of \"Beaver Builders\" out there and we'd love it if <em>you</em> joined us!"
+msgstr ""
+
+#: includes/admin-settings-welcome.php:47
+msgid "Join the Community"
+msgstr ""
+
+#: includes/admin-settings-welcome.php:45
+msgid "Ready to start building? Add a new page and jump into Beaver Builder by clicking the Page Builder tab shown on the image."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:43
+msgid "Pages → Add New"
+msgstr ""
+
+#: includes/admin-settings-welcome.php:37
+msgid "Getting Started - Building your first page."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:32
+msgid "Be sure to add your license key for access to updates and new features."
+msgstr ""
+
+#. translators: %s: upgrade url
+#: includes/admin-settings-welcome.php:30
+msgid "For more time-saving features and access to our expert support team, <a href=\"%s\" target=\"_blank\">upgrade today</a>."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:26
+msgid "Thank you for choosing Beaver Builder and welcome to the colony! Find some helpful information below. Also, to the left are the Page Builder settings options."
+msgstr ""
+
+#: includes/admin-settings-welcome.php:22
+msgid "Welcome to Beaver Builder!"
+msgstr ""
+
+#: includes/admin-settings-user-access.php:36
+msgid "Save User Access Settings"
+msgstr ""
+
+#: includes/admin-settings-user-access.php:5
+msgid "Use these settings to limit which builder features users can access."
+msgstr ""
+
+#: includes/admin-settings-user-access.php:4
+msgid "User Access Settings"
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:17
+msgid "Come by the Beaver Builder Homepage to learn more about what our premium features can do for you!"
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:14
+msgid "Build your own custom modules."
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:13
+msgid "Save, export, and reuse full-page layouts, rows, and modules."
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:12
+msgid "Beautiful pre-made layout templates."
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:11
+msgid "Expert support from our world-class support team."
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:10
+msgid "Additional modules: Contact Form, Tabs, Slider, Pricing Table, Map, Blog Posts, Subscribe Form, Social Icons, and many more."
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:7
+msgid "Premium Features"
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:5
+msgid "Along with access to our expert support team, the premium versions of Beaver Builder are packed with more features to save you time and make building websites easier!"
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:3
+msgid "Get More Features"
+msgstr ""
+
+#: includes/admin-settings-tools.php:77
+msgid "If enabled we will send anonymous usage stats to help improve the plugin."
+msgstr ""
+
+#: includes/admin-settings-tools.php:75
+msgid "Send Usage Data"
+msgstr ""
+
+#: includes/admin-settings-tools.php:67
+msgid "Enable"
+msgstr ""
+
+#: includes/admin-settings-tools.php:62
+msgid "Disable"
+msgstr ""
+
+#: includes/admin-settings-tools.php:50
+msgid "Enable Debug Mode"
+msgstr ""
+
+#: includes/admin-settings-tools.php:50
+msgid "Disable Debug Mode"
+msgstr ""
+
+#: includes/admin-settings-tools.php:37
+msgid "Copy this unique URL and send it to support as directed."
+msgstr ""
+
+#: includes/admin-settings-tools.php:35
+msgid "Enable debug mode to generate a unique support url."
+msgstr ""
+
+#: includes/admin-settings-tools.php:29
+msgid "Debug Mode Disabled"
+msgstr ""
+
+#: includes/admin-settings-tools.php:29
+msgid "Debug Mode Enabled"
+msgstr ""
+
+#: includes/admin-settings-js-config.php:13
+msgid "Select All"
+msgstr ""
+
+#: includes/admin-settings-js-config.php:12
+msgid "Selected"
+msgstr ""
+
+#: includes/admin-settings-js-config.php:11
+msgid "Select..."
+msgstr ""
+
+#: includes/admin-settings-js-config.php:10
+msgid "None Selected"
+msgstr ""
+
+#: includes/admin-settings-js-config.php:9
+msgid "Deselect All"
+msgstr ""
+
+#. translators: %s: post type name
+#: includes/admin-posts.php:16
+msgctxt "%s stands the post type name."
+msgid "View %s"
+msgstr ""
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:41
+msgid "Save Cache Clearing Tool Settings"
+msgstr ""
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:32
+msgid "Enable proxy cache clearing"
+msgstr ""
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:27
+msgid "Some hosts use a proxy cache like Varnish or Litespeed. The following setting attempts to invalidate the cache using a remote request. If you are unsure what this does, leave it disabled."
+msgstr ""
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:19
+msgid "Enable the Cache Clearing Tool"
+msgstr ""
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:14
+msgid "Enable the following setting to clear the caches created by any of these caching plugins. If enabled, cache clearing occurs when layouts and templates are saved and when WordPress finishes updating plugins and themes. This setting also defines the DONOTCACHEPAGE constant, which is respected by most cache plugins, to keep the page from being cached when the Beaver Builder editor is active."
+msgstr ""
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:11
+msgid "This tool applies to caches created by the following:"
+msgstr ""
+
+#: extensions/fl-builder-cache-helper/includes/admin-settings-cache-plugins.php:7
+msgid "Cache Clearing Tool"
+msgstr ""
+
+#. translators: %s: extension type
+#: classes/class-fl-builder.php:3397
+msgid "The uploaded file is not a valid %s extension."
+msgstr ""
+
+#: classes/class-fl-builder.php:1375
+msgid "Upgrade Today"
+msgstr ""
+
+#. translators: %s: post label
+#: classes/class-fl-builder.php:1331
+msgctxt "Currently editing message"
+msgid "Currently Editing %s"
+msgstr ""
+
+#: classes/class-fl-builder.php:1243
+msgctxt "Keyboard action to dismiss the current task or panel"
+msgid "Dismiss Active Panel"
+msgstr ""
+
+#: classes/class-fl-builder.php:1238
+msgctxt "Keyboard action to publish any pending changes"
+msgid "Publish changes without leaving builder"
+msgstr ""
+
+#: classes/class-fl-builder.php:1233
+msgctxt "Keyboard action to save changes"
+msgid "Save Layout"
+msgstr ""
+
+#: classes/class-fl-builder.php:1228
+msgctxt "Keyboard action to open the module search panel"
+msgid "Display Module Search"
+msgstr ""
+
+#: classes/class-fl-builder.php:1224
+msgctxt "Keyboard action to switch between light and dark UI brightness"
+msgid "Change UI Brightness"
+msgstr ""
+
+#: classes/class-fl-builder.php:1220
+msgctxt "Keyboard action to open the layout settings panel"
+msgid "Open Layout Settings"
+msgstr ""
+
+#: classes/class-fl-builder.php:1216
+msgctxt "Keyboard action to open the global settings panel"
+msgid "Open Global Settings"
+msgstr ""
+
+#: classes/class-fl-builder.php:1208
+msgctxt "Keyboard action to toggle preview mode"
+msgid "Toggle Preview Mode"
+msgstr ""
+
+#: classes/class-fl-builder.php:1203
+msgctxt "Keyboard action to open save template form"
+msgid "Save New Template"
+msgstr ""
+
+#: classes/class-fl-builder.php:1198
+msgctxt "Keyboard action to show saved tab"
+msgid "Open Saved Tab"
+msgstr ""
+
+#: classes/class-fl-builder.php:1194
+msgctxt "Keyboard action to show templates tab"
+msgid "Open Templates Tab"
+msgstr ""
+
+#: classes/class-fl-builder.php:1190
+msgctxt "Keyboard action to show rows tab"
+msgid "Open Rows Tab"
+msgstr ""
+
+#: classes/class-fl-builder.php:1186
+msgctxt "Keyboard action to show modules tab"
+msgid "Open Modules Tab"
+msgstr ""
+
+#: classes/class-fl-builder.php:1178
+msgctxt "A keyboard shortcut with no label given"
+msgid "Untitled Shortcut"
+msgstr ""
+
+#: includes/ui-js-config.php:206 classes/class-fl-builder.php:1157
+msgid "Contact Support"
+msgstr ""
+
+#: classes/class-fl-builder.php:1149
+msgid "View Knowledge Base"
+msgstr ""
+
+#: classes/class-fl-builder.php:1141
+msgid "Take A Tour"
+msgstr ""
+
+#: classes/class-fl-builder.php:1111
+msgid "Customize Theme"
+msgstr ""
+
+#: classes/class-fl-builder.php:1088
+msgctxt "label for the WordPress Dashboard link"
+msgid "Dashboard"
+msgstr ""
+
+#: classes/class-fl-builder.php:1059
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: classes/class-fl-builder.php:1052 classes/class-fl-builder.php:1122
+msgid "Help"
+msgstr ""
+
+#: classes/class-fl-builder.php:1045 classes/class-fl-builder.php:1068
+msgid "WordPress Admin"
+msgstr ""
+
+#: classes/class-fl-builder.php:1038
+msgid "Change UI Brightness"
+msgstr ""
+
+#: includes/global-settings.php:4 includes/ui-js-config.php:111
+#: classes/class-fl-builder.php:1027
+msgid "Global Settings"
+msgstr ""
+
+#: classes/class-fl-builder.php:1020
+msgid "Layout CSS & Javascript"
+msgstr ""
+
+#: classes/class-fl-builder.php:1002
+msgid "Preview Layout"
+msgstr ""
+
+#: classes/class-fl-builder.php:996
+msgid "Duplicate Layout"
+msgstr ""
+
+#: classes/class-fl-builder.php:961
+msgid "Unnamed Menu"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:79
+msgid "Rebuilt the theme cache"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:76
+msgid "Cleared the page builder cache"
+msgstr ""
+
+#. translators: %s: current blog name
+#: classes/class-fl-builder-wpcli-command.php:70
+msgctxt "current blog name"
+msgid "Rebuilt the theme cache for blog %s"
+msgstr ""
+
+#. translators: %s: current blog name
+#: classes/class-fl-builder-wpcli-command.php:66
+msgctxt "current blog name"
+msgid "Cleared the page builder cache for blog %s"
+msgstr ""
+
+#: classes/class-fl-builder-wpcli-command.php:41
+msgid "--all switch used but bb-theme is not active. If using multisite bb-theme must be active on the root site."
+msgstr ""
+
+#: classes/class-fl-builder-wp-blocks.php:94
+msgid "Switching to the native WordPress editor will disable your Beaver Builder layout until it is enabled again. Any edits made in the WordPress editor will not be converted to your Page Builded layout. Do you want to continue?"
+msgstr ""
+
+#. translators: %s: post type name
+#: classes/class-fl-builder-wp-blocks.php:93
+msgctxt "%s post type name."
+msgid "View %s"
+msgstr ""
+
+#. translators: %s: branded builder name
+#: classes/class-fl-builder-wp-blocks.php:90
+msgctxt "%s branded builder name."
+msgid "Launch %s"
+msgstr ""
+
+#: classes/class-fl-builder-wp-blocks.php:88
+msgid "Use Standard Editor"
+msgstr ""
+
+#. translators: %s: branded builder name
+#: classes/class-fl-builder-wp-blocks.php:87
+msgctxt "%s branded builder name."
+msgid "%s lets you drag and drop your layout on the frontend."
+msgstr ""
+
+#. translators: %s: post type name
+#: classes/class-fl-builder-wp-blocks.php:85
+msgctxt "%s branded builder name."
+msgid "Convert to %s"
+msgstr ""
+
+#. translators: 1: branded builder name: 2: post type name
+#: classes/class-fl-builder-wp-blocks.php:83
+msgctxt "%1$s branded builder name. %2$s post type name."
+msgid "%1$s is currently active for this %2$s."
+msgstr ""
+
+#: classes/class-fl-builder-user-access.php:291
+msgid "The selected roles will have unrestricted access to all editing features within the builder."
+msgstr ""
+
+#: classes/class-fl-builder-user-access.php:290
+msgid "Unrestricted Editing"
+msgstr ""
+
+#: classes/class-fl-builder-user-access.php:283
+msgid "The selected roles will have access to the builder for editing posts, pages, and CPTs."
+msgstr ""
+
+#: classes/class-fl-builder-user-access.php:282
+msgid "Builder Access"
+msgstr ""
+
+#: classes/class-fl-builder-user-access.php:281
+#: classes/class-fl-builder-user-access.php:289
+msgid "Frontend"
+msgstr ""
+
+#: classes/class-fl-builder-user-access.php:49
+msgid "Misc"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:231
+msgid "We will never collect any private data such as IP, email addresses or usernames."
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:229
+msgid "What kind of info will we collect?"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:220
+msgid "UI theme, pinned settings etc."
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:219
+msgid "Builder Settings"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:216
+msgid "Which modules are used and how many times."
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:215
+msgid "Modules Used"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:211
+msgid "Plugins Count"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:207
+msgid "Locale"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:203
+msgid "WP Multisite"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:199
+msgid "WP Version"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:195
+msgid "PHP Version"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:191
+msgid "Server Type"
+msgstr ""
+
+#. translators: %s: branded builder name
+#: classes/class-fl-builder-usage.php:103
+msgid "Would you like to help us improve %s by sending anonymous usage data?"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:97
+msgid "No, Thank You"
+msgstr ""
+
+#: classes/class-fl-builder-usage.php:96
+msgid "Sure, I'll help"
+msgstr ""
+
+#: includes/global-settings.php:114
+#: classes/class-fl-builder-ui-content-panel.php:139
+msgid "Columns"
+msgstr ""
+
+#: includes/ui-js-templates.php:338
+#: classes/class-fl-builder-ui-content-panel.php:86
+msgid "Standard Modules"
+msgstr ""
+
+#: classes/class-fl-builder-timezones.php:120
+#: classes/class-fl-builder-timezones.php:125
+msgid "UTC"
+msgstr ""
+
+#: classes/class-fl-builder-timezones.php:75
+msgid "Select a city"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-sendy.php:202
+msgid "There was an error subscribing to Sendy. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:185
+msgid "There was an error subscribing to Sendy. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:137
+msgid "The ID of the list you would like users to subscribe to. The ID of a list can be found under \"View all lists\" in the section named ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:136
+msgid "List ID"
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:115
+msgid "The URL where your Sendy application is installed (e.g. http://mywebsite.com/sendy)."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-sendy.php:94
+msgid "Error: Could not connect to Sendy. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:74
+msgid "Error: You must provide a list ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:66
+msgid "Error: You must provide your Sendy installation URL."
+msgstr ""
+
+#. translators: %s: error code
+#: classes/class-fl-builder-service-ontraport.php:252
+msgid "There was an error subscribing to Ontraport. Code: %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-ontraport.php:225
+msgid "There was an error subscribing to Ontraport. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-ontraport.php:196
+msgctxt "An email campaign from your Ontraport account."
+msgid "Campaign"
+msgstr ""
+
+#: classes/class-fl-builder-service-ontraport.php:124
+msgid "Your API key can be found in your Ontraport account."
+msgstr ""
+
+#: classes/class-fl-builder-service-ontraport.php:113
+msgid "Your APP ID can be found in your Ontraport account."
+msgstr ""
+
+#: classes/class-fl-builder-service-ontraport.php:112
+msgid "APP ID"
+msgstr ""
+
+#. translators: %s: error code
+#: classes/class-fl-builder-service-ontraport.php:90
+msgid "Error: Please check your API token. Code: %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-ontraport.php:68
+msgid "Error: You must provide an APP ID."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mautic.php:281
+msgid "There was an error subscribing to Mautic. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:248
+msgid "There was an error subscribing to Mautic. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:188
+msgid "Error: Please check your API credentials."
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:153
+msgid "Password associated with the username. Make this a Long passPhrase."
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:152
+msgid "Mautic Password"
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:142
+msgid "Username from your Mautic application. Make sure it has `Full system access`. Best practice would be to set up a new user for each external site."
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:141
+msgid "Mautic Username"
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:130
+msgid ""
+"API should be enabled in your Mautic application.\n"
+"\t\t\t\t\tGo to Mautic Configuration / API Settings and set `API enabled` to `Yes`, set `Enable HTTP basic auth` to `Yes` . Save changes."
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:129
+msgid "The URL where your Mautic application is installed (e.g. http://mautic.mywebsite.com)."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:114
+#: classes/class-fl-builder-service-mautic.php:128
+msgid "Installation URL"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mautic.php:108
+msgid "Error: Could not connect to Mautic. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:81
+msgid "Error: You must provide your Mautic app user password."
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:77
+msgid "Error: You must provide your Mautic app username."
+msgstr ""
+
+#: classes/class-fl-builder-service-mautic.php:73
+msgid "Error: You must provide your Mautic installation URL."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailrelay.php:236
+msgid "There was an error subscribing to Mailrelay. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-mailrelay.php:223
+msgid "There was an error subscribing to Mailrelay. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-mailrelay.php:195
+msgctxt "A list of subscribers group from a Mailrelay account."
+msgid "Group"
+msgstr ""
+
+#: classes/class-fl-builder-service-mailrelay.php:128
+msgid "Your API key can be found in your Mailrelay account under Menu > Settings > API access."
+msgstr ""
+
+#: classes/class-fl-builder-service-mailrelay.php:117
+msgid "The host you chose when you signed up for your account. Check your welcome email if you forgot it. Please enter it without the initial http:// (e.g. demo.ip-zone.com)."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailrelay.php:96
+msgid "Error: Could not connect to Mailrelay. %s"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailpoet.php:195
+msgid "There was an error subscribing to MailPoet. %s"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailerlite.php:240
+msgid "There was an error subscribing to MailerLite. Code: %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-mailerlite.php:201
+msgid "There was an error subscribing to MailerLite. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-mailerlite.php:173
+msgctxt "An email list from a third party provider."
+msgid "Group"
+msgstr ""
+
+#: classes/class-fl-builder-service-mailerlite.php:109
+msgid "Found in your MailerLite account under Integrations > Developer API."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailerlite.php:88
+msgid "Error: Could not connect to MailerLite. %s"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-icontact-pro.php:313
+msgid "There was an error subscribing to iContact Pro. %s"
+msgstr ""
+
+#. translators: 1: api link
+#: classes/class-fl-builder-service-icontact-pro.php:177
+msgid "Your Company and Profile ID can also be found in the <a%1$s>iContact Pro API settings</a> under Account Information."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:175
+msgid "Your iContact Pro Profile ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:174
+msgid "Profile ID"
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:164
+msgid "Your iContact Pro Company ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:163
+msgid "Company ID"
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:151
+msgid "Your iContact Pro app password."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:140
+msgid "Your iContact Pro app ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:129
+msgid "Your iContact Pro username."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-icontact-pro.php:108
+#: classes/class-fl-builder-service-icontact-pro.php:217
+msgid "Error: Could not connect to iContact Pro. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:85
+msgid "Error: You must provide a profile ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:83
+msgid "Error: You must provide a company ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:81
+msgid "Error: You must provide an app password."
+msgstr ""
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:207
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:231
+msgid "There was an error subscribing to GoDaddy Email Marketing. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:179
+msgctxt "A signup form from your GoDaddy Email Marketing account."
+msgid "Form"
+msgstr ""
+
+#. translators: 1: Godaddy account page: 2: Godaddy signup page
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:114
+msgid "<a%1$s>Sign in</a> to get your username and API key. <a%2$s>Signup</a> if you don't have a GoDaddy Email Marketing account."
+msgstr ""
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:112
+msgid "Your API key from your GoDaddy Email Marketing account."
+msgstr ""
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:101
+msgid "The username associated with your GoDaddy Email Marketing account."
+msgstr ""
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:100
+msgid "API Username"
+msgstr ""
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:75
+msgid "Unable to connect to GoDaddy Email Marketing. Please check your credentials."
+msgstr ""
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:67
+msgid "Error: You must provide an API username."
+msgstr ""
+
+#: classes/class-fl-builder-service-getresponse.php:172
+msgid "This should match the cycle day settings for the selected list's Autoresponder."
+msgstr ""
+
+#: classes/class-fl-builder-service-getresponse.php:171
+msgctxt "Day of autoresponder cycle."
+msgid "Cycle Day"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-enormail.php:220
+msgid "There was an error subscribing to Enormail. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-enormail.php:196
+msgid "There was an error subscribing to Enormail. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:126
+#: classes/class-fl-builder-service-enormail.php:104
+msgid "Found in your Sendy application under Settings."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-enormail.php:81
+msgid "Error: Could not connect to Enormail. %s"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-drip.php:295
+msgid "There was an error subscribing to Drip. %s"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-drip.php:262
+msgid "There was an error searching contact from Drip. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:243
+msgid "There was an error subscribing to Drip. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:215
+msgid "For multiple tags, separate with comma."
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:214
+msgctxt "A tag to add to contacts in Drip when they subscribe."
+msgid "Tags"
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:189
+msgctxt "An email campaign from your GetDrip account."
+msgid "Campaign"
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:130
+msgid "Your Account ID can be found in your Drip account under Settings > Site Setup."
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:129
+msgid "Account ID"
+msgstr ""
+
+#. translators: %s: api url
+#: classes/class-fl-builder-service-drip.php:119
+msgid "Your API Token can be found in your Drip account under Settings > My User Settings. Or, you can click this <a%s>direct link</a>."
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:117
+msgid "API Token"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-drip.php:95
+msgid "Error: Please check your API token. %s"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-drip.php:88
+msgid "Error: Please check your Account ID. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:67
+msgid "Error: You must provide an Account ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-drip.php:65
+#: classes/class-fl-builder-service-mailerlite.php:74
+msgid "Error: You must provide an API token."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-convertkit.php:207
+msgid "There was an error subscribing to ConvertKit. Error: %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-convertkit.php:189
+msgid "There was an error subscribing to ConvertKit. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-convertkit.php:97
+msgid "Your API key can be found in your ConvertKit account under Account > Account Settings > API Key."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-campayn.php:284
+msgid "There was an error subscribing to Campayn. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-campayn.php:236
+msgid "There was an error subscribing to Campayn. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-campayn.php:207
+msgctxt "An email list from third party provider."
+msgid "List"
+msgstr ""
+
+#: classes/class-fl-builder-service-campayn.php:133
+msgid "The host you chose when you signed up for your account. Check your welcome email if you forgot it. Please enter it without the initial http:// (for example: demo.campayn.com)."
+msgstr ""
+
+#: classes/class-fl-builder-service-campayn.php:132
+#: classes/class-fl-builder-service-mailrelay.php:116
+msgid "Host"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-campayn.php:112
+msgid "Error: Could not connect to Campayn. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-campayn.php:98
+#: classes/class-fl-builder-service-mailrelay.php:77
+msgid "Error: You must provide a Host."
+msgstr ""
+
+#: classes/class-fl-builder-service-aweber.php:210
+#: classes/class-fl-builder-service-activecampaign.php:279
+msgid "A comma separated list of tags."
+msgstr ""
+
+#: classes/class-fl-builder-service-aweber.php:209
+#: classes/class-fl-builder-service-activecampaign.php:278
+msgctxt "A comma separated list of tags."
+msgid "Tags"
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:252
+msgctxt "An email list from ActiveCampaign."
+msgid "List"
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:217
+msgctxt "Select a form a ActiveCampaign."
+msgid "Form"
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:184
+msgid "Form"
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:183
+msgid "List"
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:180
+msgctxt "Select the list type."
+msgid "Type"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-campayn.php:175
+#: classes/class-fl-builder-service-mailrelay.php:162
+#: classes/class-fl-builder-service-convertkit.php:76
+msgid "Error: Please check your API key. %s"
+msgstr ""
+
+#: classes/class-fl-builder-revisions.php:102
+#: classes/class-fl-builder-revisions.php:108
+msgid "Revisions"
+msgstr ""
+
+#: classes/class-fl-builder-privacy.php:90
+msgid "<p>In terms of GDPR, Beaver Builder products do not collect any personal information from your users. However some modules such as videos and maps might need you to update your privacy policy accordingly.</p>"
+msgstr ""
+
+#: classes/class-fl-builder-privacy.php:22
+msgid "Beaver Builder Plugin"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:6310
+msgid "Beaver Builder"
+msgstr ""
+
+#: includes/ui-js-config.php:237 classes/class-fl-builder-model.php:6073
+msgid "Landing Pages"
+msgstr ""
+
+#: includes/ui-js-config.php:209 classes/class-fl-builder-model.php:4793
+#: classes/class-fl-builder-model.php:4834
+#: classes/class-fl-builder-model.php:4904
+#: classes/class-fl-builder-model.php:6116
+msgid "Uncategorized"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:2976
+#: classes/class-fl-builder-model.php:2992
+msgid "Other"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:2974
+msgid "Posts"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:2973
+msgid "Info"
+msgstr ""
+
+#: modules/sidebar/sidebar.php:15 classes/class-fl-builder-model.php:2972
+msgid "Layout"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:2971
+msgid "Actions"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:2970
+msgid "Media"
+msgstr ""
+
+#: modules/photo/photo.php:26 modules/video/video.php:20
+#: modules/rich-text/rich-text.php:15 modules/audio/audio.php:20
+#: modules/html/html.php:15 classes/class-fl-builder-module.php:364
+#: classes/class-fl-builder-model.php:2969
+msgid "Basic"
+msgstr ""
+
+#. translators: %s: module alias key
+#: classes/class-fl-builder-model.php:2792
+msgctxt "%s stands for the module alias key"
+msgid "The module alias %s already exists! Please namespace your module aliases to ensure compatibility with Beaver Builder."
+msgstr ""
+
+#. translators: %s: plugins page link
+#: classes/class-fl-builder-loader.php:170
+msgid "You currently have two versions of Beaver Builder active on this site. Please <a href=\"%s\">deactivate one</a> before continuing."
+msgstr ""
+
+#: classes/class-fl-builder-loader.php:156
+msgid "Beaver Builder may not be functioning correctly as it does not have permission to write files to the WordPress uploads directory on your server. Please update the WordPress uploads directory permissions before continuing or contact your host for assistance."
+msgstr ""
+
+#: classes/class-fl-builder-importer.php:119
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: classes/class-fl-builder-import.php:44
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:166
+#: classes/class-fl-builder-fonts.php:167
+msgid "Ultra-Bold Italic"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:165
+msgid "Ultra-Bold"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:163
+#: classes/class-fl-builder-fonts.php:164
+msgid "Extra-Bold Italic"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:162
+msgid "Extra-Bold"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:160
+#: classes/class-fl-builder-fonts.php:161
+msgid "Bold Italic"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:159
+msgid "Bold"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:157
+#: classes/class-fl-builder-fonts.php:158
+msgid "Semi-Bold Italic"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:156
+msgid "Semi-Bold"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:154
+#: classes/class-fl-builder-fonts.php:155
+msgid "Medium Italic"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:151
+#: classes/class-fl-builder-fonts.php:152
+msgid "Normal Italic"
+msgstr ""
+
+#: includes/ui-field-typography.php:155 includes/ui-field-typography.php:168
+#: classes/class-fl-builder-fonts.php:150
+msgid "Normal"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:148
+#: classes/class-fl-builder-fonts.php:149
+msgid "Light Italic"
+msgstr ""
+
+#: modules/audio/audio.php:149 classes/class-fl-builder-fonts.php:147
+msgid "Light"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:145
+#: classes/class-fl-builder-fonts.php:146
+msgid "Extra-Light Italic"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:144
+msgid "Extra-Light"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:142
+#: classes/class-fl-builder-fonts.php:143
+msgid "Thin Italic"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:141
+msgid "Thin"
+msgstr ""
+
+#: includes/ui-field-typography.php:156 classes/class-fl-builder-fonts.php:140
+msgid "Italic"
+msgstr ""
+
+#: classes/class-fl-builder-fonts.php:139
+msgid "Regular"
+msgstr ""
+
+#: classes/class-fl-builder-admin.php:242
+msgctxt "Plugin action link label."
+msgid "Change Log"
+msgstr ""
+
+#. translators: %s: link to welcome page
+#: classes/class-fl-builder-admin.php:190
+msgid "Page Builder activated! <a%s>Click here</a> to get started."
+msgstr ""
+
+#. translators: %s: folder path
+#: classes/class-fl-builder-admin.php:128
+msgid "Install Error! We detected that Beaver Builder appears to be installed in a folder called <kbd>%s</kbd>.<br />For automatic updates to work the plugin must be installed in the folder <kbd>bb-plugin</kbd>."
+msgstr ""
+
+#. translators: 1: stars link: 2: link to wporg page
+#: classes/class-fl-builder-admin-settings.php:753
+msgid "Add your %1$s on %2$s to spread the love."
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:570
+msgid "Error! When downloading from Icomoon, be sure to click the Download Font button and not Generate SVG."
+msgstr ""
+
+#. translators: %s: unzip error message
+#: classes/class-fl-builder-admin-settings.php:513
+msgid "Unzip Error: %s"
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:410
+msgid "Error! You must have at least one module enabled."
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:215
+msgid "User Access"
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:190
+msgid "Welcome"
+msgstr ""
+
+#. Author of the plugin
+msgid "The Beaver Builder Team"
+msgstr ""
+
+#. Description of the plugin
+msgid "A drag and drop frontend WordPress page builder plugin that works with almost any theme!"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Beaver Builder Plugin (Lite Version)"
+msgstr ""
+
+#: modules/widget/widget.php:14
+msgid "Display a WordPress widget."
+msgstr ""
+
+#: modules/widget/widget.php:13 modules/widget/includes/settings-general.php:38
+#: includes/ui-js-config.php:233
+msgid "Widget"
+msgstr ""
+
+#. translators: %s: widget slug
+#: modules/widget/includes/settings-general.php:44
+#: modules/widget/includes/frontend.php:49
+msgctxt "%s stands for widget slug."
+msgid "%s no longer exists."
+msgstr ""
+
+#: modules/video/video.php:193 modules/audio/audio.php:130
+msgid "Loop"
+msgstr ""
+
+#: modules/video/video.php:181 modules/audio/audio.php:118
+msgid "Auto Play"
+msgstr ""
+
+#: modules/video/video.php:177
+msgctxt "Video preview/fallback image."
+msgid "Poster"
+msgstr ""
+
+#: modules/video/video.php:148
+msgid "Embed"
+msgstr ""
+
+#: modules/video/video.php:144
+msgid "Video Type"
+msgstr ""
+
+#: modules/video/video.php:19
+msgid "Render a WordPress or embedable video."
+msgstr ""
+
+#: modules/sidebar/sidebar.php:14
+msgid "Display a WordPress sidebar that has been registered by the current theme."
+msgstr ""
+
+#: modules/sidebar/includes/settings-general.php:5
+#: modules/sidebar/sidebar.php:13
+msgid "Sidebar"
+msgstr ""
+
+#: modules/rich-text/rich-text.php:14
+msgid "A WYSIWYG text editor."
+msgstr ""
+
+#: includes/ui-field-link.php:15
+msgid "New Window"
+msgstr ""
+
+#: modules/photo/photo.php:568
+msgid "Link URL"
+msgstr ""
+
+#: modules/photo/photo.php:561
+msgid "Link type applies to how the image should be linked on click. You can choose a specific URL, the individual photo or a separate page with the photo."
+msgstr ""
+
+#: modules/photo/photo.php:550
+msgid "Photo File"
+msgstr ""
+
+#: modules/photo/photo.php:549
+msgid "Lightbox"
+msgstr ""
+
+#: modules/photo/photo.php:547
+msgctxt "Link type."
+msgid "None"
+msgstr ""
+
+#: modules/photo/photo.php:545
+msgid "Link Type"
+msgstr ""
+
+#: modules/photo/photo.php:514
+msgid "Below Photo"
+msgstr ""
+
+#: modules/photo/photo.php:513
+msgid "On Hover"
+msgstr ""
+
+#: modules/photo/photo.php:512 includes/row-settings.php:707
+#: includes/module-settings.php:64 includes/column-settings.php:430
+msgid "Never"
+msgstr ""
+
+#: modules/photo/photo.php:509
+msgid "Show Caption"
+msgstr ""
+
+#: modules/photo/photo.php:505 modules/photo/photo.php:533
+msgid "Caption"
+msgstr ""
+
+#: modules/photo/photo.php:596 classes/class-fl-builder-art.php:75
+msgid "Circle"
+msgstr ""
+
+#: modules/photo/photo.php:595
+msgid "Square"
+msgstr ""
+
+#: modules/photo/photo.php:594
+msgid "Portrait"
+msgstr ""
+
+#: modules/photo/photo.php:593
+msgid "Panorama"
+msgstr ""
+
+#: modules/photo/photo.php:592
+msgid "Landscape"
+msgstr ""
+
+#: modules/photo/photo.php:588
+msgid "Crop"
+msgstr ""
+
+#: modules/photo/photo.php:497
+msgid "http://www.example.com/my-photo.jpg"
+msgstr "http://www.example.com/my-photo.jpg"
+
+#: modules/photo/photo.php:496
+msgid "Photo URL"
+msgstr ""
+
+#: modules/photo/photo.php:471 modules/photo/photo.php:548
+msgid "URL"
+msgstr "यु आर ल"
+
+#: modules/photo/photo.php:467
+msgid "Photo Source"
+msgstr ""
+
+#: modules/photo/photo.php:25
+msgid "Upload a photo or display one from the media library."
+msgstr ""
+
+#: modules/html/html.php:14
+msgid "Display raw HTML code."
+msgstr ""
+
+#: modules/html/html.php:13
+msgid "HTML"
+msgstr ""
+
+#: includes/updater/includes/form.php:47
+msgid "Enter your <a%s>license key</a> to enable remote updates and support."
+msgstr ""
+
+#: includes/updater/includes/form.php:32
+msgid "Not Active!"
+msgstr ""
+
+#: includes/updater/includes/form.php:36
+msgid "Active!"
+msgstr ""
+
+#: includes/updater/includes/form.php:29
+msgid "Updates &amp; Support Subscription"
+msgstr ""
+
+#: includes/updater/includes/form.php:10
+msgid "UPDATES UNAVAILABLE! Please subscribe or enter your license key below to enable automatic updates."
+msgstr ""
+
+#: includes/updater/includes/form.php:15
+#: includes/updater/classes/class-fl-updater.php:382
+msgid "Subscribe Now"
+msgstr ""
+
+#: includes/updater/classes/class-fl-updater.php:373
+msgid "Please subscribe to enable automatic updates for this plugin."
+msgstr ""
+
+#: includes/updater/classes/class-fl-updater.php:388
+msgid "<strong>UPDATE UNAVAILABLE!</strong>"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3629
+msgid "Left & Right Sidebar"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3624
+msgid "Right Sidebar"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3619
+msgid "Left Sidebar"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3614
+msgid "6 Columns"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3609
+msgid "5 Columns"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3604
+msgid "4 Columns"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3599
+msgid "3 Columns"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3594
+msgid "2 Columns"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:3589
+msgid "1 Column"
+msgstr ""
+
+#: classes/class-fl-builder.php:1379
+msgid "Buy Now"
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:225
+#: classes/class-fl-builder.php:969
+msgid "Tools"
+msgstr ""
+
+#: includes/ui-js-config.php:160
+msgid "Save"
+msgstr ""
+
+#: includes/ui-service-settings.php:36
+msgid "Service"
+msgstr ""
+
+#: includes/row-settings.php:773
+msgid "A class that will be applied to this row's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. Separate multiple classes with spaces."
+msgstr ""
+
+#: includes/row-settings.php:765
+msgid "A unique ID that will be applied to this row's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. No spaces."
+msgstr ""
+
+#: includes/row-settings.php:519
+msgid "Slow"
+msgstr "हळू"
+
+#: includes/row-settings.php:518
+msgctxt "Speed."
+msgid "Medium"
+msgstr ""
+
+#: includes/row-settings.php:517
+msgid "Fast"
+msgstr ""
+
+#: includes/row-settings.php:501
+msgid "Background Parallax"
+msgstr ""
+
+#: includes/row-settings.php:488
+msgid "Randomize Photos"
+msgstr ""
+
+#: includes/row-settings.php:478
+msgid "Transition Speed"
+msgstr ""
+
+#: includes/row-settings.php:470
+msgid "Boxes Grow"
+msgstr ""
+
+#: includes/row-settings.php:469
+msgid "Random Boxes"
+msgstr ""
+
+#: includes/row-settings.php:468
+msgid "Boxes"
+msgstr ""
+
+#: includes/row-settings.php:467
+msgid "Random Bars"
+msgstr ""
+
+#: includes/row-settings.php:466
+msgid "Bars"
+msgstr ""
+
+#: includes/row-settings.php:465
+msgid "Blinds"
+msgstr ""
+
+#: includes/row-settings.php:464
+msgid "Slide Vertical"
+msgstr ""
+
+#: includes/row-settings.php:463
+msgid "Slide Horizontal"
+msgstr ""
+
+#: includes/row-settings.php:462
+msgid "Ken Burns"
+msgstr ""
+
+#: includes/row-settings.php:461
+msgid "Fade"
+msgstr ""
+
+#: includes/row-settings.php:460
+msgctxt "Slideshow transition type."
+msgid "None"
+msgstr ""
+
+#: includes/row-settings.php:457
+msgid "Transition"
+msgstr ""
+
+#: includes/row-settings.php:447 includes/row-settings.php:514
+msgid "Speed"
+msgstr ""
+
+#: includes/row-settings.php:439
+msgid "Feed URL"
+msgstr ""
+
+#: includes/row-settings.php:431
+msgid "Photos"
+msgstr ""
+
+#: includes/row-settings.php:416
+msgid "Pull images from the WordPress media library or a gallery on your SmugMug site by inserting the RSS feed URL from SmugMug. The RSS feed URL can be accessed by using the get a link function in your SmugMug gallery."
+msgstr ""
+
+#: modules/photo/photo.php:470 modules/video/video.php:147
+#: modules/audio/audio.php:83 includes/row-settings.php:317
+#: includes/row-settings.php:413
+msgid "Media Library"
+msgstr ""
+
+#: includes/row-settings.php:314 includes/row-settings.php:410
+#: includes/ui-loop-settings.php:35
+msgid "Source"
+msgstr ""
+
+#: includes/row-settings.php:406
+msgid "Background Slideshow"
+msgstr ""
+
+#: includes/row-settings.php:397
+msgid "A photo that will be displayed if the video fails to load."
+msgstr ""
+
+#: includes/row-settings.php:396
+msgid "Fallback Photo"
+msgstr ""
+
+#: modules/video/video.php:18
+msgid "Video"
+msgstr ""
+
+#: includes/row-settings.php:310
+msgid "Background Video"
+msgstr ""
+
+#: includes/row-settings.php:189
+msgctxt "Background type."
+msgid "Parallax"
+msgstr ""
+
+#: includes/row-settings.php:185
+msgctxt "Background type."
+msgid "Slideshow"
+msgstr ""
+
+#: includes/row-settings.php:183
+msgctxt "Background type."
+msgid "Video"
+msgstr ""
+
+#: includes/row-settings.php:132
+msgid "Text Color"
+msgstr ""
+
+#: includes/row-settings.php:127
+msgid "Colors"
+msgstr ""
+
+#: includes/row-settings.php:41
+msgid "Full width content spans the width of the page from edge to edge. Fixed content is no wider than the Row Max Width set in the Global Settings."
+msgstr ""
+
+#: includes/row-settings.php:35
+msgid "Content Width"
+msgstr ""
+
+#: includes/row-settings.php:28
+msgid "Full width rows span the width of the page from edge to edge. Fixed rows are no wider than the Row Max Width set in the Global Settings."
+msgstr ""
+
+#: modules/photo/photo.php:601 includes/row-settings.php:17
+#: includes/ui-field-border.php:134 includes/column-settings.php:14
+#: classes/class-fl-builder-art.php:429
+msgid "Width"
+msgstr "रुंदी"
+
+#: includes/module-settings.php:130
+msgid "A class that will be applied to this module's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. Separate multiple classes with spaces."
+msgstr ""
+
+#: includes/row-settings.php:772 includes/module-settings.php:129
+msgid "Class"
+msgstr ""
+
+#: includes/module-settings.php:122
+msgid "A unique ID that will be applied to this module's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. No spaces."
+msgstr ""
+
+#: includes/row-settings.php:450 includes/row-settings.php:481
+msgctxt "Value unit for form field of time in seconds. Such as: \"5 seconds\""
+msgid "seconds"
+msgstr ""
+
+#: includes/ui-field-animation.php:132
+msgid "Delay"
+msgstr ""
+
+#: includes/ui-field-animation.php:32
+msgctxt "Animation style."
+msgid "Slide Down"
+msgstr ""
+
+#: includes/ui-field-animation.php:31
+msgctxt "Animation style."
+msgid "Slide Up"
+msgstr ""
+
+#: includes/ui-field-animation.php:30
+msgctxt "Animation style."
+msgid "Slide Right"
+msgstr ""
+
+#: includes/ui-field-animation.php:29
+msgctxt "Animation style."
+msgid "Slide Left"
+msgstr ""
+
+#: includes/ui-field-animation.php:19
+msgctxt "Animation style."
+msgid "Fade In"
+msgstr ""
+
+#: includes/ui-field-animation.php:15
+msgctxt "Animation style."
+msgid "None"
+msgstr ""
+
+#: includes/row-settings.php:730 includes/row-settings.php:734
+#: includes/module-settings.php:87 includes/module-settings.php:91
+#: includes/column-settings.php:453 includes/column-settings.php:457
+msgid "Animation"
+msgstr ""
+
+#: includes/ui-loop-settings.php:176
+msgid "Authors"
+msgstr ""
+
+#: includes/ui-loop-settings.php:133
+msgid "Filter"
+msgstr ""
+
+#: includes/ui-loop-settings.php:114
+msgid "Skip this many posts that match the specified criteria."
+msgstr ""
+
+#: includes/ui-loop-settings.php:111
+msgctxt "How many posts to skip."
+msgid "Offset"
+msgstr ""
+
+#: includes/ui-loop-settings.php:71
+msgid "Ascending"
+msgstr ""
+
+#: includes/ui-loop-settings.php:70
+msgid "Descending"
+msgstr ""
+
+#: includes/ui-loop-settings.php:68
+msgid "Order"
+msgstr ""
+
+#: includes/ui-loop-settings.php:88
+msgid "Random"
+msgstr ""
+
+#: includes/ui-loop-settings.php:85
+msgid "Menu Order"
+msgstr ""
+
+#: includes/ui-loop-settings.php:81
+msgid "Comment Count"
+msgstr ""
+
+#: includes/ui-loop-settings.php:80
+msgid "Author"
+msgstr "लेखक"
+
+#: includes/ui-loop-settings.php:89
+msgid "Title"
+msgstr ""
+
+#: includes/ui-loop-settings.php:83
+msgid "Date Last Modified"
+msgstr ""
+
+#: includes/ui-loop-settings.php:82
+msgid "Date"
+msgstr ""
+
+#: includes/ui-loop-settings.php:78
+msgid "Order By"
+msgstr ""
+
+#: includes/ui-loop-settings.php:62
+msgid "Post Type"
+msgstr ""
+
+#: includes/ui-js-templates.php:291 includes/ui-js-config.php:210
+msgid "Yes Please!"
+msgstr ""
+
+#: includes/ui-js-templates.php:289 includes/ui-js-config.php:208
+msgid "Welcome! It looks like this might be your first time using the builder. Would you like to take a tour?"
+msgstr ""
+
+#: includes/ui-js-config.php:207
+msgid "Watch the Video"
+msgstr ""
+
+#: includes/ui-js-config.php:203
+msgid "View the Knowledge Base"
+msgstr ""
+
+#: includes/ui-js-config.php:202
+msgid "The settings you are currently editing will not be saved if you navigate away from this page."
+msgstr ""
+
+#: includes/ui-js-config.php:201
+msgid "Now that you know the basics, you're ready to start building! If at any time you need help, click the help icon in the upper right corner to access the help menu. Happy building!"
+msgstr ""
+
+#: includes/ui-js-config.php:200
+msgid "Let's Get Building!"
+msgstr ""
+
+#: includes/ui-js-config.php:199
+msgid "Once you're finished, click the Done button to publish your changes, save a draft or revert back to the last published state."
+msgstr ""
+
+#: includes/ui-js-config.php:198
+msgid "Publish Your Changes"
+msgstr ""
+
+#: includes/ui-js-config.php:196
+msgid "Helpful Tools"
+msgstr ""
+
+#: includes/ui-js-config.php:195
+msgid "Use the Templates button to pick a new template or append one to your layout. Appending will insert a new template at the end of your existing page content."
+msgstr ""
+
+#: includes/ui-js-config.php:194
+msgid "Change Templates"
+msgstr ""
+
+#: includes/ui-js-config.php:193
+msgid "Use the Add Content button to open the content panel and add new row layouts, modules or widgets."
+msgstr ""
+
+#: includes/ui-js-config.php:192
+msgid "Add More Content"
+msgstr ""
+
+#: includes/ui-js-config.php:191
+msgid "Use the action buttons to perform actions such as moving, editing, duplicating or deleting rows, columns and modules."
+msgstr ""
+
+#: includes/ui-js-config.php:190
+msgid "Move your mouse over rows, columns or modules to edit and interact with them."
+msgstr ""
+
+#: includes/ui-js-config.php:189
+msgid "Edit Content"
+msgstr ""
+
+#: includes/ui-js-config.php:188
+msgid "Add new content by dragging and dropping modules or widgets into your row layouts or to create a new row layout."
+msgstr ""
+
+#: includes/ui-js-config.php:187
+msgid "Add Content"
+msgstr ""
+
+#: includes/ui-js-config.php:186
+msgid "Add multi-column rows, adjust spacing, add backgrounds and more by dragging and dropping row layouts onto the page."
+msgstr ""
+
+#: includes/ui-js-config.php:185
+msgid "Add Rows"
+msgstr ""
+
+#: includes/ui-js-config.php:184
+msgid "Get started by choosing a layout template to customize, or build a page from scratch by selecting the blank layout template."
+msgstr ""
+
+#: includes/ui-js-config.php:183
+msgid "Choose a Template"
+msgstr ""
+
+#: includes/ui-js-config.php:182
+msgid "Get Started"
+msgstr ""
+
+#: includes/ui-js-config.php:181
+msgid "Next"
+msgstr ""
+
+#: includes/ui-js-config.php:180
+#: classes/class-fl-builder-ui-settings-forms.php:493
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/ui-js-config.php:179
+msgid "Template Saved!"
+msgstr ""
+
+#: includes/ui-js-config.php:178
+msgid "Replace Existing Layout"
+msgstr ""
+
+#: includes/ui-js-config.php:177
+msgid "Append New Layout"
+msgstr ""
+
+#: includes/ui-js-config.php:176
+msgid "Take a Tour"
+msgstr ""
+
+#: includes/ui-js-config.php:174
+msgid "Please select a list before saving."
+msgstr ""
+
+#: includes/ui-js-config.php:173
+msgid "Please connect an account before saving."
+msgstr ""
+
+#: includes/ui-js-config.php:172
+msgid "Please select an account before saving."
+msgstr ""
+
+#: includes/ui-js-config.php:168
+msgid "Select Photos"
+msgstr ""
+
+#: includes/ui-js-config.php:165 classes/class-fl-builder.php:988
+msgid "Save Template"
+msgstr ""
+
+#: includes/ui-js-config.php:159
+msgid "Save Core Template"
+msgstr ""
+
+#: includes/row-settings.php:6 includes/ui-js-templates.php:11
+#: includes/ui-js-config.php:157
+msgid "Row Settings"
+msgstr ""
+
+#: includes/ui-js-config.php:156 includes/ui-js-config.php:231
+msgid "Row"
+msgstr ""
+
+#: includes/ui-js-config.php:149
+msgid "Publish Changes"
+msgstr ""
+
+#: includes/ui-js-config.php:146
+msgid "Please Wait..."
+msgstr ""
+
+#: includes/ui-js-config.php:142
+msgid "Photos Selected"
+msgstr ""
+
+#: includes/ui-js-config.php:139
+msgid "Photo Selected"
+msgstr ""
+
+#: modules/photo/photo.php:551 includes/ui-js-config.php:138
+msgid "Photo Page"
+msgstr ""
+
+#: includes/ui-js-templates.php:261 includes/ui-js-templates.php:273
+#: includes/ui-js-config.php:137
+msgid "OK"
+msgstr ""
+
+#: includes/ui-js-templates.php:290
+msgid "No Thanks"
+msgstr ""
+
+#: includes/ui-js-config.php:134
+msgid "No results found."
+msgstr ""
+
+#: includes/ui-js-config.php:131
+msgid "New Row"
+msgstr ""
+
+#: includes/ui-js-config.php:130
+msgid "New Column"
+msgstr ""
+
+#: includes/ui-js-templates.php:9 includes/ui-js-templates.php:49
+#: includes/ui-js-templates.php:140 includes/ui-js-config.php:129
+msgid "Move"
+msgstr ""
+
+#: includes/ui-js-config.php:127 includes/ui-js-config.php:230
+msgid "Module"
+msgstr ""
+
+#: includes/ui-js-config.php:126
+#: classes/class-fl-builder-ui-settings-forms.php:494
+#: classes/class-fl-builder-fonts.php:153
+msgid "Medium"
+msgstr "मध्यम"
+
+#: includes/ui-js-config.php:125 classes/class-fl-builder.php:1097
+msgid "Manage Templates"
+msgstr ""
+
+#: includes/ui-js-config.php:124
+#: classes/class-fl-builder-ui-settings-forms.php:495
+msgid "Large"
+msgstr ""
+
+#: includes/ui-js-config.php:123
+msgid "Insert"
+msgstr ""
+
+#: includes/ui-js-config.php:122
+msgid "\"{message}\" on line {line} of {file}."
+msgstr ""
+
+#: includes/ui-js-templates.php:298
+msgid "Getting Started Video"
+msgstr ""
+
+#: includes/ui-js-config.php:120
+msgid "Get Help"
+msgstr ""
+
+#: includes/ui-field-photo-sizes.php:8 includes/ui-js-config.php:119
+#: classes/class-fl-builder-ui-settings-forms.php:496
+msgid "Full Size"
+msgstr ""
+
+#: includes/ui-js-config.php:117
+msgid "Beaver Builder caught the following JavaScript error. If Beaver Builder is not functioning as expected the cause is most likely this error. Please help us by disabling all plugins and testing Beaver Builder while reactivating each to determine if the issue is related to a third party plugin."
+msgstr ""
+
+#: includes/ui-js-config.php:113
+msgid "Drop a row layout or module to get started!"
+msgstr ""
+
+#: includes/ui-js-config.php:108
+msgctxt "Duplicate page/post action label."
+msgid "Duplicate Layout"
+msgstr ""
+
+#: includes/ui-bar.php:10
+msgid "Save Draft"
+msgstr ""
+
+#: includes/ui-js-templates.php:302 includes/ui-js-config.php:105
+#: classes/class-fl-builder.php:1383
+msgid "Done"
+msgstr ""
+
+#: includes/ui-js-config.php:104
+msgid "Do you really want to discard these changes? All of your changes that are not published will be lost."
+msgstr ""
+
+#: includes/ui-js-config.php:101
+msgid "Do you really want to delete this template?"
+msgstr ""
+
+#: includes/ui-js-config.php:98
+msgid "Do you really want to delete this item?"
+msgstr ""
+
+#: includes/ui-js-config.php:96
+msgid "Are you sure you want to remove this account? Other modules that are connected to it will be affected."
+msgstr ""
+
+#: includes/ui-js-config.php:95
+msgid "Remove Account"
+msgstr ""
+
+#: includes/ui-js-config.php:93
+msgid "Please select either a background layout or content layout before submitting."
+msgstr ""
+
+#: includes/ui-js-config.php:92
+msgid "Column"
+msgstr ""
+
+#: includes/ui-js-config.php:86
+msgid "Warning! Changing the template will replace your existing layout. Do you really want to do this?"
+msgstr ""
+
+#: includes/ui-js-config.php:85
+msgid "Change Template"
+msgstr ""
+
+#: includes/ui-js-config.php:72
+msgid "What would you like to do?"
+msgstr ""
+
+#: includes/icon-selector.php:5
+msgctxt "Select option for showing all icon libraries."
+msgid "All Libraries"
+msgstr ""
+
+#: includes/global-settings.php:220
+msgid "The browser width at which the layout will adjust for small devices such as phones."
+msgstr ""
+
+#: includes/global-settings.php:214
+msgid "Small Device Breakpoint"
+msgstr ""
+
+#: includes/global-settings.php:210
+msgid "The browser width at which the layout will adjust for medium devices such as tablets."
+msgstr ""
+
+#: includes/global-settings.php:204
+msgid "Medium Device Breakpoint"
+msgstr ""
+
+#: includes/global-settings.php:200
+msgid "When auto spacing is enabled, the builder will automatically adjust the margins and padding in your layout once the small device breakpoint is reached. Most users will want to leave this enabled."
+msgstr ""
+
+#: includes/global-settings.php:194
+msgctxt "General settings form field label. Intended meaning: \"Enable auto spacing for responsive layouts?\""
+msgid "Enable Auto Spacing"
+msgstr ""
+
+#: includes/global-settings.php:180
+msgctxt "General settings form field label. Intended meaning: \"Responsive layout enabled?\""
+msgid "Enabled"
+msgstr ""
+
+#: includes/global-settings.php:104
+msgid "Default Row Content Width"
+msgstr ""
+
+#: includes/row-settings.php:21 includes/row-settings.php:39
+#: includes/global-settings.php:94 includes/global-settings.php:108
+msgid "Full Width"
+msgstr ""
+
+#: includes/global-settings.php:90
+msgid "Default Row Width"
+msgstr ""
+
+#: includes/global-settings.php:81
+msgid "All rows will default to this width. You can override this and make a row full width in the settings for each row."
+msgstr ""
+
+#: includes/global-settings.php:76
+msgid "Max Width"
+msgstr ""
+
+#: includes/global-settings.php:37
+#: classes/class-fl-builder-ui-content-panel.php:43
+msgid "Rows"
+msgstr ""
+
+#: includes/global-settings.php:32
+msgid "Enter a CSS selector for the default page heading to hide it."
+msgstr ""
+
+#: includes/global-settings.php:30
+msgid "CSS Selector"
+msgstr ""
+
+#: includes/global-settings.php:26
+msgid "Choosing no will hide the default theme heading for the \"Page\" post type. You will also be required to enter some basic CSS for this to work if you choose no."
+msgstr ""
+
+#: modules/video/video.php:185 modules/video/video.php:197
+#: modules/video/video.php:234 modules/audio/audio.php:122
+#: modules/audio/audio.php:134 modules/audio/audio.php:159
+#: modules/audio/audio.php:173 modules/audio/audio.php:185
+#: modules/audio/audio.php:194 includes/row-settings.php:387
+#: includes/row-settings.php:492 includes/global-settings.php:19
+#: includes/global-settings.php:184 includes/global-settings.php:198
+#: includes/column-settings.php:54 includes/ui-loop-settings.php:123
+msgid "Yes"
+msgstr ""
+
+#: modules/video/video.php:184 modules/video/video.php:196
+#: modules/video/video.php:235 modules/audio/audio.php:121
+#: modules/audio/audio.php:133 modules/audio/audio.php:158
+#: modules/audio/audio.php:172 modules/audio/audio.php:184
+#: modules/audio/audio.php:193 includes/row-settings.php:386
+#: includes/row-settings.php:491 includes/global-settings.php:18
+#: includes/global-settings.php:183 includes/global-settings.php:197
+#: includes/column-settings.php:53 includes/ui-loop-settings.php:124
+msgid "No"
+msgstr "नाही"
+
+#: includes/global-settings.php:15
+msgctxt "General settings form field label. Intended meaning: \"Show page heading?\""
+msgid "Show"
+msgstr ""
+
+#: includes/global-settings.php:11
+msgid "Default Page Heading"
+msgstr ""
+
+#: modules/photo/photo.php:460 modules/sidebar/sidebar.php:28
+#: modules/video/video.php:137 modules/rich-text/rich-text.php:27
+#: modules/audio/audio.php:73 modules/widget/widget.php:80
+#: modules/html/html.php:27 includes/ui-field-border.php:115
+#: includes/global-settings.php:7 classes/class-fl-builder-model.php:6072
+msgid "General"
+msgstr ""
+
+#: includes/ui-field-video.php:37
+msgid "Replace Video"
+msgstr ""
+
+#: includes/ui-js-config.php:169 includes/ui-field-video.php:23
+msgid "Select Video"
+msgstr ""
+
+#: includes/ui-field-photo.php:77
+msgid "Edit"
+msgstr "संपादन"
+
+#: includes/ui-js-config.php:167 includes/ui-field-photo.php:60
+msgid "Select Photo"
+msgstr ""
+
+#: includes/ui-field-multiple-photos.php:30
+msgid "Add Photos"
+msgstr ""
+
+#: includes/ui-field-multiple-photos.php:29
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/ui-field-multiple-photos.php:28
+msgid "Create Gallery"
+msgstr ""
+
+#. translators: %d: number of selected (plural)
+#: includes/ui-js-config.php:144
+msgid "%d Photos Selected"
+msgstr ""
+
+#: includes/ui-js-templates.php:253 includes/ui-field-link.php:33
+#: includes/icon-selector.php:28 includes/ui-js-config.php:84
+#: includes/ui-bar.php:17 includes/ui-bar.php:31
+msgid "Cancel"
+msgstr ""
+
+#: includes/ui-field-suggest.php:10 includes/ui-field-link.php:32
+msgid "Start typing..."
+msgstr ""
+
+#: includes/ui-field-link.php:31
+msgid "Enter a post title to search."
+msgstr ""
+
+#: includes/ui-field-link.php:4
+msgid "Select"
+msgstr ""
+
+#: includes/ui-field-icon.php:26 includes/ui-js-templates.php:27
+#: includes/ui-js-templates.php:76 includes/ui-js-templates.php:172
+#: includes/ui-js-config.php:150 includes/ui-field-photo.php:79
+msgid "Remove"
+msgstr ""
+
+#: includes/ui-field-icon.php:24 includes/ui-field-photo.php:81
+msgid "Replace"
+msgstr "बदला"
+
+#: includes/ui-field-icon.php:21 includes/icon-selector.php:2
+msgid "Select Icon"
+msgstr ""
+
+#. translators: %s: form field label
+#: includes/ui-js-config.php:110
+msgctxt "%s stands for form field label."
+msgid "Edit %s"
+msgstr ""
+
+#: includes/column-settings.php:496
+msgid "A class that will be applied to this column's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. Separate multiple classes with spaces."
+msgstr ""
+
+#: includes/column-settings.php:495
+msgid "CSS Class"
+msgstr ""
+
+#: includes/column-settings.php:488
+msgid "A unique ID that will be applied to this column's HTML. Must start with a letter and only contain dashes, underscores, letters or numbers. No spaces."
+msgstr ""
+
+#: includes/row-settings.php:764 includes/module-settings.php:121
+#: includes/column-settings.php:487 includes/ui-loop-settings.php:84
+msgid "ID"
+msgstr ""
+
+#: includes/row-settings.php:72 includes/ui-field-border.php:34
+#: includes/column-settings.php:416 includes/ui-field-typography.php:140
+#: includes/ui-field-typography.php:154 includes/ui-field-typography.php:167
+#: classes/class-fl-builder-fonts.php:66 classes/class-fl-builder-fonts.php:101
+#: classes/class-fl-builder-fonts.php:138
+msgid "Default"
+msgstr ""
+
+#: includes/row-settings.php:694 includes/module-settings.php:51
+#: includes/column-settings.php:404
+msgid "Small Devices Only"
+msgstr ""
+
+#: includes/row-settings.php:693 includes/module-settings.php:50
+#: includes/column-settings.php:403
+msgid "Medium &amp; Small Devices Only"
+msgstr ""
+
+#: includes/row-settings.php:692 includes/module-settings.php:49
+#: includes/column-settings.php:402
+msgid "Medium Devices Only"
+msgstr ""
+
+#: includes/row-settings.php:691 includes/module-settings.php:48
+#: includes/column-settings.php:401
+msgid "Large &amp; Medium Devices Only"
+msgstr ""
+
+#: includes/row-settings.php:690 includes/module-settings.php:47
+#: includes/column-settings.php:400
+msgid "Large Devices Only"
+msgstr ""
+
+#: includes/row-settings.php:704 includes/module-settings.php:46
+#: includes/module-settings.php:61 includes/column-settings.php:427
+msgid "Always"
+msgstr ""
+
+#: includes/row-settings.php:702 includes/module-settings.php:59
+#: includes/column-settings.php:425
+msgid "Display"
+msgstr ""
+
+#: includes/global-settings.php:176
+msgid "Responsive Layout"
+msgstr ""
+
+#: includes/row-settings.php:653 includes/global-settings.php:58
+#: includes/global-settings.php:135 includes/column-settings.php:365
+msgid "Padding"
+msgstr ""
+
+#: includes/ui-field-border.php:95 includes/ui-field-border.php:97
+#: includes/ui-field-dimension.php:25
+msgid "Right"
+msgstr "उजवा"
+
+#: includes/ui-field-border.php:94 includes/ui-field-border.php:96
+#: includes/ui-field-dimension.php:27
+msgid "Left"
+msgstr "डावं"
+
+#: includes/row-settings.php:118 includes/column-settings.php:72
+#: includes/ui-field-dimension.php:26 classes/class-fl-builder-art.php:332
+msgid "Bottom"
+msgstr ""
+
+#: includes/row-settings.php:116 includes/column-settings.php:70
+#: includes/ui-field-dimension.php:24 classes/class-fl-builder-art.php:331
+msgid "Top"
+msgstr ""
+
+#: includes/row-settings.php:625 includes/module-settings.php:13
+#: includes/global-settings.php:41 includes/global-settings.php:118
+#: includes/global-settings.php:158 includes/column-settings.php:339
+msgid "Margins"
+msgstr ""
+
+#: includes/row-settings.php:618 includes/module-settings.php:6
+#: includes/column-settings.php:332 classes/class-fl-builder-module.php:366
+#: classes/class-fl-builder-model.php:2975
+msgid "Advanced"
+msgstr ""
+
+#: modules/photo/photo.php:636 includes/row-settings.php:602
+#: includes/row-settings.php:606 includes/column-settings.php:316
+#: includes/column-settings.php:320
+msgid "Border"
+msgstr ""
+
+#: includes/row-settings.php:554 includes/column-settings.php:297
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/row-settings.php:528 includes/column-settings.php:272
+msgid "Background Overlay"
+msgstr ""
+
+#: includes/row-settings.php:299 includes/column-settings.php:261
+msgid "Fill"
+msgstr ""
+
+#: includes/row-settings.php:298 includes/column-settings.php:260
+msgid "Fit"
+msgstr ""
+
+#: includes/row-settings.php:297 includes/column-settings.php:259
+msgctxt "Background scale."
+msgid "None"
+msgstr ""
+
+#: includes/row-settings.php:293 includes/column-settings.php:255
+msgid "Scale"
+msgstr ""
+
+#: includes/row-settings.php:20 includes/row-settings.php:38
+#: includes/row-settings.php:283 includes/global-settings.php:93
+#: includes/global-settings.php:107 includes/column-settings.php:245
+msgid "Fixed"
+msgstr ""
+
+#: includes/row-settings.php:282 includes/column-settings.php:244
+msgid "Scroll"
+msgstr ""
+
+#: includes/row-settings.php:278 includes/column-settings.php:240
+msgid "Attachment"
+msgstr ""
+
+#: includes/row-settings.php:268 includes/column-settings.php:230
+#: includes/ui-field-gradient.php:48
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/row-settings.php:117 includes/row-settings.php:267
+#: includes/column-settings.php:71 includes/column-settings.php:229
+#: classes/class-fl-builder-art.php:449
+msgid "Center"
+msgstr "मध्यभागी"
+
+#: includes/row-settings.php:266 includes/column-settings.php:228
+#: includes/ui-field-gradient.php:46
+msgid "Center Top"
+msgstr ""
+
+#: includes/row-settings.php:265 includes/column-settings.php:227
+#: includes/ui-field-gradient.php:45
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/row-settings.php:264 includes/column-settings.php:226
+#: includes/ui-field-gradient.php:44
+msgid "Right Center"
+msgstr ""
+
+#: includes/row-settings.php:263 includes/column-settings.php:225
+#: includes/ui-field-gradient.php:43
+msgid "Right Top"
+msgstr ""
+
+#: includes/row-settings.php:262 includes/column-settings.php:224
+#: includes/ui-field-gradient.php:42
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/row-settings.php:261 includes/column-settings.php:223
+#: includes/ui-field-gradient.php:41
+msgid "Left Center"
+msgstr ""
+
+#: includes/row-settings.php:260 includes/column-settings.php:222
+#: includes/ui-field-gradient.php:40
+msgid "Left Top"
+msgstr ""
+
+#: includes/row-settings.php:256 includes/column-settings.php:218
+msgid "Position"
+msgstr ""
+
+#: includes/row-settings.php:246 includes/column-settings.php:208
+msgctxt "Background repeat."
+msgid "Vertical"
+msgstr ""
+
+#: includes/row-settings.php:245 includes/column-settings.php:207
+msgctxt "Background repeat."
+msgid "Horizontal"
+msgstr ""
+
+#: includes/row-settings.php:244 includes/column-settings.php:206
+msgctxt "Background repeat."
+msgid "Tile"
+msgstr ""
+
+#: includes/row-settings.php:243 includes/column-settings.php:205
+msgctxt "Background repeat."
+msgid "None"
+msgstr ""
+
+#: includes/row-settings.php:239 includes/column-settings.php:201
+msgid "Repeat"
+msgstr ""
+
+#: modules/photo/photo.php:24 modules/photo/photo.php:487
+#: includes/row-settings.php:228 includes/row-settings.php:506
+#: includes/column-settings.php:190
+msgid "Photo"
+msgstr ""
+
+#: includes/row-settings.php:223 includes/column-settings.php:185
+msgid "Background Photo"
+msgstr ""
+
+#: includes/row-settings.php:573 includes/column-settings.php:156
+msgid "Background Color"
+msgstr "पार्श्वभागाचा रंग"
+
+#: includes/row-settings.php:182 includes/column-settings.php:136
+msgctxt "Background type."
+msgid "Photo"
+msgstr ""
+
+#: includes/row-settings.php:180 includes/column-settings.php:134
+msgctxt "Background type."
+msgid "Color"
+msgstr ""
+
+#: includes/row-settings.php:179 includes/column-settings.php:133
+msgctxt "Background type."
+msgid "None"
+msgstr ""
+
+#: includes/row-settings.php:176 includes/column-settings.php:130
+msgid "Type"
+msgstr ""
+
+#: includes/row-settings.php:172 includes/column-settings.php:126
+msgid "Background"
+msgstr "पार्श्वभाग"
+
+#: includes/row-settings.php:162 includes/column-settings.php:116
+msgid "Heading Color"
+msgstr ""
+
+#: includes/row-settings.php:152 includes/column-settings.php:106
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/row-settings.php:142 includes/column-settings.php:96
+msgid "Link Color"
+msgstr ""
+
+#: modules/rich-text/rich-text.php:56 includes/row-settings.php:536
+#: includes/row-settings.php:577 includes/ui-field-border.php:126
+#: includes/column-settings.php:86 includes/column-settings.php:161
+#: includes/column-settings.php:280 classes/class-fl-builder-art.php:500
+msgid "Color"
+msgstr "रंग"
+
+#: includes/column-settings.php:81
+msgid "Text"
+msgstr ""
+
+#: modules/photo/photo.php:581 modules/rich-text/rich-text.php:48
+#: modules/audio/audio.php:146 includes/row-settings.php:10
+#: includes/ui-field-border.php:120 includes/column-settings.php:7
+#: includes/ui-field-typography.php:260
+msgid "Style"
+msgstr ""
+
+#: includes/ui-js-templates.php:58 includes/ui-js-templates.php:150
+#: includes/column-settings.php:4
+msgid "Column Settings"
+msgstr ""
+
+#: includes/admin-settings-upgrade.php:26
+msgid "Learn More"
+msgstr ""
+
+#: includes/admin-settings-tools.php:92
+msgid "The builder does not delete the post meta <code>_fl_builder_data</code>, <code>_fl_builder_draft</code> and <code>_fl_builder_enabled</code> in case you want to reinstall it later. If you do, the builder will rebuild all of its data using those meta values."
+msgstr ""
+
+#: includes/admin-settings-tools.php:91
+msgid "Clicking the button below will uninstall the page builder plugin and delete all of the data associated with it. You can uninstall or deactivate the page builder from the plugins page instead if you do not wish to delete the data."
+msgstr ""
+
+#: includes/admin-settings-post-types.php:78
+msgid "Save Post Types"
+msgstr ""
+
+#: includes/admin-settings-post-types.php:38
+msgid "Select the post types you would like the builder to work with."
+msgstr ""
+
+#: includes/admin-settings-post-types.php:34
+msgid "Example: page, post, product"
+msgstr ""
+
+#: includes/admin-settings-post-types.php:19
+#: includes/admin-settings-post-types.php:39
+msgid "NOTE: Not all custom post types may be supported."
+msgstr ""
+
+#: includes/admin-settings-post-types.php:18
+msgid "Enter a comma separated list of the post types you would like the builder to work with."
+msgstr ""
+
+#: includes/admin-settings-modules.php:64
+msgid "Save Module Settings"
+msgstr ""
+
+#: includes/admin-settings-modules.php:26
+msgctxt "Plugin setup page: Modules."
+msgid "All"
+msgstr ""
+
+#: includes/admin-settings-modules.php:16
+msgid "Check or uncheck modules below to enable or disable them."
+msgstr ""
+
+#: includes/admin-settings-modules.php:3
+msgid "Enabled Modules"
+msgstr ""
+
+#: includes/admin-settings-js-config.php:15
+msgid "Please type \"uninstall\" in the box below to confirm that you really want to uninstall the page builder and all of its data."
+msgstr ""
+
+#: includes/admin-settings-js-config.php:14
+msgid "Select File"
+msgstr ""
+
+#: includes/admin-settings-modules.php:10
+#: includes/admin-settings-post-types.php:10
+#: includes/admin-settings-user-access.php:19
+msgid "Override network settings?"
+msgstr ""
+
+#: includes/admin-settings-tools.php:16
+msgid "Clear Cache"
+msgstr ""
+
+#: includes/admin-settings-tools.php:11
+msgid "This only applies to this site. Please visit the Network Admin Settings to clear the cache for all sites on the network."
+msgstr ""
+
+#: includes/updater/includes/form.php:56 includes/admin-settings-tools.php:9
+#: includes/admin-settings-tools.php:94
+msgid "This applies to all sites on the network."
+msgstr ""
+
+#: includes/updater/includes/form.php:56 includes/admin-settings-tools.php:9
+#: includes/admin-settings-tools.php:11 includes/admin-settings-tools.php:92
+#: includes/admin-settings-tools.php:94
+msgid "NOTE:"
+msgstr ""
+
+#: includes/admin-settings-tools.php:7
+msgid "A CSS and JavaScript file is dynamically generated and cached each time you create a new layout. Sometimes the cache needs to be refreshed when you migrate your site to another server or update to the latest version. If you are running into any issues, please try clearing the cache by clicking the button below."
+msgstr ""
+
+#. translators: 1: branded builder name
+#: includes/admin-posts.php:25
+msgctxt "%s stands for custom branded \\\"Page Builder\\\" name."
+msgid "Switching to Text Editor mode will disable your %1$s layout until it is enabled again. Any edits made while in Text Editor mode will not be made on your %1$s layout. Do you want to continue?"
+msgstr ""
+
+#. translators: %s: branded builder name
+#: includes/admin-posts.php:13
+msgctxt "%s stands for custom branded \"Page Builder\" name."
+msgid "Launch %s"
+msgstr ""
+
+#. translators: 1: branded builder name: 2: post type name
+#: includes/admin-posts.php:10
+msgctxt "The first %s stands for custom branded \"Page Builder\" name. The second %s stands for the post type name."
+msgid "%1$s is currently active for this %2$s."
+msgstr ""
+
+#: modules/rich-text/rich-text.php:13 includes/admin-posts.php:4
+msgid "Text Editor"
+msgstr ""
+
+#. translators: %s: field name
+#. translators: %s: field name to add
+#: includes/ui-js-config.php:74
+#: classes/class-fl-builder-ui-settings-forms.php:919
+msgctxt "Field name to add."
+msgid "Add %s"
+msgstr ""
+
+#: classes/class-fl-builder-services.php:359
+msgid "Account"
+msgstr ""
+
+#: classes/class-fl-builder-services.php:352
+msgid "Add Account..."
+msgstr ""
+
+#: classes/class-fl-builder-services.php:323
+msgid "Connect"
+msgstr ""
+
+#: classes/class-fl-builder-services.php:310
+msgid "Used to identify this connection within the accounts list and can be anything you like."
+msgstr ""
+
+#: classes/class-fl-builder-services.php:309
+msgid "Account Name"
+msgstr ""
+
+#: classes/class-fl-builder-services.php:238
+msgctxt "Account name for a third party service such as MailChimp."
+msgid "Error: An account with that name already exists."
+msgstr ""
+
+#: classes/class-fl-builder-services.php:229
+msgctxt "Account name for a third party service such as MailChimp."
+msgid "Error: Missing account name."
+msgstr ""
+
+#: classes/class-fl-builder-services.php:227
+msgctxt "Connection data such as an API key."
+msgid "Error: Missing service data."
+msgstr ""
+
+#: classes/class-fl-builder-services.php:225
+msgctxt "Third party service such as MailChimp."
+msgid "Error: Missing service type."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-sendinblue.php:228
+msgid "Error: Could not subscribe to SendinBlue. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-sendinblue.php:225
+msgid "There was an error subscribing to SendinBlue. Please try again."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendinblue.php:194
+msgid "There was an error subscribing to SendinBlue. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendinblue.php:100
+msgid "Your Access Key can be found in your SendinBlue account under API & Integration > Manager Your Keys > Version 2.0 > Access Key."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendinblue.php:99
+msgid "Access Key"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-sendinblue.php:75
+#: classes/class-fl-builder-service-sendinblue.php:134
+msgid "Error: Could not connect to SendinBlue. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-sendinblue.php:72
+#: classes/class-fl-builder-service-sendinblue.php:131
+msgid "There was an error connecting to SendinBlue. Please try again."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendinblue.php:65
+msgid "Error: You must provide an Access Key."
+msgstr ""
+
+#: classes/class-fl-builder-service-mailpoet.php:153
+msgid "There was an error subscribing. MailPoet is not installed."
+msgstr ""
+
+#: classes/class-fl-builder-service-mailpoet.php:91
+msgid "There was an error retrieveing your lists."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-mailchimp.php:342
+msgid "There was an error subscribing to MailChimp. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-mailchimp.php:257
+msgid "There was an error subscribing to MailChimp. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-mailchimp.php:228
+msgctxt "MailChimp list group."
+msgid "Groups"
+msgstr ""
+
+#: classes/class-fl-builder-service-mailchimp.php:215
+msgid "No Group"
+msgstr ""
+
+#: classes/class-fl-builder-service-mailchimp.php:101
+msgid "Your API key can be found in your MailChimp account under Account > Extras > API Keys."
+msgstr ""
+
+#: classes/class-fl-builder-service-madmimi.php:207
+#: classes/class-fl-builder-service-madmimi.php:233
+msgid "There was an error subscribing to Mad Mimi. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:145
+#: classes/class-fl-builder-service-madmimi.php:147
+msgid "There was a problem retrieving your lists. Please check your API credentials."
+msgstr ""
+
+#: classes/class-fl-builder-service-madmimi.php:114
+msgid "Your API key can be found in your Mad Mimi account under Account > Settings &amp; Billing > API."
+msgstr ""
+
+#: classes/class-fl-builder-service-madmimi.php:103
+msgid "The email address associated with your Mad Mimi account."
+msgstr ""
+
+#: classes/class-fl-builder-service-madmimi.php:77
+msgid "Unable to connect to Mad Mimi. Please check your credentials."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-infusionsoft.php:286
+msgid "There was an error subscribing to Infusionsoft. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-infusionsoft.php:240
+msgid "There was an error subscribing to Infusionsoft. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-infusionsoft.php:122
+msgid "Your API key can be found in your Infusionsoft account under Admin > Settings > Application > API > Encrypted Key."
+msgstr ""
+
+#: classes/class-fl-builder-service-infusionsoft.php:111
+msgid "Your App ID can be found in the URL for your account. For example, if the URL for your account is myaccount.infusionsoft.com, your App ID would be <strong>myaccount</strong>."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:79
+#: classes/class-fl-builder-service-infusionsoft.php:79
+msgid "Error: You must provide an app ID."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-infusionsoft.php:48
+msgid "There was an error connecting to Infusionsoft. %s"
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-icontact.php:275
+msgid "There was an error subscribing to iContact. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:275
+#: classes/class-fl-builder-service-icontact.php:238
+msgid "There was an error subscribing to iContact. The account is no longer connected."
+msgstr ""
+
+#. translators: 1: create app url: 2: docs url
+#: classes/class-fl-builder-service-icontact.php:141
+msgid "You must <a%1$s>create an app</a> in iContact to obtain an app ID and password. Please see <a%2$s>the iContact docs</a> for complete instructions."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact.php:139
+msgid "Your iContact app password."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:150
+#: classes/class-fl-builder-service-icontact.php:138
+msgid "App Password"
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact.php:128
+msgid "Your iContact app ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:139
+#: classes/class-fl-builder-service-infusionsoft.php:110
+#: classes/class-fl-builder-service-icontact.php:127
+msgid "App ID"
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact.php:117
+msgid "Your iContact username."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:128
+#: classes/class-fl-builder-service-icontact.php:116
+msgid "Username"
+msgstr "वापरकर्त्याचे नाव"
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-icontact.php:96
+#: classes/class-fl-builder-service-icontact.php:179
+msgid "Error: Could not connect to iContact. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact.php:77
+msgid "Error: You must provide a app password."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact.php:75
+msgid "Error: You must provide a app ID."
+msgstr ""
+
+#: classes/class-fl-builder-service-icontact-pro.php:77
+#: classes/class-fl-builder-service-icontact.php:73
+msgid "Error: You must provide a username."
+msgstr ""
+
+#: classes/class-fl-builder-service-hatchbuck.php:191
+#: classes/class-fl-builder-service-hatchbuck.php:223
+msgid "There was an error subscribing to Hatchbuck."
+msgstr ""
+
+#: classes/class-fl-builder-service-hatchbuck.php:185
+msgid "There was an error subscribing to Hatchbuck. The API key is invalid."
+msgstr ""
+
+#: classes/class-fl-builder-service-hatchbuck.php:157
+msgid "There was an error subscribing to Hatchbuck. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-hatchbuck.php:129
+msgctxt "A tag to add to contacts in Hatchbuck when they subscribe."
+msgid "Tag"
+msgstr ""
+
+#: classes/class-fl-builder-service-hatchbuck.php:85
+msgid "Your API key can be found in your Hatchbuck account under Account Settings > Web API."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-getresponse.php:247
+msgid "There was an error subscribing to GetResponse. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-getresponse.php:200
+msgid "There was an error subscribing to GetResponse. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-getresponse.php:97
+msgid "Your API key can be found in your GetResponse account under My Account > API & OAuth."
+msgstr ""
+
+#: classes/class-fl-builder-service-email-address.php:126
+msgid "There was an error subscribing. Please try again."
+msgstr ""
+
+#: classes/class-fl-builder-service-email-address.php:120
+msgid "Name"
+msgstr "नाव"
+
+#: classes/class-fl-builder-service-email-address.php:117
+msgid "Email"
+msgstr "ईमेल"
+
+#: classes/class-fl-builder-service-email-address.php:111
+msgid "Subscribe Form Signup"
+msgstr ""
+
+#: classes/class-fl-builder-service-email-address.php:108
+msgid "There was an error subscribing. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-email-address.php:61
+#: classes/class-fl-builder-service-madmimi.php:102
+msgid "Email Address"
+msgstr ""
+
+#: classes/class-fl-builder-service-email-address.php:38
+#: classes/class-fl-builder-service-madmimi.php:67
+msgid "Error: You must provide an email address."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-constant-contact.php:240
+#: classes/class-fl-builder-service-constant-contact.php:273
+msgid "There was an error subscribing to Constant Contact. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-constant-contact.php:189
+msgid "There was an error subscribing to Constant Contact. The account is no longer connected."
+msgstr ""
+
+#. translators: 1: account link: 2: api key link
+#: classes/class-fl-builder-service-constant-contact.php:96
+msgid "You must register a <a%1$s>Developer Account</a> with Constant Contact to obtain an API key and access token. Please see <a%2$s>Getting an API key</a> for complete instructions."
+msgstr ""
+
+#: classes/class-fl-builder-service-constant-contact.php:94
+msgid "Your Constant Contact access token."
+msgstr ""
+
+#: classes/class-fl-builder-service-constant-contact.php:93
+msgid "Access Token"
+msgstr ""
+
+#: classes/class-fl-builder-service-constant-contact.php:83
+msgid "Your Constant Contact API key."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-constant-contact.php:57
+#: classes/class-fl-builder-service-constant-contact.php:129
+msgid "Error: Could not connect to Constant Contact. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-constant-contact.php:49
+msgid "Error: You must provide an access token."
+msgstr ""
+
+#: classes/class-fl-builder-service-campaign-monitor.php:251
+msgid "There was an error subscribing to Campaign Monitor."
+msgstr ""
+
+#: classes/class-fl-builder-service-campaign-monitor.php:235
+msgid "There was an error subscribing to Campaign Monitor. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-campaign-monitor.php:156
+msgctxt "A client account in Campaign Monitor."
+msgid "Client"
+msgstr ""
+
+#: classes/class-fl-builder-service-campaign-monitor.php:87
+msgid "Your API key can be found in your Campaign Monitor account under Account Settings > API Key."
+msgstr ""
+
+#: classes/class-fl-builder-service-hatchbuck.php:60
+#: classes/class-fl-builder-service-getresponse.php:72
+#: classes/class-fl-builder-service-getresponse.php:127
+#: classes/class-fl-builder-service-enormail.php:134
+#: classes/class-fl-builder-service-convertkit.php:127
+#: classes/class-fl-builder-service-campaign-monitor.php:66
+#: classes/class-fl-builder-service-campaign-monitor.php:125
+msgid "Error: Please check your API key."
+msgstr ""
+
+#. translators: %s: error
+#: classes/class-fl-builder-service-aweber.php:288
+#: classes/class-fl-builder-service-aweber.php:307
+msgid "There was an error subscribing to AWeber. %s"
+msgstr ""
+
+#: classes/class-fl-builder-service-aweber.php:283
+#: classes/class-fl-builder-service-aweber.php:301
+msgid "There was an error connecting to AWeber. Please try again."
+msgstr ""
+
+#: classes/class-fl-builder-service-aweber.php:237
+msgid "There was an error subscribing to AWeber. The account is no longer connected."
+msgstr ""
+
+#. translators: %s: register url
+#: classes/class-fl-builder-service-aweber.php:120
+msgid "Please register this website with AWeber to get your Authorization Code. <a%s>Register Now</a>"
+msgstr ""
+
+#: classes/class-fl-builder-service-aweber.php:118
+msgid "Authorization Code"
+msgstr ""
+
+#: classes/class-fl-builder-service-aweber.php:72
+msgid "Error: Please enter a valid Authorization Code."
+msgstr ""
+
+#: classes/class-fl-builder-service-aweber.php:70
+msgid "Error: You must provide an Authorization Code."
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:372
+msgid "Error: Invalid API data."
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:307
+msgid "There was an error subscribing to ActiveCampaign. The account is no longer connected."
+msgstr ""
+
+#: classes/class-fl-builder-service-mailchimp.php:187
+#: classes/class-fl-builder-service-aweber.php:184
+#: classes/class-fl-builder-service-sendinblue.php:166
+#: classes/class-fl-builder-service-icontact-pro.php:247
+#: classes/class-fl-builder-service-mautic.php:220
+#: classes/class-fl-builder-service-getresponse.php:160
+#: classes/class-fl-builder-service-constant-contact.php:161
+#: classes/class-fl-builder-service-enormail.php:168
+#: classes/class-fl-builder-service-convertkit.php:161
+#: classes/class-fl-builder-service-infusionsoft.php:211
+#: classes/class-fl-builder-service-mailpoet.php:121
+#: classes/class-fl-builder-service-campaign-monitor.php:207
+#: classes/class-fl-builder-service-madmimi.php:179
+#: classes/class-fl-builder-service-icontact.php:210
+msgctxt "An email list from a third party provider."
+msgid "List"
+msgstr ""
+
+#: includes/ui-service-settings.php:7
+#: classes/class-fl-builder-service-mailchimp.php:174
+#: classes/class-fl-builder-service-aweber.php:173
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:166
+#: classes/class-fl-builder-service-campayn.php:196
+#: classes/class-fl-builder-service-sendinblue.php:155
+#: classes/class-fl-builder-service-mailrelay.php:183
+#: classes/class-fl-builder-service-activecampaign.php:205
+#: classes/class-fl-builder-service-activecampaign.php:239
+#: classes/class-fl-builder-service-icontact-pro.php:236
+#: classes/class-fl-builder-service-mautic.php:209
+#: classes/class-fl-builder-service-getresponse.php:148
+#: classes/class-fl-builder-service-constant-contact.php:150
+#: classes/class-fl-builder-service-enormail.php:155
+#: classes/class-fl-builder-service-convertkit.php:148
+#: classes/class-fl-builder-service-infusionsoft.php:196
+#: classes/class-fl-builder-service-drip.php:178
+#: classes/class-fl-builder-service-mailpoet.php:110
+#: classes/class-fl-builder-service-campaign-monitor.php:144
+#: classes/class-fl-builder-service-campaign-monitor.php:195
+#: classes/class-fl-builder-service-mailerlite.php:161
+#: classes/class-fl-builder-service-madmimi.php:168
+#: classes/class-fl-builder-service-ontraport.php:183
+#: classes/class-fl-builder-service-icontact.php:198
+#: classes/class-fl-builder-services.php:344
+msgid "Choose..."
+msgstr ""
+
+#: classes/class-fl-builder-service-campayn.php:144
+msgid "Your API key can be found in your Campayn account under Settings > API Key."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:125
+#: classes/class-fl-builder-service-hatchbuck.php:84
+#: classes/class-fl-builder-service-mailchimp.php:100
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:111
+#: classes/class-fl-builder-service-campayn.php:143
+#: classes/class-fl-builder-service-mailrelay.php:127
+#: classes/class-fl-builder-service-activecampaign.php:111
+#: classes/class-fl-builder-service-getresponse.php:96
+#: classes/class-fl-builder-service-constant-contact.php:82
+#: classes/class-fl-builder-service-enormail.php:103
+#: classes/class-fl-builder-service-convertkit.php:96
+#: classes/class-fl-builder-service-infusionsoft.php:121
+#: classes/class-fl-builder-service-campaign-monitor.php:86
+#: classes/class-fl-builder-service-mailerlite.php:108
+#: classes/class-fl-builder-service-madmimi.php:113
+#: classes/class-fl-builder-service-ontraport.php:123
+msgid "API Key"
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:101
+msgid "Your API url can be found in your ActiveCampaign account under My Settings > Developer > API."
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:100
+msgid "API URL"
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:75
+msgid "Error: Please check your API URL and API key."
+msgstr ""
+
+#: classes/class-fl-builder-service-sendy.php:70
+#: classes/class-fl-builder-service-hatchbuck.php:47
+#: classes/class-fl-builder-service-mailchimp.php:65
+#: classes/class-fl-builder-service-godaddy-email-marketing.php:69
+#: classes/class-fl-builder-service-campayn.php:100
+#: classes/class-fl-builder-service-mailrelay.php:79
+#: classes/class-fl-builder-service-activecampaign.php:69
+#: classes/class-fl-builder-service-getresponse.php:65
+#: classes/class-fl-builder-service-constant-contact.php:47
+#: classes/class-fl-builder-service-enormail.php:67
+#: classes/class-fl-builder-service-convertkit.php:65
+#: classes/class-fl-builder-service-infusionsoft.php:77
+#: classes/class-fl-builder-service-campaign-monitor.php:53
+#: classes/class-fl-builder-service-madmimi.php:69
+#: classes/class-fl-builder-service-ontraport.php:70
+msgid "Error: You must provide an API key."
+msgstr ""
+
+#: classes/class-fl-builder-service-activecampaign.php:67
+msgid "Error: You must provide an API URL."
+msgstr ""
+
+#: classes/class-fl-builder-photo.php:99
+msgctxt "Image size."
+msgid "Thumbnail"
+msgstr ""
+
+#: classes/class-fl-builder-photo.php:98
+msgctxt "Image size."
+msgid "Medium"
+msgstr ""
+
+#: classes/class-fl-builder-photo.php:97
+msgctxt "Image size."
+msgid "Large"
+msgstr ""
+
+#: classes/class-fl-builder-photo.php:92 classes/class-fl-builder-photo.php:96
+msgctxt "Image size."
+msgid "Full Size"
+msgstr ""
+
+#: includes/ui-js-config.php:240 classes/class-fl-builder-model.php:6074
+msgid "Content Pages"
+msgstr ""
+
+#: classes/class-fl-builder-model.php:4851
+msgctxt "Default user template category."
+msgid "Uncategorized"
+msgstr ""
+
+#. translators: %s: post/page title
+#: classes/class-fl-builder-model.php:4107
+msgctxt "%s stands for post/page title."
+msgid "Copy of %s"
+msgstr ""
+
+#: modules/widget/widget.php:15 modules/widget/widget.php:16
+#: includes/admin-settings-modules.php:32 includes/ui-js-config.php:227
+#: classes/class-fl-builder-model.php:2993
+#: classes/class-fl-builder-model.php:3128
+#: classes/class-fl-builder-model.php:3551
+msgid "WordPress Widgets"
+msgstr ""
+
+#: classes/class-fl-builder-module.php:365
+msgid "Advanced Modules"
+msgstr ""
+
+#: classes/class-fl-builder-module.php:363
+msgid "Basic Modules"
+msgstr ""
+
+#. translators: %s: module filename
+#: classes/class-fl-builder-model.php:2756
+msgctxt "%s stands for the module filename"
+msgid "A module with the filename %s.php already exists! Please namespace your module filenames to ensure compatibility with Beaver Builder."
+msgstr ""
+
+#: classes/class-fl-builder-admin.php:233
+msgctxt "Plugin action link label."
+msgid "Upgrade"
+msgstr ""
+
+#. translators: %s: link to licence page
+#: classes/class-fl-builder-admin.php:186
+msgid "Page Builder activated! <a%s>Click here</a> to enable remote updates."
+msgstr ""
+
+#: classes/class-fl-builder-admin.php:43
+msgid "The <strong>Page Builder</strong> plugin requires WordPress version 3.5 or greater. Please update WordPress before activating the plugin."
+msgstr ""
+
+#. translators: %s: upgrade url
+#: classes/class-fl-builder-admin.php:63
+msgid "This version of the <strong>Page Builder</strong> plugin is not compatible with WordPress Multisite. <a%s>Please upgrade</a> to the Multisite version of this plugin."
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:561
+msgid "Error! Please upload an icon set from either Icomoon or Fontello."
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:519
+msgid "Error! Could not unzip file."
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:457
+msgid "Error! You must have at least one icon set enabled."
+msgstr ""
+
+#: includes/admin-settings-tools.php:88 includes/admin-settings-tools.php:98
+msgid "Uninstall"
+msgstr ""
+
+#: includes/admin-settings-tools.php:3
+msgid "Cache"
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:220
+msgid "Icons"
+msgstr ""
+
+#: includes/admin-settings-post-types.php:3
+#: classes/class-fl-builder-admin-settings.php:210
+msgid "Post Types"
+msgstr ""
+
+#: classes/class-fl-builder-ui-content-panel.php:53
+msgid "Templates"
+msgstr ""
+
+#: includes/global-settings.php:154
+#: classes/class-fl-builder-admin-settings.php:205
+#: classes/class-fl-builder-ui-content-panel.php:32
+msgid "Modules"
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:200
+#: classes/class-fl-builder-ui-content-panel.php:222
+msgid "Upgrade"
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:195
+msgid "License"
+msgstr ""
+
+#: classes/class-fl-builder-admin-settings.php:177
+msgid "Settings updated!"
+msgstr ""
+
+#. translators: %s: builder branded name
+#: classes/class-fl-builder-admin-settings.php:162
+msgctxt "%s stands for custom branded \"Page Builder\" name."
+msgid "%s Settings"
+msgstr ""

@@ -7,35 +7,189 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:36:27+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:51:00+00:00\n"
 "PO-Revision-Date: 2016-04-13 07:41:28+0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
-#. Description of the plugin/theme
-msgid "<code><strong>YITH WooCommerce Wishlist</strong></code> gives your users the possibility to create, fill, manage and share their wishlists allowing you to analyze their interests and needs to improve your marketing strategies. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>"
+#: plugin-fw/templates/fields/date-format.php:50
+msgid "Custom:"
+msgstr "सानुकूल:"
+
+#: plugin-fw/templates/fields/select-buttons.php:34
+msgid "Remove All"
 msgstr ""
 
-#. Author of the plugin/theme
+#: plugin-fw/templates/fields/select-buttons.php:21
+msgid "Add All"
+msgstr ""
+
+#: includes/class.yith-wcwl-admin-init.php:1292
+msgid "Show \"Share by WhatsApp\" button ( only on phones )"
+msgstr ""
+
+#: includes/class.yith-wcwl-admin-init.php:1291
+msgid "Share by WhatsApp"
+msgstr ""
+
+#: templates/share.php:51
+msgid "WhatsApp"
+msgstr ""
+
+#: templates/share.php:51
+msgid "My wishlist on "
+msgstr ""
+
+#: plugin-fw/lib/yith-dashboard.php:143
+msgctxt "Button label"
+msgid "Close"
+msgstr ""
+
+#: plugin-fw/lib/yith-dashboard.php:100
+msgctxt "Plugin FW"
+msgid "Latest update released on"
+msgstr ""
+
+#: plugin-fw/lib/yith-dashboard.php:99
+msgctxt "Plugin FW"
+msgid "View Changelog"
+msgstr ""
+
+#: plugin-fw/lib/yith-dashboard.php:71
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "एक त्रुटी आली आहे, याचा अर्थ कदाचित पुरवठा डाऊन आहे. पुन्हा प्रयत्न करा."
+
+#: plugin-fw/lib/yith-dashboard.php:65
+msgid "RSS Error:"
+msgstr "आरएसएस मधे त्रुटी: "
+
+#: plugin-fw/lib/yith-dashboard.php:41
+msgid "Latest news from YITH Blog"
+msgstr ""
+
+#: plugin-fw/lib/yith-dashboard.php:40
+msgid "YITH Latest Updates"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:51
+msgid "ID of the product to add to wishlist (leave empty to use global product)"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:56
+msgid "Url of wishlist page (leave empty to use default)"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:61
+msgid "Button label (leave empty to use default)"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:66
+msgid "\"Browse wishlist\" label (leave empty to use default)"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:71
+msgid "\"Product already in wishlist\" label (leave empty to use default)"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:76
+msgid "\"Product added to wishlist\" label (leave empty to use default)"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:81
+msgid "Icon for the button (use any FontAwesome valid class, or leave empty to use default)"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:86
+msgid "Additional css classes for the button (leave empty to use default)"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:94
+msgctxt "[gutenberg]: block name"
+msgid "YITH Wishlist"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:95
+msgctxt "[gutenberg]: block description"
+msgid "Shows list of products in wishlist"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:103
+msgid "Paginate"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:100
+msgid "Choose whether to paginate items in the wishlist or show them all"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:104
+msgid "Do not paginate"
+msgstr ""
+
+#: plugin-fw/lib/yith-gutenberg.php:134
+msgctxt "[gutenberg]: Category Name"
 msgid "YITH"
 msgstr ""
 
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:24
-msgid "YITH License Activation"
+#: includes/class.yith-wcwl-shortcode.php:45
+msgctxt "[gutenberg]: block name"
+msgid "YITH Add to Wishlist"
 msgstr ""
 
-#: plugin-fw/yit-plugin.php:77
+#: includes/class.yith-wcwl-shortcode.php:46
+msgctxt "[gutenberg]: block description"
+msgid "Shows Add to Wishlist button"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:109
+msgid "Number of items to show for each page"
+msgstr ""
+
+#: includes/class.yith-wcwl-shortcode.php:114
+msgid "ID of the wishlist to show (EG: K6EOWXB888ZD)"
+msgstr ""
+
+#: includes/class.yith-wcwl-admin-init.php:1009
+msgid "Enable all plugin features"
+msgstr ""
+
+#: includes/class.yith-wcwl-admin-init.php:1010
+msgid "Be sure to select at least one option in the Wishlist page menu in this settings page"
+msgstr ""
+
+#: includes/class.yith-wcwl-admin-init.php:1011
+msgctxt "[Part of]: Also, please read the plugin documentation"
+msgid "Also, please read the plugin"
+msgstr ""
+
+#: includes/class.yith-wcwl-admin-init.php:1012
+msgctxt "[Part Of]: Also, please read the plugin documentation"
+msgid "documentation"
+msgstr ""
+
+#: init.php:130
+msgid "is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#. Description of the plugin
+msgid "<code><strong>YITH WooCommerce Wishlist</strong></code> gives your users the possibility to create, fill, manage and share their wishlists allowing you to analyze their interests and needs to improve your marketing strategies. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>"
+msgstr ""
+
+#. Author of the plugin
+msgid "YITH"
+msgstr ""
+
+#: plugin-fw/yit-plugin.php:82
 msgctxt "Plugin Row Meta"
 msgid "Live Demo"
 msgstr ""
 
-#: plugin-fw/yit-plugin.php:87
+#: plugin-fw/yit-plugin.php:92
 msgctxt "Plugin Row Meta"
 msgid "Support"
 msgstr ""
 
-#: plugin-fw/yit-plugin.php:82
+#: plugin-fw/yit-plugin.php:87
 msgctxt "Plugin Row Meta"
 msgid "Documentation"
 msgstr ""
@@ -45,7 +199,7 @@ msgctxt "Action links"
 msgid "Settings"
 msgstr ""
 
-#: plugin-fw/yit-plugin.php:92
+#: plugin-fw/yit-plugin.php:97
 msgctxt "Plugin Row Meta"
 msgid "Premium version"
 msgstr ""
@@ -54,20 +208,12 @@ msgstr ""
 msgid "License"
 msgstr ""
 
-#: plugin-fw/lib/yit-upgrade.php:295
-msgid "YITH Repository"
-msgstr ""
-
 #: init.php:140
 msgid "You can't activate the free version of"
 msgstr ""
 
 #: init.php:140
 msgid "while you are using the premium one."
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:95
-msgid "An unexpected error occurred, please try again later. Thanks!"
 msgstr ""
 
 #: plugin-fw/lib/privacy/yit-privacy.php:72
@@ -176,10 +322,6 @@ msgstr ""
 msgid "While you visit our site, we’ll track:"
 msgstr ""
 
-#: plugin-fw/templates/fields/select-buttons.php:33
-msgid "Deselect All"
-msgstr ""
-
 #: plugin-fw/templates/fields/ajax-products.php:16
 msgid "Search Product"
 msgstr ""
@@ -187,10 +329,6 @@ msgstr ""
 #: plugin-fw/templates/fields/ajax-posts.php:57
 msgid "Search Posts"
 msgstr "पोस्ट शोधा"
-
-#: plugin-fw/templates/fields/select-buttons.php:26
-msgid "Select All"
-msgstr "सर्व निवडा"
 
 #: plugin-fw/templates/fields/icons.php:58
 msgid "Set Default"
@@ -200,63 +338,17 @@ msgstr ""
 msgid "Your email"
 msgstr "आपला ईमेल"
 
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:101
-msgid "Club Subscription"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:693
-msgid "Current product is not included in your YITH Club Subscription key"
-msgstr ""
-
-#: plugin-fw/lib/yit-plugin-panel.php:335
-#: plugin-fw/lib/yit-plugin-panel.php:338
+#: plugin-fw/lib/yit-plugin-panel.php:344
+#: plugin-fw/lib/yit-plugin-panel.php:347
 msgid "How to install premium version"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1307
+#: includes/class.yith-wcwl-admin-init.php:1314
 msgid "It will be used by Pinterest."
 msgstr ""
 
-#: plugin-fw/templates/fields/upload.php:19
+#: plugin-fw/templates/fields/upload.php:28
 msgid "Reset"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:232
-msgid "Renew license"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:230
-msgid "Order again"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:146
-msgid "Deactivate"
-msgstr "निष्क्रिय"
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:105
-msgid "License Actions"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:43
-msgid "Product to activate"
-msgid_plural "Products to activate"
-msgstr[0] ""
-msgstr[1] ""
-
-#: plugin-fw/licence/lib/yit-licence.php:695
-msgid "License key deactivated for website"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:694
-msgid "License successfully activated"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:694
-msgid "Great"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:191
-msgid "Are you sure you want to deactivate the license for current site?"
 msgstr ""
 
 #: templates/admin/wishlist-panel-premium.php:275
@@ -424,11 +516,11 @@ msgstr ""
 msgid "Layout for this %s"
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "https://yithemes.com/"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "https://yithemes.com/themes/plugins/yith-woocommerce-wishlist/"
 msgstr ""
 
@@ -598,207 +690,24 @@ msgstr ""
 msgid "Image preview"
 msgstr ""
 
-#: plugin-fw/templates/fields/upload.php:18
-#: plugin-fw/templates/metaboxes/types/icon-list.php:70
+#: plugin-fw/templates/fields/upload.php:26
 #: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:40
+#: plugin-fw/templates/metaboxes/types/icon-list.php:70
 msgid "Upload"
 msgstr "अपलोड"
 
+#: templates/wishlist-view.php:232
 #: plugin-fw/templates/fields/customtabs.php:37
 #: plugin-fw/templates/fields/customtabs.php:81
-#: templates/wishlist-view.php:232
 msgid "Remove"
 msgstr "काढा"
 
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:194
-msgid "Expired"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:164
-msgid "Banned"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:130
-msgid "%1s out of %2s"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:151
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:208
-msgid "Renew"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:99
-msgid "Remaining"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:96
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:205
-msgid "Expires"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:190
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:93
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:171
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:202
-msgid "License Key"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:189
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:92
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:170
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:201
 #: templates/share.php:44
 msgid "Email"
 msgstr "ईमेल"
 
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:90
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:168
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:198
 #: templates/wishlist-view.php:82
 msgid "Product Name"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:84
-msgid "Activated"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:65
-msgid "Activate"
-msgstr "सक्रिय करा"
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:30
-msgid "Update license information"
-msgstr ""
-
-#: plugin-fw/licence/templates/panel/activation/activation-panel.php:28
-msgid "Have you updated your licenses? Have you asked for an extension? Update information concerning your products."
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-theme-licence.php:163
-msgid ""
-"If you have purchased one of our products before 27 January 2015, you can benefit from support and updates (the services offered with the license)\n"
-"                    until 27 January 2016 and you do not have to purchase it again to get a new license key, because, before this date, your license used to be activated automatically by our system.\n"
-"                    After 27 January 2016, instead, if you want to benefit from support and updates you have to buy a new license and activate it through the license key you will be\n"
-"                    provided with and that you can find in your YITH account, in section \"My licenses\"."
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-theme-licence.php:159
-msgid "I cannot find the license key for activating the theme I have bought some time ago. Where can I find it?"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-theme-licence.php:117
-#: plugin-fw/licence/lib/yit-theme-licence.php:118
-msgid "%s"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-plugin-licence.php:67
-#: plugin-fw/licence/lib/yit-plugin-licence.php:68
-#: plugin-fw/licence/lib/yit-theme-licence.php:69
-#: plugin-fw/licence/lib/yit-theme-licence.php:70
-#: plugin-fw/licence/lib/yit-theme-licence.php:109
-#: plugin-fw/licence/lib/yit-theme-licence.php:110
-msgid "License Activation"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:692
-msgid "License key has been banned"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:691
-msgid "License key has expired"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:690
-msgid "Invalid security key"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:689
-msgid "Invalid instance ID"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:688
-msgid "Maximum number of activations exceeded"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:687
-msgid "Software has been deactivated"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:686
-msgid "Invalid license key"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:685
-msgid "Invalid Request"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:188
-msgid "Unable to contact the remote server, please try again later. Thanks!"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:187
-msgid "%s and %s fields cannot be empty"
-msgstr ""
-
-#: plugin-fw/licence/lib/yit-licence.php:186
-msgctxt "%s = field name"
-msgid "%s field cannot be empty"
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:605
-msgid "Update Plugin"
-msgstr "प्लगइन अपडेट करा"
-
-#: plugin-fw/lib/yit-upgrade.php:598
-msgid "You do not have sufficient permissions to update the plugins for this site."
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:594
-msgid "You can't update the plugins for this site."
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:521
-msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update now</a>."
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:519
-msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is unavailable for this plugin, please <a href=\"%5$s\" title=\"License activation\">activate</a> your copy of %6s.</em>"
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:517
-msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>. <em>You have to activate the plugin on a single site of the network to benefit from automatic updates.</em>"
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:515
-msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button open-plugin-details-modal\" title=\"%3$s\">View version %4$s details</a>."
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:342
-msgid "Could not create Temporary file."
-msgstr "तात्पुरती फाईल तयार करू शकत नाही."
-
-#: plugin-fw/lib/yit-upgrade.php:329
-msgid "Invalid URL Provided."
-msgstr "अवैध URL दिलि"
-
-#: plugin-fw/lib/yit-upgrade.php:194
-msgid "Update now."
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:193
-msgid "please <a href=\"%activate_link%\">activate</a> your copy of %plugin_name%."
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:192
-msgid "Automatic update is unavailable for this plugin,"
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:191
-msgid "View version %latest% details."
-msgstr ""
-
-#: plugin-fw/lib/yit-upgrade.php:190
-msgid "There is a new version of %plugin_name% available."
 msgstr ""
 
 #: plugin-fw/lib/yit-pointers.php:85
@@ -833,65 +742,65 @@ msgstr ""
 msgid "Plugins Activated"
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:539
+#: plugin-fw/lib/yit-plugin-panel.php:555
 msgid "Sorting successful."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:538
+#: plugin-fw/lib/yit-plugin-panel.php:554
 msgid "Sorry, import is disabled."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:537
+#: plugin-fw/lib/yit-plugin-panel.php:553
 msgid "The added file is not valid."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:536
+#: plugin-fw/lib/yit-plugin-panel.php:552
 msgid "An error has occurred during import. Please try again."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:535
+#: plugin-fw/lib/yit-plugin-panel.php:551
 msgid "Database imported correctly."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:533
-#: plugin-fw/lib/yit-plugin-panel.php:534
+#: plugin-fw/lib/yit-plugin-panel.php:549
+#: plugin-fw/lib/yit-plugin-panel.php:550
 msgid "Element updated correctly."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:532
+#: plugin-fw/lib/yit-plugin-panel.php:548
 msgid "Element deleted correctly."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:531
+#: plugin-fw/lib/yit-plugin-panel.php:547
 msgid "Settings reset"
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:530
+#: plugin-fw/lib/yit-plugin-panel.php:546
 msgid "Settings saved"
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:529
+#: plugin-fw/lib/yit-plugin-panel.php:545
 msgid "The element you have entered already exists. Please, enter another name."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:395
+#: plugin-fw/lib/yit-plugin-panel.php:410
 #: plugin-fw/lib/yit-plugin-subpanel.php:162
 #: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:18
 msgid "Are you sure?"
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:394
+#: plugin-fw/lib/yit-plugin-panel.php:409
 #: plugin-fw/lib/yit-plugin-subpanel.php:161
 msgid "Reset to default"
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:392
+#: plugin-fw/lib/yit-plugin-panel.php:407
 #: plugin-fw/lib/yit-plugin-subpanel.php:159
 #: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:14
 msgid "If you continue with this action, you will reset all options in this page."
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel.php:389
+#: plugin-fw/lib/yit-plugin-panel.php:404
 #: plugin-fw/lib/yit-plugin-subpanel.php:156
 #: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:11
 msgid "Save Changes"
@@ -901,7 +810,7 @@ msgstr "बदल जतन करा"
 msgid "Plugin Settings"
 msgstr ""
 
-#: plugin-fw/lib/yit-plugin-panel-wc.php:384
+#: plugin-fw/lib/yit-plugin-panel-wc.php:402
 msgid "The changes you have made will be lost if you leave this page."
 msgstr ""
 
@@ -1090,28 +999,24 @@ msgstr ""
 msgid "Add %s"
 msgstr ""
 
-#: init.php:130
-msgid "YITH WooCommerce Wishlist is enabled but not effective. It requires WooCommerce in order to work."
-msgstr ""
-
-#: includes/class.yith-wcwl.php:1660
+#: includes/class.yith-wcwl.php:1664
 msgid "An error as occurred."
 msgstr ""
 
-#: includes/class.yith-wcwl.php:1618
+#: includes/class.yith-wcwl.php:1622
 #: templates/wishlist-view.php:242
 msgid "No products were added to the wishlist"
 msgstr ""
 
-#: includes/class.yith-wcwl.php:1614
+#: includes/class.yith-wcwl.php:1618
 msgid "Error. Unable to remove the product from the wishlist."
 msgstr ""
 
-#: includes/class.yith-wcwl.php:1610
+#: includes/class.yith-wcwl.php:1614
 msgid "Product successfully removed."
 msgstr ""
 
-#: includes/class.yith-wcwl.php:809
+#: includes/class.yith-wcwl.php:812
 msgid "You need to log in before creating a new wishlist"
 msgstr ""
 
@@ -1150,7 +1055,7 @@ msgstr "फेसबुक"
 msgid "Select options"
 msgstr ""
 
-#: includes/class.yith-wcwl-shortcode.php:259
+#: includes/class.yith-wcwl-shortcode.php:386
 #: includes/class.yith-wcwl-ui.php:164
 msgid "Share on:"
 msgstr ""
@@ -1160,132 +1065,132 @@ msgctxt "page_slug"
 msgid "wishlist"
 msgstr ""
 
-#: includes/class.yith-wcwl-init.php:404
+#: includes/class.yith-wcwl-init.php:449
 msgid "Product correctly added to cart"
 msgstr ""
 
-#: includes/class.yith-wcwl-init.php:403
+#: includes/class.yith-wcwl-init.php:448
 msgid "We are sorry, but this feature is available only if cookies are enabled on your browser."
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1557
+#: includes/class.yith-wcwl-admin-init.php:1564
 msgid "From now on, you can find all the options of Wishlist under YIT Plugin -> Wishlist instead of WooCommerce -> Settings -> Wishlist, as in the previous version. When one of our plugins is updated, a new voice will be added to this menu. Wishlist has been updated with new available options, <a href=\"%s\">discover the PREMIUM version.</a>"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1556
+#: includes/class.yith-wcwl-admin-init.php:1563
 msgid "Wishlist Updated"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1545
+#: includes/class.yith-wcwl-admin-init.php:1552
 msgid "In the YIT Plugin tab you can find the Wishlist options. With this menu, you can access to all the settings of our plugins that you have activated. Wishlist is available in an outstanding PREMIUM version with many new options, <a href=\"%s\">discover it now</a>."
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1544
+#: includes/class.yith-wcwl-admin-init.php:1551
 msgid "Wishlist Activated"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1454
+#: includes/class.yith-wcwl-admin-init.php:1461
 msgid "Background color"
 msgstr "पार्श्वभूमीचा रंग"
 
-#: includes/class.yith-wcwl-admin-init.php:1451
+#: includes/class.yith-wcwl-admin-init.php:1458
 msgid "Headers"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1442
+#: includes/class.yith-wcwl-admin-init.php:1449
 msgid "Wishlist table"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1424
+#: includes/class.yith-wcwl-admin-init.php:1431
 msgid "\"Style 2\" button"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1406
+#: includes/class.yith-wcwl-admin-init.php:1413
 msgid "\"Style 1\" button"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1388
+#: includes/class.yith-wcwl-admin-init.php:1395
 msgid "\"Add to Cart\" button"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1384
-#: includes/class.yith-wcwl-admin-init.php:1402
-#: includes/class.yith-wcwl-admin-init.php:1420
-#: includes/class.yith-wcwl-admin-init.php:1438
+#: includes/class.yith-wcwl-admin-init.php:1391
+#: includes/class.yith-wcwl-admin-init.php:1409
+#: includes/class.yith-wcwl-admin-init.php:1427
+#: includes/class.yith-wcwl-admin-init.php:1445
 msgid "Border (hover)"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1383
-#: includes/class.yith-wcwl-admin-init.php:1401
-#: includes/class.yith-wcwl-admin-init.php:1419
-#: includes/class.yith-wcwl-admin-init.php:1437
+#: includes/class.yith-wcwl-admin-init.php:1390
+#: includes/class.yith-wcwl-admin-init.php:1408
+#: includes/class.yith-wcwl-admin-init.php:1426
+#: includes/class.yith-wcwl-admin-init.php:1444
 msgid "Text (hover)"
+msgstr ""
+
+#: includes/class.yith-wcwl-admin-init.php:1389
+#: includes/class.yith-wcwl-admin-init.php:1407
+#: includes/class.yith-wcwl-admin-init.php:1425
+#: includes/class.yith-wcwl-admin-init.php:1443
+msgid "Background (hover)"
 msgstr ""
 
 #: includes/class.yith-wcwl-admin-init.php:1382
 #: includes/class.yith-wcwl-admin-init.php:1400
 #: includes/class.yith-wcwl-admin-init.php:1418
 #: includes/class.yith-wcwl-admin-init.php:1436
-msgid "Background (hover)"
-msgstr ""
-
-#: includes/class.yith-wcwl-admin-init.php:1375
-#: includes/class.yith-wcwl-admin-init.php:1393
-#: includes/class.yith-wcwl-admin-init.php:1411
-#: includes/class.yith-wcwl-admin-init.php:1429
-#: includes/class.yith-wcwl-admin-init.php:1447
+#: includes/class.yith-wcwl-admin-init.php:1454
 msgid "Border"
 msgstr "सीमा"
 
-#: includes/class.yith-wcwl-admin-init.php:1374
-#: includes/class.yith-wcwl-admin-init.php:1392
-#: includes/class.yith-wcwl-admin-init.php:1410
-#: includes/class.yith-wcwl-admin-init.php:1428
-#: includes/class.yith-wcwl-admin-init.php:1446
+#: includes/class.yith-wcwl-admin-init.php:1381
+#: includes/class.yith-wcwl-admin-init.php:1399
+#: includes/class.yith-wcwl-admin-init.php:1417
+#: includes/class.yith-wcwl-admin-init.php:1435
+#: includes/class.yith-wcwl-admin-init.php:1453
 msgid "Text"
 msgstr "मजकूर"
 
-#: includes/class.yith-wcwl-admin-init.php:1373
-#: includes/class.yith-wcwl-admin-init.php:1391
-#: includes/class.yith-wcwl-admin-init.php:1409
-#: includes/class.yith-wcwl-admin-init.php:1427
-#: includes/class.yith-wcwl-admin-init.php:1445
+#: includes/class.yith-wcwl-admin-init.php:1380
+#: includes/class.yith-wcwl-admin-init.php:1398
+#: includes/class.yith-wcwl-admin-init.php:1416
+#: includes/class.yith-wcwl-admin-init.php:1434
+#: includes/class.yith-wcwl-admin-init.php:1452
 msgid "Background"
 msgstr "पार्श्वभाग"
 
-#: includes/class.yith-wcwl-admin-init.php:1370
+#: includes/class.yith-wcwl-admin-init.php:1377
 msgid "\"Add to wishlist\" button"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1334
+#: includes/class.yith-wcwl-admin-init.php:1341
 msgid "Choose to enable product slider in wishlist page with linked products (<a href=\"%s\" class=\"thickbox\">Example</a>). %s"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1333
+#: includes/class.yith-wcwl-admin-init.php:1340
 msgid "Enable slider in wishlist"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1326
+#: includes/class.yith-wcwl-admin-init.php:1333
 msgid "YITH WooCommerce Frequently Bought Together Integration"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1321
+#: includes/class.yith-wcwl-admin-init.php:1328
 msgid "If you want to take advantage of this feature, you could consider to purchase the %s."
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1306
+#: includes/class.yith-wcwl-admin-init.php:1313
 msgid "Social image URL"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1299
+#: includes/class.yith-wcwl-admin-init.php:1306
 msgid "It will be used by Twitter and Pinterest. Use <strong>%wishlist_url%</strong> where you want to show the URL of your wishlist."
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1298
+#: includes/class.yith-wcwl-admin-init.php:1305
 msgid "Social text"
 msgstr ""
 
-#: includes/class.yith-wcwl-admin-init.php:1291
+#: includes/class.yith-wcwl-admin-init.php:1298
 msgid "Social title"
 msgstr ""
 
@@ -1507,16 +1412,12 @@ msgstr "स्थान"
 
 #: includes/class.yith-wcwl-admin-init.php:1056
 #: includes/class.yith-wcwl-admin-init.php:1057
-#: includes/class.yith-wcwl-admin-init.php:1293
+#: includes/class.yith-wcwl-admin-init.php:1300
 msgid "My wishlist on %s"
 msgstr ""
 
 #: includes/class.yith-wcwl-admin-init.php:1054
 msgid "Default wishlist title"
-msgstr ""
-
-#: includes/class.yith-wcwl-admin-init.php:1048
-msgid "Enable all plugin features. <strong>Be sure to select at least one option in the Wishlist page menu in this settings page.</strong> Also, please read the plugin <a href=\"%s\" target=\"_blank\">documentation</a>."
 msgstr ""
 
 #: includes/class.yith-wcwl-admin-init.php:1047
@@ -1543,7 +1444,7 @@ msgstr ""
 msgid "Discover the Advanced Features"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "YITH WooCommerce Wishlist"
 msgstr ""
 
@@ -1569,16 +1470,16 @@ msgid "Colors"
 msgstr "रंग"
 
 #: includes/class.yith-wcwl-admin-init.php:161
+#: plugin-fw/lib/yit-plugin-panel.php:73
 #: plugin-fw/lib/yit-cpt-unlimited.php:1048
 #: plugin-fw/lib/yit-cpt-unlimited.php:1196
 #: plugin-fw/lib/yit-cpt-unlimited.php:1202
-#: plugin-fw/lib/yit-plugin-panel.php:73
 msgid "Settings"
 msgstr "सेटिंग्स"
 
 #: includes/class.yith-wcwl-admin-init.php:159
-#: includes/class.yith-wcwl-admin-init.php:1478
-#: includes/class.yith-wcwl-admin-init.php:1479
+#: includes/class.yith-wcwl-admin-init.php:1485
+#: includes/class.yith-wcwl-admin-init.php:1486
 #: includes/class.yith-wcwl-install.php:245
 msgid "Wishlist"
 msgstr ""

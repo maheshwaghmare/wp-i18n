@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:17:54+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:47:23+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -21,36 +21,94 @@ msgstr ""
 msgid "Black Studio TinyMCE Widget"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fixed conflict that was causing widget-specific warning messages to be moved to the top of the page"
+#. Found in faq paragraph.
+msgid "This plugin gives you the ability to use the WordPress visual editor (TinyMCE) in widgets as you do in posts and pages, but it doesn't affect the editor behavior itself or its functionalities. If you are looking for additional editor features, take a look at plugins like <a href=\"https://wordpress.org/plugins/wp-edit/\">WP Edit</a>, <a href=\"https://wordpress.org/plugins/tinymce-advanced/\">TinyMCE Advanced</a> or any other feature specific plugin you may need. Any additional TinyMCE plugin written following WordPress guidelines should work fine with Black Studio TinyMCE Widget."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fixed bug related to WPML String Translation filters"
+#. Found in faq header.
+msgid "Purpose of the plugin"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Added slovak translation (Contributor: Branco Radenovich)"
+#. Found in installation paragraph.
+msgid "Note: the plugin doesn't have nor requires any settings."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Added ukrainian translation (Contributor: Michael Yunat)"
+#. Found in description paragraph.
+msgid ""
+"The story of the plugin was featured in a talk at WordCamp Europe 2018 in Belgrade.\n"
+"See the video <a href=\"https://wordpress.tv/2018/07/11/francesco-canovi-marco-chiesi-once-upon-a-time-there-was-a-plugin/\">Once upon a time, there was a plugin...</a> on WordPress.tv."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Updated translations"
+#. Found in description paragraph.
+msgid "These features are what makes this plugin better than the WordPress (4.8+) native widget:"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fixed issue on Page Builder Widgets being inadvertently translated"
+#. Found in description paragraph.
+msgid "For years the default WordPress text widget has been very basic and it required HTML knowledge to add formatting and images/media to the text. This plugin was born in 2011 to overcome these limitations. After a long time, in June 2017, version 4.8 of WordPress finally introduced a new text widget that included the ability to manage text widgets with the visual editor. The new widget available in WordPress core could now be used as a basic replacement of Black Studio TinyMCE Widget, but the plugin still offers some additional features, so it remains a must-have for advanced users."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Added filter <code>black_studio_tinymce_widget_additional_fields</code>"
+#. Found in description paragraph.
+msgid "This plugin adds a new <code>Visual Editor</code> widget type that allows you to insert rich text and media objects in your sidebars with no hassle. With Black Studio TinyMCE Widget you will be able to edit your widgets in a WYSIWYG manner using the native WordPress TinyMCE editor, just like you do in posts and pages. And if you are a developer you may still switch back and forth from Visual to HTML mode."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Compatibility update for WPML 3.8"
+#. Found in description list item.
+msgid "Translators can contribute through the <a href=\"https://translate.wordpress.org/projects/wp-plugins/black-studio-tinymce-widget\">Official WordPress Translation platform</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "Follow us on <a href=\"https://twitter.com/blackstudioita\">Twitter</a>, <a href=\"https://www.facebook.com/blackstudiocomunicazione\">Facebook</a>, <a href=\"https://www.linkedin.com/company/black-studio\">LinkedIn</a> and <a href=\"https://github.com/black-studio\">GitHub</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Option to \"Automatically add paragraphs\" to widget text"
+msgstr ""
+
+#. Found in description list item.
+msgid "Support for distraction-free (fullscreen) editing mode "
+msgstr ""
+
+#. Found in description list item.
+msgid "Wide text area for an enhanced editing experience"
+msgstr ""
+
+#. Found in description list item.
+msgid "Translations available in 20+ languages"
+msgstr ""
+
+#. Found in description list item.
+msgid "Compatible with Page Builder plugin by SiteOrigin"
+msgstr ""
+
+#. Found in description list item.
+msgid "Compatible with the most common multi-language plugins"
+msgstr ""
+
+#. Found in description list item.
+msgid "Compatible with multi-site (WordPress networks)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Support for Customizer with live preview and quick edit"
+msgstr ""
+
+#. Found in description list item.
+msgid "Support for shortcodes, smilies and embed in widget text (including preview)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Insert images, videos, and other media from WordPress Media Library"
+msgstr ""
+
+#. Found in description header.
+msgid "About the plugin"
+msgstr ""
+
+#. Found in description header.
+msgid "Basic Features"
+msgstr ""
+
+#. Found in description header.
+msgid "Advanced Features"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -58,42 +116,6 @@ msgid ""
 "<a href=\"https://wpml.org\">WPML</a> is the leading commercial plugin for WordPress multi-language sites.\n"
 "If you're using WPML v3.8 or newer and you need to translate a widget, we recommend to create a separate widget for each language of your site and assign the language to each widget accordingly using the selector \"Display on language\" provided by WPML. This way you will be able to work with the visual editor also for translations.\n"
 "For older versions of WPML (up to 3.7.x), we recommend to install the 3rd party <a href=\"https://wordpress.org/plugins/wpml-widgets/\">WPML Widgets</a> plugin, which provides the same feature described above, that was not available natively on WPML. In the past, we also suggested to translate the widgets using the official WPML String Translation plugin, but this method is now deprecated as it was not very friendly due to the inability of using the visual editor for translations. If you were using WPML String Translation, we recommend to switch to the aforementioned translation method and remove the entries in WPML String Translation list after you moved them to be real widgets. Starting from version 2.6.0 of Black Studio TinyMCE Widget, a warning will be displayed if any deprecated translation is detected."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Hotfix for Page Builder / Elementor compatibility"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added checks on user meta usage (not allowed on VIP)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed compatibility issue with WP Page Widget and WPML (widgets added in a page will not be translated)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed compatibility issue with Elementor Page Builder plugin (auto-disabled when editing a page with Elementor)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed other additional z-index issues on TinyMCE panels"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed additional z-index issues on TinyMCE panels"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added Mexican Spanish translation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed z-index issue on TinyMCE panels"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Prevent JS errors and display warning when visual editor is disabled in profile settings"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -110,14 +132,6 @@ msgid ""
 "    [embed]https://www.youtube.com/watch?v=XXXXXXXXXXX[/embed]\n"
 "Ensure that the URL has not a hyperlink.\n"
 "Alternatively, if you don't want to use <code>[embed]</code> shortcode, ensure that the URL is not surrounded by a <code>&lt;p&gt;</code> tag."
-msgstr ""
-
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "This plugin adds a new <code>Visual Editor</code> widget type that allows you to insert rich text and media objects in your sidebars with no hassle. With Black Studio TinyMCE Widget you will be able to edit your widgets in a WYSIWYG manner using the native WordPress TinyMCE editor, just like you do in posts and pages. And if you are a developer you may still switch back and forth from Visual to HTML mode. For years the default WordPress text widget lacked functionalities and it required HTML knowledge, this plugin was born to overcome these limitations. The recent releases of WordPress (starting from version 4.8 released in June 2017), finally included a native visual text widget, but it's pretty minimal and it doesn't provide all the features available with Black Studio TinyMCE Widget, which still remains a must-have for advanced users."
 msgstr ""
 
 #. Found in description list item.
@@ -139,10 +153,6 @@ msgid ""
 "The appearance of widgets in the frontend depends on both CSS and HTML. This plugin does not insert any additional CSS to your website frontend, so if you need to customize the styling you'll have to do at theme level, or you have to insert explicitly insert <code>&lt;style&gt;</code> in your widget using the Text / HTML mode (this option is not recommended though).\n"
 "As for the HTML, most of the markup is controlled by WordPress and by the theme.\n"
 "The HTML output of a widget includes the following parts:"
-msgstr ""
-
-#. Found in description list item.
-msgid "Follow us on <a href=\"https://twitter.com/blackstudioita\">Twitter</a>, <a href=\"https://www.facebook.com/blackstudiocomunicazione\">Facebook</a> and <a href=\"https://www.linkedin.com/company/black-studio\">LinkedIn</a>"
 msgstr ""
 
 #. Found in description list item.
@@ -282,7 +292,7 @@ msgid "First, ensure you have understood the purpose of the plugin. What this pl
 msgstr ""
 
 #. Found in faq header.
-msgid "Plugin's data location and cleanup"
+msgid "Plugin's data storage and cleanup"
 msgstr ""
 
 #. Found in faq header.
@@ -313,36 +323,32 @@ msgstr ""
 msgid "Troubleshooting"
 msgstr "समस्यानिवारण"
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "This section describes how to install and use the plugin."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Fill in title and (rich) text"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Drag and drop the <code>Visual Editor</code> widget to the desired sidebar (or, if using Accessibility mode, click the <code>Add</code> link)"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Go to <code>Appearance</code> =&gt; <code>Widgets</code>"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Activate the plugin"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Install automatically through the <code>Plugins</code> menu and <code>Add New</code> button (or upload the entire <code>black-studio-tinymce-widget</code> folder to the <code>/wp-content/plugins/</code> directory)"
 msgstr ""
 
 #. Found in description list item.
 msgid "Users can contribute by leaving a 5 stars <a href=\"https://wordpress.org/support/view/plugin-reviews/black-studio-tinymce-widget#postform\">review</a> or making a <a href=\"https://www.blackstudio.it/en/wordpress-plugins/black-studio-tinymce-widget/\">donation</a>."
-msgstr ""
-
-#. Found in description list item.
-msgid "Translators can contribute through <a href=\"https://www.transifex.com/projects/p/black-studio-tinymce-widget/\">Transifex</a>."
 msgstr ""
 
 #. Found in description list item.
@@ -362,27 +368,7 @@ msgid "<a href=\"https://www.blackstudio.it/en/wordpress-plugins/black-studio-ti
 msgstr ""
 
 #. Found in description list item.
-msgid "Available in 20+ languages"
-msgstr ""
-
-#. Found in description list item.
-msgid "Live preview in theme customizer"
-msgstr ""
-
-#. Found in description list item.
-msgid "Support for WPML (multi-language)"
-msgstr ""
-
-#. Found in description list item.
-msgid "Support for WordPress networks (multi-site)"
-msgstr ""
-
-#. Found in description list item.
 msgid "Support for widgets accessibility mode"
-msgstr ""
-
-#. Found in description list item.
-msgid "Support for fullscreen editing mode"
 msgstr ""
 
 #. Found in description list item.
@@ -390,15 +376,11 @@ msgid "Insert links to existing WordPress pages/posts or external resources"
 msgstr ""
 
 #. Found in description list item.
-msgid "Insert images/videos from WordPress Media Library"
-msgstr ""
-
-#. Found in description list item.
 msgid "Switch between Visual mode and HTML mode (including Quicktags toolbar)"
 msgstr ""
 
 #. Found in description list item.
-msgid "Add rich text widgets to your sidebars and edit them using visual editor"
+msgid "Add rich text widgets to your sidebars and edit them using the TinyMCE visual editor"
 msgstr ""
 
 #. Found in description header.
@@ -408,10 +390,6 @@ msgstr ""
 #. Found in description header.
 msgid "Links"
 msgstr "लिंक्स"
-
-#. Found in description header.
-msgid "Features"
-msgstr "वैशिष्ट्ये"
 
 #. Screenshot description.
 msgid "Black Studio TinyMCE Widget combined with WP Edit plugin"
@@ -423,6 +401,102 @@ msgstr ""
 
 #. Screenshot description.
 msgid "Black Studio TinyMCE Widget in Visual mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed compatibility issue with Elementor Page Builder"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed z-index issue with flyout admin menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue that was causing lots of auto-drafts when used in conjunction with WP 5 Block Editor and Page Builder by SiteOrigin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed missing dashicons issue (compatibility with WP 5 Block Editor and Page Builder by SiteOrigin)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed z-index issue causing newly created widgets to go behind admin menu on small screens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated documentation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed buggy positioning on Customizer with large screens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed conflict that was causing widget-specific warning messages to be moved to the top of the page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug related to WPML String Translation filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added slovak translation (Contributor: Branco Radenovich)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ukrainian translation (Contributor: Michael Yunat)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue on Page Builder Widgets being inadvertently translated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter <code>black_studio_tinymce_widget_additional_fields</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility update for WPML 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hotfix for Page Builder / Elementor compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added checks on user meta usage (not allowed on VIP)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed compatibility issue with WP Page Widget and WPML (widgets added in a page will not be translated)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed compatibility issue with Elementor Page Builder plugin (auto-disabled when editing a page with Elementor)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed other additional z-index issues on TinyMCE panels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed additional z-index issues on TinyMCE panels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Mexican Spanish translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed z-index issue on TinyMCE panels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent JS errors and display warning when visual editor is disabled in profile settings"
 msgstr ""
 
 #. Found in changelog list item.

@@ -19,180 +19,12 @@ msgstr ""
 msgid "Yoast SEO"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Adds a margin below select fields so there's space between taxonomy settings for breadcrumbs. Props to <a href=\"https://github.com/emilyatmobtown\">@emilyatmobtown</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Introduces the <code>wpseo_taxonomy_content_fields</code> filter to add additional fields to the taxonomy metabox."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the Search Console page displayed 'first detected' and 'last crawled' dates that were in the future."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the cornerstone content toggle was available for attachment pages."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Removes the superfluous <code>position</code> property from the How-To block's structured data output."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Nests the <code>Question</code> objects in the newly introduced <code>mainEntity</code> property in the FAQ block's structured data output."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Moves the <code>@type</code> and <code>name</code> properties to the root of the FAQ block's structured data output."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Rename the <code>associatedMedia</code> property in the FAQ and How-To block's structured data output to <code>image</code>, to reflect a change in Google's guidelines."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Changes the <code>@context</code> property from <code>http://schema.org</code> to <code>https://schema.org</code> in the FAQ and How-To block's structured data output."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Adds a setting and filter (<code>wpseo_duration_text</code>) to the how-to block that allows users to edit the text describing the time needed."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug that caused keywords beginning with the Turkish characters <code>İ</code> / <code>i</code> and <code>I</code> / <code>ı</code> not to be recognized when changing that character from lowercase to uppercase and vice versa."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the <code>bold</code> button was available in the How-to block's step title and the FAQ block's Question field while they were already bold by default."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where <code>babel-polyfill</code> would throw an error that there shouldn't be two instances of babel-polyfill."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where snippet variables would not be replaced in the <code>og:description</code> of taxonomies when they were added in the Facebook Description input field."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the structured data rendered by the Gutenberg How-To and FAQ blocks was rendered on pages with multiple posts."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the <code>article:published_time</code> and <code>article:modified_time</code> meta properties would be localized. Props to <a href=\"https://github.com/AminulBD\">AminulBD</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where an incorrect time would be outputted in the <code>article:published_time</code> and <code>article:modified_time</code> meta properties when a timezone with numerical UTC offset was used (e.g. UTC+10)."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the Chrome or Opera browser tab would crash on Windows when a Polish text contains sentences in passive voice."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Introduces an API function to get all Yoast SEO-related capabilities. Props to <a href=\"https://github.com/JoryHogeveen\">JoryHogeveen</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Removes the executable bits on SVN assets. Props to <a href=\"https://github.com/mathieu-aubin\">mathieu-aubin</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Uses the correct type as the second argument of the <code>wpseo_sitemap_exclude_empty_terms</code> filter call when determining which taxonomies should have a sitemap. Props to <a href=\"https://github.com/liarco\">liarco</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Adds a colon to the list of possible title separators."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Adds a notice to the Yoast SEO dashboard that is shown when both Yoast SEO and All in One SEO Pack plugins are active."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Makes the duplicate content link on the archive settings open in a new tab. Props to <a href=\"https://github.com/nikhilbarar\">nikhilbarar</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Adds a help text to the readability analysis."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Changes the notification message that is shown when a new SEO-related issue has been found."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a fatal error on the Term and Post edit pages when the server is running on PHP 5.2."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where switching off the SEO analysis would stop the readability analysis from loading."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the readability analysis would not show the correct scores for cornerstone content."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the Gutenberg editor in the Classic Editor plugin would crash when the primary category picker was loaded. If something goes wrong in the primary category picker, it now shows a notification, instead of making the entire editor crash."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the value of the primary category snippet variable in the classic editor wouldn't change when the primary category was changed."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where a non-existing dependency was requested on the Search Appearance settings page."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where snippet variables in the Twitter card title and description wouldn't be properly replaced."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the Yoast SEO network admin menu and admin bar menu would appear when the plugin was only active for the main site, and not for the entire network."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the OpenGraph image wouldn't show correctly for the frontpage in a few situations. Props to <a href=\"https://github.com/mt8\">@mt8</a> for the solution direction."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug with incorrect zooming on older iPhones within the installation wizard."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where the user input would trigger an analysis every time."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes a bug where changing the WordPress slug would not correctly update the snippet editor."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "On Multisite environments, in addition to the site domain, path and ID, also site titles are now present in the site selection dropdowns."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Adds readability analysis for Polish."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Introduces a FAQ block in Gutenberg to list your Frequently Asked Questions in an SEO-friendly way. Read more about the Gutenblocks in [https://yoa.st/gutenblocks](our release post)."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Introduces a How-To block in Gutenberg to create a How-to guide in an SEO-friendly way. Read more about the Gutenblocks in [https://yoa.st/gutenblocks](our release post)."
+#. Found in description list item.
+msgid "<strong>[Premium]</strong> Redirect manager: It keeps your site healthy by easily redirecting deleted pages and changed URLs."
 msgstr ""
 
 #. Found in description paragraph.
 msgid "For more info on search engine optimization, check out the following:"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "For the changelog of earlier versions, please refer to https://yoa.st/yoast-seo-changelog"
 msgstr ""
 
 #. Screenshot description.
@@ -201,10 +33,6 @@ msgstr ""
 
 #. Screenshot description.
 msgid "Overview of site-wide SEO problems and possible improvements."
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "Other:"
 msgstr ""
 
 #. Found in description paragraph.
@@ -216,7 +44,7 @@ msgid "You should also check out the <a href=\"https://yoa.st/1uu\">Yoast Local 
 msgstr ""
 
 #. Found in description paragraph.
-msgid "Note that the <a href=\"https://yoa.st/1v8\">Yoast SEO Premium</a> also has several extra features too, including the option to have multiple focus keyphrases, internal linking suggestions, cornerstone content checks and a redirect manager, so it is well worth your investment!"
+msgid "Note that the <a href=\"https://yoa.st/1v8\">Yoast SEO Premium</a> also has several extra features too, including the option to have synonyms and related keyphrases, internal linking suggestions, cornerstone content checks and a redirect manager, so it is well worth your investment!"
 msgstr ""
 
 #. Found in description paragraph.
@@ -236,10 +64,6 @@ msgid "Need some help with your search engine optimization? Need an SEO plugin t
 msgstr ""
 
 #. Found in description list item.
-msgid "<strong>[Premium]</strong> Redirect manager: It keeps your site healthy by easily redirecting errors from Google Search Console, deleted pages and changed URLs."
-msgstr ""
-
-#. Found in description list item.
 msgid "<strong>[Premium]</strong> Social previews to manage the way your page is shared on social networks like Facebook and Twitter."
 msgstr ""
 
@@ -249,10 +73,6 @@ msgstr ""
 
 #. Found in description list item.
 msgid "Manage SEO roles: Give your colleagues access to specific sections of the Yoast SEO plugin."
-msgstr ""
-
-#. Found in description list item.
-msgid "Integrates with Google Search Console: See how your site performs in the search engines and fix crawl errors."
 msgstr ""
 
 #. Found in description list item.
@@ -268,7 +88,7 @@ msgid "<strong>[Premium]</strong> Automatic internal linking suggestions: write 
 msgstr ""
 
 #. Found in description list item.
-msgid "<strong>[Premium]</strong> Multiple focus keyphrases: Optimize your article for synonyms and related keyphrases."
+msgid "<strong>[Premium]</strong> Synonyms &amp; related keyphrases: Optimize your article for synonyms and related keyphrases."
 msgstr ""
 
 #. Found in description list item.
@@ -423,20 +243,92 @@ msgstr ""
 msgid "The Yoast SEO plugin general meta box. You'll see this on edit post pages, for posts, pages and custom post types."
 msgstr ""
 
-#. Found in changelog paragraph.
-msgid "Release Date: September 11th, 2018"
+#. Found in changelog list item.
+msgid "Fixes missing trailing slash for the homepage on post sitemap. Props to <a href=\"https://github.com/stodorovic\">stodorovic</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moves the primary image for a page out of the <code>WebPage</code> piece into its own graph piece."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updates the Mobile Snippet Preview."
 msgstr ""
 
 #. Found in changelog paragraph.
-msgid "Release Date: September 25th, 2018"
+msgid "Yoast SEO 11.4 is out today. This release features loads of structured data improvements. We’ve improved the way Yoast SEO Schema works with AMP, plus we’ve enhanced our FAQ blocks and added them to the graph. Find out what Yoast SEO 11.4 is all about in <a href=\"https://yoa.st/release-11-4\">our 11.4 release post</a>!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removes a redundant caching call for primary terms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where author Schema would be outputted on author archives when author archives were disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where following links to page fragments would make the Help Center video tab disappear."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where the traffic light icon would be empty when the readability and SEO analysis were disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where the overridden canonical would be used instead of the 'unoverridden' canonical."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where questions without answers would be outputted in the Schema FAQ markup."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug where object cache for <code>WPSEO_Option_Titles</code> would be cleared too often."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moves the focus keyphrase input field to the top of the metabox and sidebar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds links to the SEO and readability scores in the classic editor publish box that make the page scroll to the corresponding analysis in the metabox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimizes the handling of external images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improves the <code>FAQPage</code> Schema markup to adhere to Google's new standards."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduces a new filter <code>wpseo_schema_block_&lt;block-type&gt;</code> which allows filtering graph output per block."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduces a new action <code>wpseo_pre-schema_block-type_&lt;block-type&gt;</code> which allows changing graph output based on the blocks on the page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Yoast SEO now takes control of the Schema output on pages generated by the <a href=\"https://wordpress.org/plugins/amp/\">AMP plugin</a>."
 msgstr ""
 
 #. Found in changelog paragraph.
-msgid "Release Date: September 20th, 2018"
+msgid "For the changelog of earlier versions, please refer to https://yoa.st/yoast-seo-changelog"
 msgstr ""
 
 #. Found in changelog paragraph.
-msgid "Release Date: October 9th, 2018"
+msgid "Other:"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: June 25th, 2019"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Release Date: June 12th, 2019"
 msgstr ""
 
 #. Found in changelog paragraph.

@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:38:21+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:50:24+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -19,6 +19,142 @@ msgstr ""
 
 #. Plugin name.
 msgid "Custom Post Type UI"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "While CPTUI helps solve the problem of creating custom post types, displaying the data gleaned from them can be a whole new challenge. That’s why we created <a href=\"https://pluginize.com/product/custom-post-type-ui-extended/?utm_source=cptui-desription&amp;utm_medium=text&amp;utm_campaign=wporg\">Custom Post Type UI Extended</a>. <a href=\"https://pluginize.com/cpt-ui-extended-features/?utm_source=cptui-description-examples&amp;utm_medium=text&amp;utm_campaign=wporg\">View our Layouts page</a> to see some examples that are available with Custom Post Type UI Extended."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please see http://codex.pluginize.com/cptui/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please see http://docs.pluginize.com/category/126-custom-post-type-ui"
+msgstr ""
+
+#. Found in faq header.
+msgid "Code/API documentation"
+msgstr ""
+
+#. Found in faq header.
+msgid "User documentation"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once done uploading, activate Custom Post Type UI."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click \"Install Now\" button."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click the \"Browse...\" button and select zip file from your computer."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Visit the Add New plugin screen and click the \"Upload Plugin\" button."
+msgstr ""
+
+#. Found in installation header.
+msgid "Admin Installer via zip"
+msgstr ""
+
+#. Found in installation header.
+msgid "Admin Installer via search"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Official development of Custom Post Type UI is on GitHub, with official stable releases published on WordPress.org. The GitHub repo can be found at <a href=\"https://github.com/WebDevStudios/custom-post-type-ui\">https://github.com/WebDevStudios/custom-post-type-ui</a>. Please use the Support tab for potential bugs, issues, or enhancement ideas."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Custom Post Type UI provides an easy to use interface for registering and managing custom post types and taxonomies for your website."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://pluginize.com/?utm_source=cptui&amp;utm_medium=text&amp;utm_campaign=wporg\">Pluginize</a> was launched in 2016 by <a href=\"https://webdevstudios.com/\">WebDevStudios</a> to promote, support, and house all of their <a href=\"https://pluginize.com/shop/?utm_source=cptui-&amp;utm_medium=text&amp;utm_campaign=wporg\">WordPress products</a>. Pluginize is not only <a href=\"https://pluginize.com/product/custom-post-type-ui-extended/?utm_source=cptui&amp;utm_medium=text&amp;utm_campaign=wporg\">creating new products for WordPress all the time, like CPTUI Extended</a>, but also provides ongoing support and development for WordPress community favorites like <a href=\"https://wordpress.org/plugins/cmb2/\">CMB2</a> and more."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click the \"Install Now\" button."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Visit the Add New plugin screen and search for \"custom post type ui\"."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to the \"CPTUI\" Menu."
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual"
+msgstr ""
+
+#. Screenshot description.
+msgid "Get Code screen."
+msgstr ""
+
+#. Screenshot description.
+msgid "Import/Export Post Types screen."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "That's it! Now you can easily start creating custom post types and taxonomies in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the Custom Post Type UI folder to the plugins directory in your WordPress installation."
+msgstr ""
+
+#. Screenshot description.
+msgid "Help/support screen."
+msgstr ""
+
+#. Screenshot description.
+msgid "Registered post types and taxonomies from CPTUI"
+msgstr ""
+
+#. Screenshot description.
+msgid "Add new taxonomy screen and tab."
+msgstr ""
+
+#. Screenshot description.
+msgid "Add new post type screen and tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Updated wording around \"Supports\" section of post type settings screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: \"themes\" is now a reserved post type slug due to conflicts with WordPress internally."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Make \"Show In Rest\" setting default to true taxonomies for sake of easier Gutenberg integration in the future. 1.6.0 had just post types doing this."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Fall back to \"custom-post-type-ui\" textdomain in \"get code\" output if theme does not have their own."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Added note about ability to pass \"false\" for the \"metabox callback\" setting to disable the metabox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Adjusted handling of capitalization on the word \"false\" when being used to disable a taxonomy metabox via the \"metabox callback\" setting. The word \"false\" needs to be all lowercase to disable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Missed quote for \"publicly_queryable\" in taxonomy \"get code\" output."
 msgstr ""
 
 #. Found in changelog list item.
@@ -169,10 +305,6 @@ msgstr ""
 msgid "Added: \"output\" added to blacklisted taxonomy slug list."
 msgstr ""
 
-#. Found in description paragraph.
-msgid "While CPTUI helps solve the problem of creating custom post types, displaying the data gleaned from them can be a whole new challenge. That’s why we created <a href=\"https://pluginize.com/product/custom-post-type-ui-extended/?utm_source=cptui-desription&amp;utm_medium=text&amp;utm_campaign=wporg\">Custom Post Type UI Extended</a>. <a href=\"https://pluginize.com/cpt-ui-extended-features/?utm_source=cptui-description-examples&amp;utm_medium=text&amp;utm_campaign=wporg\">View our Layouts page</a> to see some examples that are available with Custom Post Type UI Extended."
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Fixed: The \"Invalid JSON\" error message was receiving the wrong color indicator for the admin notice."
 msgstr ""
@@ -195,110 +327,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Fixed: Resolved saving issue around post types that matched existing page slugs."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Please see http://codex.pluginize.com/cptui/"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Please see http://docs.pluginize.com/category/126-custom-post-type-ui"
-msgstr ""
-
-#. Found in faq header.
-msgid "Code/API documentation"
-msgstr ""
-
-#. Found in faq header.
-msgid "User documentation"
-msgstr ""
-
-#. Found in installation list item.
-msgid "Once done uploading, activate Custom Post Type UI."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Click \"Install Now\" button."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Click the \"Browse...\" button and select zip file from your computer."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Visit the Add New plugin screen and click the \"Upload Plugin\" button."
-msgstr ""
-
-#. Found in installation header.
-msgid "Admin Installer via zip"
-msgstr ""
-
-#. Found in installation header.
-msgid "Admin Installer via search"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Official development of Custom Post Type UI is on GitHub, with official stable releases published on WordPress.org. The GitHub repo can be found at <a href=\"https://github.com/WebDevStudios/custom-post-type-ui\">https://github.com/WebDevStudios/custom-post-type-ui</a>. Please use the Support tab for potential bugs, issues, or enhancement ideas."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Custom Post Type UI provides an easy to use interface for registering and managing custom post types and taxonomies for your website."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<a href=\"https://pluginize.com/?utm_source=cptui&amp;utm_medium=text&amp;utm_campaign=wporg\">Pluginize</a> was launched in 2016 by <a href=\"https://webdevstudios.com/\">WebDevStudios</a> to promote, support, and house all of their <a href=\"https://pluginize.com/shop/?utm_source=cptui-&amp;utm_medium=text&amp;utm_campaign=wporg\">WordPress products</a>. Pluginize is not only <a href=\"https://pluginize.com/product/custom-post-type-ui-extended/?utm_source=cptui&amp;utm_medium=text&amp;utm_campaign=wporg\">creating new products for WordPress all the time, like CPTUI Extended</a>, but also provides ongoing support and development for WordPress community favorites like <a href=\"https://wordpress.org/plugins/cmb2/\">CMB2</a> and more."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Click the \"Install Now\" button."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Visit the Add New plugin screen and search for \"custom post type ui\"."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Navigate to the \"CPTUI\" Menu."
-msgstr ""
-
-#. Found in installation header.
-msgid "Manual"
-msgstr ""
-
-#. Screenshot description.
-msgid "Get Code screen."
-msgstr ""
-
-#. Screenshot description.
-msgid "Import/Export Post Types screen."
-msgstr ""
-
-#. Found in installation paragraph.
-msgid "That's it! Now you can easily start creating custom post types and taxonomies in WordPress."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Activate the plugin."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Upload the Custom Post Type UI folder to the plugins directory in your WordPress installation."
-msgstr ""
-
-#. Screenshot description.
-msgid "Help/support screen."
-msgstr ""
-
-#. Screenshot description.
-msgid "Registered post types and taxonomies from CPTUI"
-msgstr ""
-
-#. Screenshot description.
-msgid "Add new taxonomy screen and tab."
-msgstr ""
-
-#. Screenshot description.
-msgid "Add new post type screen and tab."
 msgstr ""
 
 #. Found in changelog list item.

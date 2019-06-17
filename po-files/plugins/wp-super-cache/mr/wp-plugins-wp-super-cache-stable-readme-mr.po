@@ -19,82 +19,6 @@ msgstr ""
 msgid "WP Super Cache"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fixed the headings used in the settings page. (#597)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed the admin bar \"Delete Cache\" link. (#589)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes to wpsc_post_transition to avoid a fatal error using get_sample_permalink. (#595)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Bumped the minimum WordPress version to 3.1 to use functions introduced then. (#591)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes for WP-CLI (#587) (#592)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Changes between <a href=\"https://github.com/Automattic/wp-super-cache/compare/1.6.3...1.6.4\">1.6.3 and 1.6.4</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes to headers code (#496)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improve deleting of cache in edit/delete/publish actions (#577)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Avoid a strpos() warning. (#579)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix deleting from the admin bar (#578)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix generation of semaphores when using WP CLI (#576)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "On preload, if deleting a post don't delete the sub directories if it's the homepage. (#573)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Don't clean expired cache files after preload if garbage collection is disabled (#572)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added warnings about DISABLE_WP_CRON (#575)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Really disable garbage collection when timeout = 0 (#571)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added actions to modify cookie and plugin lists. (#582)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added plugin helper functions (#574)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added cookie helper functions (#580)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Changes between <a href=\"https://github.com/Automattic/wp-super-cache/compare/1.6.2...1.6.3\">1.6.2 and 1.6.3</a>"
-msgstr ""
-
 #. Found in faq paragraph.
 msgid "WordPress deletes the plugin folder when it updates a plugin. This is the same with WP Super Cache so any modified files in wp-super-cache/plugins/ will be deleted. You can put your custom plugins in a different directory in a number of ways. You can define the variable $wp_cache_plugins_dir in wp-config.php or wp-content/wp-cache-config.php and point it at a directory outside of the wp-super-cache folder. The plugin will look there for it's plugins. Or if you distribute a plugin that needs to load early you can use the function <code>wpsc_add_plugin( $filename )</code> to add a new plugin wherever it may be. Use <code>wpsc_delete_plugin( $filename )</code> to remove the plugin file. See <a href=\"https://github.com/Automattic/wp-super-cache/pull/574/\">#574</a> or <a href=\"https://odd.blog/2017/10/25/writing-wp-super-cache-plugins/\">this post</a> on writing WP Super Cache plugins."
 msgstr ""
@@ -109,140 +33,12 @@ msgstr ""
 msgid "WP Super Cache has it's own plugin system. This code is loaded when WP Super Cache loads and can be used to change how caching is done. This is before most of WordPress loads so some functionality will not be available. Plugins can be located anywhere that PHP can load them. Add your own plugin by calling wpsc_add_plugin( $name ) where $name is the full filename and path to the plugin. You only need to call that function once to add it. Use wpsc_delete_plugin( $name ) to remove it from the list of loaded plugins."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "For advanced users only. Change the vary and cache control headers. See https://github.com/Automattic/wp-super-cache/pull/555 (#555)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Removed searchengine.php example plugin as it sets a cookie to track users. Still available <a href=\"https://github.com/Automattic/wp-super-cache/blob/4cda5c0f2218e40e118232b5bf22d227fb3206b7/plugins/searchengine.php\">here</a>. (#567)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Check if set_transient() exists before using it. (#565)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Correctly set the .htaccess rules on the main site of a multisite. (#557)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Write directly to the config file to avoid permission problems with wp-content. (#563)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed serving expired supercache files (#562)"
-msgstr ""
-
 #. Found in description paragraph.
 msgid "See <a href=\"https://github.com/Automattic/wp-super-cache/blob/4cda5c0f2218e40e118232b5bf22d227fb3206b7/plugins/searchengine.php\">plugins/searchengine.php</a> as an example I use for my <a href=\"https://odd.blog/no-adverts-for-friends/\">No Adverts for Friends</a> plugin."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Add a notice when settings can't be updated. (#552 and #553)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Handle errors during deactivation/uninstall by email rather than exiting. (#551)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix the name of the WP Crontrol plugin. (#549)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "adding hook (wp_cache_cleared) for full cache purges (#537)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Replace Cron View\" with WP Crontrol because it's still updated. (#546)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Check that HTTP_REFERER exists before checking it. (#544)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Hide opcache_invalidate() warnings since it's disabled some places. (#543)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add ipad to mobile list (#525)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Tiny Yslow description fix (#527)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Expert-caching and empty parameters, like ?amp, should not serve cached page (#533)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Various fixes for saving the debug page form (#542)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Post Update now clears category cache (#519)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Cleanup cache enable/disable and update_mod_rewrite_rules (#500)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WPCACHEHOME has a trailing slash (#513)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Optimize wp_cache_phase2 and create wpsc_register_post_hooks (#508)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add check for Jetpack mobile theme cookie (#515)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Correct the renaming of tmp_wpcache_filename (removed unnecessary slash in path) which caused renaming to fail. (#516)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix 'cannot redeclare gzip_accepted()' (#511)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "$htaccess_path defines the path to the global .htacess file. (#507)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Cleanup - change quotes. (#495)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixes wp-cli plugin deactivate/activate (#499)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix issues in multisite plugin (#501)"
-msgstr ""
-
 #. Found in description list item.
 msgid "Set the variable $htaccess_path in wp-config.php or wp-cache-config.php to the path of your global .htaccess if the plugin is looking for that file in the wrong directory. This might happen if you have WordPress installed in an unusual way."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "All changes: https://github.com/Automattic/wp-super-cache/compare/1.5.8...1.5.9"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Lots of WordPress coding style formatting fixes to the code."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed the dynamic caching test plugin because of PHP7 changes. Dynamic cache mode must be enabled now."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed fatal error if the debug log was deleted while debugging was enabled and a visitor came to the site."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -274,280 +70,6 @@ msgstr ""
 
 #. Found in description header.
 msgid "Development"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Hide mod_rewrite warnings for Nginx users. #434"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed more PHP warnings in #438 and #437"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "If preload stalls only send one email per day, but do display an admin notice. (#432)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Use SERVER_PROTOCOL to determine http protocol. (#412 &amp; #413)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add more escaping to the CDN settings page. (#416)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed link to chmod explanation. (#421)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Don't make AJAX requests anonymous. (#423)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Allow static functions in classes to be used in cacheactions. (#425)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "If a url has a \"?\" in it then don't delete the associated cache. It'll delete the whole cache after stripping out ?... part. (#427 &amp; #420)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Check that wp-cache-phase1.php is loaded before saving settings page. (#428)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Only register uninstall function in admin pages to save queries. (#430)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix debug comments checkbox. (#433)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "PHP 7 fixes. (#429)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Generate a list of archive feeds that can be deleted when the site is updated. Also fixes corrupted config file issue and fatal error with older versions of WordPress. (#403)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Don't preload posts with permalinks that contain rejected strings. (#407)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "If the HTTP HOST is empty then don't use it in strpos to avoid a PHP warning. (#408)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix fatal error in plugins/searchengine.php (#398)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Minor changes to description on plugins page. (#393)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix some PHP notices when comments are edited/published/maintained. (#386)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added the \"wpsc_enable_wp_config_edit\" filter to disable editing the wp-config.php (#392)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Use trigger_error() instead of echoing to the screen if a config file isn't writeable. (#394)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix problem deleting cache from admin bar because of realpath() (#381)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "realpath() only works on directories. The cache_file wasn't set correctly. (#377)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Don't set $wp_super_cache_comments here as it's not saved. (#379)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Minor changes to indentaion and spaces to tabs conversion (#371) (#395)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "REST API: Added /plugins endpoint to handle the plugins settings page. (#382)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added missing settings to the config file. (#360)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Avoid PHP warnings from the REST API for settings that are not yet defined. (#361)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "When preloading don't delete sub-directories, or child pages, when caching pages. (#363)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix caching on older WP installs, and if the plugin is inactive on a blog, but still caching, give feeds a short TTL to ensure they're fresh. (#366)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Catch fatal errors so they're not cached, improve code that catches unknown page types. (#367)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Other minor changes to html or typos\n"
-"(Numbers are <a href=\"https://github.com/Automattic/wp-super-cache/pulls\">pull requests</a> on Github.)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Use realpath to compare directories when loading the sample config file to account for symlinked directories. (#342)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Move the nonce in the CDN page back into a function. (#346)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix cache contents in REST API showing double count of supercache files. (#353)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Return the correct cache type to the REST API. Ignore supercache enabled status. (#352)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Make sure the debug log exists before toggling it on/off to ensure the http auth code is added to it."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Save cache location correctly on the advanced settings page. (#345)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Better define a sitemap (#340) but when the content type is unknown add more checks to find out what it is. (#346)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Use a cached feed if it is newer than the last time a post was updated. (#337)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Better notifications on Preload page, and redo sql to fetch posts. Added \"wpsc_preload_post_types_args\" filter on post visibility, and wpsc_preload_post_types filter on post types used. (#336)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Show plugin activity html comments to users who disable caching for logged in users. (#335)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Don't enable and then not save debug comments when toggling logging. (#334)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add siteurl setting to CDN page for users who have WordPress in it's own directory. (#332)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add more checks on directories to make sure they exist before deleting them. (#324)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Disable Jetpack mobile detection if Jetpack Beta is detected. (#298)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Deleting the plugin doesn't need to delete the cache directory as it's already done on deactivation. (#323)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix messages related to creating advanced-cache.php (#355, #354)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix a critical bug that caused unlink to be run on null while deleting the plugin."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "\"Served by\" header is now optional. Enable it by setting $wpsc_served_header to true in the config file."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added more information for when updating the .htaccess file fails."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Stop preload quicker when requested while preloading taxonomies."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added note to CDN page when site url != home url. Site owners can use a filter to adjust the URL used."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Reverted CDN changes in 1.5.0 as they caused problems in older \"WordPress in a separate directory\" installs."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed directory checks on Windows machines."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fixed mobile browser caching when using WP-Cache caching."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Load the REST API code without using WPCACHEHOME."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Check that WPCACHEHOME is the right path on each load of the settings page."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Delete WPCACHEHOME and WP_CACHE from wp-config.php when plugin deactivated."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add a trailing slash to home path. Fixes problems with finding the .htaccess file."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Don't use multibyte string functions because some sites don't have it enabled."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Check that REST API Controller is available before loading the REST API."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Don't use anonymous functions in REST API"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Lots of bug fixes."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Caching of more http headers."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WP-Cache files reorganised."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Simplified settings page."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "REST API settings endpoints."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -643,10 +165,6 @@ msgstr ""
 msgid "If that doesn't work, add this line to your wp-config.php:"
 msgstr ""
 
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
 #. Found in faq paragraph.
 msgid "Go to Settings -&gt; WP Super Cache and look for the \"Cache Tester\" form on the easy settings page. Click \"Test Cache\" and the plugin will request the front page of the site twice, comparing a timestamp on each to make sure they match."
 msgstr ""
@@ -655,7 +173,7 @@ msgstr ""
 msgid "If your server is running into trouble because of the number of semaphores used by the plugin it's because your users are using file locking which is not recommended (but is needed by a small number of users). You can globally disable file locking by defining the constant WPSC_DISABLE_LOCKING, or defining the constant WPSC_REMOVE_SEMAPHORE so that sem_remove() is called after every page is cached but that seems to cause problems for other processes requesting the same semaphore. Best to disable it."
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "Install like any other plugin, directly from your plugins page but make sure you have custom permalinks enabled. Go to the plugin settings page at Settings-&gt;WP Super Cache and enable caching."
 msgstr ""
 
@@ -726,11 +244,11 @@ msgstr ""
 msgid "A Content Delivery Network (CDN) is usually a network of computers situated around the world that will serve the content of your website faster by using servers close to you. Static files like images, Javascript and CSS files can be served through these networks to speed up how fast your site loads. You can also create a \"poor man's CDN\" by using a sub domain of your domain to serve static files too."
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "To manually uninstall:"
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
+#. Found in installation paragraph.
 msgid "Almost all you have to do is deactivate the plugin on the plugins page. The plugin should clean up most of the files it created and modified, but it doesn't as yet remove the mod_rewrite rules from the .htaccess file. Look for the section in that file marked by SuperCache BEGIN and END tags. The plugin doesn't remove those because some people add the WordPress rules in that block too."
 msgstr ""
 
@@ -746,43 +264,43 @@ msgstr ""
 msgid "'wp_cache_get_cookies_values' - modify the key used by WP Cache."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Optionally delete advanced-cache.php, wp-cache-config.php and the cache folder in wp-content/."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Delete the wp-super-cache folder in the plugins folder."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Remove the rules (see above) that the plugin wrote to the .htaccess file in your root directory."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Remove the directory wp-super-cache from your plugins directory."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Remove the directory wp-content/cache/"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Remove the files wp-content/advanced-cache.php and wp-content/wp-cache-config.php"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Remove the Super Cache mod_rewrite rules from your .htaccess file."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Remove the WP_CACHE define from wp-config.php. It looks like <code>define( 'WP_CACHE', true );</code>"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Deactivate the plugin on the plugins page."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Turn off caching on the plugin settings page and clear the cache."
 msgstr ""
 
@@ -794,11 +312,11 @@ msgstr ""
 msgid "CDN"
 msgstr ""
 
-#. Found in installation header, faq header.
+#. Found in installation header.
 msgid "If all else fails and your site is broken"
 msgstr ""
 
-#. Found in installation header, faq header.
+#. Found in installation header.
 msgid "How to uninstall WP Super Cache"
 msgstr ""
 
@@ -1132,6 +650,584 @@ msgstr ""
 
 #. Found in description header.
 msgid "Recommended Settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check if $super_cache_enabled is true in a less strict way because it might be '1' rather than true. #677"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "wp_cache_setting() can now save boolean values since many of the settings are bools. #676"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix adding WPCACHEHOME to wp-config.php when advanced-cache.php is not found and wp-config.php is RO. (#674)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When saving settings rename the temporary config file correctly, and delete wp-admin/.php if it exists. (#673)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix problems with saving settings. Returns false ONLY when there's an issue with the config file, not when the setting isn't changed. Change other code to cope with that, including updating WPCACHEHOME (#670)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Promote the Jetpack Site Accelerator on the CDN page. (#636)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Open ‘Delete Cache’ link in same window (#656)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Combine multiple headers with the same name (#641)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Serve cached files to rejected user agents, don't cache them. (#658)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only update new settings and use a temporary file to avoid corruption. (#652)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes regex and optimizes ossdl-cdn.php (#596)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introduces PHP_VERSION_ID for faster checking (#604)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHPCS fixes and optimization for plugins/domain-mapping.php (#615)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't load wp-cache-config.php if it's already loaded (#605)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the link to the HibbsLupusTrust tweet. (#635)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes action urls in wp_cache_manager (#610)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Function is_site_admin has been deprecated (#611)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removes apache_response_headers and uses only headers_list (#618)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes button - Update Direct Pages (#622)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use get_post_status instead of post_status (#623)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code cleanup in #602"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the delete cache button in the admin bar. (#603)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update outdated code and use is_multisite() (#600)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When saving settings, save blank lines. Fixes problems with WP_CACHE and WPCACHEHOME in wp-config.php. Related to #652. (#667)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check advanced-cache.php was created by the plugin before modifying/deleting it. (#666)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the headings used in the settings page. (#597)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the admin bar \"Delete Cache\" link. (#589)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes to wpsc_post_transition to avoid a fatal error using get_sample_permalink. (#595)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bumped the minimum WordPress version to 3.1 to use functions introduced then. (#591)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes for WP-CLI (#587) (#592)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes between <a href=\"https://github.com/Automattic/wp-super-cache/compare/1.6.3...1.6.4\">1.6.3 and 1.6.4</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes to headers code (#496)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve deleting of cache in edit/delete/publish actions (#577)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avoid a strpos() warning. (#579)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix deleting from the admin bar (#578)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix generation of semaphores when using WP CLI (#576)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "On preload, if deleting a post don't delete the sub directories if it's the homepage. (#573)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't clean expired cache files after preload if garbage collection is disabled (#572)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added warnings about DISABLE_WP_CRON (#575)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Really disable garbage collection when timeout = 0 (#571)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added actions to modify cookie and plugin lists. (#582)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added plugin helper functions (#574)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added cookie helper functions (#580)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes between <a href=\"https://github.com/Automattic/wp-super-cache/compare/1.6.2...1.6.3\">1.6.2 and 1.6.3</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For advanced users only. Change the vary and cache control headers. See https://github.com/Automattic/wp-super-cache/pull/555 (#555)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed searchengine.php example plugin as it sets a cookie to track users. Still available <a href=\"https://github.com/Automattic/wp-super-cache/blob/4cda5c0f2218e40e118232b5bf22d227fb3206b7/plugins/searchengine.php\">here</a>. (#567)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check if set_transient() exists before using it. (#565)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Correctly set the .htaccess rules on the main site of a multisite. (#557)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Write directly to the config file to avoid permission problems with wp-content. (#563)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed serving expired supercache files (#562)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a notice when settings can't be updated. (#552 and #553)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Handle errors during deactivation/uninstall by email rather than exiting. (#551)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the name of the WP Crontrol plugin. (#549)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adding hook (wp_cache_cleared) for full cache purges (#537)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace Cron View\" with WP Crontrol because it's still updated. (#546)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check that HTTP_REFERER exists before checking it. (#544)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide opcache_invalidate() warnings since it's disabled some places. (#543)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add ipad to mobile list (#525)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tiny Yslow description fix (#527)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Expert-caching and empty parameters, like ?amp, should not serve cached page (#533)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various fixes for saving the debug page form (#542)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Post Update now clears category cache (#519)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleanup cache enable/disable and update_mod_rewrite_rules (#500)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WPCACHEHOME has a trailing slash (#513)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimize wp_cache_phase2 and create wpsc_register_post_hooks (#508)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add check for Jetpack mobile theme cookie (#515)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Correct the renaming of tmp_wpcache_filename (removed unnecessary slash in path) which caused renaming to fail. (#516)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix 'cannot redeclare gzip_accepted()' (#511)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "$htaccess_path defines the path to the global .htacess file. (#507)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cleanup - change quotes. (#495)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes wp-cli plugin deactivate/activate (#499)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issues in multisite plugin (#501)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "All changes: https://github.com/Automattic/wp-super-cache/compare/1.5.8...1.5.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lots of WordPress coding style formatting fixes to the code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the dynamic caching test plugin because of PHP7 changes. Dynamic cache mode must be enabled now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed fatal error if the debug log was deleted while debugging was enabled and a visitor came to the site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide mod_rewrite warnings for Nginx users. #434"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed more PHP warnings in #438 and #437"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If preload stalls only send one email per day, but do display an admin notice. (#432)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use SERVER_PROTOCOL to determine http protocol. (#412 &amp; #413)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add more escaping to the CDN settings page. (#416)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed link to chmod explanation. (#421)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't make AJAX requests anonymous. (#423)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow static functions in classes to be used in cacheactions. (#425)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If a url has a \"?\" in it then don't delete the associated cache. It'll delete the whole cache after stripping out ?... part. (#427 &amp; #420)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check that wp-cache-phase1.php is loaded before saving settings page. (#428)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only register uninstall function in admin pages to save queries. (#430)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix debug comments checkbox. (#433)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP 7 fixes. (#429)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Generate a list of archive feeds that can be deleted when the site is updated. Also fixes corrupted config file issue and fatal error with older versions of WordPress. (#403)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't preload posts with permalinks that contain rejected strings. (#407)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If the HTTP HOST is empty then don't use it in strpos to avoid a PHP warning. (#408)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix fatal error in plugins/searchengine.php (#398)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor changes to description on plugins page. (#393)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix some PHP notices when comments are edited/published/maintained. (#386)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the \"wpsc_enable_wp_config_edit\" filter to disable editing the wp-config.php (#392)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use trigger_error() instead of echoing to the screen if a config file isn't writeable. (#394)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix problem deleting cache from admin bar because of realpath() (#381)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "realpath() only works on directories. The cache_file wasn't set correctly. (#377)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't set $wp_super_cache_comments here as it's not saved. (#379)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor changes to indentaion and spaces to tabs conversion (#371) (#395)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "REST API: Added /plugins endpoint to handle the plugins settings page. (#382)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing settings to the config file. (#360)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avoid PHP warnings from the REST API for settings that are not yet defined. (#361)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When preloading don't delete sub-directories, or child pages, when caching pages. (#363)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix caching on older WP installs, and if the plugin is inactive on a blog, but still caching, give feeds a short TTL to ensure they're fresh. (#366)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Catch fatal errors so they're not cached, improve code that catches unknown page types. (#367)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Other minor changes to html or typos\n"
+"(Numbers are <a href=\"https://github.com/Automattic/wp-super-cache/pulls\">pull requests</a> on Github.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use realpath to compare directories when loading the sample config file to account for symlinked directories. (#342)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Move the nonce in the CDN page back into a function. (#346)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix cache contents in REST API showing double count of supercache files. (#353)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Return the correct cache type to the REST API. Ignore supercache enabled status. (#352)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure the debug log exists before toggling it on/off to ensure the http auth code is added to it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Save cache location correctly on the advanced settings page. (#345)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better define a sitemap (#340) but when the content type is unknown add more checks to find out what it is. (#346)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use a cached feed if it is newer than the last time a post was updated. (#337)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better notifications on Preload page, and redo sql to fetch posts. Added \"wpsc_preload_post_types_args\" filter on post visibility, and wpsc_preload_post_types filter on post types used. (#336)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show plugin activity html comments to users who disable caching for logged in users. (#335)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't enable and then not save debug comments when toggling logging. (#334)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add siteurl setting to CDN page for users who have WordPress in it's own directory. (#332)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add more checks on directories to make sure they exist before deleting them. (#324)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable Jetpack mobile detection if Jetpack Beta is detected. (#298)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deleting the plugin doesn't need to delete the cache directory as it's already done on deactivation. (#323)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix messages related to creating advanced-cache.php (#355, #354)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a critical bug that caused unlink to be run on null while deleting the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Served by\" header is now optional. Enable it by setting $wpsc_served_header to true in the config file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more information for when updating the .htaccess file fails."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stop preload quicker when requested while preloading taxonomies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added note to CDN page when site url != home url. Site owners can use a filter to adjust the URL used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reverted CDN changes in 1.5.0 as they caused problems in older \"WordPress in a separate directory\" installs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed directory checks on Windows machines."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed mobile browser caching when using WP-Cache caching."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Load the REST API code without using WPCACHEHOME."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check that WPCACHEHOME is the right path on each load of the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delete WPCACHEHOME and WP_CACHE from wp-config.php when plugin deactivated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a trailing slash to home path. Fixes problems with finding the .htaccess file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't use multibyte string functions because some sites don't have it enabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check that REST API Controller is available before loading the REST API."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't use anonymous functions in REST API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Lots of bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Caching of more http headers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP-Cache files reorganised."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplified settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "REST API settings endpoints."
 msgstr ""
 
 #. Found in changelog list item.

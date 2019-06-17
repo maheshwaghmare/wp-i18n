@@ -11,41 +11,145 @@ msgstr ""
 "Language: mr\n"
 "Project-Id-Version: Plugins - ManageWP Worker - Development (trunk)\n"
 
-#. Author of the plugin/theme
-msgid "ManageWP"
+#: functions.php:825
+msgid "Every 5 Minutes"
 msgstr ""
 
-#. Description of the plugin/theme
-msgid "ManageWP Worker plugin allows you to manage your WordPress sites from one dashboard. Visit <a href=\"https://managewp.com\">ManageWP.com</a> for more information."
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:148
+msgid "The automatic login token isn't properly signed. Please contact our support for help."
 msgstr ""
 
-#. #-#-#-#-#  tmp-worker.pot (ManageWP - Worker 4.1.17)  #-#-#-#-#
-#. Plugin URI of the plugin/theme
-#. #-#-#-#-#  tmp-worker.pot (ManageWP - Worker 4.1.17)  #-#-#-#-#
-#. Author URI of the plugin/theme
+#: functions.php:1097
+msgid "The site is currently in maintenance mode."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:395
+msgid "Currently loaded keys:"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:378
+msgid "Copy"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:370
+msgid "Connection key:"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:357
+msgid "Disconnect"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:338
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:350
+msgid "N/A"
+msgstr ""
+
+#. translators: the variable is going to contain a human time difference string
+#. like "2 days"
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:335
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:347
+msgid "%s ago"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:322
+msgid "Last Used"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:318
+msgid "Connected"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:314
+msgid "ID"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:307
+msgid "Here is the list of currently active connections to this plugin:"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:300
+msgid "Enter this website's URL. When prompted, paste the connection key."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:286
+msgid "Copy the connection key below."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:282
+msgid "Install and activate the <b>Worker</b> plugin."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:277
+msgid "Manual"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:271
+msgid "Enter this website's URL, admin username and password, and the system will take care of everything."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:266
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:296
+msgid "Click the Add website icon at the top left."
+msgstr ""
+
+#. translators: the first variable is a link to managewp.com and the second
+#. variable is a link to godaddy.com/pro
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:262
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:292
+msgid "Log into your <a href=\"%1$s\" target=\"_blank\">ManageWP</a> or <a href=\"%2$s\" target=\"_blank\">Pro Sites</a> account."
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:255
+msgid "Automatic"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:250
+msgid "There are two ways to connect your website to the management dashboard:"
+msgstr ""
+
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:203
+#: src/MWP/EventListener/PublicRequest/AddConnectionKeyInfo.php:432
+msgid "Connection Management"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://godaddy.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""
+
+#. Description of the plugin
+msgid "We help you efficiently manage all your WordPress websites. <strong>Updates, backups, 1-click login, migrations, security</strong> and more, on one dashboard. This service comes in two versions: standalone <a href=\"https://managewp.com\">ManageWP</a> service that focuses on website management, and <a href=\"https://godaddy.com/pro\">GoDaddy Pro</a> that includes additional tools for hosting, client management, lead generation, and more."
+msgstr ""
+
+#. Plugin URI of the plugin
 msgid "https://managewp.com"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "ManageWP - Worker"
 msgstr ""
 
-#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:95
+#. translators: the variable in this string is the WordPress username that
+#. could not be found
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:159
 msgid "User <strong>%s</strong> could not be found."
 msgstr ""
 
-#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:89
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:152
 msgid "The automatic login token is invalid. Please check if this website is properly connected with your dashboard, or, if this keeps happening, contact support."
 msgstr ""
 
-#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:78
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:128
 msgid "The automatic login token was already used. Please try again, or, if this keeps happening, contact support."
 msgstr ""
 
-#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:76
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:126
 msgid "The automatic login token has expired. Please try again, or, if this keeps happening, contact support."
 msgstr ""
 
-#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:74
+#: src/MWP/EventListener/PublicRequest/AutomaticLogin.php:124
 msgid "The automatic login token is invalid. Please try again, or, if this keeps happening, contact support."
 msgstr ""

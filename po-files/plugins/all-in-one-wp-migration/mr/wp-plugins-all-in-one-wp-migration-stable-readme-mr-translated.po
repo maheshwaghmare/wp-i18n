@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:00:39+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:29:10+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -21,28 +21,8 @@ msgstr ""
 msgid "All-in-One WP Migration"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Restore a backup is now in Unlimited Extension"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "WP CLI support is now in Unlimited Extension"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "File import has been moved to its own free extension"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Display processed database records on large tables"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for Muffin Builder 2.0"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for WebDAV"
+#. Found in description list item.
+msgid "<a href=\"https://servmask.com/products/s3-client-extension\">S3 Client</a>"
 msgstr ""
 
 #. Found in description list item.
@@ -57,116 +37,24 @@ msgstr ""
 msgid "WP-CLI Integration is available in Unlimited Extension"
 msgstr ""
 
-#. Found in changelog paragraph.
-msgid "<strong>Removed</strong>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "sanitize_option_siteurl and sanitize_option_home filters during import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Respect user's profile language choice when localizing the plugin"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for pCloud"
-msgstr ""
-
 #. Found in description list item.
 msgid "<a href=\"https://servmask.com/products/pcloud-extension\">pCloud</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for BeTheme Responsive"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for Amazon Glacier"
 msgstr ""
 
 #. Found in description list item.
 msgid "<a href=\"https://servmask.com/products/amazon-glacier-extension\">Amazon Glacier</a>"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "WP-CLI export/import missing data"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Serialization in PHP 7.2"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Missing  entry in the web.config file"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "URL replacement in Bitnami"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Table prefix replacement on import in limited corner cases"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fully localized the export, import, and restore processes"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for LiteSpeed web server"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "The plugin incorrectly reports Disk is full on some hostings"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for Microsoft Azure Storage"
-msgstr ""
-
 #. Found in description list item.
 msgid "<a href=\"https://servmask.com/products/microsoft-azure-storage-extension\">Microsoft Azure Storage</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Improvements to the export and import process"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for Google Cloud Storage"
 msgstr ""
 
 #. Found in description list item.
 msgid "<a href=\"https://servmask.com/products/google-cloud-storage-extension\">Google Cloud Storage</a>"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Small improvements to the export process"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for Backblaze B2"
-msgstr ""
-
 #. Found in description list item.
 msgid "<a href=\"https://servmask.com/products/backblaze-b2-extension\">Backblaze B2</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Text on import steps"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Disable My Custom Widgets, WPS Hide Login and Endurance Page Cache plugins after restoring a backup"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for RTL languages"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Privacy policy section and link to GDPR Compliant Privacy Policy"
 msgstr ""
 
 #. Found in description paragraph.
@@ -177,236 +65,20 @@ msgstr ""
 msgid "Privacy Policy"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Rename DigitalOcean to DigitalOcean Spaces Extension"
-msgstr ""
-
 #. Found in description list item.
 msgid "DigitalOcean"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Database regex pattern for parsing SQL queries"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for DigitalOcean Extension"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Notification class for sending emails on error (export/import)"
 msgstr ""
 
 #. Found in description list item.
 msgid "<a href=\"https://servmask.com/products/digitalocean-spaces-extension\">DigitalOcean Spaces</a>"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Table prefix replacement of subsite options table on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New plugin icons on WP Admin Updates page"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Deactivate Invisible reCaptcha plugin on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Deactivate Jetpack SSO module on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Remove disabled cancel button on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "🇯🇵 Japanese translation on Backups page"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Wrong next backup date on Settings page"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Warning message when export site is using PHP 5.x and import site is using PHP 7.x"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Responsive design on export/import dropdown"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Confirmation message on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "SQL regex pattern on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Technical message if db server is SQL Server on export/import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Technical message if PHP is 32bit and backup is larger than 2GB on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for Mega Extension"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Disable wp-force-ssl plugin if current site is not SSL based on import"
-msgstr ""
-
 #. Found in description list item.
 msgid "<a href=\"https://servmask.com/products/mega-extension\">Mega</a>"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Tested up to WordPress 4.9"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "New button icons for cloud extensions"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for Azure db on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Disable wordpress-https plugin if current site is not SSL based on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for WP-CLI"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Disable really-simple-ssl plugin if current site is not SSL based on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Issue with files on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Remove WP CLI commands on PHP 5.2 and below"
-msgstr ""
-
 #. Found in description list item.
 msgid "<a href=\"https://help.servmask.com/knowledgebase/cli-integration/\">WP-CLI Integration Documentation</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Skip files that contain new line on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Do not clear cache on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Added loading indicator to feedback and report a problem forms"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Text placeholders of first find/replace inputs on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Wrong path network drive replacement (Windows)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Wrong blogs.dir URL replacement"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support IE11"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "A cancel button on import confirm step"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support sub directories on Backups page"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Symlink directories on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Directory separator of archiver on Windows"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Move COMMIT condition after processing all table records"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Display 2GB+ value if file size cannot be obtained on Backups page"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Chunking mechanism when adding database.sql to wpress file on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Percentage indicator on \"Unpacking archive\" step"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Use late row lookup to perform database export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Relative URLs instead of absolute URLs when loading fonts and images"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Buffered queries instead of unbuffered queries"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Warn the user when web server configuration files are not created"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Incorrect subsite path replacement on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Remove temporary files on error"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Wrong file size in wpress file on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Remove \"Unable to authenticate with secret key\" message"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "More descriptive wpress file names on export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Validation on leave feedback, report issue and delete backup actions"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Stuck on preparing to import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Plugin description in readme.txt"
 msgstr ""
 
 #. Found in installation paragraph.
@@ -493,102 +165,6 @@ msgstr ""
 
 #. Found in description header.
 msgid "No limitations on host or operating system"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Unable to load CSS and JS when event hook contains capital letters"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Escape Find/Replace values on import"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<strong>Changed</strong>"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<strong>Fixed</strong>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Plugin tags and description"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "An issue on export/import when using HipHop for PHP"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Import database chunk by chunk to avoid timeout limitation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Activate template and stylesheet on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Detect Site URL and Home URL in Find/Replace values"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Replace TYPE with ENGINE keyword on database export"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Shutdown handler to catch fatal errors"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Progress indicator on database export/import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Confirmation mechanism when uploading chunk by chunk on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Internal Site URL and Internal Home URL in package.json"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Find/Replace values in package.json"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "PHP and DB version metadata in package.json"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Validation mechanism on export/import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Better mechanism when enumerating files on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Invalid secret key check on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Domain replacement on import"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Site URL and Home URL replacement in JSON data"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Support for MariaDB"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Elementor plugin support"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<strong>Added</strong>"
 msgstr ""
 
 #. Found in description list item.
@@ -733,6 +309,590 @@ msgstr ""
 
 #. Screenshot description.
 msgid "Mobile Export page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Download button position"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "ARIA support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delete failed import/exports older than 24 hours"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove the cleanup of failed imports. It causes some of the imports to fail"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed emoticon from Import success screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wait 5 seconds longer for servers to process export/import jobs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Decrease memory use during export and import of the database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feedback option from the sidebar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the speed of exporting the database"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simplified the text on successful import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Workaround for PHP 7.3.2 bug when database export uses more memory https://bugs.php.net/bug.php?id=77597"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reverted monkey-patched fix for some GoDaddy hosting plans. The issue was fixed by GoDaddy yesterday"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with some of GoDaddy hosting plans"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved URL replacement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP notice on custom backup labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Table data type issue on export/import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translation text on Import page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for OptimizePress"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom backup labels on Backups page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP CLI issue on export/import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for MySQL BIT field type"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to WordPress 5.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed Math_BigInteger class which was causing issues with other plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set the type of backup file during download via HTML attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for WordPress 3.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable Join My Multisite, MultiSite Clone Duplicator and WordPress MU Domain Mapping plugins after restoring a backup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Check for minimum required extension version on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feedback form on settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for PHP 7.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Design issue with localized download button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for S3 Compatible Storage Providers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to WordPress 5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corner case table prefix on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional escape characters from folder names"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The restore a backup message explains to users how to restore their backups without having to use an premium extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for wp-simple-firewall"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for force-https-littlebizzy plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clean storage directory of files and folders created more than 24 hours ago"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "File import has been re-added with limits imposed by server using wp_max_upload_size(). This article describes how to adjust the limits <a href=\"https://help.servmask.com/2018/10/27/how-to-increase-maximum-upload-file-size-in-wordpress/\">How-to: Increase maximum upload file size</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Restore a backup is now in Unlimited Extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP CLI support is now in Unlimited Extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "File import has been moved to its own free extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Display processed database records on large tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for Muffin Builder 2.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for WebDAV"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Removed</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "sanitize_option_siteurl and sanitize_option_home filters during import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Respect user's profile language choice when localizing the plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for pCloud"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for BeTheme Responsive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for Amazon Glacier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP-CLI export/import missing data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Serialization in PHP 7.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Missing  entry in the web.config file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "URL replacement in Bitnami"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Table prefix replacement on import in limited corner cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fully localized the export, import, and restore processes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for LiteSpeed web server"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The plugin incorrectly reports Disk is full on some hostings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for Microsoft Azure Storage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvements to the export and import process"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for Google Cloud Storage"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small improvements to the export process"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for Backblaze B2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Text on import steps"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable My Custom Widgets, WPS Hide Login and Endurance Page Cache plugins after restoring a backup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for RTL languages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Privacy policy section and link to GDPR Compliant Privacy Policy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rename DigitalOcean to DigitalOcean Spaces Extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Database regex pattern for parsing SQL queries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for DigitalOcean Extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Notification class for sending emails on error (export/import)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Table prefix replacement of subsite options table on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New plugin icons on WP Admin Updates page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deactivate Invisible reCaptcha plugin on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deactivate Jetpack SSO module on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove disabled cancel button on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "🇯🇵 Japanese translation on Backups page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wrong next backup date on Settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Warning message when export site is using PHP 5.x and import site is using PHP 7.x"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Responsive design on export/import dropdown"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmation message on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SQL regex pattern on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Technical message if db server is SQL Server on export/import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Technical message if PHP is 32bit and backup is larger than 2GB on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for Mega Extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable wp-force-ssl plugin if current site is not SSL based on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested up to WordPress 4.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New button icons for cloud extensions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for Azure db on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable wordpress-https plugin if current site is not SSL based on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for WP-CLI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable really-simple-ssl plugin if current site is not SSL based on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Issue with files on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove WP CLI commands on PHP 5.2 and below"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Skip files that contain new line on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Do not clear cache on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added loading indicator to feedback and report a problem forms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Text placeholders of first find/replace inputs on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wrong path network drive replacement (Windows)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wrong blogs.dir URL replacement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support IE11"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A cancel button on import confirm step"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support sub directories on Backups page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Symlink directories on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Directory separator of archiver on Windows"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Move COMMIT condition after processing all table records"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Display 2GB+ value if file size cannot be obtained on Backups page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Chunking mechanism when adding database.sql to wpress file on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Percentage indicator on \"Unpacking archive\" step"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use late row lookup to perform database export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Relative URLs instead of absolute URLs when loading fonts and images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Buffered queries instead of unbuffered queries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Warn the user when web server configuration files are not created"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Incorrect subsite path replacement on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove temporary files on error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Wrong file size in wpress file on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove \"Unable to authenticate with secret key\" message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More descriptive wpress file names on export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Validation on leave feedback, report issue and delete backup actions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stuck on preparing to import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin description in readme.txt"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Unable to load CSS and JS when event hook contains capital letters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Escape Find/Replace values on import"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Changed</strong>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Fixed</strong>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin tags and description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "An issue on export/import when using HipHop for PHP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Import database chunk by chunk to avoid timeout limitation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Activate template and stylesheet on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Detect Site URL and Home URL in Find/Replace values"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replace TYPE with ENGINE keyword on database export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Shutdown handler to catch fatal errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Progress indicator on database export/import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmation mechanism when uploading chunk by chunk on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internal Site URL and Internal Home URL in package.json"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Find/Replace values in package.json"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP and DB version metadata in package.json"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Validation mechanism on export/import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better mechanism when enumerating files on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Invalid secret key check on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Domain replacement on import"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Site URL and Home URL replacement in JSON data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support for MariaDB"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Elementor plugin support"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<strong>Added</strong>"
 msgstr ""
 
 #. Found in changelog list item.

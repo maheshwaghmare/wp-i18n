@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Classic Editor - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:23:42+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Enables the previous &quot;classic&quot; editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports all plugins that extend thi &hellip;"
+msgstr ""
+
+#. Plugin name.
+msgid "Classic Editor"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It is in the main Block Editor menu, see this <a href=\"https://ps.w.org/classic-editor/assets/screenshot-7.png?rev=2023480\">screenshot</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Cannot find the \"Switch to Classic Editor\" link"
+msgstr ""
+
+#. Screenshot description.
+msgid "The \"Switch to Classic Editor\" link."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There are two options:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"When activated this plugin will restore the previous (\"classic\") WordPress editor and hide the new Block Editor (\"Gutenberg\").\n"
+"These settings can be changed at the Settings =&gt; Writing screen."
+msgstr ""
+
+#. Found in faq list item.
+msgid "When not network-activated each site administrator will be able to activate the plugin and choose options for their users."
+msgstr ""
+
+#. Found in faq list item.
+msgid ""
+"When network-activated this plugin will set the Classic Editor as default and prevent site administrators and users from changing editors.\n"
+"The settings can be changed and default network-wide editor can be selected on the Network Settings screen."
+msgstr ""
+
+#. Found in faq header.
+msgid "Default settings for network installation"
+msgstr ""
+
+#. Found in faq header.
+msgid "Default settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Network settings to select the default editor for the network and allow site admins to change it."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "By default, this plugin hides all functionality available in the new Block Editor (\"Gutenberg\")."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Classic Editor is an official WordPress plugin, and will be fully supported and maintained until at least 2022, or as long as is necessary."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Classic Editor is an official plugin maintained by the WordPress team that restores the previous (\"classic\") WordPress editor and the \"Edit Post\" screen. It makes it possible to use plugins that extend that screen, add old-style meta boxes, or otherwise depend on the previous editor."
+msgstr ""
+
+#. Found in description list item.
+msgid "Each post opens in the last editor used regardless of who edited it last. This is important for maintaining a consistent experience when editing content."
+msgstr ""
+
+#. Found in description list item.
+msgid "Administrators can select the default editor for all users."
+msgstr ""
+
+#. Found in description list item.
+msgid "When allowed, the users can choose which editor to use for each post."
+msgstr ""
+
+#. Found in description list item.
+msgid "Administrators can allow users to change their default editor."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "At a glance, this plugin adds the following:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In addition, the Classic Editor plugin includes several filters that let other plugins control the settings, and the editor choice per post and per post type."
+msgstr ""
+
+#. Screenshot description.
+msgid "Link to switch to the Classic Editor while editing a post in the Block Editor. Visible when the users are allowed to switch editors."
+msgstr ""
+
+#. Screenshot description.
+msgid "Link to switch to the Block Editor while editing a post in the Classic Editor. Visible when the users are allowed to switch editors."
+msgstr ""
+
+#. Screenshot description.
+msgid "\"Action links\" to choose alternative editor. Visible when the users are allowed to switch editors."
+msgstr ""
+
+#. Screenshot description.
+msgid "User settings on the Profile screen. Visible when the users are allowed to switch editors."
+msgstr ""
+
+#. Screenshot description.
+msgid "Admin settings on the Settings -&gt; Writing screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed adding post state so it can easily be accessed from other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced and fixed the \"open posts in the last editor used to edit them\" logic."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated for WordPress 5.2 and Gutenberg 5.3+."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Properly added the \"Switch to Classic Editor\" menu item to the Block Editor menu. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the settings link in the warning on network About screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for network administrators to choose the default network-wide editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "On network installations removed the restriction for only network activation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed condition for displaying of the after upgrade notice on the \"What's New\" screen. Shown when the Classic Editor is selected and users cannot switch editors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed removal of the \"Try Gutenberg\" dashboard widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove warning and automatic deactivation when Gutenberg is not active."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update for Gutenberg 1.9."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some general updates and cleanup."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the option from a checkbox to couple of radio buttons, seems clearer. Thanks to @designsimply for the label text suggestions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated the readme text."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed to always show the settings and the settings link in the plugins list table."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed removing of the \"Try Gutenberg\" call-out when the Gutenberg plugin is not activated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed redirecting back to the Classic Editor after looking at post revisions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed some functionality that now exists in Gutenberg."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated for Gutenberg 4.1 and WordPress 5.0-beta1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>classic_editor_plugin_settings</code> filter. Can be used by other plugins to override the settings and disable the settings UI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>classic_editor_enabled_editors_for_post</code> and <code>classic_editor_enabled_editors_for_post_type</code> filters. Can be used by other plugins to control or override the editor used for a particular post of post type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"post editor state\" in the listing of posts on the Posts screen. Shows the editor that will be opened for the post. Enabled when users can choose default editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support to store the last editor used for each post and open it next time. Enabled when users can choose default editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for network admins to prevent site admins from changing the default settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for admins to allow users to change their default editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for admins to set the default editor for the site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for per-user settings of default editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed disabling of the Gutenberg plugin. This was added for testing in WordPress 4.9. Users who want to continue following the development of Gutenberg in WordPress 5.0 and beyond will not need another plugin to disable it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refreshed the settings UI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed all \"Gutenberg\" names/references to \"Block Editor\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated for WordPress 5.0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>classic_editor_network_default_settings</code> filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added disabling of the Gutenberg plugin and lowered the required WordPress version to 4.9."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed the default value of the option to allow users to switch editors to false."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed detecting of WordPress 5.0 to not use version check. Fixes a bug when testing 5.1-alpha."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed typo that was appending the edit URL to the <code>classic-editor</code> query var."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed switching editors from the Add New (post) screen before a draft post is saved."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed a bug where it may attempt to load the Block Editor for post types that do not support editor when users are allowed to switch editors."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Initial release."
+msgstr ""

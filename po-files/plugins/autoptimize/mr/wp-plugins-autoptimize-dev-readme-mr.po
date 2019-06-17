@@ -11,42 +11,50 @@ msgstr ""
 "Language: mr\n"
 "Project-Id-Version: Plugins - Autoptimize - Development Readme (trunk)\n"
 
+#. Short description.
+msgid "Autoptimize speeds up your website by optimizing JS, CSS, images (incl. lazy-load), HTML and Google Fonts, asyncing JS, removing emoji cruft and more."
+msgstr ""
+
 #. Plugin name.
 msgid "Autoptimize"
 msgstr ""
 
 #. Found in faq paragraph.
-msgid "In some rare cases the logic to dismiss the notice does not work due to the transient (WordPress cache) not keeping the dismissed state. If this happens you can use this code snippet to make the notice go away;"
+msgid "The short answer: probably not. Although inlining all CSS will make the CSS non-render blocking, it will result in your base HTML-page getting significantly bigger thus requiring more \"roundtrip times\". Moreover when considering multiple pages being requested in a browsing session the inline CSS is sent over each time, whereas when not inlined it would be served from cache."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Domain mapped multisites require Autoptimize to be initialized at a different WordPress action, add this line of code to your wp-config.php to make it so to hook into <code>setup_theme</code> for example:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "AO minifies excluded JS/ CSS if the filename indicates the file is not minified yet. As of AO 2.5 you can disable this on the \"JS, CSS &amp; HTML\"-tab under misc. options by unticking \"minify excluded files\"."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When clearing AO's cache, no page cache should contain pages (HTML) that refers to the removed optimized CSS/ JS. Although for that purpose there is integretion between Autoptimize and some page caches, this integration does not cover 100% of setups so you might need to purge your page cache manually."
+msgstr ""
+
+#. Found in faq list item.
+msgid "In case your blog looks weird, i.e. when the layout gets messed up, there is problem with CSS optimization. Try excluding one or more CSS-files from being optimized. You can also force CSS not to be aggregated by wrapping it in noptimize-tags in your theme or widget or by adding filename (for external stylesheets) or string (for inline styles) to the exclude-list."
+msgstr ""
+
+#. Found in faq header.
+msgid "Can't log in on domain mapped multisites"
+msgstr ""
+
+#. Found in faq header.
+msgid "I excluded files but they are still being autoptimized?"
+msgstr ""
+
+#. Found in faq header.
+msgid "My site looks broken when I purge Autoptimize's cache!"
 msgstr ""
 
 #. Found in faq paragraph.
 msgid ""
 "Starting with version 1.6.6 Autoptimize excludes everything inside noptimize tags, e.g.:\n"
 "    &lt;!&#045;&#045;noptimize&#045;&#045;&gt;&lt;script&gt;alert('this will not get autoptimized');&lt;/script&gt;&lt;!&#045;&#045;/noptimize&#045;&#045;&gt;"
-msgstr ""
-
-#. Found in faq header.
-msgid "The Shortpixel image optimizing notice cannot be dismissed?"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "bugfix for Google Font subset getting lost in optimization."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "bugfix for wrong sizes in image optimization."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "bugfix for occasional issues with broken/ missing  strings due to mbstring (also for multibyte string replacement) weirdness."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "bugfix for slowness when iconv was used for multibyte string replacements (ditched iconv)."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "bugfix for CSS minifier throwing a HTTP 500 error when a <code>}</code> is missing."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -65,32 +73,12 @@ msgstr ""
 msgid "As from AO 2.4 AO \"listens\" to page cache purges to clear its own cache. You can disable this behavior with this filter;"
 msgstr ""
 
-#. Found in faq paragraph.
-msgid "As from AO 2.4 excluded JS/ CSS are minified if the (filename indicates the) file is not minified yet. You can disable this with these filters;"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Google Fonts are typically loaded by a \"render blocking\" linked CSS-file. If you have a theme and plugins that use Google Fonts, you might end up with multiple such CSS-files. Autoptimize (since version 2.3) now let's you lessen the impact of Google Fonts by either removing them alltogether or by optimizing the way they are loaded. There are two optimization-flavors; the first one is \"combine and link\", which replaces all requests for Google Fonts into one request, which will still be render-blocking but will allow the fonts to be loaded immediately (meaning you won't see fonts change while the page is loading). The alternative is \"combine and load async\" which uses JavaScript to load the fonts in a non-render blocking manner but which might cause a \"flash of unstyled text\". Starting form Autopitimize 2.4 \"aggregate &amp; preload\" allows to aggregate all Google Font-files in one CSS-file that is preloaded, which should not be considered render blocking, but the fonts are available sooner (so less of a flash of unstyled text)."
-msgstr ""
-
 #. Found in faq header.
 msgid "Why can't I upgrade from 2.3.4 to 2.4.0 (or higher)?"
 msgstr ""
 
 #. Found in faq header.
 msgid "Can I disable AO listening to page cache purges?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Can I disable the minification of excluded JS/ CSS?"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "see <a href=\"https://plugins.svn.wordpress.org/autoptimize/tags/2.3.4/readme.txt\">https://plugins.svn.wordpress.org/autoptimize/tags/2.3.4/readme.txt</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "refactored significantly (no more \"classlesses\", all is OO), classes are autoloaded, tests added (travis-ci) by zytzagoo who deserves praise for his hard work!"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -109,96 +97,12 @@ msgstr ""
 msgid "How does image optimization work?"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "new: local JS/ CSS-files that are excluded from optimization are minified by default (can be overridden by filter)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: you can now disable JS/ CSS-files being aggregated, having them minified individually instead"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "improvement: updated minifiers (with very significant improvements for YUI CSS compressor PHP port)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "improvement: \"remove all Google Fonts\" is now more careful (avoiding removing entire CSS blocks)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: Google Fonts can now be \"aggregated &amp; preloaded\", this uses CSS which is loaded non render-blocking"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: Autoptimize \"listens\" to page caches being cleared, upon which it purges it's own cache as well. Support depends on known action hooks firing by the page cache, supported by Hyper Cache, WP Rocket, W3 Total Cache, KeyCDN Cache Enabler, Swift, WP Super Cache, WP Fastest Cache and Comet Cache."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "misc. under the hood improvements (e.g. more robust cache clearing, better support for multibyte character sets, improved CDN rewrite logic, avoid PHP warnings when writing files to cache, ...)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: image optimization (see \"Extra\"-tab) using Shortpixel's smart image optimization proxy"
-msgstr ""
-
 #. Found in faq paragraph.
 msgid "Make sure you're not running other HTML, CSS or JS minification plugins (BWP minify, WP minify, ...) simultaneously with Autoptimize or disable that functionality your page caching plugin (W3 Total Cache, WP Fastest Cache, ...). Try enabling only CSS or only JS optimization to see which one causes the server error and follow the generic troubleshooting steps to find a workaround."
 msgstr ""
 
-#. Short description.
-msgid "Autoptimize speeds up your website by optimizing JS, CSS, HTML, Google Fonts and images, async-ing JS, removing emoji cruft and more."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "bugfix: added language domain to 4 __/_e functions, un grand merci Ã  Guillaume Blet!"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "bugfix: is_plugin_active causing errors in some cases as <a href=\"https://wordpress.org/support/topic/fatal-error-after-update-to-2-3-3/\">reported by @iluminancia and @lozula</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "heads-up: this is (supposed to be) the last minor release of the 2.3 branch, <a href=\"https://blog.futtta.be/2018/02/18/introducing-zytzagoos-major-changes-for-autoptimize-2-4/\">2.4 is a major change with some big under-the-hood and functional changes</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "misc. bugfixes (see <a href=\"https://github.com/futtta/autoptimize/commits/master\">GitHub commit log</a>)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "bugfix: stop double try/catch-blocks"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "improvement: by default exclude <code>wp-content/cache</code> and <code>wp-content/uploads</code> from CSS optimization (Divi, Avada &amp; possibly others store page-specific CSS there)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "improvement: updated to latest version of Filamentgroup's loadCSS"
-msgstr ""
-
 #. Found in description paragraph.
-msgid "Autoptimize makes optimizing your site really easy. It can aggregate, minify and cache scripts and styles, injects CSS in the page head by default (but can also defer), moves and defers scripts to the footer and minifies HTML. The \"Extra\" options allow you to optimize Google Fonts and images, async non-aggregated JavaScript, remove WordPress core emoji cruft and more. As such it can improve your site's performance even when already on HTTP/2! There is extensive API available to enable you to tailor Autoptimize to each and every site's specific needs."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "workaround for <a href=\"https://core.trac.wordpress.org/ticket/31245\">stale options-data in external object cache such as Redis, Memcached (core bug)</a> resulting in Autoptimize continuously executing the upgrade-procedure including clearing the cache and trying to preload it with HTTP-requests with \"cachebuster\" in the query string, thanks to <a href=\"https://hqraja.com/\">Haroon Q. Raja</a> and <a href=\"https://twitter.com/zytzagoo\">Tomas Trkulja</a> for their great assistance!"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed JS code to load webfont.js deferred instead of asynced to make sure the js-file or fonts are not consider render blocking."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "now removing respective dns-prefetch resource hints when \"remove emojis\" or when Google Fonts are optimized or removed."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixes for \"undefined index\" notices on Extra settings page"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fix for issue with update-code in some circumstances, thanks to <a href=\"https://rajendrazore.com/\">Rajendra Zore</a> to report &amp; help fix!"
+msgid "Autoptimize makes optimizing your site really easy. It can aggregate, minify and cache scripts and styles, injects CSS in the page head by default but can also inline critical CSS and defer the aggregated full CSS, moves and defers scripts to the footer and minifies HTML. You can optimize (and even convert to WebP) and lazy-load images, optimize Google Fonts, async non-aggregated JavaScript, remove WordPress core emoji cruft and more. As such it can improve your site's performance even when already on HTTP/2! There is extensive API available to enable you to tailor Autoptimize to each and every site's specific needs."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -207,6 +111,10 @@ msgstr ""
 
 #. Found in faq paragraph.
 msgid "Preconnect is a somewhat advanced feature to instruct browsers (<a href=\"https://caniuse.com/#feat=link-rel-preconnect\">if they support it</a>) to make a connection to specific domains even if the connection is not immediately needed. This can be used e.g. to lessen the impact of 3rd party resources on HTTPS (as DNS-request, TCP-connection and SSL/TLS negotiation are executed early). Use with care, as preconnecting to too many domains can be counter-productive."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Google Fonts are typically loaded by a \"render blocking\" linked CSS-file. If you have a theme and plugins that use Google Fonts, you might end up with multiple such CSS-files. Autoptimize (since version 2.3) now let's you lessen the impact of Google Fonts by either removing them alltogether or by optimizing the way they are loaded. There are two optimization-flavors; the first one is \"combine and link\", which replaces all requests for Google Fonts into one request, which will still be render-blocking but will allow the fonts to be loaded immediately (meaning you won't see fonts change while the page is loading). The alternative is \"combine and load async\" which uses JavaScript to load the fonts in a non-render blocking manner but which might cause a \"flash of unstyled text\"."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -237,48 +145,8 @@ msgstr ""
 msgid "What does \"remove emojis\" do?"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "lots of <a href=\"https://github.com/futtta/autoptimize/commits/master\">bugfixes and small improvements done by some seriously smart people via GitHub</a> (thanks all!!), including <a href=\"https://github.com/futtta/autoptimize/commit/0f6ac683c35bc82d1ac2d496ae3b66bb53e49f88\">a fix for AO 2.2 which saw the HTML minifier go PacMan on spaces</a> in some circumstances."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: support to clear cache through WP CLI thanks to <a href=\"https://junaidbhura.com\">junaidbhura</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: remove (version parameter from) Querystring"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: remove WordPress' core's emoji CSS &amp; JS"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: support to tell browsers to preconnect (= dns lookup + tcp/ip connection + ssl negotiation) to 3rd party domains (depends on browser support, works in Chrome &amp; Firefox)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: Async JS, can be applied to local or 3rd party JS (if local it will be auto-excluded from autoptimization)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: optimize Google fonts with \"combine &amp; link\" and \"combine and load async\" (with webload.js), intelligently preconnecting to Google's domains to limit performance impact even further"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "readme update"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "tweaks to Autoptimize toolbar menu (visual + timeout of \"delete cache\" AJAX call)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "roll-back to previous battle-tested version of the CSS minifier"
-msgstr ""
-
 #. Found in faq paragraph.
-msgid "Autoptimize is not a simple \"fix my Pagespeed-problems\" plugin; it \"only\" aggregates &amp; minifies (local) JS &amp; CSS and allows for some nice extra's as removing Google Fonts and deferring the loading of the CSS. As such Autoptimize will allow you to improve your performance (load time measured in seconds) and will probably also help you tackle some specific Pagespeed warnings. If you want to improve further, you will probably also have to look into e.g. page caching, image optimization and your webserver configuration, which will improve real performance (again, load time as measured by e.g. https://webpagetest.org) and your \"performance best practise\" pagespeed ratings."
+msgid "Autoptimize is not a simple \"fix my Pagespeed-problems\" plugin; it \"only\" aggregates &amp; minifies (local) JS &amp; CSS and images and allows for some nice extra's as removing Google Fonts and deferring the loading of the CSS. As such Autoptimize will allow you to improve your performance (load time measured in seconds) and will probably also help you tackle some specific Pagespeed warnings. If you want to improve further, you will probably also have to look into e.g. page caching and your webserver configuration, which will improve real performance (again, load time as measured by e.g. https://webpagetest.org) and your \"performance best practise\" pagespeed ratings."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -295,10 +163,6 @@ msgstr ""
 
 #. Found in faq paragraph.
 msgid "When clicking the \"Delete Cache\" link in the Autoptimize dropdown in the admin toolbar, you might to get a \"Your cache might not have been purged successfully\". In that case go to Autoptimizes setting page and click the \"Save changes &amp; clear cache\"-button."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "So the choice should be based on your answer to some site-specific questions; how much CSS do you have? How many pages per visit do your visitors request? If you have a lot of CSS or a high number of pages/ visit, it's probably not a good idea to inline all CSS."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -329,30 +193,6 @@ msgstr ""
 msgid "Why is Autoptimized JS render blocking?"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "fix for \"[] operator not supported for strings\" error in PHP7.1 as reported by falk-wussow.de"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fix for security hash busting AO's cache in some cases (esp. in 2.1.1)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fix for images being referenced in CSS not all being translated to correct path, leading to 404's as reported by Jeff Inho"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "identical to 2.1.0 except for the security fix backported from 2.2.0"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "security: made placeholder replacement less naive to protect against XSS and LFI vulnerability as reported by Matthew Barry and fixed with great help from Matthew and Tomas Trkulja. Thanks guys!!"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "tested and confirmed working in WordPress 4.8"
-msgstr ""
-
 #. Found in faq paragraph.
 msgid "You can get help on the <a href=\"http://wordpress.org/support/plugin/autoptimize\">wordpress.org support forum</a>. If you are 100% sure this your problem cannot be solved using Autoptimize configuration and that you in fact discovered a bug in the code, you can <a href=\"https://github.com/futtta/autoptimize/issues\">create an issue on GitHub</a>. If you're looking for premium support, check out our <a href=\"http://autoptimize.com/\">Autoptimize Pro Support and Web Performance Optimization services</a>."
 msgstr ""
@@ -361,14 +201,6 @@ msgstr ""
 msgid ""
 "<strong>Premium Support</strong><br />\n"
 "  We provide great <a href=\"https://autoptimize.com/\">Autoptimize Pro Support and Web Performance Optimization services</a>, check out our offering on <a href=\"https://autoptimize.com/\">https://autoptimize.com/</a>!"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: option to enable/ disable AO on WooCommerce, Easy Digital Downloads or WP eCommerce cart/ checkout page (on by default)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "new: option to enable/ disable AO for logged in users (on by default)"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -412,11 +244,7 @@ msgid "Autoptimize does not have its proper cache purging mechanism, as this cou
 msgstr ""
 
 #. Found in faq paragraph.
-msgid "The short answer: probably not."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "HTTP/2 is a great step forward for sure, reducing the impact of multiple requests from the same server significantly by using the same connection to perform several concurrent requests. That being said, <a href=\"http://engineering.khanacademy.org/posts/js-packaging-http2.htm\">concatenation of CSS/ JS can still make a lot of sense</a>, as described in <a href=\"https://css-tricks.com/http2-real-world-performance-test-analysis/\">this css-tricks.com article</a> and this <a href=\"http://calendar.perfplanet.com/2015/packaging-for-performance/\">blogpost from one of the Ebay engineers</a>. The conclusion; configure, test, reconfigure, retest, tweak and look what works best in your context. Maybe it's just HTTP/2, maybe it's HTTP/2 + aggregation and minification, maybe it's HTTP/2 + minification (which AO can do as well, simply untick the \"aggregate JS-files\" and/ or \"aggregate CSS-files\" options)."
+msgid "HTTP/2 is a great step forward for sure, reducing the impact of multiple requests from the same server significantly by using the same connection to perform several concurrent requests. That being said, <a href=\"http://engineering.khanacademy.org/posts/js-packaging-http2.htm\">concatenation of CSS/ JS can still make a lot of sense</a>, as described in <a href=\"https://css-tricks.com/http2-real-world-performance-test-analysis/\">this css-tricks.com article</a> and this <a href=\"http://calendar.perfplanet.com/2015/packaging-for-performance/\">blogpost from one of the Ebay engineers</a>. The conclusion; configure, test, reconfigure, retest, tweak and look what works best in your context. Maybe it's just HTTP/2, maybe it's HTTP/2 + aggregation and minification, maybe it's HTTP/2 + minification (which AO can do as well, simply untick the \"aggregate JS-files\" and/ or \"aggregate CSS-files\" options). And Autoptimize can do a lot more then \"just\" optimizing your JS &amp; CSS off course ;-)"
 msgstr ""
 
 #. Found in faq list item.
@@ -511,12 +339,8 @@ msgstr ""
 msgid "Autoptimize supports this, but it is not enabled by default because <a href=\"http://davidwalsh.name/cdn-fonts\">non-local fonts might require some extra configuration</a>. But if you have your cross-origin request policy in order, you can tell Autoptimize to put your fonts on the CDN by hooking into the API, setting <code>autoptimize_filter_css_fonts_cdn</code> to <code>true</code> this way;"
 msgstr ""
 
-#. Found in faq paragraph.
-msgid "Inlining all CSS has one clear advantage (better PageSpeed score) and one big disadvantage; your base HTML-page gets significantly bigger and if the amount of CSS is big, Pagespeed Insights will complain of \"roundtrip times\". Also when looking at a test that includes multiple requests (let's say 5 pages), performance will be worse, as the CSS-payload is sent over again and again whereas normally the separate CSS-files would not need to be sent any more as they would be in cache."
-msgstr ""
-
 #. Found in faq list item.
-msgid "If all works but you notice your blog is slower, ensure you have a page caching plugin installed (WP Super Cache or similar) and check the info on cache size (the solution for that problem also impacts performance for uncached pages) in this FAQ as well."
+msgid "If all works but you notice your blog is slower, ensure you have a page caching plugin installed (WP Super Cache or similar) and check the info on cache size (the soution for that problem also impacts performance for uncached pages) in this FAQ as well."
 msgstr ""
 
 #. Found in faq list item.
@@ -584,14 +408,6 @@ msgid "Instead you can keep the cache size at an acceptable level by either:"
 msgstr ""
 
 #. Found in faq paragraph.
-msgid "You can find more information on this topic <a href=\"http://blog.futtta.be/2014/02/13/should-you-inline-or-defer-blocking-css/\">in this blog post</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Back in the days CSS optimization was easy; put all CSS in your head, aggregating everything in one CSS-file per media-type and you were good to go. But ever since Google included mobile in PageSpeed Insights and started complaining about render blocking CSS, things got messy (see \"deferring CSS\" elsewhere in this FAQ). One of the solutions is inlining all your CSS, which as of Autoptimize 1.8.0 is supported."
-msgstr ""
-
-#. Found in faq paragraph.
 msgid "CSS in general should go in the head of the document. Recently a.o. Google started promoting deferring non-essential CSS, while inlining those styles needed to build the page above the fold. This is especially important to render pages as quickly as possible on mobile devices. As from Autoptimize 1.9.0 this is easy; select \"inline and defer CSS\", paste the block of \"above the fold CSS\" in the input field (text area) and you're good to go!"
 msgstr ""
 
@@ -629,10 +445,6 @@ msgstr ""
 
 #. Found in faq list item.
 msgid "In case some functionality on your site stops working (a carroussel, a menu, the search input, ...) you're likely hitting JavaScript optimization trouble. Change the \"Aggregate inline JS\" and/ or \"Force JavaScript in head?\" settings and try again. Excluding 'js/jquery/jquery.js' from optimization (see below) and optionally activating \"<a href=\"http://blog.futtta.be/2014/08/18/when-should-you-trycatch-javascript/\">Add try/catch wrapping</a>\") can also help. Alternatively -for the technically savvy- you can exclude specific scripts from being treated (moved and/ or aggregated) by Autoptimize by adding a string that will match the offending Javascript or excluding it from within your template files or widgets by wrapping the code between noptimize-tags. Identifying the offending JavaScript and choosing the correct exclusion-string can be trial and error, but in the majority of cases JavaScript optimization issues can be solved this way. When debugging JavaScript issues, your browsers error console is the most important tool to help you understand what is going on."
-msgstr ""
-
-#. Found in faq list item.
-msgid "In case your blog looks weird, i.e. when the layout gets messed up, there is problem with CSS optimization. In this case you can turn on the option \"Look for styles on just head?\" and see if that solves the problem. You can also force CSS not to be aggregated by wrapping it in noptimize-tags in your theme or widget or by adding filename (for external stylesheets) or string (for inline styles) to the exclude-list."
 msgstr ""
 
 #. Found in faq list item.
@@ -733,6 +545,270 @@ msgstr ""
 
 #. Found in installation list item.
 msgid "Upload the zip file and unzip it in the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings-page: Show \"JS, CSS &amp; HTML\" advanced options by default (many people did not see the button)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS: improvements to the deferring logic for non-aggregated CSS resources."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Images: Updated to LazySizes 5.0.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Images: Misc. improvements to lazyload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Images: Also optimize &amp; lazyload &lt;picture&gt;&lt;source&gt;"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "misc. bugfixes and smaller improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added option to enable/ disable the minification of excluded JS/ CSS files (on by default)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added webp support (requires image optimization and lazyloading to be active)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added lazyloading (using lazysizes)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "moved image optimization to a separate tab and move all code to a separate file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix: safer way of removing extra cronjobs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix: some extra checks on vars to avoid PHP notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix: extra ao_cachechecker scheduled jobs &amp; improve scheduling logic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improved deferring of non-aggregated CSS when \"inline &amp; defer\" is active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improved Google Fonts optimzation, praise to @nextendweb (of Smartslider3 fame)!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "tested and confirmed working with WordPress 5.0 (beta 5)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix not to remove querystrings if that option is not on in \"Extra\", kudo's to Diego Versiani for pointing out the inconsistency"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix for Google fonts subset concatenation by Rocco Aliberti, thanks!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "patched JS minifying component to not break template literals as reported by Alex Kozack"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "update PAnD framework to latest version to fix issues with notices not staying dismissed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "misc. improvements to image optimization logic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix for Google Font subset getting lost in optimization."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix for wrong sizes in image optimization."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix for occasional issues with broken/ missing  strings due to mbstring (also for multibyte string replacement) weirdness."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix for slowness when iconv was used for multibyte string replacements (ditched iconv)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix for CSS minifier throwing a HTTP 500 error when a <code>}</code> is missing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "see <a href=\"https://plugins.svn.wordpress.org/autoptimize/tags/2.3.4/readme.txt\">https://plugins.svn.wordpress.org/autoptimize/tags/2.3.4/readme.txt</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "refactored significantly (no more \"classlesses\", all is OO), classes are autoloaded, tests added (travis-ci) by zytzagoo who deserves praise for his hard work!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: local JS/ CSS-files that are excluded from optimization are minified by default (can be overridden by filter)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: you can now disable JS/ CSS-files being aggregated, having them minified individually instead"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improvement: updated minifiers (with very significant improvements for YUI CSS compressor PHP port)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improvement: \"remove all Google Fonts\" is now more careful (avoiding removing entire CSS blocks)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: Google Fonts can now be \"aggregated &amp; preloaded\", this uses CSS which is loaded non render-blocking"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: Autoptimize \"listens\" to page caches being cleared, upon which it purges it's own cache as well. Support depends on known action hooks firing by the page cache, supported by Hyper Cache, WP Rocket, W3 Total Cache, KeyCDN Cache Enabler, Swift, WP Super Cache, WP Fastest Cache and Comet Cache."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "misc. under the hood improvements (e.g. more robust cache clearing, better support for multibyte character sets, improved CDN rewrite logic, avoid PHP warnings when writing files to cache, ...)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: image optimization (see \"Extra\"-tab) using Shortpixel's smart image optimization proxy"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix: added language domain to 4 __/_e functions, un grand merci Ã  Guillaume Blet!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix: is_plugin_active causing errors in some cases as <a href=\"https://wordpress.org/support/topic/fatal-error-after-update-to-2-3-3/\">reported by @iluminancia and @lozula</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "heads-up: this is (supposed to be) the last minor release of the 2.3 branch, <a href=\"https://blog.futtta.be/2018/02/18/introducing-zytzagoos-major-changes-for-autoptimize-2-4/\">2.4 is a major change with some big under-the-hood and functional changes</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "misc. bugfixes (see <a href=\"https://github.com/futtta/autoptimize/commits/master\">GitHub commit log</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bugfix: stop double try/catch-blocks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improvement: by default exclude <code>wp-content/cache</code> and <code>wp-content/uploads</code> from CSS optimization (Divi, Avada &amp; possibly others store page-specific CSS there)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improvement: updated to latest version of Filamentgroup's loadCSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "workaround for <a href=\"https://core.trac.wordpress.org/ticket/31245\">stale options-data in external object cache such as Redis, Memcached (core bug)</a> resulting in Autoptimize continuously executing the upgrade-procedure including clearing the cache and trying to preload it with HTTP-requests with \"cachebuster\" in the query string, thanks to <a href=\"https://hqraja.com/\">Haroon Q. Raja</a> and <a href=\"https://twitter.com/zytzagoo\">Tomas Trkulja</a> for their great assistance!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed JS code to load webfont.js deferred instead of asynced to make sure the js-file or fonts are not consider render blocking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "now removing respective dns-prefetch resource hints when \"remove emojis\" or when Google Fonts are optimized or removed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixes for \"undefined index\" notices on Extra settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix for issue with update-code in some circumstances, thanks to <a href=\"https://rajendrazore.com/\">Rajendra Zore</a> to report &amp; help fix!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "lots of <a href=\"https://github.com/futtta/autoptimize/commits/master\">bugfixes and small improvements done by some seriously smart people via GitHub</a> (thanks all!!), including <a href=\"https://github.com/futtta/autoptimize/commit/0f6ac683c35bc82d1ac2d496ae3b66bb53e49f88\">a fix for AO 2.2 which saw the HTML minifier go PacMan on spaces</a> in some circumstances."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: support to clear cache through WP CLI thanks to <a href=\"https://junaidbhura.com\">junaidbhura</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: remove (version parameter from) Querystring"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: remove WordPress' core's emoji CSS &amp; JS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: support to tell browsers to preconnect (= dns lookup + tcp/ip connection + ssl negotiation) to 3rd party domains (depends on browser support, works in Chrome &amp; Firefox)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: Async JS, can be applied to local or 3rd party JS (if local it will be auto-excluded from autoptimization)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: optimize Google fonts with \"combine &amp; link\" and \"combine and load async\" (with webload.js), intelligently preconnecting to Google's domains to limit performance impact even further"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "readme update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "tweaks to Autoptimize toolbar menu (visual + timeout of \"delete cache\" AJAX call)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "roll-back to previous battle-tested version of the CSS minifier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix for \"[] operator not supported for strings\" error in PHP7.1 as reported by falk-wussow.de"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix for security hash busting AO's cache in some cases (esp. in 2.1.1)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix for images being referenced in CSS not all being translated to correct path, leading to 404's as reported by Jeff Inho"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "identical to 2.1.0 except for the security fix backported from 2.2.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "security: made placeholder replacement less naive to protect against XSS and LFI vulnerability as reported by Matthew Barry and fixed with great help from Matthew and Tomas Trkulja. Thanks guys!!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "tested and confirmed working in WordPress 4.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: option to enable/ disable AO on WooCommerce, Easy Digital Downloads or WP eCommerce cart/ checkout page (on by default)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new: option to enable/ disable AO for logged in users (on by default)"
 msgstr ""
 
 #. Found in changelog list item.

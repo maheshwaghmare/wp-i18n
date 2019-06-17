@@ -5,6 +5,8 @@ Translate the WordPress by by re-using existing translated strings with the help
 
 ## Use Exported Database/XML
 
+Use command to see the translated strings count: (for /r %f in (*.txt) do @type "%f") | find /c /v ""
+
 ## WP CLI Commands
 
 // START

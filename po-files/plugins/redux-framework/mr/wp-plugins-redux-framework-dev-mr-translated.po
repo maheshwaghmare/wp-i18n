@@ -7,11 +7,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-26T18:41:55+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:44:44+00:00\n"
 "PO-Revision-Date: 2016-04-13 07:41:00+0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: ReduxCore/core/enqueue.php:484
+msgid "Your current options will be replaced with the values of this import. Would you like to proceed?"
+msgstr ""
 
 #: ReduxCore/inc/fields/link_color/field_link_color.php:106
 msgid "Focus"
@@ -37,27 +41,27 @@ msgstr ""
 msgid "If you like <strong>Redux</strong> please leave us a <a href=\"https://wordpress.org/support/view/plugin-reviews/redux-framework?filter=5#postform\" target=\"_blank\" class=\"redux-rating-link\" data-rated=\"Thanks :)\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge thank you from Redux in advance!"
 msgstr ""
 
-#: ReduxCore/framework.php:4007
+#: ReduxCore/framework.php:4000
 msgid "<strong>Redux Framework Notice: </strong>There are references to the Redux Framework support site in your config's <code>share_icons</code> argument.  This is sample data.  Please change or remove this data before shipping your product."
 msgstr ""
 
-#: ReduxCore/framework.php:3991
+#: ReduxCore/framework.php:3984
 msgid "<strong>Redux Framework Notice: </strong>There are references to the Redux Framework support site in your config's <code>admin_bar_links</code> argument.  This is sample data.  Please change or remove this data before shipping your product."
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "http://reduxframework.com"
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Team Redux"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "Redux is a simple, truly extensible options framework for WordPress themes and plugins."
 msgstr ""
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "http://wordpress.org/plugins/redux-framework"
 msgstr ""
 
@@ -1099,33 +1103,31 @@ msgstr ""
 msgid "Text Area"
 msgstr ""
 
-#: sample/barebones-config.php:277
-#: sample/barebones-config.php:294
 #: sample/sample-config.php:424
 #: sample/sample-config.php:432
 #: sample/sample-config.php:444
+#: sample/barebones-config.php:277
+#: sample/barebones-config.php:294
 msgid "Field Description"
 msgstr ""
 
-#: sample/barebones-config.php:276
-#: sample/barebones-config.php:293
 #: sample/sample-config.php:423
 #: sample/sample-config.php:431
 #: sample/sample-config.php:443
 #: sample/sample-config.php:495
 #: sample/sample-config.php:1861
 #: sample/sample-config.php:1870
+#: sample/barebones-config.php:276
+#: sample/barebones-config.php:293
 msgid "Subtitle"
 msgstr ""
 
-#: sample/barebones-config.php:275
 #: sample/sample-config.php:422
 #: sample/sample-config.php:442
+#: sample/barebones-config.php:275
 msgid "Text Field"
 msgstr ""
 
-#: sample/barebones-config.php:268
-#: sample/barebones-config.php:285
 #: sample/sample-config.php:293
 #: sample/sample-config.php:345
 #: sample/sample-config.php:375
@@ -1162,11 +1164,13 @@ msgstr ""
 #: sample/sample-config.php:1806
 #: sample/sample-config.php:1854
 #: sample/sample-config.php:1886
+#: sample/barebones-config.php:268
+#: sample/barebones-config.php:285
 msgid "For full documentation on this field, visit: "
 msgstr ""
 
-#: sample/barebones-config.php:267
 #: sample/sample-config.php:413
+#: sample/barebones-config.php:267
 msgid "Text"
 msgstr "मजकूर"
 
@@ -1174,8 +1178,8 @@ msgstr "मजकूर"
 msgid "Basic fields as subsections."
 msgstr ""
 
-#: sample/barebones-config.php:260
 #: sample/sample-config.php:281
+#: sample/barebones-config.php:260
 msgid "Basic Fields"
 msgstr ""
 
@@ -1187,53 +1191,53 @@ msgstr ""
 msgid "Basic Field"
 msgstr ""
 
-#: sample/barebones-config.php:139
 #: sample/sample-config.php:178
 #: sample/sample-config.php:2227
+#: sample/barebones-config.php:139
 msgid "Documentation"
 msgstr "डोक्युमेंटशन"
 
-#: sample/barebones-config.php:190
 #: sample/sample-config.php:229
+#: sample/barebones-config.php:190
 msgid "<p>This text is displayed below the options panel. It isn't required, but more info is always better! The footer_text field accepts all HTML.</p>"
 msgstr ""
 
-#: sample/barebones-config.php:186
 #: sample/sample-config.php:225
+#: sample/barebones-config.php:186
 msgid "<p>This text is displayed above the options panel. It isn't required, but more info is always better! The intro_text field accepts all HTML.</p>"
 msgstr ""
 
-#: sample/barebones-config.php:184
 #: sample/sample-config.php:223
+#: sample/barebones-config.php:184
 msgid "<p>Did you know that Redux sets a global variable for you? To access any of your saved options from within your code you can use your global variable: <strong>$%1$s</strong></p>"
 msgstr ""
 
-#: sample/barebones-config.php:35
-#: sample/barebones-config.php:36
 #: sample/sample-config.php:77
 #: sample/sample-config.php:78
+#: sample/barebones-config.php:35
+#: sample/barebones-config.php:36
 msgid "Sample Options"
 msgstr ""
 
-#: sample/barebones-config.php:217
 #: sample/sample-config.php:257
+#: sample/barebones-config.php:217
 msgid "<p>This is the sidebar content, HTML is allowed.</p>"
 msgstr ""
 
-#: sample/barebones-config.php:210
 #: sample/sample-config.php:250
+#: sample/barebones-config.php:210
 msgid "Theme Information 2"
 msgstr ""
 
-#: sample/barebones-config.php:206
-#: sample/barebones-config.php:211
 #: sample/sample-config.php:246
 #: sample/sample-config.php:251
+#: sample/barebones-config.php:206
+#: sample/barebones-config.php:211
 msgid "<p>This is the tab content, HTML is allowed.</p>"
 msgstr ""
 
-#: sample/barebones-config.php:205
 #: sample/sample-config.php:245
+#: sample/barebones-config.php:205
 msgid "Theme Information 1"
 msgstr ""
 
@@ -1326,23 +1330,23 @@ msgstr ""
 msgid "Developer Mode Enabled"
 msgstr ""
 
-#: ReduxCore/templates/panel/footer.tpl.php:69
 #: ReduxCore/templates/panel/header_stickybar.tpl.php:33
+#: ReduxCore/templates/panel/footer.tpl.php:69
 msgid "Working..."
 msgstr ""
 
-#: ReduxCore/templates/panel/footer.tpl.php:64
 #: ReduxCore/templates/panel/header_stickybar.tpl.php:29
+#: ReduxCore/templates/panel/footer.tpl.php:64
 msgid "Reset All"
 msgstr ""
 
-#: ReduxCore/templates/panel/footer.tpl.php:62
 #: ReduxCore/templates/panel/header_stickybar.tpl.php:27
+#: ReduxCore/templates/panel/footer.tpl.php:62
 msgid "Reset Section"
 msgstr ""
 
-#: ReduxCore/templates/panel/footer.tpl.php:57
 #: ReduxCore/templates/panel/header_stickybar.tpl.php:22
+#: ReduxCore/templates/panel/footer.tpl.php:57
 msgid "Save Changes"
 msgstr "बदल जतन करा"
 
@@ -1354,9 +1358,9 @@ msgstr ""
 msgid "Status"
 msgstr "स्थिती"
 
-#: ReduxCore/inc/welcome/welcome.php:356
-#: sample/barebones-config.php:145
 #: sample/sample-config.php:184
+#: sample/barebones-config.php:145
+#: ReduxCore/inc/welcome/welcome.php:356
 msgid "Support"
 msgstr ""
 
@@ -1368,9 +1372,9 @@ msgstr "क्रेडिट"
 msgid "Changelog"
 msgstr "चेंजलॉग"
 
-#: ReduxCore/inc/welcome/welcome.php:347
-#: sample/barebones-config.php:151
 #: sample/sample-config.php:190
+#: sample/barebones-config.php:151
+#: ReduxCore/inc/welcome/welcome.php:347
 msgid "Extensions"
 msgstr ""
 
@@ -1956,8 +1960,8 @@ msgstr ""
 msgid "Redux Framework - A Community Effort"
 msgstr ""
 
-#: ReduxCore/inc/welcome/views/changelog.php:5
 #: ReduxCore/inc/welcome/views/status_report.php:30
+#: ReduxCore/inc/welcome/views/changelog.php:5
 msgid "Our core mantra at Redux is backwards compatibility. With hundreds of thousands of instances worldwide, you can be assured that we will take care of you and your clients."
 msgstr ""
 
@@ -1983,11 +1987,11 @@ msgstr ""
 msgid "What is Redux Framework?"
 msgstr ""
 
+#: ReduxCore/inc/welcome/views/credits.php:10
+#: ReduxCore/inc/welcome/views/status_report.php:34
 #: ReduxCore/inc/welcome/views/about.php:8
 #: ReduxCore/inc/welcome/views/changelog.php:10
-#: ReduxCore/inc/welcome/views/credits.php:10
 #: ReduxCore/inc/welcome/views/extensions.php:81
-#: ReduxCore/inc/welcome/views/status_report.php:34
 #: ReduxCore/inc/welcome/views/support.php:8
 msgid "Version %s"
 msgstr "आवृत्ती %s"
@@ -2008,8 +2012,8 @@ msgstr ""
 msgid "That URL slug is in use, please choose another. <code>%s</code> is open for use."
 msgstr ""
 
-#: ReduxCore/inc/validation/numeric/validation_numeric.php:16
 #: ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+#: ReduxCore/inc/validation/numeric/validation_numeric.php:16
 msgid "You must provide a numerical value for this option."
 msgstr ""
 
@@ -2025,8 +2029,8 @@ msgstr ""
 msgid "You must not enter any HTML in this field, all HTML tags have been removed."
 msgstr ""
 
-#: ReduxCore/inc/validation/email/validation_email.php:16
 #: ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+#: ReduxCore/inc/validation/email/validation_email.php:16
 msgid "You must provide a valid email for this option."
 msgstr ""
 
@@ -2092,8 +2096,8 @@ msgstr ""
 msgid "Did you know we have extensions, which greatly enhance the features of Redux?  Visit our %1$s to learn more!"
 msgstr ""
 
-#: ReduxCore/inc/tracking.php:154
 #: ReduxCore/inc/welcome/welcome.php:227
+#: ReduxCore/inc/tracking.php:154
 msgid "Redux Extensions"
 msgstr ""
 
@@ -2317,10 +2321,10 @@ msgstr "खोडून टाकणे"
 msgid "URL"
 msgstr "URL"
 
-#: ReduxCore/inc/fields/slides/field_slides.php:149
-#: ReduxCore/inc/fields/slides/field_slides.php:204
 #: sample/sample-config.php:1862
 #: sample/sample-config.php:1871
+#: ReduxCore/inc/fields/slides/field_slides.php:149
+#: ReduxCore/inc/fields/slides/field_slides.php:204
 msgid "Description"
 msgstr "वर्णन"
 
@@ -2338,13 +2342,13 @@ msgstr ""
 msgid "Slide"
 msgstr ""
 
-#: ReduxCore/inc/fields/select/field_select.php:134
 #: ReduxCore/inc/fields/select_image/field_select_image.php:134
+#: ReduxCore/inc/fields/select/field_select.php:134
 msgid "No items of this type were found."
 msgstr ""
 
-#: ReduxCore/inc/fields/select/field_select.php:83
 #: ReduxCore/inc/fields/select_image/field_select_image.php:54
+#: ReduxCore/inc/fields/select/field_select.php:83
 msgid "Select an item"
 msgstr ""
 
@@ -2352,8 +2356,8 @@ msgstr ""
 msgid "Username"
 msgstr "वापरकर्त्याचे नाव"
 
-#: ReduxCore/inc/fields/password/field_password.php:62
 #: sample/sample-config.php:467
+#: ReduxCore/inc/fields/password/field_password.php:62
 msgid "Password"
 msgstr "पासवर्ड"
 
@@ -2381,15 +2385,15 @@ msgstr ""
 msgid "Clear Gallery"
 msgstr ""
 
-#: ReduxCore/inc/fields/gallery/field_gallery.php:73
 #: sample/sample-config.php:915
+#: ReduxCore/inc/fields/gallery/field_gallery.php:73
 msgid "Add/Edit Gallery"
 msgstr ""
 
-#: ReduxCore/inc/fields/dimensions/field_dimensions.php:183
-#: ReduxCore/inc/fields/dimensions/field_dimensions.php:184
 #: ReduxCore/inc/fields/spacing/field_spacing.php:245
 #: ReduxCore/inc/fields/spacing/field_spacing.php:246
+#: ReduxCore/inc/fields/dimensions/field_dimensions.php:183
+#: ReduxCore/inc/fields/dimensions/field_dimensions.php:184
 msgid "Units"
 msgstr ""
 
@@ -2414,45 +2418,45 @@ msgstr ""
 msgid "Border style"
 msgstr ""
 
-#: ReduxCore/inc/fields/border/field_border.php:159
 #: ReduxCore/inc/fields/spacing/field_spacing.php:236
+#: ReduxCore/inc/fields/border/field_border.php:159
 msgid "Left"
 msgstr "डावं"
 
-#: ReduxCore/inc/fields/border/field_border.php:152
 #: ReduxCore/inc/fields/spacing/field_spacing.php:229
+#: ReduxCore/inc/fields/border/field_border.php:152
 msgid "Bottom"
 msgstr "तळाशी"
 
-#: ReduxCore/inc/fields/border/field_border.php:145
 #: ReduxCore/inc/fields/spacing/field_spacing.php:222
+#: ReduxCore/inc/fields/border/field_border.php:145
 msgid "Right"
 msgstr "उजवा"
 
-#: ReduxCore/inc/fields/border/field_border.php:138
 #: ReduxCore/inc/fields/spacing/field_spacing.php:215
+#: ReduxCore/inc/fields/border/field_border.php:138
 msgid "Top"
 msgstr "अव्वल"
 
-#: ReduxCore/inc/fields/border/field_border.php:125
 #: ReduxCore/inc/fields/spacing/field_spacing.php:191
+#: ReduxCore/inc/fields/border/field_border.php:125
 msgid "All"
 msgstr "सर्व"
 
-#: ReduxCore/inc/fields/background/field_background.php:321
-#: ReduxCore/inc/fields/media/field_media.php:213
 #: ReduxCore/inc/fields/multi_text/field_multi_text.php:72
 #: ReduxCore/inc/fields/multi_text/field_multi_text.php:79
 #: ReduxCore/inc/fields/multi_text/field_multi_text.php:89
+#: ReduxCore/inc/fields/background/field_background.php:321
 #: ReduxCore/inc/fields/slides/field_slides.php:133
 #: ReduxCore/inc/fields/slides/field_slides.php:190
+#: ReduxCore/inc/fields/media/field_media.php:213
 msgid "Remove"
 msgstr "काढा"
 
 #: ReduxCore/inc/fields/background/field_background.php:314
-#: ReduxCore/inc/fields/media/field_media.php:206
 #: ReduxCore/inc/fields/slides/field_slides.php:126
 #: ReduxCore/inc/fields/slides/field_slides.php:188
+#: ReduxCore/inc/fields/media/field_media.php:206
 msgid "Upload"
 msgstr "अपलोड"
 
@@ -2587,12 +2591,12 @@ msgstr ""
 msgid "Show Object in Javascript Console Object"
 msgstr ""
 
-#: ReduxCore/inc/extensions/options_object/extension_options_object.php:82
 #: ReduxCore/inc/extensions/options_object/options_object/field_options_object.php:104
+#: ReduxCore/inc/extensions/options_object/extension_options_object.php:82
 msgid "Options Object"
 msgstr ""
 
-#: ReduxCore/inc/class.redux_helpers.php:620
+#: ReduxCore/inc/class.redux_helpers.php:622
 msgid "<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of date. The core version is %s"
 msgstr ""
 
@@ -2630,43 +2634,43 @@ msgstr ""
 msgid "Dismiss"
 msgstr "घालवा"
 
-#: ReduxCore/framework.php:2871
+#: ReduxCore/framework.php:2864
 msgid "Your panel has no fields. Nothing to save."
 msgstr ""
 
-#: ReduxCore/framework.php:2791
+#: ReduxCore/framework.php:2784
 msgid "Invalid user capability.  Please reload the page and try again."
 msgstr ""
 
-#: ReduxCore/framework.php:2782
+#: ReduxCore/framework.php:2775
 msgid "Invalid security credential.  Please reload the page and try again."
 msgstr ""
 
-#: ReduxCore/framework.php:1902
+#: ReduxCore/framework.php:1895
 msgid "Default"
 msgstr "मुलभूत"
 
-#: ReduxCore/framework.php:1775
+#: ReduxCore/framework.php:1768
 msgid "Hints"
 msgstr ""
 
-#: ReduxCore/framework.php:1770
+#: ReduxCore/framework.php:1763
 msgid "Hints are tooltips that popup when %d the hint icon, offering addition information about the field in which they appear.  They can be %d d by using the link below."
 msgstr ""
 
-#: ReduxCore/framework.php:1766
+#: ReduxCore/framework.php:1759
 msgid "clicking"
 msgstr ""
 
-#: ReduxCore/framework.php:1764
+#: ReduxCore/framework.php:1757
 msgid "moving the mouse over"
 msgstr ""
 
-#: ReduxCore/framework.php:1758
+#: ReduxCore/framework.php:1751
 msgid "Disable"
 msgstr "अक्षम"
 
-#: ReduxCore/framework.php:1753
+#: ReduxCore/framework.php:1746
 msgid "Enable"
 msgstr "सक्षम"
 
@@ -2675,8 +2679,7 @@ msgstr "सक्षम"
 msgid "Options"
 msgstr ""
 
-#. #-#-#-#-#  redux-framework-code.pot (Redux Framework 3.6.11)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 #: ReduxCore/framework.php:221
 #: ReduxCore/inc/welcome/welcome.php:203
 msgid "Redux Framework"
@@ -2722,20 +2725,20 @@ msgstr ""
 msgid "Warning- This options panel will not work properly without javascript!"
 msgstr ""
 
-#: ReduxCore/core/enqueue.php:495
+#: ReduxCore/core/enqueue.php:505
 msgid "There was a problem with your action. Please try again or reload the page."
 msgstr ""
 
-#: ReduxCore/core/enqueue.php:494
+#: ReduxCore/core/enqueue.php:504
 msgid "There was an error saving. Here is the result of your action:"
 msgstr ""
 
-#: ReduxCore/core/enqueue.php:483
+#: ReduxCore/core/enqueue.php:493
 msgid "Please Wait"
 msgstr ""
 
-#: ReduxCore/core/enqueue.php:476
 #: ReduxCore/inc/extensions/customizer/extension_customizer.php:691
+#: ReduxCore/core/enqueue.php:476
 msgid "Your current options will be replaced with the values of this preset. Would you like to proceed?"
 msgstr ""
 
@@ -2743,12 +2746,12 @@ msgstr ""
 msgid "Are you sure? Resetting will lose all custom values in this section."
 msgstr ""
 
-#: ReduxCore/core/enqueue.php:460
 #: ReduxCore/inc/extensions/customizer/extension_customizer.php:690
+#: ReduxCore/core/enqueue.php:460
 msgid "Are you sure? Resetting will lose all custom values."
 msgstr ""
 
-#: ReduxCore/core/enqueue.php:452
 #: ReduxCore/inc/extensions/customizer/extension_customizer.php:689
+#: ReduxCore/core/enqueue.php:452
 msgid "You have changes that are not saved. Would you like to save them now?"
 msgstr ""

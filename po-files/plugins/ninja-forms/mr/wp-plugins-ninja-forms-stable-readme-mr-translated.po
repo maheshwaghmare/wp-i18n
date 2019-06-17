@@ -7,14 +7,450 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-26T18:20:04+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:37:14+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
+#. Plugin name.
+msgid "Ninja Forms - The Easy and Powerful Forms Builder"
+msgstr ""
+
 #. Short description.
 msgid "Drag and drop fields in an intuitive UI to create contact forms, email subscription forms, order forms, payment forms, send emails and more!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Report bugs, suggest ideas, and participate in development at <a href=\"https://git.saturdaydrive.io/ninja-forms/ninja-forms\">https://git.saturdaydrive.io/ninja-forms/ninja-forms</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Documentation for Ninja Forms can be found at <a href=\"https://ninjaforms.com/documentation/\">https://ninjaforms.com/documentation/</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can find the full scope of the support we are able to provide at <a href=\"https://ninjaforms.com/scope-of-support/\">https://ninjaforms.com/scope-of-support/</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Our team provides free support at <a href=\"https://ninjaforms.com/contact/\">https://ninjaforms.com/contact/</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I report a bug?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find documentation?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I get support?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://ninjaforms.com/pricing/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Developer+Membership\">Find our more about our Ninja Forms Memberships here.</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Want access to everything we offer, or perhaps just our form building toolkit \"Builder PRO\"?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Collect payments</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Build your mailing list</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Ninja Forms is the ultimate FREE form creation tool for WordPress. Build forms within minutes using a simple yet powerful drag-and-drop form creator. For beginners, quickly and easily design complex forms with absolutely no code. For developers, utilize built-in hooks, filters, and even custom field templates to do whatever you need at any step in the form building or submission using Ninja Forms as a framework."
+msgstr ""
+
+#. Found in description list item.
+msgid "Form submission via AJAX, allowing a seamless user experience without page refreshes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Several anti-spam options including Google reCaptcha, question/response fields, and honeypot fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Customize emails and add raw HTML(for photos, videos, and more) with the powerful Summernote HTML editor."
+msgstr ""
+
+#. Found in description list item.
+msgid "Email form data to administrators and/or users every time a form is processed."
+msgstr ""
+
+#. Found in description list item.
+msgid "Give your users a success message or redirect them elsewhere after they complete a form."
+msgstr ""
+
+#. Found in description list item.
+msgid "Force required fields and correct data formatting with custom input masks"
+msgstr ""
+
+#. Found in description list item.
+msgid "Modify your own field then save them as favorites to re-use later (even in other forms!)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dedicated, easy to use fields for emails, dates (w/ datepicker), phone numbers, addresses and more"
+msgstr ""
+
+#. Found in description list item.
+msgid "NO LIMITATIONS on the number of forms, fields, emails, actions, or submissions."
+msgstr ""
+
+#. Found in description list item.
+msgid "A gorgeous and intuitive user interface."
+msgstr ""
+
+#. Screenshot description.
+msgid "Beatiful Forms Every Time!"
+msgstr ""
+
+#. Screenshot description.
+msgid "Advanced Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Emails and Actions"
+msgstr ""
+
+#. Screenshot description.
+msgid "Field Options"
+msgstr ""
+
+#. Screenshot description.
+msgid "The most intuitive and beautiful form building experience"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For help and video tutorials, please visit our website: <a href=\"https://ninjaforms.com/documentation/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Ninja+Forms+Docs\">Ninja Forms Documentation</a>"
+msgstr ""
+
+#. Found in description header.
+msgid "Use"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Shortcodes have been re-implemented. They are used like so: [ninja_form id=#] where # is the ID number of the form you want to display."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "This section describes how to install the plugin and get it working."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Visit the 'Forms' menu item in your admin sidebar"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>ninja-forms</code> directory to your <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you're a developer and would like to talk about creating some premium extensions for Ninja Forms, send us an email: info@wpninjas.com."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Ninja Forms framework is on <a href=\"https://git.saturdaydrive.io/ninja-forms/ninja-forms\">GitLab</a>! If you're a developer and want to help make Ninja Forms better, check it out. It's also a great resource for developers who are interested in creating add-ons for our online store."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With over 40 add-ons available and new ones being added regularly, it’s likely we have everything you’ll ever need. <a href=\"https://ninjaforms.com/extensions/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Add-Ons\">Check them all out here.</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Even more add-ons available right now</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Even if your team needs a support form where your customers can ask for help, Ninja Forms integrates with <a href=\"https://ninjaforms.com/extensions/help-scout/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Help+Scout\">Help Scout</a> to make this a delightful experience."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We love and use tools like <a href=\"https://ninjaforms.com/extensions/slack/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Slack\">Slack</a>, <a href=\"https://ninjaforms.com/extensions/trello/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Trello\">Trello</a>, and <a href=\"https://ninjaforms.com/extensions/zapier/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Zapier\">Zapier</a>. These tools help our very own team build Ninja Forms so it makes sense that we would share them with you."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Send data to all your favorite productivity tools with the click of a submit button</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "When someone fills out your form the most natural thing to do is send their data directly to your favorite CRM. Ninja Forms makes this easy with plenty of CRM integrations such as <a href=\"https://ninjaforms.com/extensions/salesforce-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=SalesForce+CRM\">SalesForce</a>, <a href=\"https://ninjaforms.com/extensions/batchbook-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Batchbook+CRM\">Batchbook</a>, <a href=\"https://ninjaforms.com/extensions/zoho-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Zoho+CRM\">Zoho</a>, <a href=\"https://ninjaforms.com/extensions/insightly-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Insightly+CRM\">Insightly</a>, <a href=\"https://ninjaforms.com/extensions/capsule-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Capsule+CRM\">Capsule</a>, etc."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>All the best customer relationship management integrations</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Ninja Forms gives you the ability to collect payments through <a href=\"https://ninjaforms.com/extensions/paypal-express/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=PayPal+Express\">PayPal Express</a>, <a href=\"https://ninjaforms.com/extensions/stripe/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Stripe\">Stripe</a>, or <a href=\"https://ninjaforms.com/extensions/elavon/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Elavon\">Elavon</a>. More payment gateways coming."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Use the mailing list tool of your choice. <a href=\"https://ninjaforms.com/extensions/mail-chimp/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=MailChimp\">MailChimp</a>, <a href=\"https://ninjaforms.com/extensions/constant-contact/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Constant+Contact\">Constant Contact</a>, <a href=\"https://ninjaforms.com/extensions/campaign-monitor/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Campaign+Monitor\">Campaign Monitor</a>, <a href=\"//ninjaforms.com/extensions/emma/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Emma\">Emma</a>, <a href=\"https://ninjaforms.com/extensions/aweber/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Aweber\">Aweber</a>, <a href=\"https://ninjaforms.com/extensions/mailpoet/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=MailPoet\">MailPoet</a>, <a href=\"https://ninjaforms.com/extensions/icontact/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=iContact\">iContact</a>, <a href=\"https://ninjaforms.com/extensions/getresponse/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=GetResponse\">GetResponse</a>, <a href=\"https://ninjaforms.com/extensions/cleverreach/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=CleverReach\">CleverReach</a>, <a href=\"https://ninjaforms.com/extensions/sendy/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Sendy\">Sendy</a>, and <a href=\"https://ninjaforms.com/extensions/mad-mimi/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Mad+Mimi\">Mad Mimi</a> are all supported for your list building needs."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Beautiful forms convert better than crowded unorganized forms. While Ninja Forms looks great on any well styled theme and is easy to style further if your are comforatble with CSS, <a href=\"https://ninjaforms.com/extensions/layout-styles/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Layout+and+Styles\">Layout and Styles</a> makes it easy to create columns for your forms as well as style specific elements."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://ninjaforms.com/extensions/mult-part-forms/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Multi-Part+Forms\">Breaking forms into smaller parts</a> or <a href=\"https://ninjaforms.com/extensions/save-progress/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Save+Progress\">allowing users to save and return</a> make longer forms less intimidating. <a href=\"https://ninjaforms.com/extensions/conditional-logic/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Conditional+Logic\">Conditional Logic</a> will allow you to show field only to users who need them and send emails or process actions only under specific conditions."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Increase form conversions</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "More information at <a href=\"https://ninjaforms.com/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Home+Page\">ninjaforms.com</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Features of Ninja Forms include, but are not limited to:</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Export and Import forms and favorite fields."
+msgstr ""
+
+#. Found in description list item.
+msgid "Manage, Edit, and Export form user submissions."
+msgstr ""
+
+#. Found in description header.
+msgid "For Developers"
+msgstr ""
+
+#. Found in description header.
+msgid "Become a Ninja Forms Member"
+msgstr ""
+
+#. Found in description header.
+msgid "Ninja Forms also has a complete library of add-ons to take your forms to new heights:"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Forms should no longer fail to display when a total field is referenced in a calculation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that sometimes caused submission to freeze when a required field was left empty."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Restored the display of some action settings that were being improperly hidden in the form builder. (e.g. Stripe metadata and Update Profile custom meta.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "\"Light\" opinionated styles are now enabled by default on new Ninja Forms installations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that was causing various add-ons to behave strangely when there were multiple forms on a single page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated our form load process to better account for reported excessive page load times."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Public links are now available for Ninja Forms! Found next to the publish button, public links provide form access to anyone with the link. Just copy and paste the unique URL and anyone can see and use your form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some settings have been registered as developer options, which will be disabled by default to avoid settings clutter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added realistic field support for the save button and password field in the form builder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added currency support for the Malaysian Ringgit."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Builder help texts should no longer contain unrendered HTML elements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Querystring merge tags should no longer display their tags when the querystring is not present."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Field keys should once more be accessible in submission filters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that sometimes caused required updates to miscommunicate completion progress."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Realistic preview of multiselect fields will now render more accurately in the builder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that sometimes prevented favorite fields from being added to a form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multiple instances of the same form can now be loaded on a page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that caused the form builder to crash when editing forms that had a select list with no options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We've upgraded our form building experience with realistic field representations!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that sometimes caused submission dates to show inaccurately in the submissions table."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected an issue that sometimes caused forms with large calculations to not display properly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an error that was causing form submission to fail on some php versions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved several issues that sometimes caused notices to be logged on newer versions of php."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The following field types have been deprecated: Product, Quantity, Shipping, Total."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Calculations should now have more consistent results when numbers are input in international formats."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed the priority of the redirect action so that it should always fire last."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Introducing SendWP - A dedicated WordPress email solution!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgrade to THREE for legacy users will no longer immediately trigger additional required updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that was sometimes causing the submission sequence to reset."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that sometimes caused fields to not appear on the form after publish. (Special thanks to Tim de Hoog and Sidekick-IT)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that was rarely causing actions to fire twice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Submission exports of checkbox fields that have been modified by an admin should now display their proper value in the csv."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that was causing some form imports to fail."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sites with WP_DEBUG enabled should no longer display an undefined 'maintenance' column error on form load."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected an error that was causing form duplication to fail."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgraded our data structure to reduce loading times for forms and the form builder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Implemented a new import process, which should be more reliable with large form imports."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "(2.9x) Duplicated previous blind SQL injection patch for our deprecated 2.9x codebase. Many thanks to Plugin Vulnerabilities for reporting that our initial pass missed this."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched a blind SQL injection vulnerability in the search filter on our submissions page. Thank you to Samuel Anttila at netsec.expert for practicing responsible disclosure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched a reflected XSS vulnerability in our administrative dashboard. Thank you to Samuel Anttila at netsec.expert for practicing responsible disclosure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Product and quantity field merge tags can no longer be referenced in calculations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that caused our Gutenberg Block to not dispaly in the post editor when the Twenty Nineteen theme is active."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched an open redirect vulnerability using a url parameter in our submission download page. Thank you to Muhammad Talha Khan for practicing responsible disclosure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Finalized the Gutenberg block. (No longer a Beta feature.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Patched a redirect XSS vulnerability using code injection on our submissions page. Thank you to Muhammad Talha Khan for practicing responsible disclosure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The rich text editor in the form builder should now wrap lines while in code view."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected an error that was sometimes causing number fields to clear themselves when Multi-part Forms is active."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Placeholder text should now be visible in number fields that have a minimum value."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue where the WordPress is_search function was being called incorrectly in some cases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom columns should no longer be added to non-Ninja Forms custom post types with meta values containing '_field'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that sometimes caused error log entries related to an invalid IP."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The form selector on the submissions page should now be visible on mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Resolved an issue that sometimes caused CSV exports to have multiple header rows."
 msgstr ""
 
 #. Found in changelog list item.
@@ -163,10 +599,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "The styling of the Ninja Forms settings page has been corrected."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Report bugs, suggest ideas, and participate in development at <a href=\"https://git.saturdaydrive.io/ninja-forms/ninja-forms\">https://git.saturdaydrive.io/ninja-forms/ninja-forms</a>."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1087,226 +1519,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Added a dashboard view for forms, removing the \"All Forms\" and \"Add New\" submenus."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Documentation for Ninja Forms can be found at <a href=\"https://ninjaforms.com/documentation/\">https://ninjaforms.com/documentation/</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "You can find the full scope of the support we are able to provide at <a href=\"https://ninjaforms.com/scope-of-support/\">https://ninjaforms.com/scope-of-support/</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Our team provides free support at <a href=\"https://ninjaforms.com/contact/\">https://ninjaforms.com/contact/</a>."
-msgstr ""
-
-#. Found in faq header.
-msgid "Where can I report a bug?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Where can I find documentation?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Where can I get support?"
-msgstr ""
-
-#. Plugin name.
-msgid "Ninja Forms - The Easy and Powerful Forms Builder"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<a href=\"https://ninjaforms.com/pricing/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Developer+Membership\">Find our more about our Ninja Forms Memberships here.</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Want access to everything we offer, or perhaps just our form building toolkit \"Builder PRO\"?"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<strong>Collect payments</strong>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<strong>Build your mailing list</strong>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Ninja Forms is the ultimate FREE form creation tool for WordPress. Build forms within minutes using a simple yet powerful drag-and-drop form creator. For beginners, quickly and easily design complex forms with absolutely no code. For developers, utilize built-in hooks, filters, and even custom field templates to do whatever you need at any step in the form building or submission using Ninja Forms as a framework."
-msgstr ""
-
-#. Found in description list item.
-msgid "Form submission via AJAX, allowing a seamless user experience without page refreshes"
-msgstr ""
-
-#. Found in description list item.
-msgid "Several anti-spam options including Google reCaptcha, question/response fields, and honeypot fields"
-msgstr ""
-
-#. Found in description list item.
-msgid "Customize emails and add raw HTML(for photos, videos, and more) with the powerful Summernote HTML editor."
-msgstr ""
-
-#. Found in description list item.
-msgid "Email form data to administrators and/or users every time a form is processed."
-msgstr ""
-
-#. Found in description list item.
-msgid "Give your users a success message or redirect them elsewhere after they complete a form."
-msgstr ""
-
-#. Found in description list item.
-msgid "Force required fields and correct data formatting with custom input masks"
-msgstr ""
-
-#. Found in description list item.
-msgid "Modify your own field then save them as favorites to re-use later (even in other forms!)"
-msgstr ""
-
-#. Found in description list item.
-msgid "Dedicated, easy to use fields for emails, dates (w/ datepicker), phone numbers, addresses and more"
-msgstr ""
-
-#. Found in description list item.
-msgid "NO LIMITATIONS on the number of forms, fields, emails, actions, or submissions."
-msgstr ""
-
-#. Found in description list item.
-msgid "A gorgeous and intuitive user interface."
-msgstr ""
-
-#. Screenshot description.
-msgid "Beatiful Forms Every Time!"
-msgstr ""
-
-#. Screenshot description.
-msgid "Advanced Settings"
-msgstr ""
-
-#. Screenshot description.
-msgid "Emails and Actions"
-msgstr ""
-
-#. Screenshot description.
-msgid "Field Options"
-msgstr ""
-
-#. Screenshot description.
-msgid "The most intuitive and beautiful form building experience"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "For help and video tutorials, please visit our website: <a href=\"https://ninjaforms.com/documentation/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Ninja+Forms+Docs\">Ninja Forms Documentation</a>"
-msgstr ""
-
-#. Found in description header.
-msgid "Use"
-msgstr ""
-
-#. Found in installation paragraph.
-msgid "Shortcodes have been re-implemented. They are used like so: [ninja_form id=#] where # is the ID number of the form you want to display."
-msgstr ""
-
-#. Found in installation paragraph.
-msgid "This section describes how to install the plugin and get it working."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Visit the 'Forms' menu item in your admin sidebar"
-msgstr ""
-
-#. Found in installation list item.
-msgid "Activate the plugin through the 'Plugins' menu in WordPress"
-msgstr ""
-
-#. Found in installation list item.
-msgid "Upload the <code>ninja-forms</code> directory to your <code>/wp-content/plugins/</code> directory"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "If you're a developer and would like to talk about creating some premium extensions for Ninja Forms, send us an email: info@wpninjas.com."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The Ninja Forms framework is on <a href=\"https://git.saturdaydrive.io/ninja-forms/ninja-forms\">GitLab</a>! If you're a developer and want to help make Ninja Forms better, check it out. It's also a great resource for developers who are interested in creating add-ons for our online store."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "With over 40 add-ons available and new ones being added regularly, it’s likely we have everything you’ll ever need. <a href=\"https://ninjaforms.com/extensions/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Add-Ons\">Check them all out here.</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<strong>Even more add-ons available right now</strong>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Even if your team needs a support form where your customers can ask for help, Ninja Forms integrates with <a href=\"https://ninjaforms.com/extensions/help-scout/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Help+Scout\">Help Scout</a> to make this a delightful experience."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "We love and use tools like <a href=\"https://ninjaforms.com/extensions/slack/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Slack\">Slack</a>, <a href=\"https://ninjaforms.com/extensions/trello/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Trello\">Trello</a>, and <a href=\"https://ninjaforms.com/extensions/zapier/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Zapier\">Zapier</a>. These tools help our very own team build Ninja Forms so it makes sense that we would share them with you."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<strong>Send data to all your favorite productivity tools with the click of a submit button</strong>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "When someone fills out your form the most natural thing to do is send their data directly to your favorite CRM. Ninja Forms makes this easy with plenty of CRM integrations such as <a href=\"https://ninjaforms.com/extensions/salesforce-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=SalesForce+CRM\">SalesForce</a>, <a href=\"https://ninjaforms.com/extensions/batchbook-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Batchbook+CRM\">Batchbook</a>, <a href=\"https://ninjaforms.com/extensions/zoho-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Zoho+CRM\">Zoho</a>, <a href=\"https://ninjaforms.com/extensions/insightly-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Insightly+CRM\">Insightly</a>, <a href=\"https://ninjaforms.com/extensions/capsule-crm/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Capsule+CRM\">Capsule</a>, etc."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<strong>All the best customer relationship management integrations</strong>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Ninja Forms gives you the ability to collect payments through <a href=\"https://ninjaforms.com/extensions/paypal-express/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=PayPal+Express\">PayPal Express</a>, <a href=\"https://ninjaforms.com/extensions/stripe/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Stripe\">Stripe</a>, or <a href=\"https://ninjaforms.com/extensions/elavon/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Elavon\">Elavon</a>. More payment gateways coming."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Use the mailing list tool of your choice. <a href=\"https://ninjaforms.com/extensions/mail-chimp/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=MailChimp\">MailChimp</a>, <a href=\"https://ninjaforms.com/extensions/constant-contact/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Constant+Contact\">Constant Contact</a>, <a href=\"https://ninjaforms.com/extensions/campaign-monitor/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Campaign+Monitor\">Campaign Monitor</a>, <a href=\"//ninjaforms.com/extensions/emma/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Emma\">Emma</a>, <a href=\"https://ninjaforms.com/extensions/aweber/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Aweber\">Aweber</a>, <a href=\"https://ninjaforms.com/extensions/mailpoet/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=MailPoet\">MailPoet</a>, <a href=\"https://ninjaforms.com/extensions/icontact/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=iContact\">iContact</a>, <a href=\"https://ninjaforms.com/extensions/getresponse/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=GetResponse\">GetResponse</a>, <a href=\"https://ninjaforms.com/extensions/cleverreach/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=CleverReach\">CleverReach</a>, <a href=\"https://ninjaforms.com/extensions/sendy/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Sendy\">Sendy</a>, and <a href=\"https://ninjaforms.com/extensions/mad-mimi/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Mad+Mimi\">Mad Mimi</a> are all supported for your list building needs."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Beautiful forms convert better than crowded unorganized forms. While Ninja Forms looks great on any well styled theme and is easy to style further if your are comforatble with CSS, <a href=\"https://ninjaforms.com/extensions/layout-styles/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Layout+and+Styles\">Layout and Styles</a> makes it easy to create columns for your forms as well as style specific elements."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<a href=\"https://ninjaforms.com/extensions/mult-part-forms/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Multi-Part+Forms\">Breaking forms into smaller parts</a> or <a href=\"https://ninjaforms.com/extensions/save-progress/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Save+Progress\">allowing users to save and return</a> make longer forms less intimidating. <a href=\"https://ninjaforms.com/extensions/conditional-logic/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Conditional+Logic\">Conditional Logic</a> will allow you to show field only to users who need them and send emails or process actions only under specific conditions."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<strong>Increase form conversions</strong>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "More information at <a href=\"https://ninjaforms.com/?utm_medium=referral&amp;utm_source=wordpress.org&amp;utm_campaign=Ninja+Forms+Readme&amp;utm_content=Home+Page\">ninjaforms.com</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<strong>Features of Ninja Forms include, but are not limited to:</strong>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Export and Import forms and favorite fields."
-msgstr ""
-
-#. Found in description list item.
-msgid "Manage, Edit, and Export form user submissions."
-msgstr ""
-
-#. Found in description header.
-msgid "For Developers"
-msgstr ""
-
-#. Found in description header.
-msgid "Become a Ninja Forms Member"
-msgstr ""
-
-#. Found in description header.
-msgid "Ninja Forms also has a complete library of add-ons to take your forms to new heights:"
 msgstr ""
 
 #. Found in changelog list item.

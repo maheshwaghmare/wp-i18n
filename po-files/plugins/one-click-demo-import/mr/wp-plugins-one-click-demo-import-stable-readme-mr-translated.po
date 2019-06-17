@@ -1,0 +1,646 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - One Click Demo Import - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:50:01+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Import your demo content, widgets and theme settings with one click. Theme authors! Enable simple demo import for your theme demo data."
+msgstr ""
+
+#. Plugin name.
+msgid "One Click Demo Import"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The content, widgets and customizer options can be mixed and used at the same time. If the <code>predefined</code> option is set, then it will ignore all other options and import the predefined demo data."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<code>--content=&lt;file&gt;</code> - will run the content import with the WP import file specified in the <code>&lt;file&gt;</code> parameter,"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "wp ocdi import [--content=] [--widgets=] [--customizer=] [--predefined=]"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "wp ocdi import options:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<code>wp ocdi import</code> - which has a few options that you can use to import the things you want (content/widgets/customizer/predefined demos). Let's look at these options below."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In the 2.4.0 version of this pugin we added two WP-CLI commands:"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<code>--predefined=&lt;index&gt;</code> - will run the theme predefined import with the index of the predefined import in the <code>&lt;index&gt;</code> parameter (you can use the <code>wp ocdi list</code> command to check which index is used for each predefined demo import)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<code>--customizer=&lt;file&gt;</code> - will run the customizer settings import with the customizer import file specified in the <code>&lt;file&gt;</code> parameter,"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<code>--widgets=&lt;file&gt;</code> - will run the widgets import with the widgets import file specified in the <code>&lt;file&gt;</code> parameter,"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<code>wp ocdi list</code> - Which will list any predefined demo imports currently active theme might have,"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I import via the WP-CLI?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can set content import, widgets, customizer and Redux framework import files. You can also define a preview image, which will be used only when multiple demo imports are defined, so that the user will see the difference between imports. Categories can be assigned to each demo import, so that they can be filtered easily. The preview URL will display the \"Preview\" button in the predefined demo item, which will open this URL in a new tab and user can view how the demo site looks like."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "\"<a href=\"http://proteusthemes.github.io/one-click-demo-import/theme-users.html\">Where can I find the contact of the theme author?</a>\""
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Contact the author of your theme and <a href=\"http://proteusthemes.github.io/one-click-demo-import/theme-users.html\">let them know about this plugin</a>. Theme authors can make any theme compatible with this plugin in 15 minutes and make it much more user-friendly."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Are you a theme user?</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Also <a href=\"http://proteusthemes.github.io/one-click-demo-import/#ocdi-newsletter-signup\">sign up to the newsletter</a>, so we can inform you about any updates, changes or improvements."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Setup One Click Demo Imports for your theme and your users will thank you for it!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Are you a theme author?</strong>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "and the notice will not be displayed."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can disable the branding notice with a WP filter. All you need to do is add this bit of code to your theme:"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I disable the ProteusThemes branding notice after successful demo import?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you want to just change some options for the jQuery modal window we use for the popup confirmation, then use this filter:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you want to disable the popup confirmation modal window, use this filter:"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to configure the multi grid layout import popup confirmation?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It's easy, just add this to your theme:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "In version 2.0.0 there is a new action hook: <code>pt-ocdi/before_content_import</code>, which will let you hook before the content import starts. An example of the code would look like this:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This will enable the following WP hooks when importing the customizer data: <code>customize_save</code>, <code>customize_save_*</code>, <code>customize_save_after</code>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If the theme you are using does not have any predefined import files, then you will be presented with three file upload inputs. First one is required and you will have to upload a demo content XML file, for the actual demo import. The second one is optional and will ask you for a WIE or JSON file for widgets import. You create that file using the <a href=\"https://wordpress.org/plugins/widget-importer-exporter/\">Widget Importer &amp; Exporter</a> plugin. The third one is also optional and will import the customizer settings, select the DAT file which you can generate from <a href=\"https://wordpress.org/plugins/customizer-export-import/\">Customizer Export/Import</a> plugin (the customizer settings will be imported only if the export file was created from the same theme). The final one is optional as well and will import your Redux framework settings. You can generate the export json file with the <a href=\"https://wordpress.org/plugins/redux-framework/\">Redux framework</a> plugin."
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I enable the `customize_save*` wp action hooks in the customizer import?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to do something before the content import executes?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://proteusthemes.github.io/one-click-demo-import/\">Follow this easy guide on how to setup this plugin for your themes!</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can do that, with the <code>pt-ocdi/after_import</code> action hook. The code would look something like this:"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to automatically assign \"Front page\", \"Posts page\" and menu locations after the importer is done?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please visit this <a href=\"https://github.com/proteusthemes/one-click-demo-import/blob/master/docs/import-problems.md\">docs page</a>, for more answers to issues with importing data."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<em>Update: since version 1.2.0, there is now a admin error notice, stating that the minimal PHP version required for this plugin is 5.3.2.</em>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You have to use the same filter as in above example, but with a slightly different array keys: <code>local_*</code>. The values have to be absolute paths (not URLs) to your import files. To use local import files, that reside in your theme folder, please use the below code. Note: make sure your import files are readable!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The log file will also be registered in the <em>wp-admin -&gt; Media</em> section, so you can access it easily."
+msgstr ""
+
+#. Found in faq header.
+msgid "Issues with the import, that we can't fix in the plugin"
+msgstr ""
+
+#. Found in faq header.
+msgid "What about using local import files (from theme folder)?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<strong>Once the plugin is activated you will find the actual import page in: Appearance -&gt; Import Demo Data.</strong>"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<strong>From WordPress.org</strong>"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<strong>From your WordPress dashboard</strong>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the 'one-click-demo-import' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download 'One Click Demo Import'."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate 'One Click Demo Import' from your Plugins page."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Search for 'One Click Demo Import' and install the plugin,"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Visit 'Plugins &gt; Add New',"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "NOTE: There is no setting to \"connect\" authors from the demo import file to the existing users in your WP site (like there is in the original WP Importer plugin). All demo content will be imported under the current user."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is using the improved WP import 2.0 that is still in development and can be found here: https://github.com/humanmade/WordPress-Importer."
+msgstr ""
+
+#. Screenshot description.
+msgid "Example of how the import page looks like, when no demo imports are predefined a.k.a manual import."
+msgstr ""
+
+#. Screenshot description.
+msgid "How the import page looks like, when only one demo import is predefined."
+msgstr ""
+
+#. Screenshot description.
+msgid "Example of multiple predefined demo imports, that a user can choose from."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "As a theme author you do not like the location of the \"Import Demo Data\" plugin page in <em>Appearance -&gt; Import Demo Data</em>? You can change that with the filter below. Apart from the location, you can also change the title or the page/menu and some other parameters as well."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This will greatly improve the time needed to import the content (images), but only the original sized images will be imported. You can disable it with a filter, so just add this code to your theme function.php file:"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to change the location, title and other parameters of the plugin page?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to disable generation of smaller images (thumbnails) during the content import"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please refer to the official <a href=\"https://github.com/proteusthemes/one-click-demo-import\">GitHub repository</a> of this plugin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Do you want to contribute?</strong>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To add some text in a separate \"box\", you should wrap your text in a div with a class of 'ocdi__intro-text', like in the code example above."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can change the plugin intro text by using the <code>pt-ocdi/plugin_intro_text</code> filter:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Of course you can, use the <code>pt-ocdi/before_widgets_import</code> action. You can also target different predefined demo imports like in the example above. Here is a simple example code of the <code>pt-ocdi/before_widgets_import</code> action:"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm a theme author and I want to change the plugin intro text, how can I do that?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I add some code before the widgets get imported?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This happens, because your hosting server is using a very old version of PHP. This plugin requires PHP version of at least <strong>5.3.x</strong>, but we recommend version <em>5.6.x</em> or better yet <em>7.x</em>. Please contact your hosting company and ask them to update the PHP version for your site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<em>Plugin could not be activated because it triggered a fatal error</em>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You want to activate the plugin, but this error shows up:"
+msgstr ""
+
+#. Found in faq header.
+msgid "I can't activate the plugin, because of a fatal error, what can I do?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This question might be asked by a theme author wanting to implement different after import setups for multiple predefined demo imports. Lets say we have predefined two demo imports with the following names: 'Demo Import 1' and 'Demo Import 2', the code for after import setup would be (using the <code>pt-ocdi/after_import</code> filter):"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This question is for theme authors. To predefine demo imports, you just have to add the following code structure, with your own values to your theme (using the <code>pt-ocdi/import_files</code> filter):"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The files used in the demo import will be saved to the default WordPress uploads directory. An example of that directory would be: <code>../wp-content/uploads/2016/03/</code>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You will find the import page in <em>wp-admin -&gt; Appearance -&gt; Import Demo Data</em>."
+msgstr ""
+
+#. Found in faq header.
+msgid "How to handle different \"after import setups\" depending on which predefined import was selected?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to predefine demo imports?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where are the demo import files and the log files saved?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I have activated the plugin. Where is the \"Import Demo Data\" page?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All progress of this plugin's work is logged in a log file in the default WP upload directory, together with the demo import files used in the importing process."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The best feature of this plugin is, that theme authors can define import files in their themes and so all you (the user of the theme) have to do is click on the \"Import Demo Data\" button."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin will create a submenu page under Appearance with the title <strong>Import demo data</strong>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix missing translation strings"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 25 October 2018</em>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 8 January 2018</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix text domain loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add switching to the manual import, if the theme has predefined demo imports,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add OCDI as a WordPress import tool in Tools -&gt; Import,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 23 August 2017</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix conflict with WooCommerce importer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add WP-CLI commands for importing with this plugin,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 28 May 2017</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix custom menu widgets imports, the menus will now be set correctly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove content import as a required import. Now you can make separate imports for customizer, widgets or redux options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add custom filter for plugin page title,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add custom JS event trigger when the import process is completed,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add preview button option to the predefined demo import items,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 3 April 2017</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix custom post type existing posts check (no more multiple imports for custom post types)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix remapping of featured images,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix image importing error for server compressed files,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 5 February 2017</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix some undefined variables in the plugin, causing PHP notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix after import error reporting (duplicate errors were shown),"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add ProteusThemes branding notice after successful import,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 8 January 2017</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix WooCommerce product attributes import."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix term meta data double import,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add grid layout import confirmation popup options filter,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 13 December 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue with customizer options import"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 12 December 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix issue with some browsers (Safari and IE) not supporting some FormData methods."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add new layout for multiple predefined demo imports (a grid layout instead of the dropdown selector),"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for Redux framework import,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change the code structure of the plugin (plugin rewrite, namespaces, autoloading),"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now the whole import (content, widgets, customizer, redux) goes through even if something goes wrong in the content import (before content import errors blocked further import),"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>pt-ocdi/before_content_import</code> action hook, that theme authors can use to hook into before the content import starts,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix post formats (video/quote/gallery,...) not importing,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix frontend error reporting through multiple AJAX calls,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix customizer import does not save some options (because of the missing WP actions - these can be enabled via a filter, more in the FAQ section)."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 10 December 2016</em>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 29 October 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the issue of having both plugins (OCDI and the new WP importer v2) activated at the same time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for WP term meta data in content importer,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 1 October 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Import/plugin page re-design. Updated the plugin page styles to match WordPress (thanks to Oliver Juhas)."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 9 July 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No more \"[WARNING] Could not find the author for ...\" messages in the log file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Register log file in <em>wp-admin -&gt; Media</em>, so that it's easier to access,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes PHP fatal error on plugin activation, for sites using PHP versions older then 5.3.2 (added admin error notice),"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now also accepts predefined local import files (from theme folder),"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 17 June 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed the plugin page setup filter name from <code>pt-ocdi/plugin-page-setup</code> to <code>pt-ocdi/plugin_page_setup</code> (mind the underscore characters instead of dashes)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated plugin design,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 22 May 2016</em>"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 12 June 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "You can now also import customizer settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Preview import images can now be defined for multiple predefined import files (check FAQ \"How to predefine demo imports?\" for more info),"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a filter to the plugin page creation, so that theme authors can now change the location of the plugin page (Demo data import) and some other parameters as well."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "This plugin is now compatible with the new <a href=\"https://github.com/humanmade/WordPress-Importer\">Humanmade content importer plugin</a>,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now displays proper error message, if the file-system method is not set to \"direct\","
+msgstr ""
+
+#. Found in changelog list item.
+msgid "An 'import notice' field has been added to the predefined demo import settings. This notice is displayed above the import button (it also accepts HTML),"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 14 May 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin textdomain was loaded, so that translations can be made."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The setting for generation of multiple image sizes in the content import is again enabled by default,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Content import now imports in multiple AJAX calls, so there should be no more server timeout errors,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 27 April 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled author imports."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added action to execute custom code before widget import,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to change the plugin intro text,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to enable image regeneration,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 15 April 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Monkey fix for WP version 4.5. - disabled generation of multiple image sizes in the content import."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Small code fixes:"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 2 April 2016</em>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed naming of downloaded files and their filters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed undefined variable bug,"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<em>Release Date - 25 March 2016</em>"
+msgstr ""

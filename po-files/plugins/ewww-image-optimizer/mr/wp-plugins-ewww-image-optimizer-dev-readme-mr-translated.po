@@ -7,222 +7,22 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:32:02+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:49:14+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
+#. Short description.
+msgid "Speed up your website and improve your visitors&#039; experience by automatically compressing and resizing images and PDFs."
+msgstr ""
+
 #. Plugin name.
 msgid "EWWW Image Optimizer"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "fixed: bulk scanner stuck in resume mode with nothing to do"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: srcset fill generates notices with non-numeric widths"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: ExactDN srcset fill adds double arguments to urls"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: ExactDN srcset functions cause duplicate image requests with zoom=1"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: Alt WebP blocks on Facebook tracking pixel"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: folder scanner ignores files with no extension"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: optimization failure produces rename() errors"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: better lazy load support in ExactDN"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: ExactDN fully supports protocol-relative urls for non-image resources"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: notice for Pantheon users that an API key is required"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: ExactDN srcset fill replaces images with first image on page"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "deprecated: PHP 5.5 support will be removed in the next major release (version 4.5)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: PDF uploads with S3 Uploads plugin"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: WebP images missing from S3 when using WP Offload S3"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: WP esc_url mangles ExactDN urls"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: regression with ExactDN and max-width style attributes"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: ExactDN uses premium compression by default"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: Remove Metadata option has been renamed, if you previously had it configured as an override (JPEGTRAN_COPY), please use the new name: EWWW_IMAGE_OPTIMIZER_METADATA_REMOVE"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: Alt WebP still depends on jQuery, but jQuery can be loaded in async or defer mode"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: configuration options in the settings page for several \"hidden\" ExactDN options"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: ExactDN will fill in srcset/sizes attributes for all images based on detected width for better mobile support"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: preserve animations in GIF images during resize operations"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: Alt WebP broken on sites that have jquery-migrate disabled"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: auto-convert PNG to JPG was running on images with transparency"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: prevent dynamic JS/CSS urls within wp-admin/ from being rewritten by ExactDN"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: fatal error on older WP versions due to missing privacy policy function"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "deprecated: PHP 5.4 support will be removed in the next major release (version 4.4)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: PNGOUT installer confirmation notice was missing"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: toggle for plugin status and bulk status generate admin-ajax.php 403 errors"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: if urls on a localized WPML domain are using the default domain, ExactDN ignores them"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: entering a decimal for bulk delay does nothing"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: encoded ampersands within the path portion of a url prevent ExactDN parsing"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: unique filename function producing names with a hyphen and no digits"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: uploading images in the Gutenberg editor uses the wrong resize dimensions"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixed: thumbs not generated during WP/LR Sync"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: bulk operations for batches of NextGEN images now use the bulk optimizer page instead of loading inline"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: one-click copy for debug info, and debug collapsed by default in media library and bulk results"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: auto-rotate function disabled with EWWW_IMAGE_OPTIMIZER_DISABLE_AUTOROTATE"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: allow crop via filter even when one dimension is the same as the original"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: filter NextGEN quality to prevent oversized thumbs"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: Resize Other Images removed from GUI, configure via Overrides tab"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "changed: resizing uses the primary media dimensions unless the \"other\" dimensions are configured"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: detect wordpress.com sites and disable exec function and binaries"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: suggested privacy policy text for users of the API and ExactDN"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: auto-installer for Cloud plugin when running EWWW IO on a \"banned\" webhost"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: NextGEN dynamic thumbs included during manual/bulk optimization"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: NextGEN image urls properly rewritten for ExactDN"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: use EXACTDN_EXCLUDE in wp-config.php to bypass ExactDN for JS, CSS, etc."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: use file modification time to add query strings on JS/CSS files for cache invalidation on ExactDN"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: auto-convert large PNG images to JPG during upload, define EWWW_IMAGE_OPTIMIZER_DISABLE_AUTOCONVERT to skip"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: links within settings and other notices for contextual help"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "added: Alt WebP enables instant conversion with ExactDN, no need for bulk optimize"
+#. Found in description paragraph.
+msgid "<a href=\"https://wordpress.org/plugins/amazon-s3-and-cloudfront/\">WP Offload Media</a> is the officially supported (and recommended) plugin for uploads to Amazon S3 and Digital Ocean Spaces. We also support the Azure Storage and Cloudinary plugins. All pull mode CDNs like Cloudflare, KeyCDN, MaxCDN, and Sucuri CloudProxy work automatically, but will require you to purge the cache after a bulk optimization."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -235,10 +35,6 @@ msgstr ""
 
 #. Found in installation paragraph.
 msgid "If these steps do not work, additional documentation is available at https://docs.ewww.io/article/6-the-plugin-says-i-m-missing-something. If you need further assistance using the plugin, please visit our <a href=\"https://ewww.io/contact-us/\">Support Page</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "removed: PHP 5.4 no longer supported"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -316,14 +112,6 @@ msgstr ""
 msgid "<strong>No Speed Limits</strong> and <a href=\"https://ewww.io/unlimited-file-size/\">unlimited file size</a>. Using automatic Background Optimization and optional Parallel Optimization, get rid of upload delays and get back to doing what you love."
 msgstr ""
 
-#. Short description.
-msgid "Speed up your website and improve your visitors&#039; experience by automatically compressing and resizing images and PDFs."
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "Please refer to the separate changelog.txt file."
-msgstr ""
-
 #. Found in description paragraph.
 msgid "Tested regularly to ensure compatibility with multilingual sites. Learn more at https://wpml.org/plugin/ewww-image-optimizer/"
 msgstr ""
@@ -333,7 +121,7 @@ msgid "WPML Compatible"
 msgstr ""
 
 #. Found in description paragraph.
-msgid "Written by <a href=\"https://ewww.io\">Shane Bishop</a>. Based upon CW Image Optimizer, which was written by <a href=\"http://www.jacoballred.com/\">Jacob Allred</a> at <a href=\"http://www.corbanworks.com/\">Corban Works, LLC</a>. CW Image Optimizer was based on WP Smush.it. Jpegtran is the work of the Independent JPEG Group. PEL is the work of Martin Geisler, Lars Olesen, and Erik Oskam. ExactDN class based upon the Photon module from Jetpack."
+msgid "Written by <a href=\"https://ewww.io\">Shane Bishop</a>. Based upon CW Image Optimizer, which was written by <a href=\"http://www.jacoballred.com/\">Jacob Allred</a> at <a href=\"http://www.corbanworks.com/\">Corban Works, LLC</a>. CW Image Optimizer was based on WP Smush.it. Jpegtran is the work of the Independent JPEG Group. PEL is the work of Martin Geisler, Lars Olesen, and Erik Oskam. ExactDN and HTML parsing classes based upon the Photon module from Jetpack."
 msgstr ""
 
 #. Found in faq paragraph.
@@ -359,7 +147,7 @@ msgid "Support"
 msgstr ""
 
 #. Found in description paragraph.
-msgid "One-click WebP with ExactDN and Alternative WebP Rewriting. Otherwise, can generate WebP versions of your images, and enables you to serve even smaller images to supported browsers. Several methods are available for serving WebP images, including Apache-compatible rewrite rules and our Alternative WebP Rewriting option compatible with caches and CDNs. Also works with the WebP option in the Cache Enabler plugin from KeyCDN."
+msgid "Automatic WebP conversion with ExactDN, no additional configuration. Otherwise, can generate WebP versions of your images, and enables you to serve even smaller images to supported browsers. Several methods are available for serving WebP images, including Apache-compatible rewrite rules and our JS WebP Rewriting option compatible with caches and CDNs. Also works with the WebP option in the Cache Enabler plugin from KeyCDN."
 msgstr ""
 
 #. Found in description header.
@@ -368,10 +156,6 @@ msgstr ""
 
 #. Found in faq paragraph.
 msgid "Yes, you can, set it up on the Resize tab."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Uploads to Amazon S3, Azure Storage, Cloudinary, and DreamSpeed CDN are optimized. All pull mode CDNs like Cloudflare, KeyCDN, MaxCDN, and Sucuri CloudProxy are also supported."
 msgstr ""
 
 #. Found in description paragraph.
@@ -577,7 +361,283 @@ msgid "Plugin settings page."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Feature requests can be submitted via https://ewww.io/contact-us/ and commented on here: https://trello.com/b/Fp81dWof/ewww-image-optimizer"
+msgid "fixed: plugin checking for 'nice' on Windows servers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: image optimization results in media library report file missing when using WP Stateless"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: LQIP with SVG files results in duplicate requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: On multi-site installs, site admins could add folders to optimize outside of the uploads folder"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: background-image attributes getting extra arguments with lazy load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: background-image attributes with single-quotes now supported by ExactDN, Lazy Load, and JS WebP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: privacy policy function triggers notices in WP-CLI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: notices when a user-selected admin theme is unavailable"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: bulk optimizer not resuming when non-media library images remain in queue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: prevent NextGEN backup images from being optimized"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: ExactDN + Lazy Load uses scaling rather than cropping by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: API backups taken prior to resizing/scaling rather than just before compression"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: Lazy Load without ExactDN uses blank PNG placeholders for better srcset auto-sizing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: use ewww_image_optimizer_autoconvert_threshold filter to modify conversion threshold (default of 300kb)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: compatibility with WP Stateless for GSC"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ability to resize images outside media library via scheduled or bulk optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: page parsers (ExactDN, Lazy, JS WebP) still fail to process some img elements that have unquoted src attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN mixes x and w srcset descriptors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: Lazy Load and JS WebP bail when SVGs are wrapped in XML tags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: Lazy Load parsing breaking img elements in script blocks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: noscript elements with newlines being parsed incorrectly by Lazy Load and JS WebP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN modifies Autoptimize CDN setting even when Include All Resources is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: srcset url added with 0 width when width attribute is empty"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: srcset url replaced incorrectly when using pixel density descriptors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: implode throws notice when image sizes array is multi-dimensional"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: uninstaller cannot clear queue table due to undefined table name"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: page parsers do not recognize img elements with unquoted attributes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: page parsers (ExactDN, Lazy, JS WebP) do not properly handle attributes that start on a new line"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: Lazy Load ignores images using browser-native loading attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: use SVG inline image placeholder if width and height are known when LQIP is disabled or ExactDN is not available"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: disable WebP script block on certain pages by defining EWWW_IMAGE_OPTIMIZER_NO_JS as true"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: img elements with unquoted src attributes ignored by ExactDN, Lazy Load, and JS WebP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN has unexpected results when content_width global equals zero"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: debugging mode gets stuck"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: fatal error from NextGEN get_image_sizes() method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: JS WebP no longer necessary with ExactDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: visitors without JS see Lazy Load placeholder + fallback image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: Lazy Load for CSS background images misfires when display height is greater than width"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ExactDN + Lazy Load uses devicePixelRatio to provide clearer background images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ExactDN can use data-actual-width attribute for srcset generation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ExactDN parses thumbnail url for personalization.com + WooCommerce integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ExactDN + Lazy Load will auto-calculate dimensions for img elements without srcset/responsive markup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid " elements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: CSS background image support for "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: NextGen bulk optimizer unable to decode meta_data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: animated GIF resizing breaks the use of image_resize_dimensions filter in WP_Image_Editor_GD"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN applies resizing args during image_downsize() even when full/original image is too small"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: table nav button styling broken in WP 5.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: empty attributes not recognized properly by HTML parser, resulting in broken markup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN mangles Flatsome lazy load placeholder image URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN constrains images to 640px in Twenty Nineteen theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: ExactDN does not handle themes that support wide and full-screen images in block editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: Bulk Optimize scanner does not update queue in some cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: gather debugging information on settings page even when debugging is not enabled yet"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: use wp_resource_hints filter to include ExactDN dns-prefetch earlier in the page header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: automatic compression disabled during WooCommerce regen with admin notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: ExactDN sites can dismiss exec notice to disable local compression"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: prevent .php script/style generators from going through ExactDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: force resize function to ignore filesize with ewww_image_optimizer_resize_filesize_ignore filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: ExactDN srcset multipliers include fullscreen value of 1920px"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: JS WebP no longer requires jQuery"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: responsive image 'sizes' attribute can be auto-calculated by lazy load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ExactDN parsing for legacy WooCommerce API (current API works as-is)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: automatic PNG to JPG conversion for ExactDN"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: compat with Google Cloud Storage via WP Offload Media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: ExactDN supports compression of background images (div elements only for now)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: JS WebP supports background images via lazy load (div elements only for now)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: lazy load (on ExactDN tab for now)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature requests can be viewed and submitted at https://github.com/nosilver4u/ewww-image-optimizer/labels/enhancement"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Please refer to the separate changelog.txt file."
 msgstr ""
 
 #. Found in changelog list item.

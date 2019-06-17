@@ -11,6 +11,14 @@ msgstr ""
 "Language: mr\n"
 "Project-Id-Version: Plugins - Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP) - Development (trunk)\n"
 
+#: admin/settings.php:114 admin/settings.php:209 admin/settings.php:406
+#: admin/settings.php:1296 admin/settings.php:1306 admin/settings.php:1346
+#: admin/settings.php:1352 admin/settings.php:1362 admin/settings.php:1660
+#: admin/settings.php:1668 admin/settings.php:1678 admin/settings.php:1684
+#: admin/settings.php:1694
+msgid "You don’t have permission to do this."
+msgstr ""
+
 #: admin/tracking.php:263
 msgid "Once Weekly"
 msgstr ""
@@ -43,16 +51,12 @@ msgstr ""
 msgid "Hide Announcements"
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "ExactMetrics"
 msgstr ""
 
-#. #-#-#-#-#  google-analytics-dashboard-for-wp-code.pot (Google Analytics
-#. Dashboard for WP (GADWP) 5.3.5)  #-#-#-#-#
-#. Plugin URI of the plugin/theme
-#. #-#-#-#-#  google-analytics-dashboard-for-wp-code.pot (Google Analytics
-#. Dashboard for WP (GADWP) 5.3.5)  #-#-#-#-#
-#. Author URI of the plugin/theme
+#. Plugin URI of the plugin
+#. Author URI of the plugin
 msgid "https://exactmetrics.com"
 msgstr ""
 
@@ -184,7 +188,7 @@ msgstr ""
 msgid "exclude events from bounce-rate and time on page calculation"
 msgstr ""
 
-#: admin/setup.php:211 admin/setup.php:312 front/setup.php:101
+#: front/setup.php:101 admin/setup.php:211 admin/setup.php:312
 msgid "No Data"
 msgstr ""
 
@@ -215,7 +219,7 @@ msgstr ""
 msgid "developer mode (requires advanced API knowledge)"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "Google Analytics Dashboard for WP (GADWP)"
 msgstr ""
 
@@ -343,14 +347,14 @@ msgstr ""
 msgid "DataLayer Variables"
 msgstr ""
 
-#: admin/setup.php:328 front/setup.php:117
+#: front/setup.php:117 admin/setup.php:328
 msgid "Exit Rate"
 msgstr ""
 
-#: admin/setup.php:320 admin/setup.php:321 admin/setup.php:322
-#: admin/setup.php:323 admin/setup.php:324 admin/setup.php:325
 #: front/setup.php:109 front/setup.php:110 front/setup.php:111
 #: front/setup.php:112 front/setup.php:113 front/setup.php:114
+#: admin/setup.php:320 admin/setup.php:321 admin/setup.php:322
+#: admin/setup.php:323 admin/setup.php:324 admin/setup.php:325
 msgid "Future Use"
 msgstr ""
 
@@ -358,11 +362,11 @@ msgstr ""
 msgid "Session Duration"
 msgstr ""
 
-#: admin/setup.php:226 admin/setup.php:327 front/setup.php:116
+#: front/setup.php:116 admin/setup.php:226 admin/setup.php:327
 msgid "Page Load Time"
 msgstr ""
 
-#: admin/setup.php:225 admin/setup.php:326 front/setup.php:115
+#: front/setup.php:115 admin/setup.php:225 admin/setup.php:326
 msgid "Time on Page"
 msgstr ""
 
@@ -386,7 +390,7 @@ msgstr ""
 msgid "URI:"
 msgstr ""
 
-#: admin/setup.php:196 tools/gapi.php:579
+#: tools/gapi.php:579 admin/setup.php:196
 msgid "404 Errors"
 msgstr ""
 
@@ -394,7 +398,7 @@ msgstr ""
 msgid "Publication Month:"
 msgstr ""
 
-#: admin/setup.php:210 admin/setup.php:311 front/setup.php:100
+#: front/setup.php:100 admin/setup.php:210 admin/setup.php:311
 msgid "Invalid response"
 msgstr ""
 
@@ -402,27 +406,27 @@ msgstr ""
 msgid "Tags:"
 msgstr ""
 
-#: admin/setup.php:194 admin/setup.php:296 front/setup.php:85
+#: front/setup.php:85 admin/setup.php:194 admin/setup.php:296
 msgid "Traffic"
 msgstr ""
 
-#: admin/setup.php:195 admin/setup.php:297 front/setup.php:86
+#: front/setup.php:86 admin/setup.php:195 admin/setup.php:297
 msgid "Technology"
 msgstr ""
 
-#: admin/setup.php:215 admin/setup.php:316 front/setup.php:105
+#: front/setup.php:105 admin/setup.php:215 admin/setup.php:316
 msgid "Browser"
 msgstr ""
 
-#: admin/setup.php:216 admin/setup.php:317 front/setup.php:106
+#: front/setup.php:106 admin/setup.php:216 admin/setup.php:317
 msgid "Operating System"
 msgstr ""
 
-#: admin/setup.php:217 admin/setup.php:318 front/setup.php:107
+#: front/setup.php:107 admin/setup.php:217 admin/setup.php:318
 msgid "Screen Resolution"
 msgstr ""
 
-#: admin/setup.php:218 admin/setup.php:319 front/setup.php:108
+#: front/setup.php:108 admin/setup.php:218 admin/setup.php:319
 msgid "Mobile Brand"
 msgstr ""
 
@@ -434,15 +438,10 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#. translators: Example: 'l, F j, Y' will become 'Thusday, November 17, 2015'
-#. For details see:
-#. http://php.net/manual/en/function.date.php#refsect1-function.date-parameters
 #: tools/gapi.php:470 tools/gapi.php:845
 msgid "l, F j, Y"
 msgstr ""
 
-#. translators: Example: 'F, Y' will become 'November, 2015' For details see:
-#. http://php.net/manual/en/function.date.php#refsect1-function.date-parameters
 #: tools/gapi.php:461
 msgid "F, Y"
 msgstr "F, Y"
@@ -467,7 +466,7 @@ msgstr ""
 msgid "Cookie Domain:"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "Displays Google Analytics Reports and Real-Time Statistics in your Dashboard. Automatically inserts the tracking code in every page of your website."
 msgstr ""
 
@@ -595,12 +594,12 @@ msgstr ""
 msgid "SOCIAL"
 msgstr ""
 
-#: admin/setup.php:191 tools/gapi.php:551
+#: tools/gapi.php:551 admin/setup.php:191
 msgid "Pages"
 msgstr "पृष्ठ"
 
-#: admin/setup.php:185 admin/setup.php:204 front/widgets.php:40
-#: tools/gapi.php:423 tools/gapi.php:836
+#: front/widgets.php:40 tools/gapi.php:423 tools/gapi.php:836
+#: admin/setup.php:185 admin/setup.php:204
 msgid "Sessions"
 msgstr ""
 
@@ -624,7 +623,7 @@ msgstr ""
 msgid "An admin should asign a default Google Analytics Profile."
 msgstr ""
 
-#: admin/widgets.php:28 front/widgets.php:21
+#: front/widgets.php:21 admin/widgets.php:28
 msgid "Google Analytics Dashboard"
 msgstr ""
 
@@ -632,115 +631,115 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: admin/setup.php:214 admin/setup.php:315 admin/widgets.php:35
-#: front/setup.php:104
+#: front/setup.php:104 admin/setup.php:214 admin/setup.php:315
+#: admin/widgets.php:35
 msgid "This plugin needs an authorization:"
 msgstr ""
 
-#: admin/setup.php:213 admin/setup.php:314 front/setup.php:103
+#: front/setup.php:103 admin/setup.php:213 admin/setup.php:314
 msgid "report generated by"
 msgstr ""
 
-#: admin/setup.php:212 admin/setup.php:313 front/setup.php:102
-#: front/widgets.php:107
+#: front/setup.php:102 front/widgets.php:107 admin/setup.php:212
+#: admin/setup.php:313
 msgid "This report is unavailable"
 msgstr ""
 
-#: admin/setup.php:209 admin/setup.php:310 front/setup.php:99
+#: front/setup.php:99 admin/setup.php:209 admin/setup.php:310
 msgid "Pages/Session"
 msgstr ""
 
-#: admin/setup.php:208 admin/setup.php:309 front/setup.php:98
+#: front/setup.php:98 admin/setup.php:208 admin/setup.php:309
 msgid "Organic Search"
 msgstr ""
 
-#: admin/setup.php:202 admin/setup.php:304 front/setup.php:92
+#: front/setup.php:92 admin/setup.php:202 admin/setup.php:304
 msgid "Search Engines"
 msgstr ""
 
-#: admin/setup.php:203 admin/setup.php:303 front/setup.php:93
+#: front/setup.php:93 admin/setup.php:203 admin/setup.php:303
 msgid "Social Networks"
 msgstr ""
 
-#: admin/setup.php:201 admin/setup.php:302 front/setup.php:91
+#: front/setup.php:91 admin/setup.php:201 admin/setup.php:302
 msgid "Visitor Type"
 msgstr ""
 
-#: admin/setup.php:200 admin/setup.php:301 front/setup.php:90
+#: front/setup.php:90 admin/setup.php:200 admin/setup.php:301
 msgid "Traffic Mediums"
 msgstr ""
 
-#: admin/setup.php:199 admin/setup.php:300 front/setup.php:89
+#: front/setup.php:89 admin/setup.php:199 admin/setup.php:300
 msgid "A JavaScript Error is blocking plugin resources!"
 msgstr ""
 
-#: admin/setup.php:193 admin/setup.php:295 front/setup.php:84
-#: tools/gapi.php:650
+#: front/setup.php:84 tools/gapi.php:650 admin/setup.php:193
+#: admin/setup.php:295
 msgid "Searches"
 msgstr ""
 
-#: admin/setup.php:192 admin/setup.php:294 front/setup.php:83
-#: tools/gapi.php:615
+#: front/setup.php:83 tools/gapi.php:615 admin/setup.php:192
+#: admin/setup.php:294
 msgid "Referrers"
 msgstr ""
 
-#: admin/setup.php:190 admin/setup.php:293 front/setup.php:82
+#: front/setup.php:82 admin/setup.php:190 admin/setup.php:293
 msgid "Location"
 msgstr ""
 
-#: admin/setup.php:189 admin/setup.php:207 admin/setup.php:292
-#: admin/setup.php:308 front/setup.php:81 front/setup.php:97 tools/gapi.php:414
+#: front/setup.php:81 front/setup.php:97 tools/gapi.php:414 admin/setup.php:189
+#: admin/setup.php:207 admin/setup.php:292 admin/setup.php:308
 msgid "Bounce Rate"
 msgstr ""
 
-#: admin/setup.php:188 admin/setup.php:206 admin/setup.php:291
-#: admin/setup.php:307 front/setup.php:80 front/setup.php:96 tools/gapi.php:411
+#: front/setup.php:80 front/setup.php:96 tools/gapi.php:411 admin/setup.php:188
+#: admin/setup.php:206 admin/setup.php:291 admin/setup.php:307
 msgid "Page Views"
 msgstr ""
 
-#: admin/setup.php:187 admin/setup.php:290 front/setup.php:79
+#: front/setup.php:79 admin/setup.php:187 admin/setup.php:290
 msgid "Organic"
 msgstr ""
 
-#: admin/setup.php:186 admin/setup.php:205 admin/setup.php:289
-#: admin/setup.php:306 front/setup.php:78 front/setup.php:95 tools/gapi.php:408
+#: front/setup.php:78 front/setup.php:95 tools/gapi.php:408 admin/setup.php:186
+#: admin/setup.php:205 admin/setup.php:289 admin/setup.php:306
 msgid "Users"
 msgstr ""
 
-#: admin/setup.php:288 admin/setup.php:305 front/setup.php:77
-#: front/setup.php:94
+#: front/setup.php:77 front/setup.php:94 admin/setup.php:288
+#: admin/setup.php:305
 msgid "Unique Views"
 msgstr ""
 
-#: admin/setup.php:172 admin/setup.php:285 front/setup.php:74
+#: front/setup.php:74 admin/setup.php:172 admin/setup.php:285
 msgid "Three"
 msgstr ""
 
-#: admin/setup.php:171 admin/setup.php:284 front/setup.php:73
+#: front/setup.php:73 admin/setup.php:171 admin/setup.php:284
 msgid "One"
 msgstr ""
 
-#: admin/setup.php:171 admin/setup.php:172 admin/setup.php:284
-#: admin/setup.php:285 front/setup.php:73 front/setup.php:74
+#: front/setup.php:73 front/setup.php:74 admin/setup.php:171
+#: admin/setup.php:172 admin/setup.php:284 admin/setup.php:285
 msgid "%s Year"
 msgid_plural "%s Years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: admin/setup.php:167 admin/setup.php:168 admin/setup.php:169
-#: admin/setup.php:170 admin/setup.php:280 admin/setup.php:281
-#: admin/setup.php:282 admin/setup.php:283 front/setup.php:69
-#: front/setup.php:70 front/setup.php:71 front/setup.php:72
+#: front/setup.php:69 front/setup.php:70 front/setup.php:71 front/setup.php:72
 #: front/widgets.php:68 front/widgets.php:71 front/widgets.php:74
 #: front/widgets.php:174 front/widgets.php:175 front/widgets.php:176
+#: admin/setup.php:167 admin/setup.php:168 admin/setup.php:169
+#: admin/setup.php:170 admin/setup.php:280 admin/setup.php:281
+#: admin/setup.php:282 admin/setup.php:283
 msgid "Last %d Days"
 msgstr ""
 
-#: admin/setup.php:166 admin/setup.php:279 front/setup.php:68
+#: front/setup.php:68 admin/setup.php:166 admin/setup.php:279
 msgid "Yesterday"
 msgstr ""
 
-#: admin/setup.php:165 admin/setup.php:278 front/setup.php:67
+#: front/setup.php:67 admin/setup.php:165 admin/setup.php:278
 msgid "Today"
 msgstr ""
 
@@ -800,7 +799,7 @@ msgstr ""
 msgid "Properties refreshed."
 msgstr ""
 
-#: admin/settings.php:1545 admin/settings.php:1907 admin/widgets.php:35
+#: admin/widgets.php:35 admin/settings.php:1545 admin/settings.php:1907
 msgid "Authorize Plugin"
 msgstr ""
 
@@ -828,7 +827,7 @@ msgstr ""
 msgid "Select View:"
 msgstr ""
 
-#: admin/settings.php:1443 admin/setup.php:43 admin/setup.php:69
+#: admin/setup.php:43 admin/setup.php:69 admin/settings.php:1443
 msgid "General Settings"
 msgstr ""
 
@@ -1074,15 +1073,15 @@ msgstr ""
 msgid "Google Analytics Frontend Settings"
 msgstr ""
 
+#: front/setup.php:104 admin/setup.php:214 admin/setup.php:315
 #: admin/settings.php:118 admin/settings.php:213 admin/settings.php:410
 #: admin/settings.php:1149 admin/settings.php:1376 admin/settings.php:1708
-#: admin/setup.php:214 admin/setup.php:315 front/setup.php:104
 msgid "authorize the plugin"
 msgstr ""
 
-#: admin/settings.php:118 admin/settings.php:213 admin/settings.php:410
-#: admin/settings.php:1149 admin/settings.php:1376 admin/settings.php:1708
-#: admin/setup.php:47 admin/setup.php:70
+#: admin/setup.php:47 admin/setup.php:70 admin/settings.php:118
+#: admin/settings.php:213 admin/settings.php:410 admin/settings.php:1149
+#: admin/settings.php:1376 admin/settings.php:1708
 msgid "Errors & Debug"
 msgstr ""
 
@@ -1091,19 +1090,11 @@ msgstr ""
 msgid "Something went wrong, check %1$s or %2$s."
 msgstr ""
 
-#: admin/settings.php:114 admin/settings.php:209 admin/settings.php:406
-#: admin/settings.php:1296 admin/settings.php:1306 admin/settings.php:1346
-#: admin/settings.php:1352 admin/settings.php:1362 admin/settings.php:1660
-#: admin/settings.php:1668 admin/settings.php:1678 admin/settings.php:1684
-#: admin/settings.php:1694
-msgid "Cheating Huh?"
-msgstr ""
-
 #: admin/settings.php:112 admin/settings.php:207 admin/settings.php:404
 #: admin/settings.php:1350 admin/settings.php:1682
 msgid "Settings saved."
 msgstr ""
 
-#: admin/item-reports.php:53 admin/settings.php:445 front/item-reports.php:30
+#: front/item-reports.php:30 admin/item-reports.php:53 admin/settings.php:445
 msgid "Analytics"
 msgstr ""

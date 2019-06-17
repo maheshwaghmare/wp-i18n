@@ -7,14 +7,802 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-26T17:08:11+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:25:30+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 
+#. Plugin name.
+msgid "Wordfence Security - Firewall &amp; Malware Scan"
+msgstr ""
+
 #. Short description.
 msgid "Secure your website with the most comprehensive WordPress security plugin. Firewall, malware scan, blocking, live traffic, login security &amp; more."
+msgstr ""
+
+#. Found in description list item.
+msgid "Country blocking available with Wordfence Premium."
+msgstr ""
+
+#. Found in description list item.
+msgid "Block attackers by IP or build advanced rules based on IP Range, Hostname, User Agent and Referrer. "
+msgstr ""
+
+#. Found in description list item.
+msgid "Block logins for administrators using known compromised passwords."
+msgstr ""
+
+#. Found in description list item.
+msgid "Disable or add 2FA to XML-RPC."
+msgstr ""
+
+#. Found in description list item.
+msgid "Login Page CAPTCHA stops bots from logging in."
+msgstr ""
+
+#. Found in description list item.
+msgid "Two-factor authentication (2FA), one of the most secure forms of remote system authentication available via any TOTP-based authenticator app or service."
+msgstr ""
+
+#. Found in description list item.
+msgid "Protection from brute force attacks by limiting login attempts."
+msgstr ""
+
+#. Found in description header.
+msgid "LOGIN SECURITY"
+msgstr ""
+
+#. Screenshot description.
+msgid "Logging in is easy with Wordfence 2FA."
+msgstr ""
+
+#. Found in description list item.
+msgid "Free to use for unlimited sites."
+msgstr ""
+
+#. Found in description list item.
+msgid "Powerful templates make configuring Wordfence a breeze."
+msgstr ""
+
+#. Found in description list item.
+msgid "Efficiently assess the security status of all your websites in one view. View detailed security findings without leaving Wordfence Central."
+msgstr ""
+
+#. Found in description list item.
+msgid "Wordfence Central is a powerful and efficient way to manage the security for multiple sites in one place."
+msgstr ""
+
+#. Found in description header.
+msgid "WORDFENCE CENTRAL"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "These are available on our website: <a href=\"https://www.wordfence.com/terms-of-use/\">Terms of Use</a> and <a href=\"https://www.wordfence.com/privacy-policy/\">Privacy Policy</a>"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find the Wordfence Terms of Use and Privacy Policy?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<a href=\"https://wordfence.com/help/\">Visit our website to access our official documentation which includes security feature descriptions, common solutions and comprehensive help.</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Wordfence includes an endpoint firewall and malware scanner that were built from the ground up to protect WordPress. Our Threat Defense Feed arms Wordfence with the newest firewall rules, malware signatures and malicious IP addresses it needs to keep your website safe. Rounded out by 2FA and a suite of additional features, Wordfence is the most comprehensive WordPress security solution available."
+msgstr ""
+
+#. Found in description list item.
+msgid "With Live Traffic, monitor visits and hack attempts not shown in other analytics packages in real time; including origin, their IP address, the time of day and time spent on your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "[Premium] Checks to see if your site or IP have been blacklisted for malicious activity, generating spam or other security issue."
+msgstr ""
+
+#. Found in description list item.
+msgid "Checks your content safety by scanning file contents, posts and comments for dangerous URLs and suspicious content."
+msgstr ""
+
+#. Found in description list item.
+msgid "Checks your site for known security vulnerabilities and alerts you to any issues. Also alerts you to potential security issues when a plugin has been closed or abandoned."
+msgstr ""
+
+#. Found in description list item.
+msgid "Repair files that have changed by overwriting them with a pristine, original version. Delete any files that don’t belong easily within the Wordfence interface."
+msgstr ""
+
+#. Found in description list item.
+msgid "Compares your core files, themes and plugins with what is in the WordPress.org repository, checking their integrity and reporting any changes to you."
+msgstr ""
+
+#. Found in description list item.
+msgid "[Premium] Real-time malware signature updates via the Threat Defense Feed (free version is delayed by 30 days)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Malware scanner checks core files, themes and plugins for malware, bad URLs, backdoors, SEO spam, malicious redirects and code injections."
+msgstr ""
+
+#. Found in description list item.
+msgid "Integrated malware scanner blocks requests that include malicious code or content."
+msgstr ""
+
+#. Found in description list item.
+msgid "Protects your site at the endpoint, enabling deep integration with WordPress. Unlike cloud alternatives does not break encryption, cannot be bypassed and cannot leak data."
+msgstr ""
+
+#. Found in description list item.
+msgid "[Premium] Real-time IP Blacklist blocks all requests from the most malicious IPs, protecting your site while reducing load."
+msgstr ""
+
+#. Found in description list item.
+msgid "[Premium] Real-time firewall rule and malware signature updates via the Threat Defense Feed (free version is delayed by 30 days)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Web Application Firewall identifies and blocks malicious traffic. Built and maintained by a large team focused 100% on WordPress security."
+msgstr ""
+
+#. Found in description header.
+msgid "SECURITY TOOLS"
+msgstr ""
+
+#. Found in description header.
+msgid "WORDPRESS SECURITY SCANNER"
+msgstr ""
+
+#. Found in description header.
+msgid "WORDPRESS FIREWALL"
+msgstr ""
+
+#. Found in description header.
+msgid "THE MOST POPULAR WORDPRESS FIREWALL &amp; SECURITY SCANNER"
+msgstr ""
+
+#. Screenshot description.
+msgid "Take login security to the next level with Two-Factor Authentication."
+msgstr ""
+
+#. Screenshot description.
+msgid "Block attackers by IP, Country, IP range, Hostname, Browser or Referrer."
+msgstr ""
+
+#. Screenshot description.
+msgid "Brute Force Protection features protect you from password guessing attacks."
+msgstr ""
+
+#. Screenshot description.
+msgid "Wordfence is highly configurable, with a deep set of options available for each feature. High level scan options are shown above."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We offer a Premium API key that gives you real-time updates to the Threat Defense Feed which includes a real-time IP blacklist, firewall rules, and malware signatures. Premium support, country blocking, more frequent scans, and spam and spamvertising checks are also included. <a href=\"http://www.wordfence.com/\">Click here to sign-up for Wordfence Premium now</a> or simply install Wordfence free and start protecting your website."
+msgstr ""
+
+#. Found in faq header.
+msgid "What blocking features does Wordfence include?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What login security features are included"
+msgstr ""
+
+#. Found in faq header.
+msgid "What security monitoring features does Wordfence include?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What checks does the Wordfence Security Scanner perform?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How does the Wordfence WordPress Firewall protect websites?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What features does Wordfence Premium enable?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To install Wordfence on WordPress Multi-Site installations:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the scan menu and start your first scan. Scheduled scanning will also be enabled."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the Wordfence through the 'Plugins' menu in WordPress. Wordfence is now activated."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Wordfence Live Traffic view shows you real-time activity on your site including bot traffic and exploit attempts."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Wordfence Security Scanner lets you know if your site has been compromised and alerts you to other security issues that need to be addressed."
+msgstr ""
+
+#. Screenshot description.
+msgid "The firewall protects your site from common types of attacks and known security vulnerabilities."
+msgstr ""
+
+#. Screenshot description.
+msgid "The dashboard gives you an overview of your site's security including notifications, attack statistics and Wordfence feature status."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Providing excellent customer service is very important to us.  We offer help to all our customers whether you are using the Premium or free version of Wordfence.  For help with the free version, you can post in our <a href=\"https://wordpress.org/support/plugin/wordfence\">forum</a> where we have dedicated staff responding to questions. If you need faster or more in-depth help, Premium customers can submit a <a href=\"https://support.wordfence.com/support/home\">support ticket</a> to our Premium support team."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. WordPress Multi-Site is fully supported. Using Wordfence you can scan every blog in your network for malware with one click. If one of your customers posts a page or post with a known malware URL that threatens your whole domain with being blacklisted by Google, we will alert you in the next scan."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Wordfence Security is able to repair core files, themes and plugins on sites where security is already compromised. You can follow this guide on <a href=\"https://www.wordfence.com/docs/how-to-clean-a-hacked-wordpress-site-using-wordfence/\">how to clean a hacked website</a> using Wordfence. However, please note that site security cannot be assured unless you do a full reinstall if your site has been hacked. We recommend you only use Wordfence Security to get your site into a running state in order to recover the data you need to do a full reinstall. If you need help repairing a hacked site, we offer an affordable, high-quality <a href=\"https://www.wordfence.com/wordfence-site-cleanings/\">site cleaning service</a> that includes a Premium key for a year."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No. Wordfence Security is extremely fast and uses techniques like caching its own configuration data to avoid database lookups and blocking malicious attacks that would slow down your site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Wordfence provides true endpoint security for your WordPress website. Unlike cloud based firewalls, Wordfence executes within the WordPress environment, giving it knowledge like whether the user is signed in, their identity and what access level they have. Wordfence uses the user’s access level in more than 80% of the firewall rules it uses to protect WordPress websites. Learn more about the <a href=\"https://www.wordfence.com/blog/2016/10/endpoint-vs-cloud-security-cloud-waf-user-identity-problem/\">Cloud WAF identity problem here</a>. Additionally, cloud based firewalls can be bypassed, leaving your site exposed to attackers. Because Wordfence is an integral part of the endpoint (your WordPress website), it can’t be bypassed. Learn more about the <a href=\"https://www.wordfence.com/blog/2016/10/endpoint-vs-cloud-security-cloud-waf-bypass-problem/\">Cloud WAF bypass problem here</a>. To fully protect the investment you’ve made in your website you need to employ a defense in depth approach to security. Wordfence takes this approach."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The WordPress security plugin provides the best protection available for your website. Powered by the constantly updated Threat Defense Feed, Wordfence Firewall stops you from getting hacked. Wordfence Scan leverages the same proprietary feed, alerting you quickly about security issues or if your site is compromised. The Live Traffic view gives you real-time visibility into traffic and hack attempts on your website. A deep set of additional tools round out the most comprehensive WordPress security solution available."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Wordfence verifies your website source code integrity against the official WordPress repository and shows you the changes. "
+msgstr ""
+
+#. Found in faq list item.
+msgid "Wordfence Security provides a WordPress Firewall developed specifically for WordPress and blocks attackers looking for vulnerabilities on your site.  The Firewall is powered by our Threat Defense Feed which is continually updated as new threats emerge.  Premium customers receive updates in real-time."
+msgstr ""
+
+#. Found in faq header.
+msgid "What support options are available for Wordfence users?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What if my site has already been hacked?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will Wordfence slow down my website?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What differentiates Wordfence from other WordPress Security plugins?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do I need a security plugin like Wordfence if I’m using a cloud based firewall (WAF)?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How does Wordfence Security protect sites from attackers?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Designed for every skill level, <a href=\"https://www.wordfence.com/learn/\">The WordPress Security Learning Center</a> is dedicated to deepening users’ understanding of security best practices by providing free access to entry-level articles, in-depth articles, videos, industry survey results, graphics and more."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Secure your website using the following steps to install Wordfence:"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Block common WordPress security threats like fake Googlebots, malicious scans from hackers and botnets."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Threat Defense Feed automatically updates firewall rules that protect you from the latest threats. Premium members receive the real-time version."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Web Application Firewall stops you from getting hacked by identifying malicious traffic, blocking attackers before they can access your website."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I learn more about WordPress security?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. We fully support IPv6 with all security functions including country blocking, range blocking, city lookup, whois lookup and all other security functions. If you are not running IPv6, Wordfence will work great on your site too. We are fully compatible with both IPv4 and IPv6 whether you run both or only one addressing scheme."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Wordfence sends security alerts via email. Once you install Wordfence, you will configure a list of email addresses where security alerts will be sent. When you receive a security alert, make sure you deal with it promptly to ensure your site stays secure."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Wordfence includes Two-Factor authentication, the most secure way to stop brute force attackers in their tracks."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Wordfence fully supports WordPress Multi-Site which means you can security scan every blog in your Multi-Site installation with one click."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Wordfence scans do not consume large amounts of your bandwidth because all security scans happen on your web server which makes them very fast."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Wordfence scans check all your files, comments and posts for URLs in Google's Safe Browsing list. We are the only plugin to offer this very important security enhancement."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Wordfence fully supports IPv6 including giving you the ability to look up the location of IPv6 addresses, block IPv6 ranges, detect IPv6 country and do a whois lookup on IPv6 addresses and more."
+msgstr ""
+
+#. Found in faq header.
+msgid "Does Wordfence Security support IPv6?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How will I be alerted if my site has a security problem?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does Wordfence Security support Multi-Site installations?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Firewall rules and login rules apply to the WHOLE system. So if you fail a login on site1.example.com and site2.example.com it counts as 2 failures. Crawler traffic is counted between blogs, so if you hit three sites in the network, all the hits are totalled and that counts as the rate you're accessing the system."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Live Traffic will appear for ALL sites in your network. If you have a heavily trafficked system you may want to disable live traffic which will stop logging to the DB. "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Wordfence will do a scan of all files in your WordPress installation including those in the blogs.dir directory of your individual sites. "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the \"Scan\" menu and start your first scan. "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Now that Wordfence is network activated it will appear on your Network Admin menu. Wordfence will not appear on any individual site's menu. "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Network Activate Wordfence. This step is important because until you network activate it, your sites will see the plugin option on their plugins menu. Once activated that option disappears. "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install Wordfence via the plugin directory or by uploading the ZIP file."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click the \"Live Traffic\" menu option to watch your site activity in real-time. Situational awareness is an important part of website security."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Optionally, change your security level or adjust the advanced options to set individual scanning and protection options for your site."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Visit the Wordfence options page to enter your email address so that you can receive email security alerts."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once your first scan has completed, a list of threats will appear. Go through them one by one to secure your site."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install Wordfence automatically or by uploading the ZIP file. "
+msgstr ""
+
+#. Found in faq list item.
+msgid "Monitors disk space which is related to security because many DDoS attacks attempt to consume all disk space to create denial of service."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Monitor your DNS security for unauthorized DNS changes."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Real-time traffic includes reverse DNS and city-level geolocation. Know which geographic area security threats originate from."
+msgstr ""
+
+#. Found in faq list item.
+msgid "A real-time view of all traffic including automated bots that often constitute security threats that Javascript analytics packages never show you."
+msgstr ""
+
+#. Found in faq list item.
+msgid "See all your traffic in real-time, including robots, humans, 404 errors, logins and logouts and who is consuming most of your content. Enhances your situational awareness of which security threats your site is facing."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Scans for heuristics of backdoors, trojans, suspicious code and other security issues."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Continuously scans for malware and phishing URL’s including all URLs on the Google Safe Browsing List in all your comments, posts and files that are security threats."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Scans for many known backdoors that create security holes including C99, R57, RootShell, Crystal Shell, Matamu, Cybershell, W4cking, Sniper, Predator, Jackal, Phantasma, GFS, Dive, Dx and many more."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Scans for signatures of over 44,000 known malware variants that are known WordPress security threats."
+msgstr ""
+
+#. Found in faq list item.
+msgid "See how files have changed. Optionally repair changed files that are security threats."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Scans core files, themes and plugins against WordPress.org repository versions to check their integrity. Verify security of your source."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Premium users can also block countries and schedule scans for specific times and a higher frequency."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Choose whether you want to block or throttle users and robots who break your WordPress security rules."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Rate limit or block WordPress security threats like aggressive crawlers, scrapers and bots doing security scans for vulnerabilities in your site."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Block entire malicious networks. Includes advanced IP and Domain WHOIS to report malicious IP’s or networks and block entire networks using the firewall. Report WordPress security threats to network owner."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Real-time blocking of known attackers. If another site using Wordfence is attacked and blocks the attacker, your site is automatically protected."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed the bulk repair function in the scan results when it included core files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed the \"removed from wordpress.org\" detection for plugin, which was broken due to an API change."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Changed the autoloader for our copy of sodium_compat to always load after WordPress core does."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added additional values to Diagnostics for debugging time-related issues, the new fatal error handler settings, and updated the PHP version check to reflect the new 5.6.20 requirement of WordPress."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added a check and update flow for mod_php hosts with only the PHP5 directive set for the WAF's extended protection mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Updated the bundled root CA certificate store."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added support for managing the login security settings to Wordfence Central."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Suppressed error messages on the NTP time check to compensate for hosts with UDP connections disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added detection for Jetpack and a notice when XML-RPC authentication is disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Clarified text around the reCAPTCHA setting to indicate v3 keys must be used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Updated sodium_compat to address an incompatibility that may occur with the pending WordPress 5.2.1 update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with synchronizing scan issues to Wordfence Central that prevented stale issues from being cleared."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed the text for Live Traffic entries that include a redirection message."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: WAF attack data now correctly includes JSON payloads when appropriate."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Addressed a log notice when using the See Recent Traffic feature in Live Traffic."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Removed old performance logging code that's no longer used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Long-deprecated database tables will be removed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Improved detection for malformed malware scanning signatures."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added detection for an additional config file that may be created and publicly visible on some hosts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Clarified text on \"Maximum execution time for each scan stage\" option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Reduced size of SVG assets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: XML-RPC authentication may now be disabled or forced to require 2FA."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added Google reCAPTCHA v3 support to the login and registration forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Two-factor authentication is new and improved, now available on all Premium and Free installations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Updated the text on the option to alert for scan results of a certain severity."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added additional controls to the Wordfence Central connection page to better reflect the current connection state."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Updated to the current GeoIP database."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added the Accept-Encoding compression header to WAF-related requests for better performance during rule updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added additional data breach records to the breached password check."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Switched to autoloader with fastMult enabled on sodum_compat to minimize connection issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Improved connection process with Wordfence Central for better reliability on servers with non-standard paths."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Adjusted timeouts to improve reliability of WAF rule updates on slower servers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed a double slash that could occur in an image path."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Better messaging when a WAF rule update fails to better indicate the cause."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Updated vulnerability database integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed Wordfence Central connection flow within the first time experience."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: WAF-related scheduled tasks are now more resilient to connection timeouts or memory issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed the malware link image rendering in scan issue emails and switched to always use https."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a transparency issue with flags for Switzerland and Nepal."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: The scan issues alerting option is now set correctly for new installations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Added dismissible prompt to switch Live Traffic to security-only mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Live Traffic human/bot status will additionally be based on the browscap record in security-only mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Additional alerting and troubleshooting steps for WAF configuration issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added alerting for when the WAF is disabled for any reason."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Updated the service whitelist to reflect additions to the Facebook IP ranges."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Country names are now shown instead of two letter codes where appropriate."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Addressed some display issues with the Wordfence Central panel on the Wordfence Dashboard."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Syncing requests from Wordfence Central no longer appear in Live Traffic."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fix reference to non-existent function when registering menus."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Change false positive user-reports link to use https."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Enqueued fonts used in admin notices on all admin pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added an option for whitelisting ManageWP in \"Whitelisted Services\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added a help link to the mode display when a host disabling Live Traffic is active."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Integrated Wordfence with Wordfence Central, a new service allowing you to manage multiple Wordfence installations from a single interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a commit error with 7.1.19"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Text fixes to the WAF nginx help text."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Login credentials passed as arrays no longer trigger a PHP notice from our filters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue where the GeoIP database update check would never get marked as completed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added compensation for really long file lists in the \"Exclude files from scan\" setting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Additional flexibility for whitelist rules."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added Kosovo to country blocking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Speed optimizations for WAF rule compilation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: REST API hits now correctly follow the \"Don't log signed-in users with publishing access\" option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Better messaging by the status circles when the WAF config is inaccessible or corrupt."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed handling of case-insensitive tables in the Diagnostics table check."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Added compensation for Windows path separators in the WAF config handling."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed a typo in the htaccess update panel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Improved layout of options page controls on small screens."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue that could prevent files beginning with a period from working with the file restore function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Changed WAF file handling to skip some file actions if running via the CLI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Added an upper limit to the maximum scan stage execution time if not explicitly overridden."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Live Traffic now defaults to only logging security events on new installations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added dates to each release in the changelog."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Switched flags to use a CSS sprite to reduce file count and size."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Removed unused font glyph ranges to reduce file count and size."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: PHP 7.3 syntax compatibility fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Text fix in invalid username lockout message."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Better diagnostics logging for GeoIP conflicts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: More complete data removal when deactivating with remove tables and files checked."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Increased frequency of filesystem permission check and update of the WAF config files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fixed an issue with country blocking and XML-RPC requests containing credentials."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Changed the title of the Wordfence Dashboard so it's easier to identify when many tabs are open."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Updates that refresh country statistics are more efficient and now only affect the most recent records."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change: Removed the \"Disable Wordfence Cookies\" option as we've removed all cookies it affected."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Service whitelisting can now be selectively toggled on or off per service."
 msgstr ""
 
 #. Found in changelog list item.
@@ -307,14 +1095,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Improvement: GDPR compliance updates."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "These are available on our website: <a href=\"https://www.wordfence.com/terms-of-use/\">Terms of Use</a> and <a href=\"https://www.wordfence.com/privacy-policy/\">Privacy Policy</a>"
-msgstr ""
-
-#. Found in faq header.
-msgid "Where can I find the Wordfence Terms of Use and Privacy Policy?"
 msgstr ""
 
 #. Found in changelog list item.
@@ -769,114 +1549,6 @@ msgstr ""
 msgid "Comprehensive UI refresh."
 msgstr ""
 
-#. Found in faq paragraph.
-msgid "<a href=\"https://wordfence.com/help/\">Visit our website to access our official documentation which includes security feature descriptions, common solutions and comprehensive help.</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Wordfence includes an endpoint firewall and malware scanner that were built from the ground up to protect WordPress. Our Threat Defense Feed arms Wordfence with the newest firewall rules, malware signatures and malicious IP addresses it needs to keep your website safe. Rounded out by a suite of additional features, Wordfence is the most comprehensive WordPress security solution available."
-msgstr ""
-
-#. Found in description list item.
-msgid "Block attackers by IP or build advanced rules based on IP Range, Hostname, User Agent and Referrer. [Premium] Country blocking available with Wordfence Premium."
-msgstr ""
-
-#. Found in description list item.
-msgid "[Premium] Stop brute force attacks permanently by using two factor authentication, one of the most secure forms of remote system authentication available."
-msgstr ""
-
-#. Found in description list item.
-msgid "With Live Traffic, monitor visits and hack attempts not shown in other analytics packages in real time; including origin, their IP address, the time of day and time spent on your site."
-msgstr ""
-
-#. Found in description list item.
-msgid "[Premium] Checks to see if your site or IP have been blacklisted for malicious activity, generating spam or other security issue."
-msgstr ""
-
-#. Found in description list item.
-msgid "Checks your content safety by scanning file contents, posts and comments for dangerous URLs and suspicious content."
-msgstr ""
-
-#. Found in description list item.
-msgid "Checks your site for known security vulnerabilities and alerts you to any issues. Also alerts you to potential security issues when a plugin has been closed or abandoned."
-msgstr ""
-
-#. Found in description list item.
-msgid "Repair files that have changed by overwriting them with a pristine, original version. Delete any files that don’t belong easily within the Wordfence interface."
-msgstr ""
-
-#. Found in description list item.
-msgid "Compares your core files, themes and plugins with what is in the WordPress.org repository, checking their integrity and reporting any changes to you."
-msgstr ""
-
-#. Found in description list item.
-msgid "[Premium] Real-time malware signature updates via the Threat Defense Feed (free version is delayed by 30 days)."
-msgstr ""
-
-#. Found in description list item.
-msgid "Malware scanner checks core files, themes and plugins for malware, bad URLs, backdoors, SEO spam, malicious redirects and code injections."
-msgstr ""
-
-#. Found in description list item.
-msgid "Protection from brute force attacks by limiting login attempts, enforcing strong passwords and other login security measures."
-msgstr ""
-
-#. Found in description list item.
-msgid "Integrated malware scanner blocks requests that include malicious code or content."
-msgstr ""
-
-#. Found in description list item.
-msgid "Protects your site at the endpoint, enabling deep integration with WordPress. Unlike cloud alternatives does not break encryption, cannot be bypassed and cannot leak data."
-msgstr ""
-
-#. Found in description list item.
-msgid "[Premium] Real-time IP Blacklist blocks all requests from the most malicious IPs, protecting your site while reducing load."
-msgstr ""
-
-#. Found in description list item.
-msgid "[Premium] Real-time firewall rule and malware signature updates via the Threat Defense Feed (free version is delayed by 30 days)."
-msgstr ""
-
-#. Found in description list item.
-msgid "Web Application Firewall identifies and blocks malicious traffic. Built and maintained by a large team focused 100% on WordPress security."
-msgstr ""
-
-#. Found in description header.
-msgid "SECURITY TOOLS"
-msgstr ""
-
-#. Found in description header.
-msgid "WORDPRESS SECURITY SCANNER"
-msgstr ""
-
-#. Found in description header.
-msgid "WORDPRESS FIREWALL"
-msgstr ""
-
-#. Found in description header.
-msgid "THE MOST POPULAR WORDPRESS FIREWALL &amp; SECURITY SCANNER"
-msgstr ""
-
-#. Screenshot description.
-msgid "Take login security to the next level with Two Factor Authentication."
-msgstr ""
-
-#. Screenshot description.
-msgid "Block attackers by IP, Country, IP range, Hostname, Browser or Referrer."
-msgstr ""
-
-#. Screenshot description.
-msgid "Brute Force Protection features protect you from password guessing attacks."
-msgstr ""
-
-#. Screenshot description.
-msgid "Wordfence is highly configurable, with a deep set of options available for each feature. High level scan options are shown above."
-msgstr ""
-
-#. Plugin name.
-msgid "Wordfence Security - Firewall &amp; Malware Scan"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Fix: Fixed a warning by adjusting a query to remove old-style variable references."
 msgstr ""
@@ -891,46 +1563,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Fix: Fixed a log warning that could occur during the scan for plugins not in the wordpress.org repository."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "We offer a Premium API key that gives you real-time updates to the Threat Defense Feed which includes a real-time IP blacklist, firewall rules and malware signatures. Premium support, country blocking, more frequent scans, two-factor authentication and spam and spamvertising checks are also included. <a href=\"http://www.wordfence.com/\">Click here to sign-up for Wordfence Premium now</a> or simply install Wordfence free and start protecting your website."
-msgstr ""
-
-#. Found in faq header.
-msgid "What blocking features does Wordfence include?"
-msgstr ""
-
-#. Found in faq header.
-msgid "What login security features are included"
-msgstr ""
-
-#. Found in faq header.
-msgid "What security monitoring features does Wordfence include?"
-msgstr ""
-
-#. Found in faq header.
-msgid "What checks does the Wordfence Security Scanner perform?"
-msgstr ""
-
-#. Found in faq header.
-msgid "How does the Wordfence WordPress Firewall protect websites?"
-msgstr ""
-
-#. Found in faq header.
-msgid "What features does Wordfence Premium enable?"
-msgstr ""
-
-#. Found in installation paragraph.
-msgid "To install the Wordfence on WordPress Multi-Site installations:"
-msgstr ""
-
-#. Found in installation list item.
-msgid "Go to the scan menu and start your first scan. Scheduled scanning will also be enabled."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Activate the Wordfence through the 'Plugins' menu in WordPress. Wordfence is now activated."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1263,254 +1895,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Fix: Addressed an issue that could cause scans to time out on sites with tens of thousands of potential URLs in files, comments, and posts."
-msgstr ""
-
-#. Screenshot description.
-msgid "The Wordfence Live Traffic view shows you real-time activity on your site including bot traffic and exploit attempts."
-msgstr ""
-
-#. Screenshot description.
-msgid "The Wordfence Security Scanner lets you know if your site has been compromised and alerts you to other security issues that need to be addressed."
-msgstr ""
-
-#. Screenshot description.
-msgid "The firewall protects your site from common types of attacks and known security vulnerabilities."
-msgstr ""
-
-#. Screenshot description.
-msgid "The dashboard gives you an overview of your site's security including notifications, attack statistics and Wordfence feature status."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Providing excellent customer service is very important to us.  We offer help to all our customers whether you are using the Premium or free version of Wordfence.  For help with the free version, you can post in our <a href=\"https://wordpress.org/support/plugin/wordfence\">forum</a> where we have dedicated staff responding to questions. If you need faster or more in-depth help, Premium customers can submit a <a href=\"https://support.wordfence.com/support/home\">support ticket</a> to our Premium support team."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Yes. WordPress Multi-Site is fully supported. Using Wordfence you can scan every blog in your network for malware with one click. If one of your customers posts a page or post with a known malware URL that threatens your whole domain with being blacklisted by Google, we will alert you in the next scan."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Wordfence Security is able to repair core files, themes and plugins on sites where security is already compromised. You can follow this guide on <a href=\"https://www.wordfence.com/docs/how-to-clean-a-hacked-wordpress-site-using-wordfence/\">how to clean a hacked website</a> using Wordfence. However, please note that site security cannot be assured unless you do a full reinstall if your site has been hacked. We recommend you only use Wordfence Security to get your site into a running state in order to recover the data you need to do a full reinstall. If you need help repairing a hacked site, we offer an affordable, high-quality <a href=\"https://www.wordfence.com/wordfence-site-cleanings/\">site cleaning service</a> that includes a Premium key for a year."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "No. Wordfence Security is extremely fast and uses techniques like caching its own configuration data to avoid database lookups and blocking malicious attacks that would slow down your site."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Wordfence provides true endpoint security for your WordPress website. Unlike cloud based firewalls, Wordfence executes within the WordPress environment, giving it knowledge like whether the user is signed in, their identity and what access level they have. Wordfence uses the user’s access level in more than 80% of the firewall rules it uses to protect WordPress websites. Learn more about the <a href=\"https://www.wordfence.com/blog/2016/10/endpoint-vs-cloud-security-cloud-waf-user-identity-problem/\">Cloud WAF identity problem here</a>. Additionally, cloud based firewalls can be bypassed, leaving your site exposed to attackers. Because Wordfence is an integral part of the endpoint (your WordPress website), it can’t be bypassed. Learn more about the <a href=\"https://www.wordfence.com/blog/2016/10/endpoint-vs-cloud-security-cloud-waf-bypass-problem/\">Cloud WAF bypass problem here</a>. To fully protect the investment you’ve made in your website you need to employ a defense in depth approach to security. Wordfence takes this approach."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "The WordPress security plugin provides the best protection available for your website. Powered by the constantly updated Threat Defense Feed, WordFence Firewall stops you from getting hacked. Wordfence Scan leverages the same proprietary feed, alerting you quickly about security issues or if your site is compromised. The Live Traffic view gives you real-time visibility into traffic and hack attempts on your website. A deep set of additional tools round out the most comprehensive WordPress security solution available."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Wordfence verifies your website source code integrity against the official WordPress repository and shows you the changes. "
-msgstr ""
-
-#. Found in faq list item.
-msgid "Wordfence Security provides a WordPress Firewall developed specifically for WordPress and blocks attackers looking for vulnerabilities on your site.  The Firewall is powered by our Threat Defense Feed which is continually updated as new threats emerge.  Premium customers receive updates in real-time."
-msgstr ""
-
-#. Found in faq header.
-msgid "What support options are available for Wordfence users?"
-msgstr ""
-
-#. Found in faq header.
-msgid "What if my site has already been hacked?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Will Wordfence slow down my website?"
-msgstr ""
-
-#. Found in faq header.
-msgid "What differentiates Wordfence from other WordPress Security plugins?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Do I need a security plugin like Wordfence if I’m using a cloud based firewall (WAF)?"
-msgstr ""
-
-#. Found in faq header.
-msgid "How does Wordfence Security protect sites from attackers?"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Designed for every skill level, <a href=\"https://www.wordfence.com/learn/\">The WordPress Security Learning Center</a> is dedicated to deepening users’ understanding of security best practices by providing free access to entry-level articles, in-depth articles, videos, industry survey results, graphics and more."
-msgstr ""
-
-#. Found in installation paragraph.
-msgid "Secure your website using the following steps to install Wordfence:"
-msgstr ""
-
-#. Found in faq list item.
-msgid "Block common WordPress security threats like fake Googlebots, malicious scans from hackers and botnets."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Threat Defense Feed automatically updates firewall rules that protect you from the latest threats. Premium members receive the real-time version."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Web Application Firewall stops you from getting hacked by identifying malicious traffic, blocking attackers before they can access your website."
-msgstr ""
-
-#. Found in faq header.
-msgid "Where can I learn more about WordPress security?"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Yes. We fully support IPv6 with all security functions including country blocking, range blocking, city lookup, whois lookup and all other security functions. If you are not running IPv6, Wordfence will work great on your site too. We are fully compatible with both IPv4 and IPv6 whether you run both or only one addressing scheme."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Wordfence sends security alerts via email. Once you install Wordfence, you will configure a list of email addresses where security alerts will be sent. When you receive a security alert, make sure you deal with it promptly to ensure your site stays secure."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Wordfence includes Two-Factor authentication, the most secure way to stop brute force attackers in their tracks."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Wordfence fully supports WordPress Multi-Site which means you can security scan every blog in your Multi-Site installation with one click."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Wordfence scans do not consume large amounts of your bandwidth because all security scans happen on your web server which makes them very fast."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Wordfence scans check all your files, comments and posts for URLs in Google's Safe Browsing list. We are the only plugin to offer this very important security enhancement."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Wordfence fully supports IPv6 including giving you the ability to look up the location of IPv6 addresses, block IPv6 ranges, detect IPv6 country and do a whois lookup on IPv6 addresses and more."
-msgstr ""
-
-#. Found in faq header.
-msgid "Does Wordfence Security support IPv6?"
-msgstr ""
-
-#. Found in faq header.
-msgid "How will I be alerted if my site has a security problem?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Does Wordfence Security support Multi-Site installations?"
-msgstr ""
-
-#. Found in installation list item.
-msgid "Firewall rules and login rules apply to the WHOLE system. So if you fail a login on site1.example.com and site2.example.com it counts as 2 failures. Crawler traffic is counted between blogs, so if you hit three sites in the network, all the hits are totalled and that counts as the rate you're accessing the system."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Live Traffic will appear for ALL sites in your network. If you have a heavily trafficked system you may want to disable live traffic which will stop logging to the DB. "
-msgstr ""
-
-#. Found in installation list item.
-msgid "Wordfence will do a scan of all files in your WordPress installation including those in the blogs.dir directory of your individual sites. "
-msgstr ""
-
-#. Found in installation list item.
-msgid "Go to the \"Scan\" menu and start your first scan. "
-msgstr ""
-
-#. Found in installation list item.
-msgid "Now that Wordfence is network activated it will appear on your Network Admin menu. Wordfence will not appear on any individual site's menu. "
-msgstr ""
-
-#. Found in installation list item.
-msgid "Network Activate Wordfence. This step is important because until you network activate it, your sites will see the plugin option on their plugins menu. Once activated that option disappears. "
-msgstr ""
-
-#. Found in installation list item.
-msgid "Install Wordfence via the plugin directory or by uploading the ZIP file."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Click the \"Live Traffic\" menu option to watch your site activity in real-time. Situational awareness is an important part of website security."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Optionally, change your security level or adjust the advanced options to set individual scanning and protection options for your site."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Visit the Wordfence options page to enter your email address so that you can receive email security alerts."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Once your first scan has completed, a list of threats will appear. Go through them one by one to secure your site."
-msgstr ""
-
-#. Found in installation list item.
-msgid "Install Wordfence automatically or by uploading the ZIP file. "
-msgstr ""
-
-#. Found in faq list item.
-msgid "Monitors disk space which is related to security because many DDoS attacks attempt to consume all disk space to create denial of service."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Monitor your DNS security for unauthorized DNS changes."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Real-time traffic includes reverse DNS and city-level geolocation. Know which geographic area security threats originate from."
-msgstr ""
-
-#. Found in faq list item.
-msgid "A real-time view of all traffic including automated bots that often constitute security threats that Javascript analytics packages never show you."
-msgstr ""
-
-#. Found in faq list item.
-msgid "See all your traffic in real-time, including robots, humans, 404 errors, logins and logouts and who is consuming most of your content. Enhances your situational awareness of which security threats your site is facing."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Scans for heuristics of backdoors, trojans, suspicious code and other security issues."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Continuously scans for malware and phishing URL’s including all URLs on the Google Safe Browsing List in all your comments, posts and files that are security threats."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Scans for many known backdoors that create security holes including C99, R57, RootShell, Crystal Shell, Matamu, Cybershell, W4cking, Sniper, Predator, Jackal, Phantasma, GFS, Dive, Dx and many more."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Scans for signatures of over 44,000 known malware variants that are known WordPress security threats."
-msgstr ""
-
-#. Found in faq list item.
-msgid "See how files have changed. Optionally repair changed files that are security threats."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Scans core files, themes and plugins against WordPress.org repository versions to check their integrity. Verify security of your source."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Premium users can also block countries and schedule scans for specific times and a higher frequency."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Choose whether you want to block or throttle users and robots who break your WordPress security rules."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Rate limit or block WordPress security threats like aggressive crawlers, scrapers and bots doing security scans for vulnerabilities in your site."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Block entire malicious networks. Includes advanced IP and Domain WHOIS to report malicious IP’s or networks and block entire networks using the firewall. Report WordPress security threats to network owner."
-msgstr ""
-
-#. Found in faq list item.
-msgid "Real-time blocking of known attackers. If another site using Wordfence is attacked and blocks the attacker, your site is automatically protected."
 msgstr ""
 
 #. Found in changelog list item.

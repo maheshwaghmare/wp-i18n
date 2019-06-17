@@ -1,0 +1,1495 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - WP Statistics - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:56:53+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Complete WordPress Analytics and Statistics for your site!"
+msgstr ""
+
+#. Plugin name.
+msgid "WP Statistics"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To register, go to the Permalink page and update the permalink with press Save Changes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If you're using a plugin cache:\n"
+"* Don't forget to clear your enabled plugin cache.\n"
+"* You should enable the plugin cache option in the Settings page.\n"
+"* Making sure the below endpoint registered in your WordPress.\n"
+"http://yourwebsite.com/wp-json/wpstatistics/v1"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, the cache support added in v12.5.1"
+msgstr ""
+
+#. Found in description list item.
+msgid "Visitor’s City Recognition"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"WP Statistics is PHP 7 compliant; however, some versions of PHP 7 have bugs that can cause issues. One known issue is that PHP 7.0.4 cause memory exhaustion errors. Newer versions of PHP 7 do not have this issue.\n"
+"At this time (September, 2018) WP Statistics seems to run fine with PHP 7.2.6. But  you may experience issues that we haven’t found yet. If you do, feel free to report it after you make sure it is not a problem with PHP."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Search Engine Referrals and Words are highly dependent on the search engines providing the information to us. Unfortunately, we can’t do anything about it; we report everything we receive."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Make sure you’ve downloaded the GeoIP database and the GeoIP code is enabled.\n"
+"Also, if you are running an internal test site with non-routable IP addresses (like 192.168.x.x or 172.28.x.x or 10.x.x.x), these addresses will be always shown as ‘unknown’. You can define a location IP for these IP addresses in the “Country code for private IP addresses” setting."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Visits is the number of page hits your site has received.\n"
+"Visitors is the number of unique users which have visited your site.\n"
+"Visits should always be greater than Visitors (though, there are a few cases when this won’t be true due to having low visits).\n"
+"The average number of pages a visitor views on your site is Visits/Visitors."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"The greatest advantage of WP Statistics is that all the data is saved locally in WordPress.\n"
+"This helps a lot while implementing the new GDPR restrictions; because it’s not necessary to create a data processing contract with an external company! <a href=\"http://bit.ly/2x0AFgT\">Read more about WP Statistics compliance with GDPR</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "GDPR Compliant?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All these data are recorded in your server, and YES! WP Statistics is <a href=\"http://bit.ly/2x0AFgT\">GDPR compliant</a>."
+msgstr ""
+
+#. Found in description list item.
+msgid "[Premium] <a href=\"http://bit.ly/2MjZE3l\">More Advanced reporting</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "[Premium] <a href=\"http://bit.ly/2Mj4Nss\">Real-time stats</a>"
+msgstr ""
+
+#. Found in description header.
+msgid "WP statistics: THE #1 WORDPRESS STATISTICS PLUGIN"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you encounter any bug, please create an issue on <a href=\"https://github.com/wp-statistics/wp-statistics/issues/new\">Github</a> where we can act upon them more efficiently. Since <a href=\"https://github.com/wp-statistics/wp-statistics\">Github</a> is not a support forum, just bugs are welcomed, and any other request will be closed."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Some advanced features are Premium, which means you need to buy extra add-ons to unlock those features. You can get <a href=\"http://bit.ly/2x6tGly\">Premium add-ons</a> here!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Do you need a simple tool to know your website statistics? Do you need to represent these statistics? Are you caring about your users’ privacy while analyzing who are interested in your business or website? With WP Statistics you can know your website statistics without any need to send your users’ data anywhere. You can know how many people visit your personal or business website, where they’re coming from, what browsers and search engines they use, and which of your contents, categories, tags and users get more visits."
+msgstr ""
+
+#. Found in description list item.
+msgid "And much more information represented in graphs &amp; charts along with data filtering"
+msgstr ""
+
+#. Found in description list item.
+msgid "Statistical Reporting Emails"
+msgstr ""
+
+#. Found in description list item.
+msgid "Data Export in TSV, XML, and CSV formats"
+msgstr ""
+
+#. Found in description list item.
+msgid "Widget Support for showing Statistics"
+msgstr ""
+
+#. Found in description list item.
+msgid "Statistics on Contents based on Categories, Tags, and Writers"
+msgstr ""
+
+#. Found in description list item.
+msgid "Hits Time-Based Filtering"
+msgstr ""
+
+#. Found in description list item.
+msgid "Top 10 common browsers; Top 10 countries with most visitors; Top 10 most-visited pages; Top 10 referring sites"
+msgstr ""
+
+#. Found in description list item.
+msgid "The number of Referrals from each Referring Site"
+msgstr ""
+
+#. Found in description list item.
+msgid "The number of Visitors coming from each Search Engine"
+msgstr ""
+
+#. Found in description list item.
+msgid "Visitor’s Country Recognition"
+msgstr ""
+
+#. Found in description list item.
+msgid "Stunning Graphs and Visual Statistics"
+msgstr ""
+
+#. Found in description list item.
+msgid "Visitor Data Records including IP, Referring Site, Browser, Search Engine, OS, Country and City"
+msgstr ""
+
+#. Found in description header.
+msgid "REPORT BUGS"
+msgstr ""
+
+#. Found in description header.
+msgid "NOTE"
+msgstr ""
+
+#. Found in description header.
+msgid "ACT BETTER  BY KNOWING WHAT YOUR USERS ARE LOOKING FOR"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"WP Statistics doesn’t officially support the multisite feature; however, it does have limited functionally associated with it and should function without any issue. However, no support is provided at this time.\n"
+"Version 8.8 is the first release that can be installed, upgraded and removed correctly on multi-site. It also has some basic support for the network admin menu. This should not be taken as an indication that WP Statistics fully supports the multisite, but only should be considered as a very first step."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Services that use centralized databases for spam and robot detections , such as Google Analytics, have better detection than WP Statistics."
+msgstr ""
+
+#. Found in faq header.
+msgid "Are All visitors’ locations set to ‘unknown’?"
+msgstr ""
+
+#. Screenshot description.
+msgid "Theme widget"
+msgstr ""
+
+#. Screenshot description.
+msgid "Dashboard widgets"
+msgstr ""
+
+#. Screenshot description.
+msgid "Last Search Words"
+msgstr ""
+
+#. Screenshot description.
+msgid "Search Engine Referral Statistics"
+msgstr ""
+
+#. Screenshot description.
+msgid "Category Statistics"
+msgstr ""
+
+#. Screenshot description.
+msgid "Top pages"
+msgstr ""
+
+#. Screenshot description.
+msgid "Hit Statistics"
+msgstr ""
+
+#. Screenshot description.
+msgid "Top Countries"
+msgstr ""
+
+#. Screenshot description.
+msgid "Browsers Statistics"
+msgstr ""
+
+#. Screenshot description.
+msgid "Overview"
+msgstr "आढावा"
+
+#. Found in faq paragraph.
+msgid "If IPv6 is not enabled, you may see an warning like:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can check if IPv6 support is enabled in PHP by visiting the Optimization &gt; Resources/Information-&gt;Version Info &gt; PHP IPv6 Enabled section."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "WP Statistics supports IPv6 as of version 11.0; however, PHP must be compiled with IPv6 support enabled; otherwise you may see warnings when a visitor from an IPv6 address hits your site."
+msgstr ""
+
+#. Found in faq header.
+msgid "IPv6 Support?"
+msgstr ""
+
+#. Found in faq header.
+msgid "PHP 7 Support?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Probably, each plugin/service is going to give you different statistics on visits and visitors; there are several reasons for this:"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Centralized exclusions"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Detection methods (Javascript vs. Server Side PHP)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Web crawler detections"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does WP Statistics work with caching plugins?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Not all referrals are showing up in the search words list, why?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What’s the difference between Visits and Visitors?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I’m using another statistics plugin/service and get different numbers from them, why?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does WP Statistics support Multisite?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the plugin settings page and configure as required (note this will also include downloading the GeoIP database for the first time)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Make sure the Date and Time are set correctly in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload <code>wp-statistics</code> to the <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: postbox Ads in overview page. Don't worry! Not very annoying."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Sanitize page's title and Escaping that in overview page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: issue to showing Hit column for custom post type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WordPress 5.2 compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Minor issues in search referrer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Minor issues in datepicker."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: The Visitor IP configuration in the setting page for choosing method that gets visitor's IP addresses."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Minor issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed date picker issue in Top Visitors page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue to get IP in some servers that stored 127.0.0.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement visitor's hit when there was a broken file in that request."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement jQuery Datepicker UI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement Sanitize subject for sending email reporting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug to get home page title."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed duplicate page list in report pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added database upgrade class for update page type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed get the country code when the Hash or Anonymize IP Addresses is enabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Whip Package for getting visitor's IP address."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecate Top Search Words (30 Days) widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove <code>WP_Statistics_Pagination</code> class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix update option for Piwik blacklist."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix show number refer link from custom URL."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the error of No page title found in the meta box."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Page CSS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix method to get IP addresses."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refer Param in Top Referring Sites page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Schedule list in statistical reporting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed reset number online users list in period time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement text wrap in all meta boxes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement  <code>admin_url</code> link in all admin pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement time filter in admin pages stats."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement online users page UI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement Top referrals UI."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement CSV exporter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement pagination in admin pages that used the WordPress <code>paginate_links</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Post/Page Select in statistics page reporting according to post Type."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Online Users widget, A cool widget to show current online users!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A new table <code>visitor_relationship</code> for saving visitors logs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<code>user_id</code>, <code>page_id</code>, <code>type</code> columns to <code>statistics_useronline</code> table."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Visitor count column in Top Country widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement MySQL time query in all functions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimized: All png files. (60% Save)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Minor issues in GeoIP update function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The Browsers charts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: <code>date_i18n</code> function in dates for retrieving localized date."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: The Edge To Browser List."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Counting stats issue in Cache mode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Referrers URL to be valid."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The <code>params()</code> method."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The WP-Statistics Metaboxes for Gutenberg!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Some methods. <code>params()</code> and <code>get_hash_string()</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled: Notice cache in all admin pages just enabled in the summary and setting of WP-Statistics pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The query in the Author Statistics page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Get location for Anonymize IP Addresses."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The cache process in the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The GeoIP updater."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Avoid using jQuery in the inline script to for send request when the cache is enabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The responsive problem of Recent Visitors and Latest Search Words widgets in WP Dashboard."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Option for enabling/disabling the hits meta box chart in the edit of all post types page and that option is disabled by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Some issues in php v5.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled: Baidu search engine by default after installing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enabled: Hit Statistics in posts/pages. the conflict problem solved."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Chart.js library to v2.7.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Some issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: <a href=\"https://whichbrowser.net/\">WhichBrowser</a> and <a href=\"https://crawlerdetect.io/\">CrawlerDetect</a>. These libraries give us more help in identifying user agents. the Browscap library removed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Visitor's city name with GeoIP, you can enable the city name in Settings &gt; Externals &gt; GeoIP City"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled: The setting menu when the current user doesn't access."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: Exclude Ajax requests, now compatible with <a href=\"https://jetpack.com/support/related-posts/\">Related Post by Jetpack</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The responsive summary page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The assets and fixed conflict ChartJS issue, when the Hit Statistics Meta box was enabled in posts/pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The pagination class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved: The Datepicker in the WP-Statistics pages, supported WordPress custom date format."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Referrers to WP-Statistics shortcode attributes. e.g. <code>[wpstatistics stat=referrer time=today top=10]</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Qwant search engine in the Search Engine Referrals."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: WP-Statistics shortcode in the TinyMCE editor. you can use the shortcode easily in the posts and pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Cache option for support when the cache enabled in the WordPress."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled: The welcome page and Travod widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: <code>delete_transient()</code> for deleting transients when uninstalling the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Implemented: The <code>do_welcome()</code> function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Anonymize IP addresses option in the Setting &gt; Privacy."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: The Opt-Out removed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Counting non-changing collections with <code>count()</code>. Thanks <a href=\"https://github.com/DanielRuf\">Daniel Ruf</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enabled: The suggestion notice in the log pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Libraries to latest version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disabled: The suggestion notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New option for enable/disable notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Suggestion notice in the log pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested: With PHP v7.2.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: GDPR, Added new option for delete visitor data with IP addresses."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: GDPR, Supported for DNT-Header."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: I18n strings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: GeoIP database update problem. Added an alternative server for download database when impossible access to maxmind.com"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Include <code>file.php</code> and <code>pluggable.php</code> in GeoIP downloader when is not exists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Isolation Browscap cache processes to reduce memory usage."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue to build search engine queries."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Chart.js library to v2.7.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Opt-out option in the Setting page -&gt; Privacy for GDPR compliance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Privacy tab in the setting page and moved Hash IP Addresses and Store entire user agent in this tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Note: GDPR, We Updated Our <a href=\"https://wp-statistics.com/privacy-and-policy/\">Privacy Policy</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Cache system and update Browscap database."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Memory usage in the plugin when the Browscap is enabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Browscap to v3.1.0 and fixed some issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue to show date range in the charts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue to get page title in empty search words option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue to create the object of the main class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Menu bar for both frontend &amp; backend."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Pages Dropdown in the page stats."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: New feature! Show Hits on the single posts/pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "If you have any problem, don't forget to send the report to our web site's <a href=\"https://wp-statistics.com/contact/\">contact form</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue in Browscap, Used the original Browscap library in the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue to get prefix table in searched phrases postbox."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue to get IP in Hits class."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: <code>wp_doing_cron</code> function, Check before call if is not exist."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: A minor bug in <code>get_referrer_link</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Composer libraries."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We're sorry about last issues. Now you can update to new version to resolve the problems."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Chart.js library to v2.7.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Admin bar menu icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: issue in admin widget. The <code>id</code> in label missed and used <code>get_field_id</code> method to get a correct id."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: issue in generating query string in some state pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue in i18n strings. The <code>load_plugin_textdomain</code> missed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue in checking the Cron request."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Top Referring widget in Big data. Used Transient cache to build this widget data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: MySQL Queries and used multi-index for <code>wp_statistics_pages</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Management processes and front-end have been separated for more speed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue to <code>add_column</code> callback."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Thanks <a href=\"https://dedidata.com/\">Farhad Sakhaei</a> To help us with these changes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Force English option feature in the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Some unused variables."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Some notices error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Top Search Words in the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Setting/Optimization page stylesheet and removed jQuery UI to generate tabs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Constants, Include files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Export data on the optimization page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Many functions converted to classes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The new version proves itself more than twice as faster because we had a lot of changes in the plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Network menu icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Refferer url scheme. <a href=\"https://github.com/wp-statistics/wp-statistics/pull/24\">#24</a> Thanks <a href=\"https://github.com/Dedi-Data\">Farhad Sakhaei</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Don't run the SQL if <code>$reffer</code> is not set. <a href=\"https://github.com/wp-statistics/wp-statistics/pull/21\">#21</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Correct numbering for pages &gt; 1 in Top Referring page. <a href=\"https://github.com/wp-statistics/wp-statistics/pull/22/files\">#22</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Chart height issue in css."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Chart conflict issues with other libraries."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "We're sorry about last issues. Now you can update to new version to resolve conflict issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Additional assets and the assets cleaned up."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: <code>WP_STATISTICS_MIN_EXT</code> define for load <code>.min</code> version in css/js."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Postbox container width in Logs page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Showing data on the Browsers, Platforms and browsers version charts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Settings and Optimization page styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Countries code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Missed flags icons. (Curaçao, Saint Lucia, Turkmenistan, Kosovo, Saint Martin, Saint Barthélemy and Mayotte)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Awesome charts! The Chartjs library used in the plugin for show charts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: PHP syntax error for array brackets when the PHP &lt; 5.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Translations issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Add-ons page! The Add-ons add functionality to your WP-Statistics. <a href=\"https://wp-statistics.com/add-ons/\">Click here</a> to see current Add-ons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: admin.min.css"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: More, Reload and Toggle arrow buttons in metaboxes are consistent with WP core widget metaboxes, with screen-reader-text and key navigation. by <a href=\"https://profiles.wordpress.org/pedromendonca/\">Pedro Mendonça</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Improve consistency, best practices and correct typos in translation strings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: admin CSS style. set <code>with</code> for Hits column in posts/pages list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: i18n issues (hardcoded strings, missing or incorrect textdomains)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: links issue in the last visitors page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: <code>screen_icon()</code> function from the plugin. (This function has been deprecated)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Uses <code>esc_attr()</code> for cleaning <code>$_GET</code> in referrers page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: UptimeRobot to the default robots list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Maxmind-db reader library to v1.1.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: XSS issue with agent and ip in visitors page, Thanks Ryan Dewhurst from Dewhurst Security Team."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: load languages file. please visit <a href=\"https://wp-statistics.com/translations/\">translations page</a> to help translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: all language files from the language folder. Translations have moved to <a href=\"https://translate.wordpress.org/projects/wp-plugins/wp-statistics\">translate.wordpress.org</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: new hook (<code>wp_statistics_final_text_report_email</code>) in email reporting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: SQL Injection vulnerability, thanks John Castro for reporting issue from sucuri.net Team."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: recent visitor link in dashboard widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: items show issue in referring page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: manual file and moved to <a href=\"http://wp-statistics.com/category/documentation\">wp-statistics.com/category/documentation</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: WP-Statistics logo! Thanks <a href=\"http://aringrafix.com/\">Arin Hacopian</a> for design the logo."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WordPress 4.8 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Additional XSS fixes, thanks Plugin Vulnerabilities Team."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Updated CSS definition for widgets to avoid overflow only for WP Statistics widgets instead of all active widgets to avoid conflicts with other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Additional XSS fixes, thanks Gen Sato who submitted to JPCERT/CC Vulnerability Handling Team."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Referrers, that are not search engines, are missing from the referrers widget/page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Logic for detecting invalid referrer types to capture more types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Optimizations for referrers encoding."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Additional XSS issue with referrers, thanks Gen Sato who submitted to JPCERT/CC Vulnerability Handling Team."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: On the referrers page, selecting a host would reset the date range."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Top referrer widget was not using the new search table."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: XSS issue with referrers, thanks Gen Sato who submitted to JPCERT/CC Vulnerability Handling Team."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: XSS issue with date range picker, thanks Anon submitter to JPCERT/CC Vulnerability Handling Team."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Display of individual referring site stats."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: wp_statistics_get_uri() to validate what is being removed to make sure we don't remove the wrong things."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: wp_statistics_get_uri() to handle cases where site and home URI's are different."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Robots list not being updated on upgrades properly in some cases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Check for BCMath or GMP Math extensions to support newer GeoIP database files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Incorrect variable name on the exclusions page for the robots list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Images in the HTML version of the admin manual did not display correctly in Microsoft IE/Edge."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Split change log, form this point forward only the changes for the last two major versions will be included, older entries can be found in the changes.txt file in the plugin root."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: After \"removal\" the notice on the plugins page is now at the top of the page as an admin notice instead of being embedded in the plugin list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: URI retrieval of the current page could return an incorrect result in some cases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removal of settings now uses the defaults and handles a conner case that could cause corrupt settings to be saved during the reset."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Option to exclude AJAX calls from the statistics collection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Categories, tags and authors stats pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: RTL CSS styles for left/right div's in the admin dashboard, thanks sszdh."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Make sure the historical table exists before checking the keys on it which would cause extra output to be generated on first install."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Typo in JavaScript code that would cause some errors not to be displayed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: If IP hashing as enabled a PHP would be generated during the hashing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Option to reset plugin options without deleting the data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: January 13, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: December 1, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Duplicate display of hit statistics on hits page in some corner cases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Make sure when looking up a page/post ID for a URL to take the latest visited id instead of the first in case the URI has been reused."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Make sure the tick intervals are always whole numbers, otherwise the axis ticks won't match up with the data on line charts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Incorrect url for link on recent visitors widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Top visitors page css for date picker."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Don't refresh a widget if it's not visible, fixes the widget being replaced by a spinner that never goes away."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: November 7, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: jqPlot library to version development version and added DST fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Additional error checks for new IP code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Minimum PHP version is now 5.4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: October 28, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: \"Empty\" log widget columns could not have widgets added to them."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Date range selector on stats now properly displays a custom range after it has been set."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Incorrect stats on some pages for date ranges that end in the past."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Basic print styles for the overview and log pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Last bits of google maps code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Check for bc math."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Language on the front end widget to match the summary widget in the admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: CSS for date picker not loading."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Display of top sites list when the display port is very small would ."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Default provider for searches shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Time attribute to searches shortcode."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: phpUserAgent library to 0.5.2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: GeoIP library to version 1.1.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: IPv6 Support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: August 19, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: WP_DEBUG errors in front end widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: 'AdsBot-Google' to the robots list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: JQVMap library to version 1.5.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added:  spans around the text for widget fields for easier styling."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: GeoIP library to version 2.4.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for minified css/js files and the SCRIPT_DEBUG WordPress define."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: jqPlot library to version 1.0.9."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Pop up country information on the map dashboard widget will now stay on top of the WordPress dashboard menus."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: August 2, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Make sure to escape the post title in the widget otherwise the graph may not be displayed correctly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Google Maps support as Google no longer supports keyless access to the API (http://googlegeodevelopers.blogspot.com.es/2016/06/building-for-scale-updates-to-google.html)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Incorrect URL in quick access widget for some of the totals."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Various WP_DEBUG warnings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: jQuery CSS references."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Support for use page id in Get_Historical_Data function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Ensure we have a valid page id before record the stat to the database to avoid an error being recorded in the PHP error log."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Renamed the Czech and Danish translation file names to function correctly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Typo in function name for purging the database."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Manual download links did not function."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Top pages list failed when there were less than 5 pages to display."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Only display the widgets on the overview page that have their features enabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: MaxMind Reader Library updated to V1.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: User Agent Parser library updated to V0.5.1."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Added check to make sure we can write to the upload directory before doing so."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Added check for gzopen() function to the Optimization page as some builds of PHP are broken and do not include it which causes the GeoIP download to fail causing a white screen of death in some cases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Top pages page to list the stats for the selected date range in the page list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: April 3, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: February 5, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Date ranges that ended in the past displaying the wrong visit/visitors data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Date range selector display after entering a custom date range."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Typo in purge code that caused a fatal error."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: January 21, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Links for yesterday and older visitors count went to wrong page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Top Visitors in Overview page would not reload."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Recent Visitors widget in the dashboard did not work."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Google map error that broken the overview page display of charts and the map."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Google map API now always uses https."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Include Fatal Error if corrupt data was passed to the ajax widget code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Added code to flush out invalid widget order user meta."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Additional error checking on widget load so they will retry if there is a failure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: January 19, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: If you re-ordered the widgets on the overview screen and then reloaded the page, all the widgets would disappear."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: January 18, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: The referrers widget would only select the first 100k records due to a limit in PHP/MySQL, it will now select all records."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: January 15, 2016"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Overview page memory usage in the optimization page as it is no longer relevant."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: Widget selection and ordering from the settings page, the \"Screen Options\" tab can now be used on the enabled/disable widgets and drag and drop will remember their location."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: UpdatedSQL for last post date detection to order by post_date instead of ID as someone could enter a date in the past for their publish date.  Thanks PC1271 for the fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Order of parameters in referrers page when viewing individual referrers was incorrect and resulted in a blank list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Removed extraneous single quote in SQL statement on referrers page, thanks jhertel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Replaced the old eye icon and \"more...\" link on the right of the title on the overview widgets with a new icon on the right beside the open/close icon."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Enabling dashboard widgets now no longer require a page load to display the contents."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Dashboard widgets now load dynamically."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added: Widgets now support reloading on overview and dashboard screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: Overview screen now loads widgets dynamically to reduce memory usage."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: GeoIP library to v2.6.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: July 24, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: June 8, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: February 18, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: March 31, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: March 30, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: April 27, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: June 29, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated: GeoIP library to v2.5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: March 24, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: April 1, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: April 6, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: July 3, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: July 2, 2017"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Release Date: August 17, 2017"
+msgstr ""

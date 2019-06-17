@@ -7,11 +7,31 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:20:20+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:46:06+00:00\n"
 "PO-Revision-Date: 2016-04-13 07:37:34+0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: bcn_gutenberg_block.js:104
+msgid "Display a breadcrumb trail representing this post's location on this website."
+msgstr ""
+
+#: bcn_gutenberg_block.js:103
+msgid "Breadcrumb Trail"
+msgstr ""
+
+#: bcn_gutenberg_block.js:97
+msgid "No breadcrumb trail"
+msgstr ""
+
+#: bcn_gutenberg_block.js:94
+msgid "Loading..."
+msgstr ""
+
+#: includes/class.mtekk_adminkit.php:868
+msgid "Import settings"
+msgstr ""
 
 #: class.bcn_breadcrumb_trail.php:146
 msgid "Go to the %title% category archives."
@@ -91,7 +111,7 @@ msgstr ""
 msgid "Author Root Page"
 msgstr ""
 
-#: class.bcn_breadcrumb.php:239
+#: class.bcn_breadcrumb.php:249
 msgid "bcn_breadcrumb::type must be an array"
 msgstr ""
 
@@ -136,17 +156,17 @@ msgstr ""
 msgid "Your settings are for an older version of this plugin and need to be migrated."
 msgstr ""
 
-#: class.bcn_breadcrumb_trail.php:648
+#: class.bcn_breadcrumb_trail.php:624
 msgctxt "year archive breadcrumb date format"
 msgid "Y"
 msgstr ""
 
-#: class.bcn_breadcrumb_trail.php:619
+#: class.bcn_breadcrumb_trail.php:595
 msgctxt "month archive breadcrumb date format"
 msgid "F"
 msgstr ""
 
-#: class.bcn_breadcrumb_trail.php:590
+#: class.bcn_breadcrumb_trail.php:566
 msgctxt "day archive breadcrumb date format"
 msgid "d"
 msgstr ""
@@ -169,35 +189,35 @@ msgstr ""
 msgid "%sTranslate%s: Is your language not available? Visit the Breadcrumb NavXT translation project on WordPress.org to start translating."
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "http://mtekk.us/"
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "John Havlik"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "Adds a breadcrumb navigation showing the visitor&#39;s path to their current location. For details on how to use this plugin visit <a href=\"http://mtekk.us/code/breadcrumb-navxt/\">Breadcrumb NavXT</a>."
 msgstr ""
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "http://mtekk.us/code/breadcrumb-navxt/"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "Breadcrumb NavXT"
 msgstr ""
 
-#: includes/class.mtekk_adminkit.php:874
+#: includes/class.mtekk_adminkit.php:875
 msgid "Select a XML settings file to upload and import settings from."
 msgstr ""
 
-#: includes/class.mtekk_adminkit.php:871
+#: includes/class.mtekk_adminkit.php:872
 msgid "Settings File"
 msgstr ""
 
-#: includes/class.mtekk_adminkit.php:868
+#: includes/class.mtekk_adminkit.php:869
 msgid "Import settings from a XML file, export the current settings to a XML file, or reset to the default settings."
 msgstr ""
 
@@ -357,7 +377,7 @@ msgstr ""
 msgid "Warning: Individual site settings will override any settings set in this page."
 msgstr ""
 
-#: class.bcn_breadcrumb_trail.php:506
+#: class.bcn_breadcrumb_trail.php:494
 msgid "$post global is not of type WP_Post"
 msgstr ""
 
@@ -815,17 +835,17 @@ msgid "Warning: Your network settings will override any settings set in this pag
 msgstr ""
 
 #: class.bcn_admin.php:403
-#: includes/class.mtekk_adminkit.php:878
+#: includes/class.mtekk_adminkit.php:879
 msgid "Reset"
 msgstr ""
 
 #: class.bcn_admin.php:402
-#: includes/class.mtekk_adminkit.php:877
+#: includes/class.mtekk_adminkit.php:878
 msgid "Export"
 msgstr "निर्यात"
 
 #: class.bcn_admin.php:401
-#: includes/class.mtekk_adminkit.php:876
+#: includes/class.mtekk_adminkit.php:877
 msgid "Import"
 msgstr "आयात"
 
@@ -915,8 +935,8 @@ msgstr ""
 msgid "Insufficient privileges to proceed."
 msgstr ""
 
-#: breadcrumb-navxt.php:36
-#: class.bcn_admin.php:26
 #: class.bcn_rest_controller.php:26
+#: class.bcn_admin.php:26
+#: breadcrumb-navxt.php:36
 msgid "Your PHP version is too old, please upgrade to a newer version. Your version is %1$s, Breadcrumb NavXT requires %2$s"
 msgstr ""

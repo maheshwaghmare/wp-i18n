@@ -1,122 +1,138 @@
-1 | Select All | सर्व निवडा
-2 | Finish | समाप्त
-3 | Save | जतन करा
-4 | Back | मागे
-5 | key | की
-6 | Upload | अपलोड
-7 | Next | पुढे
-8 | archive | संग्रहण
-9 | Search | शोधा
-10 | Installed | स्थापित
-11 | Spam | स्पॅम
-12 | Trash | ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ट्रॅश
-13 | Approve | मंजूर
-14 | Pings | पिंग्स
-15 | Comments | टिप्पण्या
-16 | advanced options | प्रगत पर्याय
-17 | recommended | शिफारस केलेले
-18 | Details | तपशील
-19 | Saving... | जतन होत आहे...
-20 | stop | थांबवा
-21 | Dismiss | घालवा
-22 | settings | सेटिंग्स
-23 | Deselect | निवड रद्द करा
-24 | Select all | सर्व निवडा
-25 | day | दिवस
-26 | file | फाईल
-27 | folder | फोल्डर
-28 | password | पासवर्ड
-29 | username | वापरकर्त्याचे नाव
-30 | Folder | फोल्डर
-31 | FTP password | FTP संकेतशब्द
-32 | Note: | टीप:
-33 | LinkedIn | लिंक्डइन
-34 | Facebook | फेसबुक
-35 | Uploads | अपलोडस्
-36 | Themes | थीम्स
-37 | Plugins | प्लगिन्स
-38 | Save Changes | बदल जतन करा
-39 | None | काहीही नाही
-40 | OK | ठीक
-41 | Failed | अयशस्वी
-42 | Unknown | अज्ञात
-43 | count | मोजा
-44 | Yes | होय
-45 | Select Files | फाईल्स निवडा
-46 | Warning: | चेतावणी:
-47 | Actions | क्रिया
-48 | Twitter | ट्विटर
-49 | News | बातम्या
-50 | Error: %s | त्रुटी: %s
-51 | Update Theme | थीम अपडेट करा
-52 | Update Plugin | प्लगइन अपडेट करा
-53 | Allowed Files | अनुमती फाईल्स
-54 | Deleting... | हटवीत आहे...
-55 | Key | की
-56 | Add site | साइट जोडा
-57 | Restore | रिस्टोर
-58 | Delete | खोडून टाकणे
-59 | Cancel | रद्द करा
-60 | Error: | चूक:
-61 | Settings | सेटिंग्स
-62 | Select All | सर्व निवडा
-63 | Finish | समाप्त
-64 | Save | जतन करा
-65 | Back | मागे
-66 | key | की
-67 | Upload | अपलोड
-68 | Next | पुढे
-69 | archive | संग्रहण
-70 | Search | शोधा
-71 | Installed | स्थापित
-72 | Spam | स्पॅम
-73 | Trash | ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ट्रॅश
-74 | Approve | मंजूर
-75 | Pings | पिंग्स
-76 | Comments | टिप्पण्या
-77 | advanced options | प्रगत पर्याय
-78 | recommended | शिफारस केलेले
-79 | Details | तपशील
-80 | Saving... | जतन होत आहे...
-81 | stop | थांबवा
-82 | Dismiss | घालवा
-83 | settings | सेटिंग्स
-84 | Deselect | निवड रद्द करा
-85 | Select all | सर्व निवडा
-86 | day | दिवस
-87 | file | फाईल
-88 | folder | फोल्डर
-89 | password | पासवर्ड
-90 | username | वापरकर्त्याचे नाव
-91 | Folder | फोल्डर
-92 | FTP password | FTP संकेतशब्द
-93 | Note: | टीप:
-94 | LinkedIn | लिंक्डइन
-95 | Facebook | फेसबुक
-96 | Uploads | अपलोडस्
-97 | Themes | थीम्स
-98 | Plugins | प्लगिन्स
-99 | Save Changes | बदल जतन करा
-100 | None | काहीही नाही
-101 | OK | ठीक
-102 | Failed | अयशस्वी
-103 | Unknown | अज्ञात
-104 | count | मोजा
-105 | Yes | होय
-106 | Select Files | फाईल्स निवडा
-107 | Warning: | चेतावणी:
-108 | Actions | क्रिया
-109 | Twitter | ट्विटर
-110 | News | बातम्या
-111 | Error: %s | त्रुटी: %s
-112 | Update Theme | थीम अपडेट करा
-113 | Update Plugin | प्लगइन अपडेट करा
-114 | Allowed Files | अनुमती फाईल्स
-115 | Deleting... | हटवीत आहे...
-116 | Key | की
-117 | Add site | साइट जोडा
-118 | Restore | रिस्टोर
-119 | Delete | खोडून टाकणे
-120 | Cancel | रद्द करा
-121 | Error: | चूक:
-122 | Settings | सेटिंग्स
+1 | Could not copy file. | फाईल कॉपी करू शकत नाही.
+2 | Could not extract file from archive. | संग्रहणातून फाइल मिळवू शकत नाही.
+3 | Could not create directory. | निर्देशिका तयार करू शकत नाही.
+4 | Could not copy files. You may have run out of disk space. | फाईल कॉपी करू नाही शकत.  डिस्कची जागा संपली आहे.
+5 | Could not retrieve file from archive. | संग्रहणातून फाइल मिळवू शकत नाही.
+6 | Incompatible Archive. | विसंगत संग्रहण.
+7 | Could not access filesystem. | फाइलप्रणालीमध्ये प्रवेश करू शकलो नाही.
+8 | Edit | संपादन
+9 | Select All | सर्व निवडा
+10 | Finish | समाप्त
+11 | Save | जतन करा
+12 | Back | मागे
+13 | key | की
+14 | Upload | अपलोड
+15 | Next | पुढे
+16 | archive | संग्रहण
+17 | Search | शोधा
+18 | Installed | स्थापित
+19 | Spam | स्पॅम
+20 | Trash | ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ट्रॅश
+21 | Approve | मंजूर
+22 | Pings | पिंग्स
+23 | Comments | टिप्पण्या
+24 | advanced options | प्रगत पर्याय
+25 | recommended | शिफारस केलेले
+26 | Details | तपशील
+27 | Saving... | जतन होत आहे...
+28 | stop | थांबवा
+29 | Dismiss | घालवा
+30 | settings | सेटिंग्स
+31 | Deselect | निवड रद्द करा
+32 | Select all | सर्व निवडा
+33 | day | दिवस
+34 | file | फाईल
+35 | folder | फोल्डर
+36 | password | पासवर्ड
+37 | username | वापरकर्त्याचे नाव
+38 | Folder | फोल्डर
+39 | FTP password | FTP संकेतशब्द
+40 | Note: | टीप:
+41 | LinkedIn | लिंक्डइन
+42 | Facebook | फेसबुक
+43 | Uploads | अपलोडस्
+44 | Themes | थीम्स
+45 | Plugins | प्लगिन्स
+46 | Save Changes | बदल जतन करा
+47 | None | काहीही नाही
+48 | OK | ठीक
+49 | Failed | अयशस्वी
+50 | Unknown | अज्ञात
+51 | count | मोजा
+52 | Yes | होय
+53 | Select Files | फाईल्स निवडा
+54 | Warning: | चेतावणी:
+55 | Actions | क्रिया
+56 | Twitter | ट्विटर
+57 | News | बातम्या
+58 | Error: %s | त्रुटी: %s
+59 | Update Theme | थीम अपडेट करा
+60 | Update Plugin | प्लगइन अपडेट करा
+61 | Allowed Files | अनुमती फाईल्स
+62 | Deleting... | हटवीत आहे...
+63 | Key | की
+64 | Add site | साइट जोडा
+65 | Restore | रिस्टोर
+66 | Delete | खोडून टाकणे
+67 | Cancel | रद्द करा
+68 | Error: | चूक:
+69 | Settings | सेटिंग्स
+70 | Could not copy file. | फाईल कॉपी करू शकत नाही.
+71 | Could not extract file from archive. | संग्रहणातून फाइल मिळवू शकत नाही.
+72 | Could not create directory. | निर्देशिका तयार करू शकत नाही.
+73 | Could not copy files. You may have run out of disk space. | फाईल कॉपी करू नाही शकत.  डिस्कची जागा संपली आहे.
+74 | Could not retrieve file from archive. | संग्रहणातून फाइल मिळवू शकत नाही.
+75 | Incompatible Archive. | विसंगत संग्रहण.
+76 | Could not access filesystem. | फाइलप्रणालीमध्ये प्रवेश करू शकलो नाही.
+77 | Edit | संपादन
+78 | Select All | सर्व निवडा
+79 | Finish | समाप्त
+80 | Save | जतन करा
+81 | Back | मागे
+82 | key | की
+83 | Upload | अपलोड
+84 | Next | पुढे
+85 | archive | संग्रहण
+86 | Search | शोधा
+87 | Installed | स्थापित
+88 | Spam | स्पॅम
+89 | Trash | ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ट्रॅश
+90 | Approve | मंजूर
+91 | Pings | पिंग्स
+92 | Comments | टिप्पण्या
+93 | advanced options | प्रगत पर्याय
+94 | recommended | शिफारस केलेले
+95 | Details | तपशील
+96 | Saving... | जतन होत आहे...
+97 | stop | थांबवा
+98 | Dismiss | घालवा
+99 | settings | सेटिंग्स
+100 | Deselect | निवड रद्द करा
+101 | Select all | सर्व निवडा
+102 | day | दिवस
+103 | file | फाईल
+104 | folder | फोल्डर
+105 | password | पासवर्ड
+106 | username | वापरकर्त्याचे नाव
+107 | Folder | फोल्डर
+108 | FTP password | FTP संकेतशब्द
+109 | Note: | टीप:
+110 | LinkedIn | लिंक्डइन
+111 | Facebook | फेसबुक
+112 | Uploads | अपलोडस्
+113 | Themes | थीम्स
+114 | Plugins | प्लगिन्स
+115 | Save Changes | बदल जतन करा
+116 | None | काहीही नाही
+117 | OK | ठीक
+118 | Failed | अयशस्वी
+119 | Unknown | अज्ञात
+120 | count | मोजा
+121 | Yes | होय
+122 | Select Files | फाईल्स निवडा
+123 | Warning: | चेतावणी:
+124 | Actions | क्रिया
+125 | Twitter | ट्विटर
+126 | News | बातम्या
+127 | Error: %s | त्रुटी: %s
+128 | Update Theme | थीम अपडेट करा
+129 | Update Plugin | प्लगइन अपडेट करा
+130 | Allowed Files | अनुमती फाईल्स
+131 | Deleting... | हटवीत आहे...
+132 | Key | की
+133 | Add site | साइट जोडा
+134 | Restore | रिस्टोर
+135 | Delete | खोडून टाकणे
+136 | Cancel | रद्द करा
+137 | Error: | चूक:
+138 | Settings | सेटिंग्स

@@ -1,0 +1,370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Polylang - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:57:51+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Making WordPress multilingual"
+msgstr ""
+
+#. Plugin name.
+msgid "Polylang"
+msgstr ""
+
+#. Found in faq list item.
+msgid "You need a separate addon to make Polylang and WooCommerce work together. <a href=\"https://polylang.pro/downloads/polylang-for-woocommerce/\">A Premium addon</a> is available."
+msgstr ""
+
+#. Found in faq header.
+msgid "Is Polylang compatible with WooCommerce?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "<a href=\"https://polylang.pro\">Polylang Pro</a> users have access to our helpdesk."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Read the <a href=\"https://polylang.pro/doc/\">documentation</a>. It includes a <a href=\"https://polylang.pro/doc-category/faq/\">FAQ</a> and the <a href=\"https://polylang.pro/doc-category/developers/\">documentation for developers</a>."
+msgstr ""
+
+#. Found in faq list item.
+msgid "First time users should read <a href=\"https://polylang.pro/doc-category/getting-started/\">Polylang - Getting started</a>, which explains the basics with a lot of screenshots."
+msgstr ""
+
+#. Found in faq header.
+msgid "Do you need translation services?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Don't hesitate to <a href=\"http://wordpress.org/support/view/plugin-reviews/polylang#postform\">give your feedback</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The author does not provide support on the wordpress.org forum. Support and extra features are available to <a href=\"https://polylang.pro\">Polylang Pro</a> users."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install and activate the plugin as usual from the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you wish to migrate from WPML, you can use the plugin <a href=\"https://wordpress.org/plugins/wpml-to-polylang/\">WPML to Polylang</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you wish to use a professional or automatic translation service, you can install <a href=\"https://wordpress.org/plugins/lingotek-translation/\">Lingotek Translation</a>, as an addon of Polylang. Lingotek offers a complete translation management system which provides services such as translation memory or semi-automated translation processes (e.g. machine translation &gt; human translation &gt; legal review)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Polylang allows you to create a bilingual or multilingual WordPress site. You write posts, pages and create categories and post tags as usual, and then define the language for each of them. The translation of a post, whether it is in the default language or not, is optional."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Edit Post screen with the Languages metabox"
+msgstr ""
+
+#. Screenshot description.
+msgid "Multilingual media library"
+msgstr ""
+
+#. Screenshot description.
+msgid "The Strings translations admin panel"
+msgstr ""
+
+#. Screenshot description.
+msgid "The Polylang languages admin panel"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Thanks a lot to all translators who <a href=\"https://translate.wordpress.org/projects/wp-plugins/polylang\">help translating Polylang</a>.\n"
+"Thanks a lot to <a href=\"http://www.alexlopez.rocks/\">Alex Lopez</a> for the design of the logo.\n"
+"Most of the flags included with Polylang are coming from <a href=\"http://famfamfam.com/\">famfamfam</a> and are public domain.\n"
+"Wherever third party code has been used, credit has been given in the code’s comments."
+msgstr ""
+
+#. Found in faq list item.
+msgid "If you still have a problem, open a new thread in the <a href=\"http://wordpress.org/support/plugin/polylang\">community support forum</a>."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Read the sticky posts in the <a href=\"http://wordpress.org/support/plugin/polylang\">community support forum</a>."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Search the <a href=\"https://wordpress.org/search/\">community support forum</a>. You will probably find your answer here."
+msgstr ""
+
+#. Found in faq list item.
+msgid "If you want to use professional or automatic translation services, install and activate the <a href=\"https://wordpress.org/plugins/lingotek-translation/\">Lingotek Translation</a> plugin."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where to find help ?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Take care that your theme must come with the corresponding .mo files (Polylang automatically downloads them when they are available for themes and plugins in this repository). If your theme is not internationalized yet, please refer to the <a href=\"https://developer.wordpress.org/themes/functionality/internationalization/\">Theme Handbook</a> or ask the theme author to internationalize it."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Add the 'language switcher' widget to let your visitors switch the language."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the languages settings page and create the languages you need"
+msgstr ""
+
+#. Found in installation list item.
+msgid "If you tried other multilingual plugins, deactivate them before activating Polylang, otherwise, you may get unexpected results!"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Make sure you are using WordPress 4.7 or later and that your server is running PHP 5.2.4 or later (same requirement as WordPress itself)"
+msgstr ""
+
+#. Found in description list item.
+msgid "A customizable language switcher is provided as a widget or in the nav menu"
+msgstr ""
+
+#. Found in description list item.
+msgid "Categories, post tags as well as some other metas are automatically copied when adding a new post or page translation"
+msgstr ""
+
+#. Found in description list item.
+msgid "The language is either set by the content or by the language code in url, or you can use one different subdomain or domain per language"
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom post types, custom taxonomies, sticky posts and post formats, RSS feeds and all default WordPress widgets are supported."
+msgstr ""
+
+#. Found in description list item.
+msgid "You can translate posts, pages, media, categories, post tags, menus, widgets..."
+msgstr ""
+
+#. Found in description list item.
+msgid "You can use as many languages as you want. RTL language scripts are supported. WordPress languages packs are automatically downloaded and updated."
+msgstr ""
+
+#. Found in description header.
+msgid "Do you like Polylang?"
+msgstr ""
+
+#. Found in description header.
+msgid "Credits"
+msgstr "क्रेडिट"
+
+#. Found in description header.
+msgid "Features"
+msgstr "वैशिष्ट्ये"
+
+#. Found in changelog list item.
+msgid "Fix Call to undefined function wp_generate_attachment_metadata()"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Jetpack featured pages not working. Props Anis Ladram. #357"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix style-rtl.css not loaded when the language is set from the content #356"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WPMU Domain Mapping: Fix incorrect domain used for the theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Yoast SEO: Fix primary product cat not copied or synchronized"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Kannada to the predefined languages list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: fix PHP warning when combined with The Event Calendar and Page builder by SiteOrigin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: fix PHP notice when the queried post type has been modified to an array"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Add filter pll_translate_blocks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add de_AT and pt_AO to the predefined languages list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix parent categories incorrectly synchronized #327"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix fatal error with ACF Pro 5.7.11"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix translated slugs not accepting forward slashes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix search in the button block not filtered in the correct language (needs WP 5.1)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Allow to update the plugin with WP CLI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security: Fix categories and media duplication not protected from CSRF"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a conflict causing a blank page with Divi"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP notice if a language has no flag"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix custom flags when the WP content folder is not in the WP install folder"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add compatibility with WP 5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix title slugs for posts written in German"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP notices when using the function 'icl_link_to_element' for terms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a conflict with the theme Pokemania"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a conflict with Custom sidebars and Content aware sidebars"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix bulk translate for media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix overwritten custom post slug when the post is updated with the REST API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix sticky posts in the REST API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Add compatibility with REST API changes made in WP 5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix translations possibly wrong if the post language is changed without saving the post after"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix performance issue when using hundreds of widgets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Accept 0,1 and 1.0 as q factors in browser preferred language detection (Props Dominic Rubas)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix home url not working with WordPress MU Domain mapping"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Twenty Fourteen featured posts possibly not filtered per language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add compatibility with Jetpack featured content module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom flags can now use SVG"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom flags can now be stored in the polylang directory in the theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add better filters for default flags and custom flags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Honor the filter 'pll_the_language_args' for all options in menus #237"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add flags to widgets displayed in only one language (Props Jory Hogeveen) #257"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Refactor the core to activate on front and for the REST api actions that were previously available only in the backend (language checks, synchronizations...)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix term not duplicated correctly when the language is set from the content"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix incorrect language for ajax requests made on front by The Events Calendar"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Fix variations messed when changing WooCommerce attributes slugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Add synchronized posts to the REST API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Add compatibility with Admin Columns"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pro: Add the possibility to bulk duplicate or bulk synchronize posts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Assigning a parent category breaking the hierarchy of translated category"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Saraiki to the predefined languages list"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "See <a href=\"https://plugins.svn.wordpress.org/polylang/trunk/changelog.txt\">changelog.txt</a> for older changelog"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minimum WordPress version is now 4.7"
+msgstr ""

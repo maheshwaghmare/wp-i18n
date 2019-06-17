@@ -1,0 +1,444 @@
+# Translation of Plugins - WooCommerce Blocks - Stable Readme (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - WooCommerce Blocks - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - WooCommerce Blocks - Stable Readme (latest release)\n"
+
+#. Found in description paragraph.
+msgid "WooCommerce Blocks are the easiest, most flexible way to display your products on posts and pages!"
+msgstr ""
+
+#. Plugin name.
+msgid "WooCommerce Blocks"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Products by Attribute Block</strong>\n"
+"Display a grid of products from your selected attributes."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Release and roadmap notes available on the <a href=\"https://woocommerce.wordpress.com/2019/01/15/woocommerce-blocks-1-3-0-release-notes/\">WooCommerce Developers Blog</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We've also improved the category selection filter. If you select two or more categories, you can now chose to show products that include ANY or ALL selected categories."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Products by Category Block</strong>\n"
+"Display a grid of products from your selected category, or categories. Products can be ordered in various ways."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>On Sale Products Block</strong>\n"
+"Display a grid of on sale products, filterable by category."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Newest Products Block</strong>\n"
+"Display a grid of your newest products, filterable by category."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Top Rated Products Block</strong>\n"
+"Display a grid of your top rated products, filterable by category."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Best Selling Products Block</strong>\n"
+"Display a grid of your best selling products, filterable by category."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Hand-Picked products Block</strong>\n"
+"Display a grid of hand picked products. Products can be ordered in various ways."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Featured Product Block</strong>\n"
+"Select and display a single product in a new, high impact fashion. Control text alignment, hide or show the price and description, add a color overlay, change the button call to action, and override the product photo."
+msgstr ""
+
+#. Screenshot description.
+msgid "WooCommerce Product Blocks in the block inserter menu"
+msgstr ""
+
+#. Screenshot description.
+msgid "Selecting categories in the Products By Category block"
+msgstr ""
+
+#. Screenshot description.
+msgid "Selecting Products for the Hand-Picked Products Block"
+msgstr ""
+
+#. Screenshot description.
+msgid "Selecting a product for the Featured Product Block"
+msgstr ""
+
+#. Screenshot description.
+msgid "The Featured Product Block"
+msgstr ""
+
+#. Found in description list item.
+msgid "WordPress 5.0"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Yes you can! Join in on our <a href=\"https://github.com/woocommerce/woocommerce-gutenberg-products-block/\">GitHub repository</a> :)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Bugs should be reported in the <a href=\"https://github.com/woocommerce/woocommerce-gutenberg-products-block/\">WooCommerce Gutenberg Products Block GitHub repository</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WooCommerce comes with some sample data you can use to populate the products and get started building Products blocks quickly and easily. You can use the core <a href=\"https://docs.woocommerce.com/document/product-csv-importer-exporter/\">CSV importer</a> or our <a href=\"https://woocommerce.com/products/product-csv-import-suite/\">CSV Import Suite plugin</a> to import sample_products.csv."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The manual installation method involves downloading the plugin and uploading it to your webserver via your favourite FTP application. The WordPress codex contains <a href=\"https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation\">instructions on how to do this here</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In the search field type “WooCommerce Gutenberg Products Block” and click Search Plugins. Once you’ve found this plugin you can view details about it such as the point release, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of this plugin, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Visit the <a href=\"https://docs.woocommerce.com/document/server-requirements/\">WooCommerce server requirements documentation</a> for a detailed list of server requirements."
+msgstr ""
+
+#. Found in description list item.
+msgid "MySQL version 5.0 or greater (MySQL 5.6 or greater is recommended)"
+msgstr ""
+
+#. Found in description list item.
+msgid "PHP version 5.2.4 or greater (PHP 7.2 or greater is recommended)"
+msgstr ""
+
+#. Found in description list item.
+msgid "WooCommerce 3.6 or greater"
+msgstr ""
+
+#. Found in description header.
+msgid "This is awesome! Can I contribute?"
+msgstr ""
+
+#. Found in description header.
+msgid "Where can I report bugs or contribute to the project?"
+msgstr ""
+
+#. Found in description header.
+msgid "Sample data"
+msgstr ""
+
+#. Found in description header.
+msgid "Manual installation"
+msgstr ""
+
+#. Found in description header.
+msgid "Automatic installation"
+msgstr ""
+
+#. Found in description header.
+msgid "Minimum Requirements"
+msgstr ""
+
+#. Found in description header.
+msgid "Getting Started"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Build: Update packages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Build: Update build script to show visual progress indicator."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: It might be possible to request over 100 products for the editor preview, but this would cause an API error - we now limit the preview request to 100 products."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Improved fetching products from API, so searching for products in Featured Product &amp; Hand-picked Products is faster for stores with over 200 products."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Add focal point picker to the Featured Product block, so you can adjust the background image position (only available on WP 5.2+ or with Gutenberg plugin)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fix a conflict with WooCommerce 3.6 and WooCommerce Blocks 1.4 (this change only applies to the version of blocks bundled with WooCommerce core)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Fix warnings about blocks already being registered."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Build: Move registration code to a new class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Webpack now builds using a custom jsonp callback, fixing possible collisions with other projects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API: Change namespace, endpoints now accessed at <code>/wc-blocks/v1/*</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>BREAKING:</strong> Requires WordPress 5.0+, WooCommerce 3.6+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>BREAKING:</strong> Remove the legacy block entirely"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Build: Reorganize CSS into one file for editor preview, and one file for front-end styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API: Update parameters to use full names, <code>category_operator</code>, <code>attribute_operator</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Components: Move SearchListControl to <code>@woocommerce/components</code> library"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Components: Added new control component GridContentControl to manage content visibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API: Update structure of attribute term endpoint to return <code>attribute.slug</code>, <code>attribute.name</code> etc"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API: Add <code>catalog_visibility</code> parameter for fetching products"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<strong>BREAKING:</strong> Remove the <code>wc-pb/v3/*</code> endpoints in favor of new core <code>wc-blocks/v1/*</code> endpoints"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Add content visibility settings to show/hide title, price, rating, button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Add product rating display to preview, to better match front end"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Grid block preview column width now matches the front-end"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Add transforms between basic product grid blocks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Product titles render HTML correctly in preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Icons are now aligned correctly in placeholders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Build: Remove unnecessary internationalization build step"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API: Added <code>attr_operator</code> support to products endpoint to compare product attribute terms"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: There is now an enforced limit on column and row counts (which can be set by your theme)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Previously, there was a PHP notice when a Featured Product has no background image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: A product without an image will now use the placeholder image in grid-layout block previews"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UX: Remove ability to change selected product in Featured Product block, to prevent \"sticky\" product links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Components: Updated <code>ProductAttributeControl</code> to list only attribute types, then once selected, list terms in that attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Components: Added new control component <code>GridLayoutControl</code> to manage row/column layout values"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Updated button on Featured Product block to match core button block behavior"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Added the ability to resize the Featured Product block (a default and minimum height can be set by your theme)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Added new block: \"Products by Attribute\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Translations were not being loaded correctly for the JS files. We now bundle the Danish, Spanish, and French translations so that these can be used."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: A version conflict with a JS package was causing the blocks to be broken in non-English locales. The package was updated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: A CSS conflict was causing the core columns style to reset, this has been fixed and columns will display as expected now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Build: Split out node_modules code into separate vendors files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Build: Add cssnano to minify CSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Build: Update packages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API: Add attribute group names to each attribute"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API: Add product <code>description</code> &amp; <code>short_description</code> to each product"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "API: Add <code>cat_operator</code> support to products endpoint"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Components: Update <code>SearchListControl</code> to allow selecting a single item"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Components: Add new Control components <code>ProductControl</code>, <code>ProductsControl</code>, <code>ProductOrderbyControl</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Legacy block: Fix an issue with imageless products in the legacy \"Products\" block."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Legacy block: Remove legacy \"Products\" block from being shown in the block inserter (still loading the block for an existing uses)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: A \"Products by Category\" block with no category selected will no longer show all products"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Added a control to \"Products by Category\" block to control whether products need to match any selected categories or all selected categories"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement: Create new \"WooCommerce\" block category, all blocks are found there now"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Added new blocks: \"Featured Product\", \"Hand-picked Products\", \"Best Selling Products\", \"Newest Products\", \"On Sale Products\", \"Top Rated Products\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement - Modernized build process and developer tools, and added tests for faster future development."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement - Translations should now load into the block (for WP 5.0+)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Only published products are shown in previews."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Compatibility with WP 5.0, fixed error “Cannot read property Toolbar of undefined”."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - All users who can edit posts can now use these blocks thanks to a new set of API endpoints allowing view access to products, product categories, and product attributes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Stand-alone product category block with improved category selection interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Refactor to remove withAPIData usage, as the class was removed in Gutenberg 3.7. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Don't cause fatal errors if WooCommerce is not active."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Make Newness ordering order correctly on frontend."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Performance - Refactored the way the attribute select works to prevent many concurrent API requests on sites with many attributes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhancement - Added custom API endpoint for more accurate block previews with orderby."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Added keys to some elements to prevent React warnings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Remove focus checks deprecated in latest Gutenberg version."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Only enqueue scripts and styles in the site backend."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature - Add \"Best Selling\" and \"Top Rated\" product scopes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial implementation of the Gutenberg Products block."
+msgstr ""

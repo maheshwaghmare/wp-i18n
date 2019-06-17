@@ -11,100 +11,16 @@ msgstr ""
 "Language: mr\n"
 "Project-Id-Version: Plugins - Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP) - Development Readme (trunk)\n"
 
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:\n"
-"\n"
-"<ul>\n"
-"<li>Re-tagging release to fix a deployment issue."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Adds the ability to opt-into usage tracking."
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Enhancements:\n"
-"\n"
-"<ul>\n"
-"<li>Adds more robust settings to control various ExactMetrics configuration warnings."
-msgstr ""
-
 #. Plugin name.
 msgid "Google Analytics Dashboard for WP by ExactMetrics (formerly GADWP)"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Fixed a bug where the opt-out and exclude DNT options were listed twice."
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:\n"
-"\n"
-"<ul>\n"
-"<li>Updated endpoint for GA auth to use updated system."
+#. Short description.
+msgid "Connects Google Analytics with your WordPress site. Displays stats to help you understand your users and site content on a whole new level!"
 msgstr ""
 
 #. Found in faq paragraph.
 msgid "For documentation, tutorials, FAQ and videos check out: <a href=\"https://exactmetrics.com/\">Google Analytics Dashboard for WP by ExactMetrics documentation</a>."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "adds opt-out and DNT support for Google Tag Manager   "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "adding <em>gadwp_gtag_commands</em> and <em>gadwp_gtag_script_path</em> hooks to allow further gtag (Global Site Tag) code customization"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Enhancements: \n"
-"\n"
-"<ul>\n"
-"<li>use <em>gadwp_useroptout</em> shortcode to easily generate opt-out buttons and links, <a href=\"https://exactmetrics.com/google-analytics-gdpr-and-user-data-privacy-compliance\">more details</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>fixes for user opt-out feature "
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>avoid tracking issues by not clearing the profiles list on automatic token resets"
-msgstr ""
-
-#. Found in changelog paragraph.
-msgid "<a href=\"https://exactmetrics.com/adding-gtag-js-to-your-site/\">GADWP v5.3 release notes</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>frontend_item_reports PHP notice when upgrading from a version lower than v4.8.0.1   "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "adds support for button submits"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "adds custom dimensions support for AMP pages with Google Tag Manager tracking"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "remove Scroll Depth functionality, since this is now available as a trigger on Google Tag Manager"
 msgstr ""
 
 #. Found in description paragraph.
@@ -125,170 +41,6 @@ msgstr ""
 
 #. Found in description list item.
 msgid "Universal Google Analytics (analytics.js) tracking code"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>form submit events were not following the non-interaction settings   "
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Enhancements: \n"
-"\n"
-"<ul>\n"
-"<li>adds full support for Global Site Tag (gtag.js)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>fixing a small reporting issue "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "cURL options were overwritten during regular API calls    "
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>remove a debugging message"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "check to avoid using a redeemed access code"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "add System tab to Errors &amp; Debug screen"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "add option to exclude tracking for users sending the <em>Do Not Track</em> header"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Enhancements:\n"
-"\n"
-"<ul>\n"
-"<li>add Google Analytics user opt-out support"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>use the theme color palette for the frontend widget    "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "introducing the gadwp_maps_api_key filter"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Error reporting improvements"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "GADWP Endpoint improvements"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "disable autocomplete for the access code input field to avoid reuse of the same unique authorization code"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Enhancements:<br />\n"
-"\n"
-"<ul>\n"
-"<li>more informative alerts and suggestions on the authorization screen"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>fixes a bug for custom PHP cURL options "
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Enhancements:<br />\n"
-"\n"
-"<ul>\n"
-"<li>avoid submitting empty error reports"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fixes a bug on affiliate events tracking"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "fix for inline SVG links, props by <a href=\"https://github.com/macbookandrew\">Andrew Minion</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "analytics icon disappears from post list after quick edit, props by <a href=\"https://github.com/karex\">karex</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Bug Fixes:<br />\n"
-"\n"
-"<ul>\n"
-"<li>some thrown errors were not displayed on Errors &amp; Debug screen"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "hide unusable options based on plugin's settings "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "enable PHP cURL proxy support using WordPress settings, props by <a href=\"https://github.com/joehobson\">Joe Hobson</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "move the upgrade notice from the Dashboard to plugin's settings page"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "option to report errors to developer"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "improvements on error reporting system"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "code cleanup"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "multiple updates of plugin's options"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "introduces a new authentication method with endpoints"
-msgstr ""
-
-#. Found in changelog list item.
-msgid ""
-"Enhancements:<br />\n"
-"\n"
-"<ul>\n"
-"<li>improvements on exponential backoff system"
 msgstr ""
 
 #. Found in description list item.
@@ -335,10 +87,6 @@ msgstr ""
 msgid "Accelerated Mobile Pages (AMP) features"
 msgstr ""
 
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
 #. Found in description paragraph.
 msgid "Actions and filters are available for further Google Analytics tracking code customization."
 msgstr ""
@@ -353,10 +101,6 @@ msgstr ""
 
 #. Found in description list item.
 msgid "Telephone"
-msgstr ""
-
-#. Short description.
-msgid "Connects Google Analytics with your WordPress site. Displays stats to help you understand your users and site content on a whole new level!"
 msgstr ""
 
 #. Found in description list item.
@@ -457,27 +201,27 @@ msgstr ""
 msgid "Do I have to insert the Google Analytics tracking code manually?"
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Go to Google Analytics -&gt; Tracking Code to configure/enable/disable tracking."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Go back to the plugin configuration page, which is located under Google Analytics menu to update/set your settings."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Authorize the plugin to connect to Google Analytics using the Authorize Plugin button."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Open the plugin configuration page, which is located under Google Analytics menu."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "In WordPress select Plugins from your sidebar menu and activate the Google Analytics Dashboard for WP plugin."
 msgstr ""
 
-#. Found in installation list item, faq list item.
+#. Found in installation list item.
 msgid "Upload the full google-analytics-dashboard-for-wp directory into your wp-content/plugins directory."
 msgstr ""
 
@@ -659,6 +403,278 @@ msgstr ""
 
 #. Screenshot description.
 msgid "Google Analytics Dashboard for WP Blue Color"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirms compatibility with WordPress 5.1 and 5.2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updates dependency libraries."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaces \"Cheating Huh?\"\" with \"You don’t have permission to do this\" to align the error message with recent WP core changes. (core.trac.wordpress.org/ticket/38332)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirms compatibility with WordPress 5.0."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:\n"
+"\n"
+"<ul>\n"
+"<li>Re-tagging release to fix a deployment issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds the ability to opt-into usage tracking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:\n"
+"\n"
+"<ul>\n"
+"<li>Adds more robust settings to control various ExactMetrics configuration warnings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug where the opt-out and exclude DNT options were listed twice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:\n"
+"\n"
+"<ul>\n"
+"<li>Updated endpoint for GA auth to use updated system."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adds opt-out and DNT support for Google Tag Manager   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adding <em>gadwp_gtag_commands</em> and <em>gadwp_gtag_script_path</em> hooks to allow further gtag (Global Site Tag) code customization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements: \n"
+"\n"
+"<ul>\n"
+"<li>use <em>gadwp_useroptout</em> shortcode to easily generate opt-out buttons and links, <a href=\"https://exactmetrics.com/google-analytics-gdpr-and-user-data-privacy-compliance\">more details</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>fixes for user opt-out feature "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>avoid tracking issues by not clearing the profiles list on automatic token resets"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<a href=\"https://exactmetrics.com/adding-gtag-js-to-your-site/\">GADWP v5.3 release notes</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>frontend_item_reports PHP notice when upgrading from a version lower than v4.8.0.1   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adds support for button submits"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "adds custom dimensions support for AMP pages with Google Tag Manager tracking"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "remove Scroll Depth functionality, since this is now available as a trigger on Google Tag Manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>form submit events were not following the non-interaction settings   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements: \n"
+"\n"
+"<ul>\n"
+"<li>adds full support for Global Site Tag (gtag.js)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>fixing a small reporting issue "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "cURL options were overwritten during regular API calls    "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>remove a debugging message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "check to avoid using a redeemed access code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add System tab to Errors &amp; Debug screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add option to exclude tracking for users sending the <em>Do Not Track</em> header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:\n"
+"\n"
+"<ul>\n"
+"<li>add Google Analytics user opt-out support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>use the theme color palette for the frontend widget    "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "introducing the gadwp_maps_api_key filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Error reporting improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GADWP Endpoint improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "disable autocomplete for the access code input field to avoid reuse of the same unique authorization code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:<br />\n"
+"\n"
+"<ul>\n"
+"<li>more informative alerts and suggestions on the authorization screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>fixes a bug for custom PHP cURL options "
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:<br />\n"
+"\n"
+"<ul>\n"
+"<li>avoid submitting empty error reports"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixes a bug on affiliate events tracking"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix for inline SVG links, props by <a href=\"https://github.com/macbookandrew\">Andrew Minion</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "analytics icon disappears from post list after quick edit, props by <a href=\"https://github.com/karex\">karex</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Bug Fixes:<br />\n"
+"\n"
+"<ul>\n"
+"<li>some thrown errors were not displayed on Errors &amp; Debug screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "hide unusable options based on plugin's settings "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "enable PHP cURL proxy support using WordPress settings, props by <a href=\"https://github.com/joehobson\">Joe Hobson</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "move the upgrade notice from the Dashboard to plugin's settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "option to report errors to developer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "improvements on error reporting system"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "code cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "multiple updates of plugin's options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "introduces a new authentication method with endpoints"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"Enhancements:<br />\n"
+"\n"
+"<ul>\n"
+"<li>improvements on exponential backoff system"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Enhancements:"
 msgstr ""
 
 #. Found in changelog paragraph.

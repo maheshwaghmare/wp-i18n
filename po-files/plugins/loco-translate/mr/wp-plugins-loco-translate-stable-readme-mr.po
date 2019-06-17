@@ -15,6 +15,329 @@ msgstr ""
 msgid "Translate WordPress plugins and themes directly in your browser"
 msgstr ""
 
+#. Found in faq paragraph.
+msgid "We don't collect your data or snoop on you. See the <a href=\"https://localise.biz/wordpress/plugin/privacy\">plugin privacy notice</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"To report a bug please start a new topic in the <a href=\"https://wordpress.org/support/plugin/loco-translate\">support forum</a>,\n"
+"but please check the <a href=\"https://localise.biz/wordpress/plugin/faqs\">FAQs</a> for similar issues first.\n"
+"If you decide to submit a bug report please post enough <a href=\"https://localise.biz/wordpress/plugin/faqs/debug-info\">relevant detail</a> for us to reproduce your issue."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If you have a problem using Loco Translate, please try our <a href=\"https://localise.biz/wordpress/plugin\">help pages</a>.\n"
+"There's a lot of information there to help you understand how it works and the most common pitfalls to avoid."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Try our <a href=\"https://localise.biz/wordpress/plugin#guides\">Guides and Tutorials</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Is my data protected?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Official <a href=\"https://localise.biz/\">Loco</a> WordPress plugin by Tim Whitlock. \n"
+"For more information please visit our <a href=\"https://localise.biz/wordpress/plugin\">plugin page</a>."
+msgstr ""
+
+#. Screenshot description.
+msgid "Showing access to translations by installed language"
+msgstr ""
+
+#. Screenshot description.
+msgid "Restore tab showing PO diff view with revert function"
+msgstr ""
+
+#. Found in description list item.
+msgid "Configurable PO file backups with diff and restore capability"
+msgstr ""
+
+#. Screenshot description.
+msgid "PO source view with text filter and clickable file references"
+msgstr ""
+
+#. Found in description list item.
+msgid "Toggle invisibles: <code>Shift Ctrl I</code>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click <code>+ New language</code> and follow the on-screen prompts to add your own translations."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click <code>+ Create template</code> and follow the on-screen prompts to extract your strings."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Find the bundle at either <em>Loco Translate &gt; Themes</em> or <em>Loco Translate &gt; Plugins</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Find your theme in the list at <em>Loco Translate &gt; Themes</em>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "It also provides localization tools for developers, such as extracting strings and generating templates."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Loco Translate provides in-browser editing of WordPress translation files."
+msgstr ""
+
+#. Found in description list item.
+msgid "Protected language directory for saving custom translations"
+msgstr ""
+
+#. Found in description list item.
+msgid "PO source view with clickable source code references"
+msgstr ""
+
+#. Screenshot description.
+msgid "Showing translation progress for theme language files"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I get help?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Mac users can use ⌘ Cmd instead of Ctrl."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The PO file editor supports the following keyboard shortcuts for faster translating:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Save PO / compile MO: <code>Ctrl S</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Toggle Fuzzy: <code>Ctrl U</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Clear translation: <code>Ctrl K</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Copy from source text: <code>Ctrl B</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Previous untranslated: <code>Shift Ctrl ↑</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Next untranslated: <code>Shift Ctrl ↓</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Previous string: <code>Ctrl ↑</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Next string: <code>Ctrl ↓</code>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Done and Next: <code>Ctrl ↵</code>"
+msgstr ""
+
+#. Found in description header.
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I use it?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "More information on using the plugin is <a href=\"https://localise.biz/wordpress/plugin\">available here</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Developers: To translate your own theme or plugin for distribution, follow these steps:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Translators: To translate a theme into your language, follow these steps:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Create a <code>languages</code> subdirectory in your bundle’s root directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click <code>+ New language</code> and follow the on-screen prompts."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Ensure this directory writeable by the web server"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Create the protected languages directory at <code>wp-content/languages/loco/themes</code>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to <em>Loco Translate &gt; Home</em> in the left-hand menu to start translating"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Log into WordPress admin and activate the 'Loco Translate' plugin through the 'Plugins' menu"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Unzip all files to the <code>wp-content/plugins/loco-translate</code> directory"
+msgstr ""
+
+#. Found in installation header.
+msgid "Basic usage:"
+msgstr ""
+
+#. Found in installation header.
+msgid "Installing manually:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Features include:"
+msgstr ""
+
+#. Found in description list item.
+msgid "Built-in WordPress locale codes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Support for PO features including comments, references and plural forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Native MO file compilation without the need for Gettext on your system"
+msgstr ""
+
+#. Found in description list item.
+msgid "Extraction of translatable strings from your source code"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create and update language files directly in your theme or plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "Built-in translation editor within WordPress admin"
+msgstr ""
+
+#. Screenshot description.
+msgid "Translating strings in the browser with the Loco PO Editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bumped WP compatibility to 5.2.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed duplicate file addition when iterating over symlink"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Creation of missing directories when writing new files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added relocation tab for moving translation sets"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added experimental support for multipart uploads"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bumped WP compatibility to 5.1.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed old PHP version error in data files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security fixes for reading sensitive files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bumped WP compatibility to 5.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated config repository lookup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Symlink fix for followed theme paths detected outside theme"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Transients now have maximum lifespan of 10 days, refreshed after 24h"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Excluding node_modules and vendor directories by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Various improvements to PO parser incl. better charset handling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug where plural tabs not displaying RTL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bumped WP compatibility to 5.0 (beta)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>loco_admin_shutdown</code> action hook"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Marking msgctxt more clearly in editor views"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for duplicate comments when end punctuation differs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Editor supports sprintf-js when javascript-format tag present"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added JavaScript string extraction (experimental)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"Assign template\" link on missing template page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added sanity check for mbstring.func_overload madness"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for empty language code when getting plural rules"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added X-Loco-Version header to generated Gettext files"
+msgstr ""
+
 #. Found in changelog list item.
 msgid "Bumped WP compatibility to 4.9.8"
 msgstr ""
@@ -45,14 +368,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Bumped WP compatibility to 4.9.6"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Sure thing. See the <a href=\"https://localise.biz/wordpress/plugin/privacy\">plugin privacy notice</a>."
-msgstr ""
-
-#. Found in faq header.
-msgid "Is it GDPR compliant?"
 msgstr ""
 
 #. Found in changelog list item.
@@ -99,14 +414,6 @@ msgstr ""
 msgid "Fixed undeclared property in admin hook"
 msgstr ""
 
-#. Screenshot description.
-msgid "Showing access to translations by installed language"
-msgstr ""
-
-#. Screenshot description.
-msgid "Restore tab showing PO diff view with revert function"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Added loco_parse_locale action callback"
 msgstr ""
@@ -129,10 +436,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Setting <code>Project-Id-Version</code> on new POT files"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://localise.biz/wordpress/plugin\">About the plugin</a>"
 msgstr ""
 
 #. Found in changelog list item.
@@ -205,46 +508,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Add <code>fs_protect</code> setting to avoid overwriting system files"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Try our <a href=\"https://localise.biz/wordpress/plugin#guides\">Guides and Tutorials</a> and be sure to check the <a href=\"https://localise.biz/wordpress/plugin/faqs\">Most asked questions</a> if you have a problem."
-msgstr ""
-
-#. Found in description list item.
-msgid "Starred/Favourited bundles for quicker dashboard access"
-msgstr ""
-
-#. Found in description list item.
-msgid "Advanced Merge/Sync screen to replace the basic in-editor sync"
-msgstr ""
-
-#. Found in description list item.
-msgid "Global search for finding strings across all bundles"
-msgstr ""
-
-#. Found in description list item.
-msgid "Integration with Loco API for cloud storage and collaboration"
-msgstr ""
-
-#. Found in description list item.
-msgid "Integration with automatic translation services"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://localise.biz/wordpress/plugin/child-themes\">Translating child themes</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://localise.biz/wordpress/plugin/custom-translations\">Customizing translations</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://localise.biz/wordpress/plugin/manual\">User manual</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Configurable PO file backups with diff and restore capability"
 msgstr ""
 
 #. Found in changelog list item.
@@ -357,220 +620,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Editor improvements inc. column sorting"
-msgstr ""
-
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
-#. Screenshot description.
-msgid "PO source view with text filter and clickable file references"
-msgstr ""
-
-#. Found in description list item.
-msgid "Toggle invisibles: <code>Shift Ctrl I</code>"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Click <code>+ New language</code> and follow the on-screen prompts to add your own translations."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Click <code>+ Create template</code> and follow the on-screen prompts to extract your strings."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Find the bundle at either <em>Loco Translate &gt; Themes</em> or <em>Loco Translate &gt; Plugins</em>"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Find your theme in the list at <em>Loco Translate &gt; Themes</em>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "It also provides localization tools for developers, such as extracting strings and generating templates."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Loco Translate provides in-browser editing of WordPress translation files."
-msgstr ""
-
-#. Found in description list item.
-msgid "Protected language directory for saving custom translations"
-msgstr ""
-
-#. Found in description list item.
-msgid "PO source view with clickable source code references"
-msgstr ""
-
-#. Screenshot description.
-msgid "Showing translation progress for theme language files"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid ""
-"Please see <a href=\"https://localise.biz/wordpress/plugin/support\">getting help with Loco Translate</a> and note that personal support by email is not available for this plugin. \n"
-"Help is provided via the <a href=\"https://wordpress.org/support/plugin/loco-translate\">plugin support forum</a> only."
-msgstr ""
-
-#. Found in faq header.
-msgid "How do I get help?"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Mac users can use ⌘ Cmd instead of Ctrl."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The PO file editor supports the following keyboard shortcuts for faster translating:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "These features are on our todo list. There's no particular timeframe for any of them and they're in no particular order:"
-msgstr ""
-
-#. Found in description list item.
-msgid "Save PO / compile MO: <code>Ctrl S</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Toggle Fuzzy: <code>Ctrl U</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Clear translation: <code>Ctrl K</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Copy from source text: <code>Ctrl B</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Previous untranslated: <code>Shift Ctrl ↑</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Next untranslated: <code>Shift Ctrl ↓</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Previous string: <code>Ctrl ↑</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Next string: <code>Ctrl ↓</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Done and Next: <code>Ctrl ↵</code>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://localise.biz/wordpress/plugin/support\">Getting help</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://localise.biz/wordpress/plugin/beginners\">Beginner's guide</a>"
-msgstr ""
-
-#. Found in description header.
-msgid "Keyboard shortcuts"
-msgstr ""
-
-#. Found in description header.
-msgid "Coming soon"
-msgstr ""
-
-#. Found in description header.
-msgid "More info"
-msgstr ""
-
-#. Found in faq header.
-msgid "How do I use it?"
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "More information on using the plugin is <a href=\"https://localise.biz/wordpress/plugin\">available here</a>."
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "Developers: To translate your own theme or plugin for distribution, follow these steps:"
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "Translators: To translate a theme into your language, follow these steps:"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Create a <code>languages</code> subdirectory in your bundle’s root directory"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Click <code>+ New language</code> and follow the on-screen prompts."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Ensure this directory writeable by the web server"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Create the protected languages directory at <code>wp-content/languages/loco/themes</code>"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Go to <em>Loco Translate &gt; Home</em> in the left-hand menu to start translating"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Log into WordPress admin and activate the 'Loco Translate' plugin through the 'Plugins' menu"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Unzip all files to the <code>/wp-content/plugins/loco-translate</code> directory"
-msgstr ""
-
-#. Found in installation header, faq header.
-msgid "Basic usage:"
-msgstr ""
-
-#. Found in installation header, faq header.
-msgid "Installing manually:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Official <a href=\"https://localise.biz/\">Loco</a> WordPress plugin by <a href=\"//twitter.com/timwhitlock\">@timwhitlock</a> / <a rel=\"author\" href=\"https://plus.google.com/106703751121449519322\">Tim Whitlock</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Features include:"
-msgstr ""
-
-#. Found in description list item.
-msgid "Built-in WordPress locale codes"
-msgstr ""
-
-#. Found in description list item.
-msgid "Support for PO features including comments, references and plural forms"
-msgstr ""
-
-#. Found in description list item.
-msgid "Native MO file compilation without the need for Gettext on your system"
-msgstr ""
-
-#. Found in description list item.
-msgid "Extraction of translatable strings from your source code"
-msgstr ""
-
-#. Found in description list item.
-msgid "Create and update language files directly in your theme or plugin"
-msgstr ""
-
-#. Found in description list item.
-msgid "Built-in translation editor within WordPress admin"
-msgstr ""
-
-#. Screenshot description.
-msgid "Translating strings in the browser with the Loco PO Editor"
 msgstr ""
 
 #. Found in changelog list item.

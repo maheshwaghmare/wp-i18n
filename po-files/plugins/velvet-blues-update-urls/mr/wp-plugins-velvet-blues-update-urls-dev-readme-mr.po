@@ -1,0 +1,256 @@
+# Translation of Plugins - Velvet Blues Update URLs - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - Velvet Blues Update URLs - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - Velvet Blues Update URLs - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "Updates all urls and content links in your website."
+msgstr ""
+
+#. Plugin name.
+msgid "Velvet Blues Update URLs"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Using this plugin is very simple. Once it has been activated, navigate to Tools -&gt; Update URLs and follow the instructions. Please Note: Changes are irreversible. If you haven't used this plugin before, please backup your website before proceeding."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Of course! Velvet Blues will backup your website and replace your URLs for only $39. If you need your website moved, we charge a flat fee of $75 and will finish your move within 48 hours - week days only. For same-day or weekend jobs, we charge a flat rate of $125. Contact us at info@velvetblues.com for more information."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Thanks, donations help us to continue improving our plugins. <a href=\"http://www.velvetblues.com/go/updateurlsdonate/\">Donate Here via PayPal.</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Make sure that the plugin is activated and that you are an administrator level user."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "URLs are only replaced when an exact match is found. Be sure that you have entered the correct url and hit submit. (Note: Matching is case-sensitive.)"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm afraid to screw this up. Will you do it for me?"
+msgstr ""
+
+#. Found in faq header.
+msgid "This plugin saved me a lot of work. Where can I donate?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why do I see the message \"You do not have sufficient permissions to access this page\"?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why are my urls not updated?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Installation and uninstallation are extremely simple. You can use WordPress' automatic install or follow the manual instructions below."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the \"plugins\" folder of your WordPress directory and delete the files/folder for this plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "In the Admin Panel, go to \"Plugins\" and deactivate the plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Tools -&gt; Update URLs to use it."
+msgstr ""
+
+#. Found in installation list item.
+msgid "In the Admin Panel, go to \"Plugins\" and activate it."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Extract it to the \"plugins\" folder of your WordPress directory."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the package."
+msgstr ""
+
+#. Found in installation header.
+msgid "Usage:"
+msgstr ""
+
+#. Found in installation header.
+msgid "Uninstalling:"
+msgstr ""
+
+#. Found in installation header.
+msgid "Installing:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you move your WordPress website to a new domain name, you will find that internal links to pages and references to images are not updated. Instead, these links and references will point to your old domain name. This plugin fixes that problem by helping you change old urls and links in your website."
+msgstr ""
+
+#. Found in description list item.
+msgid "View how many items were updated"
+msgstr ""
+
+#. Found in description list item.
+msgid "Users can choose whether to update links for attachments"
+msgstr ""
+
+#. Found in description list item.
+msgid "Users can choose to update links embedded in content, excerpts, or custom fields"
+msgstr ""
+
+#. Found in description header.
+msgid "Features:"
+msgstr ""
+
+#. Screenshot description.
+msgid "The Admin screen for the plugin. screenshot-1.png"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility with WordPress 5.1.x releases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility with WordPress 4.9.x releases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Maintenance Update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Version Update."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with 4.6."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility to with WP 4.6 and updated stable tag."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added use if is_serialized() to remove PHP NOTICES about offsets during url update process."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated label ID for better UX when selecting url location options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed possible interactions with other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed PHP short tag problem, so as to be compatible with all configurations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility with recent WordPress releases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated code for full compatibility with WordPress 3.0 releases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the ability to update links in excerpt fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated FAQs and Contributors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility with WordPress 3.1.x releases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Typos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated License to GPLv2 or later."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internationalized plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made changing ALL GUIDs optional, and turned off by default."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New error messages and field validation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved security against potential cross-site attacks by adding nonces and a referrer check and added exit to script if accessed directly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the ability to update links in custom fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Redesigned interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility with latest WordPress releases and added support for future versions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility with WordPress 3.5 release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated success and error dialogs and other text throught plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to replace urls within Links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility with WordPress 3.6.x releases."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Turkish language file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added additional serialization checks for postmeta."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Relocated Update URLs tab to Tools section. It is now found under Tools-&gt;Update URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated readme file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Confirmed compatibility with WordPress 4.0.x releases."
+msgstr ""

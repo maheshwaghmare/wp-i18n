@@ -15,18 +15,36 @@ msgstr ""
 msgid "Adds a splash page to your site that lets visitors know your site is down for maintenance. It&#039;s perfect for a coming soon page."
 msgstr ""
 
-#. Name.
+#. Plugin name.
 msgid "WP Maintenance Mode"
 msgstr ""
 
 #. Found in description paragraph.
-msgid "Developed by <a href=\"http://designmodo.com\">Designmodo</a> &amp; <a href=\"http://strictthemes.com/\">StrictThemes – WordPress Themes</a>"
+msgid "Also works with WordPress Multisite installs (each blog from the network has it's own maintenance settings)."
 msgstr ""
 
 #. Found in description paragraph.
-msgid ""
-"Activate the plugin and your blog is in maintenance-mode, works and only registered users with enough rights can see the front end. You can use a date with a countdown timer for visitor information or set a value and unit for information. \n"
-"Also works with WordPress Multisite installs (each blog from the network has it's own maintenance settings)."
+msgid "Activate the plugin and your blog is in maintenance-mode, works and only registered users with enough rights can see the front end. You can use a date with a countdown timer for visitor information or set a value and unit for information."
+msgstr ""
+
+#. Found in description list item.
+msgid "GDPR Ready"
+msgstr ""
+
+#. Found in description list item.
+msgid "Bot functionality to collect the emails in a friendly and efficient way."
+msgstr ""
+
+#. Screenshot description.
+msgid "Dashboard Bot Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Bot Example"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Developed by <a href=\"https://designmodo.com\">Designmodo</a> &amp; <a href=\"http://strictthemes.com/\">StrictThemes – WordPress Themes</a>"
 msgstr ""
 
 #. Found in faq paragraph.
@@ -78,7 +96,7 @@ msgid "Add a maintenance page to your blog that lets visitors know your blog is 
 msgstr ""
 
 #. Found in description list item.
-msgid "Exclude URLs from maintenance."
+msgid "Exclude URLs from maintenance;"
 msgstr ""
 
 #. Found in description list item.
@@ -138,27 +156,143 @@ msgid "Features"
 msgstr ""
 
 #. Screenshot description.
-msgid "Dashboard Modules settings"
+msgid "Dashboard Modules Settings"
 msgstr ""
 
 #. Screenshot description.
-msgid "Dashboard Design settings"
+msgid "Dashboard Design Settings"
 msgstr ""
 
 #. Screenshot description.
-msgid "Dashboard General settings"
+msgid "Dashboard General Settings"
 msgstr ""
 
 #. Screenshot description.
-msgid "Contact form"
+msgid "Contact Form"
 msgstr ""
 
 #. Screenshot description.
-msgid "Maintenance Mode example #2"
+msgid "Maintenance Mode Example #2"
 msgstr ""
 
 #. Screenshot description.
-msgid "Maintenance Mode example"
+msgid "Maintenance Mode Example"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bot: add client-side sanitization to the input fields <a href=\"https://github.com/Designmodocom/WP-Maintenance-Mode/issues/176\">#176</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bot: add a note about how you can export the list of subscribers <a href=\"https://github.com/Designmodocom/WP-Maintenance-Mode/issues/195\">#195</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix typo in Italian translation (it_IT)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bump \"Tested up to\" to 5.2.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "small improvement to \"check_exclude\" method from \"WP_Maintenance_Mode\" class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "replace \"wpmu_new_blog\" action with \"wp_initialize_site\" action for WP 5.1.0 users because the first one is deprecated in the new version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "bump \"Tested up to\" version to 5.1.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "updated translations, help us! :)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed https problem (thanks @ <a href=\"https://github.com/georgejipa\">George Jipa</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "new css transitions for buttons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "css fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added bot feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "moved data.js to uploads directory (thanks @ <a href=\"https://github.com/georgejipa\">George Jipa</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added <code>wpmm_before_scripts</code> hook, fires just before loading the scripts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed path for loading data.js required for the bot (thanks @ <a href=\"https://github.com/georgejipa\">George Jipa</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added internationalization support for bot fixed strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed a visual bug with wrap container"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed a bug that was breaking the plugin after updating from 2.0.9 to 2.1.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added GDPR feature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added instagram icon (thanks @ <a href=\"https://github.com/bozdoz\">bozdoz</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added array key check to avoid notice (thanks @ <a href=\"https://github.com/Smiggel\">Smiggel</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "make (frontend) privacy labels clickable (thanks @ <a href=\"https://github.com/georgejipa\">George Jipa</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "solve \"set options on first activation\" bug <a href=\"https://wordpress.org/support/topic/notice-undefined-index-general-in-srv-www-mysite-test-current/\">ticket</a> (thanks @ <a href=\"https://github.com/georgejipa\">George Jipa</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "replace create_function; solves <a href=\"https://github.com/Designmodocom/WP-Maintenance-Mode/issues/186\">#186</a> issue and <a href=\"https://wordpress.org/support/topic/create_function-deprecated-in-php-7-2-8/\">ticket</a> (thanks @ <a href=\"https://github.com/georgejipa\">George Jipa</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add plural and single form translation for subscribers number (settings page)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix PHP Notice:  Undefined index: HTTP_USER_AGENT"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "add charset meta tag <a href=\"https://github.com/Designmodocom/WP-Maintenance-Mode/issues/200\">#200</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GDPR module: accept links inside texareas + add policy link target <a href=\"https://github.com/Designmodocom/WP-Maintenance-Mode/issues/188\">#188</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Analytics module: migrate from analytics.js to gtag.js + add ip anonymization <a href=\"https://github.com/Designmodocom/WP-Maintenance-Mode/issues/178\">#178</a>"
 msgstr ""
 
 #. Found in changelog list item.
@@ -335,7 +469,7 @@ msgid "options menu"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "complety new code"
+msgid "completely new code"
 msgstr ""
 
 #. Found in changelog list item.
@@ -375,7 +509,7 @@ msgid "add design \"Chastely\" by <a href=\"http://fv-web.de/\" title=\"Florian 
 msgstr ""
 
 #. Found in changelog list item.
-msgid "add turkey language files"
+msgid "add turkish language files"
 msgstr ""
 
 #. Found in changelog list item.
@@ -387,7 +521,7 @@ msgid "fix html string in text on frontend"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "add frensh language files"
+msgid "add french language files"
 msgstr ""
 
 #. Found in changelog list item.
@@ -427,7 +561,7 @@ msgid "etc."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "add field for own adress to excerpt of the maintenance mode"
+msgid "add field for own address to excerpt of the maintenance mode"
 msgstr ""
 
 #. Found in changelog list item.
@@ -451,7 +585,7 @@ msgid "add small fix"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "correctly the de_DE language file"
+msgid "corrected the de_DE language file"
 msgstr ""
 
 #. Found in changelog list item.
@@ -459,7 +593,7 @@ msgid "add user-role setting"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Change laguage files"
+msgid "Change language files"
 msgstr ""
 
 #. Found in changelog list item.
@@ -475,7 +609,7 @@ msgid "Fix for JavaScript with WordPress 2.9"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "changees on rights to see frontend"
+msgid "changes on rights to see frontend"
 msgstr ""
 
 #. Found in changelog list item.
@@ -575,7 +709,7 @@ msgid "changes the possibility for include of language specific flash files"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "changes for include methods od class for preview"
+msgid "changes for include methods of class for preview"
 msgstr ""
 
 #. Found in changelog list item.
@@ -623,7 +757,7 @@ msgid "Feature: now it is possible to exclude feed from maintenance mode"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Feature: add check for Super Admin on WP Multisite; has allways the rights for access"
+msgid "Feature: add check for Super Admin on WP Multisite; has always the rights for access"
 msgstr ""
 
 #. Found in changelog list item.
@@ -679,11 +813,11 @@ msgid "Fix for changes in WP 3.3 Multisite"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add support for flish cache od WP Super Cache and W3 Total Cache plugins"
+msgid "Add support for flush cache of WP Super Cache and W3 Total Cache plugins"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Supportet IP as exclude for see the frontend"
+msgid "Supported IP as exclude for see the frontend"
 msgstr ""
 
 #. Found in changelog list item.
@@ -735,7 +869,7 @@ msgid "Add shortcode <code>[loginform]</code> for easy use a login form in splas
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Enhanced default exclude adresses"
+msgid "Enhanced default exclude addresses"
 msgstr ""
 
 #. Found in changelog list item.
@@ -871,7 +1005,7 @@ msgid "Alternative for check url, if curl is not installed"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Fixes for php notices in scrict mode"
+msgid "Fixes for php notices in strict mode"
 msgstr ""
 
 #. Found in changelog list item.
@@ -891,7 +1025,7 @@ msgid "<code>wpmm_styles</code> - can be used to embed new css files"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "<code>wpmm_scripts</code> - can be used to embed new javascripts files"
+msgid "<code>wpmm_scripts</code> - can be used to embed new javascript files"
 msgstr ""
 
 #. Found in changelog list item.
@@ -951,7 +1085,7 @@ msgid "Removed actions: <code>wm_header</code>, <code>wm_footer</code>, <code>wm
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Changed multisite behaviour: now you can activate maintenance individually (each blog from the network has it's own maintenance settings) "
+msgid "Changed multisite behavior: now you can activate maintenance individually (each blog from the network has it's own maintenance settings) "
 msgstr ""
 
 #. Found in changelog list item.

@@ -11,35 +11,35 @@ msgstr ""
 "Language: mr\n"
 "Project-Id-Version: Plugins - WP Multibyte Patch - Development (trunk)\n"
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "http://tinybit.co.jp/"
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "Seisuke Kuraishi"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "Multibyte functionality enhancement for the WordPress Japanese package."
 msgstr ""
 
-#. Plugin URI of the plugin/theme
+#. Plugin URI of the plugin
 msgid "http://eastcoder.com/code/wp-multibyte-patch/"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "WP Multibyte Patch"
 msgstr ""
 
-#: wp-multibyte-patch.php:493
+#: wp-multibyte-patch.php:497
 msgid "Sorry, WP Multibyte Patch requires <a href=\"http://www.php.net/manual/en/mbstring.installation.php\" target=\"_blank\">mbstring</a> functions."
 msgstr ""
 
-#: wp-multibyte-patch.php:489
+#: wp-multibyte-patch.php:493
 msgid "Sorry, WP Multibyte Patch requires WordPress %s or later."
 msgstr ""
 
-#: ext/ja/class.php:178 wp-multibyte-patch.php:386
+#: wp-multibyte-patch.php:390 ext/ja/class.php:178
 msgctxt "Word count type. Do not translate!"
 msgid "words"
 msgstr ""

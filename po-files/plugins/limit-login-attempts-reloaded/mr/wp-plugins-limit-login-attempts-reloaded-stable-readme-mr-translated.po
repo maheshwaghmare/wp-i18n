@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:40:22+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Reloaded version of the original Limit Login Attempts plugin for Login Protection by a team of WordPress developers. GDPR compliant."
+msgstr ""
+
+#. Plugin name.
+msgid "Limit Login Attempts Reloaded"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Custom IP origins</strong> support (Cloudflare, Sucuri, etc.)"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>GDPR</strong> compliant. With this feature turned on, all logged IPs get obfuscated (md5-hashed)."
+msgstr ""
+
+#. Found in description list item.
+msgid "Sucuri Website Firewall compatibility."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Based on the original code from Limit Login Attemps plugin by Johan Eenfeldt."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Plugin uses standard actions and filters only."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Translations: Bulgarian, Brazilian Portuguese, Catalan, Chinese (Traditional), Czech, Dutch, Finnish, French, German, Hungarian, Norwegian, Persian, Romanian, Russian, Spanish, Swedish, Turkish"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Many languages are currently supported in Limit Login Attempts Reloaded plugin but we welcome any additional ones.\n"
+"Help us bring Limit Login Attempts Reloaded to even more cultures."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "All your settings will be kept in tact!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Features:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Limit the number of login attempts that possible both through the normal login as well as using the auth cookies.\n"
+"WordPress by default allows unlimited login attempts either through the login page or by sending special cookies. This allows passwords (or hashes) to be cracked via brute-force relatively easily.\n"
+"Limit Login Attempts Reloaded blocks an Internet address from making further attempts after a specified limit on retries has been reached, making a brute-force attack difficult or impossible."
+msgstr ""
+
+#. Found in description list item.
+msgid "Install the Limit Login Attempts Reloaded plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "Remove the Limit Login Attempts plugin."
+msgstr ""
+
+#. Found in description list item.
+msgid "Go to the Plugins section in your site's backend."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Multi-site</strong> compatibility with extra MU settings."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Woocommerce</strong> login page protection."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>XMLRPC</strong> gateway protection."
+msgstr ""
+
+#. Found in description list item.
+msgid "It is possible to whitelist/blacklist IPs and Usernames."
+msgstr ""
+
+#. Found in description list item.
+msgid "Optional logging and optional email notification."
+msgstr ""
+
+#. Found in description list item.
+msgid "Informs the user about the remaining retries or lockout time on the login page."
+msgstr ""
+
+#. Found in description list item.
+msgid "Limit the number of attempts to log in using authorization cookies in the same way."
+msgstr ""
+
+#. Found in description list item.
+msgid "Limit the number of retry attempts when logging in (per each IP). This is fully customizable."
+msgstr ""
+
+#. Found in description header.
+msgid "Upgrading from the old Limit Login Attempts plugin"
+msgstr ""
+
+#. Screenshot description.
+msgid "Administration interface in WordPress 5.2.1"
+msgstr ""
+
+#. Screenshot description.
+msgid "Lockout loginscreen"
+msgstr ""
+
+#. Screenshot description.
+msgid "Loginscreen after a failed login with remaining retries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Trusted IP origins option has been added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Extra lockout options are back."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The plugin doesn't trust any IP addresses other than _SERVER[\"REMOTE_ADDR\"] anymore. Trusting other IP origins make protection useless b/c they can be easily faked. This new version provides a way of secure IP unlocking for those sites that use a reverse proxy coupled with misconfigurated servers that populate _SERVER[\"REMOTE_ADDR\"] with wrong IPs which leads to mass blocking of users."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The lockout alerts can be sent to a configurable email address now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings page is moved back to \"Settings\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: login error message. https://wordpress.org/support/topic/how-to-change-login-error-message/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings are moved to a separate page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A security issue inherited from the ancestor plugin Limit Login Attempts has been fixed."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Fixed: the plugin was locking out the same IP address multiple times, each with a different port.\n"
+"https://wordpress.org/support/topic/same-ip-different-port/"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Fixed: ip_in_range() loop $ip overrides itself causing invalid results.\n"
+"https://wordpress.org/support/topic/ip_in_range-loop-ip-overrides-itself-causing-invalid-results/"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "GDPR compliance implemented."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support of Sucuri Website Firewall."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the issue with backslashes in usernames."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed the issue with encoding of special symbols in email notifications."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Lockouts now can be released selectively."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Added support of IP ranges in white/black lists."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Plugin returns the 403 Forbidden header after the limit of login attempts via XMLRPC is reached."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "code refactoring and optimization."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed .po translation files issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added time stamp to unsuccessful tries on the plugin configuration page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed error with function arguments: https://wordpress.org/support/topic/warning-missing-argument-2-5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid ""
+"fixed the deprecated functions issue\n"
+"https://wordpress.org/support/topic/using-deprecated-function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed PHP Warning: Illegal offset type in isset or empty https://wordpress.org/support/topic/limit-login-attempts-generating-php-errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now compatible with PHP 5.2 to support some older WP installations."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The site connection settings are now applied automatically and therefore have been removed from the admin interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added bruteforce protection against XMLRPC attacks. https://wordpress.org/support/topic/xmlrpc-7/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added bruteforce protection against Woocommerce login page attacks. https://wordpress.org/support/topic/how-to-integrate-with-woocommerce-2/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the \"Handle cookie login\" setting as they are now obsolete."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The \"Undefined index: client_type\" error is fixed. https://wordpress.org/support/topic/php-notice-when-updating-settings-page/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "A \"Gateway\" column is added to the lockouts log. It shows what endpoint an attacker was blocked from. https://wordpress.org/support/topic/xmlrpc-7/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "IP addresses can be white-listed now. https://wordpress.org/support/topic/legal-user/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The lockouts log has been inversed. https://wordpress.org/support/topic/inverse-log/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Usernames and IP addresses can be white-listed and black-listed now. https://wordpress.org/support/topic/banning-specific-usernames/ https://wordpress.org/support/topic/good-831/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Multi-site Compatibility and additional MU settings. https://wordpress.org/support/topic/multisite-compatibility-47/"
+msgstr ""

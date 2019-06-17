@@ -1,5 +1,5 @@
-# Translation of Plugins - MailChimp for WordPress - Stable Readme (latest release) in Marathi
-# This file is distributed under the same license as the Plugins - MailChimp for WordPress - Stable Readme (latest release) package.
+# Translation of Plugins - Mailchimp for WordPress - Stable Readme (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - Mailchimp for WordPress - Stable Readme (latest release) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: +0000\n"
@@ -9,18 +9,529 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: mr\n"
-"Project-Id-Version: Plugins - MailChimp for WordPress - Stable Readme (latest release)\n"
+"Project-Id-Version: Plugins - Mailchimp for WordPress - Stable Readme (latest release)\n"
+
+#. Short description.
+msgid "Mailchimp for WordPress, the #1 Mailchimp plugin."
+msgstr ""
 
 #. Found in description header.
-msgid "MailChimp for WordPress"
+msgid "Mailchimp for WordPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "UltimateMember"
+msgstr ""
+
+#. Found in description list item.
+msgid "Give"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "A multitude of available add-on plugins and integrations:"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/goodbye-captcha/\">WPBruiser anti-spam</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.google.com/recaptcha/\">Google reCAPTCHA</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://mc4wp.com/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=add-on-list\">Mailchimp for WordPress Premium</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you're getting an <code>HTTP Error</code> after entering your API key, please contact your webhost and ask them if they have PHP CURL installed and updated to the latest version (7.58.x). Make sure requests to <code>https://api.mailchimp.com/</code> are allowed as well."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find my API key to connect to Mailchimp?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "If you can't find an answer there, please look through the <a href=\"https://wordpress.org/support/plugin/mailchimp-for-wp\">plugin support forums</a> or start your own topic."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Please take a look at the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=installation-instructions-link\">Mailchimp for WordPress knowledge base</a> first."
+msgstr ""
+
+#. Found in installation list item.
+msgid "<em>(Optional)</em> Add more fields to your form."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin provides various filter &amp; action hooks that allow you to modify or extend default behavior. We're also maintaining a <a href=\"https://github.com/ibericode/mc4wp-snippets\">collection of sample code snippets</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin allows you to tightly integrate your WordPress site with your Mailchimp account."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Developer friendly. For inspiration, check out our <a href=\"https://github.com/ibericode/mc4wp-snippets\">repository of example code snippets</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin helps you grow your Mailchimp lists and write better newsletters through various methods. You can create good looking opt-in forms or integrate with any existing form on your site, like your comment, contact or checkout form."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>Allowing your visitors to subscribe to your newsletter should be easy. With this plugin, it finally is.</em>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Multiple forms"
+msgstr ""
+
+#. Found in description header.
+msgid "Some (but not all) features"
+msgstr ""
+
+#. Found in description list item.
+msgid "WPForms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Gravity Forms"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid ""
+"if( function_exists( 'mc4wp_show_form' ) ) {\n"
+"    mc4wp_show_form();\n"
+"}"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "&lt;?php"
+msgstr ""
+
+#. Screenshot description.
+msgid "Dive into detailed sign-up statistics (premium feature)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Integrate your WooCommerce store with Mailchimp (premium feature)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Style your form with our Styles Builder (premium feature)."
+msgstr ""
+
+#. Screenshot description.
+msgid "Add a highly converting top bar form to your site."
+msgstr ""
+
+#. Screenshot description.
+msgid "Integrate with any other plugin out there."
+msgstr ""
+
+#. Screenshot description.
+msgid "Create beautiful sign-up forms that blend in with your theme."
+msgstr ""
+
+#. Found in description header.
+msgid "Customizing the plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "Advanced e-commerce integration for WooCommerce"
+msgstr ""
+
+#. Found in description list item.
+msgid "MemberPress"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We recommend the <a href=\"https://wordpress.org/plugins/boxzilla/\">Boxzilla pop-up plugin</a> for this. You can use the form shortcode in your pop-up box to show a sign-up form."
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I show a sign-up form in a pop-up?"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/boxzilla/\">Boxzilla Pop-ups</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Mailchimp for WordPress has a Premium add-on which comes with several additional benefits."
+msgstr ""
+
+#. Found in description list item.
+msgid "Detailed reports &amp; statistics"
+msgstr ""
+
+#. Found in description list item.
+msgid "An easy way to style your forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Email notifications"
+msgstr ""
+
+#. Found in description header.
+msgid "Become a Premium user"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/mc4wp-activity/\">Mailchimp Activity</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Default WordPress Registration Form"
+msgstr ""
+
+#. Found in description list item.
+msgid "Default WordPress Comment Form"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Mailchimp is a newsletter service that allows you to send out email campaigns to a list of email subscribers. It is free for lists up to 2000 subscribers, which is why it is the newsletter-service of choice for thousands of businesses."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://mc4wp.com/features/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=after-features-link\">View more Premium features</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Well documented. Our <a href=\"https://mc4wp.com/kb/\">knowledge base</a> is updated daily."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Seamless integration with the following plugins:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Sign-up forms which are good looking, user-friendly and mobile optimized. You have complete control over the form fields and can send anything you like to Mailchimp."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/mailchimp-sync/\">Mailchimp User Sync</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wordpress.org/plugins/mailchimp-top-bar/\">Mailchimp Top Bar</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "BuddyPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "Events Manager"
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ninja Forms 3"
+msgstr ""
+
+#. Found in description list item.
+msgid "WooCommerce"
+msgstr ""
+
+#. Found in description list item.
+msgid "Contact Form 7"
+msgstr ""
+
+#. Found in description header.
+msgid "What is Mailchimp?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube https://www.youtube.com/watch?v=fZCYPnFybqU]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is being developed on GitHub. If you want to collaborate, please look at <a href=\"https://github.com/ibericode/mailchimp-for-wordpress\">ibericode/mailchimp-for-wordpress</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin is translated using Transifex. If you want to help out, please head over to the <a href=\"https://www.transifex.com/projects/p/mailchimp-for-wordpress/\">translation project on Transifex</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There are several <a href=\"https://mc4wp.com/add-ons/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=description\">add-on plugins</a> available, which help you get even more out of your site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please take a look at the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=description\">Mailchimp for WordPress knowledge base</a> as well."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you're a premium user, please use the email address inside the plugin for support as that will guarantee a faster response time."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Use the <a href=\"https://wordpress.org/support/plugin/mailchimp-for-wp\">WordPress.org plugin forums</a> for community support where we try to help all of our users. If you found a bug, please create an issue on Github where we can act upon them more efficiently."
+msgstr ""
+
+#. Found in description header.
+msgid "Development"
+msgstr ""
+
+#. Found in description header.
+msgid "Translations"
+msgstr ""
+
+#. Found in description header.
+msgid "Add-on plugins"
+msgstr ""
+
+#. Found in description header.
+msgid "Support"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please head over to the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=faq\">Mailchimp for WordPress knowledge base</a> for more detailed documentation."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can add your custom CSS to your theme stylesheet or (easier) by using a plugin like <a href=\"https://wordpress.org/plugins/simple-custom-css/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=after-css-link\">Simple Custom CSS</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can use custom CSS to style the sign-up form if you do not like the themes that come with the plugin. The following selectors can be used to target the various form elements."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When you have double opt-in disabled, new subscribers will be seen as <em>imports</em> by Mailchimp. They will not show up in your daily digest emails or statistics. <a href=\"http://blog.mailchimp.com/double-opt-in-vs-single-opt-in-stats/\">We always recommend leaving double opt-in enabled</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If the form shows a success message, there is no doubt that the sign-up request succeeded. Mailchimp could have a slight delay sending the confirmation email though, please just be patient and make sure to check your SPAM folder."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use the following shortcode in your CF7 form to display a newsletter sign-up checkbox."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<a href=\"http://kb.mailchimp.com/accounts/management/about-api-keys#Find-or-Generate-Your-API-Key\">You can find your API key here</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Go to <strong>Appearance &gt; Widgets</strong> and use the <strong>Mailchimp for WP Form</strong> widget that comes with the plugin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Use the <code>[mc4wp_form]</code> shortcode."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "More detailed documentation can be found in the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=faq\">Mailchimp for WordPress knowledge base</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "My question is not listed"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'm getting an \"HTTP Error\" when trying to connect to Mailchimp"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I style the sign-up form?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The form shows a success message but subscribers are not added to my list(s)?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to add a sign-up checkbox to my Contact Form 7 form?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to display a form in widget areas like the sidebar or footer?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How to display a form in posts or pages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "More documentation"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Show a sign-up form from your theme files by using the following PHP function."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Show a sign-up form in your widget areas using the \"Mailchimp Sign-Up Form\" widget."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Embed a sign-up form in pages or posts using the <code>[mc4wp_form]</code> shortcode."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Select at least one list to subscribe people to."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to <em>Mailchimp for WP &gt; Forms</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Set <a href=\"https://admin.mailchimp.com/account/api\">your API key</a> in the plugin settings."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Alternatively, download the plugin and upload the contents of <code>mailchimp-for-wp.zip</code> to your plugins directory, which usually is <code>/wp-content/plugins/</code>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "In your WordPress admin panel, go to <em>Plugins &gt; New Plugin</em>, search for <strong>Mailchimp for WordPress</strong> and click \"<em>Install now</em>\""
+msgstr ""
+
+#. Found in installation header.
+msgid "Need help?"
+msgstr ""
+
+#. Found in installation header.
+msgid "Configuring Sign-Up Form(s)"
+msgstr ""
+
+#. Found in installation header.
+msgid "Installing the plugin"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you are not yet using Mailchimp, <a href=\"http://mailchimp.com/monkey-rewards/?utm_source=freemium_newsletter&amp;utm_medium=email&amp;utm_campaign=monkey_rewards&amp;aid=a2d08947dcd3683512ce174c5&amp;afl=1\">creating an account is 100% free and only takes you about 30 seconds</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Connect with your Mailchimp account in seconds."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Get rid of cached result of MailChimp API connection."
+msgid "Load Google reCaptcha script in footer (if needed). "
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Change Gravity Forms field name to \"MailChimp for WordPress\""
+msgid "Accept more truthy values in custom integration for improved compatability with third-party forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow setting an empty \"successfully subscribed\" message."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Validate reCAPTCHA keys when savings form settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Write to debug log if Google reCAPTCHA secret key is incorrect."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add sign-up integration for <a href=\"https://wordpress.org/plugins/ultimate-member/\">UltimateMember</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add sign-up integration for <a href=\"https://wordpress.org/plugins/give/\">Give</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor improvements to the JavaScript that is loaded on admin pages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Built-in integration with Google reCAPTCHA to prevent bots from subscribing to your Mailchimp lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added subscriber tags setting to forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Gutenberg block for easily adding a form to a post or page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bumped required PHP version to 5.3 (soft requirement for now)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with Klarna Checkout in the WooCommerce checkout integration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Validate MailChimp API key format when it's entered."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UX improvements for integrations overview page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More accurate handling of timeouts for accounts with many MailChimp lists."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Renamed \"MailChimp\" to \"Mailchimp\" to match Mailchimp's new branding."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "AffiliateWP integration subscribing the wrong user if affiliate ID differs from user ID."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update JavaScript dependencies."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Write API request parameters to the debug log in case of connection timeouts. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update WPForms integration to properly detect if the WPForms plugin is activated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use of <code>readonly</code> function, which is only available in WordPress 4.9 or later."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fatal error on PHP versions older than 5.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The <code>updated_subscriber</code> JS event is now fired forms not using AJAX as well (when applicable)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Apply <code>mc4wp_integration_gravity-forms_options</code> filter hook on Gravity Forms integration options so the checkbox can be prechecked and the checkbox label text modified."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>MC4WP_API_KEY</code> PHP constant which can be used to set your Mailchimp API key."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add <code>mc4wp_mailchimp_list_limit</code> filter hook to modify the maximum number of Mailchimp lists to fetch. Defaults to 200."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Get rid of cached result of Mailchimp API connection."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Change Gravity Forms field name to \"Mailchimp for WordPress\""
 msgstr ""
 
 #. Found in changelog list item.
@@ -28,7 +539,7 @@ msgid "Only re-add subscriber to list if we want to re-trigger a double opt-in c
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add methods for accessing MailChimp's e-commerce promo code endpoints to API class."
+msgid "Add methods for accessing Mailchimp's e-commerce promo code endpoints to API class."
 msgstr ""
 
 #. Found in changelog list item.
@@ -36,7 +547,7 @@ msgid "Send <code>null</code> for unknown values in usage tracking data (only wh
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Pre-check MailChimp list when creating a new form if there is only 1 list."
+msgid "Pre-check Mailchimp list when creating a new form if there is only 1 list."
 msgstr ""
 
 #. Found in changelog list item.
@@ -104,7 +615,7 @@ msgid "Namespace usage warning when running PHP 5.2"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Ninja Forms export checkbox would always state \"checked\" when form contained a MailChimp sign-up checkbox."
+msgid "Ninja Forms export checkbox would always state \"checked\" when form contained a Mailchimp sign-up checkbox."
 msgstr ""
 
 #. Found in changelog list item.
@@ -112,7 +623,7 @@ msgid "Show interest grouping ID in list overview on settings page."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Don't send empty field values to MailChimp when updating subscribers."
+msgid "Don't send empty field values to Mailchimp when updating subscribers."
 msgstr ""
 
 #. Found in changelog list item.
@@ -131,62 +642,6 @@ msgstr ""
 msgid "Live form preview while editing form. "
 msgstr ""
 
-#. Found in description list item.
-msgid "<a href=\"https://mc4wp.com/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=add-on-list\">MailChimp for WordPress Premium</a>"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "If you're getting an <code>HTTP Error</code> after entering your API key, please contact your webhost and ask them if they have PHP CURL installed and updated to the latest version (7.58.x). Make sure requests to <code>https://api.mailchimp.com/</code> are allowed as well."
-msgstr ""
-
-#. Found in faq header.
-msgid "Where can I find my API key to connect to MailChimp?"
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "If you can't find an answer there, please look through the <a href=\"https://wordpress.org/support/plugin/mailchimp-for-wp\">plugin support forums</a> or start your own topic."
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "Please take a look at the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=installation-instructions-link\">MailChimp for WordPress knowledge base</a> first."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "<em>(Optional)</em> Add more fields to your form."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The plugin provides various filter &amp; action hooks that allow you to modify or extend default behavior. We're also maintaining a <a href=\"https://github.com/ibericode/mc4wp-snippets\">collection of sample code snippets</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "This plugin allows you to tightly integrate your WordPress site with your MailChimp account."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Developer friendly. For inspiration, check out our <a href=\"https://github.com/ibericode/mc4wp-snippets\">repository of example code snippets</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "This plugin helps you grow your MailChimp lists and write better newsletters through various methods. You can create good looking opt-in forms or integrate with any existing form on your site, like your comment, contact or checkout form."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<em>Allowing your visitors to subscribe to your newsletter should be easy. With this plugin, it finally is.</em>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Multiple forms"
-msgstr ""
-
-#. Found in description header.
-msgid "Some (but not all) features"
-msgstr ""
-
-#. Short description.
-msgid "MailChimp for WordPress, the #1 MailChimp plugin."
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Improved scroll to form handling after a form is submitted without AJAX."
 msgstr ""
@@ -200,11 +655,11 @@ msgid "Various minor code optimizations"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Interest groups with an all-numeric ID were not properly passed to MailChimp."
+msgid "Interest groups with an all-numeric ID were not properly passed to Mailchimp."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Dropdown fields with special characters were not properly passed to MailChimp."
+msgid "Dropdown fields with special characters were not properly passed to Mailchimp."
 msgstr ""
 
 #. Found in changelog list item.
@@ -248,27 +703,19 @@ msgid "Link to the <a href=\"https://www.htmlforms.io/\">HTML Forms</a> from the
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Filter out empty array values when overriding selected MailChimp lists via <code>_mc4wp_lists</code>. "
+msgid "Filter out empty array values when overriding selected Mailchimp lists via <code>_mc4wp_lists</code>. "
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Added Gravity Forms integration. You can now integrate with Gravity Forms by adding the \"MailChimp\" field to your forms."
+msgid "Added Gravity Forms integration. You can now integrate with Gravity Forms by adding the \"Mailchimp\" field to your forms."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Now logging all sign-ups from Ninja Forms integrations when using <a href=\"https://mc4wp.com/premium-features/\">MailChimp for WordPress Premium</a>. "
+msgid "Now logging all sign-ups from Ninja Forms integrations when using <a href=\"https://mc4wp.com/premium-features/\">Mailchimp for WordPress Premium</a>. "
 msgstr ""
 
 #. Found in changelog list item.
 msgid "Remove unused options from Ninja Forms integration."
-msgstr ""
-
-#. Found in description list item.
-msgid "WPForms"
-msgstr ""
-
-#. Found in description list item.
-msgid "Gravity Forms"
 msgstr ""
 
 #. Found in changelog list item.
@@ -304,7 +751,7 @@ msgid "Method on API class for retrieving campaign data."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Show Akamai reference number when an API request is blocked by MailChimp's firewall."
+msgid "Show Akamai reference number when an API request is blocked by Mailchimp's firewall."
 msgstr ""
 
 #. Found in changelog list item.
@@ -316,11 +763,11 @@ msgid "Added campaign &amp; template methods to API client class."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Increase browser timeout for AJAX request when fetching MailChimp lists."
+msgid "Increase browser timeout for AJAX request when fetching Mailchimp lists."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Fire action hook <code>mc4wp_form_updated_subscriber</code> whenever a form was used to update a subscriber in MailChimp."
+msgid "Fire action hook <code>mc4wp_form_updated_subscriber</code> whenever a form was used to update a subscriber in Mailchimp."
 msgstr ""
 
 #. Found in changelog list item.
@@ -348,11 +795,11 @@ msgid "Some form specific JS events were not firing due to incorrect event names
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Always try to show MailChimp list info when API key is given."
+msgid "Always try to show Mailchimp list info when API key is given."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Randomise time of cron event that renews MailChimp lists."
+msgid "Randomise time of cron event that renews Mailchimp lists."
 msgstr ""
 
 #. Found in changelog list item.
@@ -364,350 +811,11 @@ msgid "Show error message when fetching lists fails."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Improved MailChimp list fetching &amp; memory usage for accounts with many lists."
+msgid "Improved Mailchimp list fetching &amp; memory usage for accounts with many lists."
 msgstr ""
 
 #. Found in changelog list item.
 msgid "Use earlier hook priority for Ninja Forms 3 integration so action is registered on time."
-msgstr ""
-
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid ""
-"if( function_exists( 'mc4wp_show_form' ) ) {\n"
-"    mc4wp_show_form();\n"
-"}"
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "&lt;?php"
-msgstr ""
-
-#. Screenshot description.
-msgid "Dive into detailed sign-up statistics (premium feature)."
-msgstr ""
-
-#. Screenshot description.
-msgid "Integrate your WooCommerce store with MailChimp (premium feature)."
-msgstr ""
-
-#. Screenshot description.
-msgid "Style your form with our Styles Builder (premium feature)."
-msgstr ""
-
-#. Screenshot description.
-msgid "Add a highly converting top bar form to your site."
-msgstr ""
-
-#. Screenshot description.
-msgid "Integrate with any other plugin out there."
-msgstr ""
-
-#. Screenshot description.
-msgid "Create beautiful sign-up forms that blend in with your theme."
-msgstr ""
-
-#. Found in description header.
-msgid "Customizing the plugin"
-msgstr ""
-
-#. Found in description list item.
-msgid "Advanced e-commerce integration for WooCommerce"
-msgstr ""
-
-#. Found in description list item.
-msgid "MemberPress"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "We recommend the <a href=\"https://wordpress.org/plugins/boxzilla/\">Boxzilla pop-up plugin</a> for this. You can use the form shortcode in your pop-up box to show a sign-up form."
-msgstr ""
-
-#. Found in faq header.
-msgid "How do I show a sign-up form in a pop-up?"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://wordpress.org/plugins/boxzilla/\">Boxzilla Pop-ups</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid ""
-"Third Party:\n"
-"\n"
-"<ul>\n"
-"<li><a href=\"https://wordpress.org/plugins/goodbye-captcha/\">WPBruiser</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "MailChimp for WordPress has a Premium add-on which comes with several additional benefits."
-msgstr ""
-
-#. Found in description list item.
-msgid "Detailed reports &amp; statistics"
-msgstr ""
-
-#. Found in description list item.
-msgid "An easy way to style your forms"
-msgstr ""
-
-#. Found in description list item.
-msgid "Email notifications"
-msgstr ""
-
-#. Found in description header.
-msgid "Become a Premium user"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://wordpress.org/plugins/mc4wp-activity/\">MailChimp Activity</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Default WordPress Registration Form"
-msgstr ""
-
-#. Found in description list item.
-msgid "Default WordPress Comment Form"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "MailChimp is a newsletter service that allows you to send out email campaigns to a list of email subscribers. It is free for lists up to 2000 subscribers, which is why it is the newsletter-service of choice for thousands of businesses."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<a href=\"https://mc4wp.com/features/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=after-features-link\">View more Premium features</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Well documented. Our <a href=\"https://mc4wp.com/kb/\">knowledge base</a> is updated daily."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "A multitude of available add-on plugins:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Seamless integration with the following plugins:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Sign-up forms which are good looking, user-friendly and mobile optimized. You have complete control over the form fields and can send anything you like to MailChimp."
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://wordpress.org/plugins/mailchimp-sync/\">MailChimp User Sync</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://wordpress.org/plugins/mailchimp-top-bar/\">MailChimp Top Bar</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://wordpress.org/plugins/mc4wp-captcha/\">Captcha</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "BuddyPress"
-msgstr ""
-
-#. Found in description list item.
-msgid "Events Manager"
-msgstr ""
-
-#. Found in description list item.
-msgid "Easy Digital Downloads"
-msgstr ""
-
-#. Found in description list item.
-msgid "Ninja Forms 3"
-msgstr ""
-
-#. Found in description list item.
-msgid "WooCommerce"
-msgstr ""
-
-#. Found in description list item.
-msgid "Contact Form 7"
-msgstr ""
-
-#. Found in description header.
-msgid "What is MailChimp?"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "[youtube https://www.youtube.com/watch?v=fZCYPnFybqU]"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "This plugin is being developed on GitHub. If you want to collaborate, please look at <a href=\"https://github.com/ibericode/mailchimp-for-wordpress\">ibericode/mailchimp-for-wordpress</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The plugin is translated using Transifex. If you want to help out, please head over to the <a href=\"https://www.transifex.com/projects/p/mailchimp-for-wordpress/\">translation project on Transifex</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "There are several <a href=\"https://mc4wp.com/add-ons/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=description\">add-on plugins</a> available, which help you get even more out of your site."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Please take a look at the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=description\">MailChimp for WordPress knowledge base</a> as well."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "If you're a premium user, please use the email address inside the plugin for support as that will guarantee a faster response time."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Use the <a href=\"https://wordpress.org/support/plugin/mailchimp-for-wp\">WordPress.org plugin forums</a> for community support where we try to help all of our users. If you found a bug, please create an issue on Github where we can act upon them more efficiently."
-msgstr ""
-
-#. Found in description header.
-msgid "Development"
-msgstr ""
-
-#. Found in description header.
-msgid "Translations"
-msgstr ""
-
-#. Found in description header.
-msgid "Add-on plugins"
-msgstr ""
-
-#. Found in description header.
-msgid "Support"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Please head over to the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=faq\">MailChimp for WordPress knowledge base</a> for more detailed documentation."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "You can add your custom CSS to your theme stylesheet or (easier) by using a plugin like <a href=\"https://wordpress.org/plugins/simple-custom-css/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=after-css-link\">Simple Custom CSS</a>"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "You can use custom CSS to style the sign-up form if you do not like the themes that come with the plugin. The following selectors can be used to target the various form elements."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "When you have double opt-in disabled, new subscribers will be seen as <em>imports</em> by MailChimp. They will not show up in your daily digest emails or statistics. <a href=\"http://blog.mailchimp.com/double-opt-in-vs-single-opt-in-stats/\">We always recommend leaving double opt-in enabled</a>."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "If the form shows a success message, there is no doubt that the sign-up request succeeded. MailChimp could have a slight delay sending the confirmation email though, please just be patient and make sure to check your SPAM folder."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Use the following shortcode in your CF7 form to display a newsletter sign-up checkbox."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "<a href=\"http://kb.mailchimp.com/accounts/management/about-api-keys#Find-or-Generate-Your-API-Key\">You can find your API key here</a>"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Go to <strong>Appearance &gt; Widgets</strong> and use the <strong>MailChimp for WP Form</strong> widget that comes with the plugin."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Use the <code>[mc4wp_form]</code> shortcode."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "More detailed documentation can be found in the <a href=\"https://mc4wp.com/kb/#utm_source=wp-plugin-repo&amp;utm_medium=mailchimp-for-wp&amp;utm_campaign=faq\">MailChimp for WordPress knowledge base</a>."
-msgstr ""
-
-#. Found in faq header.
-msgid "My question is not listed"
-msgstr ""
-
-#. Found in faq header.
-msgid "I'm getting an \"HTTP Error\" when trying to connect to MailChimp"
-msgstr ""
-
-#. Found in faq header.
-msgid "How can I style the sign-up form?"
-msgstr ""
-
-#. Found in faq header.
-msgid "The form shows a success message but subscribers are not added to my list(s)?"
-msgstr ""
-
-#. Found in faq header.
-msgid "How to add a sign-up checkbox to my Contact Form 7 form?"
-msgstr ""
-
-#. Found in faq header.
-msgid "How to display a form in widget areas like the sidebar or footer?"
-msgstr ""
-
-#. Found in faq header.
-msgid "How to display a form in posts or pages?"
-msgstr ""
-
-#. Found in faq header.
-msgid "More documentation"
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "Show a sign-up form from your theme files by using the following PHP function."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Show a sign-up form in your widget areas using the \"MailChimp Sign-Up Form\" widget."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Embed a sign-up form in pages or posts using the <code>[mc4wp_form]</code> shortcode."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Select at least one list to subscribe people to."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Go to <em>MailChimp for WP &gt; Forms</em>"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Set <a href=\"https://admin.mailchimp.com/account/api\">your API key</a> in the plugin settings."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Activate the plugin"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Alternatively, download the plugin and upload the contents of <code>mailchimp-for-wp.zip</code> to your plugins directory, which usually is <code>/wp-content/plugins/</code>."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "In your WordPress admin panel, go to <em>Plugins &gt; New Plugin</em>, search for <strong>MailChimp for WordPress</strong> and click \"<em>Install now</em>\""
-msgstr ""
-
-#. Found in installation header, faq header.
-msgid "Need help?"
-msgstr ""
-
-#. Found in installation header, faq header.
-msgid "Configuring Sign-Up Form(s)"
-msgstr ""
-
-#. Found in installation header, faq header.
-msgid "Installing the plugin"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "If you are not yet using MailChimp, <a href=\"http://mailchimp.com/monkey-rewards/?utm_source=freemium_newsletter&amp;utm_medium=email&amp;utm_campaign=monkey_rewards&amp;aid=a2d08947dcd3683512ce174c5&amp;afl=1\">creating an account is 100% free and only takes you about 30 seconds</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Connect with your MailChimp account in seconds."
 msgstr ""
 
 #. Found in changelog list item.
@@ -755,7 +863,7 @@ msgid "Better OptimizePress compatibility."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Ensure fields are HTML decoded before sending to MailChimp."
+msgid "Ensure fields are HTML decoded before sending to Mailchimp."
 msgstr ""
 
 #. Found in changelog list item.
@@ -787,7 +895,7 @@ msgid "Don't call <code>stripslashes</code> on POST data twice."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add <code>$args</code> parameter to <code>API::get_lists_activity</code> method. Relates to the <a href=\"https://wordpress.org/plugins/mc4wp-activity/\">MailChimp Activity</a> plugin."
+msgid "Add <code>$args</code> parameter to <code>API::get_lists_activity</code> method. Relates to the <a href=\"https://wordpress.org/plugins/mc4wp-activity/\">Mailchimp Activity</a> plugin."
 msgstr ""
 
 #. Found in changelog list item.
@@ -827,7 +935,7 @@ msgid "Custom form integration now handles arrays with 1-level depth. Thanks to 
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Show notice when form is missing required MailChimp fields."
+msgid "Show notice when form is missing required Mailchimp fields."
 msgstr ""
 
 #. Found in changelog list item.
@@ -879,7 +987,7 @@ msgid "Issue with lists not showing when using W3 Total Cache with APCu object c
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add missing e-commerce related API methods for next week's <a href=\"https://mc4wp.com/kb/what-is-ecommerce360/\">WooCommerce MailChimp e-commerce integration</a> release."
+msgid "Add missing e-commerce related API methods for next week's <a href=\"https://mc4wp.com/kb/what-is-ecommerce360/\">WooCommerce Mailchimp e-commerce integration</a> release."
 msgstr ""
 
 #. Found in changelog list item.
@@ -899,11 +1007,11 @@ msgid "Improved <code>&lt;label&gt;</code> element accessibility for checkbox in
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Periodically fetch MailChimp lists, so cache is always fresh."
+msgid "Periodically fetch Mailchimp lists, so cache is always fresh."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Fetch MailChimp lists over AJAX, to speed up perceived performance (especially when your account has many lists)."
+msgid "Fetch Mailchimp lists over AJAX, to speed up perceived performance (especially when your account has many lists)."
 msgstr ""
 
 #. Found in changelog list item.
@@ -911,11 +1019,11 @@ msgid "Allow checkbox option for the List Choice field (again)."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Bump limit of number of MailChimp lists to fetch from 100 to 500."
+msgid "Bump limit of number of Mailchimp lists to fetch from 100 to 500."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Differentiate between connection &amp; authorization errors when testing connection to MailChimp."
+msgid "Differentiate between connection &amp; authorization errors when testing connection to Mailchimp."
 msgstr ""
 
 #. Found in changelog list item.
@@ -923,7 +1031,7 @@ msgid "Write to debug log when custom integrations can not find an EMAIL field."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Write field specific errors to debug log when MailChimp denies a sign-up request."
+msgid "Write field specific errors to debug log when Mailchimp denies a sign-up request."
 msgstr ""
 
 #. Found in changelog list item.
@@ -943,7 +1051,7 @@ msgid "Add pre-checked option to Ninja Forms integration."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Show connection errors on MailChimp settings page."
+msgid "Show connection errors on Mailchimp settings page."
 msgstr ""
 
 #. Found in changelog list item.
@@ -959,7 +1067,7 @@ msgid "Adding hidden field to form would reset value on every change."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Hidden fields which referenced interest groups by name were not sent to MailChimp."
+msgid "Hidden fields which referenced interest groups by name were not sent to Mailchimp."
 msgstr ""
 
 #. Found in changelog list item.
@@ -975,7 +1083,7 @@ msgid "Incorrect form message showing when double opt-in is disabled."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Issue with only 10 MailChimp lists / fields / interests being returned."
+msgid "Issue with only 10 Mailchimp lists / fields / interests being returned."
 msgstr ""
 
 #. Found in changelog paragraph.
@@ -983,7 +1091,7 @@ msgid "<strong>Changes</strong>"
 msgstr ""
 
 #. Found in changelog paragraph.
-msgid "This release updates the plugin to version 3 of the MailChimp API. Please <a href=\"https://mc4wp.com/kb/upgrading-to-4-0/\">read through the upgrade guide</a> before updating to make sure things keep working as expected for you."
+msgid "This release updates the plugin to version 3 of the Mailchimp API. Please <a href=\"https://mc4wp.com/kb/upgrading-to-4-0/\">read through the upgrade guide</a> before updating to make sure things keep working as expected for you."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1003,7 +1111,7 @@ msgid "Previously unsubscribed subscribers can now be re-added without errors."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "The plugin now communicates with the latest &amp; greatest MailChimp API."
+msgid "The plugin now communicates with the latest &amp; greatest Mailchimp API."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1035,7 +1143,7 @@ msgid "Filter <code>mc4wp_form_merge_vars</code> is now called <code>mc4wp_form_
 msgstr ""
 
 #. Found in changelog list item.
-msgid "\"Send welcome email\" is now handled from your list settings in MailChimp."
+msgid "\"Send welcome email\" is now handled from your list settings in Mailchimp."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1043,11 +1151,11 @@ msgid "Make sure value of MC_LANGUAGE field is limited to 2 characters."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add plugin name + version to User-Agent header for all MailChimp API requests."
+msgid "Add plugin name + version to User-Agent header for all Mailchimp API requests."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add MailChimp API error code to debug log lines."
+msgid "Add Mailchimp API error code to debug log lines."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1167,7 +1275,7 @@ msgid "Consistent hook parameters for <code>mc4wp_form_subscribed</code> action.
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Some preparations for the upcoming migration to the new MailChimp API (version 3)."
+msgid "Some preparations for the upcoming migration to the new Mailchimp API (version 3)."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1187,7 +1295,7 @@ msgid "Contact Form 7 integration now uses an early hook priority to ensure we r
 msgstr ""
 
 #. Found in changelog list item.
-msgid "The MailChimp API key is now obfuscated on the settings page."
+msgid "The Mailchimp API key is now obfuscated on the settings page."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1219,7 +1327,7 @@ msgid "Updated Dutch, Portugese, Spanish and Italian translations."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Issue with API array responses (for the <a href=\"https://wordpress.org/plugins/mc4wp-activity/\">MailChimp Activity add-on</a>, for example)."
+msgid "Issue with API array responses (for the <a href=\"https://wordpress.org/plugins/mc4wp-activity/\">Mailchimp Activity add-on</a>, for example)."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1235,7 +1343,7 @@ msgid "Failsafed JavaScript for when any other script loads RequireJS globally."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Use all MailChimp lists for Lists Choice field, instead of just the selected ones."
+msgid "Use all Mailchimp lists for Lists Choice field, instead of just the selected ones."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1247,7 +1355,7 @@ msgid "No sign-up request firing for lists with only an <code>EMAIL</code> field
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Deselecting all MailChimp lists wouldn't persist after saving form settings."
+msgid "Deselecting all Mailchimp lists wouldn't persist after saving form settings."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1291,7 +1399,7 @@ msgid "Add <code>get_lists_for_email( $email )</code> method to API class."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Added <a href=\"https://mc4wp.com/kb/how-to-enable-log-debugging/\">debug logging</a>, which shows all warnings &amp; errors the plugin encountered in communicating with MailChimp."
+msgid "Added <a href=\"https://mc4wp.com/kb/how-to-enable-log-debugging/\">debug logging</a>, which shows all warnings &amp; errors the plugin encountered in communicating with Mailchimp."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1303,7 +1411,7 @@ msgid "Allow including a <code>_mc4wp_email_type</code> field in forms to set an
 msgstr ""
 
 #. Found in changelog list item.
-msgid "When a field is required in MailChimp, it has to be required in forms as well now."
+msgid "When a field is required in Mailchimp, it has to be required in forms as well now."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1311,7 +1419,7 @@ msgid "Move less important settings to \"Other\" page."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Make sure integrations have a MailChimp list selected before trying to subscribe."
+msgid "Make sure integrations have a Mailchimp list selected before trying to subscribe."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1419,7 +1527,7 @@ msgid "Never load enabled integrations which are not installed."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Now using group ID's for interest grouping fields, so changing the group in MailChimp does not require updating your form code."
+msgid "Now using group ID's for interest grouping fields, so changing the group in Mailchimp does not require updating your form code."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1431,11 +1539,11 @@ msgid "Added missing translation calls for Form Editor."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Pre-select MailChimp list if there's just one list in the connected account."
+msgid "Pre-select Mailchimp list if there's just one list in the connected account."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Errors returned by MailChimp are now logged for Forms as well."
+msgid "Errors returned by Mailchimp are now logged for Forms as well."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1507,7 +1615,7 @@ msgid "All integrations have their own settings page now."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "All fields marked as <code>required</code> are now validated server-side as well (instead of just MailChimp required fields)."
+msgid "All fields marked as <code>required</code> are now validated server-side as well (instead of just Mailchimp required fields)."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1515,7 +1623,7 @@ msgid "Better support for choice fields (eg groupings, list choice &amp; country
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Better support for MailChimp <code>address</code> fields."
+msgid "Better support for Mailchimp <code>address</code> fields."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1567,7 +1675,7 @@ msgid "Tested compatibility with WordPress 4.4"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Preparations for <a href=\"https://mc4wp.com/blog/breaking-backwards-compatibility-in-version-3-0/\">the upcoming MailChimp for WordPress version 3.0 release</a>."
+msgid "Preparations for <a href=\"https://mc4wp.com/blog/breaking-backwards-compatibility-in-version-3-0/\">the upcoming Mailchimp for WordPress version 3.0 release</a>."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1587,19 +1695,19 @@ msgid "Honeypot field being autofilled in Chrome, causing a form error."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Renewing MailChimp lists will now also update the output of the <code>{subscriber_count}</code> tag."
+msgid "Renewing Mailchimp lists will now also update the output of the <code>{subscriber_count}</code> tag."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Connectivity issues with MailChimp will now <em>always</em> show an error message."
+msgid "Connectivity issues with Mailchimp will now <em>always</em> show an error message."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Textual improvements to MailChimp settings page."
+msgid "Textual improvements to Mailchimp settings page."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Error in Russian translation, causing a broken link on the MailChimp settings page."
+msgid "Error in Russian translation, causing a broken link on the Mailchimp settings page."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1611,7 +1719,7 @@ msgid "Minor other defensive coding improvements to prevent clashes with other p
 msgstr ""
 
 #. Found in changelog list item.
-msgid "<code>_mc4wp_lists</code> can now be a comma-separated string of MailChimp list ID's to subscribe to (or an array)."
+msgid "<code>_mc4wp_lists</code> can now be a comma-separated string of Mailchimp list ID's to subscribe to (or an array)."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1643,7 +1751,7 @@ msgid "Auto-prefix fields of type <code>url</code> with <code>http://</code>"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "MailChimp list fields of type \"website\" will now become HTML5 <code>url</code> type fields."
+msgid "Mailchimp list fields of type \"website\" will now become HTML5 <code>url</code> type fields."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1671,11 +1779,11 @@ msgid "Integration errors are now logged to PHP's error log for easier debugging
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Do not query MailChimp API for interest groupings if list has none."
+msgid "Do not query Mailchimp API for interest groupings if list has none."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Empty response from MailChimp API"
+msgid "Empty response from Mailchimp API"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1687,7 +1795,7 @@ msgid "Honeypot field being filled by browser's autocomplete."
 msgstr ""
 
 #. Found in changelog paragraph.
-msgid "Minor improvements and additions for compatibility with the <a href=\"https://wordpress.org/plugins/mailchimp-sync/\">MailChimp Sync plugin</a>."
+msgid "Minor improvements and additions for compatibility with the <a href=\"https://wordpress.org/plugins/mailchimp-sync/\">Mailchimp Sync plugin</a>."
 msgstr ""
 
 #. Found in changelog paragraph.
@@ -1743,7 +1851,7 @@ msgid "If an error occurs, textareas will no longer lose their value"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "\"Select at least one list\" notice appearing when unselecting any MailChimp list in Form settings"
+msgid "\"Select at least one list\" notice appearing when unselecting any Mailchimp list in Form settings"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1775,7 +1883,7 @@ msgid "Use JS object to transfer lists data to Field Wizard."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Plugin wasn't connecting to MailChimp for users on MailChimp server <code>us10</code> (API keys ending in <code>-us10</code>)"
+msgid "Plugin wasn't connecting to Mailchimp for users on Mailchimp server <code>us10</code> (API keys ending in <code>-us10</code>)"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1787,7 +1895,7 @@ msgid "Added <code>wpml-config.xml</code> file for better WPML compatibility"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Now showing a heads up when at limit of 100 MailChimp lists. (<a href=\"https://github.com/ibericode/mailchimp-for-wordpress/issues/71\">#71</a>)"
+msgid "Now showing a heads up when at limit of 100 Mailchimp lists. (<a href=\"https://github.com/ibericode/mailchimp-for-wordpress/issues/71\">#71</a>)"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1891,7 +1999,7 @@ msgid "Honeypot field was visible for themes or templates not calling <code>wp_h
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Allow setting custom MailChimp lists to subscribe to using <code>lists</code> attribute on shortcode."
+msgid "Allow setting custom Mailchimp lists to subscribe to using <code>lists</code> attribute on shortcode."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1979,7 +2087,7 @@ msgid "Issue when using more than one <code>{data_xx}</code> replacement"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Groupings not being sent to MailChimp"
+msgid "Groupings not being sent to Mailchimp"
 msgstr ""
 
 #. Found in changelog list item.
@@ -2003,7 +2111,7 @@ msgid "Code preview in Field Builder is now read-only"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Issue with GROUPINGS not being sent to MailChimp"
+msgid "Issue with GROUPINGS not being sent to Mailchimp"
 msgstr ""
 
 #. Found in changelog list item.
@@ -2027,7 +2135,7 @@ msgid "Better CSS for form reset"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Relayed the browser's Accept-Language header to MailChimp for auto-detecting a subscriber's language."
+msgid "Relayed the browser's Accept-Language header to Mailchimp for auto-detecting a subscriber's language."
 msgstr ""
 
 #. Found in changelog list item.
@@ -2051,7 +2159,7 @@ msgid "Use <code>/* ... */</code> for inline JavaScript comments to prevent erro
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Use the same order as MailChimp.com, which is useful when you have over 100 MailChimp lists."
+msgid "Use the same order as Mailchimp.com, which is useful when you have over 100 Mailchimp lists."
 msgstr ""
 
 #. Found in changelog list item.
@@ -2063,7 +2171,7 @@ msgid "Updated German &amp; Greek translations."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Revamped UI for MailChimp lists overview"
+msgid "Revamped UI for Mailchimp lists overview"
 msgstr ""
 
 #. Found in changelog list item.
@@ -2099,7 +2207,7 @@ msgid "Add <code>mc4wp_form_action</code> filter to set a custom <code>action</c
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Better error message when connected to MailChimp but account has no lists."
+msgid "Better error message when connected to Mailchimp but account has no lists."
 msgstr ""
 
 #. Found in changelog list item.
@@ -2127,7 +2235,7 @@ msgid "Better field population after submitting a form with errors."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "MailChimp lists cache is now automatically flushed after changing your API key setting."
+msgid "Mailchimp lists cache is now automatically flushed after changing your API key setting."
 msgstr ""
 
 #. Found in changelog list item.
@@ -2139,7 +2247,7 @@ msgid "Add default CSS styles for <code>number</code> fields."
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Do not flush MailChimp cache on every settings save."
+msgid "Do not flush Mailchimp cache on every settings save."
 msgstr ""
 
 #. Found in changelog list item.
@@ -2151,5 +2259,5 @@ msgid "Issue with <code>address</code> fields when <code>addr1</code> was not gi
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Showing \"not connected\" when the plugin was actually connected to MailChimp."
+msgid "Showing \"not connected\" when the plugin was actually connected to Mailchimp."
 msgstr ""

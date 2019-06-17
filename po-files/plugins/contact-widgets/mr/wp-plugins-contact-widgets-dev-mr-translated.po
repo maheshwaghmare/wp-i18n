@@ -7,11 +7,89 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:42:05+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:53:29+00:00\n"
 "PO-Revision-Date: 2016-04-13 07:16:17+0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: includes/blocks/contact/js/contact-block.js:131
+#: includes/blocks/contact/js/contact-block.js:135
+#: includes/blocks/contact/js/contact-block.js:160
+msgid "Display Map of Address"
+msgstr ""
+
+#: includes/blocks/contact/js/contact-block.js:116
+msgid "Contact Details Controls"
+msgstr ""
+
+#: includes/blocks/contact/js/contact-block.js:61
+msgid "Address"
+msgstr "अॅड्रेस (Address)"
+
+#: includes/blocks/contact/js/contact-block.js:58
+msgid "Fax"
+msgstr ""
+
+#: includes/blocks/contact/js/contact-block.js:49
+msgid "Title"
+msgstr "शीर्षक"
+
+#: includes/blocks/contact/js/contact-block.js:41
+msgid "Map"
+msgstr ""
+
+#: includes/blocks/contact/js/contact-block.js:40
+#: includes/blocks/contact/js/contact-block.js:55
+msgid "Phone"
+msgstr ""
+
+#: includes/blocks/contact/js/contact-block.js:39
+#: includes/blocks/contact/js/contact-block.js:52
+msgid "Email"
+msgstr "ईमेल"
+
+#: includes/blocks/contact/js/block-order-control.js:55
+msgid "Reorder Contact Fields"
+msgstr ""
+
+#: includes/blocks/social/js/icon-control.js:34
+msgid "No Icons Found."
+msgstr ""
+
+#: includes/blocks/social/js/social-block.js:194
+msgid "Social Icons Title"
+msgstr ""
+
+#: includes/blocks/social/js/social-block.js:152
+msgid "Social Networks"
+msgstr ""
+
+#: includes/blocks/contact/js/contact-block.js:120
+#: includes/blocks/contact/js/contact-block.js:124
+#: includes/blocks/contact/js/contact-block.js:153
+#: includes/blocks/social/js/social-block.js:139
+#: includes/blocks/social/js/social-block.js:143
+#: includes/blocks/social/js/social-block.js:181
+msgid "Display Labels"
+msgstr ""
+
+#: includes/blocks/social/js/social-block.js:135
+msgid "Social Icons"
+msgstr ""
+
+#: includes/blocks/social/js/social-block.js:99
+msgid "Media"
+msgstr "मीडिया"
+
+#: includes/blocks/social/js/social-block.js:98
+msgid "Icons"
+msgstr ""
+
+#: includes/blocks/contact/js/contact-block.js:35
+#: includes/blocks/social/js/social-block.js:93
+msgid "Display contact details on your site."
+msgstr ""
 
 #: includes/social-networks.php:172
 msgid "Unsplash"
@@ -31,11 +109,12 @@ msgstr ""
 msgid "500px"
 msgstr ""
 
-#: includes/class-base-widget.php:491
+#: includes/class-base-widget.php:494
 msgid "Edit"
 msgstr "संपादन"
 
 #: includes/class-social.php:28
+#: includes/blocks/social/js/social-block.js:92
 msgid "Social Profiles"
 msgstr ""
 
@@ -44,18 +123,19 @@ msgid "Display links to your social media profiles."
 msgstr ""
 
 #: includes/class-contact.php:35
+#: includes/blocks/contact/js/contact-block.js:34
 msgid "Contact Details"
 msgstr ""
 
-#. Author URI of the plugin/theme
+#. Author URI of the plugin
 msgid "https://godaddy.com"
 msgstr ""
 
-#. Author of the plugin/theme
+#. Author of the plugin
 msgid "GoDaddy"
 msgstr ""
 
-#. Description of the plugin/theme
+#. Description of the plugin
 msgid "Beautifully display social media and contact information on your website with these simple widgets."
 msgstr ""
 
@@ -63,7 +143,7 @@ msgstr ""
 msgid "Display your contact information."
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#. Plugin Name of the plugin
 msgid "Contact Widgets"
 msgstr ""
 
@@ -203,12 +283,16 @@ msgctxt "Must be lowercase and use url-safe characters"
 msgid "username"
 msgstr ""
 
+#: includes/blocks/social/js/social-block.js:97
+msgid "Social"
+msgstr "सोशल "
+
 #: includes/class-contact.php:221
 msgid "Display map of address?"
 msgstr ""
 
-#: includes/class-contact.php:211
 #: includes/class-social.php:239
+#: includes/class-contact.php:211
 msgid "Display labels?"
 msgstr ""
 
@@ -244,13 +328,13 @@ msgstr ""
 msgid "Email:"
 msgstr "ईमेल:"
 
-#: includes/class-contact.php:174
 #: includes/class-social.php:229
+#: includes/class-contact.php:174
 msgid "The title of widget. Leave empty for no title."
 msgstr ""
 
-#: includes/class-contact.php:173
 #: includes/class-social.php:228
+#: includes/class-contact.php:173
 msgid "Title:"
 msgstr "शीर्षक:"
 

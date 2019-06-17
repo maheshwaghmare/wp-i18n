@@ -19,24 +19,8 @@ msgstr ""
 msgid "Disable Comments"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "Added <code>DISABLE_COMMENTS_ALLOW_DISCUSSION_SETTINGS</code> configuration."
-msgstr ""
-
 #. Found in description paragraph.
 msgid "Define <code>DISABLE_COMMENTS_ALLOW_DISCUSSION_SETTINGS</code> and set it to <code>true</code> to prevent the plugin from hiding the Discussion settings page."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Small enhancements to hiding comment-related functionality in the admin."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Removed the <code>disable_comments_allow_persistent_mode</code> filter. Define <code>DISABLE_COMMENTS_ALLOW_PERSISTENT_MODE</code> instead."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Dropped logic to try and hide the comments link from the Meta widget. Administrators should manually add styling to hide this link, or replace the Meta widget with an alternative."
 msgstr ""
 
 #. Found in description paragraph.
@@ -177,6 +161,30 @@ msgstr ""
 
 #. Found in description paragraph.
 msgid "This plugin allows administrators to globally disable comments on any post type (posts, pages, attachments, etc.) so that these settings cannot be overridden for individual posts. It also removes all comment-related fields from edit and quick-edit screens. On multisite installations, it can be used to disable comments on the entire network."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove deprecated \"persistent mode\" feature."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix compatibility with WordPress 5.0 and above."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added <code>DISABLE_COMMENTS_ALLOW_DISCUSSION_SETTINGS</code> configuration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small enhancements to hiding comment-related functionality in the admin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed the <code>disable_comments_allow_persistent_mode</code> filter. Define <code>DISABLE_COMMENTS_ALLOW_PERSISTENT_MODE</code> instead."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dropped logic to try and hide the comments link from the Meta widget. Administrators should manually add styling to hide this link, or replace the Meta widget with an alternative."
 msgstr ""
 
 #. Found in changelog list item.

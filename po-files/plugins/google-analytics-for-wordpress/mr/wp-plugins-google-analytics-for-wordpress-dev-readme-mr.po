@@ -1,5 +1,5 @@
-# Translation of Plugins - Google Analytics for WordPress by MonsterInsights - Development Readme (trunk) in Marathi
-# This file is distributed under the same license as the Plugins - Google Analytics for WordPress by MonsterInsights - Development Readme (trunk) package.
+# Translation of Plugins - Google Analytics Dashboard Plugin for WordPress by MonsterInsights - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - Google Analytics Dashboard Plugin for WordPress by MonsterInsights - Development Readme (trunk) package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: +0000\n"
@@ -9,14 +9,956 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: mr\n"
-"Project-Id-Version: Plugins - Google Analytics for WordPress by MonsterInsights - Development Readme (trunk)\n"
+"Project-Id-Version: Plugins - Google Analytics Dashboard Plugin for WordPress by MonsterInsights - Development Readme (trunk)\n"
+
+#. Plugin name.
+msgid "Google Analytics Dashboard Plugin for WordPress by MonsterInsights"
+msgstr ""
 
 #. Short description.
 msgid "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back."
 msgstr ""
 
-#. Plugin name.
-msgid "Google Analytics for WordPress by MonsterInsights"
+#. Found in description paragraph.
+msgid "https://www.youtube.com/watch?v=IbdKpSygp2U"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It comes with advanced permission control, sample rate control, and other options that you need to properly enable Google Analytics on WordPress multisite."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes. MonsterInsights offers the most comprehensive Google Analytics solution for WordPress multi-site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "With just 1-click, you can enable Google Analytics Enhanced Ecommerce Tracking for WooCommerce and see useful WooCommerce analytics report right inside your WordPress dashboard."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "MonsterInsights Enhanced Ecommerce Tracking works with both WooCommerce and Easy Digital Downloads."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you are looking to enable Google Analytics Ecommerce tracking in WordPress, then MonsterInsights is the best solution to do that."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "MonsterInsights load Google Analytics code in WordPress header because it makes sure that you have the most accurate tracking."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Some people believe that loading Google Analytics in WordPress header will slow down your website. That's a myth. Google Analytics loads asynchronously which means that it does not impact your website speed at all."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We recommend uninstalling other Google Analytics plugins before you install MonsterInsights."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No. You should only use one Google Analytics plugin on your WordPress site. If you use multiple Google Analytics plugins, then you will compromise your data integrity. It will skew your data and you might see inflated stats."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Google Analytics is the #1 analytics solution in the world. It comes with all the powerful features that you can ever ask for. MonsterInsights makes it easy for you to use all advanced Google Analytics features in WordPress."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Some WordPress stats plugin use third-party servers to mitigate this issue, but they all lack powerful features that Google Analytics can offer."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Native WordPress stats plugin will always slow down your website because they rely on your WordPress hosting server. Most of them do not provide accurate WordPress analytics either."
+msgstr ""
+
+#. Found in faq header.
+msgid "Does MonsterInsights work on WordPress multisite?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Which eCommerce plugins are compatible with MonsterInsights Enhanced Ecommerce Tracking feature?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How does MonsterInsights help with Google Analytics GDPR compliance?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why does MonsterInsights load Google Analytics in WordPress header section?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I use MonsterInsights together with another Google Analytics plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why use Google Analytics vs WordPress stats?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MonsterInsights&reg; is a registered trademark of MonsterInsights LLC. When writing about the Google Analytics for WordPress plugin by MonsterInsights, please make sure to uppercase the first letters of both word."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Want to unlock more features? <a href=\"?utm_source=wprepo&amp;utm_medium=link&amp;utm_campaign=liteversion\" rel=\"friend\">Upgrade to our Pro version</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Give MonsterInsights a try."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "After reading this exhaustive feature list, you can probably imagine why MonsterInsights is the best Google Analytics plugin for WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We understand Google Analytics better than any other analytics plugin for WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "By now you can probably see why MonsterInsights has become the most popular Google Analytics plugin for WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our performance addon allows you to adjust sample rate and site speed sample rates for Google Analytics."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Similarly, we undrestand that some sites may want to exclude logged-in users from Google Analytics tracking. MonsterInsights gives you granular control to exclude admin in Google Analytics as well as other user roles."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can control who has access to view the Google Analytics Dashboard report in WordPress. Our permissions setting allows you to hide Google analytics reports for specific user roles."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"MonsterInsights is the most popular analytics plugin for adding Google Analytics to WordPress multisite.\n"
+"We have built-in all permissions and controls that you would need to successfully run Google Analytics on a WordPress multi-site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Simply put, MonsterInsights allow you to take full advantage of all the powerful Google Analytics features."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MonsterInsights' Custom Dimensions addon allows you to push WordPress analytics even further. You can use Google Analytics custom dimensions to generate helpful WordPress stats for:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our powerful Forms Tracking addon uses Google Analytics custom event tracking feature to enable form analytics in WordPress. With just 1-click, you can enable form conversion tracking for your contact forms, lead generation forms, registration forms, surveys, and any other type of form in WordPress."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can use MonsterInsights custom Google analytics event tracking feature to easily add outbound-link tracking, file downloads tracking, call-to-action button tracking, hashmark tracking, telephone link tracking, and more."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our Google Analytics event tracking feature for WordPress doesn't just stop at affiliate link tracking."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MonsterInsights' affiliate link tracking feature works with all WordPress affiliate link management plugins including Pretty Links, Thirsty Affiliates, and others."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Since our affiliate link tracking use Google Analytics' powerful servers, we can skip WordPress entirely and send data directly to Google Analytics."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Most other WordPress stats plugin track data on your <a href=\"https://www.wpbeginner.com/wordpress-hosting/\" rel=\"friend\">WordPress hosting server</a> which slows down your website and does not scale for larger websites."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Unlike other WordPress analytics plugin, our Google Analytics affiliate link tracking does NOT slow down your website because all events are recorded via JavaScript and sent straight to your Google Analytics account."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MonsterInsights uses event tracking for all WordPress outbound link tracking which is far more accurate than any built-in WordPress analytics solution."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our affiliate link tracking makes it easy for bloggers and affiliate marketers to track their affiliate links with Google Analytics."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "At MonsterInsights, we always stay ahead of the curve in helping you integrate WordPress with the latest Google Analytics tracking features."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We also offer 1-click Google Analytics integration with Facebook Instant Articles."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Accelerated Mobile Pages (AMP) is a project by Google that helps you speed up your website. However if you don't set it up properly, Google AMP can cause you to lose your website analytics. Our Google Analytics AMP integration allows you to have accurate Google Analytics tracking on all AMP enabled pages. It works seamlessly with AMP for WordPress plugin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "MonsterInsights uses Google Analytics universal tracking, so you can track your users across devices and platforms."
+msgstr ""
+
+#. Found in description paragraph, faq paragraph.
+msgid "For more details, see: <a href=\"https://www.monsterinsights.com/gdpr-and-monsterinsights-everything-you-need-to-know/\" rel=\"friend\">GDPR and MonsterInsights - Everything You Need to Know</a>."
+msgstr ""
+
+#. Found in description paragraph, faq paragraph.
+msgid "While no single plugin can guarantee 100% GDPR compliance in WordPress, MonsterInsights goes to great length in helping business owners with Google Analytics GDPR compliance."
+msgstr ""
+
+#. Found in description paragraph, faq paragraph.
+msgid "Our EU compliance addon allows you to:"
+msgstr ""
+
+#. Found in description paragraph, faq paragraph.
+msgid "MonsterInsights helps make Google Analytics GDPR compliance easier for business owners."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Simply put, MonsterInsights' Enhanced Ecommerce for WordPress feature is by far the easiest and most powerful in the market."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our Easy Digital Downloads Google Analytics integration allows you to setup Enhanced Ecommerce Tracking on your store with just 1-click."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Aside from WooCommerce Google Analytics integration, MonsterInsights' Ecommerce addon also offers seamless integration for the Easy Digital Downloads plugin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For those who want to go beyond our WooCommerce stats dashboard, you can easily open up the Google Analytics dashboard to combine WooCommerce Google Analytics data with other secondary dimensions and filters to find exactly what you're looking for."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our WooCommerce analytics report also include other detailed WooCommerce event tracking data like total add to carts, total removed from cart, time to purchase, and sessions to purchase."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Once you have enabled WooCommerce tracking, MonsterInsights will show you all important WooCommerce metrics in a single dashboard including WooCommerce conversion rate, top products in your WooCommerce store, total transactions, total revenue, average order value, top referral sourecs, and more."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With MonsterInsights' easy WooCommerce Google Analytics integration, you can setup WooCommerce analytics with literally 1-click."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Google Analytics Enhanced Ecommerce tracking is a powerful feature that lets you track user behavior across your <a href=\"https://www.wpbeginner.com/wp-tutorials/how-to-start-an-online-store/\" rel=\"friend\">online store</a> starting from product views to checkout page to thank you page and beyond."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"I love being able to drill down into the analytics via the reporting feature. I have the PRO version and it makes a big difference what you can analyze. I’m glad that I can integrate with Pretty Links too!<br />\n"
+"  Kim Beasley - MonsterInsights user"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "That's why we can confidently say that MonsterInsights is the ultimate Google Analytics Shortcut for seeing the stats that matter and making data-driven decisions to grow your business."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We currently use MonsterInsights on all our portfolio companies which include both media sites generating tens of millions of pageviews and eCommerce sites generating millions in sales."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our custom Google Analytics Dashboard reports are based on over 12+ years of online business experience. We built MonsterInsights to be the Google Analytics plugin that we wish we had."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Custom Dimensions Report</strong> helps you dig deeper by showing you useful stats like who are your most popular authors, what are the best publication times, which are your most popular categories or tags, how well are your Yoast focus keywords and SEO score performing, and more."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Search Console Report</strong> shows you exactly how well your website is ranking in Google, so you can further optimize your SEO to grow your organic traffic."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Forms Report</strong> shows you conversion stats for various contact forms and lead forms on your website, so you can improve the conversions to grow your business."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Ecommerce Report</strong> shows you important store stats like total revenue, conversion rate, average order value, top referral sources, and more (all in one place)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Content Report</strong> shows you stats on exactly which content gets the most visits, so you can stop guessing and start creating content that gets more traffic and conversion."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Behavior Report</strong> shows you exactly how people find your website, which keywords did they search for, who referred them, what did they click on your site, and more. You can use these useful stats to identify low-hanging fruits, new partnership opportunities, and promotional areas to focus on."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Audience Report</strong> helps you get to know your visitors in a whole new way. It shows you detailed insights like which country your visitors are coming from, what are they most interested in, which device are they using, their age, gender, and a whole lot more. You can use this demographics report and audience clues to tweak your website design and content accordingly."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We have created customized Google Analytics reports to help you filter through the noise and see the stats that really matter!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "That's why MonsterInsights comes with a built-in Google Analytics Dashboard for your WordPress site, so you can see all the useful information about your visitors right inside your WordPress dashboard."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We understand that Google Analytics has a steep learning curve which often prevents small business owners from making informed decisions to grow their business."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our goal at MonsterInsights is to make analytics easy and accessible for everyone."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "See what one business owner is saying about MonsterInsights:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We keep up with all Google Analytics updates, so you can sleep well at night knowing that your website will always stay up to date with the newest features in Google Analytics."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you can point-and-click, then you can setup WordPress analytics and start seeing insights in under 15 minutes (no code necessary)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With MonsterInsights, we made it \"effortless\" to properly setup Google Analytics in WordPress. Yes, you can enable all advanced Google Analytics features with just a few clicks."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The old way of \"properly\" setting up Google Analytics was complicated. You had to either hire a developer or learn to add Google Analtyics code in various different areas of your WordPress theme. The setup time would take days to weeks if you wanted to add powerful features like events tracking, eCommerce tracking, etc."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "That's why millions of small businesses and top companies like Microsoft, Bloomberg, FedEx, Yelp, Subway, etc. use MonsterInsights to setup Google Analytics on their WordPress sites."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Simply put, MonsterInsights is the most complete Google Analytics plugin for WordPress that's both EASY and POWERFUL."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The best part is that MonsterInsights comes with a Google Analytics Dashboard for WordPress that shows you actionable analytics reports right inside your WordPress dashboard. We have created customized reports that eliminates the fluff and only show you the stats that matter, so you can see exactly what's working and what's not!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Unlike other Google Analytics plugins, MonsterInsights allow you to enable all advanced Google analytics tracking features with just a few clicks (no need to hire a developer)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "At MonsterInsights, we make it \"effortless\" to properly connect your WordPress site with Google Analytics, so you can start making data-driven decisions to grow your business."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We believe that it's easy to double your traffic and sales when you know exactly how people find and use your website. <a href=\"https://www.monsterinsights.com/?utm_source=wprepo&amp;utm_medium=link&amp;utm_campaign=liteversion\" rel=\"friend\" title=\"MonsterInsights\">MonsterInsights</a> shows you the stats that matter, so you can grow your business with confidence."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.seedprod.com/\" rel=\"friend\">SeedProd</a> - Most popular coming soon &amp; maintenance mode plugin for WordPress"
+msgstr ""
+
+#. Found in description list item.
+msgid "monsterinsight (incorrect)"
+msgstr ""
+
+#. Found in description list item.
+msgid "monsterinsights (incorrect)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Monster Insights (incorrect)"
+msgstr ""
+
+#. Found in description list item.
+msgid "MonsterInsights (correct)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Analytics Tools - Helpful tools for Google analytics such as UTM link tracking builder."
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Optimize Tracking - Enable Google Analytics support for Google Optimize A/B Testing."
+msgstr ""
+
+#. Found in description list item.
+msgid "Form Conversion Tracking - Track conversions for your WordPress forms. Works with all popular plugins including WPForms, Contact Form 7, Gravity Forms, Formidable Forms, and more."
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Analytics GDPR Compliance - EU compliance addon helps you improve Google Analytics GDPR compliance by adding adding anonymize IP, cookie consent for Google Analytics, opt-out tracking, and more."
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Analytics for Facebook Instant Articles - Add proper Google Analytics tracking for Facebook Analytics."
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Analytics for AMP - Add proper Google Analytics tracking for Google AMP."
+msgstr ""
+
+#. Found in description list item.
+msgid "Author Tracking - See author stats and discover who's the most popular author on your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "Affiliate Link Tracking - Track your affiliate links and get stats that matter."
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy Digital Downloads Google Analytics - Add Enhanced Ecommerce Tracking to your EDD store."
+msgstr ""
+
+#. Found in description list item.
+msgid "WooCommerce Google Analytics - Add Enhanced Ecommerce Tracking to your WooCommerce store."
+msgstr ""
+
+#. Found in description list item.
+msgid "Ecommerce Tracking - Add Google Analytics Ecommerce tracking to WordPress."
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Analytics Dashboard - See the stats that matter from right inside your WordPress dashboard with custom Publisher Report, Ecommerce report, and Search Console report."
+msgstr ""
+
+#. Found in description list item.
+msgid "Published Time Tracking - track the performance of your posts based on their published time in Google Analytics."
+msgstr ""
+
+#. Found in description list item.
+msgid "User ID Tracking - see stats for each individual logged-in user's activity through User ID custom dimension - great for Ecommerce and membership sites."
+msgstr ""
+
+#. Found in description list item.
+msgid "Logged-in User Tracking - see WordPress stats for what percentage of your users are logged-in."
+msgstr ""
+
+#. Found in description list item.
+msgid "Focus Keyword Tracking - see stats for Yoast focus keyword and see how it correlates with your traffic."
+msgstr ""
+
+#. Found in description list item.
+msgid "SEO Score Tracking - see stats for your Yoast SEO score and see how it impacts your traffic."
+msgstr ""
+
+#. Found in description list item.
+msgid "Tags Tracking - see stats for your WordPress tags to find out which tags are the most popular."
+msgstr ""
+
+#. Found in description list item.
+msgid "Category Tracking - see stats for your WordPress categories to find out which sections of your sites are the most popular."
+msgstr ""
+
+#. Found in description list item.
+msgid "Post Type Tracking - see stats for WordPress post types to find out which sections are performing the best."
+msgstr ""
+
+#. Found in description list item.
+msgid "Author Tracking - see stats for each author to find which author's posts generate the most traffic."
+msgstr ""
+
+#. Found in description list item, faq list item.
+msgid "Offer Easy Opt Out link for Google Analytics tracking"
+msgstr ""
+
+#. Found in description list item, faq list item.
+msgid "Integrate with Google Analytic's Chrome browser opt-out extension and built-in cookie opt-out system"
+msgstr ""
+
+#. Found in description list item, faq list item.
+msgid "Integrate with Google AMP Consent Box before enable tracking"
+msgstr ""
+
+#. Found in description list item, faq list item.
+msgid "Integrate with Cookie Notice and CookieBot plugins to collect user consent before tracking"
+msgstr ""
+
+#. Found in description list item, faq list item.
+msgid "Enable the ga() compatibility mode"
+msgstr ""
+
+#. Found in description list item, faq list item.
+msgid "Disable UserID and author name tracking"
+msgstr ""
+
+#. Found in description list item, faq list item.
+msgid "Disable the Demographics and Interest Reports for Remarketing and Advertising"
+msgstr ""
+
+#. Found in description list item, faq list item.
+msgid "Anonymyze IP in Google Analytics"
+msgstr ""
+
+#. Found in description header.
+msgid "Branding Guidelines"
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics Dashboard Plugin for WordPress Multisite Networks"
+msgstr ""
+
+#. Found in description header.
+msgid "Custom Dimensions Tracking, Custom Google Analytics Event Tracking, and More"
+msgstr ""
+
+#. Found in description header.
+msgid "Google AdSense Tracking and Affiliate Link Tracking"
+msgstr ""
+
+#. Found in description header.
+msgid "Universal Tracking + Google Analytics for AMP and Instant Articles"
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics + GDPR Compliance"
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics Enhanced Ecommerce Tracking Made Easy"
+msgstr ""
+
+#. Screenshot description.
+msgid "Custom dimensions tracking (Pro feature)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Search console report (Pro feature)"
+msgstr ""
+
+#. Screenshot description.
+msgid "eCommerce report (Pro feature)"
+msgstr ""
+
+#. Screenshot description.
+msgid "eCommerce tracking - no configuration required (Pro feature)"
+msgstr ""
+
+#. Screenshot description.
+msgid "File download tracking"
+msgstr ""
+
+#. Screenshot description.
+msgid "Authentication with MonsterInsights"
+msgstr ""
+
+#. Screenshot description.
+msgid "Top posts and pages"
+msgstr ""
+
+#. Screenshot description.
+msgid "Top countries and referrals"
+msgstr ""
+
+#. Screenshot description.
+msgid "The overview report"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Want more features? <a href=\"https://www.monsterinsights.com/?utm_source=wprepo&amp;utm_medium=link&amp;utm_campaign=liteversion\">Purchase MonsterInsights Pro</a>!"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Navigate to the Insights tab in your WordPress admin menu and configure the plugin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate Google Analytics for WordPress by MonsterInsights."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Simple, yet powerful. Amazing piece of plugin, does exactly what expected and even more.<br />\n"
+"  Matt Jaworski"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"I like how simple it is for client users and how I can turn on the advanced features for myself to get all the details right.<br />\n"
+"  Skip Shean"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With MonsterInsights Ads tracking addon, publishers can easily track the performance of their Google AdSense Ads inside their Google Analytics dashboard."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Analytics for PROs! This plugin brings it all, great features and helpful info to easily see what you are doing.<br />\n"
+"  Frank van der Sluijs"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"It just works. Really easy way to insert Google Analytics tracking code and keep it there when switching themes. No need to copy/paste code anywhere. This is the best way to handle Google Analytics in WordPress.<br />\n"
+"  Steven Gliebe"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We took the pain out of installing Google Analytics in WordPress and made it easy. Here's why over 2 million smart business owners, designers, and developers love MonsterInsights, and you will too!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>MonsterInsights Pro</strong><br />\n"
+"  This plugin is the lite version of MonsterInsights Pro plugin that comes with all the Google analytics tracking features you will ever need including events tracking, ecommerce tracking, custom dimensions tracking, popular post tracing, affiliate link tracking, and tons more. <a href=\"https://www.monsterinsights.com/?utm_source=wprepo&amp;utm_medium=link&amp;utm_campaign=liteversion\" rel=\"friend\" title=\"MonsterInsights\">Click here to purchase the best premium Google Analytics plugin for WordPress now!</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With over 2 million active installs, MonsterInsights is the most popular Google Analytics plugin for WordPress."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://www.wpbeginner.com/start-a-wordpress-blog/\" rel=\"friend\" title=\"How to start a blog\">How to Start a WordPress Blog (step by step)</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.monsterinsights.com/how-to-login-to-google-analytics/\" rel=\"friend\" title=\"How to login to Google Analytics\">How to Login to Google Analytics</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://www.monsterinsights.com/how-to-properly-setup-google-analytics-in-wordpress/\" rel=\"friend\" title=\"How to setup Google Analytics with WordPress\">How to setup Google Analytics with WordPress</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Want us to add something else? Suggest a feature and we'll get it added!"
+msgstr ""
+
+#. Found in description list item.
+msgid "Enhanced Link Attribution - Get better analytics with enhanced link attribution."
+msgstr ""
+
+#. Found in description list item.
+msgid "Performance Tracking - Control the performance rate and sample rate for your Google Analytics report."
+msgstr ""
+
+#. Found in description list item.
+msgid "Referral Tracking - See how visitors are finding your website to better focus your marketing efforts."
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Post Type Tracking - Track the performance of your custom post types."
+msgstr ""
+
+#. Found in description list item.
+msgid "Popular Post Tracking - See which blog post and section is the most popular."
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Dimensions Tracking - Enable Google analytics custom dimensions tracking for WordPress."
+msgstr ""
+
+#. Found in description list item.
+msgid "Events Tracking - Track custom button and banner clicks with Google Analytics."
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom Link Tracking - Track your outbound link clicks with Google Analytics."
+msgstr ""
+
+#. Found in description list item.
+msgid "File Download Tracking - Enable file download stats with just a click."
+msgstr ""
+
+#. Found in description list item.
+msgid "Ads Tracking - Track your Google Adsense ads with Google Analytics."
+msgstr ""
+
+#. Found in description list item.
+msgid "Universal Tracking - Get better insights with Google Analytics' universal tracking."
+msgstr ""
+
+#. Found in description list item.
+msgid "Real Time Stats - See real time stats inside your Google Analytics dashboard."
+msgstr ""
+
+#. Found in description list item.
+msgid "Quick and Easy Setup - Easily setup Google Analytics for WordPress with just a few clicks (no coding needed)"
+msgstr ""
+
+#. Found in description header.
+msgid "Popular Google Analytics Tutorials"
+msgstr ""
+
+#. Found in description header.
+msgid "Full MonsterInsights Feature List"
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics Dashboard + Real Time Stats"
+msgstr ""
+
+#. Found in description header.
+msgid "Quick &amp; Easy Google Analytics Setup"
+msgstr ""
+
+#. Screenshot description.
+msgid "Custom Dimensions report (Pro feature)"
+msgstr ""
+
+#. Screenshot description.
+msgid "Settings page"
+msgstr ""
+
+#. Found in description header.
+msgid "Google Analytics Plugin for WordPress"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For all frequently asked questions, and their answers, check the <a href=\"https://www.monsterinsights.com/docs/\">MonsterInsights Knowledge base</a>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install Google Analytics for WordPress by MonsterInsights either via the WordPress.org plugin repository or by uploading the files to your server. (See instructions on <a href=\"http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/\" rel=\"friend\">how to install a WordPress plugin</a>)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can also learn about other <a href=\"http://www.wpbeginner.com/category/plugins/\" rel=\"friend\" title=\"Best WordPress Plugins\">best WordPress plugins</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin would not be possible without the help and support of <a href=\"http://www.wpbeginner.com/\" rel=\"friend\" title=\"WPBeginner\">WPBeginner</a>, the largest WordPress resource site. You can learn from our <a href=\"http://www.wpbeginner.com/category/wp-tutorials/\" rel=\"friend\" title=\"WordPress Tutorials\">free WordPress Tutorials</a> like <a href=\"http://www.wpbeginner.com/how-to-install-wordpress/\" rel=\"friend\" title=\"How to Install WordPress - Step by Step\">how to install WordPress</a>, <a href=\"http://www.wpbeginner.com/wordpress-hosting/\" rel=\"friend\" title=\"How to choose the best WordPress hosting\">choose the best WordPress hosting</a>, <a href=\"http://www.wpbeginner.com/glossary/\" rel=\"friend\" title=\"WordPress Glossary Terms for Beginners\">WordPress glossary</a>, and more."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you like this plugin, then consider checking out our other projects:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is created by <a href=\"https://twitter.com/chriscct7\" rel=\"friend\" title=\"Chris Christoff\">Chris Christoff</a> and <a href=\"https://syedbalkhi.com/\" rel=\"friend\" title=\"Syed Balkhi\">Syed Balkhi</a> with sponsorship from <a href=\"http://www.wpbeginner.com/\" rel=\"friend\" title=\"WPBeginner\">WPBeginner</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For more details, see this infographic on <a href=\"http://www.wpbeginner.com/beginners-guide/self-hosted-wordpress-org-vs-free-wordpress-com-infograph/\" rel=\"friend\" title=\"Self Hosted WordPress.org vs Free WordPress.com\">self hosted WordPress.org vs free WordPress.com</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Like all WordPress plugins, Google Analytics by MonsterInsights is only available for self-hosted WordPress sites. This means you will need to <a href=\"http://www.wpbeginner.com/wp-tutorials/how-to-properly-move-your-blog-from-wordpress-com-to-wordpress-org/\" rel=\"friend\" title=\"How to properly move from WordPress.com to WordPress.org\">switch from WordPress.com to WordPress.org</a> if you want to use this plugin on your WordPress site."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://wpforms.com/\" rel=\"friend\" title=\"WPForms\">WPForms</a> - Best WordPress Contact Form Plugin"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://optinmonster.com/\" rel=\"friend\" title=\"OptinMonster\">OptinMonster</a> - Get More Email Subscribers"
+msgstr ""
+
+#. Found in description header.
+msgid "What's Next"
+msgstr ""
+
+#. Found in description header.
+msgid "Credits"
+msgstr ""
+
+#. Found in description header.
+msgid "Note for Beginners"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: No longer used php pages which were replaced with VueJS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Link attribution option disable was no longer disabling frontend tracking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Improved overall VueJS compatibility with scripts loaded by other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Added a check to prevent using the current domain in the cross-domain setting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Prevent adding another Google Analytics tracking script in the custom code box."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Updated the link content priority and aria-label is now used if present."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Brand new About Us page which includes info on getting started and using MonsterInsights features."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Frontend admin bar reports for your website in the last 30 days."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Fix a conflict with a date.js file loaded by another plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Fix for Javascript error thrown by vendor min file causing breaking JS error on some hosting providers which breaks our plugin's VueJS app."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Conflict resolution for Video Mate Pro theme and the RedQ Reuse Form plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Network installs reauthentication was not working properly in certain situations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Manual UA code insertion from the dashboard has been fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: The label for the file download setting has been adjusted to be more clear."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: The affiliate report will now show the url of the affiliate link being navigated to instead of the label."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Improved double UA code detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Improved airplane mode compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Onboarding Wizard feedback if JavaScript needed to run does not load correctly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweaked: Improved the frontend affiliate code to support frameworks which modify the JavaScript Array prototype ( for example MooTools )"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added an integration with the ThirstyAffiliates plugins for the affiliate links tracking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Brand new Cross-Domain setting to make it easier to track across multiple domains without having to add any code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Updated Tools page, better integrated with the new, VueJS powered, settings panel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Updated Dashboard widget which now shows overview reports and is powered by VueJS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Updated Reports area using VueJS for better loading times and more consistency."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Missing image file added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Improved the Manual UA field for better feedback and compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added a filter to set the default value of events_mode and tracking_mode for compatibility with other plugins since we no longer use these options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: WordPress Core currently has a bug (18857) that affects a super small percentage of our userbase (under 3%) that we've patched our plugin for until WordPress can get a fix shipped in a release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: We've removed a bunch of long deprecated PHP constants, filters, and  functions, and streamlined the install routines to make MonsterInsights even faster."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed: MonsterInsights's debug mode has been removed. Originally designed as a tool for our support staff to use when helping users we found that we internally were not using it once we started using more powerful browser extensions, so to reduce user confusion (since it is not designed for use by users), we've removed it."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: For users who are using the \"light\" admin color scheme, you'll notice our menu icon now adapts to it automatically."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: As part of our ongoing mission to make MonsterInsights accessible for all, we've spent a large amount of this release building out significant tooling for accessibility issue detection, and fixing any issues we have found on the new settings panel. We're going to continue to work on ensuring MonsterInsights is not just the best Google Analytics plugin for WordPress but also the most accessible, and in future releases you'll see even more compatibility updates for this."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Javascript conflicts with other plugins aren't fun, so we've spent a ton of time testing with hundreds of plugins for this release, and changing our internal code to make it harder for plugin authors not following WordPress best practices to conflict with our code. We've been putting the data from the opt-in usage tracking system to test all of the top plugins and themes that our users run (and we'll continue to do this moving forward)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Based on our opt-in usage tracking data (thank you by the way for those that opt into it), we've removed a couple of the settings that nearly all users had enabled/disabled to make the panel even more simple and useful."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: We've gone through the whole settings area and rewrote the labels for each setting to make them more clear as to what they do."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: MonsterInsights's support staff often sees users who have upgraded to using MonsterInsights from other Google Analytics plugins (or even worse hardcoded tracking code), and forget to turn off the old tracking code. MonsterInsights will now automatically detect most of those other tracking codes and let you know so you get the most accurate tracking numbers from the start."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Significant performance improvements on both the admin and frontend side of things. This is best exemplified by the new settings panel, which loads significantly faster than the previous one."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Users using the affiliate link tracking feature will find they can now define a custom label for each link they want to track, and it's all validated in a new custom repeater field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Brand new onboarding wizard that walks you through setting up MonsterInsights and automatically configures your MonsterInsights settings based on your website needs in just a few minutes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Brand new settings panel written in VueJS! The new panel has been designed to simplify the process of setting up MonsterInsights and make MonsterInsights's powerful features more user friendly to use."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Added compatibility shims for a couple plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where the save button might not appear for the network settings panel."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Adjusted authentication compatibility checks to allow for more accurate checking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where some users were unable to reauthenticate their site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue on some Lite installs where timezone differences caused users to see an error related to custom date ranges."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: On certain browsers when the browser screen width is small the graph tooltips might have appeared off-center."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Compatibility issue with Microsoft Edge and IE browsers where the table on overview report might overflow."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where on a network install of multisite, all sites might not de-authenticate on removal."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Compatibility for Writee theme, YouTube by EmbedPlus plugin, Blog Time plugin, MaterialWP plugin and Swifty Image Widget plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed: Issue where on MonsterInsights pages, the dropdowns on the WP admin menu might not work."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Better error handling for reports."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: We've added new custom link attribution, so now you can easily set custom link categories, actions, and labels, which MonsterInsights will use with precedence over our comprehensive automatic link detection, and is compatible with our AMP addon. For usage instructions, see our documentation on <a href=\"https://www.monsterinsights.com/docs/custom-link-attribution/\">custom link attribution</a>."
 msgstr ""
 
 #. Found in changelog list item.
@@ -24,7 +966,7 @@ msgid "Fixed: We've fixed issues where sites that were recreated/migrated someti
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Tweak: Compatibility for the Fix WP Tables and Magee Shortcodes plugins."
+msgid "Tweak: Compatibility for the Fix WP Tables and Magee Shortcodes"
 msgstr ""
 
 #. Found in changelog list item.
@@ -187,42 +1129,6 @@ msgstr ""
 msgid "New: We've added links to the pages listed in the top pages part of the Overview report to make it easier to see which page each title belongs to."
 msgstr ""
 
-#. Screenshot description.
-msgid "Custom dimensions tracking (Pro feature)"
-msgstr ""
-
-#. Screenshot description.
-msgid "Search console report (Pro feature)"
-msgstr ""
-
-#. Screenshot description.
-msgid "eCommerce report (Pro feature)"
-msgstr ""
-
-#. Screenshot description.
-msgid "eCommerce tracking - no configuration required (Pro feature)"
-msgstr ""
-
-#. Screenshot description.
-msgid "File download tracking"
-msgstr ""
-
-#. Screenshot description.
-msgid "Authentication with MonsterInsights"
-msgstr ""
-
-#. Screenshot description.
-msgid "Top posts and pages"
-msgstr ""
-
-#. Screenshot description.
-msgid "Top countries and referrals"
-msgstr ""
-
-#. Screenshot description.
-msgid "The overview report"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Fixed: We've allowed the disabling of tracking for admininistrator role users on single sites."
 msgstr ""
@@ -280,7 +1186,7 @@ msgid "New: We now output a notice in the console and output the GA code (though
 msgstr ""
 
 #. Found in changelog list item.
-msgid "New: The __gaTracker and disable tracking functions will always be defined, even when we're not tracking users (for example if viewing a preview, or if a logged-in administrator) to allow sites to not have to worry about breakage when variable exist checking isn't done. "
+msgid "New: The __gaTracker and disable tracking functions will always be defined, even when we're not tracking users (for example if viewing a preview, or if a logged-in administrator) to allow sites to not have to worry about breakage when variable exist checking isn't done."
 msgstr ""
 
 #. Found in changelog list item.
@@ -531,302 +1437,6 @@ msgstr ""
 msgid "New: Functions needed to support future features including enhanced eCommerce"
 msgstr ""
 
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Want more features? <a href=\"https://www.monsterinsights.com/?utm_source=wprepo&amp;utm_medium=link&amp;utm_campaign=liteversion\">Purchase MonsterInsights Pro</a>!"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Navigate to the Insights tab in your WordPress admin menu and configure the plugin."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Activate Google Analytics for WordPress by MonsterInsights."
-msgstr ""
-
-#. Found in description paragraph.
-msgid ""
-"Simple, yet powerful. Amazing piece of plugin, does exactly what expected and even more.<br />\n"
-"  Matt Jaworski"
-msgstr ""
-
-#. Found in description paragraph.
-msgid ""
-"I like how simple it is for client users and how I can turn on the advanced features for myself to get all the details right.<br />\n"
-"  Skip Shean"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "MonsterInsights allow you to take full advantage of all the powerful Google Analytics features such as custom dimensions, file download tracking, outbound link tracking, events tracking, performance tracking, and more."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "With our Ads tracking addon, publishers can easily track the performance of their Google Adsense inside their Google Analytics dashboard."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "You can add eCommerce tracking with literally 1 click, and start tracking popular products, average order value, ecommerce conversion rate, and more."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "MonsterInsights Ecommerce addon helps you add Google Analytics Ecommerce tracking to your WordPress WooCommerce and Easy Digital Downloads store."
-msgstr ""
-
-#. Found in description paragraph.
-msgid ""
-"Analytics for PROs! This plugin brings it all, great features and helpful info to easily see what you are doing.<br />\n"
-"  Frank van der Sluijs"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "You can also see how the users are finding your website, so you can better focus your marketing efforts."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The page level analytics show you exactly which pages and sections on your website are the most popular."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "MonsterInsights uses universal tracking, so you can track your users across devices and platforms. With demographics and interest reports, you also get a better understanding of your audience."
-msgstr ""
-
-#. Found in description paragraph.
-msgid ""
-"Works everytime! This plugin has worked with every version of WordPress I’ve ever used. Very reliable.<br />\n"
-"  Vineeta"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "With Google Analytics, there's no need to wait till the next day to find out about traffic spikes or potential problems. You can get real time stats, so you can unlock the maximum potential revenue for each customer."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "MonsterInsights makes analytics easy. You can see your site’s performance at a glance with our Google Analytics Dashboard right inside your WordPress admin area."
-msgstr ""
-
-#. Found in description paragraph.
-msgid ""
-"It just works. Really easy way to insert Google Analytics tracking code and keep it there when switching themes. No need to copy/paste code anywhere. This is the best way to handle Google Analytics in WordPress.<br />\n"
-"  Steven Gliebe"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Easily setup Google Analytics on your site without touching any code. If you can point-and-click, then you can use MonsterInsights."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "https://www.youtube.com/watch?v=nHZBUDceRt0"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "We took the pain out of connecting with Google Analytics and made it easy. Here's why over 1 million smart business owners, designers, and developers love MonsterInsights, and you will too!"
-msgstr ""
-
-#. Found in description paragraph.
-msgid ""
-"<strong>MonsterInsights Pro</strong><br />\n"
-"  This plugin is the lite version of the MonsterInsights Pro plugin that comes with all the analytics features you will ever need including ads tracking, ecommerce tracking, custom dimensions tracking, popular post tracing, events tracking, and tons more. <a href=\"https://www.monsterinsights.com/?utm_source=wprepo&amp;utm_medium=link&amp;utm_campaign=liteversion\" rel=\"friend\" title=\"MonsterInsights\">Click here to purchase the best Google Analytics plugin for WordPress now!</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "At MonsterInsights, user experience is our #1 priority. That's why we make it extremely easy for you to connect and view your Google Analytics reports from inside your WordPress dashboard. Our tracking settings and workflows make MonsterInsights the most beginner friendly google analytics plugin in the market."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "With almost 15 million downloads, MonsterInsights is the most popular Google Analytics plugin for WordPress."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "MonsterInsights allow you to connect your WordPress website with Google Analytics, so you can see how visitors find and use your website, so you can keep them coming back. Simply put, we show you the stats that matter."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "We believe that you shouldn't have to hire a developer to add Google Analytics to your website. That's why we built <a href=\"https://www.monsterinsights.com/?utm_source=wprepo&amp;utm_medium=link&amp;utm_campaign=liteversion\" rel=\"friend\" title=\"MonsterInsights\">MonsterInsights</a>, a complete Google Analytics for WordPress plugin that's EASY and POWERFUL."
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"http://www.wpbeginner.com/start-a-wordpress-blog/\" rel=\"friend\" title=\"How to start a blog\">How to Start a WordPress Blog (step by step)</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://www.monsterinsights.com/how-to-login-to-google-analytics/\" rel=\"friend\" title=\"How to login to Google Analytics\">How to Login to Google Analytics</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://www.monsterinsights.com/how-to-properly-setup-google-analytics-in-wordpress/\" rel=\"friend\" title=\"How to setup Google Analytics with WordPress\">How to setup Google Analytics with WordPress</a>"
-msgstr ""
-
-#. Found in description list item.
-msgid "Want us to add something else? Suggest a feature and we'll get it added!"
-msgstr ""
-
-#. Found in description list item.
-msgid "Google Analytics Tools - Helpful tools for Google analytics."
-msgstr ""
-
-#. Found in description list item.
-msgid "Enhanced Link Attribution - Get better analytics with enhanced link attribution."
-msgstr ""
-
-#. Found in description list item.
-msgid "Performance Tracking - Control the performance rate and sample rate for your Google Analytics report."
-msgstr ""
-
-#. Found in description list item.
-msgid "Referral Tracking - See how visitors are finding your website to better focus your marketing efforts."
-msgstr ""
-
-#. Found in description list item.
-msgid "Custom Post Type Tracking - Track the performance of your custom post types."
-msgstr ""
-
-#. Found in description list item.
-msgid "Popular Post Tracking - See which blog post and section is the most popular."
-msgstr ""
-
-#. Found in description list item.
-msgid "Author Tracking - See who's the most popular author with Author tracking."
-msgstr ""
-
-#. Found in description list item.
-msgid "Custom Dimensions Tracking - Enable Google analytics custom dimensions tracking for WordPress."
-msgstr ""
-
-#. Found in description list item.
-msgid "Events Tracking - Track custom button and banner clicks with Google Analytics."
-msgstr ""
-
-#. Found in description list item.
-msgid "Link Tracking - Track your outbound link clicks with Google Analytics."
-msgstr ""
-
-#. Found in description list item.
-msgid "File Download Tracking - Enable file download stats with just a click."
-msgstr ""
-
-#. Found in description list item.
-msgid "Ads Tracking - Track your Google Adsense ads with Google Analytics."
-msgstr ""
-
-#. Found in description list item.
-msgid "Ecommerce Tracking - Add Google Analytics tracking for WooCommerce and Easy Digital Downloads store."
-msgstr ""
-
-#. Found in description list item.
-msgid "Google Analytics Dashboard - See the stats that matter from right inside your WordPress dashboard."
-msgstr ""
-
-#. Found in description list item.
-msgid "Universal Tracking - Get better insights with Google Analytics' universal tracking."
-msgstr ""
-
-#. Found in description list item.
-msgid "Real Time Stats - See real time stats inside your Google Analytics dashboard."
-msgstr ""
-
-#. Found in description list item.
-msgid "Quick and Easy Setup - Easily setup Google Analytics for WordPress with just a few clicks (no coding needed)"
-msgstr ""
-
-#. Found in description header.
-msgid "Popular Google Analytics Tutorials"
-msgstr ""
-
-#. Found in description header.
-msgid "Full MonsterInsights Feature List"
-msgstr ""
-
-#. Found in description header.
-msgid "Custom Dimensions, Events Tracking, and More"
-msgstr ""
-
-#. Found in description header.
-msgid "eCommerce and Ads Tracking"
-msgstr ""
-
-#. Found in description header.
-msgid "Universal Tracking + Page Level Analytics"
-msgstr ""
-
-#. Found in description header.
-msgid "Google Analytics Dashboard + Real Time Stats"
-msgstr ""
-
-#. Found in description header.
-msgid "Quick &amp; Easy Google Analytics Setup"
-msgstr ""
-
-#. Screenshot description.
-msgid "Custom Dimensions report (Pro feature)"
-msgstr ""
-
-#. Screenshot description.
-msgid "Settings page"
-msgstr ""
-
-#. Found in description header.
-msgid "Google Analytics Plugin for WordPress"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "For all frequently asked questions, and their answers, check the <a href=\"https://www.monsterinsights.com/docs/\">MonsterInsights Knowledge base</a>."
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Install Google Analytics for WordPress by MonsterInsights either via the WordPress.org plugin repository or by uploading the files to your server. (See instructions on <a href=\"http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/\" rel=\"friend\">how to install a WordPress plugin</a>)"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "You can also learn about other <a href=\"http://www.wpbeginner.com/category/plugins/\" rel=\"friend\" title=\"Best WordPress Plugins\">best WordPress plugins</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "This plugin would not be possible without the help and support of <a href=\"http://www.wpbeginner.com/\" rel=\"friend\" title=\"WPBeginner\">WPBeginner</a>, the largest WordPress resource site. You can learn from our <a href=\"http://www.wpbeginner.com/category/wp-tutorials/\" rel=\"friend\" title=\"WordPress Tutorials\">free WordPress Tutorials</a> like <a href=\"http://www.wpbeginner.com/how-to-install-wordpress/\" rel=\"friend\" title=\"How to Install WordPress - Step by Step\">how to install WordPress</a>, <a href=\"http://www.wpbeginner.com/wordpress-hosting/\" rel=\"friend\" title=\"How to choose the best WordPress hosting\">choose the best WordPress hosting</a>, <a href=\"http://www.wpbeginner.com/glossary/\" rel=\"friend\" title=\"WordPress Glossary Terms for Beginners\">WordPress glossary</a>, and more."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "If you like this plugin, then consider checking out our other projects:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "This plugin is created by <a href=\"https://twitter.com/chriscct7\" rel=\"friend\" title=\"Chris Christoff\">Chris Christoff</a> and <a href=\"https://syedbalkhi.com/\" rel=\"friend\" title=\"Syed Balkhi\">Syed Balkhi</a> with sponsorship from <a href=\"http://www.wpbeginner.com/\" rel=\"friend\" title=\"WPBeginner\">WPBeginner</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "For more details, see this infographic on <a href=\"http://www.wpbeginner.com/beginners-guide/self-hosted-wordpress-org-vs-free-wordpress-com-infograph/\" rel=\"friend\" title=\"Self Hosted WordPress.org vs Free WordPress.com\">self hosted WordPress.org vs free WordPress.com</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Like all WordPress plugins, Google Analytics by MonsterInsights is only available for self-hosted WordPress sites. This means you will need to <a href=\"http://www.wpbeginner.com/wp-tutorials/how-to-properly-move-your-blog-from-wordpress-com-to-wordpress-org/\" rel=\"friend\" title=\"How to properly move from WordPress.com to WordPress.org\">switch from WordPress.com to WordPress.org</a> if you want to use this plugin on your WordPress site."
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"https://wpforms.com/\" rel=\"friend\" title=\"WPForms\">WPForms</a> - Best WordPress Contact Form Plugin"
-msgstr ""
-
-#. Found in description list item.
-msgid "<a href=\"http://optinmonster.com/\" rel=\"friend\" title=\"OptinMonster\">OptinMonster</a> - Get More Email Subscribers"
-msgstr ""
-
-#. Found in description header.
-msgid "What's Next"
-msgstr ""
-
-#. Found in description header.
-msgid "Credits"
-msgstr ""
-
-#. Found in description header.
-msgid "Note for Beginners"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Google Analytics for WordPress plugin by MonsterInsights allows you to track your blog visitors easily and always stays up to date with the newest features in Google Analytics."
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Tweak: All settings now use the Settings API framework, including all addons."
 msgstr ""
@@ -1064,7 +1674,7 @@ msgid "Tweak: The config expired notice has been updated to reflect that it can 
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Tweak: The analytics.js output has been tweaked to be slightly more asthetically pleasing (its aligned correctly). We realize no one probably cares but we look at this code for every user we support, so it help us. "
+msgid "Tweak: The analytics.js output has been tweaked to be slightly more aesthetically pleasing (its aligned correctly). We realize no one probably cares but we look at this code for every user we support, so it help us."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1188,7 +1798,7 @@ msgid "Removed: unused track_full_url setting"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Fixed: Prevents an issue where users with a plugin like Airplane Mode active will get a better error message than \"code invalid\" on the GA token auth screen (and also fixes how that detection is done in other parts of the plugin). "
+msgid "Fixed: Prevents an issue where users with a plugin like Airplane Mode active will get a better error message than \"code invalid\" on the GA token auth screen (and also fixes how that detection is done in other parts of the plugin)."
 msgstr ""
 
 #. Found in changelog list item.
@@ -1220,7 +1830,7 @@ msgid "Tweak: Completely overhauled PHP regex tracking to solve nearly a dozen o
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Tweak: Better debugging + disabled + preview tracking modes, that more clearly indicate what's going on "
+msgid "Tweak: Better debugging + disabled + preview tracking modes, that more clearly indicate what's going on"
 msgstr ""
 
 #. Found in changelog list item.

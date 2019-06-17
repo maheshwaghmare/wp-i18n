@@ -1,0 +1,128 @@
+# Translation of Plugins - AMP - Stable Readme (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - AMP - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - AMP - Stable Readme (latest release)\n"
+
+#. Short description.
+msgid "Enable AMP on your WordPress site, the WordPress way."
+msgstr ""
+
+#. Plugin name.
+msgid "AMP"
+msgstr ""
+
+#. Found in installation list item.
+msgid "If you currently use older versions of the plugin in <code>Reader</code> mode, it is strongly encouraged to migrate to <code>Transitional</code> or <code>Native</code> mode. Depending on your theme/plugins, some development work may be required."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you are a developer, we encourage you to <a href=\"https://github.com/ampproject/amp-wp\">follow along</a> or <a href=\"https://github.com/ampproject/amp-wp/blob/develop/contributing.md\">contribute</a> to the development of this plugin on GitHub."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin can be configured to follow one of three different template modes: Native, Transitional, and Reader. When configured to operate in Reader and Transitional modes, a given post/page will have a canonical URL as well as a corresponding (paired) AMP URL. The AMP plugin is not serving as a mobile theme; it does not redirect mobile devices to the AMP version. Instead, the AMP version is served to mobile visitors when they find the content on platforms such as Twitter, Pinterest, Google Search, and others."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To learn more about the plugin and start leveraging its capabilities to power your AMP content creation workflow check <a href=\"https://amp-wp.org\">the official AMP plugin product site</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With the official AMP plugin for WordPress, the WordPress ecosystem is provided with the capabilities and tools it needs to build world-class AMP experiences without deviating from its standard, flexible, and well-known content creation workflow."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Features and capabilities provided by the plugin include:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The AMP Project is an open-source initiative aiming to make the web better for all.  AMP enables web experiences that are consistently fast, beautiful and high-performing across distribution platforms. The Official AMP Plugin for WordPress supports fully integrated AMP publishing for WordPress sites, with robust capabilities and granular publisher controls."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Many Optimizations</strong>: A myriad of code, performance, and developer experience improvements: from customization flexibility, to better UI flows, internationalization, accessibility, etc."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>AMP-first Experiences support</strong>: enabling full-site AMP experiences without sacrificing the flexibility of the platform, or the fidelity of content."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Gutenberg Support</strong>: enabling AMP content creation fully integrated with Gutenberg."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Core Theme Support</strong>: enabling full AMP validity for four default themes (i.e. Twenty Fifteen, Twenty Sixteen, Twenty Seventeen, Twenty Nineteen)."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>CSS Tree Shaking</strong>: to assist in dealing with cases where the defined CSS rules on a site exceed the CSS size limit allowed on single AMP pages."
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Compatibility Tool</strong>: to assist the development of AMP experiences by enabling AMP debugging with detailed information about validation errors that may exist, the markup/scripts causing them, and the specific components on site (e.g theme, plugin, core) responsible for that page content."
+msgstr ""
+
+#. Found in description header.
+msgid "Getting Started"
+msgstr ""
+
+#. Screenshot description.
+msgid "A WP-CLI command is provided to check the URLs on a site for AMP validity. Results are available in the admin for inspection."
+msgstr ""
+
+#. Screenshot description.
+msgid "Styles added by themes and plugins are automatically concatenated, minified, and tree-shaken to try to keep the total under 50KB of inline CSS."
+msgstr ""
+
+#. Screenshot description.
+msgid "Validated URLs include the list of validation errors encountered, giving control over whether sanitization for a validation error is accepted or rejected."
+msgstr ""
+
+#. Screenshot description.
+msgid "The editor will surface validation issues during content authoring. The specific blocks with validation errors are indicated."
+msgstr ""
+
+#. Screenshot description.
+msgid "Plugin checks for AMP validity and will indicate when either: no issues are found, new issues need moderation, or issues block AMP from being served."
+msgstr ""
+
+#. Screenshot description.
+msgid "Make the entire site available in AMP or pick specific post types and templates; you can also opt-out on per-post basis."
+msgstr ""
+
+#. Screenshot description.
+msgid "Switch from Reader mode to Transitional or Native mode in AMP settings screen. You may need to disable the admin bar in AMP if your theme has a larger amount of CSS."
+msgstr ""
+
+#. Screenshot description.
+msgid "Reader mode templates are still available, but they are are limited. Not only do they differ from the active theme, any validation errors are silently sanitized."
+msgstr ""
+
+#. Screenshot description.
+msgid "Many themes can be served as AMP without any changes; the default experience is as if JavaScript is turned off in the browser since scripts are removed."
+msgstr ""
+
+#. Screenshot description.
+msgid "Theme support enables you to reuse the active theme's templates and stylesheets; all WordPress features (menus, widgets, comments) are available in AMP."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the folder to the <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "For the plugin’s changelog, please see <a href=\"https://github.com/ampproject/amp-wp/releases\">the Releases page on GitHub</a>."
+msgstr ""

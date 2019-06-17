@@ -1,0 +1,892 @@
+# Translation of Plugins - SG Optimizer - Development Readme (trunk) in Marathi
+# This file is distributed under the same license as the Plugins - SG Optimizer - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - SG Optimizer - Development Readme (trunk)\n"
+
+#. Short description.
+msgid "With the SiteGround Optimizer enabled, you&#039;re getting the very best from your hosting environment!"
+msgstr ""
+
+#. Plugin name.
+msgid "SG Optimizer"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg status html|js|js-async|css|combine-css|querystring|emojis|images|lazyload_images|lazyload_gravatars|lazyload_thumbnails|lazyload_responsive|lazyload_textwidgets|gzip|browser-caching|memcache|ssl|ssl-fix|autoflush|dynamic-cache - returns optimization current status (enabled|disabled)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can exclude images from Lazy Load using the following filter:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can exclude url or url that contain specific query param using the following filters:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can exclude script from being loaded asynchronous using the filter we’ve designed for that purpose. Here’s an example of the code, you can add to your functions.php file:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can exclude script from being minified using the filter we’ve designed for that purpose. Here’s an example of the code, you can add to your functions.php file:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can exclude styles from being combined and minified using the filters we’ve designed for that purpose. Here’s an example of the code, you can add to your functions.php file:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In version 5.0 we've added full WP-CLI support for all plugin options and functionalities."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Preferrably, you can pass an URL to the function to clear the cache just for it instead of purging the entire cache. For example:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If your plugin does not trigger standard WordPress hooks or you need us to purge the cache, you can use this public function in your code:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Here, you can enable or disable optimization for your newly uploaded images, bulk optimize your old ones and enable lazy loading for your site images."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In this tab, you can enable or disable Minification of your HTML, JS and CSS resources, remove the Emoji support and remove the query strings from your static resources."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Here, you can force HTTPS for your site, switch between different PHP Versions (compatibility check available), and enable or disable Gzip Compression and Borwser Caching rules for your site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In this tab, you can configure your Dynamic Caching and Memcached. Make sure you've enabled them from your cPanel before using the plugin. You can enable/disable the automatic cache purge, exclude URLs from the cache and test your pages if they are properly cached."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "For detailed information on our plugin and how it works, please check out our <a href=\"https://www.siteground.com/tutorials/wordpress/sg-optimizer/\" title=\"SG Optimizer Tutorial\">SG Optimizer Tutorial</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The SG Optimizer plugin has few different parts handling speciffic performance optimizations:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin is designed to link WordPress with the SiteGround Performance services. It WILL NOT WORK on another hosting provider."
+msgstr ""
+
+#. Found in description list item.
+msgid "WordPress 4.7"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize browsercache enable|disable - enables or disables Browser caching rules"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize gzip enable|disable - enables or disables Gzip compression for your site"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize lazyload enable|disable - enables or disables Lazy loading of images"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize images enable|disable - enables or disables New image optimization"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize emojis enable|disable - enables or disables stripping of the Emoji scripts"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize querystring enable|disable - enables or disables query strings removal"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize css enable|disable - enables or disables CSS minification"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize js enable|disable - enables or disables JS minification"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize html enable|disable - enables or disables HTML minification"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg optimize - enables or disables different optimization options for your site:"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg phpver check (--version=) - checks your site for compatibility with PHP 7.1 or the version you specify"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg forcehttps enable|disable - enables or disables HTTPS for your site"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg memcached enable|disable - enables or disables Memcached"
+msgstr ""
+
+#. Found in description list item.
+msgid "wp sg purge (url) - purges the entire cache or if URL is passed "
+msgstr ""
+
+#. Found in description header.
+msgid "WP-CLI Support"
+msgstr ""
+
+#. Found in description header.
+msgid "Plugin Compatibility"
+msgstr ""
+
+#. Found in description header.
+msgid "Image Optimization"
+msgstr ""
+
+#. Found in description header.
+msgid "Frontend Optimization"
+msgstr ""
+
+#. Found in description header.
+msgid "Environment Optimization"
+msgstr ""
+
+#. Found in description header.
+msgid "SuperCacher Settings"
+msgstr ""
+
+#. Screenshot description.
+msgid "Multisite Only! In the Per Site Defaults tab, you can configure how the new sites, added to your network will be setup."
+msgstr ""
+
+#. Screenshot description.
+msgid "Multisite Only! In the Global Settings tab, you can configure all options that are global for your network."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Image Optimization tab allows you to optimize your Media Library images, aswell as adds Lazy Loading functionality for your site."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Frontend Optimization tab allows you to Minify HTML, CSS &amp; JS, as well as to remove query strings from your static resources and disable the Emoji support."
+msgstr ""
+
+#. Screenshot description.
+msgid "In the Environment Optimization tab, you can force HTTPS for your site, switch PHP versions and enable Gzip and Browser Caching rules."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Super Cacher Settings tab handles your Dynamic caching and Memcached. Here, you can exclude URls from the cache, test your site and purge the Dynamic caching manually."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Our plugin uses a cookie in order to function properly. It does not store personal data and is used solely for the needs of our caching system."
+msgstr ""
+
+#. Found in description list item.
+msgid "SiteGround account"
+msgstr ""
+
+#. Found in description list item.
+msgid "PHP 5.5"
+msgstr ""
+
+#. Found in description header.
+msgid "Configuration"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Plugins -&gt; Installed Plugins and click the 'Activate' link under the WordPress SG CachePress listing"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click the 'Install Now' button"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click the 'Choose File' button and point your browser to the SGCachePress.zip file you've downloaded"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Select the 'Upload' menu "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Login to the WordPress admin panel and go to Plugins -&gt; Add New"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once the plugin is installed, click on the Activate plugin link"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click on the Install button under the SG CachePress plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Search for \"SG CachePress\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Plugins -&gt; Add New"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual Installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Automatic Installation"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In order to work correctly, this plugin requires that your server meets the following criteria:"
+msgstr ""
+
+#. Found in description list item.
+msgid "If you're not hosted with SiteGround this plugin WILL NOT WORK  because it relies on a specific server configuration"
+msgstr ""
+
+#. Found in description header.
+msgid "Requirements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added better WP-CLI command documentation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Excluded large PNGs from optimizations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved CSS optimization for inclusions without protocol"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Elementor support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with Combine CSS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added wp cli status command for checking optimization status"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved PHP Version switching checks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Image Optimization checks"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved LazyLoad Support for WooCommerce sites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for Recommended by SiteGround PHP Version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added PHP 7.3 support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Filter to query params from HTML Minification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to exclude pages from HTML Minification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added filter to exclude images from Lazy Loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cache purge from the admin bar now handles combined files too"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved cache invalidation for combined styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Lazy Load for Responsive Images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Memcached Reliability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Compatibility Issues with Woo PDF Catalog Plugin and HTML Minification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Compatibility Issues with 3rd Party Plugins and Lazy Load"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Issue with Query String Removal Script in the Admin Section"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Issue with WP Rocket’s .htaccess rules and GZIP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Lazy Load Functionality on Mobile Devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Filter to Exclude Styles from CSS Combination"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WooCommerce Support for LazyLoad"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Async Load of Render-Blocking JS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added CSS Combination Functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved security"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better input validation and sanitation for PHP Version check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Interface Improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Modified HTML minification to keep comments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Surpress dynamic cache notices for localhost sites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better cache purge for multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better notice handling for Multisite and conflicting plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Optimized WP-CLI commands for better performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved handling of third party plugins causing issues with the compatibility checker functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issue with Mythemeshop themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed incompatibility with JCH Optimize"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Spanish translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Beaver Builder issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed WPML problems"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Exclude Lazy Load from Backend pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Exclude Lazy Load from AMP pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issues with exclude URL on update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved https force"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved memcached flush"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed woocommerce bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SEO Improvements in the Lazy Load functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with labels for HTML, CSS &amp; JS Minification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug when user accesses their site through IP/~cPaneluser"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with conflicting plugin notices for non-admins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with memcached notifications"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to stop the image optimization and resume it later"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved image optimization handling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better .htaccess handling when disabling and enabling Browser Cache and Gzip"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added check and removal of duplicate Browser caching  rules in your .htaccess file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added check and removal of duplicate Gzip rules in your .htaccess file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved check for existing SSL rules in your .htaccess file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Flush redux cache when updating to new version "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with modifying wrong .htaccess file for installations in subdirectory"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with notifications removal"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Memcache issues fixed. Unique WP_CACHE_KEY_SALT is generated each time you enable it on your site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better status update handling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to start checks even if the default WP Cron is disabled (in case you use real cronjob)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed php version regex to handle rules from other plugins."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed images optimization endless loops."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Compatibility Checker progress issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow users to hide notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to re-optimize images."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed CSS minification issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better Interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better Multisite Support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Full WP-CLI Support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Images Optimizatoins adder"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Environment optimizations added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Frontend optimiztions added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Complete plugin refactoring"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added information about the cookie our plugin uses in the readme file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug in the force SSL functionality in certain cases for MS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better https enforcement in MS environment"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed stopping of WP Rocket cache"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switching recommended PHP Version to 7.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WPML and Memcache / Memcached bug fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UK locale issue fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed minor cosmetic errors in the interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security fixes against, additional access checks introduced"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multiple performance &amp; interface improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cache is being purged per site and not for the entire network"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WPML support when Memcached is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Network admin can disallow Cache and HTTPS configuration pages per site"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Network admin can purge the cache per site "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Quick optimizations - Gzip and Browser cache config settings for the Network Admin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added proper Multisite support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed minor interface issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with disabling the Force HTTPS option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added logging of failed attempts in XMLRPC API."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed cache purge issue when CloudFlare is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WP-CLI command for cache purge - wp sg purge"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved public purge function for theme and plugin developers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a link in the PHP Check interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Memcache.tpl"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved WP-CLI compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved cron fallback, added error message if the WP CRON is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adding PHP 7.0 Compatibility check &amp; PHP Version switch"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Certficiate check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with unwrittable .htaccess"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug in adding CSS files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "User-agent added to the SSL availability check"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP Compatibility fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin prepared for PHP version compatibility checker and changer tool"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "HTTPS Force functionality added which will reconfigure WordPress, make an .htaccess redirect to force all the traffic through HTTPS and fixes any potential insecure content issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Interface split into multiple screens"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin renamed to SG Optimizer"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added public purge function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Memcached bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Memcached performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved WordPress 4.6 compatibilitty"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved cache testing URL detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor URL handling bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed PHP warnings in Object Cache classes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with SiteGround Staging System"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS Bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved Memcache work"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with Memcached cache purge"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bulgarian translation added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Spanish translation added by <a href=\"https://www.siteground.es\">SiteGround.es</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internationalization support added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Interface improventes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better PHP7 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Memcached support added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved compatibility with WP Rocket"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Plugin created."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "URL Exclude from caching list added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "SiteGround Memcached support added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Settings and Purge pages combined into one"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Interface improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "3.8 support added"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cache will be purged if WordPress autoupdates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Cache will flush when scheduled posts become live"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug that prevents you from enabling Memcached if using a wildcard SSL Certificate"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better plugin activation and added to the wordpress.org repo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better and more clear button labeling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The purge button will now clear the Static cache even if Dynamic cache is not enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed plugin activation bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added NGINX support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Redesigned mobile-friendly interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Purge SG Cache button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin bar link visible only for admin users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor system improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bug with Memcached causing issues after WP Database update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added testing box and notification if Dynamic Cache is not enabled in cPanel"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed issues with MS installations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixing and improved notification behaviour"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Revamped notices work"
+msgstr ""

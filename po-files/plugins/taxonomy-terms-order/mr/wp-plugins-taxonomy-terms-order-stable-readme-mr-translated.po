@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Category Order and Taxonomy Terms Order - Stable Readme (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T14:01:31+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Order Categories and all custom taxonomies terms (hierarchically) and child terms using a Drag and Drop Sortable javascript capability."
+msgstr ""
+
+#. Plugin name.
+msgid "Category Order and Taxonomy Terms Order"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<br />See the <a href=\"https://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-taxonomy-terms-order/\">Advanced Taxonomy Terms Order</a> for advanced features."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Consider upgrading to our advanced version of this plugin at a very resonable price <a href=\"http://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-taxonomy-terms-order/\">Advanced Taxonomy Terms Order Order</a>"
+msgstr ""
+
+#. Found in faq header.
+msgid "I still need more features"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There isn't any Editors for your native language on plugin Contributors? You can help to moderate! https://translate.wordpress.org/projects/wp-plugins/taxonomy-terms-order/contributors"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Include a 'orderby' =&gt; 'term_order' within your get_terms() arguments."
+msgstr ""
+
+#. Found in faq header.
+msgid "I prefer to apply the sort through code, how can be done?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Available in English, Dutch, French, Deutch, Slovak, Japanese, Traditional Chineze, Brazilian Portuguese, Hungarian, Ukrainian, Czech and Romanian\n"
+"Whant to contribute with a translation to your language? Please check at https://translate.wordpress.org/projects/wp-plugins/taxonomy-terms-order"
+msgstr ""
+
+#. Found in description header.
+msgid "Localization"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "All ideas are welcome and i put them on my list to be implemented into the new versions. Anyway this may take time, but if you are in a rush, please consider a small donation and we can arrange something."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Absolutely, the plugin can do that. In fact you can configure so only the admin will update and the front side template will display the terms as before."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can sort ALL taxonomies, including the default Categories."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, this is the right tool for you. The plugin comes with a unique feature to update the queries on the fly and return the terms in the required order without changing any line of code. Or as an alternative you can do that manually."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Feel free to contact me at electronice_delphi@yahoo.com"
+msgstr ""
+
+#. Found in faq header.
+msgid "There is a feature that i want it implemented, can you do something about it?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is there any way i can get my admin interface to use the custom terms order?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What taxonomies will allow me to sort?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I have no PHP knowledge at all, i will still be able to use this plugin?"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Use Taxonomy Order link which appears into each post type section to make your sort."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Once activated you should check with Settings &gt; Taxonomy Terms Order "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin from Admin &gt; Plugins menu."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload <code>taxonomy-terms-order</code> folder to your <code>/wp-content/plugins/</code> directory."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Order Categories and all custom taxonomies terms (hierarchically) using a Drag and Drop Sortable javascript capability. <strong>No Theme update is required</strong> the code will change the query on the fly.\n"
+"If multiple taxonomies are created for a custom post type, a menu will allow to chose the one need to be sorted. If child categories (terms) are defined, those can be ordered too using the same interface.\n"
+"<br />Also you can have the admin terms interface sorted per your new sort.\n"
+"<br />This plugin is developed by <a href=\"http://www.nsp-code.com\">Nsp-Code</a>"
+msgstr ""
+
+#. Screenshot description.
+msgid "Multiple Taxonomies Interface."
+msgstr ""
+
+#. Screenshot description.
+msgid "Category Order Interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix WooCommerce category order apply"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Rely on 'terms_clauses' filter than 'get_terms_orderby' as producing issues with the $maybe_orderby_meta backward compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ignore admin sort when using columns order within Taxonomy interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Addon code to ignore term_order sorting when Co-Authors plugin term query"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New filter to/get_terms_orderby/ignore to allow sort ignore when Autosort is turned On"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Replaced serialize with JSON when saving terms order"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed Google Plus share button which triggered some JavaScript errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add nonce field for AJAX sort update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated PO language file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use JSON instead serialize method when sending order through AJAX"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Interface Taxonomy terms count fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Interface table th elements titles left align"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prepare plugin for Composer package"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Default admin capability changed from install_plugins to manage_options to prevent DISALLOW_FILE_MODS issue. https://wordpress.org/support/topic/plugin-breaks-when-disallow_file_mods-is-set-to-true/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations issues update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Included 'ignore_term_order' to force menu_order ignore when autosort active."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Unused action remove"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "PHP 7 fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed donate banner"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove translations from the package"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Nonce for admin settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "the_title filter replaced with terms_walker "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translation fix for user roles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "textdomain folder fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Many thanks to Anja Fokker  http://www.werkgroepen.net/"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Localization implement, Dutch and Romanian."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "German and French languages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small updates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slovak Language (Branco Slovak http://webhostinggeeks.com/user-reviews/)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Headers already sent bug fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Japanese language"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations load fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Menu walker update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor admin styling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Traditional Chineze Language (Danny - http://sofree.cc)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Brazilian Portuguese Language (Rafael Forcadell - www.rafaelforcadell.com.br)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Czech translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ukrainian translation (Michael Yunat - http://getvoip.com)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hungarian Language(Adam Laki - http://codeguide.hu/)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Polish Language(Pozdrawiam - www.difreo.pl/   ;   Mateusz - www.czar-net.com   )  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin css updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Iranian Language (eydaaad@gmail.com) "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Admin Options update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Taxonomy sort for media"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "User role switch from deprecated user_level to capabilities "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Portuguese localization update - Pedro Mendonça"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translation textdomain fix - thanks to Pedro Mendonça"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security bug fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Css updates  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WordPress 4.4 compatibility update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Texdomain change to taxonomy-terms-order to allow translations through translate.wordpress.org"
+msgstr ""

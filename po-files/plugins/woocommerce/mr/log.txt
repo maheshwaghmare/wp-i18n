@@ -1,266 +1,284 @@
-1 | Failed | अयशस्वी
-2 | Pending | प्रलंबित
-3 | %s hour | %s तास
-4 | %s day | %s दिवस
-5 | %s week | %s आठवडा
-6 | %s month | %s महिना
-7 | %s year | %s वर्ष
-8 | Sorry, you are not allowed to change the comment type. | क्षमस्व, तुम्हाला टिप्पणीचा प्रकार बदलण्याची परवानगी नाही.
-9 | Avatar URL with image size of %d pixels. | अवतार युआरएल इमेज साइज %d पिक्सेल.
-10 | Move up | वर सरकवा
-11 | Move down | खाली सरकवा
-12 | %s page | %s पेज 
-13 | User email | वापरकर्ता ईमेल
-14 | optional | पर्यायी
-15 | Visit Dashboard | डॅशबोर्ड ला भेट द्या
-16 | Recommended | शिफारस केलेले
-17 | Bangkok | बँगकॉक
-18 | Thumbnail width | थम्बनेलची रुंदी
-19 | Status: | स्थिती:
-20 | Completed | पूर्ण झाले
-21 | Move &#8220;%s&#8221; to the Trash | &#8220;%s&#8221; कचऱ्यात टाका 
-22 | Dar es Salaam | दार एस सलाम
-23 | Choose from the most used tags | सर्वात जास्त वापरले टॅग मधून निवडा
-24 | Add or remove tags | टॅग्स जोडा किंवा कमी करा.
-25 | Separate tags with commas | स्वल्पविरामाने  टॅग्स विभक्त करा
-26 | All categories | समग्र विभाग
-27 | The comment has already been trashed. | टिप्पणी आधीपासूनच काढून टाकलेली आहे.
-28 | Limit result set to specific IDs. | विशिष्ट आयडीसाठी रिझल्टची मर्यादा.
-29 | %1$s (%2$s) | %1$s (%2$s)
-30 | %1$s at %2$s | %1$s येथे %2$s
-31 | Ensure result set excludes specific IDs. | खात्री करा कि निकाल यादीतून विशिष्ट आयडीज वगळले आहेत.
-32 | Username isn't editable. | वापरकर्तानाव संपादनक्षम नाही.
-33 | Unique identifier for the object. | ऑब्जेक्ट अद्वितीय अभिज्ञापक
-34 | Whether to bypass trash and force deletion. | कचरा स्थलांतर व नष्ट सक्ती का.
-35 | Items | आयटमस्
-36 | Limit result set to all items except those of a particular parent ID. | निकाल-सेट ला विशिष्ट प्रमुख आयडी वगळून इतर सर्व 'आयटम्स' पर्यंत मर्यादित करा.
-37 | Limit result set to those of particular parent IDs. | निकाल-सेट ला विशिष्ट प्रमुख (पेरेन्ट) आयडीज् पर्यंत मर्यादित करा.
-38 | Sort collection by object attribute. | ऑब्जेकट गुणधर्म करून संग्रह लावा.
-39 | Order sort attribute ascending or descending. | क्रमवारी लावा चढत्या किंवा उतरत्या गुणधर्म.
-40 | Offset the result set by a specific number of items. | परिणाम आयटम एक विशिष्ट क्रमांक द्वारे ऑफसेट.
-41 | Limit result set to specific ids. | विशिष्ट आयडीसाठी रिझल्टची मर्यादा.
-42 | Ensure result set excludes specific ids. | खात्री करा कि निकाल यादीतून विशिष्ट आयडीज वगळले आहेत.
-43 | Invalid post ID. | चुकीचा पोस्ट आयडी
-44 | Loading&hellip; | लोड करीत आहे&hellip;
-45 | Clear | स्पष्ट
-46 | First page | पहिले पान
-47 | Order | ऑर्डर
-48 | Submit | सबमिट
-49 | Leave a Reply to %s | %s साठी प्रतिक्रिया लिहा
-50 | Search | शोधा
-51 | Search for: | शोध घ्या यांचा:
-52 | Email: | ईमेल:
-53 | Note: | टीप:
-54 | New password | नवीन पासवर्ड
-55 | Register | नोंदणी
-56 | Confirm new password | नवीन पासवर्डची खात्री करा
-57 | Email address | ई-मेल अॅड्रेस
-58 | Lost your password? | पासवर्ड विसरलात?
-59 | Remember me | माझी आठवण ठेवा
-60 | Username or email | वापरकर्त्याचे नाव अथवा ईमेल:
-61 | Username: %s | वापरकर्ता चे नाव %s
-62 | Username or email address | वापरकर्त्याचे नाव किंवा ई-मेल अॅड्रेस
-63 | Approve | मंजूर
-64 | Order | ऑर्डर
-65 | Random | अविशिष्ट
-66 | Show hierarchy | अनुक्रम दाखवा
-67 | Filter | गाळणे
-68 | OR | किंवा
-69 | Active | सक्रिय
-70 | Select | निवडा
-71 | Password reset is not allowed for this user | ह्या यूजर ला पासवर्ड बदलण्याची परवानगी नाहीय
-72 | Log in | लॉग ईन
-73 | Enable | सक्षम
-74 | Advanced options | प्रगत पर्याय
-75 | Reset password | पासवर्ड रीसेट करा
-76 | Subject | विषय
-77 | Failed | अयशस्वी
-78 | Completed | पूर्ण झाले
-79 | Edit %s | संपादित करा %s
-80 | Tags | टॅगस्
-81 | Categories | कॅटेगरी
-82 | Error: | चूक:
-83 | Email Address | ई-मेल अॅड्रेस
-84 | Author: %s | लेखकः  %s
-85 | Dismiss this notice. | ही सूचना घालवा.
-86 | No route was found matching the URL and request method | यूआरएल आणि विनंती पद्धतीला मिळताजुळता रूट आढळला नाही
-87 | The handler for the route is invalid | रूटसाठी हँडलर अवैध आहे
-88 | Custom: | सानुकूल:
-89 | Save changes | बदल जतन करा
-90 | Theme | थीम
-91 | Language | भाषा
-92 | Site URL | साइट युआरअल
-93 | Custom | सानुकूल
-94 | ID | आयडी
-95 | Average rating | सरासरी रेटिंग
-96 | Background color | पार्श्वभूमीचा रंग
-97 | Header image | हेडर इमेज
-98 | Lost password | हरवलेलं पासवर्ड
-99 | Parent | पॅरेंट
-100 | All | सर्व
-101 | None | काहीही नाही
-102 | Show | दाखवा 
-103 | Year | वर्ष
-104 | Choose file | फाईलची निवड करा
-105 | Add new | नवीन लिंक
-106 | Optional | पर्यायी
-107 | Save | जतन करा
-108 | Add to gallery | गॅलरीत जोडा
-109 | Current page | सध्याचे पेज
-110 | %s item | %s आयटम
-111 | Menu order | मेनू क्रम
-112 | None | काहीही नाही
-113 | Never | कधीही नाही
-114 | File URL | फाईल युआरएल
-115 | Add | जोडा
-116 | by %s | %s द्वारे
-117 | Upload file and import | फाईल अपलोड आणि आयात करा
-118 | Maximum size: %s | कमाल आकार: %s
-119 | Before you can upload your import file, you will need to fix the following error: | आपण आपल्या आयात फाईल अपलोड करण्यापूर्वी, आपणांस खालील त्रुटी निश्चित करणे आवश्यक आहे:
-120 | Remove image | इमेज काढा
-121 | Thumbnail | थम्बनेल
-122 | Allow | अनुमती द्या
-123 | m | सो 
-124 | View | पहा
-125 | Delete permanently | कायमचे हटवा
-126 | Status | स्थिती
-127 | Rating | रेटिंग
-128 | Add to menu | मेनू जोडा
-129 | Delete | खोडून टाकणे
-130 | Attributes | विशेषता
-131 | Update | अपडेट
-132 | Type | टाईप
-133 | Slug | स्लग
-134 | Featured | वैशिष्ट्यपूर्ण
-135 | Puerto Rico | प्युर्तो रिको
-136 | Guam | गुअॅम
-137 | Madrid | मॅड्रीड
-138 | Updating | अद्यतनित करीत आहे
-139 | %s page | %s पेज 
-140 | User email | वापरकर्ता ईमेल
-141 | optional | पर्यायी
-142 | Visit Dashboard | डॅशबोर्ड ला भेट द्या
-143 | Recommended | शिफारस केलेले
-144 | Bangkok | बँगकॉक
-145 | Thumbnail width | थम्बनेलची रुंदी
-146 | Status: | स्थिती:
-147 | Completed | पूर्ण झाले
-148 | Move &#8220;%s&#8221; to the Trash | &#8220;%s&#8221; कचऱ्यात टाका 
-149 | Dar es Salaam | दार एस सलाम
-150 | Choose from the most used tags | सर्वात जास्त वापरले टॅग मधून निवडा
-151 | Add or remove tags | टॅग्स जोडा किंवा कमी करा.
-152 | Separate tags with commas | स्वल्पविरामाने  टॅग्स विभक्त करा
-153 | All categories | समग्र विभाग
-154 | Error: | चूक:
-155 | The comment has already been trashed. | टिप्पणी आधीपासूनच काढून टाकलेली आहे.
-156 | %1$s (%2$s) | %1$s (%2$s)
-157 | %1$s at %2$s | %1$s येथे %2$s
-158 | Limit result set to specific IDs. | विशिष्ट आयडीसाठी रिझल्टची मर्यादा.
-159 | Ensure result set excludes specific IDs. | खात्री करा कि निकाल यादीतून विशिष्ट आयडीज वगळले आहेत.
-160 | Username isn't editable. | वापरकर्तानाव संपादनक्षम नाही.
-161 | Unique identifier for the object. | ऑब्जेक्ट अद्वितीय अभिज्ञापक
-162 | Whether to bypass trash and force deletion. | कचरा स्थलांतर व नष्ट सक्ती का.
-163 | Items | आयटमस्
-164 | Limit result set to all items except those of a particular parent ID. | निकाल-सेट ला विशिष्ट प्रमुख आयडी वगळून इतर सर्व 'आयटम्स' पर्यंत मर्यादित करा.
-165 | Limit result set to those of particular parent IDs. | निकाल-सेट ला विशिष्ट प्रमुख (पेरेन्ट) आयडीज् पर्यंत मर्यादित करा.
-166 | Sort collection by object attribute. | ऑब्जेकट गुणधर्म करून संग्रह लावा.
-167 | Order sort attribute ascending or descending. | क्रमवारी लावा चढत्या किंवा उतरत्या गुणधर्म.
-168 | Offset the result set by a specific number of items. | परिणाम आयटम एक विशिष्ट क्रमांक द्वारे ऑफसेट.
-169 | Limit result set to specific ids. | विशिष्ट आयडीसाठी रिझल्टची मर्यादा.
-170 | Ensure result set excludes specific ids. | खात्री करा कि निकाल यादीतून विशिष्ट आयडीज वगळले आहेत.
-171 | Invalid post ID. | चुकीचा पोस्ट आयडी
-172 | Clear | स्पष्ट
-173 | First page | पहिले पान
-174 | Loading&hellip; | लोड करीत आहे&hellip;
-175 | Order | ऑर्डर
-176 | Submit | सबमिट
-177 | Leave a Reply to %s | %s साठी प्रतिक्रिया लिहा
-178 | Search | शोधा
-179 | Search for: | शोध घ्या यांचा:
-180 | Email: | ईमेल:
-181 | Note: | टीप:
-182 | New password | नवीन पासवर्ड
-183 | Register | नोंदणी
-184 | Confirm new password | नवीन पासवर्डची खात्री करा
-185 | Email address | ई-मेल अॅड्रेस
-186 | Lost your password? | पासवर्ड विसरलात?
-187 | Remember me | माझी आठवण ठेवा
-188 | Username or email | वापरकर्त्याचे नाव अथवा ईमेल:
-189 | To reset your password, visit the following address: | आपला पासवर्ड रीसेट करण्यासाठी, खालील पत्त्यावर भेट द्या:
-190 | If this was a mistake, just ignore this email and nothing will happen. | जर चूक झाली असेल तर या इमेल कडे दुर्लक्षित करा किवा काहीच झाले नाही असे समजा
-191 | Username: %s | वापरकर्ता चे नाव %s
-192 | Username or email address | वापरकर्त्याचे नाव किंवा ई-मेल अॅड्रेस
-193 | Approve | मंजूर
-194 | Order | ऑर्डर
-195 | Random | अविशिष्ट
-196 | Show hierarchy | अनुक्रम दाखवा
-197 | Filter | गाळणे
-198 | OR | किंवा
-199 | Active | सक्रिय
-200 | Select | निवडा
-201 | Password reset is not allowed for this user | ह्या यूजर ला पासवर्ड बदलण्याची परवानगी नाहीय
-202 | Log in | लॉग ईन
-203 | Enable | सक्षम
-204 | Advanced options | प्रगत पर्याय
-205 | Reset password | पासवर्ड रीसेट करा
-206 | Subject | विषय
-207 | Completed | पूर्ण झाले
-208 | Edit %s | संपादित करा %s
-209 | Tags | टॅगस्
-210 | Categories | कॅटेगरी
-211 | Email Address | ई-मेल अॅड्रेस
-212 | Author: %s | लेखकः  %s
-213 | Dismiss this notice. | ही सूचना घालवा.
-214 | No route was found matching the URL and request method | यूआरएल आणि विनंती पद्धतीला मिळताजुळता रूट आढळला नाही
-215 | The handler for the route is invalid | रूटसाठी हँडलर अवैध आहे
-216 | Custom: | सानुकूल:
-217 | Save changes | बदल जतन करा
-218 | Theme | थीम
-219 | Language | भाषा
-220 | Site URL | साइट युआरअल
-221 | Custom | सानुकूल
-222 | ID | आयडी
-223 | Average rating | सरासरी रेटिंग
-224 | Background color | पार्श्वभूमीचा रंग
-225 | Header image | हेडर इमेज
-226 | Lost password | हरवलेलं पासवर्ड
-227 | Parent | पॅरेंट
-228 | All | सर्व
-229 | None | काहीही नाही
-230 | Show | दाखवा 
-231 | Year | वर्ष
-232 | Choose file | फाईलची निवड करा
-233 | Add new | नवीन लिंक
-234 | Optional | पर्यायी
-235 | Save | जतन करा
-236 | Add to gallery | गॅलरीत जोडा
-237 | Current page | सध्याचे पेज
-238 | %s item | %s आयटम
-239 | Menu order | मेनू क्रम
-240 | None | काहीही नाही
-241 | Never | कधीही नाही
-242 | File URL | फाईल युआरएल
-243 | Add | जोडा
-244 | by %s | %s द्वारे
-245 | Upload file and import | फाईल अपलोड आणि आयात करा
-246 | Maximum size: %s | कमाल आकार: %s
-247 | Before you can upload your import file, you will need to fix the following error: | आपण आपल्या आयात फाईल अपलोड करण्यापूर्वी, आपणांस खालील त्रुटी निश्चित करणे आवश्यक आहे:
-248 | Remove image | इमेज काढा
-249 | Thumbnail | थम्बनेल
-250 | Allow | अनुमती द्या
-251 | m | सो 
-252 | View | पहा
-253 | Delete permanently | कायमचे हटवा
-254 | Status | स्थिती
-255 | Rating | रेटिंग
-256 | Add to menu | मेनू जोडा
-257 | Delete | खोडून टाकणे
-258 | Attributes | विशेषता
-259 | Update | अपडेट
-260 | Type | टाईप
-261 | Slug | स्लग
-262 | Featured | वैशिष्ट्यपूर्ण
-263 | Puerto Rico | प्युर्तो रिको
-264 | Guam | गुअॅम
-265 | Madrid | मॅड्रीड
-266 | Updating | अद्यतनित करीत आहे
+1 | Count | मोजा
+2 | Facebook | फेसबुक
+3 | Site address (URL) | साइट अॅड्रेस (URL)
+4 | WordPress address (URL) | वर्डप्रेस अॅड्रेस (URL)
+5 | Failed | अयशस्वी
+6 | Pending | प्रलंबित
+7 | %s hour | %s तास
+8 | %s day | %s दिवस
+9 | %s week | %s आठवडा
+10 | %s month | %s महिना
+11 | %s year | %s वर्ष
+12 | Sorry, you are not allowed to change the comment type. | क्षमस्व, तुम्हाला टिप्पणीचा प्रकार बदलण्याची परवानगी नाही.
+13 | Avatar URL with image size of %d pixels. | अवतार युआरएल इमेज साइज %d पिक्सेल.
+14 | Move up | वर सरकवा
+15 | Move down | खाली सरकवा
+16 | %s page | %s पेज 
+17 | User email | वापरकर्ता ईमेल
+18 | optional | पर्यायी
+19 | Visit Dashboard | डॅशबोर्ड ला भेट द्या
+20 | Recommended | शिफारस केलेले
+21 | Bangkok | बँगकॉक
+22 | Thumbnail width | थम्बनेलची रुंदी
+23 | Status: | स्थिती:
+24 | Completed | पूर्ण झाले
+25 | Move &#8220;%s&#8221; to the Trash | &#8220;%s&#8221; कचऱ्यात टाका 
+26 | Dar es Salaam | दार एस सलाम
+27 | Choose from the most used tags | सर्वात जास्त वापरले टॅग मधून निवडा
+28 | Add or remove tags | टॅग्स जोडा किंवा कमी करा.
+29 | Separate tags with commas | स्वल्पविरामाने  टॅग्स विभक्त करा
+30 | All categories | समग्र विभाग
+31 | The comment has already been trashed. | टिप्पणी आधीपासूनच काढून टाकलेली आहे.
+32 | Limit result set to specific IDs. | विशिष्ट आयडीसाठी रिझल्टची मर्यादा.
+33 | %1$s (%2$s) | %1$s (%2$s)
+34 | %1$s at %2$s | %1$s येथे %2$s
+35 | Ensure result set excludes specific IDs. | खात्री करा कि निकाल यादीतून विशिष्ट आयडीज वगळले आहेत.
+36 | Username isn't editable. | वापरकर्तानाव संपादनक्षम नाही.
+37 | Unique identifier for the object. | ऑब्जेक्ट अद्वितीय अभिज्ञापक
+38 | Whether to bypass trash and force deletion. | कचरा स्थलांतर व नष्ट सक्ती का.
+39 | Items | आयटमस्
+40 | Limit result set to all items except those of a particular parent ID. | निकाल-सेट ला विशिष्ट प्रमुख आयडी वगळून इतर सर्व 'आयटम्स' पर्यंत मर्यादित करा.
+41 | Limit result set to those of particular parent IDs. | निकाल-सेट ला विशिष्ट प्रमुख (पेरेन्ट) आयडीज् पर्यंत मर्यादित करा.
+42 | Sort collection by object attribute. | ऑब्जेकट गुणधर्म करून संग्रह लावा.
+43 | Order sort attribute ascending or descending. | क्रमवारी लावा चढत्या किंवा उतरत्या गुणधर्म.
+44 | Offset the result set by a specific number of items. | परिणाम आयटम एक विशिष्ट क्रमांक द्वारे ऑफसेट.
+45 | Limit result set to specific ids. | विशिष्ट आयडीसाठी रिझल्टची मर्यादा.
+46 | Invalid post ID. | चुकीचा पोस्ट आयडी
+47 | Loading&hellip; | लोड करीत आहे&hellip;
+48 | Clear | स्पष्ट
+49 | First page | पहिले पान
+50 | Order | ऑर्डर
+51 | Submit | सबमिट
+52 | Leave a Reply to %s | %s साठी प्रतिक्रिया लिहा
+53 | Search | शोधा
+54 | Search for: | शोध घ्या यांचा:
+55 | Email: | ईमेल:
+56 | Note: | टीप:
+57 | New password | नवीन पासवर्ड
+58 | Register | नोंदणी
+59 | Confirm new password | नवीन पासवर्डची खात्री करा
+60 | Email address | ई-मेल अॅड्रेस
+61 | Lost your password? | पासवर्ड विसरलात?
+62 | Remember me | माझी आठवण ठेवा
+63 | Username or email | वापरकर्त्याचे नाव अथवा ईमेल:
+64 | Username: %s | वापरकर्ता चे नाव %s
+65 | Username or email address | वापरकर्त्याचे नाव किंवा ई-मेल अॅड्रेस
+66 | Approve | मंजूर
+67 | Order | ऑर्डर
+68 | Random | अविशिष्ट
+69 | Show hierarchy | अनुक्रम दाखवा
+70 | Filter | गाळणे
+71 | OR | किंवा
+72 | Active | सक्रिय
+73 | Select | निवडा
+74 | Password reset is not allowed for this user | ह्या यूजर ला पासवर्ड बदलण्याची परवानगी नाहीय
+75 | Log in | लॉग ईन
+76 | Enable | सक्षम
+77 | Advanced options | प्रगत पर्याय
+78 | Reset password | पासवर्ड रीसेट करा
+79 | Subject | विषय
+80 | Failed | अयशस्वी
+81 | Completed | पूर्ण झाले
+82 | Edit %s | संपादित करा %s
+83 | Tags | टॅगस्
+84 | Categories | कॅटेगरी
+85 | Error: | चूक:
+86 | Email Address | ई-मेल अॅड्रेस
+87 | Author: %s | लेखकः  %s
+88 | Dismiss this notice. | ही सूचना घालवा.
+89 | No route was found matching the URL and request method | यूआरएल आणि विनंती पद्धतीला मिळताजुळता रूट आढळला नाही
+90 | The handler for the route is invalid | रूटसाठी हँडलर अवैध आहे
+91 | Custom: | सानुकूल:
+92 | Save changes | बदल जतन करा
+93 | Theme | थीम
+94 | Error: %s | त्रुटी: %s
+95 | Language | भाषा
+96 | Custom | सानुकूल
+97 | ID | आयडी
+98 | Average rating | सरासरी रेटिंग
+99 | Background color | पार्श्वभूमीचा रंग
+100 | Header image | हेडर इमेज
+101 | Lost password | हरवलेलं पासवर्ड
+102 | Parent | पॅरेंट
+103 | All | सर्व
+104 | None | काहीही नाही
+105 | Show | दाखवा 
+106 | Year | वर्ष
+107 | Choose file | फाईलची निवड करा
+108 | Add new | नवीन लिंक
+109 | Optional | पर्यायी
+110 | Save | जतन करा
+111 | Add to gallery | गॅलरीत जोडा
+112 | Current page | सध्याचे पेज
+113 | %s item | %s आयटम
+114 | Menu order | मेनू क्रम
+115 | None | काहीही नाही
+116 | Never | कधीही नाही
+117 | File URL | फाईल युआरएल
+118 | Add | जोडा
+119 | by %s | %s द्वारे
+120 | Upload file and import | फाईल अपलोड आणि आयात करा
+121 | Maximum size: %s | कमाल आकार: %s
+122 | Before you can upload your import file, you will need to fix the following error: | आपण आपल्या आयात फाईल अपलोड करण्यापूर्वी, आपणांस खालील त्रुटी निश्चित करणे आवश्यक आहे:
+123 | Remove image | इमेज काढा
+124 | Thumbnail | थम्बनेल
+125 | Allow | अनुमती द्या
+126 | m | सो 
+127 | View | पहा
+128 | Delete permanently | कायमचे हटवा
+129 | Status | स्थिती
+130 | Rating | रेटिंग
+131 | Add to menu | मेनू जोडा
+132 | Delete | खोडून टाकणे
+133 | Attributes | विशेषता
+134 | Update | अपडेट
+135 | Type | टाईप
+136 | Slug | स्लग
+137 | Featured | वैशिष्ट्यपूर्ण
+138 | Puerto Rico | प्युर्तो रिको
+139 | Guam | गुअॅम
+140 | Madrid | मॅड्रीड
+141 | Screenshots | स्क्रीनशॉटस्
+142 | Updating | अद्यतनित करीत आहे
+143 | Count | मोजा
+144 | Site address (URL) | साइट अॅड्रेस (URL)
+145 | WordPress address (URL) | वर्डप्रेस अॅड्रेस (URL)
+146 | Facebook | फेसबुक
+147 | Failed | अयशस्वी
+148 | Pending | प्रलंबित
+149 | %s hour | %s तास
+150 | %s day | %s दिवस
+151 | %s week | %s आठवडा
+152 | %s month | %s महिना
+153 | %s year | %s वर्ष
+154 | Avatar URL with image size of %d pixels. | अवतार युआरएल इमेज साइज %d पिक्सेल.
+155 | Sorry, you are not allowed to change the comment type. | क्षमस्व, तुम्हाला टिप्पणीचा प्रकार बदलण्याची परवानगी नाही.
+156 | Move down | खाली सरकवा
+157 | Move up | वर सरकवा
+158 | %s page | %s पेज 
+159 | User email | वापरकर्ता ईमेल
+160 | optional | पर्यायी
+161 | Visit Dashboard | डॅशबोर्ड ला भेट द्या
+162 | Recommended | शिफारस केलेले
+163 | Bangkok | बँगकॉक
+164 | Thumbnail width | थम्बनेलची रुंदी
+165 | Status: | स्थिती:
+166 | Completed | पूर्ण झाले
+167 | Move &#8220;%s&#8221; to the Trash | &#8220;%s&#8221; कचऱ्यात टाका 
+168 | Dar es Salaam | दार एस सलाम
+169 | Choose from the most used tags | सर्वात जास्त वापरले टॅग मधून निवडा
+170 | Add or remove tags | टॅग्स जोडा किंवा कमी करा.
+171 | Separate tags with commas | स्वल्पविरामाने  टॅग्स विभक्त करा
+172 | All categories | समग्र विभाग
+173 | Error: | चूक:
+174 | The comment has already been trashed. | टिप्पणी आधीपासूनच काढून टाकलेली आहे.
+175 | %1$s (%2$s) | %1$s (%2$s)
+176 | %1$s at %2$s | %1$s येथे %2$s
+177 | Limit result set to specific IDs. | विशिष्ट आयडीसाठी रिझल्टची मर्यादा.
+178 | Ensure result set excludes specific IDs. | खात्री करा कि निकाल यादीतून विशिष्ट आयडीज वगळले आहेत.
+179 | Username isn't editable. | वापरकर्तानाव संपादनक्षम नाही.
+180 | Unique identifier for the object. | ऑब्जेक्ट अद्वितीय अभिज्ञापक
+181 | Whether to bypass trash and force deletion. | कचरा स्थलांतर व नष्ट सक्ती का.
+182 | Items | आयटमस्
+183 | Limit result set to all items except those of a particular parent ID. | निकाल-सेट ला विशिष्ट प्रमुख आयडी वगळून इतर सर्व 'आयटम्स' पर्यंत मर्यादित करा.
+184 | Limit result set to those of particular parent IDs. | निकाल-सेट ला विशिष्ट प्रमुख (पेरेन्ट) आयडीज् पर्यंत मर्यादित करा.
+185 | Sort collection by object attribute. | ऑब्जेकट गुणधर्म करून संग्रह लावा.
+186 | Order sort attribute ascending or descending. | क्रमवारी लावा चढत्या किंवा उतरत्या गुणधर्म.
+187 | Offset the result set by a specific number of items. | परिणाम आयटम एक विशिष्ट क्रमांक द्वारे ऑफसेट.
+188 | Limit result set to specific ids. | विशिष्ट आयडीसाठी रिझल्टची मर्यादा.
+189 | Invalid post ID. | चुकीचा पोस्ट आयडी
+190 | Clear | स्पष्ट
+191 | First page | पहिले पान
+192 | Loading&hellip; | लोड करीत आहे&hellip;
+193 | Order | ऑर्डर
+194 | Submit | सबमिट
+195 | Leave a Reply to %s | %s साठी प्रतिक्रिया लिहा
+196 | Search | शोधा
+197 | Search for: | शोध घ्या यांचा:
+198 | Email: | ईमेल:
+199 | Note: | टीप:
+200 | New password | नवीन पासवर्ड
+201 | Register | नोंदणी
+202 | Confirm new password | नवीन पासवर्डची खात्री करा
+203 | Email address | ई-मेल अॅड्रेस
+204 | Lost your password? | पासवर्ड विसरलात?
+205 | Remember me | माझी आठवण ठेवा
+206 | Username or email | वापरकर्त्याचे नाव अथवा ईमेल:
+207 | Username: %s | वापरकर्ता चे नाव %s
+208 | Username or email address | वापरकर्त्याचे नाव किंवा ई-मेल अॅड्रेस
+209 | Approve | मंजूर
+210 | Order | ऑर्डर
+211 | Random | अविशिष्ट
+212 | Show hierarchy | अनुक्रम दाखवा
+213 | Filter | गाळणे
+214 | OR | किंवा
+215 | Active | सक्रिय
+216 | Select | निवडा
+217 | Password reset is not allowed for this user | ह्या यूजर ला पासवर्ड बदलण्याची परवानगी नाहीय
+218 | Log in | लॉग ईन
+219 | Enable | सक्षम
+220 | Advanced options | प्रगत पर्याय
+221 | Reset password | पासवर्ड रीसेट करा
+222 | Subject | विषय
+223 | Failed | अयशस्वी
+224 | Completed | पूर्ण झाले
+225 | Edit %s | संपादित करा %s
+226 | Tags | टॅगस्
+227 | Categories | कॅटेगरी
+228 | Email Address | ई-मेल अॅड्रेस
+229 | Author: %s | लेखकः  %s
+230 | Dismiss this notice. | ही सूचना घालवा.
+231 | No route was found matching the URL and request method | यूआरएल आणि विनंती पद्धतीला मिळताजुळता रूट आढळला नाही
+232 | The handler for the route is invalid | रूटसाठी हँडलर अवैध आहे
+233 | Custom: | सानुकूल:
+234 | Save changes | बदल जतन करा
+235 | Theme | थीम
+236 | Error: %s | त्रुटी: %s
+237 | Language | भाषा
+238 | Custom | सानुकूल
+239 | ID | आयडी
+240 | Average rating | सरासरी रेटिंग
+241 | Background color | पार्श्वभूमीचा रंग
+242 | Header image | हेडर इमेज
+243 | Lost password | हरवलेलं पासवर्ड
+244 | Parent | पॅरेंट
+245 | All | सर्व
+246 | None | काहीही नाही
+247 | Show | दाखवा 
+248 | Year | वर्ष
+249 | Choose file | फाईलची निवड करा
+250 | Add new | नवीन लिंक
+251 | Optional | पर्यायी
+252 | Save | जतन करा
+253 | Add to gallery | गॅलरीत जोडा
+254 | Current page | सध्याचे पेज
+255 | %s item | %s आयटम
+256 | Menu order | मेनू क्रम
+257 | None | काहीही नाही
+258 | Never | कधीही नाही
+259 | File URL | फाईल युआरएल
+260 | Add | जोडा
+261 | by %s | %s द्वारे
+262 | Upload file and import | फाईल अपलोड आणि आयात करा
+263 | Maximum size: %s | कमाल आकार: %s
+264 | Before you can upload your import file, you will need to fix the following error: | आपण आपल्या आयात फाईल अपलोड करण्यापूर्वी, आपणांस खालील त्रुटी निश्चित करणे आवश्यक आहे:
+265 | Remove image | इमेज काढा
+266 | Thumbnail | थम्बनेल
+267 | Allow | अनुमती द्या
+268 | m | सो 
+269 | View | पहा
+270 | Delete permanently | कायमचे हटवा
+271 | Status | स्थिती
+272 | Rating | रेटिंग
+273 | Add to menu | मेनू जोडा
+274 | Delete | खोडून टाकणे
+275 | Attributes | विशेषता
+276 | Update | अपडेट
+277 | Type | टाईप
+278 | Slug | स्लग
+279 | Featured | वैशिष्ट्यपूर्ण
+280 | Puerto Rico | प्युर्तो रिको
+281 | Guam | गुअॅम
+282 | Madrid | मॅड्रीड
+283 | Screenshots | स्क्रीनशॉटस्
+284 | Updating | अद्यतनित करीत आहे

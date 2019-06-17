@@ -1,0 +1,1058 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - WooCommerce Services - Development Readme (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-06-17T13:50:44+00:00\n"
+"PO-Revision-Date: +0000\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Short description.
+msgid "Hosted services for WooCommerce including automated tax calculation, shipping label printing, and smoother payment setup."
+msgstr ""
+
+#. Plugin name.
+msgid "WooCommerce Services"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "As of the WooCommerce 3.5 release, WooCommerce Services no longer provides shipping rates for new stores. If you're already using shipping rates in WooCommerce Services, they will continue to work."
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I show shipping rates at checkout?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! You can buy and print USPS shipping labels for domestic and international destinations."
+msgstr ""
+
+#. Found in faq list item.
+msgid "USPS label purchase/printing"
+msgstr ""
+
+#. Screenshot description.
+msgid "Checking and exporting the label purchase reports"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Have a Stripe account created on your behalf or accept PayPal Checkout payments without having to setup an account."
+msgstr ""
+
+#. Found in faq list item.
+msgid "PayPal Checkout payment authorization"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Absolutely! You can read our Terms of Service <a href=\"https://en.wordpress.com/tos\">here</a> and our data policy <a href=\"https://jetpack.com/support/what-data-does-jetpack-sync/\">here</a>."
+msgstr ""
+
+#. Found in faq list item.
+msgid "Stripe account provisioning (through WooCommerce setup wizard)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Automated tax calculation"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Enable automated taxes from WooCommerce &gt; Settings &gt; Tax (make sure \"enable taxes\" is checked in General settings first)"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We've got taxes for you - no need to enter tax rates manually."
+msgstr ""
+
+#. Found in description header.
+msgid "Be ready to accept payments instantly"
+msgstr ""
+
+#. Found in description header.
+msgid "Collect accurate taxes at checkout"
+msgstr ""
+
+#. Screenshot description.
+msgid "Creating a Stripe account from the setup wizard"
+msgstr ""
+
+#. Screenshot description.
+msgid "Enabling automated taxes"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The source code is freely available <a href=\"https://github.com/Automattic/woocommerce-services\">in GitHub</a>."
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I see the source code for this plugin?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Give customers lower rates on their shipping. Create ready-to-print shipping labels for USPS directly in WooCommerce and take advantage of our special discount rate."
+msgstr ""
+
+#. Found in description header.
+msgid "Print shipping labels for USPS at a discounted rate"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "We use the Jetpack connection to authenticate each request and, if you use the shipping label service, to charge your credit card on file."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yep! WooCommerce version 3.0 or newer, please."
+msgstr ""
+
+#. Found in faq header.
+msgid "Are there Terms of Service and data usage policies?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why is a Jetpack Connection and WordPress.com account required?"
+msgstr ""
+
+#. Found in faq header.
+msgid "This works with WooCommerce, right?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I buy and print shipping labels for US domestic and international packages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What services are included?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "This section describes how to install the plugin and get it working."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Want to buy shipping labels? First, add your credit card to https://wordpress.com/me/purchases/billing and then print labels for orders right from the Edit Order page"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install, activate and connect Jetpack if you haven't already done so"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Install and activate WooCommerce if you haven't already done so"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' screen in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the plugin files to the <code>/wp-content/plugins/plugin-name</code> directory, or install the plugin through the WordPress plugins screen directly."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To use the features, simply install this plugin and activate the ones you want directly in your dashboard. As we add more services, you’ll see more features available directly in WooCommerce - making setup simpler."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "With WooCommerce Services, critical services are hosted on Automattic’s best-in-class infrastructure, rather than relying on your store’s hosting. That means your store will be more stable and faster."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WooCommerce Services makes basic eCommerce features like shipping more reliable by taking the burden off of your site’s infrastructure."
+msgstr ""
+
+#. Screenshot description.
+msgid "Checking on the health of WooCommerce Services"
+msgstr ""
+
+#. Screenshot description.
+msgid "Selecting your preferred payment method"
+msgstr ""
+
+#. Screenshot description.
+msgid "Setting up custom packages"
+msgstr ""
+
+#. Screenshot description.
+msgid "Buying a USPS shipping label for an order"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update the 'print label' button text and style"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enable notices about WooCommerce Services to be displayed, for example when taxes were incorrectly calculated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avoid overwriting Stripe keys after they've already been entered, and WooCommerce Services is connected for the first time"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve detection of when a Stripe account is connected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved wording for the Stripe Connect UI when disconnected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update WooCommerce compatiblity to 3.6"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the WC native tax override function by adding a missing return statement"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a small misalignment of checkmarks in our checkboxes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avoid showing 'Shipping options' at the bottom of the WooCommerce Services shipping settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Communicate HTTPS requirement when connecting to Stripe"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated behavior of the shipping phone field in order to prevent conflicts with other plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow connecting a Stripe account directly from the Stripe settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "UI improvements to the shipping label address form"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make the shipping label purchase process more robust, allowing retries when the label image failed to download"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "When purchasing a shipping label, allow addresses to be entered without verification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add packing logs to the front-end (with debug enabled) and back-end (order detail screens)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add compatibility with the WordPress.com eCommerce plan"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add compatibility with WordPress 5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the issue with disappearing shipping method settings when Stripe extension is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide ineligible package types for international shipments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make the HS Tariff Code optional for international shipments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix label printing bug in iOS 12"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Restrict shipping methods to certain shipping classes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve Stripe onboarding and show connected account in settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Correctly purchase a \"First Class Envelope\" or a \"First Class Package Service\" label depending if the package is an envelope or not"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clear shipping rates when changing package weight or signature requirement so they can be recalculated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add street-level accuracy for tax calculation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Display native tax tables for custom rates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix tax calculation with multiple line items sharing product tax class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent checkout with invalid ZIP code when using Automated Taxes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix z-index issue with purchased shipping label ellipsis menu components"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug with Shipping Label pointer dismissal when creating a label for the first time"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add international destinations support to USPS label printing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove emojis from the shipping rates messages, they were causing problems at checkout on sites with a non-default MySQL charset configuration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the \"Save changes\" button staying disabled after failing to save the shipping method settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak the list of purchased labels for an order so it's less cluttered"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show which WordPress.com user can add a credit card for shipping label purchases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow to bypass the address verification when purchasing a shipping label"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Immediately save the shipping method configuration when it's added to a shipping zone"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Several bugfixes and improvements for Automated Taxes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix error when adding shipping method price adjustments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add error message on manual service data refresh failure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix log file retrieval on Status page to work with new WC 3.4 format that includes the date"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix the PHP warning on the Status page when logs are empty"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor changes to the settings page UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GDPR - Support for personal data erasure functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GDPR - Support for personal data export functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "GDPR - Added WCS section to the privacy policy guide"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix broken admin after product featured in 'missing weight' notice is deleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP Warning when the server cannot be reached for shipping rates or products are missing dimensions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP Warning for individually packed shipping rates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add caching to Shipping Rate requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP Warning when saving Tax settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix unnecessary shipping rates requests made in the Dashboard"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved error messaging"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add \"copy to clipboard\" button to debug logs on Status page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix duplicate \"packages\" section in Shipping Settings (Advanced Shipping Packages extension compatibility)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent incompatible settings for Automated Taxes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix styling for purchasing shipping labels on mobile devices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug showing incorrect shipping label rates when changing packages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add link to view receipt for Shipping Labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add USPS signature requirement support to label purchase"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add shipping labels to Reports"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show customer selected shipping rate when purchasing a shipping label"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed PHP Fatal when PayPal Express Checkout has not fully initialized"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix some REST API calls being erroneously cached by certain hosting providers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix missing file in 1.12.0 plugin release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add Conditional Shipping and Payments compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Integrate with WooCommerce Shipment Tracking extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP Fatal bug in tax request error handling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avoid making unnecessary automated tax requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Separate troubleshooting logs by feature (taxes, shipping, etc)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add frontend debugging messages for shipping rates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add \"back to order\" link when adding a credit card from order details"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug in database migration script for older plugin versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clean up Stripe account keys when deauthorized"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add email receipts for purchased shipping labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug with label print button on Firefox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No longer require phone number for label purchases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add PayPal Express Checkout payment authorization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug with TOS acceptance on WordPress Multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug with product variation names in Packaging description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add label printing for stores in Puerto Rico"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only allow label printing for stores using USD"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make phone number optional for shipping labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix tax calculation for product bundles and add-ons"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix \"limit usage to X items\" coupon tax calculation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix tax calculations for subscription products"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add ability to refresh server schemas from status page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add WooCommerce compatibility to plugin header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix plain permalinks support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP Warning when Jetpack is disabled or missing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Calypso-based UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix some tax bugs related to discount calculation and taxable address"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add USPS support for Puerto Rico"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add tracking numbers to completed order emails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix tax calculation in order total bug (WooCommerce 3.2+)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix crash in the WooCommerce setup wizard when picking a supported country but an unsupported currency"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix NUX banner images and connect button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix label printing on iOS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add deferred Stripe account setup (if chosen in wizard)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add automated tax calculation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Automatically configure live rates based on setup wizard choices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add asynchronous label purchase flow (will be used for future performance gains)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix some React console warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix use of non-SSL URLs in plugin header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP Fatal error when order contains a deleted product"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Support plain permalinks setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Several small appearance tweaks (alignment, spacing)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "No longer override package weight when changing type if specified by user"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug that showed settings screen links before Terms of Service are accepted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More immediate display of purchased labels on order detail screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug that allows accidental double click of label purchase button"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug with \"create label\" flow on WooCommerce 3.1.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix spacing bug in purchased label display"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better UX when selecting shipping label payment method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug with test label printing on status page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved discovery for label printing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better packaging workflow for orders not using live rates at checkout"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New streamlined onboarding process for plugin dependencies"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP error when using Jetpack in development mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix display bug in \"saved for later\" item list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix missing item bug with individually packaged products"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated shipping label settings to include paper size"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix PHP error when order has no packaging info"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Code cleanup - React 16 prep, better i18n support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Handle decoding errors retrieving older package data from orders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak Accept-Language header"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix deleted product bug in labels UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug where predefined USPS packages weren't being sent in requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Temporarily remove label support for military addresses (requires customs form)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better NUX flow when Jetpack missing or inactive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug when purchasing additional shipping labels without a page refresh"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add contextual plugin link to WooCommerce.com support form"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better handling of logged out users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove shipping label preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add test label print to system status page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WooCommerce 3.0 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Log rate retrieval failures as errors with admin notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hide destination address normalized order meta"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update shipping address on order when corrected by API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix compatibility bug with <code>mod_security</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix WP Super Cache label printing bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix tax rate calculation for shipping"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unused icon font, reducing CSS size"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Labels: Fix escaped HTML showing in product variation names"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't initially show red error highlights for missing label destination address"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix label modal width issue in Internet Explorer 11"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix label PDF viewing in IE, Microsoft Edge, and Firefox"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix incompatibility with existing WooCommerce USPS extension"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Reduce size of CSS and JS files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add version to plugin script and style includes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix compatibility issues with Internet Explorer 11 and Microsoft Edge browsers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Include more information when JSON parsing fails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent a label rates request when prerequisite data needs modification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove plugin options during uninstall"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "More descriptive text in pointer notice for setting up a WCS shipping method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve label printing flow when origin or destination addresses need modification"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug related to tracking Terms of Service acceptance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update plugin support documentation link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add hint for first shipping method instance configuration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better visiblity into which shipping services are selected"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensure only the Jetpack connection owner can accept the Terms of Service"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clear shipping rates cache when shipping settings change"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Display label number relative to order instead of ID"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug related to tracking Terms of Service acceptance too early"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fetch service schemas earlier - fix bug where no shipping methods displayed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Beta release"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switch to PDF based multi-page labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ensure self-help works even if connect is unable to download the service schemas"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvements to label preview"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add USPS flat-rate packaging support to the packaging manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update contributors to include a few we missed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Send order shipping information with label rate requests to allow for pre-selection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a fatal error that could happen on activation if WooCommerce or Jetpack were not present"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix empty dimension handling and dimension casting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix timestamp presentation for label refunds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove inappropriate target blank in certain anchors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix incorrect service counts in shipping method instance group headers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix an error where clicking outside the labels UI modal did not always close it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "CSS clean-up"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Make sure notices appear on top of (not beneath) the labels UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Auto-accept address normalizations in labels UI if they are trivial"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak the Jetpack status message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clean-up a few React errors in the console"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Store the origin address when the label is purchased"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Adds USPS flat rate packages to the packaging manager"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Increase the remote request timeout"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvements for phone validation error messages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only allow the primary Jetpack user to select payment method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a React version error that was happening when editing shipping settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix to avoid a WP_User error notice when editing payment methods"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak to the refund request success message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a bug that caused a packages error in the labels UI when checkout used free shipping"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a bug with variable product dimensions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix label preview display bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add messaging in labels dialog when no packages are configured"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow payment methods to be managed in Jetpack \"Developer Mode\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add enhanced labels metabox with tracking info, reprint button, and refunds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add non-flat-rate predefined USPS packaging"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't allow the labels flow to be entered without a selected payment method"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Show the card information being used to purchase labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve the on-boarding experience for new users"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Automatically enable flat rate packages when their corresponding service is enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Move the settings under WooCommerce &gt; Shipping"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve user experience with form validation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve terms of service message"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Notify admins when products are missing dimensions when retrieving rates"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add tooltip explaining what shipping service price adjustments are"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug showing the wrong label purchase amount when requesting refunds"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Recommend checking logs when errors occur"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add a fallback rate for USPS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Save the shipping label origin address for reuse earlier"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Always retrieve a refunded label's status"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a bug allowing an errant double-purchase of labels"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a database table prefix bug"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add an easier UI to select grouped shipping services"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix a rates bug with individually packaged items"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve logging for rates request errors"
+msgstr ""

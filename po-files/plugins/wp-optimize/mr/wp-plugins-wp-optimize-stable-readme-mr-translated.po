@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:19:45+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:44:31+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -21,160 +21,20 @@ msgstr ""
 msgid "WP-Optimize"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "TWEAK: Prevented PHP notices in repair tables functionality"
+#. Found in description list item.
+msgid "Compress (\"smush\") images (existing images and automatically on new ones)"
 msgstr ""
 
-#. Found in changelog list item.
-msgid "TWEAK: Disabled Simple History logging option if plugin is not installed."
+#. Found in description paragraph.
+msgid "<strong>Optimization Preview:</strong> gives users the ability to preview, select and remove data and records available for optimization from the database."
 msgstr ""
 
-#. Found in changelog list item.
-msgid "TWEAK: Fixed string spelling and syntax errors"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Show correct table type for views"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Changed the term 'Automatic' to 'Scheduled'."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Added logging for fatal errors"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Add get_js_translation command for the UpdraftCentral WPO module"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Load WPO translations (logger classes info included) when template is pulled for UpdraftCentral-WPO module"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FIX: When detecting potentially unused images, exclude those found mentioned in the options table(s)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FIX: Fixed dismiss notices functionality"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Added the ability to repair corrupted database tables"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Prevent possible PHP notice when parsing logger options"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Removed orphaned attachment optimization from optimizations UI list"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FIX: Fix InnoDB optimization UI"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FIX: Fix number counting in Table information tab"
+#. Found in description paragraph.
+msgid "<strong>Lazy Loading:</strong> lazy loading is the technique of only loading parts of a web-page when it is visible to the user."
 msgstr ""
 
 #. Found in description list item.
 msgid "Automatically trigger a pre-optimize backup via <a href=\"https://updraftplus.com\">UpdraftPlus</a>"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Added seasonal dashboard notices  "
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Added Premium / Plugin Family tab"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Optimize the check for whether both free and Premium are installed"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Added message for multisite users with proposal to upgrade to Premium."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Adjusted notices about other products"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Use higher-quality spinner image"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: updated previous optimizations and added optimizations for trash posts, trash comments and orphaned attachements"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Extra MySQL and MariaDB checks for optimization, along with an over-ride functionality."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Show last automatic optimization time using site's configured timezone and locale"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Allow user to tick the \"Take a backup with UpdraftPlus before optimizing\" option from UpdraftCentral"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "TWEAK: Add functions to pull WP-Optimize templates for UpdraftCentral"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FIX: Fix unapproved comments count"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FIX: Comments count after related to comments optimization"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FIX: Auto clean-up settings not optimizing database tables"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Added ability to use WP CLI interface for run optimizations. (Premium)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Allow the user to create arbitrarily complex automatic optimization schedules (Premium)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Added the ability to optimize multisites. (Premium)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Added the ability to optimize an individual table. (Premium)"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Added the ability to search tables in \"Table Information\" tab"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Added the ability to sort data in the \"Table Information\" tab"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Added the ability to optimize ARCHIVE and Aria (MariaDB) database tables."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Extended the logging class to include logging for Simple History Logger, Slack, Email, syslog and a simple 'ring' log"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "FEATURE: Added the ability to export/import WP-Optimize settings"
 msgstr ""
 
 #. Found in description paragraph.
@@ -459,6 +319,462 @@ msgstr ""
 
 #. Screenshot description.
 msgid "Table Report"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Updated plugin links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Use new task manager class Updraft_Task_Manager_1_1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Better discoverability of Premium features"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevent PHP log warnings when images are missing from server (log in WP-O internal log instead)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevent methods being called when create_task returns false"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Remove the numerical index column from the list of tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Improve JSON-reparser to cope with even more exotic junk from some setups with problems elsewhere in their stack"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Fix potential PHP notice in task queue when Automatic Smush is activated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Add the possibility to hide the image optimisation metabox in the media edit screen."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Improve image compression UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Wrong DB Schema caused image compression to fail on multisites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Incorrect file paths on multisites "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Revert faulty change to the default settings page in 2.3.2, which prevented optimization buttons working"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Changed the default settings page from 'Settings' to 'Database'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Optimizing a table now runs correctly after automatic pre-optimize backup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Non-ASCII filenames could get mangled in the image optimization preview, resulting in images not shown (and WP 404 generation on the back-end)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fix a code path that could cause a fatal error on PHP 5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Optimizing a table should then refresh the information in the UI shown for it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Use an image compression logfile path inside the uploads hierarchy, with unpredictable salted element"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevent the overdue cron checker running twice instead of once"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevent notices about Premium showing in Premium, correct button text, update coupon"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevent PHP notices on calls from UpdraftCentral"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Wrong information about corrupted tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Compress images using lossy and lossless compression - both existing images, and newly uploaded"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: The informational list of WP core tables missed some possible extra tables on multisite"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixed orphaned relationships optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Detect more relationships between tables and plugins in orphaned database tables optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixed RTL layout"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Improve identification of installed/active plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fix another possible fatal error due to missing get_plugins() function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Added escaping for table names in database queries"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Output additional information if table was not deleted"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Wrong message for \"remove spam and trashed comments\" optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Improve orphaned relationships data optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Improve data reliability in javascript"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: (Premium) Fix layout in unused images list mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Fix header layout when a system or third party notification are shown"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Updated information on More plugins tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Added ability to exclude lazy load images by class"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: A regression in the \"identify table by owner\" feature caused optimizing to silently fail on some tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Added feature to view unused images as list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevent PHP notices when saving settings or optimizing in some circumstances"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Remember selected optimizations on Database page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fix a possible fatal error due to missing get_plugins() function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Load scripts and styles only on WP-Optimize pages"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added the ability to download unused images list (Premium version) as a CSV file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Tweak some other code that had PHP 5.2 compatibility issues"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Change a newly-introduced fragment that was not compatible with PHP 5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Remove orphaned database tables, and identify (many) known tables by plugin."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Removed redundant checkbox for Lazy Loading settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Unexpected content in the footer after preview popup closed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added Gzip compression support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Unselected optimizations could be run on a scheduled run"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Preview for Trashed posts optimization doesn't work"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: MetaSlider images detected as unused"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Fix sorting sizes columns in Tables information to take into account textual modifiers"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "RE-FACTOR: Refactoring and reorganisation of the UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Override the default multisite site list fetch limit of 100 sites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevent deleting homepage images in image optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Added checkbox for select all optimizations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Paginate unused images"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Unused Images optimization correctly detects images in pages built with popular plugins - Page Builder by SiteOrigin, Visual Composer, Beaver Builder, Elementor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Detecting corrupted tables in background."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Scheduler is not using the WordPress timezone settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Auto-draft, revision posts and pingback comments removing with their meta data"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: FAQ links point to getwpo.com"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Links to UpdraftPlus automatically Install/Activate UpdraftPlus plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Added option to clean \"all\" transient options and network-wide transient options for multisite WordPress installation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Don't show incorrect overhead value if option innodb_file_per_table disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Wrong numbers in total cleaned field"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Correct tables order sorting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added custom capabilities wpo_prevent_run_optimizations and wpo_prevent_manage_options (Premium)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Lazy Loading for images, iframes and videos. (Premium)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Preview data before deleting. (Premium)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Update seasonal notices"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Mark as supporting WordPress 5.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevented PHP notices in repair tables functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Disabled Simple History logging option if plugin is not installed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Fixed string spelling and syntax errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Show correct table type for views"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Changed the term 'Automatic' to 'Scheduled'."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Added logging for fatal errors"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Add get_js_translation command for the UpdraftCentral WPO module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Load WPO translations (logger classes info included) when template is pulled for UpdraftCentral-WPO module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: When detecting potentially unused images, exclude those found mentioned in the options table(s)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fixed dismiss notices functionality"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added the ability to repair corrupted database tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Prevent possible PHP notice when parsing logger options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Removed orphaned attachment optimization from optimizations UI list"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fix InnoDB optimization UI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fix number counting in Table information tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Added seasonal dashboard notices  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Added Premium / Plugin Family tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Optimize the check for whether both free and Premium are installed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Added message for multisite users with proposal to upgrade to Premium."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Adjusted notices about other products"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Use higher-quality spinner image"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: updated previous optimizations and added optimizations for trash posts, trash comments and orphaned attachements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Extra MySQL and MariaDB checks for optimization, along with an over-ride functionality."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Show last automatic optimization time using site's configured timezone and locale"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Allow user to tick the \"Take a backup with UpdraftPlus before optimizing\" option from UpdraftCentral"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TWEAK: Add functions to pull WP-Optimize templates for UpdraftCentral"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Fix unapproved comments count"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Comments count after related to comments optimization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FIX: Auto clean-up settings not optimizing database tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added ability to use WP CLI interface for run optimizations. (Premium)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Allow the user to create arbitrarily complex automatic optimization schedules (Premium)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added the ability to optimize multisites. (Premium)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added the ability to optimize an individual table. (Premium)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added the ability to search tables in \"Table Information\" tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added the ability to sort data in the \"Table Information\" tab"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added the ability to optimize ARCHIVE and Aria (MariaDB) database tables."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Extended the logging class to include logging for Simple History Logger, Slack, Email, syslog and a simple 'ring' log"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FEATURE: Added the ability to export/import WP-Optimize settings"
 msgstr ""
 
 #. Found in changelog list item.

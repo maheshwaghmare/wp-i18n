@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2018-10-27T17:11:14+00:00\n"
+"POT-Creation-Date: 2019-06-17T13:37:59+00:00\n"
 "PO-Revision-Date: +0000\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -19,6 +19,654 @@ msgstr ""
 
 #. Plugin name.
 msgid "SiteOrigin Widgets Bundle"
+msgstr ""
+
+#. Found in description list item.
+msgid "Testimonials Widget to show people what your users/customers think of you."
+msgstr ""
+
+#. Found in description list item.
+msgid "Taxonomy Widget to display a post's taxonomies."
+msgstr ""
+
+#. Found in description list item.
+msgid "Tabs Widget that'll let you group content into tabbed sections."
+msgstr ""
+
+#. Found in description list item.
+msgid "Masonry Widget to add images in a masonry layout."
+msgstr ""
+
+#. Found in description list item.
+msgid "Layout Slider Widget lets you build layouts on slides using SiteOrigin Page Builder."
+msgstr ""
+
+#. Found in description list item.
+msgid "Image Grid Widget that'll let you add images everywhere... in a grid."
+msgstr ""
+
+#. Found in description list item.
+msgid "Icon Widget for when only icons will do."
+msgstr ""
+
+#. Found in description list item.
+msgid "Hero Widget that'll save your site design."
+msgstr ""
+
+#. Found in description list item.
+msgid "Editor Widget let's you richly edit text anywhere."
+msgstr ""
+
+#. Found in description list item.
+msgid "Contact Form Widget to let people know you care."
+msgstr ""
+
+#. Found in description list item.
+msgid "Accordion Widget to compress your content."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Widgets are great. No matter where you’re using them. In a <a href=\"http://siteorigin.com/page-builder/\">Page Builder</a> page or on your widgetized areas. It's even compatible with other popular page building plugins."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The SiteOrigin Widgets Bundle is the perfect platform to build widgets for your theme or plugin. Read more on our <a href=\"https://siteorigin.com/docs/widgets-bundle/\">developer docs</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We offer free support on the <a href=\"https://siteorigin.com/thread/\">SiteOrigin support forums</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://siteorigin.com/widgets-bundle/getting-started/\">Documentation</a> is available on SiteOrigin."
+msgstr ""
+
+#. Found in description header.
+msgid "Create Custom Widgets"
+msgstr ""
+
+#. Found in description header.
+msgid "Support"
+msgstr ""
+
+#. Found in description header.
+msgid "Documentation"
+msgstr "डोक्युमेंटशन"
+
+#. Found in description paragraph.
+msgid "Once you enable a widget, you'll be able to use it anywhere standard widgets are used. You can manage your widgets by going to Plugins &gt; SiteOrigin Widgets in your WordPress admin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The collection is growing, but here’s what we have so far."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The SiteOrigin widget bundle gives you a collection of widgets that you can use and customize. All the widgets are built on our powerful framework, giving you advanced forms, unlimited colours and 1500+ icons."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[vimeo https://vimeo.com/102103379]"
+msgstr ""
+
+#. Found in description list item.
+msgid "Social Links Widget to show you're active."
+msgstr ""
+
+#. Found in description list item.
+msgid "Headline Widget to get you noticed."
+msgstr ""
+
+#. Found in description list item.
+msgid "Video Widget to get your videos out there."
+msgstr ""
+
+#. Found in description list item.
+msgid "Features Widget that lets you display a set of site or service features."
+msgstr ""
+
+#. Found in description list item.
+msgid "Post Carousel Widget that displays your posts as a carousel."
+msgstr ""
+
+#. Found in description list item.
+msgid "Price Table Widget that’ll help you sell more."
+msgstr ""
+
+#. Found in description list item.
+msgid "Slider Widget that slides images and HTML5 videos."
+msgstr ""
+
+#. Found in description list item.
+msgid "Call To Action Widget that’ll get your users performing the actions you want."
+msgstr ""
+
+#. Found in description list item.
+msgid "Image Widget that’ll let you add images everywhere."
+msgstr ""
+
+#. Found in description list item.
+msgid "Button Widget that you’ll love to click."
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Maps Widget that's going places."
+msgstr ""
+
+#. Screenshot description.
+msgid "An example of the button widget."
+msgstr ""
+
+#. Screenshot description.
+msgid "The button widget shows the clean, standard interface all the widgets use."
+msgstr ""
+
+#. Screenshot description.
+msgid "Manage which widgets you want enabled or disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent issue in SiteOrigin Layout Block when <code>sowb</code> hasn't been defined."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps location field: Ensure value is retained after preview in the block editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update FontAwesome icons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove Autoptimize cache clearing as it detects changes automatically."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Layout Slider: Remove header and text style fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image grid: Use image media title for display if title isn't set in the widget form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image Grid: Fix layout for images wrapped in links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image Grid: Dispatch event to notify listeners that layout is complete."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image widget: Prevent overflow of image container when wrapped in link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget Block: Ensure changed data is retained after previewing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps Location Field: Check if matchError exists before accessing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps Location Field: Remove some unnecessary use of jQuery to avoid <code>$ is not a function</code> errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image: Fix widths for images wrapped in links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image: Fix images vertical stretching."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image: Change alignment to use <code>display:flex</code> instead of <code>text-align</code>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Simple Masonry: Ensure all available width is used for layout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add compatibility for Autoptimize."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps location field: Use value in sanitization if already an array."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Price Table: Recalc equalized heights when window size or orientation changes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slider Base Widget: Removed unused background videos height setting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed admin notice for new widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Icon: Prevent undefined index notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion and Tabs: Trigger window resize on start of animation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps: Detect draggable or scroll_zoom before running setting migration."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image grid: Use opacity for initial hide of images so that size may still be detected."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add font url as property of font info object."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Run FitText resizer on <code>setup_widgets</code> too."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps Location field: Catch API key errors and display notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps: Add more links to relevant docs for enabling required APIs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget block: Show error if missing or invalid widget data."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slider field: Live updates for display value."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Contact form: Add description to reCAPTCHA field specifying reCAPTCHA v2."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Posts field: Option to specify allowed post types."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image radio field: New field created."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps: Add map styles filter."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Social Media Buttons: Prevent the phone network from opening in a new window."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion: Fix open/close icon layout when set to left position."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget block: Show appropriate message when widget is missing or deactivated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TinyMCE field: Prevent twemoji from replacing emoji in the textarea."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Contact form: Prevent double nonce."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps: Display notice when API key missing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps: Remove API key field from widget form, in favor of global API key field."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix state emitters for sub-widget fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Flag additional metaboxes as incompatible with the block editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Escape namespaced widgets in previews."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Post Carousel: Accessibility improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Video: Allow using YouTube embed URLs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Beaver Builder: Fix icons and widgets not saving."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion: Keyboard navigation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sliders: Option to always show navigation on mobile devices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps: Default height when height field is empty."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Maps: Update to use gesture handling and separate zoom level for mobile."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Features: Fix responsive layout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image grid: Fallback support, alt text, use measurement fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tabs: Set default tab position to top."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Beaver Builder compat: Fix widgets failing to update and CSS for FontAwesome icons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Block editor: Preview fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion: Fix issue preventing use of numbers in panel titles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Social Media: New networks: Bandcamp, Goodreads, Telegram, Strava, Blogger."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Features: Apply text styles to all features content, not just <code>&lt;p&gt;</code> tags."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update LESS PHP library with fixes for PHP 7.3 compatibility."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google maps: Auto-migration of locations to new location field format."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google maps: Moved global API key override to <code>modify_instance</code> to make key available in admin form too."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Location field: New specialized admin form field which autocompletes addresses using the Google Maps places library."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google maps: Use correct locations for static maps."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Order field: Additional sanitization before rendering."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tinymce field: Prevent JS console errors for hidden fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Block editor: Send widgetData when fetching widget forms."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multi-measurement field: Fix layout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow widgets registered by instance."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget block: Use JS array reduce function instead of lodash."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Icon field: Avoid requiring that third party icon families include a <code>filter.php</code> file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Icon field: Set correct value of currently selected icon for non-FA icons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TinyMCE field: Check if tinymce is available before using."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion: Keep the clicked panel in the viewport, if it moves out."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow widget headers to be translated."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Elementor compat: Directly enqueue necessary scripts and styles for previews."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sliders: Resize slides when widgets are set up."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Icons: Update to use latest FontAwesome icon sets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget documentation links."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Icon field: Show loading indicator while icons are loading."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Don't remove FitText window listener to ensure previously set up FitText elements still work."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion: Debounce window.location.hash updates to prevent incorrect states."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Indicate when 'setup_widgets' is triggered for previews."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compat fixes for PHP 7.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Actions when widgets' CSS files are created/deleted."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion: allow multiple panels with the same title."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget block: Prevent multiple API requests."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google map: Move global API key override to <code>modify_instance</code> to ensure key is available in form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget block: Fix previews."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget block: Correct used of i18n for block editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Widget block: Fix Layout Slider not being editable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Multi-measurement field: Fix autoFill in block editor and attempt to fix in PHP &lt;= 5.3."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Only setup form fields in the dialog when a PB edit widget dialog is opened."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "WP 5: Fixed some styles in the block editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Repeaters: Reverted some commits causing multiple issues."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Image widget: if no alt text is supplied add an empty alt attribute."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TinyMCE field: Prevent adding multiple copies of media buttons."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TinyMCE: Remove 'editor-buttons' style enqueue causing conflicts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google maps: Use correct info window text for markers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TinyMCE field: Use correct editor when block editor is present."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FitText: Set minimum font size to ensure readability."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Contact: Fix checkboxes and radio alignment on android."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Repeaters: In repeater setup, don't setup child repeaters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Avoid replacing repeater item id placeholders for child repeaters."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Builder field: Prevent error in PHP &lt;= 5.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gutenberg: Reset global <code>$post</code> after enqueueing widgets' scripts and styles, which might run secondary queries."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gutenberg: Allow editing page containing deactivated widget."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Builder field: Don't encode already JSON encoded values."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Builder field: Set data correctly from JS."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Contact form: Attempt to scroll to contact form after submitting, so result is visible."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Contact form: Prevent adding the anchor again if it's already been added."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Builder field: Allow double-encoding to allow already encoded text in editors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Beaver Builder: Dark styling."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Features: Text case adjustments and formatting."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion: Expand when user is printing."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Layout Slider: Resoonsive height."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Delete old widget styles when updating widgets."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better FitText compressor description."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Use inline CSS fallback if writing to file failed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Accordion: Deep-linking for child accordions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Slider: Option to prevent hiding video on mobile."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "TinyMCE field: Use correct selector for checking whether click target is editor switching tab."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google maps: Better geocoding request management."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tabs: Keyboard navigation and more accessibility improvements."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Gutenberg: Alert user that changes will be lost when changing the widget type."
 msgstr ""
 
 #. Found in changelog list item.
@@ -379,50 +1027,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Hero: Add margin-top to so-widget-sow-button for spacing."
-msgstr ""
-
-#. Found in description list item.
-msgid "Testimonials Widget to show people what your users/customers think of you."
-msgstr ""
-
-#. Found in description list item.
-msgid "Taxonomy Widget to display a post's taxonomies."
-msgstr ""
-
-#. Found in description list item.
-msgid "Tabs Widget that'll let you group content into tabbed sections."
-msgstr ""
-
-#. Found in description list item.
-msgid "Masonry Widget to add images in a masonry layout."
-msgstr ""
-
-#. Found in description list item.
-msgid "Layout Slider Widget lets you build layouts on slides using SiteOrigin Page Builder."
-msgstr ""
-
-#. Found in description list item.
-msgid "Image Grid Widget that'll let you add images everywhere... in a grid."
-msgstr ""
-
-#. Found in description list item.
-msgid "Icon Widget for when only icons will do."
-msgstr ""
-
-#. Found in description list item.
-msgid "Hero Widget that'll save your site design."
-msgstr ""
-
-#. Found in description list item.
-msgid "Editor Widget let's you richly edit text anywhere."
-msgstr ""
-
-#. Found in description list item.
-msgid "Contact Form Widget to let people know you care."
-msgstr ""
-
-#. Found in description list item.
-msgid "Accordion Widget to compress your content."
 msgstr ""
 
 #. Found in changelog list item.
@@ -879,106 +1483,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Editor widget supports Jetpack Markdown."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Widgets are great. No matter where you’re using them. In a <a href=\"http://siteorigin.com/page-builder/\">Page Builder</a> page or on your widgetized areas. It's even compatible with other popular page building plugins."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The SiteOrigin Widgets Bundle is the perfect platform to build widgets for your theme or plugin. Read more on our <a href=\"https://siteorigin.com/docs/widgets-bundle/\">developer docs</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "We offer free support on the <a href=\"https://siteorigin.com/thread/\">SiteOrigin support forums</a>."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<a href=\"https://siteorigin.com/widgets-bundle/getting-started/\">Documentation</a> is available on SiteOrigin."
-msgstr ""
-
-#. Found in description header.
-msgid "Create Custom Widgets"
-msgstr ""
-
-#. Found in description header.
-msgid "Support"
-msgstr ""
-
-#. Found in description header.
-msgid "Documentation"
-msgstr "डोक्युमेंटशन"
-
-#. Found in description paragraph.
-msgid "Once you enable a widget, you'll be able to use it anywhere standard widgets are used. You can manage your widgets by going to Plugins &gt; SiteOrigin Widgets in your WordPress admin."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The collection is growing, but here’s what we have so far."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The SiteOrigin widget bundle gives you a collection of widgets that you can use and customize. All the widgets are built on our powerful framework, giving you advanced forms, unlimited colours and 1500+ icons."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "[vimeo https://vimeo.com/102103379]"
-msgstr ""
-
-#. Found in description list item.
-msgid "Social Links Widget to show you're active."
-msgstr ""
-
-#. Found in description list item.
-msgid "Headline Widget to get you noticed."
-msgstr ""
-
-#. Found in description list item.
-msgid "Video Widget to get your videos out there."
-msgstr ""
-
-#. Found in description list item.
-msgid "Features Widget that lets you display a set of site or service features."
-msgstr ""
-
-#. Found in description list item.
-msgid "Post Carousel Widget that displays your posts as a carousel."
-msgstr ""
-
-#. Found in description list item.
-msgid "Price Table Widget that’ll help you sell more."
-msgstr ""
-
-#. Found in description list item.
-msgid "Slider Widget that slides images and HTML5 videos."
-msgstr ""
-
-#. Found in description list item.
-msgid "Call To Action Widget that’ll get your users performing the actions you want."
-msgstr ""
-
-#. Found in description list item.
-msgid "Image Widget that’ll let you add images everywhere."
-msgstr ""
-
-#. Found in description list item.
-msgid "Button Widget that you’ll love to click."
-msgstr ""
-
-#. Found in description list item.
-msgid "Google Maps Widget that's going places."
-msgstr ""
-
-#. Screenshot description.
-msgid "An example of the button widget."
-msgstr ""
-
-#. Screenshot description.
-msgid "The button widget shows the clean, standard interface all the widgets use."
-msgstr ""
-
-#. Screenshot description.
-msgid "Manage which widgets you want enabled or disabled."
 msgstr ""
 
 #. Found in changelog list item.

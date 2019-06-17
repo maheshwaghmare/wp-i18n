@@ -1,0 +1,281 @@
+# Translation of Plugins - Limit Login Attempts Reloaded - Stable (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - Limit Login Attempts Reloaded - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - Limit Login Attempts Reloaded - Stable (latest release)\n"
+
+#: views/options-page.php:179
+msgid "Specify the origins you trust in order of priority, separated by commas. We strongly recommend that you <b>do not</b> use anything other than REMOTE_ADDR since other origins can be easily faked. Examples: HTTP_X_FORWARDED_FOR, HTTP_CF_CONNECTING_IP, HTTP_X_SUCURI_CLIENTIP"
+msgstr ""
+
+#: views/options-page.php:175
+msgid "Trusted IP Origins"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1013
+msgid "You can also try <a href=\"%s\">resetting your password</a> and that should help you to log in."
+msgstr ""
+
+#: views/options-page.php:139
+msgid "after"
+msgstr ""
+
+#: views/options-page.php:136
+msgid "Email to"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1349
+msgid "The \""
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1082
+msgid "<strong>ERROR</strong>: Incorrect email address or password."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpchef.org"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPChef"
+msgstr ""
+
+#: views/options-page.php:103
+msgid "this makes the plugin <a href=\"https://gdpr-info.eu/\" target=\"_blank\" >GDPR</a> compliant"
+msgstr ""
+
+#: views/options-page.php:100
+msgid "GDPR compliance"
+msgstr ""
+
+#: views/options-page.php:185
+msgid "Save Options"
+msgstr ""
+
+#: views/options-page.php:150 views/options-page.php:164
+msgid "One IP or IP range (1.2.3.4-5.6.7.8) per line"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1393
+msgid "Options saved."
+msgstr ""
+
+#. Description of the plugin
+msgid "Limit the rate of login attempts, including by way of cookies and for each IP address."
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Limit Login Attempts Reloaded"
+msgstr ""
+
+#: views/options-page.php:212
+msgid "Gateway"
+msgstr ""
+
+#: views/options-page.php:211
+msgid "Tried to log in as"
+msgstr ""
+
+#: views/options-page.php:210
+msgctxt "Internet address"
+msgid "IP"
+msgstr ""
+
+#: views/options-page.php:209
+msgid "Date"
+msgstr ""
+
+#: views/options-page.php:201
+msgid "Clear Log"
+msgstr ""
+
+#: views/options-page.php:161
+msgid "Blacklist"
+msgstr ""
+
+#: views/options-page.php:154 views/options-page.php:168
+msgid "One Username per line"
+msgstr ""
+
+#: views/options-page.php:147
+msgid "Whitelist"
+msgstr ""
+
+#: views/options-page.php:142
+msgid "lockouts"
+msgstr ""
+
+#: views/options-page.php:134 views/options-page.php:196
+msgid "Lockout log"
+msgstr ""
+
+#: views/options-page.php:131
+msgid "Notify on lockout"
+msgstr ""
+
+#: views/options-page.php:126
+msgid "hours until retries are reset"
+msgstr ""
+
+#: views/options-page.php:123
+msgid "hours"
+msgstr ""
+
+#: views/options-page.php:120
+msgid "lockouts increase lockout time to"
+msgstr ""
+
+#: views/options-page.php:116
+msgid "minutes lockout"
+msgstr ""
+
+#: views/options-page.php:112
+msgid "allowed retries"
+msgstr ""
+
+#: views/options-page.php:107
+msgid "Lockout"
+msgstr ""
+
+#: views/options-page.php:79
+msgid "Use global settings"
+msgstr ""
+
+#: views/options-page.php:77
+msgid "If disabled, the global settings will be forcibly applied to the entire network."
+msgstr ""
+
+#: views/options-page.php:76
+msgid "Let network sites use their own settings"
+msgstr ""
+
+#: views/options-page.php:72
+msgid "Options"
+msgstr ""
+
+#: views/options-page.php:66
+msgid "%d IP is currently blocked from trying to log in"
+msgstr ""
+
+#: views/options-page.php:64
+msgid "Restore Lockouts"
+msgstr ""
+
+#: views/options-page.php:61
+msgid "Active lockouts"
+msgstr ""
+
+#: views/options-page.php:54
+msgid "No lockouts yet"
+msgstr ""
+
+#: views/options-page.php:52
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/options-page.php:50
+msgid "Reset Counter"
+msgstr ""
+
+#: views/options-page.php:46
+msgid "Total lockouts"
+msgstr ""
+
+#: views/options-page.php:41
+msgid "Statistics"
+msgstr ""
+
+#: views/options-page.php:40
+msgid "Limit Login Attempts Settings"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1306
+msgid "Cleared current lockouts"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1299
+msgid "Reset lockout count"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1292
+msgid "Cleared IP log"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1108
+msgid "WC Error"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1084
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr ""
+
+#: core/LimitLoginAttempts.php:1010
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/LimitLoginAttempts.php:1008
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/LimitLoginAttempts.php:1000
+msgid "Please try again later."
+msgstr ""
+
+#: core/LimitLoginAttempts.php:992
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr ""
+
+#: core/LimitLoginAttempts.php:774
+msgid "IP was blocked for %s"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:772
+msgid "IP was NOT blocked because of external whitelist."
+msgstr ""
+
+#: core/LimitLoginAttempts.php:768
+msgid "Last user attempted: %s"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:764
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:759
+msgid "[%s] Too many failed login attempts"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:755
+msgid "[%s] Failed login attempts from whitelisted IP"
+msgstr ""
+
+#: core/LimitLoginAttempts.php:748
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/LimitLoginAttempts.php:742
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/LimitLoginAttempts.php:365 core/LimitLoginAttempts.php:1167
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] ""
+msgstr[1] ""

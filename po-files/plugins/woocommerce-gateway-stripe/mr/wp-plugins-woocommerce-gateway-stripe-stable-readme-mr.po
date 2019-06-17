@@ -1,0 +1,280 @@
+# Translation of Plugins - WooCommerce Stripe Payment Gateway - Stable Readme (latest release) in Marathi
+# This file is distributed under the same license as the Plugins - WooCommerce Stripe Payment Gateway - Stable Readme (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: +0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: mr\n"
+"Project-Id-Version: Plugins - WooCommerce Stripe Payment Gateway - Stable Readme (latest release)\n"
+
+#. Short description.
+msgid "Take credit card payments on your store using Stripe."
+msgstr ""
+
+#. Plugin name.
+msgid "WooCommerce Stripe Payment Gateway"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes! In Live Mode, an SSL certificate must be installed on your site to use Stripe. In addition to SSL encryption, Stripe provides an extra JavaScript method to secure card data using <a href=\"https://stripe.com/elements\">Stripe Elements</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Stripe is available for Store Owners and Merchants in:"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://stripe.com/global\">with more being added</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "United Kingdom"
+msgstr ""
+
+#. Found in description list item.
+msgid "Switzerland"
+msgstr ""
+
+#. Found in description list item.
+msgid "Sweden"
+msgstr ""
+
+#. Found in description list item.
+msgid "Spain"
+msgstr ""
+
+#. Found in description list item.
+msgid "Singapore"
+msgstr ""
+
+#. Found in description list item.
+msgid "Portugal"
+msgstr ""
+
+#. Found in description list item.
+msgid "Norway"
+msgstr ""
+
+#. Found in description list item.
+msgid "New Zealand"
+msgstr ""
+
+#. Found in description list item.
+msgid "Netherlands"
+msgstr ""
+
+#. Found in description list item.
+msgid "Luxembourg"
+msgstr ""
+
+#. Found in description list item.
+msgid "Japan"
+msgstr ""
+
+#. Found in description list item.
+msgid "Italy"
+msgstr ""
+
+#. Found in description list item.
+msgid "Hong Kong"
+msgstr ""
+
+#. Found in description list item.
+msgid "Finland"
+msgstr ""
+
+#. Found in description list item.
+msgid "Denmark"
+msgstr ""
+
+#. Found in description list item.
+msgid "Austria"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does this require an SSL certificate?"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WooCommerce Stripe now includes <a href=\"https://www.w3.org/TR/payment-request/\">Web Payments API</a> support, which means customers can pay using payment details associated to their mobile devices, in browsers supporting the Web Payments API (Chrome for Android, amongst others). Checkout is now just a few taps away on mobile. Only supports simple and variable products for now. More support to come."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WooCommerce Stripe now includes <a href=\"https://stripe.com/apple-pay\">Apple Pay</a> support, which means customers can pay using payment details associated with their Apple ID. Checkout is now just an authorization (Touch ID or Face ID) away on both mobile and desktop. Only supports simple and variable products for now. More support to come."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Accept Visa, MasterCard, American Express, Discover, JCB, Diners Club, SEPA, Sofort, iDeal, Giropay, Alipay, and more directly on your store with the Stripe payment gateway for WooCommerce, including Apple Pay, Google Pay, and Microsoft Pay for mobile and desktop."
+msgstr ""
+
+#. Found in description header.
+msgid "Web Payments API Support"
+msgstr ""
+
+#. Found in description header.
+msgid "Apple Pay Support"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you get stuck, you can ask for help in the Plugin Forum."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For help setting up and configuring, please refer to our <a href=\"https://docs.woocommerce.com/document/stripe/\">documentation</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, it does - production and sandbox mode is driven by the API keys you use."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes!"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I get support or talk to other users?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find documentation?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does this support both production mode and sandbox mode for testing?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does this support recurring payments, like for subscriptions?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Automatic updates should work like a charm; as always though, ensure you backup your site just in case."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "The manual installation method involves downloading our plugin and uploading it to your web server via your favorite FTP application. The WordPress codex contains <a href=\"http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation\">instructions on how to do this here</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "In the search field type “WooCommerce Stripe Payment Gateway” and click Search Plugins. Once you’ve found our plugin you can view details about it such as the point release, rating, and description. Most importantly, of course, you can install it by simply clicking \"Install Now\", then \"Activate\"."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install of the WooCommerce Stripe plugin, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "You can download an <a href=\"https://wordpress.org/plugins/woocommerce-gateway-stripe/developers/\">older version of this gateway for older versions of WooCommerce from here</a>."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Please note, v4 of this gateway requires WooCommerce 2.6 and above."
+msgstr ""
+
+#. Found in installation header.
+msgid "Updating"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Automatic installation"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Stripe also supports the <a href=\"https://woocommerce.com/products/woocommerce-subscriptions/\">WooCommerce Subscriptions extension</a> and re-using cards. When a customer pays, they are set up in Stripe as a customer. If they create another order, they can check out using the same card. A massive timesaver for returning customers."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Stripe has no setup fees, no monthly fees, no hidden costs: you only get charged when you earn money! Earnings are transferred to your bank account on a 7-day rolling basis."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Stripe is a simple way to accept payments online. With Stripe you can accept Visa, MasterCard, American Express, Discover, JCB, and Diners Club cards, even Bitcoin, directly on your store."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Stripe plugin extends WooCommerce allowing you to take payments directly on your store via Stripe’s API."
+msgstr ""
+
+#. Found in description list item.
+msgid "Ireland"
+msgstr ""
+
+#. Found in description list item.
+msgid "Germany"
+msgstr ""
+
+#. Found in description list item.
+msgid "France"
+msgstr ""
+
+#. Found in description list item.
+msgid "Belgium"
+msgstr ""
+
+#. Found in description list item.
+msgid "Australia"
+msgstr ""
+
+#. Found in description list item.
+msgid "Canada"
+msgstr ""
+
+#. Found in description list item.
+msgid "United States"
+msgstr ""
+
+#. Found in description header.
+msgid "Why choose Stripe?"
+msgstr ""
+
+#. Found in description header.
+msgid "Take Credit card payments easily and directly on your store"
+msgstr ""
+
+#. Screenshot description.
+msgid "Checking out with a saved card."
+msgstr ""
+
+#. Screenshot description.
+msgid "Option to save a card to your account."
+msgstr ""
+
+#. Screenshot description.
+msgid "Normal checkout with Stripe."
+msgstr ""
+
+#. Screenshot description.
+msgid "The settings panel used to configure the gateway."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix - Display error messages only next to the chosen saved card."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove - 3D Secure settings are no longer available in the gateway settings. Use Stripe Radar instead."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove - Stripe Modal Checkout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update - Add support for Strong Customer Authentication (SCA) for user-initiated payments."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update - Enable Payment Request buttons for Puerto Rico based stores."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "<a href=\"https://raw.githubusercontent.com/woocommerce/woocommerce-gateway-stripe/master/changelog.txt\">See changelog for all versions</a>."
+msgstr ""

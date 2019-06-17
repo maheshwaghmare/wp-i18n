@@ -11,6 +11,646 @@ msgstr ""
 "Language: mr\n"
 "Project-Id-Version: Plugins - Redirection - Development Readme (trunk)\n"
 
+#. Short description.
+msgid "Manage 301 redirections, keep track of 404 errors, and improve your site, with no knowledge of Apache or Nginx needed."
+msgstr ""
+
+#. Found in description list item.
+msgid "Rank Math"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Redirection is compatible with PHP from 5.4 and upwards (including 7.2)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can match query parameters exactly, ignore them, and even pass them through to your target."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "There is full support for regular expressions so you can create redirect patterns to match any number of URLs. You can match query parameters and even pass them through to the target URL."
+msgstr ""
+
+#. Found in description header.
+msgid "Query parameter handling"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Errors can be grouped to show where you should focus your attention, and can be redirected in bulk."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You are able to disable or reduce IP collection to meet the legal requirements of your geographic region."
+msgstr ""
+
+#. Found in description list item.
+msgid "Page type - redirect if the current page is a 404"
+msgstr ""
+
+#. Found in description list item.
+msgid "Server - redirect another domain if also hosted on this server"
+msgstr ""
+
+#. Found in description list item.
+msgid "IP address - redirect if the client IP address matches"
+msgstr ""
+
+#. Found in description list item.
+msgid "WordPress capability - redirect if the user is able to perform a certain capability"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Display geographic information about an IP address, as well as a full user agent information, to try and understand who the visitor is."
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom filter - redirect based on your own WordPress filter"
+msgstr ""
+
+#. Found in description list item.
+msgid "HTTP headers - redirect based on a HTTP header"
+msgstr ""
+
+#. Found in description list item.
+msgid "Cookies - redirect if a particular cookie is set"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Full documentation can be found at <a href=\"https://redirection.me\">https://redirection.me</a>"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Full documentation can be found on the <a href=\"https://redirection.me/support/\">Redirection</a> page."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "You can find full details of installing a plugin on the <a href=\"https://redirection.me/support/installation/\">plugin installation page</a>."
+msgstr ""
+
+#. Screenshot description.
+msgid "Options"
+msgstr ""
+
+#. Screenshot description.
+msgid "Import/Export"
+msgstr ""
+
+#. Screenshot description.
+msgid "Redirect logs"
+msgstr ""
+
+#. Screenshot description.
+msgid "Adding a redirection"
+msgstr ""
+
+#. Screenshot description.
+msgid "Redirection management interface"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin can also be configured to monitor when post or page permalinks are changed and automatically create a redirect to the new URL."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://translate.wordpress.org/projects/wp-plugins/redirection\">https://translate.wordpress.org/projects/wp-plugins/redirection</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please submit translations to:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"https://github.com/johngodley/redirection\">https://github.com/johngodley/redirection</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Please submit bugs, patches, and feature requests to:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Yes, it's really free. There's no premium version and no need to pay money to get access to features. This is a dedicated redirect management plugin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You can also import from the following plugins:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The plugin has a fully-featured import and export system and you can:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If you use Nginx then you can export redirects to an Nginx rewrite rules file."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "By default Redirection will manage all redirects using WordPress. However you can configure it so redirects are automatically saved to a .htaccess file and handled by Apache itself."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Redirection will keep track of all 404 errors that occur on your site, allowing you to track down and fix problems."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Logs can be exported for external viewing, and can be searched and filtered for more detailed investigation."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "A configurable logging option allows to view all redirects occurring on your site, including information about the visitor, the browser used, and the referrer. A 'hit' count is maintained for each redirect so you can see if a URL is being used."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In addition to straightforward URL matching you can redirect based on other conditions:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Create and manage redirects quickly and easily without needing Apache or Nginx knowledge. If your WordPress supports permalinks then you can use Redirection to redirect any URL."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "It has been a WordPress plugin for over 10 years and has been recommended countless times. And it's free!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Redirection is designed to be used on sites with a few redirects to sites with thousands of redirects."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Redirection is the most popular redirect manager for WordPress. With it you can easily manage 301 redirections, keep track of 404 errors, and generally tidy up any loose ends your site may have. This can help reduce errors and improve your site ranking."
+msgstr ""
+
+#. Found in description list item.
+msgid "WordPress old slug redirects"
+msgstr ""
+
+#. Found in description list item.
+msgid "Safe Redirect Manager"
+msgstr ""
+
+#. Found in description list item.
+msgid "SEO Redirection"
+msgstr ""
+
+#. Found in description list item.
+msgid "Simple 301 Redirects"
+msgstr ""
+
+#. Found in description list item.
+msgid "Use WP CLI to automate import and export"
+msgstr ""
+
+#. Found in description list item.
+msgid "Import and export to CSV for viewing in a spreadsheet"
+msgstr ""
+
+#. Found in description list item.
+msgid "Copy redirects between sites using JSON"
+msgstr ""
+
+#. Found in description list item.
+msgid "Export to Nginx rewrite rules"
+msgstr ""
+
+#. Found in description list item.
+msgid "Import and export to Apache .htaccess"
+msgstr ""
+
+#. Found in description list item.
+msgid "Referrer - redirect if the user visited the link from another page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Browser - redirect if the user is using a certain browser"
+msgstr ""
+
+#. Found in description list item.
+msgid "Login status - redirect only if the user is logged in or logged out"
+msgstr ""
+
+#. Found in description header.
+msgid "Support"
+msgstr ""
+
+#. Found in description header.
+msgid "Wait, it's free?"
+msgstr ""
+
+#. Found in description header.
+msgid "Import &amp; Export"
+msgstr ""
+
+#. Found in description header.
+msgid "Apache &amp; Nginx support"
+msgstr ""
+
+#. Found in description header.
+msgid "Track 404 errors"
+msgstr ""
+
+#. Found in description header.
+msgid "Full logging"
+msgstr ""
+
+#. Found in description header.
+msgid "Conditional redirects"
+msgstr ""
+
+#. Found in description header.
+msgid "Redirect manager"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin works in a similar manner to how WordPress handles permalinks and should not result in any noticeable slowdown to your site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Ease of use.  Redirections are automatically created when a post URL changes, and it is a lot easier to manually add redirections than to hack around a .htaccess.  You also get the added benefit of being able to keep track of 404 errors."
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the performance of this plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why would I want to use this instead of .htaccess?"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "The plugin is simple to install:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Configure the options from the <code>Manage/Redirection</code> page"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the plugin management page and enable the plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload <code>redirection</code> directory to your <code>/wp-content/plugins</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Unzip"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download <code>redirection.zip</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix + character being removed from source URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Allow multisite database updates to run when more than 100 sites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Disable IP grouping when IP option is disabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix case insensitivity not applying to query params"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix monitor trash option applying when deleting a draft"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix redirect with blank target and auto target settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix query param name is a number"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve handling of invalid query parameters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Switch from 'x-redirect-agent' to 'x-redirect-by', for WP 5+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add warning when problems saving .htaccess file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add check for pipe character in target URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add manual database install option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for UTF8 URLs without manual encoding"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix bug with old API routes breaking test"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix '1' being logged for pass-through redirects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve API checking logic"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix incorrect CSV download link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix JSON import ignoring group status"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve API problem detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add workaround for qTranslate breaking REST API"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add user agent to 404 export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add support for semi-colon separated import files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add manual database upgrade"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add auto-complete for target URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve WP CLI database output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix REST API warning"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove deprecated PHP"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove unnecessary escaped slashes from JSON output"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add DB upgrade to catch URLs with double-slash URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix WP CLI on single site"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix handling of double-slashed URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix .htaccess import adding ^ to the source"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix 'force https' causing WP to redirect to admin URL when accessing www subdomain"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add import from Rank Math"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add additional redirect suggestions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Move 404 export option to import/export page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix database upgrade on multisite WP CLI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix IP match when action is 'error'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix pagination button style in WP 5.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix upgrade on some hosts where plugin is auto-updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Match DB upgrade for new match_url to creation script"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve styling of query flags"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve upgrade for sites with missing tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to set defaults for case, trailing, and query settings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to ignore query parameters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to copy query parameters to target URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to ignore trailing slashes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option for case insensitive redirects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Detect site where Redirection was once installed and has settings but no database tables"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve compatibility with custom API prefix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve compatibility with ModSecurity"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve API detection with plugins that use sessions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve upgrade for sites with a missing IP column"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix missing display of disabled redirects with a title"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix warning with regex and no leading slash"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Prevent upgrade message being hidden by other plugins"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add PHP &lt; 5.4 message on plugins page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add fallback for sites with no REST API value"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add further partial upgrade detection"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add DB upgrade detection for people with partial 2.4 sites"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix 3.7 built against wrong dropzone module"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix Firefox problem with multiple URLs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Clarify database upgrade text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix disabled redirects appearing in htaccess"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix IPs appearing for bulk redirect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improve export filename"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Drop PHP &lt; 5.4 support. Please use version 3.6.3 if your PHP is too old"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add introduction message when first installed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add database functions to WP CLI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add new database install and upgrade process"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add redirect warning for known problem redirects"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove potential CSRF"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix IDs shown in bulk add redirect"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix 'delete all from 404 log' when ungrouped deleting all 404s"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add another PHP &lt; 5.4 compat fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add another PHP &lt; 5.4 fix. Sigh"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "'Do nothing' now stops processing further rules"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Deprecated file pass through removed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix server match not supporting regex properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add 400, 403, and 418 (I'm a teapot!) error codes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add 303 and 304 redirect codes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add URL &amp; IP match"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better page navigation change monitoring"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to redirect on a 404"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add bulk block or redirect a group of 404s"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add grouping of 404s by IP and URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to ignore 404s"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add option to block 404s by IP"
+msgstr ""
+
 #. Found in changelog list item.
 msgid "Fix error shown when source URL is blank"
 msgstr ""
@@ -163,22 +803,6 @@ msgstr ""
 msgid "Add cookie match - redirect based on a cookie"
 msgstr ""
 
-#. Found in description paragraph.
-msgid "Display geographic information about an IP address, as well as a full user agent information, to try and understand who the visitor is."
-msgstr ""
-
-#. Found in description list item.
-msgid "Custom filter - redirect based on your own WordPress filter"
-msgstr ""
-
-#. Found in description list item.
-msgid "HTTP headers - redirect based on a HTTP header"
-msgstr ""
-
-#. Found in description list item.
-msgid "Cookies - redirect if a particular cookie is set"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Fix problem fetching data on sites without https"
 msgstr ""
@@ -287,10 +911,6 @@ msgstr ""
 msgid "Add support for IPv6"
 msgstr ""
 
-#. Found in description paragraph.
-msgid "Full documentation can be found at <a href=\"https://redirection.me\">https://redirection.me</a>"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Fix user agent dropdown not setting agent"
 msgstr ""
@@ -307,34 +927,6 @@ msgstr ""
 msgid "Add support for WordPress multisite"
 msgstr ""
 
-#. Found in installation paragraph, faq paragraph.
-msgid "Full documentation can be found on the <a href=\"https://redirection.me/support/\">Redirection</a> page."
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "You can find full details of installing a plugin on the <a href=\"https://redirection.me/support/installation/\">plugin installation page</a>."
-msgstr ""
-
-#. Screenshot description.
-msgid "Options"
-msgstr ""
-
-#. Screenshot description.
-msgid "Import/Export"
-msgstr ""
-
-#. Screenshot description.
-msgid "Redirect logs"
-msgstr ""
-
-#. Screenshot description.
-msgid "Adding a redirection"
-msgstr ""
-
-#. Screenshot description.
-msgid "Redirection management interface"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Restore sortable table headers"
 msgstr ""
@@ -345,10 +937,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Fix regex breaking .htaccess export"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The plugin can also be configured to monitor when post or page permalinks are changed and automatically create a redirect to the new URL."
 msgstr ""
 
 #. Found in changelog list item.
@@ -377,162 +965,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Add option to set redirect cache expiry, default 1 hour"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<a href=\"https://translate.wordpress.org/projects/wp-plugins/redirection\">https://translate.wordpress.org/projects/wp-plugins/redirection</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Please submit translations to:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "<a href=\"https://github.com/johngodley/redirection\">https://github.com/johngodley/redirection</a>"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Please submit bugs, patches, and feature requests to:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Yes, it's really free. There's no premium version and no need to pay money to get access to features. This is a dedicated redirect management plugin."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "You can also import from the following plugins:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "The plugin has a fully-featured import and export system and you can:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "If you use Nginx then you can export redirects to an Nginx rewrite rules file."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "By default Redirection will manage all redirects using WordPress. However you can configure it so redirects are automatically saved to a .htaccess file and handled by Apache itself."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Redirection will keep track of all 404 errors that occur on your site, allowing you to track down and fix problems."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Logs can be exported for external viewing, and can be searched and filtered for more detailed investigation."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "A configurable logging option allows to view all redirects occurring on your site, including information about the visitor, the browser used, and the referrer. A 'hit' count is maintained for each redirect so you can see if a URL is being used."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "In addition to straightforward URL matching you can redirect based on other conditions:"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "There is full support for regular expressions so you can create redirect patterns to match any number of URLs."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Create and manage redirects quickly and easily without needing Apache or Nginx knowledge. If your WordPress supports permalinks then you can use Redirection to redirect any URL."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "It has been a WordPress plugin for over 10 years and has been recommended countless times. And it's free!"
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Redirection is designed to be used on sites with a few redirects to sites with thousands of redirects."
-msgstr ""
-
-#. Found in description paragraph.
-msgid "Redirection is the most popular redirect manager for WordPress. With it you can easily manage 301 redirections, keep track of 404 errors, and generally tidy up any loose ends your site may have. This can help reduce errors and improve your site ranking."
-msgstr ""
-
-#. Found in description list item.
-msgid "WordPress old slug redirects"
-msgstr ""
-
-#. Found in description list item.
-msgid "Safe Redirect Manager"
-msgstr ""
-
-#. Found in description list item.
-msgid "SEO Redirection"
-msgstr ""
-
-#. Found in description list item.
-msgid "Simple 301 Redirects"
-msgstr ""
-
-#. Found in description list item.
-msgid "Use WP CLI to automate import and export"
-msgstr ""
-
-#. Found in description list item.
-msgid "Import and export to CSV for viewing in a spreadsheet"
-msgstr ""
-
-#. Found in description list item.
-msgid "Copy redirects between sites using JSON"
-msgstr ""
-
-#. Found in description list item.
-msgid "Export to Nginx rewrite rules"
-msgstr ""
-
-#. Found in description list item.
-msgid "Import and export to Apache .htaccess"
-msgstr ""
-
-#. Found in description list item.
-msgid "Referrer - redirect if the user visited the link from another page"
-msgstr ""
-
-#. Found in description list item.
-msgid "Browser - redirect if the user is using a certain browser"
-msgstr ""
-
-#. Found in description list item.
-msgid "Login status - redirect only if the user is logged in or logged out"
-msgstr ""
-
-#. Found in description header.
-msgid "Support"
-msgstr ""
-
-#. Found in description header.
-msgid "Wait, it's free?"
-msgstr ""
-
-#. Found in description header.
-msgid "Import &amp; Export"
-msgstr ""
-
-#. Found in description header.
-msgid "Apache &amp; Nginx support"
-msgstr ""
-
-#. Found in description header.
-msgid "Track 404 errors"
-msgstr ""
-
-#. Found in description header.
-msgid "Full logging"
-msgstr ""
-
-#. Found in description header.
-msgid "Conditional redirects"
-msgstr ""
-
-#. Found in description header.
-msgid "Redirect manager"
-msgstr ""
-
-#. Short description.
-msgid "Manage 301 redirections, keep track of 404 errors, and improve your site, with no knowledge of Apache or Nginx needed."
 msgstr ""
 
 #. Found in changelog list item.
@@ -783,50 +1215,6 @@ msgstr ""
 msgid "Show example CSV"
 msgstr ""
 
-#. Found in faq header.
-msgid "Installation Instructions"
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "The plugin works in a similar manner to how WordPress handles permalinks and should not result in any noticeable slowdown to your site."
-msgstr ""
-
-#. Found in faq paragraph.
-msgid "Ease of use.  Redirections are automatically created when a post URL changes, and it is a lot easier to manually add redirections than to hack around a .htaccess.  You also get the added benefit of being able to keep track of 404 errors."
-msgstr ""
-
-#. Found in faq header.
-msgid "What is the performance of this plugin?"
-msgstr ""
-
-#. Found in faq header.
-msgid "Why would I want to use this instead of .htaccess?"
-msgstr ""
-
-#. Found in installation paragraph, faq paragraph.
-msgid "The plugin is simple to install:"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Configure the options from the <code>Manage/Redirection</code> page"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Go to the plugin management page and enable the plugin"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Upload <code>redirection</code> directory to your <code>/wp-content/plugins</code> directory"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Unzip"
-msgstr ""
-
-#. Found in installation list item, faq list item.
-msgid "Download <code>redirection.zip</code>"
-msgstr ""
-
 #. Found in changelog list item.
 msgid "Fix no group created on install"
 msgstr ""
@@ -924,10 +1312,6 @@ msgid "Add Gulp task to generate POT file"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "New version"
-msgstr ""
-
-#. Found in changelog list item.
 msgid "Install defaults when no existing redirection setup"
 msgstr ""
 
@@ -968,10 +1352,6 @@ msgid "Fix small issues in display with WP 2.7"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Hebrew translation"
-msgstr ""
-
-#. Found in changelog list item.
 msgid "Disable category monitor in 2.7"
 msgstr ""
 
@@ -992,10 +1372,6 @@ msgid "Force JS cache"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Minor button changes"
-msgstr ""
-
-#. Found in changelog list item.
 msgid "Re-enable import feature"
 msgstr ""
 
@@ -1004,19 +1380,7 @@ msgid "RSS feed token"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add #370, #357"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix #366, #371, #378, #390, #400."
-msgstr ""
-
-#. Found in changelog list item.
 msgid "Redirection loops"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix #422, #426"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1025,10 +1389,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "Fix 'you do not permissions' error on some non-English sites"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Missing localizations"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1044,27 +1404,7 @@ msgid "Add icons"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add Spanish and Chinese translation"
-msgstr ""
-
-#. Found in changelog list item.
 msgid "WP2.8 compatibility"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add Catalan translation."
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add #475, #427"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix #457"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add Japanese"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1088,19 +1428,7 @@ msgid "Fix some ajax"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add Hindi translation"
-msgstr ""
-
-#. Found in changelog list item.
 msgid "Fix for some users with problems deleting redirections"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add Russian translation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Fix #620"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1112,23 +1440,7 @@ msgid "Add patch to disable logs (thanks to Simon Wheatley!)"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add German translation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add Bahasa Indonesian translation"
-msgstr ""
-
-#. Found in changelog list item.
 msgid "Database optimization"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add Polish translation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add Ukrainian translation"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1137,14 +1449,6 @@ msgstr ""
 
 #. Found in changelog list item.
 msgid "WP 3.0 compatibility"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Arabic translation"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Brazilian Portuguese translation"
 msgstr ""
 
 #. Found in changelog list item.
@@ -1172,10 +1476,6 @@ msgid "Props to Ben Noordhuis for a patch"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Add Dutch translation"
-msgstr ""
-
-#. Found in changelog list item.
 msgid "Allow http as URL parameter"
 msgstr ""
 
@@ -1184,19 +1484,11 @@ msgid "Use fgetcsv for CSV importer - better handling"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "More Dutch translation"
-msgstr ""
-
-#. Found in changelog list item.
 msgid "Fix encoding of JS strings"
 msgstr ""
 
 #. Found in changelog list item.
 msgid "Remove debug from htaccess module"
-msgstr ""
-
-#. Found in changelog list item.
-msgid "Add Hungarian translation, thanks to daSSad"
 msgstr ""
 
 #. Found in changelog list item.
